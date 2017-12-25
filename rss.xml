@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>http://www.knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Dec 2017 08:44:18 GMT</lastBuildDate><item><title><![CDATA[Hey Man]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>http://www.knownsec-fed.com/2017-12-01-hey-man/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2017-12-01-hey-man/</guid><pubDate>Fri, 01 Dec 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>http://www.knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Dec 2017 09:09:13 GMT</lastBuildDate><item><title><![CDATA[Hey Man]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>http://www.knownsec-fed.com/2017-12-01-hey-man/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2017-12-01-hey-man/</guid><pubDate>Fri, 01 Dec 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
+    href=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -20,10 +20,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-ad465.jpeg 163w,
-/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-ad465.jpeg 163w,
+/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d6b1c.jpeg 325w,
+/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -47,7 +47,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg&quot;
+    href=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -66,14 +66,14 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg&quot;
-        srcset=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-cf410.jpg 163w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-62f2a.jpg 325w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg 650w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-08cb4.jpg 975w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f2bf9.jpg 1300w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-fd4ba.jpg 1950w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg 2048w&quot;
+        src=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg&quot;
+        srcset=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-cf410.jpg 163w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-62f2a.jpg 325w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg 650w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-08cb4.jpg 975w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f2bf9.jpg 1300w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-fd4ba.jpg 1950w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg 2048w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
@@ -84,7 +84,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>http://www.knownsec-fed.com/2017-05-28-hi-hive/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2017-05-28-hi-hive/</guid><pubDate>Sun, 28 May 2017 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
+    href=&quot;/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -103,10 +103,10 @@ Consonantia, there live the blind texts. Separated they live in…]]></descripti
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-ad465.jpeg 163w,
-/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-4b0b13660579f16c800699020566ea2f-ad465.jpeg 163w,
+/static/header-4b0b13660579f16c800699020566ea2f-d6b1c.jpeg 325w,
+/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -210,7 +210,7 @@ for their projects again and again.&lt;/p&gt;</content:encoded></item><item><tit
 chicken eggs, though the…]]></description><link>http://www.knownsec-fed.com/2017-05-06-my-second-blog/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2017-05-06-my-second-blog/</guid><pubDate>Sat, 06 May 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
+    href=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -229,10 +229,10 @@ chicken eggs, though the…]]></description><link>http://www.knownsec-fed.com/20
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-ad465.jpeg 163w,
-/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-ad465.jpeg 163w,
+/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d6b1c.jpeg 325w,
+/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -248,7 +248,7 @@ egg yolk will be less rich.”?
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello Man]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>http://www.knownsec-fed.com/2017-05-01-hello-man/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2017-05-01-hello-man/</guid><pubDate>Mon, 01 May 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
+    href=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -267,10 +267,10 @@ egg yolk will be less rich.”?
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-ad465.jpeg 163w,
-/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-ad465.jpeg 163w,
+/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d6b1c.jpeg 325w,
+/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -294,7 +294,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg&quot;
+    href=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -313,14 +313,14 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg&quot;
-        srcset=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-cf410.jpg 163w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-62f2a.jpg 325w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg 650w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-08cb4.jpg 975w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f2bf9.jpg 1300w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-fd4ba.jpg 1950w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg 2048w&quot;
+        src=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg&quot;
+        srcset=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-cf410.jpg 163w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-62f2a.jpg 325w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg 650w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-08cb4.jpg 975w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f2bf9.jpg 1300w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-fd4ba.jpg 1950w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg 2048w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
@@ -331,7 +331,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>http://www.knownsec-fed.com/2016-05-28-hello-folks/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2016-05-28-hello-folks/</guid><pubDate>Sat, 28 May 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
+    href=&quot;/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -350,10 +350,10 @@ Consonantia, there live the blind texts. Separated they live in…]]></descripti
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-ad465.jpeg 163w,
-/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-4b0b13660579f16c800699020566ea2f-ad465.jpeg 163w,
+/static/header-4b0b13660579f16c800699020566ea2f-d6b1c.jpeg 325w,
+/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -457,7 +457,7 @@ for their projects again and again.&lt;/p&gt;</content:encoded></item><item><tit
 chicken eggs, though the…]]></description><link>http://www.knownsec-fed.com/2016-05-06-my-third-blog/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2016-05-06-my-third-blog/</guid><pubDate>Fri, 06 May 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
+    href=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -476,10 +476,10 @@ chicken eggs, though the…]]></description><link>http://www.knownsec-fed.com/20
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-ad465.jpeg 163w,
-/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-ad465.jpeg 163w,
+/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d6b1c.jpeg 325w,
+/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -495,7 +495,7 @@ egg yolk will be less rich.”?
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>http://www.knownsec-fed.com/2016-05-01-hello-world/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2016-05-01-hello-world/</guid><pubDate>Sun, 01 May 2016 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
+    href=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -514,10 +514,10 @@ egg yolk will be less rich.”?
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-ad465.jpeg 163w,
-/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-ad465.jpeg 163w,
+/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d6b1c.jpeg 325w,
+/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -541,7 +541,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg&quot;
+    href=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -560,14 +560,14 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg&quot;
-        srcset=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-cf410.jpg 163w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-62f2a.jpg 325w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg 650w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-08cb4.jpg 975w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f2bf9.jpg 1300w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-fd4ba.jpg 1950w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg 2048w&quot;
+        src=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg&quot;
+        srcset=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-cf410.jpg 163w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-62f2a.jpg 325w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg 650w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-08cb4.jpg 975w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f2bf9.jpg 1300w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-fd4ba.jpg 1950w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg 2048w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
@@ -578,7 +578,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>http://www.knownsec-fed.com/2015-05-28-hi-folks/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2015-05-28-hi-folks/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
+    href=&quot;/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -597,10 +597,10 @@ Consonantia, there live the blind texts. Separated they live in…]]></descripti
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-ad465.jpeg 163w,
-/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-4b0b13660579f16c800699020566ea2f-ad465.jpeg 163w,
+/static/header-4b0b13660579f16c800699020566ea2f-d6b1c.jpeg 325w,
+/static/header-4b0b13660579f16c800699020566ea2f-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -704,7 +704,7 @@ for their projects again and again.&lt;/p&gt;</content:encoded></item><item><tit
 chicken eggs, though the…]]></description><link>http://www.knownsec-fed.com/2015-05-06-my-second-post/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2015-05-06-my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
+    href=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -723,10 +723,10 @@ chicken eggs, though the…]]></description><link>http://www.knownsec-fed.com/20
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-ad465.jpeg 163w,
-/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-fbf54f1535f707845c71b0fd8eef4e6e-ad465.jpeg 163w,
+/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d6b1c.jpeg 325w,
+/static/header-fbf54f1535f707845c71b0fd8eef4e6e-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -742,7 +742,7 @@ egg yolk will be less rich.”?
 &lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>http://www.knownsec-fed.com/2015-05-01-hello-world/</link><guid isPermaLink="false">http://www.knownsec-fed.com/2015-05-01-hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
+    href=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -761,10 +761,10 @@ egg yolk will be less rich.”?
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
-        srcset=&quot;/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-ad465.jpeg 163w,
-/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d6b1c.jpeg 325w,
-/KnownsecFED/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg 600w&quot;
+        src=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg&quot;
+        srcset=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-ad465.jpeg 163w,
+/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d6b1c.jpeg 325w,
+/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-d5b79.jpeg 600w&quot;
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
       /&gt;
     &lt;/span&gt;
@@ -788,7 +788,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg&quot;
+    href=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -807,14 +807,14 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;&quot;
-        src=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg&quot;
-        srcset=&quot;/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-cf410.jpg 163w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-62f2a.jpg 325w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg 650w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-08cb4.jpg 975w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f2bf9.jpg 1300w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-fd4ba.jpg 1950w,
-/KnownsecFED/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg 2048w&quot;
+        src=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg&quot;
+        srcset=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-cf410.jpg 163w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-62f2a.jpg 325w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-b80fa.jpg 650w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-08cb4.jpg 975w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f2bf9.jpg 1300w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-fd4ba.jpg 1950w,
+/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-60d3b.jpg 2048w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
