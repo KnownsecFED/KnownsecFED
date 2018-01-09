@@ -1,4 +1,1495 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 05 Jan 2018 08:00:07 GMT</lastBuildDate><item><title><![CDATA[Hey Man]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://knownsec-fed.com/2017-12-01-hey-man/</link><guid isPermaLink="false">https://knownsec-fed.com/2017-12-01-hey-man/</guid><pubDate>Fri, 01 Dec 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jan 2018 02:28:30 GMT</lastBuildDate><item><title><![CDATA[3D GIS 应用开发 —— 基于 Mapbox GL 的实践总结]]></title><description><![CDATA[最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源： uber的deck.gl项目 ）： 下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS…]]></description><link>https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</guid><pubDate>Mon, 08 Jan 2018 03:03:39 GMT</pubDate><content:encoded>&lt;p&gt;最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源：&lt;a href=&quot;https://uber.github.io/deck.gl/#/&quot;&gt;uber的deck.gl项目&lt;/a&gt;）：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/demo-e3d6a9b924539c98bbd68ec2be2e829a.gif&quot; alt=&quot;demo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS 引擎 &lt;a href=&quot;https://github.com/mapbox/mapbox-gl-js&quot;&gt;Mapbox GL JS&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;一、简单了解&lt;/h1&gt;
+&lt;p&gt;首先，Mapbox 在地图领域是一家很 Newbee 的公司。已为 Foursquare、Pinterest、Evernote、金融时报、天气频道、优步科技 等公司的网站提供了订制在线地图服务。&lt;/p&gt;
+&lt;p&gt;自2010年起，该公司快速地拓展了订制地图的市场地位，以回应 Google地图 等地图供应商提供的有限选择。Mapbox 是一些开放源代码地图库及应用程序的创建者或最大的贡献者，其中包含了MBTiles 规范、TileMill 制图 IDE、Leaflet JavaScript 库，以及 CartoCSS 地图格式化语言与语法分析器等。&lt;/p&gt;
+&lt;p&gt;该公司的数据同时从开放与专有的来源获取，开放的数据源如 开放街图（OSM, Open Street Map） 以及 NASA 等，而专有的数据源则包含了 DigitalGlobe。其技术奠基于 Node.js、CouchDB、Mapnik、GDAL 与 Leafletjs。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-bbaa041e2d71c77ad261f244c2e319ea-4da97.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.42372881355933%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwX/2gAMAwEAAhADEAAAAVOmq0IoMjj/xAAZEAADAQEBAAAAAAAAAAAAAAAAAQIDETH/2gAIAQEAAQUC4LG2qlyzO6U+n//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQISIf/aAAgBAgEBPwGdksEf/8QAGRAAAQUAAAAAAAAAAAAAAAAAEAECESFB/9oACAEBAAY/AhCh14P/xAAZEAEBAQADAAAAAAAAAAAAAAABEQAQIXH/2gAIAQEAAT8hUArrqB66BO+CAUKMqqtd/9oADAMBAAIAAwAAABArL//EABYRAQEBAAAAAAAAAAAAAAAAABEQIf/aAAgBAwEBPxAOz//EABgRAQEAAwAAAAAAAAAAAAAAABEAASEx/9oACAECAQE/EMkmRvt//8QAGxABAQACAwEAAAAAAAAAAAAAAREAIRAxQYH/2gAIAQEAAT8QEgUoNszXJSnpi6YfeDzojuOOXJtV25//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Mapbox官网&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-bbaa041e2d71c77ad261f244c2e319ea-d6978.jpeg&quot;
+        srcset=&quot;/static/header-bbaa041e2d71c77ad261f244c2e319ea-527f0.jpeg 300w,
+/static/header-bbaa041e2d71c77ad261f244c2e319ea-9a7cd.jpeg 600w,
+/static/header-bbaa041e2d71c77ad261f244c2e319ea-d6978.jpeg 1200w,
+/static/header-bbaa041e2d71c77ad261f244c2e319ea-4da97.jpeg 1475w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Mapbox 针对不同平台均开发了相应的 GIS 引擎以满足开发者或相关用户的需要，如：iOS SDK（用于iOS端开发）、Android SDK（用于Andriod端开发）、Navigation SDK（用于Navigation端开发）、Unity SDK（用于Unity端开发）、GL JS（用于web端开发）。不同平台的SDK，除使用方式不同外，功能特性上也多多少少存在不同。此外，Uber还针对react开发了 &lt;a href=&quot;https://github.com/uber/react-map-gl&quot;&gt;react-map-gl&lt;/a&gt;。总的来说，Mapbox的开源技术栈是非常全面的。&lt;/p&gt;
+&lt;h1&gt;二、轻松上手&lt;/h1&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/mapbox_doc-19d2569d969e558d6d06fbabd70dc2c5-a43b2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1025px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 87.21951219512195%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAACG0lEQVQ4y5VUTW8TMRDdf4iE1CsHJFS4gMQJiQsqcIBKHDjyb5BoFcqBG1IQQZHSpGn2y/auvfZ+PWacepNUKGktPdm7s372ezOz0WTW4yrucZ322DekKlDXDYQsUGoDbSr/zDOj6zrMpn8RubpH32/IOFDXLZz7P+weVLZGZFyzQ1iWJV59GOH52zM8ffMNj15/xYtPF3j5+QeOT0d4QrHHH0c4OqHY6Xc8fHeOB+/PcUSxZ19+IlopC0Ps24SrvMJVajwWAyrMGdkGl1uYEZbSIspKR4sKbdcPhE3TYDweYzKZYDqdYrlc4q4jiumGC2HQkHeBkC1wzpEvNZS2hGrHlr2EotDQlDVr7UDYth1WSYo4V0iEQpplSFN6jmMkSeLXYY6TDLHUEKbe3DAl2d2WZM40b2AC3sQQQvh3A2EukXMJ0fdVxSV0Q5hrh5puFCQFyW3b3hu8L1KlgaETtrPMgYvFL8osScoEVgSllLdlHzwhZ3iek4dNu0N49ntJZSNJmvJelpq91ocJ2UxJ6G5Jzv9MyKscqig9kb4zoV4n5LaHZj6HJpnB9ENyB8KVKHEZC4hiTbQum9ZnVUrp1/cZUVJYXJOPrlkXNt+GyyaUDB9gjPHQ1Pcl/QBMZaFt478NseomsUOncE9z+4X0F8aiqBwkdYo0DoaI2ENPTHNhmbwZWna4oSzWJwcPA2HwJaMuYfk8+P2hFvwH6vMZqQC0A4wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Mapbox文档&quot;
+        title=&quot;&quot;
+        src=&quot;/static/mapbox_doc-19d2569d969e558d6d06fbabd70dc2c5-a43b2.png&quot;
+        srcset=&quot;/static/mapbox_doc-19d2569d969e558d6d06fbabd70dc2c5-7f43b.png 300w,
+/static/mapbox_doc-19d2569d969e558d6d06fbabd70dc2c5-774e0.png 600w,
+/static/mapbox_doc-19d2569d969e558d6d06fbabd70dc2c5-a43b2.png 1025w&quot;
+        sizes=&quot;(max-width: 1025px) 100vw, 1025px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;mapbox-gl 的 &lt;a href=&quot;https://www.mapbox.com/mapbox-gl-js/api/&quot;&gt;文档&lt;/a&gt; 由 API、Style Specification、Example、Plugins 四部分内容组成。&lt;/p&gt;
+&lt;p&gt;顾名思义，API 是一般框架(类库)提供给用户的全部接口（方法）的说明书；Style Specification 是 Mapbox 地图的样式规范；Example 是一些常用功能或常见业务的代码示例，囊括了使用 Mapbox 所能实现的大部分功能效果；Plugins 则是官方推荐的可与 mapbox-gl 一同使用的一些增效插件和开源项目，如一些第三方的UI控件、显示类插件、框架集成工具、开发辅助工具、实用工具类库等等。&lt;/p&gt;
+&lt;p&gt;对于初了解 Mapbox 的童鞋，建议先从官网的 Example 入手，能够较快掌握 mapbox-gl 的使用并投入开发实践。&lt;/p&gt;
+&lt;h1&gt;三、快速实践&lt;/h1&gt;
+&lt;p&gt;下面以文章开头展示的项目为主，介绍其实战步骤。&lt;/p&gt;
+&lt;h2&gt;1. 加载地图：&lt;/h2&gt;
+&lt;p&gt;由于使用在线地图服务和 &lt;code&gt;style&lt;/code&gt; 时需要验证用户 &lt;code&gt;token&lt;/code&gt;，所以在使用 &lt;code&gt;mapboxgl&lt;/code&gt; 时需要先配置用户 &lt;code&gt;token&lt;/code&gt;（在Mapbox官网注册用户即可获取）。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;import mapboxgl from &apos;mapbox-gl&apos;;
+mapboxgl.accessToken = &apos;&lt;Your Token Here&gt;&apos;;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;接下来使用创建地图实例。主要配置项如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;const myMap = new mapboxgl.Map({
+  container: &apos;&lt;Id of Container Element&gt;&apos;,
+  style: &apos;&lt;Your Style Here&gt;&apos;,
+  center: [112.508203125, 37.97980872872457],
+  zoom: 4,
+  pitch: 0,
+  bearing: 0,
+});&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;其中，&lt;code&gt;container&lt;/code&gt; 是地图容器的元素 &lt;code&gt;id&lt;/code&gt;，&lt;code&gt;style&lt;/code&gt; 是地图样式的 &lt;code&gt;url&lt;/code&gt;，或者你自己定义的 &lt;code&gt;style&lt;/code&gt;（需遵循Mapbox样式规范），&lt;code&gt;center&lt;/code&gt; 是地图加载后默认的中心点位置，用以定位地图加载时的位置。&lt;code&gt;zoom&lt;/code&gt; &lt;code&gt;pitch&lt;/code&gt; &lt;code&gt;bearing&lt;/code&gt; 分别指缩放级别、地面法线偏移角、地轴偏移角等，用以确定当前视窗所显示的地图区域和空间关系。配置项的意义均可查看官网文档。&lt;/p&gt;
+&lt;h2&gt;2. 绘制图形&lt;/h2&gt;
+&lt;p&gt;这里主要介绍视频中的3D建筑、飞线动画等是如何实现的。这里以相关代码片段来介绍实践的方法。&lt;/p&gt;
+&lt;p&gt;在Mapbox中绘制图形时， &lt;code&gt;layer&lt;/code&gt; 和 &lt;code&gt;source&lt;/code&gt; 是最重要的一组概念，后者用于存储图形的数据内容，前者则是图形在3D场景中的表现（图层）。在Mapbox中，图层一旦被创建，与其同名（&lt;code&gt;id&lt;/code&gt;相同）的数据源源（即&lt;code&gt;source&lt;/code&gt;）也必然被创建。反之，也可以在创建source后再创建一个图层使用这个已创建的数据源，这时数据源与图层间并不要求同名。而我们通过改变数据来驱动图形变化，便是才去的第二种方式：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;// 创建id为buildings的数据源
+myMap.addSource(&apos;buildings&apos;, {
+ type: &apos;geojson&apos;,
+ data: &apos;&lt;GeoJson Contents&gt;&apos;,
+});
+
+// 使用buildings的数据来绘制id为building_layer的图形
+myMap.addLayer({
+  id: &apos;building_layer&apos;,
+  type: &apos;fill-extrusion&apos;,
+  source: &apos;buildings&apos;,
+  ...&lt;Other Options&gt;,
+});&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;基于上面的方式，当数据改变时，我们只需要重设数据源的数据，即可驱动图层重绘：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;if (myMap.getLayer(&apos;building_layer&apos;)) {
+  myMap.getSource(&apos;buildings&apos;).setData(&lt;New GeoJson Contents&gt;);
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;至于3D效果及动画的具体实现，这里给出两个官网上的示例，相信大家能一目了然：&lt;/p&gt;
+&lt;p&gt;* i. &lt;a href=&quot;https://www.mapbox.com/mapbox-gl-js/example/3d-buildings/&quot;&gt;用3D形式呈现建筑&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;* ii. &lt;a href=&quot;https://www.mapbox.com/mapbox-gl-js/example/animate-point-along-route/&quot;&gt;给路径中的一个点添加动画效果&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;3. 图形交互&lt;/h2&gt;
+&lt;p&gt;Mapbox提供的交互方法是比较灵活的，活学活用API文档便能实现各种炫酷、实用的交互效果。比如：使用
+&lt;code&gt;myMap.on(&apos;zoom&apos;, callback)&lt;/code&gt; 可以将图形与地图的缩放相绑定，当缩放系数小于某个值时，可以隐藏掉一些图形元素：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;myMap.on(&apos;zoom&apos;, () =&gt; {
+  if (myMap.getZoom() &lt;= 4) {
+    myMap.setLayoutProperty(&apos;building_layer&apos;, &apos;visibility&apos;, &apos;none&apos;);
+  } else {
+    myMap.setLayoutProperty(&apos;building_layer&apos;, &apos;visibility&apos;, &apos;visible&apos;);
+  }
+});&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;再比如，连续调用 &lt;code&gt;myMap.flyTo()&lt;/code&gt; 的方法使视图在地图上按照一定的轨迹缓慢移动，可以给用户一种模拟飞行的体验。视频中的自动巡视的效果正是这样实现的。&lt;/p&gt;
+&lt;p&gt;诸如 &lt;code&gt;click&lt;/code&gt; &lt;code&gt;mouseover&lt;/code&gt; &lt;code&gt;popup&lt;/code&gt; 等效果，官网文档中的示例已经具体呈现，这里就不详细展开了。&lt;/p&gt;
+&lt;h2&gt;4. tiles-server的本地化&lt;/h2&gt;
+&lt;p&gt;由于 Mapbox 地图服务使用 MBTiles 存储数据，目前很多地图服务都接受了这套标准（如：OSM，Open Street Map）。所以可以通过搭建自己的 tiles-server 以替代直接使用 Mapbox 的在线地图服务。&lt;/p&gt;
+&lt;p&gt;这样做的好处是显而易见的：一是可以通过负载均衡等手段提高数据接口的访问速度，有效提高数据的加载速度；一是保障应用能在零带宽的环境下仍能有效部署和使用。&lt;/p&gt;
+&lt;p&gt;这里墙裂安利一个docker开源镜像：openmaptiles-server ，在其 &lt;a href=&quot;https://openmaptiles.com/server/&quot;&gt;官网&lt;/a&gt; 和 &lt;a href=&quot;https://hub.docker.com/r/klokantech/openmaptiles-server/&quot;&gt;dockerhub&lt;/a&gt; 上均可下载。个人认为其最大的亮点在于——即使不了解内部实现，也不影响其使用。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/omts_site-32f8989ba2252edda7cdd83d0ef4000b-ce9bf.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1199px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 79.06588824020017%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACH0lEQVQ4y52SaU8TYRDH+w1LaX3hRS+ICvG2JxItkCJoYmIUjSZFJQK+8IVFv1OPbffu7rbd/p2ZbbdQNFU3+WXmmeM/8zzZSDRZxMMnr3Ez/wI3cs+Rur2NRGYdCxSPpctYJD+xsoFra1u4srqJJcpfvlUJzmQT2XVcXa1I7yWqi0STecRSRWoskUBJ/IVUgRoqSN7ZxvKDZ1h5tIssWW7M3KtKLpYuIrH8mPrK0hsnYSYSXcpBRNMFsjkS4wEF2mQTmftVEtoRy+cs2dTdLVxfeyp1i9mSCDPxbBlxEo7Ujr7j4PgUH09+gP2AOmrH9TD+6etPsXyW3FE99A9OThFo1KUmMhwMwPQ9D4N+X3y2E87Gz9b9KR8KWqaJdqsVorTbaDWbaJEvdgzHm40GGgSfuVbXtKkgq7eoqNtVoSidkE6nK/G2otAwCxo1qapGA7i2K3GOmbQIY1nWVJATE1RVhUrWtmy4jiPwtUzDlJym6dB1XXwWnvQZhjEV5MkB6rhAF2zbhtPrBYK0BedYzKEhHHfGAxnPdc+/4QRu6pKwThvNwkPZcp6fQ6Frz/ZfEHxz+A077w5R3f+MyqsaNl5+QGHvrZDf3Q99Zu/9l/mCnteH16ffg3BcD3bPIXqwCMO0yXclx3DtXEF/6GM0Ggm+78Olt/HoDR2X3ooYDofn8n8lOPuxkOP0LsT/WVA3gt9hgj62vN1/Cc77fif4C5z6WSbrIpiZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;openmaptiles.com&quot;
+        title=&quot;&quot;
+        src=&quot;/static/omts_site-32f8989ba2252edda7cdd83d0ef4000b-ce9bf.png&quot;
+        srcset=&quot;/static/omts_site-32f8989ba2252edda7cdd83d0ef4000b-33331.png 300w,
+/static/omts_site-32f8989ba2252edda7cdd83d0ef4000b-581a5.png 600w,
+/static/omts_site-32f8989ba2252edda7cdd83d0ef4000b-ce9bf.png 1199w&quot;
+        sizes=&quot;(max-width: 1199px) 100vw, 1199px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;运行 tiles-server 服务的 docker 命令如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;$ docker run --rm -it -v $(pwd):/data -p 8080:80&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;然后剩下来需要做的事情就是打开其导航页面 &lt;a href=&quot;http://localhost:8080/&quot;&gt;http://localhost:8080/&lt;/a&gt;（端口号取决于你的启动命令），然后跟着页面上的提示一步一步设置就好了（最后一步设置后会从OSM走动下载地图，所以一开始你不用担心数据从哪来），完全是傻瓜式的部署。&lt;/p&gt;
+&lt;h1&gt;四、性能调优&lt;/h1&gt;
+&lt;p&gt;在 Mapbox GL 实践的过程中，发现了一些影响应用整体性能的因素，故而在此陈述一番，为之后填坑的童鞋提供一些经验：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;使用geo数据（如 GeoJson 格式数据）来定义图形的时候，若数据量过大，则会拖慢数据加载的速度，此时可考虑：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;i. 在 http 请求前后对数据进行合理的压缩和解压，以尽可能节省 http 请求传输的数据量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ii. 条件允许的情况下，可将一组数据分片加载，以空间换时间&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;在 Mapboox 中绘制的图层不宜过多，一是不方便管理（当然，github上有很多管理Mapbox图层的第三方工具），一是图层过多会明显降低GL的渲染和响应性能。所以在绘制图形前，可以先考虑一下图层的划分，以最少的图层实现尽可能多的效果。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;数据量相同的情况下，使用 &lt;code&gt;mapboxgl.Marker&lt;/code&gt; 来添加标记，其性能不如使用 &lt;code&gt;type&lt;/code&gt; 为 &lt;code&gt;symbol&lt;/code&gt; 类型的图层来添加标记。原因在于前者生成的标记是一个个 DOM 元素，如果你可以想象在一个 web 页面中同时操作成百上千个 DOM 节点会是什么结果，那么你或许能明白我的建议。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;五、一点总结&lt;/h1&gt;
+&lt;p&gt;最后，在此总结下个人对 Mapbox 的一些感观。&lt;/p&gt;
+&lt;p&gt;Mapbox 的产品定位是随时随地的 GIS（跨平台、应用），它为我们提供了一系列的简单操作的 API，使得 GIS 开发变得灵活而有趣。尤其对于开发 GIS 类型的数据可视化应用，Mapbox 是绝佳的选择。&lt;/p&gt;
+&lt;p&gt;然而，如果你只是为了那些绚丽的 3D 效果的话，或许选择专门的框架更为合适。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】视觉吸引力在网页设计中的重要性]]></title><description><![CDATA[原文地址： http://blog.usabilla.com/visual-appeal-web-design/ 作者：Robyn Collinge…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in-web-design/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in-web-design/</guid><pubDate>Sun, 07 Jan 2018 01:12:08 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-d81a71b30b7e8e4f681b110fe518e6b0-4b4df.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 936px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.86324786324786%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQDBQb/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAWHc7ZokRF4//8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIDEQAEITP/2gAIAQEAAQUCWSjfJXZZAxxCSdj2/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQMBAT8BV//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAQACAQUAAAAAAAAAAAAAAAEAAhEQEiExcf/aAAgBAQAGPwJ3c6IWcezthllp/8QAHBABAQACAgMAAAAAAAAAAAAAAQARIXGBkaGx/9oACAEBAAE/IXyjt4k9oVwOpiv2jJHlvav/2gAMAwEAAgADAAAAEKvv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAhEf/aAAgBAwEBPxA2T12//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAECAQE/EGSP/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUEQMf/aAAgBAQABPxBICUUPC/Ie7YDLmJiAVBLDpT1AoZoI88L/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Header&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-d81a71b30b7e8e4f681b110fe518e6b0-4b4df.jpeg&quot;
+        srcset=&quot;/static/header-d81a71b30b7e8e4f681b110fe518e6b0-6be0a.jpeg 300w,
+/static/header-d81a71b30b7e8e4f681b110fe518e6b0-92dc8.jpeg 600w,
+/static/header-d81a71b30b7e8e4f681b110fe518e6b0-4b4df.jpeg 936w&quot;
+        sizes=&quot;(max-width: 936px) 100vw, 936px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;http://blog.usabilla.com/visual-appeal-web-design/&quot;&gt;http://blog.usabilla.com/visual-appeal-web-design/&lt;/a&gt;&lt;br&gt;
+作者：Robyn Collinge&lt;/p&gt;
+&lt;p&gt;网页设计举足轻重，这个概念已深入人心。我们都想要一个网站，希望它迎合了时下流形的设计标准。但是，一个网站的成功要素中，有多少应归功于视觉设计？&lt;/p&gt;
+&lt;h2&gt;以貌取人&lt;/h2&gt;
+&lt;p&gt;针对这个问题，首先我们需要认识到，设计的类别多种多样，例如有网页设计，视觉设计，平面设计，交互设计，界面设计，以及用户体验设计。&lt;/p&gt;
+&lt;p&gt;让我们聚焦在网页的视觉吸引力，包括了网页设计，视觉设计或平面设计。&lt;/p&gt;
+&lt;p&gt;视觉吸引力，是指满足眼睛需求的要素，包含了颜色、形状、图片、字体、留白和设计的整体视觉平衡。一个网页是否具有是具吸引力，影响了我们对其的接受程度、使用方式和留在记忆中的时间。&lt;/p&gt;
+&lt;h2&gt;视觉吸引力在网页设计中的作用&lt;/h2&gt;
+&lt;h3&gt;1. 吸引眼球&lt;/h3&gt;
+&lt;p&gt;视觉吸引力是吸引眼球的第一要素，是吸引网站访客的关键所在。与丑陋或中性的设计相比，人们更倾向于选择充满吸引力的设计或图像。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/img1-e1250ac1c21b74ab0511ec70245f186e-4ed6a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 940px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.08510638297873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACgElEQVQoz1VSSU9TURR+7w7vlRATceePMCzxR7Ajrt3oip1BjSaaEGSBGiMoisqoUiFQUGhLmbF0FAod6aAIhKktRdOiJA7l87xnXHiTk9x37zvf/Yaj5PYZggGJjqcaens0zE4LWPs5hocqEI9pWP8okN3j8CxKOOwavhRUJOIc7gWBQl5BaKkS83MXkEo9QLF4F0oiriKdUpFMMKSSDNGISgAKAn6OaJghEeNUDEtBjsX3gu4ZwqsMmxsqtqjcC9zsDS0zJNc4lN4egcuXdDQ3S7yxSvS/lpid4RiwCgR8Aj6vJAUCIzaJ9sc6+noFHrVJ+Om89aGO+/cknnUYewucDgnFaj2Hvr7z9FGD7a0adHedJSBJkjmcdo4n7RKTLm6yHxyQaGvVTKDJCYEpOnc6hHl/+5ZOthDDw1IcJydl/FvRyFWshM6QTAVeD8MMeRqLcmTIFr+PwzYk0dWpIRbh+HrIkElL+Dx/FRieKplcAsVSCSUqYw0ONsDlrIKLGISWjbB0kqShu1Oi+Y5EU5NEY6NOzQJbmxqpsWBjXWJuRpiBKcfHEZTLv4nliQkYDF4h6afoJwX7u4z8lBh7J5FOGgGpsA0LvB0VyGdVCoaRTI3uJDxujoMcAR4dhfHz1w8CLcOAzKQbsLdzGkZYr14KMyQj3dSaxGpIIrzCaHyI0SxH53OB2lqGmzc46uosWJgXUL5/i/3HcGe7gV6sQtCvwj5OTS90YqVRSDo9YIGX5nHRLc1xcU0wVFerqK/nuH6tAqMjBFg4GMP6Zx8Sa17k8hlk9y+icFCJyKqCDwGG6SlBe45PGU6hSAIUsI9JjNoEHOMCLS3CZG0f10xb/gCWLxWJzWIBVAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/img1-e1250ac1c21b74ab0511ec70245f186e-4ed6a.png&quot;
+        srcset=&quot;/static/img1-e1250ac1c21b74ab0511ec70245f186e-ffce4.png 300w,
+/static/img1-e1250ac1c21b74ab0511ec70245f186e-51907.png 600w,
+/static/img1-e1250ac1c21b74ab0511ec70245f186e-4ed6a.png 940w&quot;
+        sizes=&quot;(max-width: 940px) 100vw, 940px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;WeTransfer 网站在主页背景上不断更替各种艺术家，设计师，插画师和摄影师的作品。这种鲜明和充满创意的形式，立刻抓住用户的注意力，并且给传输大型文件这种普通的行为注入了能量和美感。&lt;/p&gt;
+&lt;h3&gt;2. 创造第一印象&lt;/h3&gt;
+&lt;p&gt;第一印象会长期影响人们之间的关系，例如人们之间的喜欢程度、信任感和再次见面的冲动。基本上来说，在短短一小段时间之内，我们就会得出是否乐于与某人共度时光的判断。&lt;/p&gt;
+&lt;p&gt;在网络上也是如此。一旦网页给人留下的第一印象是负面的，那么访客的感受始终都不会太好，也不见得会再次访问该网页。事实上，以貌取人的现象经常发生，也就是说，视觉吸引力在建立品牌吸引力方面起着重要作用。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/img2-fa993f91d2b049e22c61d657152cbb8f-4ed6a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 940px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.97872340425531%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACgklEQVQozx2SWVMaQRRG5+enUmW577jghoLsMIAIIpGIilss0QSVbQRGGNZhGcScdHjo6q7qrtPfvedK77YwrysOSmaZ54k9lCUv1a0wH+YwyrIPZdXPu0mmMOciO+OkMO9BWfCRn3ZSXPTQCaToRG9pnt5RdJ8gZecPKCw5KJrcvM3ZqawFaOzFqG9HqZhCNPZ/0LEn0cxRSgt+AXKNYaVlmfJ6CHUnysdBjHdLmNyOH+l1ysLHbojcop3cvIOGJUbXmaS5F+dj41hAfFRNR+i2C/ruGzq2JJWV4BiqLPtRRMriipeyYBQ2vUgFAVJ3gqjmALkpG3VrnEH0Ad2foroZoTLnQ53xos76xmfNfMIgcM8gdC9ac0xu2kHFHCI7aydvciFV1r2iNweUVtxUlnzUbXGMTIkvTaf/kGfwWmZYaWA8Fhk+KnwqGp/vGn/LDUbJDF3xcX7BycvkPvklJ1JpzUPm2ybZaSut4BVt+QrjIkP7+J62eGzE0oxSOb5+lRjdKvRO0+hHtwwv/mDE03S8l2h7EQG18/R9C0nd9AsRXnIzVjRPAiNdYPhSpveYp/9URE+k6Z0/YzwpDJ8FNFdjmFXRb17oXmf4TIndlaC2L8qftyFVt2TRWGF57pDaRgjdekZXvkazJ9B2T2gLyz33Fbow3bb+pOtJjc2rqwFUIcUIXtMPpWi5z6juh5HeJnZ5m7TQtJzQ2I7QFOPSDQibkXtaopyW8xxdfPB/dXwp+qLkQeI3bXHXcyUZHd8xkC9pu35QO4wgFRcOqe+GadlOqQtrNVOQ1sEZbcc5ffmGUeyJ0ZkoLfbMMJoe2+2KtIY3xadINwyJhPIFTWecspjDfxQmn/SJlZukAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/img2-fa993f91d2b049e22c61d657152cbb8f-4ed6a.png&quot;
+        srcset=&quot;/static/img2-fa993f91d2b049e22c61d657152cbb8f-ffce4.png 300w,
+/static/img2-fa993f91d2b049e22c61d657152cbb8f-51907.png 600w,
+/static/img2-fa993f91d2b049e22c61d657152cbb8f-4ed6a.png 940w&quot;
+        sizes=&quot;(max-width: 940px) 100vw, 940px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;创意机构 Snask 的主页风格色彩明亮，斑斓，趣味十足。游客一眼便能看到品牌的创意力，同时清楚地了解他们的工作。&lt;/p&gt;
+&lt;h3&gt;3. 建立关系&lt;/h3&gt;
+&lt;p&gt;视觉吸引力也可以建立关系。如果访问者能够识别您的网站，那么与他们建立长期合作关系的可能性也会巨大的提升，当然这也是最终的目标。&lt;/p&gt;
+&lt;p&gt;我们喜欢通过我们的兴趣、爱好以及我们热衷的事物来定义自己。一些喜好类型的网站往往会使我们产生共鸣。我们的浏览的网页可以看作是我们生活方式选择的延伸，这些强化我们身份的网站对我们更具吸引力。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/img3-613fb6e7a16f4736dbbe826cac3434c0-4ed6a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 940px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.191489361702125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAB1klEQVQoz52Sb2tSYRjGfRGm7ZSBlnK20/E0VsysRZvp2cpgQS9TCIK+i6+E9kXaJygaqS8UoeGIlls1hjTBXkxIneI8cpx/fnmOW7nqReyBiwtubn7Pdd/PY4lGo7hcLkRRRJIkPB6P6V6vF1mWURQFp9OJ1WrFZrOZstvtCIJg1oPBIPF4nFgshqqqWJLJJGdRIpEglUqRy+UolUoUi0UymQwWznoGYxo7ln82/Nn8P7VjWTStzWb+K/ntXXZ29/i2V6L0fZ/98g9qtTqdztFf4TStRblcHrpmerPZpFKpjBJ+2trhivIAu3uBCTHExKSKMLnIeXeAqdklXr9NnoIVCgVWVl6yuvqKer0+3FuabDZLo9EYATc+buHxhbkgLiBIKg4lzEVZxeq+xbXZed6svTu9usGAfr9Pr9ej2+3+qhkyge83ckz5/TgkGTmoIofCXJq+yTmPyHV1kbV02mw0xjISGTqo1ThoDP2waSarVqu/E37Ib3Jv+eFwvBmuKhKXRTeOmWmEudv4Ik9JrK+bjUaadrttqtVqmeCTSwyYsU8TuP3lM89ePOfRk8fMBebx3b2DfynEjfsBliMRssfA8e9hjKzrOq0hRDvqcNjR0bujx/sJP2tv/StocT8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/img3-613fb6e7a16f4736dbbe826cac3434c0-4ed6a.png&quot;
+        srcset=&quot;/static/img3-613fb6e7a16f4736dbbe826cac3434c0-ffce4.png 300w,
+/static/img3-613fb6e7a16f4736dbbe826cac3434c0-51907.png 600w,
+/static/img3-613fb6e7a16f4736dbbe826cac3434c0-4ed6a.png 940w&quot;
+        sizes=&quot;(max-width: 940px) 100vw, 940px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;看看阿迪达斯的网站。通过与 Parley 的合作，将回收的海洋垃圾制造成高性能的运动服装，品牌希望通过销售一种关注环境未来的生活方式，引起很多观众的共鸣。这次营销重点强调了简单，网站采用了简洁的设计，添加了增加视觉吸引力的视频内容，教育用户爱护环境。&lt;/p&gt;
+&lt;h3&gt;4. 增加容忍度&lt;/h3&gt;
+&lt;p&gt;视觉吸引力本身就是一种品质。您可以使用它来掩盖您的网站的其他不太方便的方面。显然，设计和建立完美的网站应该是最终的目标。但是，为实现这个大目标，实现这么多不同的要素将会是一件困难的任务。&lt;/p&gt;
+&lt;p&gt;因此，最终你的网站在某些方面会很棒，但始终会存在可改进的空间。如果您的视觉设计十分优秀，那么您的访客对网页的其他不足之处将会更加宽容。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/img4-ed9a13d1d9522e515f5a3a9f575fdcac-4ed6a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 940px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.87234042553191%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACiUlEQVQoz6XQ/0/McRzA8c9/QLbGqKgo2RxqK1zI9QVdu+6SOknX1enbnSmsL+46VNJ8W6hpC4nJL2JjyZcpuToqF3JucZ1Vqx+ymvmBX1r39OnC5mfv7bH39t779Xxvb+Fnl4XRhgd8MFxhMLeOwbz6/yK4GhsYKjXyOiSFF15pdC5Mn7dgH50+WXR6a+jwz6QjIJPOxeK+TEuXeNYTrBcV0BNUQHdgHhZfHa9DixAsvhqsO/bxyi8Fq7cW66JsrJFZvFyZQ19BIr2yvfSnKOnfo6Q3LhWbQU738gNYorKweom8/yUM+BRgW5rv0b9MfHGXBsdRBTZpGqOVUpxqJe1bVLRF7uazVs7YmQgGNmpwnZPxVpXJm/VZ2Jbk/20Idkkp9uWHsPsV8jYgny/yaKYqQhlOUjFdFsy4OpYL/nJqfOWM5MiYPhtMq5+WpuhovhbH82lbGnafIuwrCvkYXi4GQ404VxYzHFjKhzX7ccjC+V4bxmTNOn6cDuOdXsrp+ETMCQq6T25mqH4TRtl2DitkfDu/hYlEJU7/UpyrSnBsrUAYW1PO2GoTE8EmHsScoPzIJR7dzuVhrZR2vZI7EQk0S1RcXruborid6AzJGNSFXK2oo8WcQm+ajvEgM2Mh5R7C5IZTTK6vYlpSyX1FLcbqmzQajZi0yVwv1tAYn0CZRIo+IpoDGcnojmvQ78/lXMlJjqWL/5ucz5Sk2tOYI7jdbubMLeuTZ2Iol8dlkXQdDKEvO4a2qFia4jKoU2ZzMUMhhlLR7kpCr9pL63E1juctnll+dwTmWu4/Z25mZ2cZcblwfrTTc7eFp83XqDGfoMpoou1GA9Z7txgafI9r2MXMzIzn/vzwvF9nuwdArxd0owAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/img4-ed9a13d1d9522e515f5a3a9f575fdcac-4ed6a.png&quot;
+        srcset=&quot;/static/img4-ed9a13d1d9522e515f5a3a9f575fdcac-ffce4.png 300w,
+/static/img4-ed9a13d1d9522e515f5a3a9f575fdcac-51907.png 600w,
+/static/img4-ed9a13d1d9522e515f5a3a9f575fdcac-4ed6a.png 940w&quot;
+        sizes=&quot;(max-width: 940px) 100vw, 940px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Two Chefs Brewing 网站的鲜艳色彩，神奇图形和俏皮动画毫不费力地吸引了游客。同时，这些设计元素也将用户的注意力从网站的低易用性中转移开——该网站包含大量页面，并且需要用户点击多次。&lt;/p&gt;
+&lt;h3&gt;5. 唤起情绪&lt;/h3&gt;
+&lt;p&gt;我们都听过这样一句话：“一张图片胜过千言万语” - 当涉及到更为情绪化的沟通时，这一点尤为重要。通过图片和其他视觉元素，你可以传达喜悦，悲伤，甚至可怜的感觉。视觉吸引力可唤醒记忆和情绪，如信任，安慰，希望或自信。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/img5-31d1f48664473e04bfb89086a900745c-f2cb7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 939px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.923322683706076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaElEQVQoz1WQ3U+SYRjGOak2Rd4XAZVXFIVeRURRSVPIQFCUFCHR0uXUpm19T1rZgdVpq9VRs8P+Hz+y/NiazXVidurEjyFpv94XteWzXbuv53nu5/dcuzWXPM001DficrrIF0TycnIRdQKFpgJccgXtjY0krrRyvdVLPOjlZjiEz+3mwrnziHlaapxOHk5MMPPmLRGPB43ZJGHUG8lXIEa9AYOYr4D1ClTEZbuIp7ycVkcV8ZYaYpfNdHqs+OrcWCUzulwtBXo915qaeDU6zvPBQTSiVqdc5CrJclC9vcxGuL2DgD9AoifKo/EJ7o0MM9bXzfhAD8m7t5lKPqajLYQgmJBMZgb9bbwcHmMy0Y/mGJaLoNViMUtYi0uwSBZKSmzYPCHs3l5q/TG8sRF8sVsEQkFiYR83ot0E/SEKjUU0yzJDfj+OYukYeCq9klBNKeqMGEwW8pv7scae4B54ipx4hj2exBtO4HPKtFQ7iLQFiHZ1I0tFuK2lVJZVngWKykwMopGKUitVFgm3zUp9pcxApIuhvn5lDCHujI4x9eA+TbVuquwVBK8qiSNxJXUvJaXVZ4GCAhTyBC5aiqmT7TjsNmpr6unrjjKdnOTD+3d8mvnI6+kXNNZ50IuFNMhOhoOdeAJRzJIdzdzcHP9r/kTZ/ewsX5dWWFle5fvaGr9+brK5scGP9XW+LC4qffMsLHxWepZZWv3G8soqGv7wbx0cHLC/v086nc56VZlM5ozPZH5nq9qj1sPDw+PHJxzN0dERp9rb22N7eztbd3d32dnZIZVKZaV69U5VSvFbW1vZ87TykQo91V8pDb4URNgc2AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img5&quot;
+        title=&quot;&quot;
+        src=&quot;/static/img5-31d1f48664473e04bfb89086a900745c-f2cb7.png&quot;
+        srcset=&quot;/static/img5-31d1f48664473e04bfb89086a900745c-f1617.png 300w,
+/static/img5-31d1f48664473e04bfb89086a900745c-8a1ac.png 600w,
+/static/img5-31d1f48664473e04bfb89086a900745c-f2cb7.png 939w&quot;
+        sizes=&quot;(max-width: 939px) 100vw, 939px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Paypal 网站通过视觉设计来吸引访客的情绪。标题图像与副本放在一起，给人以熟悉感，并令用户感到放心，这一点对于金融业务来说是至关重要的。&lt;/p&gt;
+&lt;h2&gt;重要的结论&lt;/h2&gt;
+&lt;p&gt;视觉吸引力是网页设计的一个非常重要的因素——尤其是当涉及到建立持久的用户关系和品牌亲和力时。但与此同时，不要忽视基础功能。&lt;/p&gt;
+&lt;p&gt;确保您的网站不仅美观，并且易于发现、使用和访问。将功能和视觉吸引力相结合，将确保您和您的访问者充分利用您的网站，并为打造卓越的用户体验奠定基础。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React 高阶组件介绍]]></title><description><![CDATA[高阶组件的定义 HoC 不属于 React 的 API，它是一种实现模式，本质上是一个函数，接受一个或多个 React 组件作为参数，返回一个全新的 React…]]></description><link>https://knownsec-fed.com/2018-01-06-react-higher-order-component/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-06-react-higher-order-component/</guid><pubDate>Sat, 06 Jan 2018 12:01:03 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-e40385dad6404c53aab038d08436786f-dd4dc.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAXAQADAQAAAAAAAAAAAAAAAAABAgQF/9oADAMBAAIQAxAAAAHZNE1ZzxAV/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQESEx/9oACAEBAAEFAjC0Pkf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGq/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BiP/EABcQAAMBAAAAAAAAAAAAAAAAAAABIDH/2gAIAQEABj8CNU//xAAaEAACAgMAAAAAAAAAAAAAAAAAIQERIDHw/9oACAEBAAE/IVTk5SM3hf/aAAwDAQACAAMAAAAQuP8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAEDAQE/EEGR/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAgEBPxAVqf/EABoQAQEAAgMAAAAAAAAAAAAAAAERACEQMUH/2gAIAQEAAT8QgCBsN5EUlLuHEESz3AKp0c//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Header&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-e40385dad6404c53aab038d08436786f-d6978.jpeg&quot;
+        srcset=&quot;/static/header-e40385dad6404c53aab038d08436786f-527f0.jpeg 300w,
+/static/header-e40385dad6404c53aab038d08436786f-9a7cd.jpeg 600w,
+/static/header-e40385dad6404c53aab038d08436786f-d6978.jpeg 1200w,
+/static/header-e40385dad6404c53aab038d08436786f-fee16.jpeg 1800w,
+/static/header-e40385dad6404c53aab038d08436786f-dd4dc.jpeg 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;高阶组件的定义&lt;/h2&gt;
+&lt;p&gt;HoC 不属于 React 的 API，它是一种实现模式，本质上是一个函数，接受一个或多个 React 组件作为参数，返回一个全新的 React 组件，而不是改造现有的组件，这样的组件被称为高阶组件。开发过程中，有的功能需要在多个组件类复用时，这时可以创建一个 Hoc。&lt;/p&gt;
+&lt;h2&gt;基本用法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;包裹方式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;HoC&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WrappendComponent&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;WrappingComponent&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;WrappendComponent &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; WrappingComponent&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;上述代码中，接受 WrappendComponent 作为参数，此参数就是将要被 HoC 包装的普通组件，在 render 中包裹一个 div，赋予它 &lt;code&gt;className&lt;/code&gt; 属性，最终产生的 WrappingComponent 和 传入的 WrappendComponent 是两个完全不同的组件。&lt;/p&gt;
+&lt;p&gt;在 WrappingComponent 中，可以读取、添加、编辑、删除传给 WrappendComponent 的 &lt;code&gt;props&lt;/code&gt;，也可以用其它元素包裹 WrappendComponent，用来实现封装样式、添加布局或其它操作。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;组合方式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;HoC&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WrappedComponent&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; LoginView&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;WrappingComponent&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;WrappedComponent &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;LoginView &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; WrappingComponent&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;上述代码中有两个组件，WrappedComponent 和 LoginView，如果传入的 &lt;code&gt;props&lt;/code&gt; 中存在 &lt;code&gt;user&lt;/code&gt;，则正常显示的 WrappedComponent 组件，否则显示 LoginView 组件，让用户去登录。HoC 传递的参数可以为多个，传递多个组件定制新组件的行为，例如用户登录状态下显示主页面，未登录显示登录界面；在渲染列表时，传入 List 和 Loading 组件，为新组件添加加载中的行为。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;继承方式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;HoC&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WrappendComponent&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;WrappingComponent&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;WrappendComponent&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;otherProps&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; otherProps&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; WrappingComponent&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;WrappingComponent 是一个新组件，它继承自 WrappendComponent，共享父级的函数和属性。可以使用 super.render() 或者 super.componentWillUpdate() 调用父级的生命周期函数，但是这样会让两个组件耦合在一起，降低组件的复用性。&lt;/p&gt;
+&lt;p&gt;React 中对组件的封装是按照最小可用单元的思想来进行封装的，理想情况下，一个组件只做一件事情，符合 &lt;code&gt;OOP&lt;/code&gt; 中的单一职责原则。如果需要对组件的功能增强，通过组合的方式或者添加代码的方式对组件进行增强，而不是修改原有的代码。&lt;/p&gt;
+&lt;h2&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;不要在 render 函数中使用高阶组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 每一次render函数调用都会创建一个新的EnhancedComponent实例&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// EnhancedComponent1 !== EnhancedComponent2&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; EnhancedComponent &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;enhance&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;MyComponent&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 每一次都会使子对象树完全被卸载或移除&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;EnhancedComponent &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;React 中的 &lt;code&gt;diff&lt;/code&gt; 算法会比较新旧子对象树，确定是否更新现有的子对象树或丢掉现有的子树并重新挂载。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;必须将静态方法做拷贝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 定义静态方法&lt;/span&gt;
+WrappedComponent&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;staticMethod&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;/*...*/&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 使用高阶组件&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; EnhancedComponent &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;enhance&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WrappedComponent&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 增强型组件没有静态方法&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; EnhancedComponent&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;staticMethod &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;undefined&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Refs属性不能传递&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;HoC中指定的 &lt;code&gt;ref&lt;/code&gt;，并不会传递到子组件，需要通过回调函数使用 &lt;code&gt;props&lt;/code&gt; 传递。&lt;/p&gt;
+&lt;h2&gt;参考链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://leozdgao.me/chushi-hoc/&quot;&gt;初识React中的High Order Component&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doc.react-china.org/docs/higher-order-components.html&quot;&gt;高阶组件&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[如何让 vim 成为我们的神器]]></title><description><![CDATA[Vim  是一个上古神器，刚刚接触的同学可能很难驾驭，本篇文章主要带领大家  快速入门 ，并  持续分享  当前流行的一些  vim-plugin 。 安装 其他平台，可以自行谷歌。 新手指南 上面是史上最简单，最全面的  Vim…]]></description><link>https://knownsec-fed.com/2018-01-05-to-vim/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-05-to-vim/</guid><pubDate>Fri, 05 Jan 2018 10:15:06 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-f08bc4c98ee6942187bb94c8070d9be9-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABG0lEQVQoz52RXU+DMBSGi8imYRgT8cYr96WbTreFMRgUMQymi9kHahY1/v+/8XraakLiEocXT3qgzdO+5zDLj2GHCewghTVJYbgx9odcMQih94NSsGM/RWXAcUCCIy+BJUR9DnY9/h9n/A4GmQ+dCGaYocrpgmCKvWGoDvRKCvUbXxbihTUSVoQwnEIfRVKm3U7KCbXvQgi7+Tu6m090Xj5wmb/hYrlB++kVrYdc0p4/o/Wo6sZshXq6RD1TnKcLuTJWENrjmKJzGDQMref94tS/R81xoVGqbftMUBTqIt6Vq9gSxxzF5SLrf/TLdHcQsjLCXV54Es3BnARVb0bNXlOjF2jS2iw0vUGI7w4NSA6B/ouzcjjZSu7/8AVqeiSvs277NwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Header&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-f08bc4c98ee6942187bb94c8070d9be9-d6978.jpeg&quot;
+        srcset=&quot;/static/header-f08bc4c98ee6942187bb94c8070d9be9-527f0.jpeg 300w,
+/static/header-f08bc4c98ee6942187bb94c8070d9be9-9a7cd.jpeg 600w,
+/static/header-f08bc4c98ee6942187bb94c8070d9be9-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Vim&lt;/code&gt; 是一个上古神器，刚刚接触的同学可能很难驾驭，本篇文章主要带领大家 &lt;code&gt;快速入门&lt;/code&gt;，并 &lt;code&gt;持续分享&lt;/code&gt; 当前流行的一些 &lt;code&gt;vim-plugin&lt;/code&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;安装&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;sudo apt-get install vim  // Ubuntu&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;其他平台，可以自行谷歌。&lt;/p&gt;
+&lt;h1&gt;新手指南&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;vimtutor  // vim 教程&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;上面是史上最简单，最全面的 &lt;code&gt;Vim&lt;/code&gt; 基础教程，至今无人超越。&lt;/p&gt;
+&lt;p&gt;下面是作者基于上面的归纳。&lt;/p&gt;
+&lt;h2&gt;&lt;code&gt;移动光标&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# hjkl
+# 2w 向前移动两个单词
+# 3e 向前移动到第 3 个单词的末尾
+# 0 移动到行首
+# $ 当前行的末尾
+# gg 文件第一行
+# G 文件最后一行
+# 行号+G 指定行
+# &lt;ctrl&gt;+o 跳转回之前的位置
+# &lt;ctrl&gt;+i 返回跳转之前的位置&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;退出&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# &lt;esc&gt; 进入正常模式
+# :q! 不保存退出
+# :wq 保存后退出&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;删除&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# x 删除当前字符
+# dw 删除至当前单词末尾
+# de 删除至当前单词末尾，包括当前字符
+# d$ 删除至当前行尾
+# dd 删除整行
+# 2dd 删除两行&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;修改&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# i 插入文本
+# a 当前光标后添加
+# A 当前行末尾添加
+# r 替换当前字符
+# o 打开新的一行并进入插入模式&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;撤销&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# u 撤销
+# &lt;ctrl&gt;+r 取消撤销&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;复制粘贴剪切&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# v 进入可视模式
+# y 复制
+# p 粘贴
+# yy 复制当前行
+# dd 剪切当前行&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;文件&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# :e! 强制刷新该文件
+# &lt;ctrl&gt;+g 显示当前行以及文件信息&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;查找&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# / 正向查找（n：继续查找，N：相反方向继续查找）
+# ？ 逆向查找
+# % 查找配对的 {，[，(
+# :set ic 忽略大小写
+# :set noic 取消忽略大小写
+# :set hls 匹配项高亮显示
+# :set is 显示部分匹配&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;替换&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# :s/old/new 替换该行第一个匹配串
+# :s/old/new/g 替换全行的匹配串
+# :%s/old/new/g 替换整个文件的匹配串&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;折叠&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# zc 折叠
+# zC 折叠所有嵌套
+# zo 展开折叠
+# zO 展开所有折叠嵌套&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;执行外部命令&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# :!shell 执行外部命令&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;&lt;code&gt;字体&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;# &lt;ctrl&gt; - 缩小
+# &lt;ctrl&gt; shift + 放大
+# &lt;ctrl&gt; 0 还原&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h1&gt;.vimrc&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;.vimrc&lt;/code&gt; 是 &lt;code&gt;Vim&lt;/code&gt; 的配置文件，需要我们自己创建&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;cd Home               // 进入 Home 目录
+touch .vimrc          // 配置文件
+
+# 安装插件管理工具 vim-plug
+# Unix
+# Vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# Neovim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/junegunn/vim-plug&quot;&gt;vim-plug&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;基本配置&lt;/h2&gt;
+&lt;h3&gt;&lt;code&gt;取消备份&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set nobackup
+set noswapfile&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;文件编码&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set encoding=utf-8&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;查找&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set ic
+set hls
+set is&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;显示行号&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set number&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;显示光标当前位置&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set ruler&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;设置缩进&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set cindent
+
+set tabstop=2
+set shiftwidth=2&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;突出显示当前行&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set cursorline&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;左下角显示当前 vim 模式&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set showmode&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;代码折叠&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;set nofoldenable&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;&lt;code&gt;主题&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;syntax enable
+set background=dark
+colorscheme solarized&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/altercation/vim-colors-solarized&quot;&gt;altercation/vim-colors-solarized&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Anthony25/gnome-terminal-colors-solarized&quot;&gt;Anthony25/gnome-terminal-colors-solarized&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;插件配置&lt;/h2&gt;
+&lt;h3&gt;&lt;code&gt;树形目录&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;scrooloose/nerdtree&apos;
+Plug &apos;jistr/vim-nerdtree-tabs&apos;
+Plug &apos;Xuyuanp/nerdtree-git-plugin&apos;
+
+autocmd vimenter * NERDTree
+map &lt;C-n&gt; :NERDTreeToggle&lt;CR&gt;
+let NERDTreeMinimalUI = 1
+let NERDTreeShowHidden = 1
+
+let g:nerdtree_tabs_open_on_console_startup = 1
+let g:nerdtree_tabs_focus_on_files = 1
+
+let g:NERDTreeIndicatorMapCustom = {
+    \ &quot;Modified&quot;  : &quot;✹&quot;,
+    \ &quot;Staged&quot;    : &quot;✚&quot;,
+    \ &quot;Untracked&quot; : &quot;✭&quot;,
+    \ &quot;Renamed&quot;   : &quot;➜&quot;,
+    \ &quot;Unmerged&quot;  : &quot;═&quot;,
+    \ &quot;Deleted&quot;   : &quot;✖&quot;,
+    \ &quot;Dirty&quot;     : &quot;✗&quot;,
+    \ &quot;Clean&quot;     : &quot;✔︎&quot;,
+    \ &apos;Ignored&apos;   : &apos;☒&apos;,
+    \ &quot;Unknown&quot;   : &quot;?&quot;
+    \ }
+
+# o 打开关闭文件或目录
+# e 以文件管理的方式打开选中的目录
+# t 在标签页中打开
+# T 在标签页中打开，但光标仍然留在 NERDTree
+# r 刷新光标所在的目录
+# R 刷新当前根路径
+# X 收起所有目录
+# p 小写，跳转到光标所在的上一级路径
+# P 大写，跳转到当前根路径
+# J 到第一个节点
+# K 到最后一个节点
+# I 显示隐藏文件
+# m 显示文件操作菜单
+# C 将根路径设置为光标所在的目录
+# u 设置上级目录为根路径
+# ctrl + w + w 光标自动在左右侧窗口切换
+# ctrl + w + r 移动当前窗口的布局位置
+# :tabc 关闭当前的 tab
+# :tabo   关闭所有其他的 tab
+# :tabp   前一个 tab
+# :tabn   后一个 tab
+# gT      前一个 tab
+# gt      后一个 tab&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/scrooloose/nerdtree&quot;&gt;scrooloose/nerdtree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jistr/vim-nerdtree-tabs&quot;&gt;vim-nerdtree-tabs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Xuyuanp/nerdtree-git-plugin&quot;&gt;nerdtree-git-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;代码，引号，路径补全&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;Valloric/YouCompleteMe&apos;
+Plug &apos;Raimondi/delimitMate&apos;
+Plug &apos;Shougo/deoplete.nvim&apos;, { &apos;do&apos;: &apos;:UpdateRemotePlugins&apos; }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Valloric/YouCompleteMe&quot;&gt;Valloric/YouCompleteMe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Raimondi/delimitMate&quot;&gt;Raimondi/delimitMate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Shougo/deoplete.nvim&quot;&gt;Shougo/deoplete.nvim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;语法高亮，检查&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;sheerun/vim-polyglot&apos;
+Plug &apos;w0rp/ale&apos;
+
+let g:ale_linters = {
+\	&apos;javascript&apos;: [&apos;eslint&apos;],
+\	&apos;css&apos;: [&apos;stylelint&apos;],
+\}
+let g:ale_fixers = {
+\	&apos;javascript&apos;: [&apos;eslint&apos;],
+\	&apos;css&apos;: [&apos;stylelint&apos;],
+\}
+let g:ale_fix_on_save = 1
+
+let g:ale_sign_column_always = 1
+let g:ale_sign_error = &apos;●&apos;
+let g:ale_sign_warning = &apos;▶&apos;
+
+nmap &lt;silent&gt; &lt;C-k&gt; &lt;Plug&gt;(ale_previous_wrap)
+nmap &lt;silent&gt; &lt;C-j&gt; &lt;Plug&gt;(ale_next_wrap)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/w0rp/ale&quot;&gt;w0rp/ale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sheerun/vim-polyglot&quot;&gt;sheerun/vim-polyglot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;文件，代码搜索，打开最近打开的文件&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;rking/ag.vim&apos;
+Plug &apos;kien/ctrlp.vim&apos;
+Plug &apos;vim-scripts/mru.vim&apos;
+
+let g:ag_highlight=1
+let g:ag_working_path_mode=&quot;r&quot;
+
+# :Ag! content
+
+set wildignore+=*.zip,*.exe
+
+let g:ctrlp_map = &apos;&lt;c-p&gt;&apos;
+let g:ctrlp_custom_ignore = {
+  \ &apos;dir&apos;:  &apos;\v[\/](node_modules|DS_Store|dist|build|coverage)|(\.(git|hg|svn)$)&apos;,
+  \ &apos;file&apos;: &apos;\v\.(exe|so|dll)$&apos;,
+  \ }
+
+# &lt;c-r&gt;: 切换匹配模式
+# &lt;c-t&gt; or &lt;c-v&gt;, &lt;c-x&gt;：在新的 tab 中打开
+
+let MRU_Exclude_Files = &apos;^/tmp/.*\|^/var/tmp/.*&apos;
+let MRU_Window_Height = 15
+
+# :MRU&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kien/ctrlp.vim&quot;&gt;kien/ctrlp.vim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ggreer/the_silver_searcher&quot;&gt;ggreer/the&lt;em&gt;silver&lt;/em&gt;searcher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rking/ag.vim&quot;&gt;rking/ag.vim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vim-scripts/mru.vim&quot;&gt;vim-scripts/mru.vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;加强版状态栏&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;itchyny/lightline.vim&apos;
+
+let g:lightline = {
+      \ &apos;colorscheme&apos;: &apos;powerline&apos;,
+      \ &apos;active&apos;: {
+      \   &apos;left&apos;: [ [ &apos;mode&apos;, &apos;paste&apos; ],
+      \             [ &apos;gitbranch&apos;, &apos;readonly&apos;, &apos;filename&apos;, &apos;modified&apos;, &apos;helloworld&apos; ] ],
+      \   &apos;right&apos;: [ [ &apos;lineinfo&apos; ],
+      \              [ &apos;percent&apos; ],
+      \              [ &apos;fileformat&apos;, &apos;fileencoding&apos;, &apos;filetype&apos; ] ]
+      \ },
+      \ &apos;component&apos;: {
+      \   &apos;helloworld&apos;: &apos;Hello, 枫上雾棋!&apos;
+      \ },
+      \ &apos;component_function&apos;: {
+      \   &apos;gitbranch&apos;: &apos;fugitive#head&apos;
+      \ },
+      \ }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/itchyny/lightline.vim&quot;&gt;itchyny/lightline.vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;代码注释&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;scrooloose/nerdcommenter&apos;
+
+# &lt;leader&gt;c&lt;space&gt; 注释/取消注释
+# &lt;leader&gt;cc // 注释
+# &lt;leader&gt;cm 只用一组符号注释
+# &lt;leader&gt;cA 在行尾添加注释
+# &lt;leader&gt;c$ /* 注释 */
+# &lt;leader&gt;cs /* 块注释 */
+# &lt;leader&gt;cy 注释并复制
+# &lt;leader&gt;ca 切换　// 和 /* */
+# &lt;leader&gt;cu 取消注释
+
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = &apos;left&apos;
+let g:NERDCustomDelimiters = {
+			\ &apos;javascript&apos;: { &apos;left&apos;: &apos;//&apos;, &apos;leftAlt&apos;: &apos;/**&apos;, &apos;rightAlt&apos;: &apos;*/&apos; },
+			\ &apos;less&apos;: { &apos;left&apos;: &apos;/**&apos;, &apos;right&apos;: &apos;*/&apos; }
+		\ }
+
+let g:NERDAltDelims_javascript = 1
+let g:NERDDefaultNesting = 0&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/scrooloose/nerdcommenter&quot;&gt;scrooloose/nerdcommenter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;git&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;airblade/vim-gitgutter&apos;
+Plug &apos;tpope/vim-fugitive&apos;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/airblade/vim-gitgutter&quot;&gt;airblade/vim-gitgutter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tpope/vim-fugitive&quot;&gt;tpope/vim-fugitive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;Markdown&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;suan/vim-instant-markdown&apos;
+Plug &apos;junegunn/goyo.vim&apos;
+Plug &apos;amix/vim-zenroom2&apos;
+
+let g:instant_markdown_slow = 1
+let g:instant_markdown_autostart = 0
+# :InstantMarkdownPreview
+
+# :Goyo&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/suan/vim-instant-markdown&quot;&gt;suan/vim-instant-markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/junegunn/goyo.vim&quot;&gt;junegunn/goyo.vim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/amix/vim-zenroom2&quot;&gt;amix/vim-zenroom2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;Emmet&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;mattn/emmet-vim&apos;
+
+let g:user_emmet_leader_key=&apos;&lt;C-Z&gt;&apos;
+let g:user_emmet_settings = {
+ 		\ &apos;javascript.jsx&apos; : {
+    		\ &apos;extends&apos; : &apos;jsx&apos;,
+    	\ },
+ 		\ }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mattn/emmet-vim&quot;&gt;mattn/emmet-vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;html 5&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;othree/html5.vim&apos;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/othree/html5.vim&quot;&gt;othree/html5.vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;css 3&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/css-1274d0167bcb9ac2b5a300591f93bc48-cd998.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 684px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 65.93567251461988%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABrUlEQVQ4y6WTy0rDQBSGFapp0Y1dSWuqLqQxikmlF5Mo9qLSmrbpLVjxgqIoIuJKKhoEFy7E2CLVFvUBxIXgymdLVr+Tetu4SPXAx5yB4eOcmTMdHR/hIFAE5x+hPh0fsoPd3Z37yzOz+Vg3m82mWb+tm/qVbuq6btZqNZJftfJqtWpWr69bq7W3zlo0Gg2zUqmcE1e3JaQcDscJPeCFWspjPiZhKxLEgxxDYIyF3++3BU3Td8TVYwmdRKjR9ABK+QxSiWlszLF42x9BXGQxFRqxK2wQV++30Ov1oFTIoZhXsLk2ipenfhzsszg+GocgTLYnpJwuzUcqLBCZkpUxq4rYey4jfagiuVdEbnUFQjYLSVEgpWV7wuEhHzLZBaSSC0inyri5eMXiTA4FaRkM02bLFOXShgZ9UAsKQqEgytPzeN0+hRxPIBqNtn+Hbrdb47kJsOzPqzIMA47jwPN8+0KPx6PZHQ9bwkCAPy4vqYZazBuZtGwk4jEjlUwaU5GIEQ6Hf0UURUOSpFYuCILBcRM3X3PYRQgS1ggbf2SdIH1+w1a4CH0E9z+wqut8B6MNLY2STiMIAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;css&quot;
+        title=&quot;&quot;
+        src=&quot;/static/css-1274d0167bcb9ac2b5a300591f93bc48-cd998.png&quot;
+        srcset=&quot;/static/css-1274d0167bcb9ac2b5a300591f93bc48-c76cb.png 300w,
+/static/css-1274d0167bcb9ac2b5a300591f93bc48-cc6b0.png 600w,
+/static/css-1274d0167bcb9ac2b5a300591f93bc48-cd998.png 684w&quot;
+        sizes=&quot;(max-width: 684px) 100vw, 684px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;hail2u/vim-css3-syntax&apos;
+Plug &apos;ap/vim-css-color&apos;
+
+augroup VimCSS3Syntax
+  autocmd!
+
+  autocmd FileType css setlocal iskeyword+=-
+augroup END&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hail2u/vim-css3-syntax&quot;&gt;hail2u/vim-css3-syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ap/vim-css-color&quot;&gt;ap/vim-css-color&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;JavaScipt&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;pangloss/vim-javascript&apos;
+
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_flow = 1
+set foldmethod=syntax
+let g:javascript_conceal_function             = &quot;ƒ&quot;
+let g:javascript_conceal_null                 = &quot;ø&quot;
+let g:javascript_conceal_this                 = &quot;@&quot;
+let g:javascript_conceal_return               = &quot;⇚&quot;
+let g:javascript_conceal_undefined            = &quot;¿&quot;
+let g:javascript_conceal_NaN                  = &quot;ℕ&quot;
+let g:javascript_conceal_prototype            = &quot;¶&quot;
+let g:javascript_conceal_static               = &quot;•&quot;
+let g:javascript_conceal_super                = &quot;Ω&quot;
+let g:javascript_conceal_arrow_function       = &quot;⇒&quot;
+let g:javascript_conceal_noarg_arrow_function = &quot;🞅&quot;
+let g:javascript_conceal_underscore_arrow_function = &quot;🞅&quot;
+set conceallevel=1&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pangloss/vim-javascript&quot;&gt;pangloss/vim-javascript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;React&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;mxw/vim-jsx&apos;
+
+let g:jsx_ext_required = 0&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mxw/vim-jsx&quot;&gt;mxw/vim-jsx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;Prettier&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;prettier/vim-prettier&apos;, {
+  \ &apos;do&apos;: &apos;yarn install&apos;,
+  \ &apos;for&apos;: [&apos;javascript&apos;, &apos;typescript&apos;, &apos;css&apos;, &apos;less&apos;, &apos;scss&apos;, &apos;json&apos;, &apos;graphql&apos;] }
+
+let g:prettier#config#bracket_spacing = &apos;true&apos;
+let g:prettier#config#jsx_bracket_same_line = &apos;false&apos;
+let g:prettier#config#trailing_comma = &apos;es5&apos;
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql PrettierAsync
+
+# :Prettier&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/prettier/vim-prettier&quot;&gt;prettier/vim-prettier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code&gt;自动规范化中文排版&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Plug &apos;hotoo/pangu.vim&apos;
+
+# :Pangu&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hotoo/pangu.vim&quot;&gt;hotoo/pangu.vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;总结&lt;/h1&gt;
+&lt;p&gt;最后，呈上&lt;code&gt;参考配置&lt;/code&gt; &lt;a href=&quot;https://github.com/FengShangWuQi/to-vim/blob/master/.vimrc&quot;&gt;.vimrc&lt;/a&gt;，如果在直接使用配置文件的过程中遇到什么报错，不要惊慌，可能是相关插件需要什么依赖，查看对应官方文档安装便是。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[D3.js 数据驱动 和 force 力学图讲解]]></title><description><![CDATA[D3 是什么 D3 的全称：Data-Driven Documents，被  数据驱动  的文档，其实就是用来做数据可视化的 JavaScript 库。 为什么需要学习使用 D3 首先 D3.js 是一个数据可视化 js 库，结合 HTML，SVG，CSS，canvas，D…]]></description><link>https://knownsec-fed.com/2018-01-05-d3-js-v3-data-driven-and-d3-force/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-05-d3-js-v3-data-driven-and-d3-force/</guid><pubDate>Fri, 05 Jan 2018 08:52:40 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-2f89ce891a8547bbbb1f15baea3701d4-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdCVOjccYv/EABgQAQADAQAAAAAAAAAAAAAAAAEAAhEx/9oACAEBAAEFAtq1paqps5AMOf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAMAAgMAAAAAAAAAAAAAAAABIQIxEEFh/9oACAEBAAY/Am0uzLStNE9Mpx//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMVFh/9oACAEBAAE/IaBKEFRA8A9ZYzMdBgvJBUDt8+Q1if/aAAwDAQACAAMAAAAQzy//xAAXEQADAQAAAAAAAAAAAAAAAAAQESFx/9oACAEDAQE/EHMH/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxBbCI//xAAcEAEAAwACAwAAAAAAAAAAAAABABEhMXFBYaH/2gAIAQEAAT8Qy8hV3eT7L82MtanHcsW4UWVCEh0cCVSbeBz5dwAAB6n/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Header&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-2f89ce891a8547bbbb1f15baea3701d4-d6978.jpeg&quot;
+        srcset=&quot;/static/header-2f89ce891a8547bbbb1f15baea3701d4-527f0.jpeg 300w,
+/static/header-2f89ce891a8547bbbb1f15baea3701d4-9a7cd.jpeg 600w,
+/static/header-2f89ce891a8547bbbb1f15baea3701d4-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;D3 是什么&lt;/h2&gt;
+&lt;p&gt;D3 的全称：Data-Driven Documents，被 &lt;em&gt;数据驱动&lt;/em&gt; 的文档，其实就是用来做数据可视化的 JavaScript 库。&lt;/p&gt;
+&lt;h2&gt;为什么需要学习使用 D3&lt;/h2&gt;
+&lt;p&gt;首先 D3.js 是一个数据可视化 js 库，结合 HTML，SVG，CSS，canvas，D3 可以图形化的、生动的展现数据。目前有 &lt;em&gt;v3&lt;/em&gt; 和 &lt;em&gt;v4&lt;/em&gt; 两个版本，v3 是基于 SVG，v4 做了些性能上的提升，已经支持 canvas 了，这样也就减少了很多 DOM 操作。&lt;/p&gt;
+&lt;p&gt;在数据可视化方面，已经封装了许多可视化 API 方法，大大减少了开发者的工作量。同时，它也具有高定制性、代码简洁、有研究趣味的特点。&lt;/p&gt;
+&lt;p&gt;D3.js 目前托管于 &lt;a href=&quot;https://github.com/d3/d3&quot;&gt;&lt;em&gt;GitHub&lt;/em&gt;&lt;/a&gt; ，star 量高达 71.4k(恐怖如斯)，赶快学习 D3 吧，学习还能使我快乐。&lt;/p&gt;
+&lt;h2&gt;核心：数据驱动 (Data-Driven)&lt;/h2&gt;
+&lt;p&gt;何谓数据驱动？&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/question-d23b182c54cf73c17e478cd55bbe8ebb-b24b3.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQFAf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdSjG3DoJuBSD//EABwQAAEEAwEAAAAAAAAAAAAAAAMAAQIRBBASIf/aAAgBAQABBQLumhXCCQksjRPE16//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAABBAIDAAAAAAAAAAAAAAABABARIRMxAhJx/9oACAEBAAY/Ajz7bE+IRphjBwE1T0YpCy3/xAAaEAEBAAMBAQAAAAAAAAAAAAABERAhMQBh/9oACAEBAAE/IapEhE0PEbNFLjYQRWnM13A4PL61x//aAAwDAQACAAMAAAAQsAA8/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHBABAQACAgMAAAAAAAAAAAAAAREhMQAQQVFh/9oACAEBAAE/EKsajWCwmVmeev4CMc68b11jBUQAZJjBdHaIoiRDl5UlNfp1/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;question&quot;
+        title=&quot;&quot;
+        src=&quot;/static/question-d23b182c54cf73c17e478cd55bbe8ebb-b24b3.jpeg&quot;
+        srcset=&quot;/static/question-d23b182c54cf73c17e478cd55bbe8ebb-ce4fe.jpeg 300w,
+/static/question-d23b182c54cf73c17e478cd55bbe8ebb-b24b3.jpeg 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;其旨在将数据与图形绑定，图形又等同于可视化元素，所以也可称作为将数据与可视化元素绑定。这里的可视化元素指的就是 HTML 标签、canvas 绘制的图形、SVG 的形状元素。&lt;/p&gt;
+&lt;p&gt;D3 通过 enter()、exit()、data()三个方法得到的数据集与选择元素 (selection) 绑定。
+下面就来了解下这个机制（声明 DOM 对象集 =&gt; 声明数据集 =&gt; 比较获取缺失的 DOM 集 =&gt; 追加 DOM 对象并设置其属性）：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;d3&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#chart&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;selectAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// 得到可视化元素，返回一个 DOM 对象集，和 jQuery 选择器类似&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;// 为选中的可视化元素绑定数据集, 必须传入数组&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;enter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// 返回数据集比 DOM 集多出的数据，并得到数据集与可视化元素的对应关系&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 创建上一步缺失的 DOM 对象&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;d &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 设置 DOM 元素属性，如果传入的是一个函数，那么将遍历每个 enter 返回的数据集中的元素，并执行&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;class&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;testClass&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 设置 DOM 元素属性&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;exit() 和 enter() 讲解&lt;/h3&gt;
+&lt;p&gt;例有如下 DOM 结构, 数据集 data 为 [1,2,3]：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;chart&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;执行:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;d3&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#chart&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;selectAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;enter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;d &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;class&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;enterClass&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;代码之后，将会得到如下 DOM 结构：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;chart&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;enterClass&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;2&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;enterClass&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;3&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;而执行:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;d3&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#chart&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;selectAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;d &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;class&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;exitClass&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;代码之后，将会得到如下 DOM 结构：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;chart&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;exitClass&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;1&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;但是两个种方法都没有得到我想要的结果，结果与数据不匹配，这个时候就需要考虑 enter() 与 exit() 结合使用：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; update &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; d3&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#chart&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;selectAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+update&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;d &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+update&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+update&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;enter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;d &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;class&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;corrcet&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;最后，得到与 data 数据集 [1,2,3] 匹配的 DOM 结构：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;chart&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;correct&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;1&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;correct&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;2&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;correct&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;3&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;Force 力学图，让你实现酷炫的打击效果&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;force&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nodes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 节点数组&lt;/span&gt;
+force&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 节点间的链接数组, 其数据结构固定为 [{ source:1(index),target:0(index) }]&lt;/span&gt;
+force&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;tick&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 运动进行中如何更新每一帧&lt;/span&gt;
+force&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;resume&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 因为 tick 事件会自动停止，resume 方法让 tick 事件不停止&lt;/span&gt;
+force&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 将链接数组中的值 (index) 转化为节点数组中对应索引的值&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;大家都知道，一个点运动到另外一个点，就可以得到一条运动轨迹，这条运动轨迹也是由一个个像素点构成的，Force 恰恰做了这个事情。接着，我们就可以用所有的像素点去实现出酷炫的效果。&lt;/p&gt;
+&lt;h3&gt;&lt;em&gt;tick&lt;/em&gt; 事件内部解析&lt;/h3&gt;
+&lt;p&gt;如果你去读 &lt;em&gt;tick&lt;/em&gt; 事件的源码，你会发现有一个 alpha 变量控制的 &lt;em&gt;tick&lt;/em&gt; 事件的生命周期，这个变量会自动衰减为 0。当我们使用 force.resume() 时，就会让这个变量一直趋于 0，让 &lt;em&gt;tick&lt;/em&gt; 不会停止。每一次 &lt;em&gt;tick&lt;/em&gt; 都是两个点在互相往中间靠拢，这个时候，我们需要选择固定一个点 (设置该状态的坐标为初始坐标)，达到一个点移动到另一个点的效果。&lt;/p&gt;
+&lt;p&gt;只要你传入正确类型的 nodes 和 links，那么 Force 就会在 &lt;em&gt;tick&lt;/em&gt; 事件中默认画出我们看不见的运动轨迹，而我们需要做的就是在每次 &lt;em&gt;tick&lt;/em&gt; 事件中去存储每一个像素点，然后再根据存储到的像素点去实现效果。&lt;/p&gt;
+&lt;h3&gt;D3 的高度自由性与研究趣味&lt;/h3&gt;
+&lt;p&gt;从这个效果来看，我觉得基于这些像素点，可以有多种方式去实现一种功能。因为得到的是最基础底层的数据，而很多封装的API方法其实底层也是根据这个数据去处理得到最后的效果。可以使用 canvas 的 moveto() 和 lineTo() 来画线；也可以直接使用 SVG 的 line 来实现，当然还有其他方法，可以一起探讨。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[如何编写一个 Redux 中间件]]></title><description><![CDATA[如何编写一个 Redux 中间件 要想实现一个  Redux  中间件我们必须了解 Redux 的基本实现原理。本文将从 Redux 源码入手，重点讲解 applyMiddleware 如何将中间件串联执行。只有理解了底层原理我们才可以游刃有余的写出一个 Redux…]]></description><link>https://knownsec-fed.com/2018-01-05-create-a-redux-middleware/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-05-create-a-redux-middleware/</guid><pubDate>Fri, 05 Jan 2018 03:47:59 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-183a07e70356cec5d49e60258331449f-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAL/2gAMAwEAAhADEAAAAUN15WaKi6//xAAbEAACAQUAAAAAAAAAAAAAAAABEQACAxAiQv/aAAgBAQABBQJBU7BTm3j/xAAVEQEBAAAAAAAAAAAAAAAAAAACEP/aAAgBAwEBPwEz/8QAFhEAAwAAAAAAAAAAAAAAAAAAAhAx/9oACAECAQE/AQq//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQETGR/9oACAEBAAY/Arp9NNQhx//EABsQAAICAwEAAAAAAAAAAAAAAAERABAxUXHw/9oACAEBAAE/ISFQ9eCK1B2oTLOn/9oADAMBAAIAAwAAABBTP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EEs//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAgEBPxApA1f/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEx4RBBkdH/2gAIAQEAAT8QPqHJDT1cMd3hE5lNz8jJqpqN8eP/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Header&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-183a07e70356cec5d49e60258331449f-d6978.jpeg&quot;
+        srcset=&quot;/static/header-183a07e70356cec5d49e60258331449f-527f0.jpeg 300w,
+/static/header-183a07e70356cec5d49e60258331449f-9a7cd.jpeg 600w,
+/static/header-183a07e70356cec5d49e60258331449f-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;如何编写一个 Redux 中间件&lt;/h1&gt;
+&lt;p&gt;要想实现一个 &lt;a href=&quot;https://redux.js.org/&quot;&gt;Redux&lt;/a&gt; 中间件我们必须了解 Redux 的基本实现原理。本文将从 Redux 源码入手，重点讲解 applyMiddleware 如何将中间件串联执行。只有理解了底层原理我们才可以游刃有余的写出一个 Redux 中间件。&lt;/p&gt;
+&lt;h2&gt;目录&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#createstore-%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB&quot;&gt;createStore 源码解读&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#applymiddleware-%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB&quot;&gt;applyMiddleware 源码解读&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#redux-thunk-%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86&quot;&gt;redux-thunk 的实现原理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E4%B8%AD%E9%97%B4%E4%BB%B6&quot;&gt;如何编写一个中间件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;createStore 源码解读&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://redux.js.org/&quot;&gt;Redux&lt;/a&gt; 通过 createStore 来创建一个 store 对象&lt;/p&gt;
+&lt;p&gt;要理解 applyMiddleware 的实现原理，我们要从 createStore 入手&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createStore&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; preloadedState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; enhancer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; preloadedState &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;function&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; enhancer &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;undefined&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    enhancer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; preloadedState
+    preloadedState &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; undefined
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; enhancer &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;undefined&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; enhancer &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;function&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Expected the enhancer to be a function.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;enhancer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;createStore&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; preloadedState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; reducer &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;function&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Expected the reducer to be a function.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 篇幅有限，后面被我省略了，有兴趣请去看 Redux 源码&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ......&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;可以看见 createStore 的三个参数依次为: reducer，preloadedState，enhancer。参见源码，如果传入了 enhance 参数且为函数，则将 createStore 传入 enhance：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;enhancer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;createStore&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; preloadedState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;也就是说，现在我们将用 enhance 来创建一个 store 对象。&lt;/p&gt;
+&lt;h2&gt;applyMiddleware 源码解读&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一般情况下 createStore 的第三个参数 enhance 就是 applyMiddleware&lt;/p&gt;
+&lt;p&gt;applyMiddleware 的代码只有二十多行却是本文的重点&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;applyMiddleware&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;middlewares&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;createStore&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; preloadedState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; enhancer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; store &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createStore&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; preloadedState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; enhancer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; dispatch &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; store&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dispatch
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; chain &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; middlewareAPI &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      getState&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; store&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;getState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      dispatch&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    chain &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; middlewares&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;middleware &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;middleware&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;middlewareAPI&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    dispatch &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;compose&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;chain&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;store&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;store&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      dispatch
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;参见 createStore 的源码可以得知：applyMiddleware 依然使用 createStore 创建了store 对象并且返回，只是改写了这个对象的 dispatch 方法。&lt;/p&gt;
+&lt;p&gt;下面我们重点来看这个被改写掉的 dispatch 方法，同时理解它和原生 dispatch 方法的区别也是本文的重点。为了更直观的了解这个过程我们先来看一个简单的中间件实现 logger middleware：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; store &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; next &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; action &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; start &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Date&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; ms &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Date&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; start&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`dispatch: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;type&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; - &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;ms&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;ms`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;下面分两部详细探讨中间件的运行原理&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;将原生的 getState 和 dispacth 作为第一个参数传入中间件数组，获得执行完的 chain 数组；&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;chain = middlewares.map(middleware =&gt; middleware(middlewareAPI))&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;组合串联 middleware&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dispatch = compose(...chain)(store.dispatch)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;compose 将所有的中间件串联起来组成新的 dispatch&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;compose 源码&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;compose&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;funcs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; arg &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; funcs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;reduceRight&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;composed&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; f&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;composed&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; arg&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;参考我们的 logger middleware 这里的 composed 即是我们的 next 参数。&lt;/p&gt;
+&lt;p&gt;reduceRight 和 ruduce 一样，不过 reduceRight 是从数组的右端开始执行，arg 将作为 reduceRight 的初始值（这里就是 store.dispatch)。假设我们的 chain 数组为 &lt;code&gt;[f1, f2, f3]&lt;/code&gt;执行完毕后 dispatch 为 &lt;code&gt;dispatch = f1(f2(f3(store.dispatch))))&lt;/code&gt;，调用这个新的 dispatch 每个中间件就能依次执行了，这里的中间件执行过程也是类似于 Koa 的中间件执行的非常经典的洋葱模型。只有最后一个中间件会触发 &lt;a href=&quot;https://redux.js.org/&quot;&gt;redux&lt;/a&gt; 原生的 dispatch，将这个 action 分发出去。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redux middleware 洋葱模型&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/redux-middleware-c82cd7ccb706623938461ff6628eca39-38c0b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 911px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.1284302963776%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8ElEQVQoz62S2aqEQAxE/f//81Fwe1Bx3/dcTiCD3NlhhKJDOl2pVHTkx5/zruA8TzmOQ0G8bZvM8yz7vn9POI6jJEkiQRCI7/sSx7F4nieu60pRFN8RomiaJhmG4SG4o+YtIWOhDNhY67reiMgzNmTE5HjzlJACI0JF3/fqGTBlFi/LosTU3AjxJwxDiaJIvcqyTH3L81zSNJWqqvQhjwDNuq6TpmmkbVvNmZ8odaybjUOBdQUogpyF0JizrmslK8tSTwTAQ/O7kSGwUYhpQrH5ZfcW4y/nyy3bEiAh/j+FwXz8+D/EkyuZgdx1s9fvD4QOXNQpAGOZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;redux-middleware&quot;
+        title=&quot;&quot;
+        src=&quot;/static/redux-middleware-c82cd7ccb706623938461ff6628eca39-38c0b.png&quot;
+        srcset=&quot;/static/redux-middleware-c82cd7ccb706623938461ff6628eca39-8d81b.png 300w,
+/static/redux-middleware-c82cd7ccb706623938461ff6628eca39-38503.png 600w,
+/static/redux-middleware-c82cd7ccb706623938461ff6628eca39-38c0b.png 911w&quot;
+        sizes=&quot;(max-width: 911px) 100vw, 911px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;只有在最后一个中间件中才调用了 store 原生的 dispatch。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;redux-thunk 的实现原理&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一般而言 dispatch 只能分发一个 action 对象，但是使用了 redux-thunk 中间件我们却可以分发一个异步函数。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;thunk&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; store &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; next &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; action &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; action &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;function&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;store&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; store&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;getState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;一个异步的 action 的示例&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;getMessage&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; getState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    axios&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;xxx/xxx&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;GET_MESSAGE_SUCCESS&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            message&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;GET_MESSAGE_ERROR&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            message&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;error&apos;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这里的 dispatch 仍然是改造后的 dispatch。因为传入中间件的第一个参数 store（即 middlewareApi）中的 dispatch 是一个闭包，它保存着外层函数作用域中 dispatch 的引用，所以当 diapatch 被修改后，后面调用的 dispatch 都是这个新的 dispatch(即中间件的串联)，所以即使在异步 action 中调用 dispatch，中间件也会从头开始执行。&lt;/p&gt;
+&lt;h2&gt;如何编写一个中间件&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以理解了以上，编写一个中间件将超级简单，只需要按照中间件编写规范&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;myMiddleware&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; store &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; next &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; action &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 在这里你可以拿到 store.getState 和 store.dispatch&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 注意如果你调用 store.dispatch 中间件又从新从最外层开始 如果不加限制条件将陷入死循环&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// do something&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;// 进入下一个中间件，最后一个中间件的 next 参数为 redux 原生 dispatch&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 返回继续执行这个中间件剩余部分&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;深入理解 Redux 中间件的实现原理，可以让我们在日常工作中，对 Redux 数据流向更加清晰和对自己的程序更加有把握。本人水平有限，如有错误还请指出。&lt;/p&gt;
+&lt;h3&gt;参考资料&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ituring.com.cn/book/1898&quot;&gt;《深入 Redux 技术栈》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://redux.js.org/&quot;&gt;Redux 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html&quot;&gt;阮一峰 Redux 入门教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Hey Man]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://knownsec-fed.com/2017-12-01-hey-man/</link><guid isPermaLink="false">https://knownsec-fed.com/2017-12-01-hey-man/</guid><pubDate>Fri, 01 Dec 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-dfb34f0dff0d4bae6b18c5b77512c00f-fada0.jpeg&quot;
