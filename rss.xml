@@ -1,4 +1,139 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 03:52:49 GMT</lastBuildDate><item><title><![CDATA[3D GIS 应用开发 —— 基于 Mapbox GL 的实践总结]]></title><description><![CDATA[最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源： uber的deck.gl项目 ）： 下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS…]]></description><link>https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</guid><pubDate>Mon, 08 Jan 2018 03:03:39 GMT</pubDate><content:encoded>&lt;p&gt;最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源：&lt;a href=&quot;https://uber.github.io/deck.gl/#/&quot;&gt;uber的deck.gl项目&lt;/a&gt;）：&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 08:00:33 GMT</lastBuildDate><item><title><![CDATA[如何扩展 Create React App 的 Webpack 配置]]></title><description><![CDATA[Create React App （以下简称 CRA）是创建 React 应用的一个脚手架，它与其他脚手架不同的一个地方就是将一些复杂工具（比如 webpack）的配置封装了起来，让使用者不用关心这些工具的具体配置，从而降低了工具的使用难度。 但是对于一些熟悉 webpack…]]></description><link>https://knownsec-fed.com/2018-01-10-ru-he-kuo-zhan-create-react-app-de-webpack-pei-zhi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-10-ru-he-kuo-zhan-create-react-app-de-webpack-pei-zhi/</guid><pubDate>Wed, 10 Jan 2018 05:49:08 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-7887fb67fd981d9697e7399d05cffa8d-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHeSVLQD//EABkQAAIDAQAAAAAAAAAAAAAAAAEQABEhMf/aAAgBAQABBQKoNR6v/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAHBABAAEEAwAAAAAAAAAAAAAAAQAQITFREYGR/9oACAEBAAE/IUO/YbsnbR2Tl3DE/9oADAMBAAIAAwAAABCrD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQACAgIDAAAAAAAAAAAAAAEAIRExUZFxsfD/2gAIAQEAAT8QuXoj1AQTF9bgYAuuWMAKVzKi3c0eJ//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;如何扩展 Create React App 的 Webpack 配置&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-7887fb67fd981d9697e7399d05cffa8d-d6978.jpeg&quot;
+        srcset=&quot;/static/header-7887fb67fd981d9697e7399d05cffa8d-527f0.jpeg 300w,
+/static/header-7887fb67fd981d9697e7399d05cffa8d-9a7cd.jpeg 600w,
+/static/header-7887fb67fd981d9697e7399d05cffa8d-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebookincubator/create-react-app&quot;&gt;Create React App&lt;/a&gt;（以下简称 CRA）是创建 React 应用的一个脚手架，它与其他脚手架不同的一个地方就是将一些复杂工具（比如 webpack）的配置封装了起来，让使用者不用关心这些工具的具体配置，从而降低了工具的使用难度。&lt;/p&gt;
+&lt;p&gt;但是对于一些熟悉 webpack 的开发者来说，他们可能想对 webpack 配置做一些修改，这个时候应该怎么办呢？&lt;/p&gt;
+&lt;p&gt;其实我们可以通过以下几种方式来修改 webpack 的配置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;项目 eject&lt;/li&gt;
+&lt;li&gt;替换 react-scripts 包&lt;/li&gt;
+&lt;li&gt;使用 react-app-rewired&lt;/li&gt;
+&lt;li&gt;scripts 包 + override 组合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面对这几种方式分别进行介绍。&lt;/p&gt;
+&lt;h2&gt;项目 eject&lt;/h2&gt;
+&lt;p&gt;使用 CRA 创建完项目以后，项目在&lt;code&gt;package.json&lt;/code&gt;里面提供了这样一个命令：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  ...
+  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;eject&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-scripts eject&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  ...
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;执行完这个命令——&lt;code&gt;yarn run eject&lt;/code&gt;后会将封装在 CRA 中的配置全部&lt;code&gt;反编译&lt;/code&gt;到当前项目，这样用户就可以完全取得 webpack 文件的控制权，想怎么修改就怎么修改了。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code&gt;# eject 后项目根目录下会出现 config 文件夹，里面就包含了 webpack 配置
+config
+├── env.js
+├── jest
+│   ├── cssTransform.js
+│   └── fileTransform.js
+├── paths.js
+├── polyfills.js
+├── webpack.config.dev.js // 开发环境配置
+├── webpack.config.prod.js // 生产环境配置
+└── webpackDevServer.config.js&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;CRA 与其他脚手架不同的另一个地方，就是可以通过升级其中的&lt;code&gt;react-scripts&lt;/code&gt;包来升级 CRA 的特性。比如用老版本 CRA 创建了一个项目，这个项目不具备 &lt;a href=&quot;https://developers.google.com/web/progressive-web-apps/&quot;&gt;PWA&lt;/a&gt; 功能，但只要项目升级了&lt;code&gt;react-scripts&lt;/code&gt;包的版本就可以具备 PWA 的功能，项目本身的代码不需要做任何修改。&lt;/p&gt;
+&lt;p&gt;但如果我们使用了&lt;code&gt;eject&lt;/code&gt;命令，就再也享受不到 CRA 升级带来的好处了，因为&lt;code&gt;react-scripts&lt;/code&gt;已经是以文件的形式存在于你的项目，而不是以包的形式，所以无法对其升级。&lt;/p&gt;
+&lt;h2&gt;替换 react-scripts 包&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebookincubator/create-react-app/tree/8cae659ec5a066eff8ea270346dc8c1ef064f9aa/packages/react-scripts&quot;&gt;react-scripts&lt;/a&gt; 是 CRA 的一个核心包，一些脚本和工具的默认配置都集成在里面，使用 CRA 创建项目默认就是使用这个包，但是 CRA 还提供了另外一种方式来创建 CRA 项目，即使用自定义 scripts 包的方式。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code&gt;# 默认方式
+$ create-react-app foo
+
+# 自定义 scripts 包方式
+$ create-react-app foo --scripts-version 自定义包&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;code&gt;自定义包&lt;/code&gt;可以是下面几种形式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;react-scripts&lt;/code&gt;包的版本号，比如&lt;code&gt;0.8.2&lt;/code&gt;，这种形式可以用来安装低版本的&lt;code&gt;react-scripts&lt;/code&gt;包。&lt;/li&gt;
+&lt;li&gt;一个已经发布到 npm 仓库上的包的名字，比如&lt;code&gt;your-scripts&lt;/code&gt;，里面包含了修改过的 webpack 配置。&lt;/li&gt;
+&lt;li&gt;一个 tgz 格式的压缩文件，比如&lt;code&gt;/your/local/scripts.tgz&lt;/code&gt;，通常是未发布到 npm 仓库的自定义 scripts 包，可以用 &lt;code&gt;npm pack&lt;/code&gt; 命令生成。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种方式相对于之前的&lt;code&gt;eject&lt;/code&gt;是一种更灵活地修改 webpack 配置的方式，而且可以做到和 CRA 一样，通过升级 scrips 包来升级项目特性。&lt;/p&gt;
+&lt;p&gt;自定义 scripts 包的结构可以参照&lt;code&gt;react-scripts&lt;/code&gt;包的结构，只要修改对应的 webpack 配置文件，并安装上所需的 webpack loader 或 plugin 包就可以了。&lt;/p&gt;
+&lt;h2&gt;使用 react-app-rewired&lt;/h2&gt;
+&lt;p&gt;虽然有这两种方式可以扩展 webpack 配置，但是很多开发者还是觉得太麻烦，有没有一种方式可以既不用&lt;code&gt;eject&lt;/code&gt;项目又不用创建自己的 scripts 包呢？答案是肯定的，&lt;a href=&quot;https://github.com/timarney/react-app-rewired&quot;&gt;react-app-rewired&lt;/a&gt; 是 react 社区开源的一个修改 CRA 配置的工具。&lt;/p&gt;
+&lt;p&gt;在 CRA 创建的项目中安装了&lt;code&gt;react-app-rewired&lt;/code&gt;后，可以通过创建一个&lt;code&gt;config-overrides.js&lt;/code&gt; 文件来对 webpack 配置进行扩展。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;/* config-overrides.js */&lt;/span&gt;
+
+module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;override&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;config&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; env&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;//do stuff with the webpack config...&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; config&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;code&gt;override&lt;/code&gt;方法的第一个参数&lt;code&gt;config&lt;/code&gt;就是 webpack 的配置，在这个方法里面，我们可以对 &lt;code&gt;config&lt;/code&gt; 进行扩展，比如安装其他 loader 或者 plugins，最后再将这个 &lt;code&gt;config&lt;/code&gt; 对象返回回去。&lt;/p&gt;
+&lt;p&gt;最后再修改&lt;code&gt;package.json&lt;/code&gt;中的脚本命令，修改内容请见&lt;a href=&quot;https://github.com/timarney/react-app-rewired#3-flip-the-existing-calls-to-react-scripts-in-npm-scripts&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;scripts 包 + override 组合&lt;/h2&gt;
+&lt;p&gt;虽然&lt;code&gt;react-app-rewired&lt;/code&gt;的方式已经可以很方便地修改 webpack 的配置了，但其实我们也可以在自定义的 script 包中实现类似的功能。&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;react-app-rewired&lt;/code&gt;的源码中可以看到它核心的包也叫 &lt;a href=&quot;https://github.com/timarney/react-app-rewired/tree/4954531eaab6da14c4e3c943cb2038b46d5f9125/packages/react-app-rewired&quot;&gt;react-app-rewired&lt;/a&gt;，里面重新覆盖了&lt;code&gt;react-scripts&lt;/code&gt;中的几个脚本文件，包括&lt;code&gt;build.js&lt;/code&gt;、&lt;code&gt;start.js&lt;/code&gt;和&lt;code&gt;test.js&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;具体过程是怎样的呢？以&lt;code&gt;build.js&lt;/code&gt;为例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先获取 webpack 的基本配置，然后再调用&lt;code&gt;config-overrides.js&lt;/code&gt;（就是在根目录中新增的那个文件）中的&lt;code&gt;override&lt;/code&gt;方法，将原先的 webpack 对象作为参数传入，&lt;/li&gt;
+&lt;li&gt;再取得经过修改后的 webpack 配置对象&lt;/li&gt;
+&lt;li&gt;最后再调用&lt;code&gt;react-scripts&lt;/code&gt;中的&lt;code&gt;build.js&lt;/code&gt;脚本，传入修改后的 webpack 对象来执行命令，&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;具体源码如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; overrides &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;../config-overrides&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; webpackConfigPath &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; paths&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;scriptVersion &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/config/webpack.config.prod&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// load original config&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; webpackConfig &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;webpackConfigPath&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// override config in memory&lt;/span&gt;
+require&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cache&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;require&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;webpackConfigPath&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+  overrides&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;webpack&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;webpackConfig&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;env&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;NODE_ENV&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// run original script&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;paths&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;scriptVersion &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/scripts/build&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;知道了原理之后，我们也可以修改自定义 scripts 包的脚本文件，还是以&lt;code&gt;build.js&lt;/code&gt;为例，在获取基本 webpack 配置对象和使用 webpack 对象之间加入以下代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// override config&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; override &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;paths&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;configOverrides&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; overrideFn &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; override &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;config&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; env&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; config&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; overrideConfig &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;overrideFn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;config&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;env&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;NODE_ENV&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;code&gt;overrideConfig&lt;/code&gt;就是修改后的 webpack 对象，最后修改调用了 webpack 对象的代码，将原来的 webpack 对象替换成修改后的 webpack 对象。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;CRA 是一个非常棒的 React 脚手架工具，但你如果不满足于它的 webpack 默认配置，你可以通过上述几种方式来扩展自己项目的 webpack 配置，这几种方式各有优缺点，可以结合具体的使用场景来选择合适自己的方式。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[3D GIS 应用开发 —— 基于 Mapbox GL 的实践总结]]></title><description><![CDATA[最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源： uber的deck.gl项目 ）： 下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS…]]></description><link>https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</guid><pubDate>Mon, 08 Jan 2018 03:03:39 GMT</pubDate><content:encoded>&lt;p&gt;最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源：&lt;a href=&quot;https://uber.github.io/deck.gl/#/&quot;&gt;uber的deck.gl项目&lt;/a&gt;）：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/demo-e3d6a9b924539c98bbd68ec2be2e829a.gif&quot; alt=&quot;demo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS 引擎 &lt;a href=&quot;https://github.com/mapbox/mapbox-gl-js&quot;&gt;Mapbox GL JS&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;一、简单了解&lt;/h1&gt;
@@ -104,8 +239,8 @@ mapboxgl&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;accessToke
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 创建id为buildings的数据源&lt;/span&gt;
 myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addSource&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;buildings&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
- type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;geojson&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
- data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;GeoJson Contents&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;geojson&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;GeoJson Contents&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;// 使用buildings的数据来绘制id为building_layer的图形&lt;/span&gt;
