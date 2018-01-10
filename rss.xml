@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jan 2018 08:50:19 GMT</lastBuildDate><item><title><![CDATA[3D GIS 应用开发 —— 基于 Mapbox GL 的实践总结]]></title><description><![CDATA[最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源： uber的deck.gl项目 ）： 下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS…]]></description><link>https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</guid><pubDate>Mon, 08 Jan 2018 03:03:39 GMT</pubDate><content:encoded>&lt;p&gt;最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源：&lt;a href=&quot;https://uber.github.io/deck.gl/#/&quot;&gt;uber的deck.gl项目&lt;/a&gt;）：&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 03:52:49 GMT</lastBuildDate><item><title><![CDATA[3D GIS 应用开发 —— 基于 Mapbox GL 的实践总结]]></title><description><![CDATA[最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源： uber的deck.gl项目 ）： 下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS…]]></description><link>https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</guid><pubDate>Mon, 08 Jan 2018 03:03:39 GMT</pubDate><content:encoded>&lt;p&gt;最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源：&lt;a href=&quot;https://uber.github.io/deck.gl/#/&quot;&gt;uber的deck.gl项目&lt;/a&gt;）：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/demo-e3d6a9b924539c98bbd68ec2be2e829a.gif&quot; alt=&quot;demo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS 引擎 &lt;a href=&quot;https://github.com/mapbox/mapbox-gl-js&quot;&gt;Mapbox GL JS&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;一、简单了解&lt;/h1&gt;
@@ -8,7 +8,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-bbaa041e2d71c77ad261f244c2e319ea-4da97.jpeg&quot;
+    href=&quot;/static/header-b0c867989f10ee45f45a3c046a9307aa-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -20,18 +20,17 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.42372881355933%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwX/2gAMAwEAAhADEAAAAVOmq0IoMjj/xAAZEAADAQEBAAAAAAAAAAAAAAAAAQIDETH/2gAIAQEAAQUC4LG2qlyzO6U+n//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQISIf/aAAgBAgEBPwGdksEf/8QAGRAAAQUAAAAAAAAAAAAAAAAAEAECESFB/9oACAEBAAY/AhCh14P/xAAZEAEBAQADAAAAAAAAAAAAAAABEQAQIXH/2gAIAQEAAT8hUArrqB66BO+CAUKMqqtd/9oADAMBAAIAAwAAABArL//EABYRAQEBAAAAAAAAAAAAAAAAABEQIf/aAAgBAwEBPxAOz//EABgRAQEAAwAAAAAAAAAAAAAAABEAASEx/9oACAECAQE/EM0mRvt//8QAGxABAQACAwEAAAAAAAAAAAAAAREAIRAxQYH/2gAIAQEAAT8QEgUoNszXJSnpi6YfeDzojuOOXJtV25//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwX/2gAMAwEAAhADEAAAAVPlo0IqMDj/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADERL/2gAIAQEAAQUCyLQxDLyZWTk//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABcRAQEBAQAAAAAAAAAAAAAAAAEAAxH/2gAIAQIBAT8B0UOkX//EABoQAAEFAQAAAAAAAAAAAAAAAAABAhARIUH/2gAIAQEABj8CLwpYdvI//8QAGxABAAICAwAAAAAAAAAAAAAAAREhABBBYXH/2gAIAQEAAT8haEuWcDi8RYJO9EjR61//2gAMAwEAAgADAAAAEHPv/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxCi7H//xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQIBAT8QTkjG/8QAHBABAAICAwEAAAAAAAAAAAAAAQARITEQUWGR/9oACAEBAAE/EAE2lhUNXgvZfyP14A8CxRYBGe45bZ//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Mapbox官网&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-bbaa041e2d71c77ad261f244c2e319ea-d6978.jpeg&quot;
-        srcset=&quot;/static/header-bbaa041e2d71c77ad261f244c2e319ea-527f0.jpeg 300w,
-/static/header-bbaa041e2d71c77ad261f244c2e319ea-9a7cd.jpeg 600w,
-/static/header-bbaa041e2d71c77ad261f244c2e319ea-d6978.jpeg 1200w,
-/static/header-bbaa041e2d71c77ad261f244c2e319ea-4da97.jpeg 1475w&quot;
+        src=&quot;/static/header-b0c867989f10ee45f45a3c046a9307aa-d6978.jpeg&quot;
+        srcset=&quot;/static/header-b0c867989f10ee45f45a3c046a9307aa-527f0.jpeg 300w,
+/static/header-b0c867989f10ee45f45a3c046a9307aa-9a7cd.jpeg 600w,
+/static/header-b0c867989f10ee45f45a3c046a9307aa-d6978.jpeg 1200w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
@@ -82,59 +81,70 @@
 &lt;h2&gt;1. 加载地图：&lt;/h2&gt;
 &lt;p&gt;由于使用在线地图服务和 &lt;code&gt;style&lt;/code&gt; 时需要验证用户 &lt;code&gt;token&lt;/code&gt;，所以在使用 &lt;code&gt;mapboxgl&lt;/code&gt; 时需要先配置用户 &lt;code&gt;token&lt;/code&gt;（在Mapbox官网注册用户即可获取）。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;import mapboxgl from &apos;mapbox-gl&apos;;
-mapboxgl.accessToken = &apos;&lt;Your Token Here&gt;&apos;;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; mapboxgl &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;mapbox-gl&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+mapboxgl&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;accessToken &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;Your Token Here&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;接下来使用创建地图实例。主要配置项如下：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;const myMap = new mapboxgl.Map({
-  container: &apos;&lt;Id of Container Element&gt;&apos;,
-  style: &apos;&lt;Your Style Here&gt;&apos;,
-  center: [112.508203125, 37.97980872872457],
-  zoom: 4,
-  pitch: 0,
-  bearing: 0,
-});&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; myMap &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;mapboxgl&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  container&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;Id of Container Element&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  style&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;Your Style Here&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  center&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;112.508203125&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;37.97980872872457&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  zoom&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  pitch&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  bearing&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;其中，&lt;code&gt;container&lt;/code&gt; 是地图容器的元素 &lt;code&gt;id&lt;/code&gt;，&lt;code&gt;style&lt;/code&gt; 是地图样式的 &lt;code&gt;url&lt;/code&gt;，或者你自己定义的 &lt;code&gt;style&lt;/code&gt;（需遵循Mapbox样式规范），&lt;code&gt;center&lt;/code&gt; 是地图加载后默认的中心点位置，用以定位地图加载时的位置。&lt;code&gt;zoom&lt;/code&gt; &lt;code&gt;pitch&lt;/code&gt; &lt;code&gt;bearing&lt;/code&gt; 分别指缩放级别、地面法线偏移角、地轴偏移角等，用以确定当前视窗所显示的地图区域和空间关系。配置项的意义均可查看官网文档。&lt;/p&gt;
 &lt;h2&gt;2. 绘制图形&lt;/h2&gt;
 &lt;p&gt;这里主要介绍视频中的3D建筑、飞线动画等是如何实现的。这里以相关代码片段来介绍实践的方法。&lt;/p&gt;
 &lt;p&gt;在Mapbox中绘制图形时， &lt;code&gt;layer&lt;/code&gt; 和 &lt;code&gt;source&lt;/code&gt; 是最重要的一组概念，后者用于存储图形的数据内容，前者则是图形在3D场景中的表现（图层）。在Mapbox中，图层一旦被创建，与其同名（&lt;code&gt;id&lt;/code&gt;相同）的数据源源（即&lt;code&gt;source&lt;/code&gt;）也必然被创建。反之，也可以在创建source后再创建一个图层使用这个已创建的数据源，这时数据源与图层间并不要求同名。而我们通过改变数据来驱动图形变化，便是才去的第二种方式：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;// 创建id为buildings的数据源
-myMap.addSource(&apos;buildings&apos;, {
- type: &apos;geojson&apos;,
- data: &apos;&lt;GeoJson Contents&gt;&apos;,
-});
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 创建id为buildings的数据源&lt;/span&gt;
+myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addSource&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;buildings&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;geojson&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+ data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;GeoJson Contents&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-// 使用buildings的数据来绘制id为building_layer的图形
-myMap.addLayer({
-  id: &apos;building_layer&apos;,
-  type: &apos;fill-extrusion&apos;,
-  source: &apos;buildings&apos;,
-  ...&lt;Other Options&gt;,
-});&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 使用buildings的数据来绘制id为building_layer的图形&lt;/span&gt;
+myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addLayer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;building_layer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;fill-extrusion&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  source&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;buildings&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Other Options&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;基于上面的方式，当数据改变时，我们只需要重设数据源的数据，即可驱动图层重绘：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;if (myMap.getLayer(&apos;building_layer&apos;)) {
-  myMap.getSource(&apos;buildings&apos;).setData(&lt;New GeoJson Contents&gt;);
-}&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getLayer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;building_layer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getSource&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;buildings&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;New &lt;span class=&quot;token class-name&quot;&gt;GeoJson&lt;/span&gt; Contents&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;至于3D效果及动画的具体实现，这里给出两个官网上的示例，相信大家能一目了然：&lt;/p&gt;
-&lt;p&gt;* i. &lt;a href=&quot;https://www.mapbox.com/mapbox-gl-js/example/3d-buildings/&quot;&gt;用3D形式呈现建筑&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;* ii. &lt;a href=&quot;https://www.mapbox.com/mapbox-gl-js/example/animate-point-along-route/&quot;&gt;给路径中的一个点添加动画效果&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mapbox.com/mapbox-gl-js/example/3d-buildings/&quot;&gt;用3D形式呈现建筑&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mapbox.com/mapbox-gl-js/example/animate-point-along-route/&quot;&gt;给路径中的一个点添加动画效果&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;3. 图形交互&lt;/h2&gt;
 &lt;p&gt;Mapbox提供的交互方法是比较灵活的，活学活用API文档便能实现各种炫酷、实用的交互效果。比如：使用
 &lt;code&gt;myMap.on(&apos;zoom&apos;, callback)&lt;/code&gt; 可以将图形与地图的缩放相绑定，当缩放系数小于某个值时，可以隐藏掉一些图形元素：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;myMap.on(&apos;zoom&apos;, () =&gt; {
-  if (myMap.getZoom() &lt;= 4) {
-    myMap.setLayoutProperty(&apos;building_layer&apos;, &apos;visibility&apos;, &apos;none&apos;);
-  } else {
-    myMap.setLayoutProperty(&apos;building_layer&apos;, &apos;visibility&apos;, &apos;visible&apos;);
-  }
-});&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;zoom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getZoom&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setLayoutProperty&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;building_layer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;visibility&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setLayoutProperty&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;building_layer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;visibility&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;visible&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;再比如，连续调用 &lt;code&gt;myMap.flyTo()&lt;/code&gt; 的方法使视图在地图上按照一定的轨迹缓慢移动，可以给用户一种模拟飞行的体验。视频中的自动巡视的效果正是这样实现的。&lt;/p&gt;
 &lt;p&gt;诸如 &lt;code&gt;click&lt;/code&gt; &lt;code&gt;mouseover&lt;/code&gt; &lt;code&gt;popup&lt;/code&gt; 等效果，官网文档中的示例已经具体呈现，这里就不详细展开了。&lt;/p&gt;
@@ -179,39 +189,31 @@ myMap.addLayer({
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;$ docker run --rm -it -v $(pwd):/data -p 8080:80&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;然后剩下来需要做的事情就是打开其导航页面 &lt;a href=&quot;http://localhost:8080/&quot;&gt;http://localhost:8080/&lt;/a&gt;（端口号取决于你的启动命令），然后跟着页面上的提示一步一步设置就好了（最后一步设置后会从OSM走动下载地图，所以一开始你不用担心数据从哪来），完全是傻瓜式的部署。&lt;/p&gt;
+&lt;p&gt;然后剩下来需要做的事情就是打开其导航页面 &lt;a href=&quot;http://localhost:8080/&quot;&gt;http://localhost:8080/&lt;/a&gt;（端口号取决于你的启动命令），然后跟着页面上的提示一步一步设置就好了（最后一步设置后会从OSM自动下载地图，所以一开始你不用担心数据从哪来），完全是傻瓜式的部署。&lt;/p&gt;
 &lt;h1&gt;四、性能调优&lt;/h1&gt;
 &lt;p&gt;在 Mapbox GL 实践的过程中，发现了一些影响应用整体性能的因素，故而在此陈述一番，为之后填坑的童鞋提供一些经验：&lt;/p&gt;
-&lt;blockquote&gt;
 &lt;ol&gt;
-&lt;li&gt;使用geo数据（如 GeoJson 格式数据）来定义图形的时候，若数据量过大，则会拖慢数据加载的速度，此时可考虑：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
+&lt;li&gt;
+&lt;p&gt;使用geo数据（如 GeoJson 格式数据）来定义图形的时候，若数据量过大，则会拖慢数据加载的速度，此时可考虑：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;i. 在 http 请求前后对数据进行合理的压缩和解压，以尽可能节省 http 请求传输的数据量&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ii. 条件允许的情况下，可将一组数据分片加载，以空间换时间&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;在 http 请求前后对数据进行合理的压缩和解压，以尽可能节省 http 请求传输的数据量&lt;/li&gt;
+&lt;li&gt;条件允许的情况下，可将一组数据分片加载，以空间换时间&lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;在 Mapboox 中绘制的图层不宜过多，一是不方便管理（当然，github上有很多管理Mapbox图层的第三方工具），一是图层过多会明显降低GL的渲染和响应性能。所以在绘制图形前，可以先考虑一下图层的划分，以最少的图层实现尽可能多的效果。&lt;/li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 Mapboox 中绘制的图层不宜过多，一是不方便管理（当然，github上有很多管理Mapbox图层的第三方工具），一是图层过多会明显降低GL的渲染和响应性能。所以在绘制图形前，可以先考虑一下图层的划分，以最少的图层实现尽可能多的效果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据量相同的情况下，使用 &lt;code&gt;mapboxgl.Marker&lt;/code&gt; 来添加标记，其性能不如使用 &lt;code&gt;type&lt;/code&gt; 为 &lt;code&gt;symbol&lt;/code&gt; 类型的图层来添加标记。原因在于前者生成的标记是一个个 DOM 元素，如果你可以想象在一个 web 页面中同时操作成百上千个 DOM 节点会是什么结果，那么你或许能明白我的建议。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;数据量相同的情况下，使用 &lt;code&gt;mapboxgl.Marker&lt;/code&gt; 来添加标记，其性能不如使用 &lt;code&gt;type&lt;/code&gt; 为 &lt;code&gt;symbol&lt;/code&gt; 类型的图层来添加标记。原因在于前者生成的标记是一个个 DOM 元素，如果你可以想象在一个 web 页面中同时操作成百上千个 DOM 节点会是什么结果，那么你或许能明白我的建议。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
 &lt;h1&gt;五、一点总结&lt;/h1&gt;
 &lt;p&gt;最后，在此总结下个人对 Mapbox 的一些感观。&lt;/p&gt;
 &lt;p&gt;Mapbox 的产品定位是随时随地的 GIS（跨平台、应用），它为我们提供了一系列的简单操作的 API，使得 GIS 开发变得灵活而有趣。尤其对于开发 GIS 类型的数据可视化应用，Mapbox 是绝佳的选择。&lt;/p&gt;
 &lt;p&gt;然而，如果你只是为了那些绚丽的 3D 效果的话，或许选择专门的框架更为合适。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】视觉吸引力在网页设计中的重要性]]></title><description><![CDATA[原文地址： http://blog.usabilla.com/visual-appeal-web-design/ 作者：Robyn Collinge…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in-web-design/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in-web-design/</guid><pubDate>Sun, 07 Jan 2018 01:12:08 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-d81a71b30b7e8e4f681b110fe518e6b0-4b4df.jpeg&quot;
+    href=&quot;/static/header-cdb4726e5011e25d077b76d384395a05-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -219,22 +221,22 @@ myMap.addLayer({
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 936px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 47.86324786324786%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQDBQb/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQP/2gAMAwEAAhADEAAAAWHc7Z0pEQ8v/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIDEQAEITP/2gAIAQEAAQUCWSjfJXZZAxxCSdj2/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQMBAT8BGb//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAEAAgEFAAAAAAAAAAAAAAABAAIREBIhMXH/2gAIAQEABj8Cd3OiFnHs7YZZaf/EABwQAQEAAgIDAAAAAAAAAAAAAAEAESFxgZGhsf/aAAgBAQABPyF8o7eJPaFcDqYr9oyR5b2r/9oADAMBAAIAAwAAABCv7//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QBk69v//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QeQGX/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARIUEQMVH/2gAIAQEAAT8QSAlFDwvqHu2Ay5iYgFQSw6U9fYFDNBHngv/Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABYdi0UmGZeP8A/8QAHBAAAgEFAQAAAAAAAAAAAAAAAQIDBBIhIjNC/9oACAEBAAEFAhIQ92JXZZAdvNR2/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQMBAT8BV//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhEQcf/aAAgBAQAGPwJ7xpU89GSUf//EABwQAQEAAAcAAAAAAAAAAAAAAAEAEBEhMUFRsf/aAAgBAQABPyFganVk18QroibjHjgv/9oADAMBAAIAAwAAABC3L//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QCTr2/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/ENgMv//EABwQAQEAAgIDAAAAAAAAAAAAAAERACExYZGhsf/aAAgBAQABPxDhBGGTRvCI2ilMZgGgUNY2/m6MS2VpXes9w+Gf/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-d81a71b30b7e8e4f681b110fe518e6b0-4b4df.jpeg&quot;
-        srcset=&quot;/static/header-d81a71b30b7e8e4f681b110fe518e6b0-6be0a.jpeg 300w,
-/static/header-d81a71b30b7e8e4f681b110fe518e6b0-92dc8.jpeg 600w,
-/static/header-d81a71b30b7e8e4f681b110fe518e6b0-4b4df.jpeg 936w&quot;
-        sizes=&quot;(max-width: 936px) 100vw, 936px&quot;
+        src=&quot;/static/header-cdb4726e5011e25d077b76d384395a05-d6978.jpeg&quot;
+        srcset=&quot;/static/header-cdb4726e5011e25d077b76d384395a05-527f0.jpeg 300w,
+/static/header-cdb4726e5011e25d077b76d384395a05-9a7cd.jpeg 600w,
+/static/header-cdb4726e5011e25d077b76d384395a05-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -437,7 +439,7 @@ myMap.addLayer({
 &lt;p&gt;确保您的网站不仅美观，并且易于发现、使用和访问。将功能和视觉吸引力相结合，将确保您和您的访问者充分利用您的网站，并为打造卓越的用户体验奠定基础。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React 高阶组件介绍]]></title><description><![CDATA[高阶组件的定义 HoC 不属于 React 的 API，它是一种实现模式，本质上是一个函数，接受一个或多个 React 组件作为参数，返回一个全新的 React…]]></description><link>https://knownsec-fed.com/2018-01-06-react-higher-order-component/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-06-react-higher-order-component/</guid><pubDate>Sat, 06 Jan 2018 12:01:03 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-e40385dad6404c53aab038d08436786f-dd4dc.jpeg&quot;
+    href=&quot;/static/header-ccc8d530f0e531d1004e03d9fb1a0f3b-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -449,19 +451,17 @@ myMap.addLayer({
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAABBAX/2gAMAwEAAhADEAAAAdk0TVmvECf/xAAZEAACAwEAAAAAAAAAAAAAAAAAARARITH/2gAIAQEAAQUCMLQ+R//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/Aar/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGI/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEgMf/aAAgBAQAGPwI1T//EABoQAAICAwAAAAAAAAAAAAAAAAAhAREgMfD/2gAIAQEAAT8hVOTlIzeF/9oADAMBAAIAAwAAABC8/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABEEH/2gAIAQMBAT8QQZH/xAAXEQADAQAAAAAAAAAAAAAAAAABEBFB/9oACAECAQE/EBWp/8QAGhABAQACAwAAAAAAAAAAAAAAAREAIRAxQf/aAAgBAQABPxCAIGw3kRSUu4cQRLPcAqnRz//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAABBAX/2gAMAwEAAhADEAAAAdk0TVmuEif/xAAZEAACAwEAAAAAAAAAAAAAAAAAARARITH/2gAIAQEAAQUCMLQ+R//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/Aar/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGI/8QAFhAAAwAAAAAAAAAAAAAAAAAAACAx/9oACAEBAAY/Air/AP/EABkQAQADAQEAAAAAAAAAAAAAAAEAETEQcf/aAAgBAQABPyFoLWeMSdm3f//aAAwDAQACAAMAAAAQP+//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFB/9oACAEDAQE/EEHLV//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQIBAT8QFan/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhMRBBYf/aAAgBAQABPxBVQN6jm04a6uUDL0gvm//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Header&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-e40385dad6404c53aab038d08436786f-d6978.jpeg&quot;
-        srcset=&quot;/static/header-e40385dad6404c53aab038d08436786f-527f0.jpeg 300w,
-/static/header-e40385dad6404c53aab038d08436786f-9a7cd.jpeg 600w,
-/static/header-e40385dad6404c53aab038d08436786f-d6978.jpeg 1200w,
-/static/header-e40385dad6404c53aab038d08436786f-fee16.jpeg 1800w,
-/static/header-e40385dad6404c53aab038d08436786f-dd4dc.jpeg 1920w&quot;
+        src=&quot;/static/header-ccc8d530f0e531d1004e03d9fb1a0f3b-d6978.jpeg&quot;
+        srcset=&quot;/static/header-ccc8d530f0e531d1004e03d9fb1a0f3b-527f0.jpeg 300w,
+/static/header-ccc8d530f0e531d1004e03d9fb1a0f3b-9a7cd.jpeg 600w,
+/static/header-ccc8d530f0e531d1004e03d9fb1a0f3b-d6978.jpeg 1200w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1113,7 +1113,7 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB0JU6Ljgf/8QAGBABAAMBAAAAAAAAAAAAAAAAAQACETH/2gAIAQEAAQUC2rWlqqmzkAw5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAwACAwAAAAAAAAAAAAAAAAEhAhAxQWH/2gAIAQEABj8CbS7MuFaRE9Mpr//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVFh/9oACAEBAAE/IaBKEFRA8A9ZY6Y6DBeSCoHN8fIaxP/aAAwDAQACAAMAAAAQyy//xAAXEQADAQAAAAAAAAAAAAAAAAAQESFx/9oACAEDAQE/EKsH/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEhMf/aAAgBAgEBPxCNU//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExcUFhof/aAAgBAQABPxDLyFXd5PsvzYy1qcdyxbBRZUISHRwJVJt4HPl3AAAHqf/Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdCVOjccYv/EABgQAQADAQAAAAAAAAAAAAAAAAEAAhEx/9oACAEBAAEFAtq1paqps5AMOf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAMAAgMAAAAAAAAAAAAAAAABIQIxEEFh/9oACAEBAAY/Am0uzLStNE9Mpx//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMVFh/9oACAEBAAE/IaBKEFRA8A9ZYzMdBgvJBUDt8+Q1if/aAAwDAQACAAMAAAAQzy//xAAXEQADAQAAAAAAAAAAAAAAAAAQESFx/9oACAEDAQE/EHMH/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxBbCI//xAAcEAEAAwACAwAAAAAAAAAAAAABABEhMXFBYaH/2gAIAQEAAT8Qy8hV3eT7L82MtanHcsW4UWVCEh0cCVSbeBz5dwAAB6n/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1281,7 +1281,7 @@ force&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAL/2gAMAwEAAhADEAAAAUN15WaKi6//xAAbEAACAQUAAAAAAAAAAAAAAAABEQACAxAiQv/aAAgBAQABBQJBU7BTm3j/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFhEAAwAAAAAAAAAAAAAAAAAAAhAx/9oACAECAQE/AQq//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQETGR/9oACAEBAAY/Arp9NNQhx//EABsQAAICAwEAAAAAAAAAAAAAAAERABAxUXHw/9oACAEBAAE/ISFQ9eCK1B2oTLOn/9oADAMBAAIAAwAAABBTP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EGz/xAAXEQADAQAAAAAAAAAAAAAAAAABEBFB/9oACAECAQE/ECkDV//EABwQAQACAgMBAAAAAAAAAAAAAAEAETHhEEGR0f/aAAgBAQABPxA+ockNPVwx3eETmU3PyMmqmo3x4//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAL/2gAMAwEAAhADEAAAAUN15WaKi6//xAAbEAACAQUAAAAAAAAAAAAAAAABEQACAxAiQv/aAAgBAQABBQJBU7BTm3j/xAAVEQEBAAAAAAAAAAAAAAAAAAACEP/aAAgBAwEBPwEz/8QAFhEAAwAAAAAAAAAAAAAAAAAAAhAx/9oACAECAQE/AQq//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQETGR/9oACAEBAAY/Arp9NNQhx//EABsQAAICAwEAAAAAAAAAAAAAAAERABAxUXHw/9oACAEBAAE/ISFQ9eCK1B2oTLOn/9oADAMBAAIAAwAAABBTP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EEs//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAgEBPxApA1f/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEx4RBBkdH/2gAIAQEAAT8QPqHJDT1cMd3hE5lNz8jJqpqN8eP/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
