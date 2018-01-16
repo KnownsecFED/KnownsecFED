@@ -1,0 +1,512 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/component---src-layouts-index-js-19abfd0d4478d38d1ce3.js" as="script"/><link rel="preload" href="/component---src-templates-blog-post-js-31c7bec8156f2238c9e8.js" as="script"/><link rel="preload" href="/path---2018-01-12-translation-react-animations-in-depth-65e54d0c599cac1dc8d9.js" as="script"/><link rel="preload" href="/app-27e798555a049b59a115.js" as="script"/><link rel="preload" href="/commons-3f8cdb987559d31a3a4e.js" as="script"/><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-27e798555a049b59a115.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","107818501498521":"component---src-templates-blog-post-js-31c7bec8156f2238c9e8.js","35783957827783":"component---src-pages-index-js-20de4abb87dceb4c3edf.js","60335399758886":"path----557518bd178906f8d58a.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","279905940220328":"path---2018-01-05-d-3-js-v-3-data-driven-and-d-3-force-c2b3abbc6d3ed07178bf.js","219764097763031":"path---2018-01-05-to-vim-fff1fea994c5a26ba607.js","157257592092981":"path---2018-01-06-react-higher-order-component-30f0f803666fdf31c948.js","262578598058983":"path---2018-01-08-mapbox-gl-js-38485ce13ef7e9ed9085.js","89025254229525":"path---2018-01-05-create-a-redux-middleware-70a6f2f9f43ac05d1954.js","196068886186420":"path---2018-01-07-the-importance-of-visual-appeal-in-web-design-0c4c1258d542649169f1.js","69481715157605":"path---2018-01-10-ru-he-kuo-zhan-create-react-app-de-webpack-pei-zhi-0d58df41a8d8a9e87658.js","32967805505621":"path---2018-01-14-antd-yuan-ma-jie-du-notification-d70cf09c6bc3e36be90f.js","23187391589446":"path---2018-01-12-translation-react-animations-in-depth-65e54d0c599cac1dc8d9.js","277460532986788":"path---2018-01-14-learn-koa-intro-cdeefa51126ba8ae8db7.js","6793600212152":"path---2018-01-13-zi-ji-dong-shou-xie-yi-ge-simplevue-033d555b623dd419f62b.js","46988809625074":"path---2018-01-14-ui-zhong-de-pai-ban-chu-xue-zhe-zhi-nan-569875628dd942404891.js","142629428675168":"path---index-dbb899ac3ad1c574c0c5.js","114276838955818":"component---src-layouts-index-js-19abfd0d4478d38d1ce3.js"}/*]]>*/</script><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">【翻译】React Web 动画的 5 种创建方式，每一种都不简单 | KnownsecFED</title><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:87.5%/1.5em 'PT Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'PT Sans',sans-serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;margin-bottom:0;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:hsla(0,0%,0%,0.9);font-family:'Oswald',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:hsla(0,0%,0%,0.9);font-family:'Oswald',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:hsla(0,0%,0%,0.9);font-family:'Oswald',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:hsla(0,0%,0%,0.9);font-family:'Oswald',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:hsla(0,0%,0%,0.9);font-family:'Oswald',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:hsla(0,0%,0%,0.9);font-family:'Oswald',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}ul{margin-left:1.5rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.5rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;font-size:0.85rem;line-height:1.5rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;font-size:1rem;line-height:1.5rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}blockquote{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0.9375rem;padding-right:0;padding-top:0;margin-bottom:1.5rem;font-size:1.1487rem;line-height:1.5rem;border-left:0.5625rem solid #292d35;color:hsla(0,0%,0%,0.65);font-style:italic;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.5rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.5rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.5rem;margin-bottom:calc(1.5rem / 2);margin-top:calc(1.5rem / 2);}li > ul{margin-left:1.5rem;margin-bottom:calc(1.5rem / 2);margin-top:calc(1.5rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.5rem / 2);}code{font-size:0.85rem;line-height:1.5rem;}kbd{font-size:0.85rem;line-height:1.5rem;}samp{font-size:0.85rem;line-height:1.5rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1rem;padding-right:1rem;padding-top:0.75rem;padding-bottom:calc(0.75rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}a{color:#292d35;text-decoration:none;text-shadow:.03em 0 #fff,-.03em 0 #fff,0 .03em #fff,0 -.03em #fff,.06em 0 #fff,-.06em 0 #fff,.09em 0 #fff,-.09em 0 #fff,.12em 0 #fff,-.12em 0 #fff,.15em 0 #fff,-.15em 0 #fff;background-image:linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #292d35 1px, #292d35 2px, rgba(0, 0, 0, 0) 2px);background-image:none;text-shadow:none;}a:hover,a:active{text-shadow:none;background-image:none;}h1,h2,h3,h4,h5,h6{margin-top:3rem;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.5rem;color:hsla(0,0%,0%,0.8);font-style:normal;font-weight:400;}blockquote cite:before{content:"— ";}@media only screen and (max-width:480px){html{font-size:106.25%;line-height:1.45em;}blockquote{border-left:0.28125rem solid #292d35;color:hsla(0,0%,0%,0.59);padding-left:0.84375rem;font-style:italic;margin-left:-1.125rem;margin-right:0;}}button{outline:none;}</style><link href="//fonts.googleapis.com/css?family=Oswald:700|PT+Sans:400,400i,700" rel="stylesheet" type="text/css"/><script>/*<![CDATA[*/!function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",["/commons-3f8cdb987559d31a3a4e.js","/app-27e798555a049b59a115.js","/path---2018-01-12-translation-react-animations-in-depth-65e54d0c599cac1dc8d9.js","/component---src-templates-blog-post-js-31c7bec8156f2238c9e8.js","/component---src-layouts-index-js-19abfd0d4478d38d1ce3.js"])/*]]>*/</script><style id="gatsby-inlined-css">.header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;width:100%;padding:0 2.5%;height:60px}.header-search{display:none;position:relative}.header-search input{height:30px;width:167px;outline:none;border-radius:28px;border-width:inherit;border:1px solid #f1f2f3;padding-left:10px;background-color:#f5f9fc}.header-search img{position:absolute;right:9px;top:5px;width:20px;height:20px}.header a>img{width:200px;height:44px}.header-navigation button{display:inline-block;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%233585F3' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:50%;background-color:transparent;background-size:24px 24px;width:50px;height:40px;padding:8px 12px;font-size:20px;line-height:1;border:1px solid #3585f3;border-radius:4px;margin-right:20px}@media only screen and (min-width:768px){.header{padding:0 8%}.header-navigation{display:none}.header-search{display:-webkit-box;display:-ms-flexbox;display:flex}}.nav-menu{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:absolute;top:60px;left:0;width:100%;background-color:#fff;padding:10px;overflow:scroll}.nav-menu,.nav-menu a{display:-webkit-box;display:-ms-flexbox;display:flex}.nav-menu a{padding-left:20px;position:relative;text-align:left;height:60px;border-bottom:1px solid #e7ecf0;font-size:20px;line-height:30px;font-weight:700;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:48px}.footer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%}.footer-link{padding:50px 8%;border-bottom:1px solid #f1f2f3}.footer-item,.footer-link{display:-ms-grid;display:grid;grid-row-gap:5px;-ms-grid-columns:1fr;grid-template-columns:1fr;-ms-grid-rows:auto;grid-template-rows:auto}.footer-item>header{font-size:16px;font-weight:700}.footer-item div{white-space:nowrap;color:#a0a0a0}.footer-bottom{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;height:50px;padding:0 2.5%}.footer-social a>img{width:24px;height:24px;border:1px solid #d4d6de;border-radius:50%;margin-right:10px}@media only screen and (min-width:768px){.footer-link{-ms-grid-columns:(1fr)[3];grid-template-columns:repeat(3,1fr);grid-column-gap:10px}.footer-item:first-of-type,.footer-item:nth-of-type(2){-ms-grid-columns:(1fr)[2];grid-template-columns:repeat(2,1fr);grid-column-gap:10px}.footer-item:first-of-type > header,.footer-item:nth-of-type(2)>header{grid-column:1/3}.footer-bottom{padding:0 8%}}.official-account{margin-bottom:20px;padding:20px}.official-account span{display:inline-block;margin-top:20px;font-size:12px;text-align:center;width:100%}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.layout{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.layout,.layout-container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.layout,.layout-container,.layout-content{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%}.layout-content{background-color:#f5f9fc}.layout-main{padding:0 5%;width:100%}.layout-official-account{display:inline-block;text-align:center}@media only screen and (min-width:768px){.layout-main{padding:0 8%}.layout-official-account{display:none}}.blog-header{background-color:inherit}.blog-header span{padding:2px 10px}.blog-header span:first-of-type{color:#fff;background-color:#3585f3}.blog-header span:nth-of-type(3){color:#a0a0a0;font-size:12px}.sidebar{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.sidebar-hots{padding:10px}.sidebar-hots header:not(:first-of-type){padding:10px 0;padding-left:10px;position:relative;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:200px}.sidebar-hots header:not(:first-of-type):before{position:absolute;content:"*";left:0;top:13px;color:#4995ed}.sidebar-hots header:first-of-type{border-bottom:1px solid #f1f2f3;font-size:20px;padding:5px 0 15px}.post{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.post-main{margin:40px 0;padding:20px;background-color:#fff;min-width:0}.post-main a{color:#3585f3}.post-header{border-bottom:1px solid #f1f2f3;margin-bottom:50px;padding-left:15px}.post-header h1{margin-top:0}.post-sidebar{display:none}.post-notification{font-weight:700}@media only screen and (min-width:768px){.post-sidebar{display:inline-block;-webkit-box-flex:0;-ms-flex:0 0 240px;flex:0 0 240px;margin-top:40px;margin-left:50px}}.blog{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;overflow:hidden;min-width:0}.blog img{-webkit-box-flex:0;-ms-flex:0 0 150px;flex:0 0 150px}.blog header{font-weight:700;font-size:18px;padding:20px 0 10px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.blog p{padding:10px 0 20px}.blogs{display:-ms-grid;display:grid;-ms-grid-columns:1fr;grid-template-columns:1fr;-ms-grid-rows:auto;grid-template-rows:auto;grid-column-gap:20px;padding-top:40px}@media only screen and (min-width:768px){.blogs{-ms-grid-columns:(1fr)[3];grid-template-columns:repeat(3,1fr)}}.baner{display:none;-ms-grid-columns:(1fr)[3];grid-template-columns:repeat(3,1fr);margin:0 auto}.baner div:first-of-type{grid-column:1/3;-ms-grid-row-span:2;-ms-grid-row:1;grid-row:1/span 2;position:relative}.baner div:nth-of-type(3){grid-column:3/4}.baner-item{position:relative;height:100%}.baner-left,.baner-right{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#fff;position:absolute;top:calc(50% - 30px);width:46px;height:61px;background-color:rgba(0,0,0,.5);border:0;cursor:pointer}.baner-left{left:0}.baner-right{right:0}.baner-item a>img{width:100%;height:100%}.baner-item header{position:absolute;bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;width:100%;height:50px;background:linear-gradient(transparent,#000);font-size:20px}.baner-item header>span{color:#fff;text-shadow:none;padding-left:5px;padding-bottom:5px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}@media only screen and (min-width:768px){.baner{display:-ms-grid;display:grid}}.index{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%}.index-filters{display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[7];grid-template-columns:repeat(7,1fr);padding:20px;margin:0 20px;width:100%;background-color:#fff;overflow-x:scroll}.index-filters button{border:0;cursor:pointer;background-color:transparent;min-width:80px}.index-filter-selected{color:#5494f2}.index-baner{width:100%;padding-top:40px}.index-baner,.index-main{display:-webkit-box;display:-ms-flexbox;display:flex}.index-main{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.index-more{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:40px 0;background-color:#f5f9fc;width:100%}.index-more button{background-color:transparent;border:1px solid #2886f2;border-radius:30px;color:#2886f2;padding:0 20px;cursor:pointer;width:318px;height:30px}.index-sidebar{display:none}@media only screen and (min-width:768px){.index-sidebar{display:inline-block;-webkit-box-flex:0;-ms-flex:0 0 240px;flex:0 0 240px;margin-top:20px;margin-left:50px}.index-filters{overflow-x:hidden}}</style></head><body><div id="___gatsby"><div class="layout" data-reactroot="" data-reactid="1" data-react-checksum="-1783633014"><div class="header" data-reactid="2"><a href="/" data-reactid="3"><img src="/static/logo.3518afe5.png" alt="logo" data-reactid="4"/></a><div class="header-search" data-reactid="5"><input type="text" placeholder="搜索" data-reactid="6"/><!-- react-text: 7 --> <!-- /react-text --><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ1MSA0NTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ1MSA0NTE7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIGNsYXNzPSIiPjxnPjxnPgoJPHBhdGggZD0iTTQ0Ny4wNSw0MjhsLTEwOS42LTEwOS42YzI5LjQtMzMuOCw0Ny4yLTc3LjksNDcuMi0xMjYuMUMzODQuNjUsODYuMiwyOTguMzUsMCwxOTIuMzUsMEM4Ni4yNSwwLDAuMDUsODYuMywwLjA1LDE5Mi4zICAgczg2LjMsMTkyLjMsMTkyLjMsMTkyLjNjNDguMiwwLDkyLjMtMTcuOCwxMjYuMS00Ny4yTDQyOC4wNSw0NDdjMi42LDIuNiw2LjEsNCw5LjUsNHM2LjktMS4zLDkuNS00ICAgQzQ1Mi4yNSw0NDEuOCw0NTIuMjUsNDMzLjIsNDQ3LjA1LDQyOHogTTI2Ljk1LDE5Mi4zYzAtOTEuMiw3NC4yLTE2NS4zLDE2NS4zLTE2NS4zYzkxLjIsMCwxNjUuMyw3NC4yLDE2NS4zLDE2NS4zICAgcy03NC4xLDE2NS40LTE2NS4zLDE2NS40QzEwMS4xNSwzNTcuNywyNi45NSwyODMuNSwyNi45NSwxOTIuM3oiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMjOEQ4RjlmaWxsOiMjOEQ4RjlmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiM4RDhGOTFmaWxsOiM4RDhGOTFmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDBmaWxsOiMwMDAwMDAiIGZpbGw9IiM4RDhGOTEiLz4KPC9nPjwvZz4gPC9zdmc+Cg==" data-reactid="8"/></div><div class="header-navigation" data-reactid="9"><button data-reactid="10"></button></div><!-- react-empty: 11 --></div><div class="layout-container" data-reactid="12"><div class="layout-content" data-reactid="13"><div class="layout-main" data-reactid="14"><div class="post" data-reactid="15"><!-- react-empty: 16 --><div class="post-main" data-reactid="17"><div class="post-header" data-reactid="18"><h1 data-reactid="19">【翻译】React Web 动画的 5 种创建方式，每一种都不简单</h1><div class="blog-header" data-reactid="20"><span data-reactid="21">前端</span><span data-reactid="22">枫上雾棋</span><span data-reactid="23">2018-01-11</span></div></div><div data-reactid="24"><p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/header-772b9056a34c15f58bf4cf6bf00c21c8-d6978.jpeg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAd6bIC//xAAYEAACAwAAAAAAAAAAAAAAAAAAAQIRIP/aAAgBAQABBQJkXef/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAEAAgMAAAAAAAAAAAAAAAABESEAIEH/2gAIAQEAAT8hUFE4rarmv//aAAwDAQACAAMAAAAQ/wDP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARQRBR/9oACAEBAAE/EEVReESaVaRrvaHCUT//2Q=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Header"
+        title=""
+        src="/static/header-772b9056a34c15f58bf4cf6bf00c21c8-d6978.jpeg"
+        srcset="/static/header-772b9056a34c15f58bf4cf6bf00c21c8-527f0.jpeg 300w,
+/static/header-772b9056a34c15f58bf4cf6bf00c21c8-9a7cd.jpeg 600w,
+/static/header-772b9056a34c15f58bf4cf6bf00c21c8-d6978.jpeg 1200w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><code>原文地址</code>：<a href="http://t.cn/R9DyGsz">React Animations in Depth</a></p>
+<p><code>作者</code>：Nader Dabit</p>
+<blockquote>
+<p>在 <a href="http://t.cn/RQVluB2">Tweet</a> 得到很多大佬关于 <code>React Web 动画</code> 不错的的回应，于是决定在这里分享给大家</p>
+</blockquote>
+<p>以下便是本文要分享的创建 <code>React 动画</code> 的几种方式。</p>
+<ul>
+<li>CSS animation</li>
+<li>JS Style</li>
+<li><a href="http://t.cn/RLeuFGX">React Motion</a></li>
+<li><a href="http://t.cn/R9d015g">Animated</a></li>
+<li><a href="http://t.cn/R9dOzS1">Velocity React</a></li>
+</ul>
+<p>下面，就让我们开始吧。</p>
+<h2>CSS animation</h2>
+<p>给元素添加 <code>class</code> 是最简单，最常见的书写方式。如果你的 <code>app</code> 正在使用 <code>CSS</code>，那么这将是你最愉快的选择。</p>
+<p><code>赞同者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>我们只需修改 opacity 和 transform 这样的属性，就可构建基本的动画，而且，在组件中，我们可以非常容易地通过 state 去更新这些值。</code></pre>
+      </div>
+<p><code>反对者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>这种方式并不跨平台，在 React Native 中就不适用，而且，对于较复杂的动画，这种方式难以控制。</code></pre>
+      </div>
+<p>接下来，我们通过一个实例来体验一下这种创建方式：<code>当 input focus 的时候，我们增加它的宽度</code>。</p>
+<p>首先，我们要创建两个 <code>input</code> 要用到的 <code>class</code>。</p>
+<div class="gatsby-highlight">
+      <pre class="language-css"><code><span class="token selector">.input</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> 4px<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #dddddd<span class="token punctuation">;</span>
+  <span class="token property">transition</span><span class="token punctuation">:</span> width .35s linear<span class="token punctuation">;</span>
+  <span class="token property">outline</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.input-focused</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 240px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<p>一个是它 <code>原始</code> 的样式，一个是它 <code>focus</code> 后的样式。</p>
+<p>下面，我们就开始书写我们的 <code>React 组件</code>。</p>
+<p>在此，推荐一个可以 <a href="https://codesandbox.io/">在线编写 React</a> 的工具，官网做的也很 Nice，读者不想构建自己的 <code>React app</code>，可以在其中检验以下代码的正确性。</p>
+<p><img src="/animation-34e12b363e28584285837b5b9fbaca03.gif" alt="animation"></p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  state <span class="token operator">=</span> <span class="token punctuation">{</span>
+    focused<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>_input<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'focus'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>focus<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>_input<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'blur'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>focus<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">focus</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span>prevState <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+      focused<span class="token punctuation">:</span> <span class="token operator">!</span>prevState<span class="token punctuation">.</span>focused<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">"App"</span><span class="token operator">></span>
+        <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">"container"</span><span class="token operator">></span>
+          <span class="token operator">&lt;</span>input
+            ref<span class="token operator">=</span><span class="token punctuation">{</span>input <span class="token operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span>_input <span class="token operator">=</span> input<span class="token punctuation">}</span>
+            className<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span><span class="token string">'input'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>focused <span class="token operator">&amp;&amp;</span> <span class="token string">'input-focused'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">)</span><span class="token punctuation">}</span>
+          <span class="token operator">/</span><span class="token operator">></span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<ul>
+<li>我们有一个 <code>focused</code> 的 <code>state</code>，初始值为 <code>false</code>，我们通过 <code>更新该值</code> 来创建我们的动画。</li>
+<li>在 <code>componentDidMount</code> 中，我们添加两个 <code>监听器</code>，一个 <code>focus</code>，一个 <code>blur</code>，指定的 <code>回调函数都</code>是 <code>focus</code>。</li>
+<li><code>focus</code> 方法会获取之前 <code>focused</code> 的值，并负责 <code>切换</code> 该值。</li>
+<li>在 <code>render</code> 中，我们通过 <code>state</code> 来改变 <code>input</code> 的 <code>classNames</code>，从而实现我们的动画。</li>
+</ul>
+<h2>JS Style</h2>
+<p><code>JavaScipt styles</code> 跟 <code>CSS 中的 classes</code> 类似，在 <code>JS</code> 文件中，我们就可以拥有所有逻辑。</p>
+<p><code>赞同者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>跟 CSS 动画一样，且它的表现更加清晰。它也不失为一个好方法，可以不必依赖任何 CSS。</code></pre>
+      </div>
+<p><code>反对者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>跟 CSS 动画一样，也是不跨平台的，且动画一旦复杂，也难以控制。</code></pre>
+      </div>
+<p>在下面的实例中，我们将创建一个 <code>input</code>，当用户输入时，我们将一个 <code>button</code> 从 <code>disable</code> 转变为 <code>enable</code>。</p>
+<p><img src="/Style-204b6a2d062a79cb40464757c4080aec.gif" alt="style"></p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  state <span class="token operator">=</span> <span class="token punctuation">{</span>
+    disabled<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">onChange</span> <span class="token operator">=</span> <span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> length <span class="token operator">=</span> e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>value<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>length <span class="token operator">></span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span> disabled<span class="token punctuation">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span> disabled<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> disabled <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">;</span>
+    <span class="token keyword">const</span> label <span class="token operator">=</span> disabled <span class="token operator">?</span> <span class="token string">'Disabled'</span> <span class="token punctuation">:</span> <span class="token string">'Submit'</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>App<span class="token punctuation">}</span><span class="token operator">></span>
+        <span class="token operator">&lt;</span>input
+          style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>input<span class="token punctuation">}</span>
+          onChange<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>onChange<span class="token punctuation">}</span>
+        <span class="token operator">/</span><span class="token operator">></span>
+        <span class="token operator">&lt;</span>button
+          style<span class="token operator">=</span><span class="token punctuation">{</span>Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+            styles<span class="token punctuation">.</span>button<span class="token punctuation">,</span>
+            <span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>disabled <span class="token operator">&amp;&amp;</span> styles<span class="token punctuation">.</span>buttonEnabled
+          <span class="token punctuation">)</span><span class="token punctuation">}</span>
+          disabled<span class="token operator">=</span><span class="token punctuation">{</span>disabled<span class="token punctuation">}</span>
+        <span class="token operator">></span>
+          <span class="token punctuation">{</span>label<span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">const</span> styles <span class="token operator">=</span> <span class="token punctuation">{</span>
+  App<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    display<span class="token punctuation">:</span> <span class="token string">'flex'</span><span class="token punctuation">,</span>
+    justifyContent<span class="token punctuation">:</span> <span class="token string">'left'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  input<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    marginRight<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    padding<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    width<span class="token punctuation">:</span> <span class="token number">190</span><span class="token punctuation">,</span>
+    fontSize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    border<span class="token punctuation">:</span> <span class="token string">'none'</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'#ddd'</span><span class="token punctuation">,</span>
+    outline<span class="token punctuation">:</span> <span class="token string">'none'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  button<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    width<span class="token punctuation">:</span> <span class="token number">90</span><span class="token punctuation">,</span>
+    height<span class="token punctuation">:</span> <span class="token number">43</span><span class="token punctuation">,</span>
+    fontSize<span class="token punctuation">:</span> <span class="token number">17</span><span class="token punctuation">,</span>
+    border<span class="token punctuation">:</span> <span class="token string">'none'</span><span class="token punctuation">,</span>
+    borderRadius<span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+    transition<span class="token punctuation">:</span> <span class="token string">'.25s all'</span><span class="token punctuation">,</span>
+    cursor<span class="token punctuation">:</span> <span class="token string">'pointer'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  buttonEnabled<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    width<span class="token punctuation">:</span> <span class="token number">120</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'#ffc107'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<ul>
+<li>我们有一个 <code>disabled</code> 的 <code>state</code>，初始值为 <code>true</code>。</li>
+<li><code>onChange</code> 方法会获取用户的输入，当输入非空时，就切换 <code>disabled</code> 的值。</li>
+<li>根据 <code>disabled</code> 的值，确定是否将 <code>buttonEnabled</code> 添加到 <code>button</code> 中。</li>
+</ul>
+<h2>React Motion</h2>
+<p><code>React Motion</code> 是 <a href="https://medium.com/@chenglou">Cheng Lou</a> 书写的一个非常不错的开源项目。它的思想是你可以对 <code>Motion 组件</code> 进行简单的 <code>样式设置</code>，然后你就可以在 <code>回调函数</code> 中通过这些值，享受动画带来的乐趣。</p>
+<p>对于绝大多数的动画组件，我们往往不希望对 <code>动画属性</code>（宽高、颜色等）的变化时间做 <code>硬编码</code>处理，<code>react-motion</code> 提供的 <code>spring</code> 函数就是用来解决这一需求的，它可以逼真地模仿真实的物理效果，也就是我们常见的各类 <code>缓动效果</code>。</p>
+<p>下面是一个<code>简单</code>的示例。</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token operator">&lt;</span>Motion style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> x<span class="token punctuation">:</span> <span class="token function">spring</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>x<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">></span>
+  <span class="token punctuation">{</span>
+    <span class="token punctuation">(</span><span class="token punctuation">{</span> x <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span>
+      <span class="token operator">&lt;</span>div style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> transform<span class="token punctuation">:</span> <span class="token template-string"><span class="token string">`translateX(</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>x<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px)`</span></span> <span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">></span>
+  <span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>Motion<span class="token operator">></span>
+</code></pre>
+      </div>
+<p>这是官方提供的几个 <code>demo</code>，真的可以是 <code>不看不知道，一看吓一跳</code>。</p>
+<ul>
+<li><a href="http://t.cn/R9epBQV">Chat Heads</a></li>
+<li><a href="http://t.cn/R9eprR8">Draggable Balls</a></li>
+<li><a href="http://t.cn/R9epdOH">TodoMVC List Transition</a></li>
+<li><a href="http://t.cn/R9epgoj">Water Ripples</a></li>
+<li><a href="http://t.cn/R9epe9u">Draggable List</a></li>
+</ul>
+<p><code>赞同者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>React Motion 可以在 React Web 中使用，也可以在 React Native 中使用，因为它是跨平台的。其中的 spring 概念最开始对我来说感觉挺陌生，然而上手之后，发现它真的很神奇，并且，它有很详细的 API。</code></pre>
+      </div>
+<p><code>反对者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>在某些情况下，他不如纯 CSS / JS 动画，虽然它有不错的 API，容易上手，但也需要学习成本。</code></pre>
+      </div>
+<p>为了使用它，首先我们要用 <code>yarn</code> 或 <code>npm</code> 安装它。</p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>yarn add react-motion</code></pre>
+      </div>
+<p>在下面的实例中，我们将创建一个 <code>dropdown 菜单</code>，当点击按钮时，下拉菜单友好展开。</p>
+<p><img src="/Motion-e49f3a4bf698d2c8ad341252be5fd4d6.gif" alt="motion"></p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Motion<span class="token punctuation">,</span> spring <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-motion'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  state <span class="token operator">=</span> <span class="token punctuation">{</span>
+    height<span class="token punctuation">:</span> <span class="token number">38</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">animate</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span> height<span class="token punctuation">:</span> state<span class="token punctuation">.</span>height <span class="token operator">===</span> <span class="token number">233</span> <span class="token operator">?</span> <span class="token number">38</span> <span class="token punctuation">:</span> <span class="token number">233</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">"App"</span><span class="token operator">></span>
+        <span class="token operator">&lt;</span>div style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>button<span class="token punctuation">}</span> onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>animate<span class="token punctuation">}</span><span class="token operator">></span>Animate<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+        <span class="token operator">&lt;</span>Motion
+          style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> height<span class="token punctuation">:</span> <span class="token function">spring</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>height<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">}</span>
+        <span class="token operator">></span>
+          <span class="token punctuation">{</span>
+            <span class="token punctuation">(</span><span class="token punctuation">{</span> height <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span>
+            <span class="token operator">&lt;</span>div style<span class="token operator">=</span><span class="token punctuation">{</span>Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> styles<span class="token punctuation">.</span>menu<span class="token punctuation">,</span> <span class="token punctuation">{</span> height <span class="token punctuation">}</span> <span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">></span>
+              <span class="token operator">&lt;</span>p style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>selection<span class="token punctuation">}</span><span class="token operator">></span>Selection <span class="token number">1</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+              <span class="token operator">&lt;</span>p style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>selection<span class="token punctuation">}</span><span class="token operator">></span>Selection <span class="token number">2</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+              <span class="token operator">&lt;</span>p style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>selection<span class="token punctuation">}</span><span class="token operator">></span>Selection <span class="token number">3</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+              <span class="token operator">&lt;</span>p style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>selection<span class="token punctuation">}</span><span class="token operator">></span>Selection <span class="token number">4</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+              <span class="token operator">&lt;</span>p style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>selection<span class="token punctuation">}</span><span class="token operator">></span>Selection <span class="token number">5</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+              <span class="token operator">&lt;</span>p style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>selection<span class="token punctuation">}</span><span class="token operator">></span>Selection <span class="token number">6</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+            <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+          <span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>Motion<span class="token operator">></span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> styles <span class="token operator">=</span> <span class="token punctuation">{</span>
+  menu<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    marginTop<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    width<span class="token punctuation">:</span> <span class="token number">300</span><span class="token punctuation">,</span>
+    border<span class="token punctuation">:</span> <span class="token string">'2px solid #ddd'</span><span class="token punctuation">,</span>
+    overflow<span class="token punctuation">:</span> <span class="token string">'hidden'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  button<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    display<span class="token punctuation">:</span> <span class="token string">'flex'</span><span class="token punctuation">,</span>
+    width<span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+    height<span class="token punctuation">:</span> <span class="token number">45</span><span class="token punctuation">,</span>
+    justifyContent<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+    alignItems<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+    border<span class="token punctuation">:</span> <span class="token string">'none'</span><span class="token punctuation">,</span>
+    borderRadius<span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'#ffc107'</span><span class="token punctuation">,</span>
+    cursor<span class="token punctuation">:</span> <span class="token string">'pointer'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  selection<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    margin<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    padding<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    borderBottom<span class="token punctuation">:</span> <span class="token string">'1px solid #ededed'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<ul>
+<li>我们从 <code>react-motion</code> 中 import <code>Motion</code> 和 <code>spring</code>。</li>
+<li>我们有一个 <code>height</code> 的 <code>state</code>，初始值为 <code>38</code>，代表 <code>menu</code> 的高度。</li>
+<li><code>animate</code> 方法设置 <code>menu</code> 的 <code>height</code>，如果 <code>原 height</code> 为 <code>38</code>，则设置 <code>新 height</code> 为 <code>233</code>，如果 <code>原 height</code> 为 <code>233</code>，则设置 <code>新 height</code> 为 <code>38</code>。</li>
+<li>在 <code>render</code> 中，我们使用 <code>Motion 组件</code> 包装整个 <code>p 标签</code> 列表，将 <code>this.state.height</code> 的当前值设为组件的 <code>height</code>，然后在组件的<code>回调函数</code>中使用该值作为整个下拉的高度。</li>
+<li>当按钮被点击时，我们通过 <code>this.animate</code> 切换下拉的高度。</li>
+</ul>
+<h2>Animated</h2>
+<p><code>Animated</code> 是基于 <code>React Native</code> 使用的同一个动画库建立起来的。</p>
+<p>它背后的思想是创建 <code>声明式动画</code>，通过 <code>传递配置对象来控制动画</code>。</p>
+<p><code>赞同者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>跨平台，它在 React Native 中已经非常稳定，如果你在 React Native 中使用过，那么你将不用再重复学习。其中的 interpolate 是一个神奇的插值函数，我们将在下面看到。</code></pre>
+      </div>
+<p><code>反对者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>基于 Twitter 的交流，它目前貌似不是 100% 的稳定，在老的浏览器中的，存在前缀和性能的问题，而且，它也有学习成本。</code></pre>
+      </div>
+<p>为了使用 <code>Animated</code>，我们首先还是要用 <code>yarn</code> 或 <code>npm</code> 安装它。</p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>yarn add animated</code></pre>
+      </div>
+<p>在下面的实例中，我们将模拟在提交表单成功后显示的动画 <code>message</code>。</p>
+<p><img src="/Animated-bfcec915be7c2143a50deaeaa3edd1f0.gif" alt="animated"></p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token keyword">import</span> Animated <span class="token keyword">from</span> <span class="token string">'animated/lib/targets/react-dom'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Easing <span class="token keyword">from</span> <span class="token string">'animated/lib/Easing'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">AnimatedApp</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  animatedValue <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Animated<span class="token punctuation">.</span>Value</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function-variable function">animate</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>animatedValue<span class="token punctuation">.</span><span class="token function">setValue</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    Animated<span class="token punctuation">.</span><span class="token function">timing</span><span class="token punctuation">(</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>animatedValue<span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        toValue<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        duration<span class="token punctuation">:</span> <span class="token number">1000</span><span class="token punctuation">,</span>
+        easing<span class="token punctuation">:</span> Easing<span class="token punctuation">.</span><span class="token function">elastic</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> marginLeft <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>animatedValue<span class="token punctuation">.</span><span class="token function">interpolate</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      inputRange<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      outputRange<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">120</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">"App"</span><span class="token operator">></span>
+          <span class="token operator">&lt;</span>div style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>button<span class="token punctuation">}</span> onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>animate<span class="token punctuation">}</span><span class="token operator">></span>Animate<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+          <span class="token operator">&lt;</span>Animated<span class="token punctuation">.</span>div
+            style<span class="token operator">=</span><span class="token punctuation">{</span>
+              Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span>
+                <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+                styles<span class="token punctuation">.</span>box<span class="token punctuation">,</span>
+                <span class="token punctuation">{</span> opacity<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>animatedValue<span class="token punctuation">,</span> marginLeft <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">}</span>
+          <span class="token operator">></span>
+            <span class="token operator">&lt;</span>p<span class="token operator">></span>Thanks <span class="token keyword">for</span> your submission<span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+          <span class="token operator">&lt;</span><span class="token operator">/</span>Animated<span class="token punctuation">.</span>div<span class="token operator">></span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> styles <span class="token operator">=</span> <span class="token punctuation">{</span>
+  button<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    display<span class="token punctuation">:</span> <span class="token string">'flex'</span><span class="token punctuation">,</span>
+    width<span class="token punctuation">:</span> <span class="token number">125</span><span class="token punctuation">,</span>
+    height<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    justifyContent<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+    alignItems<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+    border<span class="token punctuation">:</span> <span class="token string">'none'</span><span class="token punctuation">,</span>
+    borderRadius<span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'#ffc107'</span><span class="token punctuation">,</span>
+    cursor<span class="token punctuation">:</span> <span class="token string">'pointer'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  box<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    display<span class="token punctuation">:</span> <span class="token string">'inline-block'</span><span class="token punctuation">,</span>
+    marginTop<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    padding<span class="token punctuation">:</span> <span class="token string">'0.6rem 2rem'</span><span class="token punctuation">,</span>
+    fontSize<span class="token punctuation">:</span><span class="token string">'0.8rem'</span><span class="token punctuation">,</span>
+    border<span class="token punctuation">:</span> <span class="token string">'1px #eee solid'</span><span class="token punctuation">,</span>
+    borderRadius<span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+    boxShadow<span class="token punctuation">:</span> <span class="token string">'0 2px 8px rgba(0,0,0,.2)'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<ul>
+<li>从 <code>animated</code> 中 import <code>Animated</code> 和 <code>Easing</code>。</li>
+<li>用 <code>new Animated.Value(0)</code> 创建一个值为 <code>0</code> 的类属性 - <code>animatedValue</code>。</li>
+<li>创建 <code>animate</code> 方法，处理所有的动画，首先通过 <code>this.animatedValue.setValue(0)</code> 初始化动画值，实现的效果就是每次 <code>重新执行</code> 该动画，然后调用 <code>Animated.timing</code>，<code>animatedValue</code> 作为第一个参数传递，<code>配置对象</code> 作为第二个参数，一个设置 <code>最终动画值</code>，一个设置 <code>持续时间</code>，一个设置 <code>缓动效果</code>。</li>
+<li>在 <code>render</code> 中，我们用 <code>interpolate</code> 方法创建 <code>marginLeft</code> 对象，包含 <code>inputRange</code> 和 <code>outputRange</code> 数组，我们使用此对象作为 <code>UI</code> 中 <code>message</code> 的 <code>style</code> 属性。</li>
+<li>我们使用 <code>Animated.div</code> 替代默认的 <code>div</code>。</li>
+<li>我们将 <code>animatedValue</code> 和 <code>marginLeft</code> 作为 <code>Animated.div</code> 的 <code>style</code> 属性。</li>
+</ul>
+<h2>Velocity React</h2>
+<p><code>Velocity React</code> 是基于已经存在的 <code>Velocity</code> 建立起来的。</p>
+<p><code>赞同者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>上手容易，API 简单明了，相对其他库更易于掌握。</code></pre>
+      </div>
+<p><code>反对者</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>有些不得不克服的问题，比如 componentDidMount 后动画并没有真正地起作用等，而且，它不跨平台。</code></pre>
+      </div>
+<p>下面是一个<code>简单</code>的示例。</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token operator">&lt;</span>VelocityComponent
+  animation<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> opacity<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>showSubComponent <span class="token operator">?</span> <span class="token number">1</span> <span class="token punctuation">:</span> <span class="token number">0</span> <span class="token punctuation">}</span><span class="token punctuation">}</span>      
+  duration<span class="token operator">=</span><span class="token punctuation">{</span><span class="token number">500</span><span class="token punctuation">}</span>
+<span class="token operator">></span>
+  <span class="token operator">&lt;</span>MySubComponent<span class="token operator">/</span><span class="token operator">></span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>VelocityComponent<span class="token operator">></span>
+</code></pre>
+      </div>
+<p>首先还是要用 <code>yarn</code> 或 <code>npm</code> 安装它。</p>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>yarn add velocity-react</code></pre>
+      </div>
+<p>在下面的实例中，我们将创建一个很酷的 <code>动画输入</code>。</p>
+<p><img src="/Velocity-15dcf4b0275a48bd9eb19f73a58132a8.gif" alt="Velocity"></p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> VelocityComponent <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'velocity-react'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">VelocityLetter</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">{</span> letter <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>VelocityComponent
+    runOnMount
+    animation<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> opacity<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> marginTop<span class="token punctuation">:</span> <span class="token number">0</span> <span class="token punctuation">}</span><span class="token punctuation">}</span>
+    duration<span class="token operator">=</span><span class="token punctuation">{</span><span class="token number">500</span><span class="token punctuation">}</span>
+  <span class="token operator">></span>
+    <span class="token operator">&lt;</span>p style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>letter<span class="token punctuation">}</span><span class="token operator">></span><span class="token punctuation">{</span>letter<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>VelocityComponent<span class="token operator">></span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">class</span> <span class="token class-name">VelocityApp</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  state <span class="token operator">=</span> <span class="token punctuation">{</span>
+    letters<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">onChange</span> <span class="token operator">=</span> <span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> letters <span class="token operator">=</span> e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>value<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    letters<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span>l<span class="token punctuation">,</span> i<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+      arr<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>VelocityLetter letter<span class="token operator">=</span><span class="token punctuation">{</span>l<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">></span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span> letters<span class="token punctuation">:</span> arr <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">"App"</span><span class="token operator">></span>
+        <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">"container"</span><span class="token operator">></span>
+          <span class="token operator">&lt;</span>input onChange<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>onChange<span class="token punctuation">}</span> style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>input<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">></span>
+          <span class="token operator">&lt;</span>div style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>letters<span class="token punctuation">}</span><span class="token operator">></span>
+            <span class="token punctuation">{</span>
+              <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>letters
+            <span class="token punctuation">}</span>
+          <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> styles <span class="token operator">=</span> <span class="token punctuation">{</span>
+  input<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    marginBottom<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    padding<span class="token punctuation">:</span> <span class="token number">8</span><span class="token punctuation">,</span>
+    width<span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+    height<span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+    fontSize<span class="token punctuation">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'#ddd'</span><span class="token punctuation">,</span>
+    border<span class="token punctuation">:</span> <span class="token string">'none'</span><span class="token punctuation">,</span>
+    outline<span class="token punctuation">:</span> <span class="token string">'none'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  letters<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    display<span class="token punctuation">:</span> <span class="token string">'flex'</span><span class="token punctuation">,</span>
+    height<span class="token punctuation">:</span> <span class="token number">140</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  letter<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    marginTop<span class="token punctuation">:</span> <span class="token number">100</span><span class="token punctuation">,</span>
+    fontSize<span class="token punctuation">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
+    whiteSpace<span class="token punctuation">:</span> <span class="token string">'pre'</span><span class="token punctuation">,</span>
+    opacity<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<ul>
+<li>从 <code>velocity-react</code> 中 import <code>VelocityComponent</code>。</li>
+<li>我们要创建一个 <code>可重复</code> 使用的组件来满足每个 <code>letter</code> 的动画。</li>
+<li>在这个组件中，我们将 <code>animation</code> 的 <code>opacity</code> 设为 <code>1</code>，<code>marginTop</code> 设为 <code>0</code>，这些值代表着传入子组件的 <code>重写值</code>，即当组件被创建时，组件的 <code>opacity</code> 会由初始的 <code>0</code> 变为 <code>1</code>，<code>marginTop</code> 会由初始的 <code>100</code> 变为 <code>0</code>，我们还设置了 <code>500 ms</code> 的持续时间，最后值得一提的是 <code>runOnMount</code> 属性，它的意思是在组件 <code>挂载</code> 或 <code>创建</code> 完后执行该动画。</li>
+<li>其中的 <code>onChange</code> 方法会获取用户的每次输入，并创建一个由 <code>VelocityLetter</code> 组成的新数组。</li>
+<li>在 <code>render</code> 中，我们就使用该数组在 <code>UI</code> 中渲染 <code>letters</code>。</li>
+</ul>
+<h2>总结</h2>
+<p>总的来说，基本的动画，我会选择 <code>JS style</code>，复杂的动画，我更偏向 <code>React Motion</code>。而对于 <code>React Native</code>，我还是坚持使用 <code>Animated</code>，一旦 <code>Animated</code> 成熟，在 <code>Web</code> 中可能也会投入使用，目前，我很享受 <code>React Motion</code>。</p></div><p class="post-notification" data-reactid="25"><!-- react-text: 26 -->感谢您的阅读，本文已由作者授权发布，由 <!-- /react-text --><a href="https://github.com/KnownsecFED" data-reactid="27">知道创宇前端</a><!-- react-text: 28 --> 版权所有。如若转载，请注明出处：知道创宇前端（<!-- /react-text --><a href="https://knownsec-fed.com/2018-01-12-translation-React-Animations-in-Depth/" data-reactid="29">https://knownsec-fed.com/2018-01-12-translation-React-Animations-in-Depth/</a><!-- react-text: 30 -->）<!-- /react-text --></p></div><div class="post-sidebar" data-reactid="31"><div class="sidebar" data-reactid="32"><div class="official-account" style="background-color:white;" data-reactid="33"><img src="/static/official-account.1070ccf0.png" data-reactid="34"/><span data-reactid="35">每天推送精选技术文章</span></div><div class="sidebar-hots" style="background-color:white;" data-reactid="36"><header data-reactid="37">热门推荐</header><header data-reactid="38"><a href="/2018-01-08-mapbox-gl-js/" data-reactid="39">3D GIS 应用开发 —— 基于 Mapbox GL 的实践总结</a></header><header data-reactid="40"><a href="/2018-01-06-react-higher-order-component/" data-reactid="41">React 高阶组件介绍</a></header><header data-reactid="42"><a href="/2018-01-07-the-importance-of-visual-appeal-in-web-design/" data-reactid="43">【翻译】视觉吸引力在网页设计中的重要性 </a></header><header data-reactid="44"><a href="/2018-01-05-to-vim/" data-reactid="45">如何让 vim 成为我们的神器</a></header><header data-reactid="46"><a href="/2018-01-05-d3-js-v3-data-driven-and-d3-force/" data-reactid="47">D3.js 数据驱动 和 force 力学图讲解</a></header><header data-reactid="48"><a href="/2018-01-05-create-a-redux-middleware/" data-reactid="49">如何编写一个 Redux 中间件</a></header></div></div></div></div></div></div><div class="layout-official-account" data-reactid="50"><div class="official-account" style="background-color:#F5F9FC;" data-reactid="51"><img src="/static/official-account.1070ccf0.png" data-reactid="52"/><span data-reactid="53">每天推送精选技术文章</span></div></div><div class="footer" data-reactid="54"><div class="footer-bottom" data-reactid="55"><div class="footer-copyright" data-reactid="56">Copyright © 知道创宇版权所有</div><div class="footer-social" data-reactid="57"><a href="/rss.xml" alt="rss" data-reactid="58"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMTAgMzEwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMTAgMzEwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiBjbGFzcz0iIj48ZyB0cmFuc2Zvcm09Im1hdHJpeCgwLjczMjMwNCAwIDAgMC43MzIzMDQgNDEuNDkyOSA0MS40OTI5KSI+PGcgaWQ9IlhNTElEXzc4OF8iPgoJPHBhdGggaWQ9IlhNTElEXzc4OV8iIGQ9Ik05MC4yNDQsMjY0LjgyOEM5MC4yNDQsMjQwLjExLDcwLjEzOSwyMjAsNDUuNDI3LDIyMGMtMjQuNzE1LDAtNDQuODIyLDIwLjExLTQ0LjgyMiw0NC44MjggICBjMCwyNC43MTQsMjAuMTA3LDQ0LjgyLDQ0LjgyMiw0NC44MkM3MC4xMzksMzA5LjY0OCw5MC4yNDQsMjg5LjU0Miw5MC4yNDQsMjY0LjgyOHoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiNENEQ2REUiLz4KCTxwYXRoIGlkPSJYTUxJRF83OTBfIiBkPSJNNS42NDgsMTY5LjQzYzM1Ljk2MSwwLDY5Ljc4MiwxNC4wNjYsOTUuMjMxLDM5LjYwNWMyNS40NSwyNS41ODMsMzkuNDY3LDU5LjY0OCwzOS40NjcsOTUuOTIgICBjMCwyLjc2MiwyLjIzOCw1LDUsNWg1Ny40ODZjMi43NjIsMCw1LTIuMjM4LDUtNWMwLTExMS45NTItOTAuNjk5LTIwMy4wMzEtMjAyLjE4NS0yMDMuMDMxYy0yLjc2MiwwLTUsMi4yMzgtNSw1djU3LjUwNSAgIEMwLjY0OCwxNjcuMTkxLDIuODg3LDE2OS40Myw1LjY0OCwxNjkuNDN6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIiBmaWxsPSIjRDRENkRFIi8+Cgk8cGF0aCBpZD0iWE1MSURfNzkxXyIgZD0iTTUuNzI2LDBjLTIuNzYyLDAtNSwyLjIzOC01LDV2NTcuNDk1YzAsMi43NjIsMi4yMzgsNSw1LDVjMTMwLjI0LDAsMjM2LjE5OSwxMDYuNTQ0LDIzNi4xOTksMjM3LjUwNSAgIGMwLDIuNzYyLDIuMjM4LDUsNSw1aDU3LjQ3MWMyLjc2MiwwLDUtMi4yMzgsNS01QzMwOS4zOTYsMTM2LjgyMiwxNzMuMTcsMCw1LjcyNiwweiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCIgZmlsbD0iI0Q0RDZERSIvPgo8L2c+PC9nPiA8L3N2Zz4K" data-reactid="59"/></a><a href="https://github.com/KnownsecFED" target="_blank" alt="github" data-reactid="60"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ3OC42MTMgNDc4LjYxMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDc4LjYxMyA0NzguNjEzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiBjbGFzcz0iIj48ZyB0cmFuc2Zvcm09Im1hdHJpeCgwLjc5MzYxNCAwIDAgMC43OTM2MTQgNDkuMzg5NCA0OS4zODk0KSI+PGcgaWQ9IlhNTElEXzEyMl8iPgoJPGc+CgkJPHBhdGggZD0iTTQyNy41MDEsMjAwLjY5NWMxLjc3Ni0xMS4yMzgsMi44ODQtMjMuNTYsMy4xNjMtMzcuMzc3Yy0wLjEwNy01OS4yNDYtMjguNDY4LTgwLjIxLTMzLjkyNS05MC4wMzggICAgYzguMDM3LTQ0Ljg5LTEuMzMxLTY1LjMwOS01LjY4OC03Mi4yOTljLTE2LjA3LTUuNzA0LTU1LjkxLDE0LjcyMi03Ny42NzgsMjkuMTAxYy0zNS40OTEtMTAuMzg5LTExMC40OTQtOS4zNzUtMTM4LjYyMSwyLjY4OSAgICBDMTIyLjg1Ni00LjM4OSw5NS40MDgsMS4yNzcsOTUuNDA4LDEuMjc3cy0xNy43NDUsMzEuODItNC42OTEsNzguMzcxYy0xNy4wNzUsMjEuNzU5LTI5LjgwMiwzNy4xNDMtMjkuODAyLDc3Ljk0OSAgICBjMCw5Ljc3MywwLjYwNywxOS4wMDgsMS42MzcsMjcuODkzYzE0LjcwNSw3Ny4zMTgsNzUuOTcsMTEwLjY3NCwxMzYuMTUsMTE2LjQyNmMtOS4wNTYsNi44ODEtMTkuOTI4LDE5LjkwMy0yMS40MzIsMzQuOTkyICAgIGMtMTEuMzc5LDcuMzU3LTM0LjI2OCw5Ljc4OS01Mi4wNjcsNC4xOTNjLTI0LjkzOS03Ljg4LTM0LjQ4Ni01Ny4yNjYtNzEuODMzLTUwLjIyMWMtOC4wODEsMS41MTItNi40NzUsNi44NDIsMC41MjMsMTEuMzg2ICAgIGMxMS4zNzgsNy4zOCwyMi4wOTQsMTYuNTU0LDMwLjM1NCwzNi4xODVjNi4zNDQsMTUuMDcyLDE5LjY4Nyw0MS45ODIsNjEuODczLDQxLjk4MmMxNi43NDcsMCwyOC40NzctMS45NzksMjguNDc3LTEuOTc5ICAgIHMwLjMxOSwzOC40MDYsMC4zMTksNTMuMzg1YzAsMTcuMjM4LTIzLjI2NCwyMi4wNzgtMjMuMjY0LDMwLjM0OGMwLDMuMjg5LDcuNywzLjYwMSwxMy44ODgsMy42MDEgICAgYzEyLjIyOSwwLDM3LjY3My0xMC4xODYsMzcuNjczLTI4LjEwM2MwLTE0LjIzNywwLjIyNy02Mi4wODEsMC4yMjctNzAuNDZjMC0xOC4zMDcsOS44MTEtMjQuMTM2LDkuODExLTI0LjEzNiAgICBzMS4yMDEsOTcuNzI3LTIuMzYxLDExMC44MjljLTQuMTc3LDE1LjQwOC0xMS43NDQsMTMuMjE5LTExLjc0NCwyMC4wNzZjMCwxMC4yMzMsMzAuNTg5LDIuNTAyLDQwLjczNS0xOS44OTcgICAgYzcuODQ5LTE3LjQ5NSw0LjMzNC0xMTMuMzMxLDQuMzM0LTExMy4zMzFsOC4xODMtMC4xNzhjMCwwLDAuMDk0LDQzLjg5Mi0wLjE4OCw2My45NDRjLTAuMjk1LDIwLjc2OS0yLjQzOCw0Ny4wMjUsOS44OTgsNTkuNDE3ICAgIGM4LjA5Nyw4LjE1LDMyLjkwMywyMi40NTEsMzIuOTAzLDkuMzgyYzAtNy41NzQtMTcuMzcxLTEzLjgzMy0xNy4zNzEtMzQuMzUzVjM0NC40NWMxMC41NTMsMCwxMi43MzQsMzEuMDcyLDEyLjczNCwzMS4wNzIgICAgbDMuODA0LDU3LjcyN2MwLDAtMi41MjYsMjEuMDY1LDIyLjc1NiwyOS44NTZjOC45MjUsMy4xMjYsMjguMDE4LDMuOTc2LDI4LjkxMy0xLjI3MWMwLjg5Ny01LjI2LTIyLjk5LTEzLjAzOC0yMy4yMTctMjkuMzQyICAgIGMtMC4xMjMtOS45MywwLjQ0NS0xNS43NDIsMC40NDUtNTguOTM0YzAtNDMuMTY4LTUuNzk5LTU5LjEzNy0yNi4wMDctNzEuODYzQzM1NS42NjksMjk1LjY4MSw0MTYuNTM2LDI2OS41MSw0MjcuNTAxLDIwMC42OTV6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjNUYyMTIxIiBmaWxsPSIjRDRENkRFIi8+Cgk8L2c+CjwvZz48L2c+IDwvc3ZnPgo=" data-reactid="61"/></a></div></div></div></div></div></div><script>
+  
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100485541-3', 'auto');
+  </script></body></html>
