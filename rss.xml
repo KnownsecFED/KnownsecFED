@@ -1,4 +1,1673 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 19 Jan 2018 10:43:55 GMT</lastBuildDate><item><title><![CDATA[antd 源码解读 notification]]></title><description><![CDATA[Notification 这是一个全局变量的组件，可以在任意地方调用其函数就能够生成一个，我们就来看看这个组件又是用了什么奇巧淫技来实现的。 — 注意：解读的antd的源码版本为 2.13.4 rc-notification 版本为 2.0.…]]></description><link>https://knownsec-fed.com/2018-01-14-antd-yuan-ma-jie-du-notification/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-14-antd-yuan-ma-jie-du-notification/</guid><pubDate>Sun, 14 Jan 2018 15:03:54 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 23 Jan 2018 09:47:30 GMT</lastBuildDate><item><title><![CDATA[Web前端简单订阅的实现]]></title><description><![CDATA[理解队列 队列是一种特殊的线性表，特殊之处在于它只允许在表的前端(front）进行删除操作，而在表的后端（rear…]]></description><link>https://knownsec-fed.com/2018-01-22-web-qian-duan-jian-dan-ding-yue-de-shi-xian/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-22-web-qian-duan-jian-dan-ding-yue-de-shi-xian/</guid><pubDate>Mon, 22 Jan 2018 02:55:59 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-9c6194cbb37b426d029505dd82111151-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB11NhkLhX/8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAEBES/9oACAEBAAEFAnODqKdWZX//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwFn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAABEhIP/aAAgBAQAGPwIjLj//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhURBhcf/aAAgBAQABPyELFTyPcdRwRTqOTMoF0cf/2gAMAwEAAgADAAAAEGsP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxCqLD//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QUgz/xAAYEAEBAQEBAAAAAAAAAAAAAAABEQAhMf/aAAgBAQABPxCKxZcky0KUdzR39wkAJX3IoJp0Mhzhv//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【Web前端简单订阅的实现】&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-9c6194cbb37b426d029505dd82111151-d6978.jpeg&quot;
+        srcset=&quot;/static/header-9c6194cbb37b426d029505dd82111151-527f0.jpeg 300w,
+/static/header-9c6194cbb37b426d029505dd82111151-9a7cd.jpeg 600w,
+/static/header-9c6194cbb37b426d029505dd82111151-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;理解队列&lt;/h2&gt;
+&lt;p&gt;队列是一种特殊的线性表，特殊之处在于它只允许在表的前端(front）进行删除操作，而在表的后端（rear）进行插入操作，和栈一样，队列是一种操作受限制的线性表。进行插入操作的端称为队尾，进行删除操作的端称为队头。通俗了讲队列的概念就是我们平时排队，按次序来，你排在第一个，那你就第一个轮到，就是先进先出，先到先来。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/queue-f0706f5dca8ef90c91af104298fef78e-0d4ac.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 555px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 36.57657657657658%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd2AsD//xAAWEAADAAAAAAAAAAAAAAAAAAAAARD/2gAIAQEAAQUCiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAAMBAQAAAAAAAAAAAAAAAAABMREh/9oACAEBAAE/Id6Jwg//2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERMUGB/9oACAEBAAE/EN4nVwx0e+2f/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;队列&quot;
+        title=&quot;&quot;
+        src=&quot;/static/queue-f0706f5dca8ef90c91af104298fef78e-0d4ac.jpg&quot;
+        srcset=&quot;/static/queue-f0706f5dca8ef90c91af104298fef78e-d53e6.jpg 300w,
+/static/queue-f0706f5dca8ef90c91af104298fef78e-0d4ac.jpg 555w&quot;
+        sizes=&quot;(max-width: 555px) 100vw, 555px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;实现订阅&lt;/h2&gt;
+&lt;p&gt;订阅的实现很简单也有很多方式实现，现在我们就用队列的方式实现。&lt;br&gt;
+首先我们来创建订阅函数：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token function-variable function&quot;&gt;createSubscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;创建订阅函数功能基本的需要三点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;订阅。&lt;/li&gt;
+&lt;li&gt;推送订阅。&lt;/li&gt;
+&lt;li&gt;取消订阅。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面我们就来依次实现他们，先创建一个数组用来存放需要执行的任务，我这里的名称叫做taskStack：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token function-variable function&quot;&gt;createSubscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; taskStack&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;接下来我们来实现一下订阅功能&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token function-variable function&quot;&gt;subscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; task &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;task&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;是不是非常简单，这就是加入队列，当然订阅方法是要被createSubscript()方法返回的，不然创建了订阅没有方法订阅了。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token function-variable function&quot;&gt;createSubscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; taskStack&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;//订阅方法&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;subscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; task &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;task&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; subscript &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们接下来编写一个触发推送队列的方法&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token function-variable function&quot;&gt;trigger&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; task &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;同样我们也需要在创建订阅函数中返回出去，让订阅可以在你想需要推动的时候推送，下面是完整代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token function-variable function&quot;&gt;createSubscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; taskStack&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;// 发出推送&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;trigger&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; task &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;// 订阅方法&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;subscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;task&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;task&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; trigger&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; subscript &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这样订阅就基本实现了，就剩下一个功能：取消订阅，取消订阅是必须在你订阅的时候才提供，所以我们就在订阅方法里做做手脚，如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token function-variable function&quot;&gt;subscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; task &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;task&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;// 提供取消订阅功能&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        taskStack &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; t &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; t &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; task &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这样我们的订阅就取消了，也是在订阅的前提下提供取消订阅的方法。&lt;br&gt;
+下面是完整代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token function-variable function&quot;&gt;createSubscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; taskStack&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ 
+    &lt;span class=&quot;token comment&quot;&gt;// 发出推送&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;trigger&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; task &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+ 
+    &lt;span class=&quot;token comment&quot;&gt;// 订阅方法&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;subscript&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;task&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;task&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+     
+      &lt;span class=&quot;token comment&quot;&gt;// 提供取消订阅功能&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        taskStack &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; taskStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; t &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; t &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; task &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+ 
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; trigger&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; subscript &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;好了简单的订阅就实现了，在我们平时用的Redux中creatStore也是运用到这种订阅方式。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[从请求到响应 django 都做了哪些处理]]></title><description><![CDATA[最近面试的时候，被面试官问道一个问题，就是 request.user 里面的 user 是怎样得到的，这个问题当时没有回答上来，可以说是非常的尴尬，所以赶快查了一些资料，看了一些源码，特地来总结一下这个问题。 要想回答为什么可以直接通过 request.user…]]></description><link>https://knownsec-fed.com/2018-01-21-how-django-works/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-21-how-django-works/</guid><pubDate>Sun, 21 Jan 2018 10:10:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-63b7fa87b39277540d34e41be34ff4fb-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABnINYaIE//8QAGRAAAwEBAQAAAAAAAAAAAAAAAQIDABAU/9oACAEBAAEFAkijT86nUQIcCRz/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAABBAMAAAAAAAAAAAAAAAARAAEQIQIyM//aAAgBAQAGPwLa11QbIxTiP//EAB0QAQEAAgEFAAAAAAAAAAAAAAERACEQMVFhceH/2gAIAQEAAT8hEM1Fe2zzgqAfR9wyEy3KyXWVaVpj14//2gAMAwEAAgADAAAAEIAP/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQMBAT8Qh//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQBRMUEQccH/2gAIAQEAAT8QUp2CQUIjSXmPuOVQKgTwtdiC8SlqEVadLqfSYAghck04cTjChDTvx//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Header&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-63b7fa87b39277540d34e41be34ff4fb-d6978.jpeg&quot;
+        srcset=&quot;/static/header-63b7fa87b39277540d34e41be34ff4fb-527f0.jpeg 300w,
+/static/header-63b7fa87b39277540d34e41be34ff4fb-9a7cd.jpeg 600w,
+/static/header-63b7fa87b39277540d34e41be34ff4fb-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;最近面试的时候，被面试官问道一个问题，就是 request.user 里面的 user 是怎样得到的，这个问题当时没有回答上来，可以说是非常的尴尬，所以赶快查了一些资料，看了一些源码，特地来总结一下这个问题。&lt;/p&gt;
+&lt;p&gt;要想回答为什么可以直接通过 request.user 得到请求的用户，应该先来看看请求被处理以及如何返回响应的流程。今天先总结一下 django 从请求到响应都进行了哪些过程。&lt;/p&gt;
+&lt;h2&gt;WSGI&lt;/h2&gt;
+&lt;p&gt;当客户端发送一次请求后，最先处理请求的实际上是 web 服务器就是我们经常说的 nginx、Apache 这类的 web 服务器，而 WSGI 的作用就是把 web 服务器和 web 框架 (Django) 连接起来。WSGI 被分为了两个部分：服务端和应用端。为了处理一个 WSGI 的响应，服务端执行应用程序并向应用端提供一个回调函数，应用端处理请求并使用提供的回调将响应返回给服务端。本质上来讲，我觉得 WSGI 就是 web 服务器和 django 应用之间的一个联系人。&lt;/p&gt;
+&lt;h2&gt;数据流&lt;/h2&gt;
+&lt;p&gt;当用户向你的应用发送一个请求的时候，一个 WSGI handler 将会被初始化，它会完成以下工作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;导入 settings.py 和 django 的异常类&lt;/li&gt;
+&lt;li&gt;使用 load&lt;em&gt;middleware 方法加载 settings.py 中 MIDDLEWARE&lt;/em&gt;CLASSES 或者 MIDDLEWARES 元组中所用的 middleware classes.&lt;/li&gt;
+&lt;li&gt;创建四个列表 (&lt;em&gt;request&lt;/em&gt;middleware,&lt;em&gt;view&lt;/em&gt;middleware, &lt;em&gt;response&lt;/em&gt;middleware, &lt;em&gt;exception&lt;/em&gt;middleware)，里面分别包含处理 request,view,response 和 exception 的方法。&lt;/li&gt;
+&lt;li&gt;WSGI Handler 将实例化一个 django.http.HTTPRequest 对象的子类，django.core.handlers.wsgi.WSGIRequest.&lt;/li&gt;
+&lt;li&gt;循环遍历处理 request 的方法 (&lt;em&gt;request&lt;/em&gt;middleware 列表），并按照顺序调用他们&lt;/li&gt;
+&lt;li&gt;解析请求的 url&lt;/li&gt;
+&lt;li&gt;循环遍历每个处理 view 的方法 (&lt;em&gt;view&lt;/em&gt;middleware 列表）&lt;/li&gt;
+&lt;li&gt;如果找的到的话，就调用视图函数&lt;/li&gt;
+&lt;li&gt;处理任何异常的方法 (&lt;em&gt;exception&lt;/em&gt;middleware 列表）&lt;/li&gt;
+&lt;li&gt;循环遍历每个处理响应的方法 (&lt;em&gt;response&lt;/em&gt;middleware 列表），（从内向外，与请求中间件的顺序相反）&lt;/li&gt;
+&lt;li&gt;最后得到一个响应，并调用 web server 提供的回调函数&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;中间件&lt;/h2&gt;
+&lt;p&gt;中间件被用在了 django 的许多关键功能中：例如，使用 CSRF 中间键来防止跨站请求伪造攻击。它们也被用来处理会话数据，身份认证和授权同样是由中间件来完成的。我们也可以自己编写中间件来调整或者（短路）通过应用程序的数据流。&lt;/p&gt;
+&lt;p&gt;django 的中间件至少含有以下四个方法中的一个：process&lt;em&gt;request, process&lt;/em&gt;response, process&lt;em&gt;view, process&lt;/em&gt;exception。这些方法会被 WSGI handler 收集并按照顺序调用。&lt;/p&gt;
+&lt;h3&gt;process_request&lt;/h3&gt;
+&lt;p&gt;我们可以先来看看 django.contrib.auth.middleware.AuthenticationMiddleware:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;get_user&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;hasattr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;_cached_user&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        request&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_cached_user &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; auth&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_user&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; request&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_cached_user
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AuthenticationMiddleware&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;MiddlewareMixin&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;process_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;hasattr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;session&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+              &lt;span class=&quot;token string&quot;&gt;&quot;The Django authentication middleware requires session middleware &quot;&lt;/span&gt;
+              &lt;span class=&quot;token string&quot;&gt;&quot;to be installed. Edit your MIDDLEWARE%s setting to insert &quot;&lt;/span&gt;
+              &lt;span class=&quot;token string&quot;&gt;&quot;&apos;django.contrib.sessions.middleware.SessionMiddleware&apos; before &quot;&lt;/span&gt;
+              &lt;span class=&quot;token string&quot;&gt;&quot;&apos;django.contrib.auth.middleware.AuthenticationMiddleware&apos;.&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;_CLASSES&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; settings&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;MIDDLEWARE &lt;span class=&quot;token keyword&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        request&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;user &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; SimpleLazyObject&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; get_user&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这里我们可以发现 request.user 这个属性是在 AuthenticationMiddleware 中产生的。这个我们稍后再说。&lt;/p&gt;
+&lt;p&gt;这里我们可以发现，这个中间件只有 process&lt;em&gt;request，说明它只在 request 这一步处理流入和流出 django 应用的数据流。这个中间件会首先验证会话中间件是否被使用，然后通过调用 get&lt;/em&gt;user 函数来设置用户。当 WSGI 处理程序迭代 process&lt;em&gt;request 方法列表的时候，它将会构建这个最终会被传递给视图函数的请求对象，并能够使你引用 request.user。一些中间件没有 process&lt;/em&gt;request 方法，在这个阶段，会被跳过。&lt;/p&gt;
+&lt;p&gt;process&lt;em&gt;request 应该返回 None 或者 HTTPResponse 对象。当返回 None 时，WSGI handler 会继续加载 process&lt;/em&gt;request 里面的方法，但是后一种情况会短路处理过程并进入 process_response 循环。&lt;/p&gt;
+&lt;h3&gt;解析 url&lt;/h3&gt;
+&lt;p&gt;当所有的 process&lt;em&gt;request 被调用完之后，我们就会得到一个将被传递给视图函数的 request 对象。当这个事件发生之前，django 必须解析 url 并决定调用哪一个视图函数。这个过程非常简单，只需要使用正则匹配即可。settings.py 中有一个 ROOT&lt;/em&gt;URLCONF 键来指定根 url.py，在这里会包含你所有 app 的 urls.py 文件。如果没有匹配成功，将会抛出一个异常 django.core.urlresolvers.Resolver404, 这是 django.http.HTTP404 的子类。&lt;/p&gt;
+&lt;h3&gt;process_view&lt;/h3&gt;
+&lt;p&gt;到这一步之后 WSGI handler 知道了调用哪一个视图函数，以及传递哪些参数。它会再一次调用中间件列表里面的方法，这次是&lt;em&gt;view&lt;/em&gt;middleware 列表。所有 Django 中间件的 process_view 方法将会被这样声明：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;process_view(request, view_function, view_args, view_kwargs)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;和 process&lt;em&gt;request 一样，process&lt;/em&gt;view 函数必须返回 None 或者 HTTPResponse 对象，使得 WSGI handler 继续处理视图或者’短路’处理流程并返回一个响应。在 CSRF middleware 中存在一个 process&lt;em&gt;view 的方法。作用是当 CSRF cookies 出现时，process&lt;/em&gt;view 方法将会返回 None, 视图函数将会继续的执行。如果不是这样，请求将会被拒绝，处理流程将会被’短路’，会生成一个错误的信息。&lt;/p&gt;
+&lt;h3&gt;进入视图函数&lt;/h3&gt;
+&lt;p&gt;一个视图函数需要满足三个条件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;必须是可以调用的。这可以是基于函数的视图或者是 class-based 的视图（继承自 View 并且使用 as_view() 方法来使它成为可调用的。这些方法的调用依赖 HTTP verb(GET, POST, etc))&lt;/li&gt;
+&lt;li&gt;必须接受一个 HTTPRequest 对象作为第一个位置参数。这个 HTTPRequest 对象是被所有 process&lt;em&gt;request 和 process&lt;/em&gt;view 中间件方法处理的结果。&lt;/li&gt;
+&lt;li&gt;必须返回一个 HTTPResponse 对象，或者抛出一个异常。就是用这个 response 对象来开启 WSGI handler 的 process_view 循环。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;process_exception&lt;/h3&gt;
+&lt;p&gt;如果视图函数抛出一个异常，Handler 将会循环遍历&lt;em&gt;exception&lt;/em&gt;middleware 列表，这些方法按照相反的顺序执行，从 settings.py 里面列出来的最后一个中间件到第一个。如果一个异常被抛出，处理过程将会被短路，其他的 process_exception 将不会被执行。通常我们依赖 Djnago’s BaseHandler 提供的异常处理程序，但是我们也可以使用自定义的异常处理中间件。&lt;/p&gt;
+&lt;h3&gt;process_response&lt;/h3&gt;
+&lt;p&gt;在这个阶段，我们得到了一个 HTTPResponse 对象，这个对象可能是 process&lt;em&gt;view 返回的，也可能是视图函数返回的。现在我们将循环访问响应中间件。这是中间件调整数据的最后的机会。执行的顺序是从内向外执行。
+以 cache middleware 的 process&lt;/em&gt;response 为例：它依赖于你的 app 里面的不同的状态（缓存是否打开或者关闭，是否在处理一个数据流），来决定是否缓存你的响应。&lt;/p&gt;
+&lt;h3&gt;注意&lt;/h3&gt;
+&lt;p&gt;django 1.10 和之前版本的区别：
+在旧版本的 MIDDLEWARE&lt;em&gt;CLASSES 中，就算一个中间件”短路”了执行过程，所有的中间件都会调用它们的 process&lt;/em&gt;response 方法。而在新的 MIDDLEWARES 版本中，只有这个中间件和在它之前执行的中间件才会调用 process_response 方法。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;以上就是 django 在处理一个请求的基本的过程，最后 django 的 WSGI Handler 会创建一个来自 HTTPResponse 的返回值，而且会调用回调函数把数据传递给 web server, 最后返回给用户。&lt;/p&gt;
+&lt;p&gt;以下是两个关键点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我们现在知道了视图函数是如何和 url 解析器匹配以及什么在调用它 (WSGI Handler)&lt;/li&gt;
+&lt;li&gt;有四个关键的地方可以让你挂钩到请求 / 响应周期：process&lt;em&gt;request, process&lt;/em&gt;response, process&lt;em&gt;view, process&lt;/em&gt;exception。请求中间件是从外部向内执行，最后抵达到视图函数，然后通过响应中间件从内向外返回。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;参考资料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/zeitcode/django-middlewares-and-the-request-response-cycle-fcbf8efb903f&quot;&gt;Django Middlewares and the Request/Response Cycle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.b-list.org/weblog/2006/jun/13/how-django-processes-request/&quot;&gt;How Django processes a request&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[React+Electron搭建一个桌面应用]]></title><description><![CDATA[​当你冲这个标题点进来的时候，我猜你一定知道 React 是什么，更多详情请 戳这里 ，就不介绍React了，一个神般存在的前端框架。另外，浏览器和移动端横行的时代，为什么还需要桌面应用？我就不解释了，反正优点很多，做为技术多学一点总没错。 Electron…]]></description><link>https://knownsec-fed.com/2018-01-21-electron-with-react/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-21-electron-with-react/</guid><pubDate>Sun, 21 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-262428f3d8338fc8e5f1713081dab50b-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABEElEQVQoz61R21KDMBDtF5UkkESBhIstLciMOq0w7YMv+v+/sO4uNFJfqjN9OJPsyclezq4ilcE9sbolWCNEUvwzYZwHIskbWMtZgPzjUw/N6Quy3Rsnv/DSlBChTpqKz0XCPBAidqBsHWL3PIDrBkibV7yP4Nrj1DW9oza6nPRXOS44d0hkzpCmAFN0LPb9COkWk3Xv4PoBknQzdWVL/qNsxX9E7LFIuvRwqiJ1OVWfO6wPH5C3B8QRNuMnlC9nfrNV/zNV4q8su7kU9VDz6GIe7U9L0W7HSLItaL8H4/YcG98yR4uyaENMd9JiTO8xWkB6jfqrkaUuAsiXEOMmCdTlkiMNjSq0Z8+J++Xh/fANUfJJbyJ1gIsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Header&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-262428f3d8338fc8e5f1713081dab50b-d6978.jpeg&quot;
+        srcset=&quot;/static/header-262428f3d8338fc8e5f1713081dab50b-527f0.jpeg 300w,
+/static/header-262428f3d8338fc8e5f1713081dab50b-9a7cd.jpeg 600w,
+/static/header-262428f3d8338fc8e5f1713081dab50b-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;​当你冲这个标题点进来的时候，我猜你一定知道 React 是什么，更多详情请&lt;a href=&quot;https://reactjs.org/&quot;&gt;戳这里&lt;/a&gt;，就不介绍React了，一个神般存在的前端框架。另外，浏览器和移动端横行的时代，为什么还需要桌面应用？我就不解释了，反正优点很多，做为技术多学一点总没错。&lt;/p&gt;
+&lt;h2&gt;Electron 简单介绍&lt;/h2&gt;
+&lt;h3&gt;是什么?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://electronjs.org/docs/tutorial/about&quot;&gt;官网&lt;/a&gt;是这么介绍的：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;a href=&quot;https://electronjs.org/&quot;&gt;Electron&lt;/a&gt; is an open source library developed by GitHub for building cross-platform desktop applications with HTML, CSS, and JavaScript. Electron accomplishes this by combining &lt;a href=&quot;https://www.chromium.org/Home&quot;&gt;Chromium&lt;/a&gt; and &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt; into a single runtime and apps can be packaged for Mac, Windows, and Linux.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简单翻译一下就是：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  ​&lt;a href=&quot;https://electron.atom.io/&quot;&gt;Electron&lt;/a&gt; 是一个由 GitHub 开发的开源库，通过将 &lt;a href=&quot;https://www.chromium.org/Home&quot;&gt;Chromium&lt;/a&gt;) 和&lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt; 组合并使用 HTML，CSS 和 JavaScript 进行构建 Mac，Windows，和 Linux 跨平台桌面应用程序。    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;隐藏意思：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  让前端开发者快乐简单拥抱桌面应用！&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;原理是?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;   上面已将说了，&lt;a href=&quot;https://electron.atom.io/&quot;&gt;Electron&lt;/a&gt; 通过将 &lt;a href=&quot;https://www.chromium.org/Home&quot;&gt;Chromium&lt;/a&gt; 和 &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt; 组合到单个 runtime 中来实现的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;node.js:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  如果你不知道 node.js，那还等什么快&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;戳这里&lt;/a&gt;，看一看世界上最温柔可爱的语言。它借助于 Google 的 V8 引擎，&lt;strong&gt;Node.js&lt;/strong&gt; 是一个能够在服务器端运行 JavaScript 的开放源代码、跨平台 JavaScript 运行环境，更多解释请&lt;a href=&quot;https://zh.wikipedia.org/wiki/Node.js&quot;&gt;戳维基百科&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chromium:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;   Chromium 或许你没听说过，但是你一定听说过 chrome 吧！Chromium 是 Google 的开源浏览器，是 chrome 背后的那个不太稳定更新快的兄弟版，详情&lt;a href=&quot;https://www.chromium.org/Home&quot;&gt;戳这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;组合:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  Electron 创建的应用使用网页作为其 GUI ,因此你可以将其当成由 JavaScript 控制的迷你精简版Chromium 浏览器。也可以将 Electron 当成 node.js 变体，只不过它更专注于桌面应用而非 Web 服务器。在 Electron 中, 把 &lt;code&gt;package.json&lt;/code&gt; 中设定的 &lt;code&gt;main&lt;/code&gt; 脚本的所在进程称为 &lt;strong&gt;主进程&lt;/strong&gt;。这个进程中运行的脚本也可通过创建网页这种方式来展现其 GUI。 因为 Electron 是通过 Chromium 来显示页面,所以 Chromium 自带的多进程架构也一同被利用。这样每个页面都运行着一个独立的进程,它们被统称为 &lt;strong&gt;渲染进程&lt;/strong&gt;。通常来说,浏览器中的网页会被限制在沙盒环境中运行并且不允许访问系统原生资源。但是由于 Eelectron 用户可在页面中调用 Node.js API，所以可以和底层操作系统直接交互。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;优缺点？&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;  总之，优点肯定大于缺点。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优点:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  方便快捷的开发桌面应用，跨平台，对前端开发者友好，活跃的社区，丰富的api…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;缺点:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  性能肯定比不上原生的桌面应用，发布的包貌似有一点点大。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;怎么开始?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;  如果不是假前端，那么你电脑肯定安装好了 git 和 node。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;# github上有一个 electron-quick-start 仓库克隆下来&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/electron/electron-quick-start
+&lt;span class=&quot;token comment&quot;&gt;# 进入文件夹&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; electron-quick-start
+&lt;span class=&quot;token comment&quot;&gt;# 安装依赖包并运行&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; start
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;  然后，你桌面应用就创建成功了如下图所示！&lt;/p&gt;
+&lt;p&gt;  
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/hello-world-57bd3a4ef1121c6f3f53492603c91b24-f8e32.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 802px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 77.80548628428927%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsSAAALEgHS3X78AAAAZElEQVQoz+3LOwrAIAyA4Zy/IPV1IWfBwXPUBzhIBrXBuYtINz+SkOUHKW6thFaSc8bYtTRgjPHeW2udc7XWsQJijCEEujlnep6JnpRSmEopiPgd07bWeu9jHYwNJz7xzzFueAFU/ptIYGD8IAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;hello world&quot;
+        title=&quot;&quot;
+        src=&quot;/static/hello-world-57bd3a4ef1121c6f3f53492603c91b24-f8e32.png&quot;
+        srcset=&quot;/static/hello-world-57bd3a4ef1121c6f3f53492603c91b24-11091.png 300w,
+/static/hello-world-57bd3a4ef1121c6f3f53492603c91b24-de789.png 600w,
+/static/hello-world-57bd3a4ef1121c6f3f53492603c91b24-f8e32.png 802w&quot;
+        sizes=&quot;(max-width: 802px) 100vw, 802px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;  打开你的 electron-quick-start 文件夹，你的项目结构如下图：&lt;/p&gt;
+&lt;p&gt;  
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/electron-quick-start-c3d917e2a785aed1b5f5e5c20e0fddbe-4debb.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 281px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 71.88612099644128%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABMUlEQVQoz5WS626CMBiGuX7vQ/2xTZQxJ2KhJyzIQYFKqygMY7iOdW7JfrnVJ+khTZ4vfb/WKIrCcZyQrRGCmFBCSBDQ9ZoiRHwP7CvR38dQQwiR5/k2TT0AdkVJMPY8z4dQnfd/8iV3XReGYdd9SCGklG3bXi6XXgPje0mSZM9LeiPbZkIeHpBN00zTdLl0Fot3dwWiKNzlpa7MGEviDSYEeD7wYZZlnHNdWTX5fD7Xdd00zbE+Nnqxf2TXdVVsjGC0iSlGYRxrZR7eGAwGw9HItu2ZZb08Pw31MNiN8XjsLJyZ9arMycScTafWq63mt/mc3ee3YVUlDoejlIKX/HSq1V6Iqmna/zMDAEIWYRpA31u6q4ASFm10G4YQ4mWOMVZVIMLqIg98EvVI1+u1f5BPngTAMlfr8zIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;electron-quick-start&quot;
+        title=&quot;&quot;
+        src=&quot;/static/electron-quick-start-c3d917e2a785aed1b5f5e5c20e0fddbe-4debb.png&quot;
+        srcset=&quot;/static/electron-quick-start-c3d917e2a785aed1b5f5e5c20e0fddbe-4debb.png 281w&quot;
+        sizes=&quot;(max-width: 281px) 100vw, 281px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;  其中，main.js 是你的启动文件，index.html 是你的入口文件。&lt;/p&gt;
+&lt;h2&gt;React 结合 Electron&lt;/h2&gt;
+&lt;p&gt;上面简单的介绍了一下 Electron，下面介绍一下如何将 React 和 Electron 结合起来。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;创建一个React项目&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;  首先你得有一个 React 项目，由于太多繁琐的配置和懒惰的自己，我们这里就用 Facebook 提供的 create-react-app 来快速创建一个 knownsec-fed 项目。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;# 安装 create-react-app 命令,如果已将安装请忽略&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g create-react-app
+&lt;span class=&quot;token comment&quot;&gt;# 创建 knownsec-fed 项目&lt;/span&gt;
+create-react-app knownsec-fed
+&lt;span class=&quot;token comment&quot;&gt;# 启动项目( create-react-app 真的超级方便啊)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; knownsec-fed &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; start
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;  于是，浏览器 &lt;a href=&quot;http://localhost:3000/&quot;&gt;http://localhost:3000/&lt;/a&gt; 就会出现着如下图界面，一个 react 项目创建成功：&lt;/p&gt;
+&lt;p&gt;  
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/create-react-app-b8c790cff10bbe847d9ea60b84aeee11-133bb.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.25274725274725%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAAAWklEQVQoz2PQxw2MbOyNHZzxKGBQxwF0dXUNzS0NrWy0tbVxqWHwwgECAwMjIiLCwsKCgoJwqWH4jw18/vzp48dPX758+fr16ycg+PDh/9+/mMqwayYSjETNAPR8jIUrw542AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;create-react-app&quot;
+        title=&quot;&quot;
+        src=&quot;/static/create-react-app-b8c790cff10bbe847d9ea60b84aeee11-abe1c.png&quot;
+        srcset=&quot;/static/create-react-app-b8c790cff10bbe847d9ea60b84aeee11-10046.png 300w,
+/static/create-react-app-b8c790cff10bbe847d9ea60b84aeee11-3c4a3.png 600w,
+/static/create-react-app-b8c790cff10bbe847d9ea60b84aeee11-abe1c.png 1200w,
+/static/create-react-app-b8c790cff10bbe847d9ea60b84aeee11-133bb.png 1365w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;添加 Electron 包&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;# 在knownsec-fed 目录下安装 Electron 包&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -save electron
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;相关配置&lt;/h3&gt;
+&lt;h4&gt;&lt;strong&gt;配置 main.js&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;  knownsec-fed 根目录(不是 src 目录)下面新建 main.js 文件,这个文件和 electron-quick-start 中的官方默认 main.js 几乎一模一样，只修改了加载应用这入口这一个地方：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 引入electron并创建一个Browserwindow&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;app&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; BrowserWindow&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;electron&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;path&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;url&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 保持window对象的全局引用,避免JavaScript对象被垃圾回收时,窗口被自动关闭.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; mainWindow
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createWindow&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;//创建浏览器窗口,宽高自定义具体大小你开心就好&lt;/span&gt;
+mainWindow &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;BrowserWindow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;width&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;800&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; height&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;/* 
+   * 加载应用-----  electron-quick-start中默认的加载入口
+    mainWindow.loadURL(url.format({
+      pathname: path.join(__dirname, &apos;index.html&apos;),
+      protocol: &apos;file:&apos;,
+      slashes: true
+    }))
+  */&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 加载应用----适用于 react 项目&lt;/span&gt;
+  mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;loadURL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;http://localhost:3000/&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  
+  &lt;span class=&quot;token comment&quot;&gt;// 打开开发者工具，默认不打开&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// mainWindow.webContents.openDevTools()&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// 关闭window时触发下列事件.&lt;/span&gt;
+  mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;closed&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    mainWindow &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 当 Electron 完成初始化并准备创建浏览器窗口时调用此方法&lt;/span&gt;
+app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ready&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; createWindow&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 所有窗口关闭时退出应用.&lt;/span&gt;
+app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;window-all-closed&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// macOS中除非用户按下 `Cmd + Q` 显式退出,否则应用与菜单栏始终处于活动状态.&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;platform &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;darwin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;quit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;activate&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token comment&quot;&gt;// macOS中点击Dock图标时没有已打开的其余应用窗口时,则通常在应用中重建一个窗口&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mainWindow &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;createWindow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 你可以在这个脚本中续写或者使用require引入独立的js文件.   &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;配置 package.json&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;knownsec-fed&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0.1.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;private&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;main&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;main.js&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 配置启动文件
+  &lt;span class=&quot;token property&quot;&gt;&quot;homepage&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 
+  &lt;span class=&quot;token property&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;electron&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^1.7.10&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;react&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^16.2.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;react-dom&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^16.2.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;react-scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1.1.0&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;start&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-scripts start&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;build&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-scripts build&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-scripts test --env=jsdom&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;eject&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-scripts eject&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;electron-start&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;electron .&quot;&lt;/span&gt; // 配置electron的start，区别于web端的start
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;   
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;启动 Electron&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;# 启动react项目&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; start
+&lt;span class=&quot;token comment&quot;&gt;# 启动electron&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run electron-start
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;  支持热调试，当你修改代码后，桌面应用也将会重新更新。&lt;/p&gt;
+&lt;p&gt;  
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/react-electron-47804622929a3da10f18c3a58468a332-cac28.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 803px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 78.33125778331258%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsSAAALEgHS3X78AAAAmUlEQVQoz2MIdLZ2c3X09/X09XZ3sLciCTEo4QaqOnr67n5Kysq4FODTrOvkYZVeoqymRppmDQ0NVVVVIENdQ0NbWxvIUMZmP3bNFhYWrq6uHh4enp6ejo6O7u7u6urqWDTX19c3kQsYfv78+R8JvHjx4vnz58+ePXv16tWHDx/egAFQ5OXLl0Cpz58/IytG10wSGNU8MjQDAON+o+FoeY3jAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;react-electron&quot;
+        title=&quot;&quot;
+        src=&quot;/static/react-electron-47804622929a3da10f18c3a58468a332-cac28.png&quot;
+        srcset=&quot;/static/react-electron-47804622929a3da10f18c3a58468a332-ca07b.png 300w,
+/static/react-electron-47804622929a3da10f18c3a58468a332-85be9.png 600w,
+/static/react-electron-47804622929a3da10f18c3a58468a332-cac28.png 803w&quot;
+        sizes=&quot;(max-width: 803px) 100vw, 803px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;打包&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;打包 react 项目&lt;/h4&gt;
+&lt;p&gt;  首先修改 &lt;code&gt;main.js&lt;/code&gt;, 因为现在你要将 react 项目打包在 build 文件夹下面，所以加载应用处改成如下！当然也可在某个配置文件里面配置是否属于开发，此处用if判断一下从未进行选择执行哪段加载应用代码。但是这里为了简便，暂且使用直接修改的方式：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 加载应用----react 打包&lt;/span&gt;
+mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;loadURL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;url&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  pathname&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; path&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;__dirname&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./build/index.html&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  protocol&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;file:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  slashes&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 加载应用----适用于 react 开发时项目&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// mainWindow.loadURL(&apos;http://localhost:3000/&apos;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;  默认情况下，homepage 是 &lt;a href=&quot;http://localhost:3000%EF%BC%8Cbuild&quot;&gt;http://localhost:3000，build&lt;/a&gt; 后，所有资源文件路径都是 /static，而 Electron 调用的入口是 file :协议，/static 就会定位到根目录去，所以找不到静态文件。在 &lt;code&gt;package.json&lt;/code&gt; 文件中添加 homepage 字段并设置为”.”后，静态文件的路径就变成了相对路径，就能正确地找到了添加如下配置：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token string&quot;&gt;&quot;homepage&quot;&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;.&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;  然后就开始打包 react：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run-script build
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;  此时，根目录下面将多出一个build文件夹。&lt;/p&gt;
+&lt;h3&gt;打包 electron&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;常用打包插件&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/electron-userland/electron-builder&quot;&gt;electron-builder&lt;/a&gt;&lt;/strong&gt;    &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/electron-userland/electron-packager&quot;&gt;electron-packager&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;安装electron-packager&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;# knownsec-fed目录下安装electron-packager包&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; electron-packager --save-dev
+&lt;span class=&quot;token comment&quot;&gt;# 安装electron-packager命令&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; electron-packager -g
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;electron-packager命令介绍&lt;/strong&gt;
+&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;  electron-packager &amp;lt;location of project&gt; &amp;lt;name of project&gt; &amp;lt;platform&gt; &amp;lt;architecture&gt; &amp;lt;electron version&gt; &amp;lt;optional options&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;location of project: 项目的本地地址，此处我这边是 ~/knownsec-fed   &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;location of project: 项目名称，此处是 knownsec-fed   &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;platform: 打包成的平台   &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;architecture: 使用 x86 还是 x64 还是两个架构都用   &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;electron version: electron 的版本&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;于是，根据我这边的情况在 &lt;code&gt;package.json&lt;/code&gt; 文件的在 scripts 中加上如下代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token property&quot;&gt;&quot;package&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &quot;electron-packager ~/knownsec-fed/build knownsec-fed --all --out ~/ --version &lt;span class=&quot;token number&quot;&gt;1.7&lt;/span&gt;.&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;   
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;开始打包&lt;/strong&gt;
+&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run-script package
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;提醒&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  由于打包的时候会把浏览器内核完整打包进去，所以就算你的项目开发就几百k的资源，但最终的打包文件估计也会比较大。&lt;/p&gt;
+&lt;h2&gt;其它&lt;/h2&gt;
+&lt;p&gt;此文章未涉及 Electron 具体的技术，只是简单的介绍了一下 react + electron 的一个配置及打包的流程。或许以后会写关于 Electron 的技术细节。Electron 有着非常强大的 api，其背后涉及的技术也非常多。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;友情链接&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/electron/electron&quot;&gt;Electron github&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://electronjs.org/docs&quot;&gt;Electron 英文文档&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gitbook.com/book/yuzhigang/electron/details&quot;&gt;Electron 中文手册&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/electron-userland/electron-packager&quot;&gt;electron-packager github&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://electronjs.org/apps&quot;&gt;基于Electron构建的app&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/chentsulin/electron-react-boilerplate&quot;&gt;electron-react-boilerplate github&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【翻译】UI 设计中的格式塔原则]]></title><description><![CDATA[原文链接:  Gestalt principles in UI design 作者：Eleana Gkogka…]]></description><link>https://knownsec-fed.com/2018-01-20-fan-yi-ui-she-ji-zhong-de-ge-shi-ta-yuan-ze/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-20-fan-yi-ui-she-ji-zhong-de-ge-shi-ta-yuan-ze/</guid><pubDate>Sat, 20 Jan 2018 17:41:53 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-31f16200f4d7cfa584604d101cc45c96-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHXiwgH/8QAFxAAAwEAAAAAAAAAAAAAAAAAARESIP/aAAgBAQABBQJl0c//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAIDEy/9oACAEBAAY/AoZX/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARICGRUf/aAAgBAQABPyFJHcer2GwsrD//2gAMAwEAAgADAAAAELz/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQABBAMAAAAAAAAAAAAAAAERACExYSBBcf/aAAgBAQABPxAgJOg5t5QAhqw022pqpCXJxw//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【翻译】UI 设计中的格式塔原则&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-31f16200f4d7cfa584604d101cc45c96-d6978.jpeg&quot;
+        srcset=&quot;/static/header-31f16200f4d7cfa584604d101cc45c96-527f0.jpeg 300w,
+/static/header-31f16200f4d7cfa584604d101cc45c96-9a7cd.jpeg 600w,
+/static/header-31f16200f4d7cfa584604d101cc45c96-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;原文链接: &lt;a href=&quot;https://medium.muz.li/gestalt-principles-in-ui-design-6b75a41e9965&quot;&gt;Gestalt principles in UI design&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者：Eleana Gkogka&lt;/p&gt;
+&lt;h2&gt;如何成为视觉交流的主要操纵者&lt;/h2&gt;
+&lt;p&gt;当你看着天空的时候有没有注意到那些奇形怪状的云，有些像一个熟悉的动物或某个物体？你有没有想过，这是由于什么原因或是怎样的方式，让我们通过观看一个蓬松的气体，去做的这些联想？其实这完全是因为你的大脑在工作！&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/01-4963060bc7b799b46757ccd422237deb-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 36.375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAABqklEQVQY0yXLTW+aYAAAYH7Vbkt2WLslS5M2aezaVK11FdSioCCi8uWrCAIWBSkWJR0FqlVTXaeedmizLOnuy05Llv2SLVnyXB/oxRG5hynZxjDF2fnmqKqHuOgmKuY+rr07l1jD283VM5yGgl5etDDJRlsWAoz/oFeJKio6pQufVL32cG6PN2zXSzFmlNL3C53WVZhlZbTMl3ipZbko6J6xGsxpCN9BhAvoTQZswfWXsXK8CJzxYv30nOPVeEn9948pQx3dnlJNtiFVubppD/h2lwRqsiKd1WSYVaDtTHM73XyL1POcGEll3yP5nXiakJ2C7MKC0/cmBFCmoSsCgaRriRwVRWmSAUWuESV4KEL1DmkzxliEMmTa2glGqKMQ2JOaMca10Amn+mX/y2a+WQRP65CiK0mUOEIKNMOgNQE6EQZp6Rrv+ITuc5bfC5bKx6V9t7Imaz34/PVxdeuZYeCsFt6vH89MtXyaxSMf0EM4l8KKECK7WCegzAljz4Srqe7Nb5Ybd/5g+LPLu4c/Px9/fw++rQYzT78P+598LYGc78XgrYPk64PkXzWU3AJx1JAzAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;01&quot;
+        title=&quot;&quot;
+        src=&quot;/static/01-4963060bc7b799b46757ccd422237deb-abe1c.png&quot;
+        srcset=&quot;/static/01-4963060bc7b799b46757ccd422237deb-10046.png 300w,
+/static/01-4963060bc7b799b46757ccd422237deb-3c4a3.png 600w,
+/static/01-4963060bc7b799b46757ccd422237deb-abe1c.png 1200w,
+/static/01-4963060bc7b799b46757ccd422237deb-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;你的大脑总是试图通过对比以前的经验或视觉模式和连接点来理解世界。它有自己的“奇怪”的形式和形式感知方式，通过分组信息，填补空白，在大脑中画出大局。&lt;/p&gt;
+&lt;p&gt;了解你的大脑如何工作将有助于你成为一个更聪明的设计师，和视觉传达的主要操纵者。它可以帮助你确定哪些视觉元素在任何特定的情况下都是最有效的，因此你可以使用它们来影响知觉，引导注意力并引起行为改变。对于以目标为导向方式去解决问题的这类直观的设计方式来说，是非常特别且有用的用户界面设计。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“伟大的设计师理解心理学在视觉感知中的强大作用。当别人的眼睛看到你的设计作品时会发生什么，他们对你的作品分享的信息有什么反应？”&lt;/p&gt;
+&lt;p&gt;—— Autodesk 品牌内容策划师 Laura Busche&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;现在很清楚，视觉设计和心理是相互联系的，可以相互影响。格式塔原则可以帮助我们理解和控制这些联系。&lt;/p&gt;
+&lt;h2&gt;什么是完形？&lt;/h2&gt;
+&lt;p&gt;格式塔（在德语中是“形状”的意思）是德国心理学家在 20 世纪 20 年代发展起来的一组视觉感知原理。它是建立在“有组织的整体，被认为超过其各部分之和”的理论之上的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“整体不是部分的总和。”&lt;/p&gt;
+&lt;p&gt;—— Kurt Koffka&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;格式塔原则试图描述当某些条件适用时，人们如何看待视觉元素。它们建立在四个关键思想上：&lt;/p&gt;
+&lt;h3&gt;紧急情况&lt;/h3&gt;
+&lt;p&gt;人们倾向于首先在他们概括的形式中识别元素。我们的大脑识别一个简单的、定义良好的物体比一个详细的物体要快。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/02-25f3f0363521904a6b3d11f10dbf9c09-afed5.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.22368421052631%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAe3VpRHJF//EABkQAQEAAwEAAAAAAAAAAAAAAAECABAREv/aAAgBAQABBQJri17dEhWf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAEAABAhEhEv/aAAgBAQAGPwKlHl8OD//EABsQAQACAgMAAAAAAAAAAAAAAAEAEBExQVGh/9oACAEBAAE/ITLtFFuZUfIapAgM8BX/2gAMAwEAAgADAAAAEK8P/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAAICAgMAAAAAAAAAAAAAAREhADEQoUFRcf/aAAgBAQABPxBzEoWVoiO76wv4920TIjSPvAgFVDb5yCZi8N8iwEq2/aOP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;02&quot;
+        title=&quot;&quot;
+        src=&quot;/static/02-25f3f0363521904a6b3d11f10dbf9c09-d6978.jpeg&quot;
+        srcset=&quot;/static/02-25f3f0363521904a6b3d11f10dbf9c09-527f0.jpeg 300w,
+/static/02-25f3f0363521904a6b3d11f10dbf9c09-9a7cd.jpeg 600w,
+/static/02-25f3f0363521904a6b3d11f10dbf9c09-d6978.jpeg 1200w,
+/static/02-25f3f0363521904a6b3d11f10dbf9c09-afed5.jpeg 1520w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;物化&lt;/h3&gt;
+&lt;p&gt;人们可以识别物体，即使它们是缺失的部分。我们的大脑与记忆中的熟悉模式相匹配，并填补了空白。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/03-e1e00f9ee779c3b8317823de42dfb4df-a08df.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.18211702827088%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB2IWro8Av/8QAGRABAQEAAwAAAAAAAAAAAAAAAgMABBMh/9oACAEBAAEFAq06yH7qTNTHjGS3/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAEQABAhASQYH/2gAIAQEABj8CKg2T93QkiS4Ff//EABoQAQACAwEAAAAAAAAAAAAAAAEAERAhYUH/2gAIAQEAAT8hKx2A2LT4cTh2DcAXBRruP//aAAwDAQACAAMAAAAQjA//xAAWEQADAAAAAAAAAAAAAAAAAAAQESH/2gAIAQMBAT8QrH//xAAWEQADAAAAAAAAAAAAAAAAAAAQESH/2gAIAQIBAT8QiH//xAAdEAEBAAEEAwAAAAAAAAAAAAABESEAEDFBUXHw/9oACAEBAAE/EMKCkLxgv3p0SXZI7kycSXHSbOnFMYiaNLUiCCmvlzNv/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;03&quot;
+        title=&quot;&quot;
+        src=&quot;/static/03-e1e00f9ee779c3b8317823de42dfb4df-d6978.jpeg&quot;
+        srcset=&quot;/static/03-e1e00f9ee779c3b8317823de42dfb4df-527f0.jpeg 300w,
+/static/03-e1e00f9ee779c3b8317823de42dfb4df-9a7cd.jpeg 600w,
+/static/03-e1e00f9ee779c3b8317823de42dfb4df-d6978.jpeg 1200w,
+/static/03-e1e00f9ee779c3b8317823de42dfb4df-a08df.jpeg 1521w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;多稳定性&lt;/h3&gt;
+&lt;p&gt;人们往往会以多种方式来解释模棱两可的对象，我们的大脑将在寻求确定性的选择之间来回反弹。结果，一种观点会变得更加占优势，而另一种则更难看。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/04-da0f048c489750258141cc9663dda033-a08df.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.18211702827088%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHraqQov//EABsQAAIBBQAAAAAAAAAAAAAAAAABEgIQERQi/9oACAEBAAEFAm69hvAiHcbf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAARECEBIxQv/aAAgBAQAGPwIR5T1eTN//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQVGB/9oACAEBAAE/IabS69I6wzrGptfI2O4KrlRCuuwAKJ//2gAMAwEAAgADAAAAEE8P/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBUWHR/9oACAEBAAE/EDUfi6IhLx2Z1wMSeX0xJaRnjAgriE2RTj4YyIRE1+YaCBn/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;04&quot;
+        title=&quot;&quot;
+        src=&quot;/static/04-da0f048c489750258141cc9663dda033-d6978.jpeg&quot;
+        srcset=&quot;/static/04-da0f048c489750258141cc9663dda033-527f0.jpeg 300w,
+/static/04-da0f048c489750258141cc9663dda033-9a7cd.jpeg 600w,
+/static/04-da0f048c489750258141cc9663dda033-d6978.jpeg 1200w,
+/static/04-da0f048c489750258141cc9663dda033-a08df.jpeg 1521w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;不变性&lt;/h3&gt;
+&lt;p&gt;人们可以独立于自己的旋转、缩放和平移来识别简单的物体。我们的大脑可以从不同的角度感知物体，尽管它们的外观不同&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/05-5c0c10fa5f824c822531c0a82ee0babe-a08df.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.18211702827088%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1lPEsSL/AP/EABkQAAIDAQAAAAAAAAAAAAAAAAITAQMSI//aAAgBAQABBQLq+H4r0tfUqokKwwH/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgMBAQAAAAAAAAAAAAAAAQIREjJBY3H/2gAIAQEABj8C8yV7cFnsZuT+DinViiuH/8QAHRAAAQQCAwAAAAAAAAAAAAAAAQARIUExgVGh0f/aAAgBAQABPyFrOnHqnTo2NrOXsVkIBmFQiHA2ZAnQT//aAAwDAQACAAMAAAAQP8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAeEAEAAgMAAgMAAAAAAAAAAAABESEAMUFR0WFxkf/aAAgBAQABPxDboedfiT2+MJOKbtYeo6eT3mpLogJtjVajBr2WVCA/esiQaysIM0Nc1iaI4Fz/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;05&quot;
+        title=&quot;&quot;
+        src=&quot;/static/05-5c0c10fa5f824c822531c0a82ee0babe-d6978.jpeg&quot;
+        srcset=&quot;/static/05-5c0c10fa5f824c822531c0a82ee0babe-527f0.jpeg 300w,
+/static/05-5c0c10fa5f824c822531c0a82ee0babe-9a7cd.jpeg 600w,
+/static/05-5c0c10fa5f824c822531c0a82ee0babe-d6978.jpeg 1200w,
+/static/05-5c0c10fa5f824c822531c0a82ee0babe-a08df.jpeg 1521w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这就是格式塔原则，可以告诉今天的 UI 设计师。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;接近&lt;/h2&gt;
+&lt;p&gt;相互靠近放置的元素被认为比放置得更远的元素更相关，这样不同的元素主要被视为一个群体而不是单独的元素。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06-66c3a1f5bc21e93bba1b677f30e712ab-56ba0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1140px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.42105263157894%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAACVUlEQVQoz2P4TwFguPvwsV9ywaotu/tnLw3Pqrh0/fb/f/8b+maUtU5Yun57YWNPx7T5f/78BSr98OHPmtXv58158/DBzwm9r44d+cKwYtNOEX3H5NIGS/84NmWzdTv23Xv01D0mS8s5OCi9RNXO3z+l8PHzl0DNjx/9Kit6WpT3ZMO6Dxkpj6ZMfMXw9+/fhgkz7zx4dPri1dnL1z97+Rqobs22PRt2Hrj78Mnqrbs37zkEceTv3/+eP/t9987Pv3//X7n8/dOnPwxrtu4B2pxW0WwTlMiuYr5x1/5HT597xGbruISGZ5WrOwQEphZBTASCf//+//nzD2IQyM/X7z5wikhfuGZz86TZnvE5Zy9f//P3b2lrf1Z125zl61PLmup6p//+/Qeo9MWL351tL2srn5088TU38/GKZe8Y7j96Gpxesnbb3knzl8fkV1+5eQeornnirKquySs27ypp6e+euejvP1CAPX/+q7XpRVXZU2BQZac/XrroLcPyjTuAzk4qabTwiwUG2Pod+4DhDwwwTaegwNRiFWCAJRc+fvYC4mygb3/9BDn4x/d/QC9AA+z2g8enL16ZvXwdUoDtB5qCHGBA375+/fvRw19AI27d/PH161+Gtdv3Am3OqGyxC0niULPYuPvA4+cvPOKydVxDI3Iq1R0DA9OKn796A4qqx7/KS54W5T/ZtBEUVdMmv2a4dvueXUjyvFUb6vtmuEZnnrl49c+fP0XNvcDwn7FkTUJxfXX3lF+/fwM1v3/3Z8XSdzOnvb5792dX+8tDBz4zUJI8AcuhFWjQBDpZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;06&quot;
+        title=&quot;&quot;
+        src=&quot;/static/06-66c3a1f5bc21e93bba1b677f30e712ab-56ba0.png&quot;
+        srcset=&quot;/static/06-66c3a1f5bc21e93bba1b677f30e712ab-b73f6.png 300w,
+/static/06-66c3a1f5bc21e93bba1b677f30e712ab-c3379.png 600w,
+/static/06-66c3a1f5bc21e93bba1b677f30e712ab-56ba0.png 1140w&quot;
+        sizes=&quot;(max-width: 1140px) 100vw, 1140px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;接近度原则如何适用于 UI 设计？&lt;/h3&gt;
+&lt;p&gt;我们可以在 UI 设计中使用 Proximity 原理来分类相似的信息，组织内容和整理布局。它的正确使用将会对视觉通信和用户体验产生积极的影响。&lt;/p&gt;
+&lt;p&gt;正如原则所述，相关的项目应该彼此靠近，而不相关的项目应该保持更远的距离。白色空间在这里扮演着至关重要的角色，因为它创造了对比指导用户眼睛的预期方向。白色空间可以增强视觉层次和信息流，有助于轻松阅读和扫描布局。它将帮助用户更快地实现目标，深入研究内容。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07-140169cbd9dd2f9ecfc693f09f53f5b1-963aa.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 131.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAIBBAYDBf/EABcBAQEBAQAAAAAAAAAAAAAAAAIAAQP/2gAMAwEAAhADEAAAAUa23U1S+C5R4Uq0Jmw5/8QAGxAAAgMBAQEAAAAAAAAAAAAAAQIAAxIREzH/2gAIAQEAAQUC87hDXaIKbofrgdQgqVHbK9NWuBt4Waaaf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABYRAQEBAAAAAAAAAAAAAAAAABARAf/aAAgBAgEBPwGYU//EAB4QAAICAQUBAAAAAAAAAAAAAAABESECAzEyM6GR/9oACAEBAAY/Auz0U6rk7mOsjG4Kcjr0Tl0tiEcn9OTN2f/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESFRMWFBkfH/2gAIAQEAAT8hzjl1KFAjwrFFnuYTuNEsCaHDMegYsiObmMJBRhcNdmqmJmdWjc+lP//aAAwDAQACAAMAAAAQKMAD/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiKr/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EBMlt6T12//EACIQAQACAgAFBQAAAAAAAAAAAAEAESExQVFxgcGRodHh8P/aAAgBAQABPxA0im23frDES5ArrAdA/jcsl+VpRx1L906HLLU6WSy5VjurQmZQuKSp79/aaflrzMHiHmN8wBKqMrj93n//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;07&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07-140169cbd9dd2f9ecfc693f09f53f5b1-d6978.jpeg&quot;
+        srcset=&quot;/static/07-140169cbd9dd2f9ecfc693f09f53f5b1-527f0.jpeg 300w,
+/static/07-140169cbd9dd2f9ecfc693f09f53f5b1-9a7cd.jpeg 600w,
+/static/07-140169cbd9dd2f9ecfc693f09f53f5b1-d6978.jpeg 1200w,
+/static/07-140169cbd9dd2f9ecfc693f09f53f5b1-963aa.jpeg 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;从导航、卡片、画廊和横幅到列表、正文和分页，我们都可以应用近似原则。&lt;/p&gt;
+&lt;h2&gt;共同的地区&lt;/h2&gt;
+&lt;p&gt;与邻近原理类似，放置在同一区域内的元素被视为分组。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/08-23ae883c29f978427dbe66ad438838ab-56ba0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1140px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.42105263157894%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAACc0lEQVQoz01SS2sTURSeP+DSXyCIiIiuFFOtNUpxISp9WixWsTWtpYsutIqKIikuRHRlaylUEUQQxQcoguCi2qS2TUIS06aTJjOZPCYzmbkzk8md9/WMWOnh4/BdLufc75zvUsj2RMtVbO8/MV3iEj8czwMAMVwiWR5cbYXmeNTnGj4SEeaKepjWjkfFNxU8mkZ9cek51wQykkKMSThemHj4tHd0ghfrtbrUPXItdHNSdQn1kcctC8IMq9/Nqm0R8XW5GUqhrhVptqgPp1AoiVibxNJrge7B3cGO+aVYjuG27QrsbD1TN2xKNN0PPIZcMdzvdQPyimLFFRuELSMLALqx7eZK1Xh6FUawbDu7weTYkuIQapbVAwvCJK3Bgwd/Ck8Kjb6YFIyK99fVgYTcH5d+IZN4MLZHtgQcoDuVUK3xjDIvmZ9449aauqRY06z+ON+IyuYUq08xuuoRuli+dCPc1jPIcJUyLxw6O3D68rgKC/ut2bfXVGj/TTDgfej1gms+Y/WYYsHO5rgmJiS+Sgf7R/ec6FxOZvJsafv+4N72Hsl0qBm2AbLDtDqURAd+CI/y2rmYdCwq3ltXLyTk875sf+yCpGW4agM8M52NmlwQFV82b7rvqrhqOCx2vgpG2XAXkQVC6pYbRRbgn+eOiw3Tn9bzYGcA4NSXGm6NCCD1QU5rXxTfVvFYWulPyC9LzbE0uppGZYfkC2zX8PV9J3tXaVBd2dFyKtBxEfpQ76sYZE8z+p2sejQivio3r6RQ54oEY4PJQ0mZsUgBikf84gydZ6D48GaxbHlF7MDfBAImQ244/g+FwK6HNx3aKtv+G8D/ALBLTcDkQKWbAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;08&quot;
+        title=&quot;&quot;
+        src=&quot;/static/08-23ae883c29f978427dbe66ad438838ab-56ba0.png&quot;
+        srcset=&quot;/static/08-23ae883c29f978427dbe66ad438838ab-b73f6.png 300w,
+/static/08-23ae883c29f978427dbe66ad438838ab-c3379.png 600w,
+/static/08-23ae883c29f978427dbe66ad438838ab-56ba0.png 1140w&quot;
+        sizes=&quot;(max-width: 1140px) 100vw, 1140px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;共同区域原则如何适用于 UI 设计？&lt;/h3&gt;
+&lt;p&gt;共同区域原则特别有用。它可以帮助信息分组和内容组织，但也可以实现内容分离或作为联络点。它提高了层次结构，可扫描性和协助推广信息。&lt;/p&gt;
+&lt;p&gt;共同区域的原则可以把许多不同的因素结合在一起，使它们在更大的群体中保持统一。我们可以用线条，颜色，形状和阴影来实现它。它通常可以用于将元素引入前台，表示交互或重要性。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/09-a2410e37906732d9e08520502151c81e-963aa.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 132.9375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAIEAQMF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEDAv/aAAwDAQACEAMQAAAB3vHmkbSICh+O61YSif8A/8QAHBAAAgMAAwEAAAAAAAAAAAAAAQIAAxEEEhMx/9oACAEBAAEFAu2FvgBMxhHXUTkCte6liuxeOjQWNPayG6yf/8QAGBEAAgMAAAAAAAAAAAAAAAAAABIBEGH/2gAIAQMBAT8BSBNv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAQ/9oACAECAQE/AWd//8QAIRAAAgEDAwUAAAAAAAAAAAAAAAEREiEyAkGhEyIxM4H/2gAIAQEABj8Cy4Nvp4R7FyKbxYppGupqIqezHlZwNyZC7j//xAAdEAEAAwEBAQADAAAAAAAAAAABABEhMUFxUZHw/9oACAEBAAE/IUIY3dQWbyl+IJi/qXKbDH47EJX1X26fZrF1eyhCRcqG+Bs5/eRXYs+pT6PzUc98gij0n//aAAwDAQACAAMAAAAQ4BZy/8QAGREBAQADAQAAAAAAAAAAAAAAAQARUWGR/9oACAEDAQE/ENS+2G0LnkIl/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAgEBPxCy8INM/8QAHxABAAICAgIDAAAAAAAAAAAAAREhADFBYXGBUZHR/9oACAEBAAE/EH7IKBs+uslDQgoke7+MAohVSyMeWws2l51jDKylKYQCYsw0DWAG3xknpDBBcQVw6xy4VXJIB10ybdvE05OrwIYuJBln1hqDTg/Mi12sRbLn/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;09&quot;
+        title=&quot;&quot;
+        src=&quot;/static/09-a2410e37906732d9e08520502151c81e-d6978.jpeg&quot;
+        srcset=&quot;/static/09-a2410e37906732d9e08520502151c81e-527f0.jpeg 300w,
+/static/09-a2410e37906732d9e08520502151c81e-9a7cd.jpeg 600w,
+/static/09-a2410e37906732d9e08520502151c81e-d6978.jpeg 1200w,
+/static/09-a2410e37906732d9e08520502151c81e-963aa.jpeg 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;一个好的公共区域示例将是 Card UI 模式。一个定义良好的矩形空间，其中包含不同的信息，横幅和表格也是很好的例子。&lt;/p&gt;
+&lt;h2&gt;相似&lt;/h2&gt;
+&lt;p&gt;与不具有相似特征的元素相比，具有相似视觉特征的元素被认为更有关联。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/10-4dbfb5eaaf691efb1ffc504f2ccc27a8-56ba0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1140px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.42105263157894%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAACj0lEQVQoz22SWUwTURSGRx9NDCHGJ5Hok0ZpKtEYEwUDCQ0RYllESSAEgqD4wKKoiT6YCOHBSBVQXMA2UaAsFkHAtlRKEIiCUJqWlk0hXRhZhGmn06Gd5Y5nivqiN3Mn3/3v/Wf+k3MxQRCCDANvyk97SR/LcsAsQpyAADiEgAEYhoFdeivAsOz8ooPwekHEnje93SON69QOSBIysH1SrXF4laUv2LXpNm21a+qctSdvfmCF9ilbOndERiflFo9NWSNOJsqyr8G3sFqVOlxytq2nPwrMEVKdcQRn/Kn2D3Jbb5VzIsHSnTP/EadJZcs7LDI6Oa/END178HRScl4xJMU8JPVa0wvU0WeoU6kd7h8QVeE21+PWcXIV4Blu5QWEeMRCSRwHsRedy6SPEmPfqqoJOxpTo2w+HJcGf9YbRyz0hsz6PsasKVwwnjC1p9j6ZmkCjpIcQ/Msj3hvMEAFA6J5eNyUfvWm2TZXXlmdVnB90mIH1UA4hzzL7iBlIFyfPDgSkGrFvnv0ReaM3oa7d90vPVJbIZrHzdO5N+7NfFsquF0Rm5H/xWQBVbfpGCBczoAPYJBw8+gfc13IXF75CGIrGpsOxaX+ju0XY58xawrmxNjy6b4ZPxHqH88hXgSeg0c0r28QqvZuD+nr6O2vU7U6XBBSeLgwVr80NelbU3z/+nTRBArLsNAbP73Fh4qnOPFqYA0tmr3H4rv0gxLZReizbmjUia8kZBXFZxbeefDklDwn/Uo5KMq2Lmx/dEp+2ZxAhY2+jJpQi+bHjc3hklh1t06aeGnngeP6oc9rPzfP55fKL5cpGt7IsoqyS+6urm+8av2fGSbhJfnQHfw70J8lCg0Anue3+7xdPBsq/he+fQxTRZK1cQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;10&quot;
+        title=&quot;&quot;
+        src=&quot;/static/10-4dbfb5eaaf691efb1ffc504f2ccc27a8-56ba0.png&quot;
+        srcset=&quot;/static/10-4dbfb5eaaf691efb1ffc504f2ccc27a8-b73f6.png 300w,
+/static/10-4dbfb5eaaf691efb1ffc504f2ccc27a8-c3379.png 600w,
+/static/10-4dbfb5eaaf691efb1ffc504f2ccc27a8-56ba0.png 1140w&quot;
+        sizes=&quot;(max-width: 1140px) 100vw, 1140px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;相似性原则在 UI 设计中如何应用？&lt;/h3&gt;
+&lt;p&gt;我们倾向于把相似的东西看成是一组或一种模式。我们也可能认为它们是出于同样的目的。相似性可以帮助我们组织和分类一个群组中的对象，并将其与特定的意义或功能联系起来。&lt;/p&gt;
+&lt;p&gt;因此有很多不同的方法可以使多种元素被认为存在相似点。这包括颜色、大小、形状、质地、尺寸和方向的相似性，其中颜色比其他的更具有说服力（例如：颜色 &gt; 大小 &gt; 形状）。当相似性发生时，一个物体可以通过与其他物体不同而得到强调，这被称为“异常”，可以用来产生对比或视觉上的差异。它可以将用户的注意力吸引到某一特定的内容（焦点），同时帮助其可浏览性、可发现性和整体流程。&lt;/p&gt;
+&lt;p&gt;我们还可以在导航，链接，按钮，标题，调用操作等等中使用相似性原则。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/11-0b9a41e8baee475c0535ef700f13da8b-963aa.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 119.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAYABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDAgX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHLRdrnA9IsFAnQX//EABwQAAICAgMAAAAAAAAAAAAAAAECAAMREiEiMf/aAAgBAQABBQLD7NXYCKrTE0Nr9onnALOmBZUJ/8QAFhEBAQEAAAAAAAAAAAAAAAAAEBEB/9oACAEDAQE/AbhD/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHxAAAgEDBQEAAAAAAAAAAAAAAAECAyExERIyYYET/9oACAEBAAY/AtqrX9L1YlqkWOSn3g1Ul6jKZLb8+rnKGDlE/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUXH/2gAIAQEAAT8hHaANONptcrrNPEzMW4XmgEqGK7OS3K/hqUoG+swxK88n/9oADAMBAAIAAwAAABCjEIP/xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhMf/aAAgBAwEBPxB8N7AZYFbb/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEQ/9oACAECAQE/EFyP/8QAHBABAAICAwEAAAAAAAAAAAAAAREhADFBUWGB/9oACAEBAAE/EIpoSAZbnATUbIU7v3AlAMKIw9axBPhyxPf3BJJRoXe7yEqU2SAeViSoGGWerznKDQNPHG8dlghUjj7Gf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;11&quot;
+        title=&quot;&quot;
+        src=&quot;/static/11-0b9a41e8baee475c0535ef700f13da8b-d6978.jpeg&quot;
+        srcset=&quot;/static/11-0b9a41e8baee475c0535ef700f13da8b-527f0.jpeg 300w,
+/static/11-0b9a41e8baee475c0535ef700f13da8b-9a7cd.jpeg 600w,
+/static/11-0b9a41e8baee475c0535ef700f13da8b-d6978.jpeg 1200w,
+/static/11-0b9a41e8baee475c0535ef700f13da8b-963aa.jpeg 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我们可以在导航，链接，按钮，标题，呼叫行动等等中使用相似性原则。&lt;/p&gt;
+&lt;h2&gt;闭合&lt;/h2&gt;
+&lt;p&gt;一组元素通常被认为是一个可识别的形式或图形。当一个对象是不完整的，或者它的部分没有被封闭时，闭合也会发生。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/12-95b351a16c9e05adaf4f198e1debc538-56ba0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1140px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 42.368421052631575%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAAzklEQVQY02P4TwFgwCP3798/wpq/ff9+9+ETNIlL12+HZ5d/+vwFwr1w9eajZy/uPHj04PGzew+fXL15F6r55t0HaDqPnD7/8+cvIOP6nfsv37wDMqYuXPni9Ztfv3//+vX7/uOns5evg9v8A6Ln6YtXEEZObQdEcNeh40s3bIMIPn7+Eo2B8POTF6+ARkLYf/78Ado5a9nal2/eQkR+/Px17fa9z1+/ffz85eqtu3/+/kXR/P3HD2SXA/XvPHgMzTvzV29avmkHUaFNEAAA3XHJ1B58MbAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;12&quot;
+        title=&quot;&quot;
+        src=&quot;/static/12-95b351a16c9e05adaf4f198e1debc538-56ba0.png&quot;
+        srcset=&quot;/static/12-95b351a16c9e05adaf4f198e1debc538-b73f6.png 300w,
+/static/12-95b351a16c9e05adaf4f198e1debc538-c3379.png 600w,
+/static/12-95b351a16c9e05adaf4f198e1debc538-56ba0.png 1140w&quot;
+        sizes=&quot;(max-width: 1140px) 100vw, 1140px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;闭合原则在 UI 设计中如何应用？&lt;/h3&gt;
+&lt;p&gt;作为闭合原则，当呈现出一定的信息量时，我们的大脑会通过填补空白并创建一个统一的整体来得出结论。这样我们就可以减少传递信息所需的元素数量，减少复杂性，使设计更有吸引力。闭合可以帮助我们尽量减少视觉噪音，传达一个信息，在一个很小的空间里强化一个概念。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/13-f25162f369cf1b5cf1cc8685d14adadf-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 33.875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAABN0lEQVQY02Pg17YlBnGpW+q5h6/acfD8rUdnrt+HIAY+LRvLwEQz/3hhPQdZC08t5xBRAycFK29V+wBRQyd+HVsgW9nWj0PVXN8zcv66HZMXr5u2bGPdhDn981cx8GpaV3ZPr+qdKWniZh2cFJZTpWjtI2fpZR+epmLnD0SplW0ReTVAzUCbl2/dv/XQ6alL13fOWtY7dyUD0EkSJm4Sxq4COnaCuvZAEuJOOFtY3xHoFk41C+zOtgpKAqoQ0ndQcwwU0nMw9YvVcAoCulnZ1l/G3EPG3FPDKRiqeeehTftPOkSkB2eUHzx7DaTZPixN0thVxT7AJiRFzNDZNjRF3yNCUNcO6FV5S29FG19jnxgeDWs9j4ilm/fOW7s9qqAus7Zz6ZZ9DCSF9uqdh4CuBVq+7fAZIAMAqA+K2nURSvcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;13&quot;
+        title=&quot;&quot;
+        src=&quot;/static/13-f25162f369cf1b5cf1cc8685d14adadf-abe1c.png&quot;
+        srcset=&quot;/static/13-f25162f369cf1b5cf1cc8685d14adadf-10046.png 300w,
+/static/13-f25162f369cf1b5cf1cc8685d14adadf-3c4a3.png 600w,
+/static/13-f25162f369cf1b5cf1cc8685d14adadf-abe1c.png 1200w,
+/static/13-f25162f369cf1b5cf1cc8685d14adadf-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我们可以在图像学中使用闭合原理，简单且有助于快速和清晰地传达意义。&lt;/p&gt;
+&lt;h2&gt;对称&lt;/h2&gt;
+&lt;p&gt;对称元素往往被认为是共同的，而不分它们的距离，给我们一种坚固和秩序的感觉。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/14-723cf7d09784ab84b168b3c733ecacb5-56ba0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1140px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.42105263157894%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABfElEQVQoz2P4TwFggFCzlq1rnzLv1v1Hf//9g4h8+/N99cMNO5/tgyv9/uPH6q27HcPTlm/cgaJZwymIQdZg064Df/78hYj8+ffn3LuLVz/cgGv++u37jCVrRA2dJs1fgaI5r74rKL349MWrf/9CNS9dv03HNSQgpfDc5esQkZ+/fh0+db6ifeKB42dQNGOCeas2yph7OEWkn7pwBWbzt+mLVgnp2U+ctwyh+cfPXx8/ffnw8fOnL9/gNr988/bMpWtXbt799OUr1CN//z57+frUxStPX75CaP72/ceb9x9evXv//uMniJ+BRtx//PTk+ctA/c9fvYEo/fHzJzBEL9+4/fDpc6B9pDn79+8/a7btkTRxWbN1D4qfO6fPL2ruvXrzDjyqMDUDwaUbt7Nr2q/dvkcgqoBhe/HFtetvbv+Hmgb0y7+DJ866RmUePXMBRXN97/T0iuaL124CVUBEvvz+OvvOwrWPNsGtBQbErkPHTX2i9x47TSCqiAEAtW9ztFGLv8UAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;14&quot;
+        title=&quot;&quot;
+        src=&quot;/static/14-723cf7d09784ab84b168b3c733ecacb5-56ba0.png&quot;
+        srcset=&quot;/static/14-723cf7d09784ab84b168b3c733ecacb5-b73f6.png 300w,
+/static/14-723cf7d09784ab84b168b3c733ecacb5-c3379.png 600w,
+/static/14-723cf7d09784ab84b168b3c733ecacb5-56ba0.png 1140w&quot;
+        sizes=&quot;(max-width: 1140px) 100vw, 1140px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;对称原则在 UI 设计中如何应用？&lt;/h3&gt;
+&lt;p&gt;对称的元素简单、和谐、赏心悦目。我们的眼睛寻找秩序和稳定的属性了解世界。因此，对称是快速有效地交流信息的有用工具。对称感觉很舒服，帮助我们专注于重要的事情。&lt;/p&gt;
+&lt;p&gt;对称的构图是令人满意的，但它们也可能有点单调和静态。视觉对称往往更动态，更有趣。例如，在一个对称的设计中添加一个非对称元素可以帮助在绘制印象时吸引注意力，对于任何感兴趣点或对行动的调用都是有用的。对称性以及匀称的不对称性在任何设计中都很重要。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/15-c87a420949ef620cf14a701de8196d8b-963aa.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 95.8125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAwX/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/9oADAMBAAIQAxAAAAHopycp1RfEpNWxP//EABsQAAIDAAMAAAAAAAAAAAAAAAECAAMTERIh/9oACAEBAAEFAkFoa0WzS6FfWU7VDib2QWv11cT/xAAWEQADAAAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8BI//EABgRAAIDAAAAAAAAAAAAAAAAAAABEBFh/9oACAECAQE/AdKU/wD/xAAgEAACAAQHAAAAAAAAAAAAAAAAAQIhMUEREiIyM3GB/9oACAEBAAY/AtcaZKLw42VuY2ykXZvYplT/xAAeEAEAAwACAgMAAAAAAAAAAAABABEhMWFBcYGR4f/aAAgBAQABPyHoLHv6m9d4yEP0YjemWjBng57jm1a0qYsFo3a8hM1V+Cf/2gAMAwEAAgADAAAAEN//AML/xAAYEQEAAwEAAAAAAAAAAAAAAAABABARIf/aAAgBAwEBPxDubAtE/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAR8P/aAAgBAgEBPxAWcayQX//EACAQAQACAQMFAQAAAAAAAAAAAAEAESExUXFBYYGx0fH/2gAIAQEAAT8QtFIUXk/BmPVVEh8so6tYWsEsTudL+zpjt0GctJX8Z0GxDbiCs2HE3FIU+pUBBLx8p//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;15&quot;
+        title=&quot;&quot;
+        src=&quot;/static/15-c87a420949ef620cf14a701de8196d8b-d6978.jpeg&quot;
+        srcset=&quot;/static/15-c87a420949ef620cf14a701de8196d8b-527f0.jpeg 300w,
+/static/15-c87a420949ef620cf14a701de8196d8b-9a7cd.jpeg 600w,
+/static/15-c87a420949ef620cf14a701de8196d8b-d6978.jpeg 1200w,
+/static/15-c87a420949ef620cf14a701de8196d8b-963aa.jpeg 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;将对称性用于系列产品、图表、作品展示、列表、导航、横幅和任何内容重页面都很好。&lt;/p&gt;
+&lt;h2&gt;连续&lt;/h2&gt;
+&lt;p&gt;排列成一条线或一条柔和的曲线的元素被认为比那些排列成随机的或者粗糙的线条更有关系。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/15-367e6374dd06ebd4fa44e4d20091047f-56ba0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1140px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.2280701754386%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAAA2klEQVQoz62R2Q6CMBBF/f/fMTEhEQVEQURA1MQ1GjTGxH1haSuDRRpSiT7pPM3czpnObUvJD1H6Gyzr3TBCNIHbnUkAHzFB1oqw2DT8IKQJltS0jmOstIjTh9dEYrsJQllnuSq/wQjjSk0NvDUSxATjXAc/IB37sfRIb5CLda3DYABoGLbStjaGFe8P/C7n6023XKeumnKL1x/jGYOVdne68FJpOOLv3B1PdD1MCM2Hk7mkmXRWdkS9FD2/7EV5udpsgXuwIIyO5wvr1M0iTO19e95CwN3/9Z+fspFDVQ20vAYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;15&quot;
+        title=&quot;&quot;
+        src=&quot;/static/15-367e6374dd06ebd4fa44e4d20091047f-56ba0.png&quot;
+        srcset=&quot;/static/15-367e6374dd06ebd4fa44e4d20091047f-b73f6.png 300w,
+/static/15-367e6374dd06ebd4fa44e4d20091047f-c3379.png 600w,
+/static/15-367e6374dd06ebd4fa44e4d20091047f-56ba0.png 1140w&quot;
+        sizes=&quot;(max-width: 1140px) 100vw, 1140px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;连续性原则在 UI 设计中如何应用？&lt;/h3&gt;
+&lt;p&gt;连续线以下的元素被视为分组。线段越平滑，我们就越能看到它们是一个统一的形状;我们的思想倾向于阻力最小的路径。&lt;/p&gt;
+&lt;p&gt;连续性帮助我们通过构图来解释方向和运动。它是在对齐元素时进行的，它可以帮助我们的眼睛平滑地在页面上移动，并且易于理解。连续性原则增强了对分组信息的感知，通过不同的内容片段创建顺序和引导用户。中断连续性可以标志着一个部分的结束引起了对新的内容的注意。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/16-2c0a59772308d7d013d0bb556282f64b-963aa.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 98.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAQBAgMF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABq67JiuSgPyMHOB5//8QAHhAAAQMEAwAAAAAAAAAAAAAAAgABAwQQERITFDH/2gAIAQEAAQUCIRzjRanaWNylbzmJFUEy7Rr/xAAaEQEAAQUAAAAAAAAAAAAAAAABABAREhMx/9oACAEDAQE/AcrcmxitP//EABYRAAMAAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwEj/8QAHBAAAgICAwAAAAAAAAAAAAAAAAIBMSEyEBGR/9oACAEBAAY/AtV8FWH6xg2KFaKjioKgpT//xAAeEAACAgICAwAAAAAAAAAAAAAAAREhMZFBUWHR8P/aAAgBAQABPyFfwuo0iDNAnKUcu00QyctlbHwP2U21EeNB/9oADAMBAAIAAwAAABCL3wP/xAAaEQEBAAIDAAAAAAAAAAAAAAABABEhMVGR/9oACAEDAQE/EDQDcn14Tjmzf//EABgRAAMBAQAAAAAAAAAAAAAAAAABERAx/9oACAECAQE/EJekiSz/xAAdEAEAAgMAAwEAAAAAAAAAAAABABEhMVFhcdGB/9oACAEBAAE/ED4B7PexIVAI2n4VuFg14X5MPcqy3yjTgCixw3qFE2I4uHZUQcCsjvPYXwFq7/Z//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;16&quot;
+        title=&quot;&quot;
+        src=&quot;/static/16-2c0a59772308d7d013d0bb556282f64b-d6978.jpeg&quot;
+        srcset=&quot;/static/16-2c0a59772308d7d013d0bb556282f64b-527f0.jpeg 300w,
+/static/16-2c0a59772308d7d013d0bb556282f64b-9a7cd.jpeg 600w,
+/static/16-2c0a59772308d7d013d0bb556282f64b-d6978.jpeg 1200w,
+/static/16-2c0a59772308d7d013d0bb556282f64b-963aa.jpeg 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;行和列的线性排列是连续性的好例子。我们可以使用它们在菜单和子菜单，列表，产品排列，轮播，服务或过程/进展显示。&lt;/p&gt;
+&lt;h2&gt;关联&lt;/h2&gt;
+&lt;p&gt;朝向相同方向的元素被认为比那些向不同方向移动或者根本不移动的元素更相关。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/17-b9d9b94b052d613f874896efa9fe959a-56ba0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1140px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.2280701754386%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAAA0ElEQVQoz6VR2wqCQBD1//+np6AIISRRS9M1RaWbd9NA1F23rQ1NfChUGpZl5uw5s3MY5vlHMGNIYXxzg6iPmM6pFauGJam6DEx+p7IbEZh2n4fqerZgMcYdIiggTrNWXFWwOWUF86IoyrLjeUG0XPP9XoZ9FPf6qLGpMmeFrvSjmCq9jwWmgc6ur5k2TaiFixc0bwTVUNDo3ZRJel9xwpzlHEXHbjTwM+TkR5K1jQgRFfB2RAjaHgbGRppFeV9wYONrOGFVXZASIkmftudf8QImnkRskpsN6gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;17&quot;
+        title=&quot;&quot;
+        src=&quot;/static/17-b9d9b94b052d613f874896efa9fe959a-56ba0.png&quot;
+        srcset=&quot;/static/17-b9d9b94b052d613f874896efa9fe959a-b73f6.png 300w,
+/static/17-b9d9b94b052d613f874896efa9fe959a-c3379.png 600w,
+/static/17-b9d9b94b052d613f874896efa9fe959a-56ba0.png 1140w&quot;
+        sizes=&quot;(max-width: 1140px) 100vw, 1140px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;关联性原则在 UI 设计中如何应用？&lt;/h3&gt;
+&lt;p&gt;不管这些元素有多远，或者它们看起来有多不同，如果它们在一起运动或改变，它们就会被认为是相关的。这种影响甚至可以发生在其他视觉元素所暗示的运动中。&lt;/p&gt;
+&lt;p&gt;当元素在同一方向、同一时间、同一速度同步运动时，关联性原则更为有效。它有助于将相关信息分组并将动作与结果联系起来。同步运动的中断可以吸引用户的注意力，并将其指向特定的元素或特性。它还可以建立不同群体或国家之间的关系。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/18-0a1abb9c126393331b1daac1ab9a6521-963aa.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 96.875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBAgX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQMC/9oADAMBAAIQAxAAAAHctYtyocvD7NTmBf/EABwQAAEEAwEAAAAAAAAAAAAAAAIBERITAAMhIv/aAAgBAQABBQKLJV1KmIUkYywPI3G12x79mf/EABoRAAICAwAAAAAAAAAAAAAAAAABAhEQEiH/2gAIAQMBAT8Bajyx6lvH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIRAAAQIEBwAAAAAAAAAAAAAAAAERAiEiMRITMnKBkaH/2gAIAQEABj8Cw5qlUb8E0hfaWXtBJ2GL+CVGo//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESExQVFxkfD/2gAIAQEAAT8hFcvHXYIueBLtfmAAf1MMbYLySCkZSI0LC1j1mRwrsT5BP//aAAwDAQACAAMAAAAQw9h9/8QAGxEBAAICAwAAAAAAAAAAAAAAAQARMYGR4fD/2gAIAQMBAT8QTRPtSlQHnqKZZc//xAAYEQEBAAMAAAAAAAAAAAAAAAABABARIf/aAAgBAgEBPxAW7aMf/8QAHxABAQEAAQQDAQAAAAAAAAAAAREAIUFhkcFxofDx/9oACAEBAAE/EOWJoHJvzlUOw9odQ9uuN0DggXxgIxKAeHABIHBb94koVak95DtST+OICEFAvWUav9dt/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;18&quot;
+        title=&quot;&quot;
+        src=&quot;/static/18-0a1abb9c126393331b1daac1ab9a6521-d6978.jpeg&quot;
+        srcset=&quot;/static/18-0a1abb9c126393331b1daac1ab9a6521-527f0.jpeg 300w,
+/static/18-0a1abb9c126393331b1daac1ab9a6521-9a7cd.jpeg 600w,
+/static/18-0a1abb9c126393331b1daac1ab9a6521-d6978.jpeg 1200w,
+/static/18-0a1abb9c126393331b1daac1ab9a6521-963aa.jpeg 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我们可以在可扩展的菜单、折叠导航、工具提示、产品滑块、视差卷轴和滑动指示器上使用关联性原则。&lt;/p&gt;
+&lt;h2&gt;结论&lt;/h2&gt;
+&lt;p&gt;用户界面设计并不都是关于漂亮的像素和闪闪发光的图形。它主要是关于沟通，性能和方便。格式塔原则总是帮助我们实现这些目标，为用户创造愉快的体验，为企业带来巨大的成功。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[下一代通信协议：QUIC]]></title><description><![CDATA[在 HTTP 协议已经占据互联网大半江山的今天，尽管网速越来越快，但是人类还是致力于将网络传输速率提升到极致。 从 HTTP/1.x 到 HTTP/2，TCP 已经不能满足人类贪婪的欲望了，他们开始向常年被忽视的 UDP 进军。 QUIC 是什么？ QUIC（Quick UDP…]]></description><link>https://knownsec-fed.com/2018-01-19-xia-yi-dai-tong-xin-xie-yi-quic/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-19-xia-yi-dai-tong-xin-xie-yi-quic/</guid><pubDate>Fri, 19 Jan 2018 16:30:57 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-fd5b12d1c4ba0dec60d4819f25a4fc0e-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABboI0ocHQs//EABsQAQABBQEAAAAAAAAAAAAAAAERAAIDBBAx/9oACAEBAAEFAsRCrBcVrec//8QAFxEBAAMAAAAAAAAAAAAAAAAAAQIQEv/aAAgBAwEBPwHTIFr/xAAXEQEAAwAAAAAAAAAAAAAAAAABAhAR/9oACAECAQE/AYurX//EABgQAAIDAAAAAAAAAAAAAAAAAAERECAx/9oACAEBAAY/AmGI0U//xAAcEAACAQUBAAAAAAAAAAAAAAAAAREQMWGhscH/2gAIAQEAAT8husLYk7UTkbXsdq//2gAMAwEAAgADAAAAEHAP/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxA0Q1H/xAAXEQEBAQEAAAAAAAAAAAAAAAABERAx/9oACAECAQE/EKIIXmf/xAAcEAEBAAEFAQAAAAAAAAAAAAABEQAQITFBUbH/2gAIAQEAAT8QpgyEuxyQAeIYJUHugwkMOfw1/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;下一代通信协议：QUIC&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-fd5b12d1c4ba0dec60d4819f25a4fc0e-d6978.jpeg&quot;
+        srcset=&quot;/static/header-fd5b12d1c4ba0dec60d4819f25a4fc0e-527f0.jpeg 300w,
+/static/header-fd5b12d1c4ba0dec60d4819f25a4fc0e-9a7cd.jpeg 600w,
+/static/header-fd5b12d1c4ba0dec60d4819f25a4fc0e-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 HTTP 协议已经占据互联网大半江山的今天，尽管网速越来越快，但是人类还是致力于将网络传输速率提升到极致。&lt;/p&gt;
+&lt;p&gt;从 HTTP/1.x 到 HTTP/2，TCP 已经不能满足人类贪婪的欲望了，他们开始向常年被忽视的 UDP 进军。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;QUIC 是什么？&lt;/h1&gt;
+&lt;p&gt;QUIC（Quick UDP Internet Connections），直译过来就是“快速的 UDP 互联网连接”，是 Google 基于 UDP 提出的一种改进的通信协议，作为传统 HTTP over TCP 的替代品，开源于 Chromium 项目中。&lt;/p&gt;
+&lt;p&gt;为了加快 TCP 的传输效率，Google 提出了 BBR 拥塞控制算法，将 TCP 的性能发挥到了极致。由于 TCP 和 UDP 协议是系统内核实现的，要提出新的协议不是不行，只是普及起来会非常困难，就连 BBR 算法，都需要更新系统内核才能支持。那么，TCP 的性能已经到了极致，还能更快吗？&lt;/p&gt;
+&lt;p&gt;UDP 相比于 TCP，没有那么多的要求，只要将数据发出去就行了，不需要考虑数据是否送达了、不需要考虑数据的到达顺序、不需要考虑数据的正确性和完整性，所以效率比 TCP 要高出几个档次。&lt;/p&gt;
+&lt;p&gt;UDP 协议曾经被普遍用于视频直播、网络游戏之类实时性要求较高的应用，即使少数几个包没有送达对应用整体的影响也不大。可是，对于 HTTP 之类的协议，是需要保证数据的正确性、完整性的，所以 UDP 本身并不适合作为 TCP 的替代品。&lt;/p&gt;
+&lt;p&gt;UDP 不适合替代 TCP 是因为它本身不对数据进行校验，那么如果将数据校验放到其他地方去实现，是不是就可以使用 UDP 了呢？&lt;/p&gt;
+&lt;p&gt;于是，QUIC 就诞生了，它汇集了 TCP 和 UDP 的优点，使用 UDP 来传输数据以加快网络速度，降低延迟，由 QUIC 来保证数据的顺序、完整性和正确性，即使发生了丢包，也由 QUIC 来负责数据的 &lt;strong&gt;&lt;em&gt;纠错&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/quic-layers-7165fa0549eda29019818e2a83d915e7-d48b2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 526px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.71863117870723%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABCUlEQVQoz6WS70vCQByH/ePrjZGRss1etEAUexNBv17FEjZEYmqXNrW25dS20jDPdneLBP3C5pr3LjyeF8+Le/jci0sttzgpMr5nfZnYxy7KTQwJHAgojm9gu8gGJVTJoMpBS82Cf7t3Uey/az99iVrCSE97aB8cYOQrjm+bBaW9QdNUoph+aItB/teRntWdYT0NDjAyjeOLx9JN5/RMl6WrDAhQs9bLc69KLDGJb4os8ewwvjbKAB+zsbZ8OwK8hz3cPQw9uVxvFRqdE/1JVvU8CPBiK3/LvilwYLdGP1EI7gnUEmfdbE/bBQGwc8kvcwSvwmz9EA46Oo/iYO6wSfVf0KkRxdt8khVBaA9ZnSc+6QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;QUIC 的位置&quot;
+        title=&quot;&quot;
+        src=&quot;/static/quic-layers-7165fa0549eda29019818e2a83d915e7-d48b2.png&quot;
+        srcset=&quot;/static/quic-layers-7165fa0549eda29019818e2a83d915e7-68a47.png 300w,
+/static/quic-layers-7165fa0549eda29019818e2a83d915e7-d48b2.png 526w&quot;
+        sizes=&quot;(max-width: 526px) 100vw, 526px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;现在，Google 旗下的部分服务（比如 GMail）以及许多接口已经开始使用 QUIC 协议了。如果你使用的是 Chrome 浏览器，可以在浏览器的这个地址：&lt;a href=&quot;chrome://net-internals/#quic&quot;&gt;chrome://net-internals/#quic&lt;/a&gt; 看到 QUIC 的连接情况。 &lt;/p&gt;
+&lt;h1&gt;QUIC 的优点&lt;/h1&gt;
+&lt;p&gt;由于 TCP、UDP 协议是系统内核实现的，更新修改起来并不很方便，而 QUIC 是软件层面实现的，更新迭代起来非常方便。&lt;/p&gt;
+&lt;p&gt;UDP 本身是无序传输的，这在单个连接上并行传输多个数据有天生的优势：多个数据直接发送即可，由 QUIC 对收到的数据进行重新组合排序，然后送往上层应用。这中间不用等待各种数据确认包，效率非常高。&lt;/p&gt;
+&lt;p&gt;在建立 TCP 连接时，需要进行至少三次握手，如果要开启 TLS 加密，则还需要进行 TLS 握手。而 QUIC 采用了类似于 TCP Fast Open 的技术，如果之前连接过，那么之后可以不用重复握手而直接开始传送数据，以实现 0-RTT 往返时延。即便之前没有连接过，也可以在 1-RTT 内完成连接并开始传送数据。并且自身就拥有与 TLS 等效的加密措施。&lt;/p&gt;
+&lt;p&gt;在发生丢包时，TCP 会重传丢失的包。而 QUIC，则使用了一种非常神奇的前向纠错算法，通过连续的几个数据包的校验和，可以直接恢复出丢失的包内容，而不需要重传。&lt;/p&gt;
+&lt;p&gt;在移动端表现更好：用户的网络环境并不稳定，Wi-Fi、4G、3G、2G 之间来回变化，IP 一旦发生变化，TCP 的连接是不可能保持的。而 QUIC 就不存在这样的问题，通过 ID 来标识用户（而不是 IP + 端口），在连接切换后直接恢复之前的连接会话。&lt;/p&gt;
+&lt;p&gt;配合 HTTP/2 API 食用更佳：由于 HTTP/2 采用二进制帧传输机制，QUIC 直接使用这样的机制进行数据传输，效率更高！&lt;/p&gt;
+&lt;h1&gt;QUIC 的缺点&lt;/h1&gt;
+&lt;p&gt;现在很多网络运营商会降低 UDP 包的优先级，使得 UDP 丢包率特别高。（QUIC 不可用时，浏览器一般会 Fallback 到 TCP）&lt;/p&gt;
+&lt;p&gt;目前只有 Chrome、Opera 浏览器支持。&lt;/p&gt;
+&lt;h1&gt;什么时候更适合使用 QUIC？&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;移动端
+由于 QUIC 并不使用 IP + 端口来标识客户身份，而是使用 ID，这使得在网络环境切换后还可以保持连接，非常适合用在移动网站上面，在手机信号不稳定的情况下，TCP + TLS 的开销是非常大的！QUIC 的 0-RTT 可以极大限度地提升访问速度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;总结&lt;/h1&gt;
+&lt;p&gt;QUIC 实现的目标，就是利用 UDP 实现一个 TCP，支持 TCP 的所有特性，并且比 TCP 更快更好用。&lt;/p&gt;
+&lt;p&gt;QUIC 是从 2012 年开始的项目，到目前也还只是草案阶段，并且同样处于草案阶段的 TLS1.3 也同样拥有了 QUIC 中的很多优点（比如 0-RTT）。对于访问速度的优化方式越来越多，适当的选择可以为网站增色许多。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】使用 CSS 追踪用户]]></title><description><![CDATA[原文地址： Crooked Style Sheets 作者：jbtronics 除了使用 JS 追踪用户，现在有人提出了还可以使用  CSS…]]></description><link>https://knownsec-fed.com/2018-01-19-fan-yi-shi-yong-css-zhui-zong-yong-hu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-19-fan-yi-shi-yong-css-zhui-zong-yong-hu/</guid><pubDate>Fri, 19 Jan 2018 03:26:10 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-7bb518397e954c9cbae89c3a0f56dbb6-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHrzqMwsP8A/8QAGBABAQADAAAAAAAAAAAAAAAAAgEAEBL/2gAIAQEAAQUCSUXbwW07/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASERIDFxof/aAAgBAQAGPwKiUaMcJs//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEQYXGR/9oACAEBAAE/IVnSszV9wEmnJP/aAAwDAQACAAMAAAAQNB//xAAYEQACAwAAAAAAAAAAAAAAAAAAARExUf/aAAgBAwEBPxCWio//xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EKYl/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITEQQVFhgf/aAAgBAQABPxAyCArIY9Tb5IkVvRKruGjjA+z/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;translate-Crooked-Style-Sheets&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-7bb518397e954c9cbae89c3a0f56dbb6-d6978.jpeg&quot;
+        srcset=&quot;/static/header-7bb518397e954c9cbae89c3a0f56dbb6-527f0.jpeg 300w,
+/static/header-7bb518397e954c9cbae89c3a0f56dbb6-9a7cd.jpeg 600w,
+/static/header-7bb518397e954c9cbae89c3a0f56dbb6-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;https://github.com/jbtronics/CrookedStyleSheets&quot;&gt;Crooked Style Sheets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者：jbtronics&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;除了使用 JS 追踪用户，现在有人提出了还可以使用 &lt;code&gt;CSS 进行网页追踪和分析&lt;/code&gt;，译者认为，这种方式更为 &lt;code&gt;优雅&lt;/code&gt;，更为 &lt;code&gt;简洁&lt;/code&gt;，且 &lt;code&gt;不好屏蔽&lt;/code&gt;，值得尝试一波，了解更多，可查看 &lt;a href=&quot;https://github.com/jbtronics/CrookedStyleSheets&quot;&gt;仓库地址&lt;/a&gt; 和 &lt;a href=&quot;http://crookedss.bplaced.net/&quot;&gt;demo&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;我们可以用它来做什么&lt;/h2&gt;
+&lt;p&gt;我们可以收集关于用户的一些基本信息，例如 &lt;code&gt;屏幕分辨率&lt;/code&gt;（当浏览器最大化时）以及用户使用的什么&lt;code&gt;浏览器&lt;/code&gt;（引擎）。&lt;/p&gt;
+&lt;p&gt;此外，我们可以监测用户是否点击某个链接或鼠标悬停在某个元素上，用来 &lt;code&gt;追踪用户悬停的链接&lt;/code&gt;，甚至可以 &lt;code&gt;追踪用户如何移动鼠标&lt;/code&gt;（在页面使用不可见的字段），然而，使用目前我的方法只能追踪用户的第一次点击或悬停，我相信，修改我的方法最终可以实现追踪用户的每次点击。&lt;/p&gt;
+&lt;p&gt;最后，我们还可以监测用户是否安装了某个特殊的字体，基于这个信息，我们可以追踪用户使用的 &lt;code&gt;操作系统&lt;/code&gt;，因为不同操作系统使用的字体也稍有不同，例如 &lt;code&gt;Windows&lt;/code&gt; 的 &lt;code&gt;Calibri&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;这又是如何实现的&lt;/h2&gt;
+&lt;h3&gt;普通的做法&lt;/h3&gt;
+&lt;p&gt;用 &lt;code&gt;CSS&lt;/code&gt; 你可以使用 &lt;code&gt;url(&quot;foo.bar&quot;)&lt;/code&gt; 属性引用外部资源添加图像，有趣的是，这个资源只在需要的时候被加载（例如，当链接被点击时）。&lt;/p&gt;
+&lt;p&gt;所以，我们可以用 &lt;code&gt;CSS&lt;/code&gt; 创建一个选择器，当用户点击某个链接时调用某个特定的 &lt;code&gt;UPL&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token selector&quot;&gt;#link2:active::after&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?action=link2_clicked&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;服务端，&lt;code&gt;php&lt;/code&gt; 脚本会在调用 &lt;code&gt;URL&lt;/code&gt; 时保存时间戳。&lt;/p&gt;
+&lt;h3&gt;浏览器监测&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;浏览器监&lt;/code&gt; 测是基于 &lt;code&gt;@supports Media-Query&lt;/code&gt; 的，我们可以监测浏览器的一些特殊的属性，例如 &lt;code&gt;-webkit-appearance&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@supports&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;-webkit-appearance&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;#chrome_detect::after&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?action=browser_chrome&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;字体监测&lt;/h3&gt;
+&lt;p&gt;对于 &lt;code&gt;字体监测&lt;/code&gt;，需要定义一个新的字体，如果一个字体存在，文本会尝试使用该字体进行样式设置，然而，当用户在系统上找不到该字体时，定义的字体会作为备用，在这种情况下，浏览器会尝试去加载定义的字体并在服务器上调用追踪脚本。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;/** Font detection **/&lt;/span&gt;
+&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@font-face&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Font1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?action=font1&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;#font_detection1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Calibri, Font1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;悬停监测&lt;/h3&gt;
+&lt;p&gt;对于 &lt;code&gt;悬停监测&lt;/code&gt;（基于 &lt;a href=&quot;https://github.com/jeyroik&quot;&gt;jeyroik&lt;/a&gt; 的想法），我们需定义一个关键帧，每次使用这个关键帧都要去请求一个 URL。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@keyframes&lt;/span&gt; pulsate&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;0%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?duration=00&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;20%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?duration=20&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;40%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?duration=40&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;60%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?duration=60&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;80%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?duration=80&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;100%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?duration=100&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;然后，我们使用定义的关键帧创建动画，我们可以定义动画持续的时间，这也是我们测量的最大时间。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token selector&quot;&gt;#duration:hover::after&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;-moz-animation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pulsate 5s infinite&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;-webkit-animation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pulsate 5s infinite&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;/*animation: pulsate 5s infinite;*/&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;animation-name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pulsate&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;animation-duration&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 10s&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?duration=-1&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们可以通过补充关键帧的设置，来优化分辨率的监测。&lt;/p&gt;
+&lt;h3&gt;输入监测&lt;/h3&gt;
+&lt;p&gt;监测用户选中了某个复选框，我们可以使用 &lt;code&gt;CSS&lt;/code&gt; 提供的 &lt;code&gt;:selected&lt;/code&gt; 选择器。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token selector&quot;&gt;#checkbox:checked&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?action=checkbox&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;为了监测字符串，我们结合了 HTML &lt;code&gt;pattern&lt;/code&gt; 属性，它可以帮助我们解决一些基本的输入验证，再结合 &lt;code&gt;:valid&lt;/code&gt; 选择器，浏览器当输入匹配成功时会去请求我们的追踪站点。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;text&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;text_input&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;^test$&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token selector&quot;&gt;#text_input:valid&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; green&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;url(&apos;track.php?action=text_input&apos;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;Demo&lt;/h2&gt;
+&lt;p&gt;点击 &lt;a href=&quot;http://crookedss.bplaced.net/&quot;&gt;这里&lt;/a&gt; 你可以查看该仓库的一个 demo。&lt;code&gt;index.html&lt;/code&gt; 实践了的上述的方法，访问 &lt;code&gt;results.php&lt;/code&gt; 可以查看结果。&lt;/p&gt;
+&lt;p&gt;如果属性后面没有任何 &lt;code&gt;content&lt;/code&gt; 或有 &lt;code&gt;php 警告&lt;/code&gt; 出现，这就意味着这个属性的值为 &lt;code&gt;false&lt;/code&gt; 或用户还没访问页面或链接（这个，确实很烦，但你可以知道这些方法的原理）。&lt;/p&gt;
+&lt;p&gt;此外，分辨率监测还不是特别的准确，因为目前只能监测最常用的屏幕宽度。最后还想说的是，监测用户实际屏幕的宽度并没有想象中的那么简单，因为 &lt;code&gt;CSS&lt;/code&gt; 监测的高度为浏览器窗口的高度，而通常由于系统面板 / 任务栏的原因，使得浏览器窗口要小于显示器。&lt;/p&gt;
+&lt;h2&gt;有什么办法可以防止使用上面的方法进行追踪&lt;/h2&gt;
+&lt;p&gt;目前我知道的唯一办法就是 &lt;code&gt;完全禁用 CSS&lt;/code&gt;（你可以使用像 &lt;a href=&quot;https://github.com/gorhill/uMatrix&quot;&gt;uMatrix&lt;/a&gt; 的插件来实现），但它的代价也是十分巨大的，没有 CSS，网页就没有之前那么赏心悦目了，甚至导致无法正常使用，所以，&lt;code&gt;禁用 CSS 算不上一个真正的选择&lt;/code&gt;，除非，你实在担心你的隐私（例如，当你在使用 Tor 浏览器，也许你应该禁用 CSS）。&lt;/p&gt;
+&lt;p&gt;一个更好的解决方案是，&lt;code&gt;在网页加载时，浏览器不会去加载需要的外部资源&lt;/code&gt;，这样，就不可能监测到用户的个人行为，这种对内容加载的修改可以通过浏览器来实现，也可以通过插件来实现（类似 &lt;a href=&quot;https://noscript.net/&quot;&gt;NoScript&lt;/a&gt; 或 uMatrix）。&lt;/p&gt;
+&lt;p&gt;上述方法也存在一个明显的问题，那就是 &lt;code&gt;对性能会造成一定的影响，&lt;/code&gt;因为浏览器会在初始化页面时加载大量的内容（有些内容是页面根本不需要的）。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[antd 源码解读 notification]]></title><description><![CDATA[Notification 这是一个全局变量的组件，可以在任意地方调用其函数就能够生成一个，我们就来看看这个组件又是用了什么奇巧淫技来实现的。 — 注意：解读的antd的源码版本为 2.13.4 rc-notification 版本为 2.0.…]]></description><link>https://knownsec-fed.com/2018-01-14-antd-yuan-ma-jie-du-notification/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-14-antd-yuan-ma-jie-du-notification/</guid><pubDate>Sun, 14 Jan 2018 15:03:54 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-3f949f24c374e72b85710584beb1852e-d6978.jpeg&quot;
