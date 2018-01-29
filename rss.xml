@@ -1,187 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 29 Jan 2018 08:58:11 GMT</lastBuildDate><item><title><![CDATA[【翻译】不要让用户在产品体验上受到挫折]]></title><description><![CDATA[原文地址： Don’t Frustrate Users With Gaps in Your Product Experience 作者：Shiren Vijiasingam…]]></description><link>https://knownsec-fed.com/2018-01-28-fan-yi-bu-yao-rang-yong-hu-zai-chan-pin-ti-yan-shang-shou-dao-cuo-zhe/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-28-fan-yi-bu-yao-rang-yong-hu-zai-chan-pin-ti-yan-shang-shou-dao-cuo-zhe/</guid><pubDate>Sun, 28 Jan 2018 02:19:42 GMT</pubDate><content:encoded>&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-e029b1604d58f824810393a2a303b791-d6978.jpeg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAADAP/aAAwDAQACEAMQAAAB76rodGWCF//EABkQAQACAwAAAAAAAAAAAAAAAAEAEBETMf/aAAgBAQABBQKJk1Q7X//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhP/2gAIAQMBAT8BaMYP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAgEQEv/aAAgBAgEBPwEPUV//xAAYEAACAwAAAAAAAAAAAAAAAAAAAREgMv/aAAgBAQAGPwIhmqf/xAAZEAEAAgMAAAAAAAAAAAAAAAABABEgIcH/2gAIAQEAAT8hhMGo1esD/9oADAMBAAIAAwAAABBbz//EABgRAAIDAAAAAAAAAAAAAAAAAAABMWGh/9oACAEDAQE/EEQyjT//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQIBAT8QaoZ//8QAGhABAAIDAQAAAAAAAAAAAAAAAQAhEBFBgf/aAAgBAQABPxA9YhFUqABzS4qZ/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;【翻译】不要让用户在产品体验上受到挫折&quot;
-        title=&quot;&quot;
-        src=&quot;/static/header-e029b1604d58f824810393a2a303b791-d6978.jpeg&quot;
-        srcset=&quot;/static/header-e029b1604d58f824810393a2a303b791-527f0.jpeg 300w,
-/static/header-e029b1604d58f824810393a2a303b791-9a7cd.jpeg 600w,
-/static/header-e029b1604d58f824810393a2a303b791-d6978.jpeg 1200w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;原文地址：&lt;a href=&quot;https://theindex.generalassemb.ly/dont-frustrate-users-with-gaps-in-your-product-experience-d4f40870cbc4&quot;&gt;Don’t Frustrate Users With Gaps in Your Product Experience&lt;/a&gt;&lt;br&gt;
-作者：Shiren Vijiasingam&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;通过使用这些简单的设计，数据和管理技巧来避免模式转换摩擦。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2-aa140fc9d4085d0ef265bc5bb1004146-26c5f.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 865px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 71.32947976878611%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABcSAAAXEgFnn9JSAAABo0lEQVQ4y5VSSXLCQAzkhal8Kfkbx6SKxAEDjjc83sb72FwVtbApihhCDirZM6NWd0uLPgzJWBaZjxUZe0Pm/Y3Mir+/LDnvk4SOx+PDsSjLkqIoooQLlVKkDgf5jlVMaZpSgrMx+r7/G/A/3R9ieH3QdR3leU6O45Cz31POsuu6lmiahhpWpCIlquI4lgz2uLvLEMBaa3msbZv0Zi1WJJ8WFUVxbjJFVVW3Ac0IhkLP8yRnWUau69KeWcP3W34KIC7rqhYGGESxXosc/ANYMxhywvIAPgwDGWNuA+ISXSWKcpQaU8grpbmBZh8LZtq1LbUsD+cVs/WZrfvtio+oAc7sUMACgeHgYfr0TOXLKw1cAHZna2ZY/gKEfICIZI6CGbbLJZndjgZmOHDDiln2CH6LBpdNzoCYFPxDaPZwWnawAAjeIOMfb7sgkAFt7a0MriovpowdgjyPfUHAJ7CEfKwDvJ2aThO+O+XZ1WEmKEJufZ/6MDidM7OMdzNjJVilSdXUYHE9kDAIyfd8YRqwpC48kAHwCI5CsNS5Pq0UK5sUIH4AGeoi9gUCmHUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;2&quot;
-        title=&quot;&quot;
-        src=&quot;/static/2-aa140fc9d4085d0ef265bc5bb1004146-26c5f.png&quot;
-        srcset=&quot;/static/2-aa140fc9d4085d0ef265bc5bb1004146-23cc1.png 300w,
-/static/2-aa140fc9d4085d0ef265bc5bb1004146-ad2e0.png 600w,
-/static/2-aa140fc9d4085d0ef265bc5bb1004146-26c5f.png 865w&quot;
-        sizes=&quot;(max-width: 865px) 100vw, 865px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;当产品团队缺乏对用户体验的分析时，他们可能会失去客户。&lt;/p&gt;
-&lt;p&gt;有无数的步骤可以让产品体验崩溃。你是否曾在街边等待出租车，而当应用程序明确显示司机就在那里时，却看不到车?或者，在一个应用程序中订购水果，你在等待送货时，结果才发现没有你想要的牛油果。只能尝试着给客服打电话，通过与客服沟通你和卖家的聊天记录来解决问题。&lt;/p&gt;
-&lt;p&gt;随着通过技术来帮助越来越多的消费者解决各种各样的商品和服务需求，但是往往事与愿违，真正好的软件并不意味着真正的好体验。通常情况下，当产品或流程触及实际经验或用户操作失败时，往往会让用户觉得在产品体验上受到挫折。&lt;/p&gt;
-&lt;p&gt;看一下上面的图表，这个图表显示了品牌在产品体验循环中可能出现的各种用户触点。用户通过多种不同的沟通渠道和交流方式与产品进行交互，弥补这些差距是产品成功的关键。在社交媒体广告中。如果您向用户展示带有特定的号召性用语，则您的客户服务团队必须随时做出回应。比如，如果你制作可在实体零售店兑换的优惠电子券，则收银员将需要工具来兑换。&lt;/p&gt;
-&lt;p&gt;遇到产品体验循环中的任何缺陷都会让用户感到沮丧，这些摩擦点会危及您的业务。我把这些差距称为模式转换摩擦。风险包括收入减少的可能性，或者增加对提供无摩擦体验的竞争对手的脆弱性。&lt;/p&gt;
-&lt;h1&gt;什么是模式转换摩擦？&lt;/h1&gt;
-&lt;p&gt;模式转换摩擦包含了用户在相同品牌或产品体验中的模式之间移动时遇到的任何痛点。这些模式转变包括从物理通道转向数字通道，切换通信方式，改变产品使用环境，不同设备功能的不一致等等。&lt;/p&gt;
-&lt;p&gt;产品团队的任务是创造无缝的数字体验，但是他们经常缺乏从一种模式到另一种模式的转变。这通常是因为内部的组织结构和流程使的团队负责各自独立的部分，他们在工作时彼此隔离。结果每个团队都会最好的服务他们的需求，但是往往会做出与其他团队不相容的决策，最终导致产品模式转换中断。&lt;/p&gt;
-&lt;p&gt;用户不知道，也不在意团队之间的责任划分； 他们会通过放弃一个更友善的产品来表达自己的挫败感。&lt;/p&gt;
-&lt;p&gt;出于这个原因，尽可能地解决模式转换摩擦是至关重要的。 产品和业务的成功往往都是取决于它。&lt;/p&gt;
-&lt;h1&gt;体验映射的历史&lt;/h1&gt;
-&lt;p&gt;全面了解用户体验的工作并不是什么新鲜事，在过去的几十年中，出现了几种工具和方法，好多已经成为产品和设计团队的主要工具。服务设计的概念可以追溯到银行执行官G. Lynn Shostack 1984年的“哈佛商业评论”（Harvard Business Review）关于衡量和改进银行交付的流程和服务的文章。&lt;/p&gt;
-&lt;p&gt;在20世纪90年代后期，Amtrak要求设计公司IDEO帮助扶手椅设计一个新的高速铁路服务计划。作为他们观察的一部分，IDEO的团队绘制了用户考虑的旅程步骤，并最终在火车上购买座位。而旅程地图诞生了。最近（尽管还在十年前），当设计咨询公司nForms引入体验地图作为深化康卡斯特与电子游戏玩家之间关系的一部分时，出现了一种新的映射形式。&lt;/p&gt;
-&lt;p&gt;所有这些方法都处理宏观焦点 - 过程改进，详细描述用户的情绪状态，了解推动行动的旅程。但是，随着团队专注于旅程的某个特定部分，在这些流程文档中描述的线性过程块之间开始出现裂痕。例如，针对转化渠道进行优化的团队可能没有与优化入职流程的团队建立联系。因此，用户可能不得不中断或留下更自然的流程来检查他们的电子邮件中的确认代码，而不是平稳过渡。&lt;/p&gt;
-&lt;p&gt;随着线路的拉动，模式（任务/目标，系统，过程之间）的转换可能会被忽略，造成模式转换摩擦，智能产品团队需要深入研究这些经验之间的缝隙，创造真正的人性化体验。&lt;/p&gt;
-&lt;h1&gt;5步缓和模式转变摩擦&lt;/h1&gt;
-&lt;p&gt;在一夜之间创造一个无缝的体验是不现实的，因为重新思考不同的团队如何运作和连接不同的软件系统是一项复杂和耗时的工作。但是，如果采取迭代方法，改进是绝对有可能的。 我主张一点一点地削减问题。不要使用新的庞大的数据仓库项目来解决这个解决方案，或者推出整个公司范围内的流程变更。相反，尝试这五个有意义的步骤来识别，量化和开始消除模式转换摩擦。他们很容易开始工作到你的下一个目标。&lt;/p&gt;
-&lt;h2&gt;1.找到你的差距。&lt;/h2&gt;
-&lt;p&gt;要找出你的经验差距，从你已有的经验或旅程地图开始。 如果您还没有，请保持简单，并粗略勾画产品体验的主要用户流程。 与面向客户的团队一起审查这些关键流程，并开始在发生模式转换的地区进行复盘。也许是当一个用户从一个应用程序切换到一个电子邮件或通话，或从购买到使用一个产品。把重点放在你们都同意的差距上，但是优先考虑和优化那些一线客户团队认为是最大的问题。为每个圈子命名一个产品和操作团队管家，以确保你有人负责缩小这个差距。&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3-67d3354004fd33cc13437d7d1a848063-20e8a.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 864px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 33.68055555555555%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABcSAAAXEgFnn9JSAAAA8UlEQVQoz4VRa2uDQBDM//9ZFUGTIjSRU0xAJHKHenq+v05311bow/bDsHfL7Mw+Tuu64gjOObRti65zmOdZ3oxxHL/8N04nNaffBBjDMKBpGvi+v4logzRNoZRCVVUioFSCOI7xdr0iz/NNMMsyRFGEsixFwPM8KeI3G9R1jfZZ4vV8pvjczaZpEvR9LznmiiAnmcAjsKu1VsBENgnDEJriSHiQeRAEsPcHitttb+KFmjDG/Bz5O5jM3WqtxdAWBUySwFF+meZ9TTIFdfmv4EIi6nLB8EHuaYKc9sjiRzV/C/I16QALjf+Z4wvzmo5q3gEsDQ92/tIKWwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;3&quot;
-        title=&quot;&quot;
-        src=&quot;/static/3-67d3354004fd33cc13437d7d1a848063-20e8a.png&quot;
-        srcset=&quot;/static/3-67d3354004fd33cc13437d7d1a848063-2f6e1.png 300w,
-/static/3-67d3354004fd33cc13437d7d1a848063-d5612.png 600w,
-/static/3-67d3354004fd33cc13437d7d1a848063-20e8a.png 864w&quot;
-        sizes=&quot;(max-width: 864px) 100vw, 864px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;一个流程图，也可以体现出工作经验的差距。&lt;/p&gt;
-&lt;p&gt;在你的下一个目标：收集现有的流量或第一遍草图。识别来自整个组织的关键利益相关者，特别是来自每个面向客户的团队。开始盘点你的差距。&lt;/p&gt;
-&lt;h2&gt;2.捕获差距数据。&lt;/h2&gt;
-&lt;p&gt;接下来，您需要将数字放到这些差距区域，开始理解你可以开始优化的可能路线。一些组织有一个专门负责这个任务的角色，一个与用户交谈的用户研究人员，有助于收集用户的见解，进行综合调查，并与团队分享。如果您没有用户研究人员，你仍然可以轻松获取所需的信息来帮助你做出决定。保持简单，通过让你的团队和用户交流，找出定性的数据。一个团队实际使用他们建立的产品的过程，可能并不总是实际的。因此需要部署研究工具，开始收集差距数据。&lt;/p&gt;
-&lt;p&gt;在你拥有的软件和硬件系统上实施测量工具，理想情况下使用一些通用的标识符，并请记住，其中一些系统可能存在于您的产品之外，就像第三方CRM解决方案或电话提供商一样。&lt;/p&gt;
-&lt;p&gt;在下一个目标中:收集所有系统的现有数据，并确保每个人都能访问它。花点时间与每个面向客户的团队交流，问他们想要什么数据——这很可能会说明你的数据差距。最好的情况:您可以获得团队所需的数据，并且您已经开始解决一些问题。&lt;/p&gt;
-&lt;h2&gt;3.跟踪模式转换触发器。&lt;/h2&gt;
-&lt;p&gt;一旦有了良好的数据基础，就该开始寻找模式，主要是寻找发生变化的事件的模式。要清楚是什么导致用户改变了模式?触发为零时，它与预期不匹配吗?渠道偏好?一种模式比另一种模式更方便吗?时间间隔或重复模式是否预示着模式的转变?&lt;/p&gt;
-&lt;p&gt;让你的团队的数据专家或分析师帮助你从数据中获得见解。如果你没有这个职位的人，你可能会在一个不太可能的地方找到一个分析师，比如你的财务部门，善待他们，争取他们的帮助。然后通过观察来确定差距的优先级:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;用户解决差距的价值。&lt;/li&gt;
-&lt;li&gt;您的企业在降低成本或创造新收入方面的价值。&lt;/li&gt;
-&lt;li&gt;缩小差距的努力程度。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;查看定性和定量数据是有帮助的，因此产品经理可以优先考虑并做出最佳决策。&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4-a0a2e26d16287e82cc91421ddc410861-20e8a.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 864px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 33.68055555555555%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABcSAAAXEgFnn9JSAAAA80lEQVQoz4WRW4uDQAyF+/9/VkVQEMEiU2sFbRHv4318PZukW9ntbncfDjMJyXeSmcO2bXinYRigtUbfD1jXVe6seZ6/xY+aXnoOvwFY0zShbVvYti3x0nWIoghKKdR1LQClzgjDEMHphDRNH8A4juH7PvI8F4BlWdLEdzZomgb6doPnedBVtZstyyIax1FyXCtATnIBr8CuHU3C4kI2cV0XBZ0z5ZLrFY7joL3fkV0u+xBHGqIsy58rv4qLedqiKMSwI1CVZRgoNsbszyRb0JT/Ag1BzkGA6XOdkc40SQT+rudvILkaghh6lmeOf3j5Er/qA5H4D+bL82s+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;4&quot;
-        title=&quot;&quot;
-        src=&quot;/static/4-a0a2e26d16287e82cc91421ddc410861-20e8a.png&quot;
-        srcset=&quot;/static/4-a0a2e26d16287e82cc91421ddc410861-2f6e1.png 300w,
-/static/4-a0a2e26d16287e82cc91421ddc410861-d5612.png 600w,
-/static/4-a0a2e26d16287e82cc91421ddc410861-20e8a.png 864w&quot;
-        sizes=&quot;(max-width: 864px) 100vw, 864px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;同一个流程图，可以看出经验差距并确定优先顺序。&lt;/p&gt;
-&lt;p&gt;在下次目标中：列出每个渠道的入站和出站量的顶级驱动程序。看看你的应用程序中的“联系我们”搜索或操作之前立即进行的用户活动。这两者都可能是模式转换摩擦的良好指标。&lt;/p&gt;
-&lt;h2&gt;4.修复摩擦。&lt;/h2&gt;
-&lt;p&gt;既然你已经优先考虑了最恶劣的诱因，现在是时候开始解决摩擦了。谁应该解决这些问题?视情况而定。如果差距的范围是离散的和小的，那么扩展一个管理经验的团队的责任是有意义的。有时，您可能会发现差距足够大，以至于需要创建一个新的团队来致力于解决方案，可能包括来自不同部门的人员作为团队的一部分。&lt;/p&gt;
-&lt;p&gt;请记住，该解决方案可能不完全在产品团队内部(或根本不存在)，因为它可能是组织结构或流程问题。如果是这样的话，你就不能呆在你的产品舒适区，而是需要与你的整体组织进行修复。即使你没有对组织之外的某个团队负责，也并不意味着你不能拥有该决议的所有权。为了缩小差距，制定计划并执行。&lt;/p&gt;
-&lt;p&gt;在你的下一个目标中:找出一个你可以在30天内关闭的空白。它不需要是软件。小的变化可以产生影响，比如改进一个有更多相关数据的事务性电子邮件，或者记录一个交互式的语音响应(IVR)菜单选项来处理一个顶部的痛点。&lt;/p&gt;
-&lt;h2&gt;5.关闭循环。&lt;/h2&gt;
-&lt;p&gt;这个过程的最后一步是通过将每个用户交互的数据集与您的生态系统的相应部分相链接来解决问题。这样可以确保您不仅可以提供令人惊叹的产品体验，还可以一路准备预测和检测由数据波动捕获的新触发器。&lt;/p&gt;
-&lt;p&gt;模式转换摩擦通常是由于不同的系统没有连接而产生的，而当你想努力把所有的系统和数据联系起来时，现实就是你可能不得不与多个系统和数据源共存。&lt;/p&gt;
-&lt;p&gt;不过，您可以采取一些简单的步骤来让每个团队访问不同的系统。它可能非常简单，比如为必要的团队成员提供分析账户，并提供培训，让每个人知道如何使用它。这样，即使他们无法在重大问题上取得进展，他们至少也有能力解决你的问题。在等待主存储库容纳不同的数据集时，避免关闭循环的诱惑。相反，通过简单地共享静态数据和跨组织的报告来启动低技术。部门间的对话对于消除模式转换摩擦是至关重要的。&lt;/p&gt;
-&lt;p&gt;接下来：选择一个面向客户的部门，并授予该团队试点访问一个产品系统的子集，解决关键的用户痛点。评估与解决方案度量（例如问题解决，处理时间）相关的努力（培训，供应等），以确定系统是否有帮助，如果是，则制定完整的推出计划。&lt;/p&gt;
-&lt;p&gt;看，那并不难。&lt;/p&gt;
-&lt;p&gt;消除移动摩擦力的解毒剂并不十分复杂；它的核心是需要对你的用户所发生的事情进行全面的描述，并故意和有意地设计产品生命周期的每一步的间隙。完成这个产品体验循环将帮助你提高人们在实际使用你的产品时有更好的产品体验。它将会使你的用户更快乐，更有品牌忠诚度，增加收入，让你的产品更长寿。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript 魔幻代理]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-01-27-javascript-mo-huan-dai-li/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-27-javascript-mo-huan-dai-li/</guid><pubDate>Sat, 27 Jan 2018 03:23:02 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 29 Jan 2018 10:11:07 GMT</lastBuildDate><item><title><![CDATA[JavaScript 魔幻代理]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-01-27-javascript-mo-huan-dai-li/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-27-javascript-mo-huan-dai-li/</guid><pubDate>Sat, 27 Jan 2018 03:23:02 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-64b1abe2f7b3ae19fe2e743acfefe4e7-d6978.jpeg&quot;
@@ -414,7 +231,7 @@ api&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB11NhkLhX/8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAEBES/9oACAEBAAEFAnODqKdWZX//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAESEg/9oACAEBAAY/AiMuP//EABsQAQACAgMAAAAAAAAAAAAAAAEAESFREDFx/9oACAEBAAE/IQsVPI59jqOCKdRyZlAujj//2gAMAwEAAgADAAAAEGcP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAhMf/aAAgBAwEBPxBFcjl//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EBMm/8QAGBABAQEBAQAAAAAAAAAAAAAAAREAITH/2gAIAQEAAT8QisWXIRaFKO5o7+4SAEr7kUE06GQ5w3//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB11NhkLhX/8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAEBES/9oACAEBAAEFAnODqKdWZX//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwFn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAABEhIP/aAAgBAQAGPwIjLj//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhURBhcf/aAAgBAQABPyELFTyPcdRwRTqOTMoF0cf/2gAMAwEAAgADAAAAEGsP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxCqLD//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QUgz/xAAYEAEBAQEBAAAAAAAAAAAAAAABEQAhMf/aAAgBAQABPxCKxZcky0KUdzR39wkAJX3IoJp0Mhzhv//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -587,7 +404,7 @@ api&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAAGcg1NogP/EABkQAAMBAQEAAAAAAAAAAAAAAAECAwAQFP/aAAgBAQABBQJIo0/Op1ECHAkc/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAEQABECECMjP/2gAIAQEABj8C2tdUGyMU4j//xAAdEAEBAAIBBQAAAAAAAAAAAAABEQAhEDFRYXHh/9oACAEBAAE/IRDNRXts84KgH0fcMhMtysl1lWlaY9eP/9oADAMBAAIAAwAAABCED//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxChf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQBRMUEQccH/2gAIAQEAAT8QUp2CQUIjSXmPuOVQKgTwtdiC8SlqEVadLqfSYAghck04cTjChDTvx//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABnINYaIE//8QAGRAAAwEBAQAAAAAAAAAAAAAAAQIDABAU/9oACAEBAAEFAkijT86nUQIcCRz/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAABBAMAAAAAAAAAAAAAAAARAAEQIQIyM//aAAgBAQAGPwLa11QbIxTiP//EAB0QAQEAAgEFAAAAAAAAAAAAAAERACEQMVFhceH/2gAIAQEAAT8hEM1Fe2zzgqAfR9wyEy3KyXWVaVpj14//2gAMAwEAAgADAAAAEIAP/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQMBAT8Qh//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQBRMUEQccH/2gAIAQEAAT8QUp2CQUIjSXmPuOVQKgTwtdiC8SlqEVadLqfSYAghck04cTjChDTvx//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1264,7 +1081,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.18211702827088%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHraqQov//EABsQAAIBBQAAAAAAAAAAAAAAAAABEgIQERQi/9oACAEBAAEFAm69hvAiHcbf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAARECEBIxQv/aAAgBAQAGPwIR5T1eTN//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQVGB/9oACAEBAAE/IabS69I6wzrGptfI2O4KrlRCuuwAKJ//2gAMAwEAAgADAAAAEE8P/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBUWHR/9oACAEBAAE/EDUfi6IhLx2Z1wMSeX0xBaRnjAgriE2RTj4YyIRE1+YaCBn/2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 63.18211702827088%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHraqQov//EABsQAAIBBQAAAAAAAAAAAAAAAAABEgIQERQi/9oACAEBAAEFAm69hvAiHcbf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAARECEBIxQv/aAAgBAQAGPwIR5T1eTN//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQVGB/9oACAEBAAE/IabS69I6wzrGptfI2O4KrlRCuuwAKJ//2gAMAwEAAgADAAAAEE8P/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBUWHR/9oACAEBAAE/EDUfi6IhLx2Z1wMSeX0xJaRnjAgriE2RTj4YyIRE1+YaCBn/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1300,7 +1117,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.18211702827088%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1lPEsSL/AP/EABkQAAIDAQAAAAAAAAAAAAAAAAITAQMSI//aAAgBAQABBQLq+H4r0tfUqokKwwH/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgMBAQAAAAAAAAAAAAAAAQIREjJBY3H/2gAIAQEABj8C8yV7cFnsZuT+DinViiuH/8QAHRAAAQQCAwAAAAAAAAAAAAAAAQARIUExgVGh0f/aAAgBAQABPyFrOnHqnTo2NrOXsVkIBmFQiHA2ZAnQT//aAAwDAQACAAMAAAAQP8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAeEAEAAgMAAgMAAAAAAAAAAAABESEAMUFR0WFxkf/aAAgBAQABPxDboedfiT2+MJOKbtYeoizye81JdEBNsarUYNeyyoQH71kSDWVhBmhrmsTRHAuf/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 63.18211702827088%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1lPEsSL/AP/EABkQAAIDAQAAAAAAAAAAAAAAAAITAQMSI//aAAgBAQABBQLq+H4r0tfUqokKwwH/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgMBAQAAAAAAAAAAAAAAAQIREjJBY3H/2gAIAQEABj8C8yV7cFnsZuT+DinViiuH/8QAHRAAAQQCAwAAAAAAAAAAAAAAAQARIUExgVGh0f/aAAgBAQABPyFrOnHqnTo2NrOXsVkIBmFQiHA2ZAnQT//aAAwDAQACAAMAAAAQP8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAeEAEAAgMAAgMAAAAAAAAAAAABESEAMUFR0WFxkf/aAAgBAQABPxDboedfiT2+MJOKbtYeo6eT3mpLogJtjVajBr2WVCA/esiQaysIM0Nc1iaI4Fz/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1373,7 +1190,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 131.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAIBBAYDBf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAUa22s1S+Qco8KaWhM2I/8QAGxAAAgMBAQEAAAAAAAAAAAAAAQIAAxIREzH/2gAIAQEAAQUC87hDXaIKbofrgdQgqVHbK9NWuBt4Waaaf//EABYRAAMAAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwF0/8QAFhEBAQEAAAAAAAAAAAAAAAAAEBEB/9oACAECAQE/AZhT/8QAHhAAAgIBBQEAAAAAAAAAAAAAAAERIQIDMTIzoZH/2gAIAQEABj8C7PRTquTuY6yMbgpyOvROXS2IRyf05M3Z/8QAHRABAAICAgMAAAAAAAAAAAAAAQARIVExYUGR8f/aAAgBAQABPyHOOXUoUCPCsUWe5hO40SwJocMx6BiyI5uYwlFGFw12aqYmZ1aNz6U//9oADAMBAAIAAwAAABAowMH/xAAWEQEBAQAAAAAAAAAAAAAAAAARABD/2gAIAQMBAT8QInH/xAAYEQEBAQEBAAAAAAAAAAAAAAABEQDR8P/aAAgBAgEBPxASe7l1UyVu/8QAIRABAAICAQMFAAAAAAAAAAAAAQARITHBQVGBcZGh0fD/2gAIAQEAAT8QNIptt37wxEuQK9YDoH8blkvytKOupfunQ5ZanSyWXKsd1aEzKFwSVPnz8TT8te5g4hzG+4AlVGVxu58//9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 131.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAIBBAYDBf/EABcBAQEBAQAAAAAAAAAAAAAAAAIAAQP/2gAMAwEAAhADEAAAAUa23U1S+C5R4Uq0Jmw5/8QAGxAAAgMBAQEAAAAAAAAAAAAAAQIAAxIREzH/2gAIAQEAAQUC87hDXaIKbofrgdQgqVHbK9NWuBt4Waaaf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABYRAQEBAAAAAAAAAAAAAAAAABARAf/aAAgBAgEBPwGYU//EAB4QAAICAQUBAAAAAAAAAAAAAAABESECAzEyM6GR/9oACAEBAAY/Auz0U6rk7mOsjG4Kcjr0Tl0tiEcn9OTN2f/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESFRMWFBkfH/2gAIAQEAAT8hzjl1KFAjwrFFnuYTuNEsCaHDMegYsiObmMJBRhcNdmqmJmdWjc+lP//aAAwDAQACAAMAAAAQKMAD/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiKr/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EBMlt6T12//EACIQAQACAgAFBQAAAAAAAAAAAAEAESExQVFxgcGRodHh8P/aAAgBAQABPxA0im23frDES5ArrAdA/jcsl+VpRx1L906HLLU6WSy5VjurQmZQuKSp79/aaflrzMHiHmN8wBKqMrj93n//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1446,7 +1263,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 132.9375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAIEAQMF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEDAv/aAAwDAQACEAMQAAAB3vHmkbSICh+O61YSg//EABwQAAICAwEBAAAAAAAAAAAAAAECAAMEERITMf/aAAgBAQABBQLoAt8AJmmEddomQK17UsV3Fx0aCxp7WQ3WT//EABgRAAIDAAAAAAAAAAAAAAAAAAASARBh/9oACAEDAQE/AUgTb//EABYRAQEBAAAAAAAAAAAAAAAAABEAEP/aAAgBAgEBPwFnf//EACEQAAIBAwMFAAAAAAAAAAAAAAABERIhMgJBoRMiMTOB/9oACAEBAAY/AsuDb6eEexcim8WKaRrqaiKnsx5WcDcmQu4//8QAHRABAAMBAQEAAwAAAAAAAAAAAQARITFBcVGR8P/aAAgBAQABPyFQMbuoLN5S/EExf1LlNhj8diEr6r7dPs1i6vZQhIuVDfA2c/vIrsWfUp9H5ojnvkEUek//2gAMAwEAAgADAAAAEOAWcP/EABoRAQACAwEAAAAAAAAAAAAAAAEAESFRkTH/2gAIAQMBAT8Q1L2U27Bbz5BEn//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQIBAT8QsvCDTP/EAB8QAQACAgIDAQEAAAAAAAAAAAERIQAxQWFRcYGR0f/aAAgBAQABPxB2yCgbPzrJQ0IKJH2/GAUTVSyOeWws2l71jDKyksoQCYsMNDeADb6yT0hgguIK4dY5cL5RIB10ybV3iacnV4EJHEiZn5hqDTg/mRa7WItlz//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 132.9375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAIEAQMF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEDAv/aAAwDAQACEAMQAAAB3vHmkbSICh+O61YSif8A/8QAHBAAAgMAAwEAAAAAAAAAAAAAAQIAAxEEEhMx/9oACAEBAAEFAu2FvgBMxhHXUTkCte6liuxeOjQWNPayG6yf/8QAGBEAAgMAAAAAAAAAAAAAAAAAABIBEGH/2gAIAQMBAT8BSBNv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAQ/9oACAECAQE/AWd//8QAIRAAAgEDAwUAAAAAAAAAAAAAAAEREiEyAkGhEyIxM4H/2gAIAQEABj8Cy4Nvp4R7FyKbxYppGupqIqezHlZwNyZC7j//xAAdEAEAAwEBAQADAAAAAAAAAAABABEhMUFxUZHw/9oACAEBAAE/IUIY3dQWbyl+IJi/qXKbDH47EJX1X26fZrF1eyhCRcqG+Bs5/eRXYs+pT6PzUc98gij0n//aAAwDAQACAAMAAAAQ4BZy/8QAGREBAQADAQAAAAAAAAAAAAAAAQARUWGR/9oACAEDAQE/ENS+2G0LnkIl/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAgEBPxCy8INM/8QAHxABAAICAgIDAAAAAAAAAAAAAREhADFBYXGBUZHR/9oACAEBAAE/EH7IKBs+uslDQgoke7+MAohVSyMeWws2l51jDKylKYQCYsw0DWAG3xknpDBBcQVw6xy4VXJIB10ybdvE05OrwIYuJBln1hqDTg/Mi12sRbLn/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1520,7 +1337,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 119.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAYABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDAgX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAHLRdXOB6RsFAnoK//EABwQAAICAgMAAAAAAAAAAAAAAAECAAMREiEiMf/aAAgBAQABBQLD7NXYCKrTE0Nr9onnALOmBZUJ/8QAFhEBAQEAAAAAAAAAAAAAAAAAEBEB/9oACAEDAQE/AbhD/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIBAAAgEDBAMAAAAAAAAAAAAAAAECAyExEjJhgRETIv/aAAgBAQAGPwLSq1+z6qxLVIsclPnB5Ul2jKZLT6+Lm6GDdE//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPyEdoA042m1ius08TMxbheaASoYrs5Lcr+GpSgb6zDErzyf/2gAMAwEAAgADAAAAEKMQwv/EABkRAAMAAwAAAAAAAAAAAAAAAAABESExUf/aAAgBAwEBPxB6LkSUIrfSn//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EFRH/8QAHBABAAICAwEAAAAAAAAAAAAAAREhADFBUWGB/9oACAEBAAE/EIpoSAZbnATQbIU7v3AlAMKIw9axBPhyxPf3BJJRoXe7yEqU2SAeViQoGGWerznKDQNPHG8dlghUjj7Gf//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 119.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAYABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDAgX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHLRdrnA9IsFAnQX//EABwQAAICAgMAAAAAAAAAAAAAAAECAAMREiEiMf/aAAgBAQABBQLD7NXYCKrTE0Nr9onnALOmBZUJ/8QAFhEBAQEAAAAAAAAAAAAAAAAAEBEB/9oACAEDAQE/AbhD/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHxAAAgEDBQEAAAAAAAAAAAAAAAECAyExERIyYYET/9oACAEBAAY/AtqrX9L1YlqkWOSn3g1Ul6jKZLb8+rnKGDlE/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUXH/2gAIAQEAAT8hHaANONptcrrNPEzMW4XmgEqGK7OS3K/hqUoG+swxK88n/9oADAMBAAIAAwAAABCjEIP/xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhMf/aAAgBAwEBPxB8N7AZYFbb/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEQ/9oACAECAQE/EFyP/8QAHBABAAICAwEAAAAAAAAAAAAAAREhADFBUWGB/9oACAEBAAE/EIpoSAZbnATUbIU7v3AlAMKIw9axBPhyxPf3BJJRoXe7yEqU2SAeViSoGGWerznKDQNPHG8dlghUjj7Gf//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1665,7 +1482,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 95.8125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAwX/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/9oADAMBAAIQAxAAAAHopycp1RfEpNWxP//EABsQAAIDAAMAAAAAAAAAAAAAAAECAAMTERIh/9oACAEBAAEFAkFoa0WzS6FfWU7VDib2QWv11cT/xAAWEQADAAAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8BI//EABcRAAMBAAAAAAAAAAAAAAAAAAAQEWH/2gAIAQIBAT8B0j//xAAgEAACAAQHAAAAAAAAAAAAAAAAAQIhMUEREiIyM3GB/9oACAEBAAY/AtcaZKLw42VuY2ykXZvYplT/xAAeEAEAAwACAgMAAAAAAAAAAAABABEhMWFBcYGR4f/aAAgBAQABPyHoLHv6m9d4yEP0YjemWjBng57jm1a0qYsFo3a8hM1V+Cf/2gAMAwEAAgADAAAAEN//AML/xAAYEQEAAwEAAAAAAAAAAAAAAAABABARIf/aAAgBAwEBPxDubAtE/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAR8P/aAAgBAgEBPxAWY5kgv//EACAQAQACAQMFAQAAAAAAAAAAAAEAESExUXFBYYGx0fH/2gAIAQEAAT8QtFIUXk/BmPVVEh8so6tYWsEsTudL+zpjt0GctJX8Z0GxDbiCs2HE3FIU+pUBBLx8p//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 95.8125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAwX/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/9oADAMBAAIQAxAAAAHopycp1RfEpNWxP//EABsQAAIDAAMAAAAAAAAAAAAAAAECAAMTERIh/9oACAEBAAEFAkFoa0WzS6FfWU7VDib2QWv11cT/xAAWEQADAAAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8BI//EABgRAAIDAAAAAAAAAAAAAAAAAAABEBFh/9oACAECAQE/AdKU/wD/xAAgEAACAAQHAAAAAAAAAAAAAAAAAQIhMUEREiIyM3GB/9oACAEBAAY/AtcaZKLw42VuY2ykXZvYplT/xAAeEAEAAwACAgMAAAAAAAAAAAABABEhMWFBcYGR4f/aAAgBAQABPyHoLHv6m9d4yEP0YjemWjBng57jm1a0qYsFo3a8hM1V+Cf/2gAMAwEAAgADAAAAEN//AML/xAAYEQEAAwEAAAAAAAAAAAAAAAABABARIf/aAAgBAwEBPxDubAtE/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAR8P/aAAgBAgEBPxAWcayQX//EACAQAQACAQMFAQAAAAAAAAAAAAEAESExUXFBYYGx0fH/2gAIAQEAAT8QtFIUXk/BmPVVEh8so6tYWsEsTudL+zpjt0GctJX8Z0GxDbiCs2HE3FIU+pUBBLx8p//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1738,7 +1555,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 98.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAQBAgMF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABq67JiuSgPyMKzwOf/8QAHhAAAQMEAwAAAAAAAAAAAAAAAgABAwQQERITFDH/2gAIAQEAAQUCIRzjRanaWNylbzmdFUEy7Rr/xAAaEQACAgMAAAAAAAAAAAAAAAAAARASERMx/9oACAEDAQE/AbY4bGWcf//EABYRAQEBAAAAAAAAAAAAAAAAAAAREP/aAAgBAgEBPwFEz//EABwQAAICAgMAAAAAAAAAAAAAAAACATEhMhARkf/aAAgBAQAGPwLVfBVh+sYNihWio4qCoKU//8QAHhAAAgICAgMAAAAAAAAAAAAAAAERITGRQVFh0fD/2gAIAQEAAT8hX8LqNIgzQJylHLtNEMnLZWx8j9lNtTI8aD//2gAMAwEAAgADAAAAEIvPAP/EABsRAQEAAQUAAAAAAAAAAAAAAAEAIRExQYGR/9oACAEDAQE/EDADPUnweFq7srf/xAAXEQEBAQEAAAAAAAAAAAAAAAARAAEx/9oACAECAQE/EB7GEZf/xAAdEAEAAgMAAwEAAAAAAAAAAAABABEhMVFhgdFx/9oACAEBAAE/ED4B+nvYkKgEbT0VuFg14X5MPcqy3yjTgCixw3qFE2I+s7KiDgVkbz2GOC1d/s//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 98.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAQBAgMF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABq67JiuSgPyMHOB5//8QAHhAAAQMEAwAAAAAAAAAAAAAAAgABAwQQERITFDH/2gAIAQEAAQUCIRzjRanaWNylbzmJFUEy7Rr/xAAaEQEAAQUAAAAAAAAAAAAAAAABABAREhMx/9oACAEDAQE/AcrcmxitP//EABYRAAMAAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwEj/8QAHBAAAgICAwAAAAAAAAAAAAAAAAIBMSEyEBGR/9oACAEBAAY/AtV8FWH6xg2KFaKjioKgpT//xAAeEAACAgICAwAAAAAAAAAAAAAAAREhMZFBUWHR8P/aAAgBAQABPyFfwuo0iDNAnKUcu00QyctlbHwP2U21EeNB/9oADAMBAAIAAwAAABCL3wP/xAAaEQEBAAIDAAAAAAAAAAAAAAABABEhMVGR/9oACAEDAQE/EDQDcn14Tjmzf//EABgRAAMBAQAAAAAAAAAAAAAAAAABERAx/9oACAECAQE/EJekiSz/xAAdEAEAAgMAAwEAAAAAAAAAAAABABEhMVFhcdGB/9oACAEBAAE/ED4B7PexIVAI2n4VuFg14X5MPcqy3yjTgCixw3qFE2I4uHZUQcCsjvPYXwFq7/Z//9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1811,7 +1628,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 96.875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBAgX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQMC/9oADAMBAAIQAxAAAAHctYtyocvD7NTmBf/EABwQAAEEAwEAAAAAAAAAAAAAAAIBERITAAMhIv/aAAgBAQABBQKLJV1KmIUkYywPI3G12x79mf/EABoRAAICAwAAAAAAAAAAAAAAAAABAhEQEiH/2gAIAQMBAT8Bajyx6lvH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIRAAAQIEBwAAAAAAAAAAAAAAAAERAiEiMRITMnKBkaH/2gAIAQEABj8Cw5qlUb8E0hfaWXtBJ2GL+CVGo//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESExQVFxkfD/2gAIAQEAAT8htcvHXYIueBLtfmAAf1MMbYLySCkZSI0LC1j1mRwrsT5BP//aAAwDAQACAAMAAAAQ49h9/8QAGhEBAAIDAQAAAAAAAAAAAAAAAQARMWGR4f/aAAgBAwEBPxBtE81KVAe+RTLLn//EABgRAQEAAwAAAAAAAAAAAAAAAAEAEBEh/9oACAECAQE/EBbtox//xAAgEAEAAgEEAgMAAAAAAAAAAAABABEhQWGRwTFxofDx/9oACAEBAAE/EDOJqDJv3FVHYe6jUO2sN0DBQXiARiUA4YAE0YLv5hJUVbSu4h20qvxh4AQUC6ija/ttP//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 96.875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBAgX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQMC/9oADAMBAAIQAxAAAAHctYtyocvD7NTmBf/EABwQAAEEAwEAAAAAAAAAAAAAAAIBERITAAMhIv/aAAgBAQABBQKLJV1KmIUkYywPI3G12x79mf/EABoRAAICAwAAAAAAAAAAAAAAAAABAhEQEiH/2gAIAQMBAT8Bajyx6lvH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIRAAAQIEBwAAAAAAAAAAAAAAAAERAiEiMRITMnKBkaH/2gAIAQEABj8Cw5qlUb8E0hfaWXtBJ2GL+CVGo//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESExQVFxkfD/2gAIAQEAAT8hFcvHXYIueBLtfmAAf1MMbYLySCkZSI0LC1j1mRwrsT5BP//aAAwDAQACAAMAAAAQw9h9/8QAGxEBAAICAwAAAAAAAAAAAAAAAQARMYGR4fD/2gAIAQMBAT8QTRPtSlQHnqKZZc//xAAYEQEBAAMAAAAAAAAAAAAAAAABABARIf/aAAgBAgEBPxAW7aMf/8QAHxABAQEAAQQDAQAAAAAAAAAAAREAIUFhkcFxofDx/9oACAEBAAE/EOWJoHJvzlUOw9odQ9uuN0DggXxgIxKAeHABIHBb94koVak95DtST+OICEFAvWUav9dt/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1847,7 +1664,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABboI0ocHQs//EABsQAQABBQEAAAAAAAAAAAAAAAERAAIDBBAx/9oACAEBAAEFAsRCrBcVrec//8QAFxEBAAMAAAAAAAAAAAAAAAAAAQIQEv/aAAgBAwEBPwHTIFr/xAAXEQEAAwAAAAAAAAAAAAAAAAABAhAR/9oACAECAQE/AYurX//EABgQAAIDAAAAAAAAAAAAAAAAAAERECAx/9oACAEBAAY/AmGI0U//xAAcEAACAQUBAAAAAAAAAAAAAAAAAREQMWGhscH/2gAIAQEAAT8husLYk7UTkbXsdq//2gAMAwEAAgADAAAAEHAP/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAEDAQE/EEQ0z//EABgRAAIDAAAAAAAAAAAAAAAAAAEREDGB/9oACAECAQE/EGABB1kf/8QAHBABAQABBQEAAAAAAAAAAAAAAREAECExQVGx/9oACAEBAAE/EKYMhLsckAHiGCVB7oMJDDn8Nf/Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABboI0ocHQs//EABsQAQABBQEAAAAAAAAAAAAAAAERAAIDBBAx/9oACAEBAAEFAsRCrBcVrec//8QAFxEBAAMAAAAAAAAAAAAAAAAAAQIQEv/aAAgBAwEBPwHTIFr/xAAXEQEAAwAAAAAAAAAAAAAAAAABAhAR/9oACAECAQE/AYurX//EABgQAAIDAAAAAAAAAAAAAAAAAAERECAx/9oACAEBAAY/AmGI0U//xAAcEAACAQUBAAAAAAAAAAAAAAAAAREQMWGhscH/2gAIAQEAAT8husLYk7UTkbXsdq//2gAMAwEAAgADAAAAEHAP/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxA0Q1H/xAAXEQEBAQEAAAAAAAAAAAAAAAABERAx/9oACAECAQE/EKIIXmf/xAAcEAEBAAEFAQAAAAAAAAAAAAABEQAQITFBUbH/2gAIAQEAAT8QpgyEuxyQAeIYJUHugwkMOfw1/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1941,7 +1758,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHrzqMwsP8A/8QAGBABAQADAAAAAAAAAAAAAAAAAgEAEBL/2gAIAQEAAQUCSUXbwW07/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASERIDFxof/aAAgBAQAGPwKiUaMcJs//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEQYXGR/9oACAEBAAE/IVnSszV9wEmnJP/aAAwDAQACAAMAAAAQNB//xAAXEQEBAQEAAAAAAAAAAAAAAAABADFR/9oACAEDAQE/EFdjL//EABcRAQADAAAAAAAAAAAAAAAAAAABEVH/2gAIAQIBAT8QpiX/xAAdEAEAAwABBQAAAAAAAAAAAAABABEhEDFBUWGR/9oACAEBAAE/EDIICtDPU+pEit6JVd4dDjBnmf/Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHrzqMwsP8A/8QAGBABAQADAAAAAAAAAAAAAAAAAgEAEBL/2gAIAQEAAQUCSUXbwW07/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASERIDFxof/aAAgBAQAGPwKiUaMcJs//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEQYXGR/9oACAEBAAE/IVnSszV9wEmnJP/aAAwDAQACAAMAAAAQNB//xAAYEQACAwAAAAAAAAAAAAAAAAAAARExUf/aAAgBAwEBPxCWio//xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EKYl/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITEQQVFhgf/aAAgBAQABPxAyCArIY9Tb5IkVvRKruGjjA+z/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -2083,7 +1900,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAX9UFFWx/8QAGhABAAMAAwAAAAAAAAAAAAAAAQACEQMiI//aAAgBAQABBQJe1eWuDphLHtP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIQESIx/9oACAEBAAY/AnsxIycIV//EABwQAAEEAwEAAAAAAAAAAAAAAAEAESExEEFRYf/aAAgBAQABPyGH3xfqAeE0EIQbUzs7SEAsG5j/2gAMAwEAAgADAAAAEFfP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAQACAwADAAAAAAAAAAAAAREAITFBUWGBkf/aAAgBAQABPxDfiHgItHvUn0YGIgFFXy/jlCZ604rR27Rz7hXLZg13gAQIfGf/2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAb2vmKjQ/8QAGhABAAIDAQAAAAAAAAAAAAAAAQACAxETIv/aAAgBAQABBQJfVclQHZomQOk//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgEFAAAAAAAAAAAAAAAAAAEQAxEiMVH/2gAIAQEABj8CeTLcjRTj/8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAMRAhUWH/2gAIAQEAAT8h05Hy/Zt4lLgnCbmnagAkE6x//9oADAMBAAIAAwAAABA0z//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEAAwADAQAAAAAAAAAAAAERACExQVFhcf/aAAgBAQABPxCYEroRaOXxJ9hgmMFQrG9yI2VIkRNOL0du0d94ISboNOnADgH5n//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -2345,7 +2162,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAdOa9oojZm//xAAbEAADAAIDAAAAAAAAAAAAAAABAgMAESEyNP/aAAgBAQABBQKGzGuiGRWMvNPqOM//xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAIAQMBAT8BjL//xAAXEQADAQAAAAAAAAAAAAAAAAAAARES/9oACAECAQE/AW4bP//EABoQAAIDAQEAAAAAAAAAAAAAAAABAhEhEBL/2gAIAQEABj8Cjp5vS4IYuf/EABsQAAIDAQEBAAAAAAAAAAAAAAABESExQVGx/9oACAEBAAE/IanDfo3pCMUe29HacnDlirLgtoq+H//aAAwDAQACAAMAAAAQsx//xAAXEQADAQAAAAAAAAAAAAAAAAABEBEh/9oACAEDAQE/EBqL/8QAFREBAQAAAAAAAAAAAAAAAAAAEQD/2gAIAQIBAT8QIyv/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMVFB/9oACAEBAAE/EMl1Q5d6hIlsO8pvfORft5azW/IjgKUaSORCoXOvsAAgUoK25//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAdOa9oojZm//xAAbEAADAAIDAAAAAAAAAAAAAAABAgMAESEyNP/aAAgBAQABBQKGzGuiGRWMvNPqOM//xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAIAQMBAT8BjL//xAAXEQADAQAAAAAAAAAAAAAAAAAAARES/9oACAECAQE/AW4aP//EABoQAAIDAQEAAAAAAAAAAAAAAAABAhEhEBL/2gAIAQEABj8Cjp5vS4IYuf/EABsQAAIDAQEBAAAAAAAAAAAAAAABESExQVGx/9oACAEBAAE/IanDfo3pCMUe29HacnDlirLgtoq+H//aAAwDAQACAAMAAAAQsy//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EFqEH//EABURAQEAAAAAAAAAAAAAAAAAABEA/9oACAECAQE/ECM7/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARITFRQf/aAAgBAQABPxDJdUOXeoSJbDvKb3zkX7eWs1vyI4ClGkjkQqFs6+wACBSgrbn/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -2385,7 +2202,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.9921875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB33qYQ3Fwv//EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMEETL/2gAIAQEAAQUCstCRWBjKCdHtuwaDz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABETEC/9oACAEBAAY/Aoi3TORCbZiP/8QAHRABAAIBBQEAAAAAAAAAAAAAAQARMSFBUWFxgf/aAAgBAQABPyFEoLMwQX0l6s9mtuImo3t1MlL/2gAMAwEAAgADAAAAEEwP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/EIuv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EFjL/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARITFBUXH/2gAIAQEAAT8QVnat2x5GJ2RDATw81ZtjGDiv2IUPaYU+ESLD67s//9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 66.9921875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB33qYQ3Fwv//EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMRBDL/2gAIAQEAAQUCstCRWBjKCej22wXnP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABETEC/9oACAEBAAY/Aoi3TORCbZiP/8QAHRAAAgIBBQAAAAAAAAAAAAAAAAERITFBUWFxgf/aAAgBAQABPyFioLWRIm9CdSdl3bDO2M6cGWL/2gAMAwEAAgADAAAAEAwP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/EIuv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EFjL/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARITFBYXH/2gAIAQEAAT8QVk7W7Y8jE7IhgJ4eas2xjBxX7EKHtMKfIsWH13Z//9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -2423,7 +2240,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAQT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQT/2gAMAwEAAhADEAAAAVUZ2jTwiyP/xAAbEAACAgMBAAAAAAAAAAAAAAACAwABBBETMf/aAAgBAQABBQIFMYR44879U7kbsmym5//EABkRAAIDAQAAAAAAAAAAAAAAAAABAhESIf/aAAgBAwEBPwFqWuFn/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Bh//EABwQAAEEAwEAAAAAAAAAAAAAAAEAEBEhAiJBMv/aAAgBAQAGPwKqxHVr6aeFQKDf/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARITFRwf/aAAgBAQABPyF0M7IsdPV+wxSLcmW/12Kn/9oADAMBAAIAAwAAABAP7//EABYRAQEBAAAAAAAAAAAAAAAAACEBEP/aAAgBAwEBPxAijH//xAAXEQADAQAAAAAAAAAAAAAAAAAAASER/9oACAECAQE/EFFMP//EABkQAQADAQEAAAAAAAAAAAAAAAEAETEhkf/aAAgBAQABPxChPzbbHGhlVzjQIYyOEeBNZRlbQfRiXfZ//9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAQT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQT/2gAMAwEAAhADEAAAAVUZ2jTwiyP/xAAbEAACAgMBAAAAAAAAAAAAAAACAwABBBETMf/aAAgBAQABBQIFMYR44879U7kbsmym5//EABkRAAIDAQAAAAAAAAAAAAAAAAABAhESIf/aAAgBAwEBPwFqWuFn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAQQDAQAAAAAAAAAAAAAAAQAQESECIkEy/9oACAEBAAY/AqrEdWvpp4VAoN//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMVHB/9oACAEBAAE/IXQzsix09X7DFItyZb/XYqf/2gAMAwEAAgADAAAAEAfv/8QAFhEBAQEAAAAAAAAAAAAAAAAAIQEQ/9oACAEDAQE/ECKMf//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QUmkP/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARMSGR/9oACAEBAAE/EKE/NtsYaGVXONAhjIoR4E1lGVtB9GJd9n//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -3009,7 +2826,7 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;p&gt;对于初学者来说，建议从 koa 入手，使用不同的中间件来实现不同的功能，对于了解 web 开发有很大帮助。当有一定积累和经验后，可以自己约定 koa 编程规则，当自己编程规则无法满足需求时，就可以入手真正的框架了。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[自己动手写一个 SimpleVue]]></title><description><![CDATA[最近看到一句话很有感触 —— 有人问 35 岁之后你还会在写代码吗？各种中年程序员的言论充斥的耳朵，好像中年就不该写代码了，但是我想说，若干年以后，有人问你闲来无事你会干什么，我想我会说，写代码，我想这个答案就够了，年龄不是你不爱的理由。 理论基础 双向绑定是 MVVM…]]></description><link>https://knownsec-fed.com/2018-01-13-zi-ji-dong-shou-xie-yi-ge-simplevue/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-13-zi-ji-dong-shou-xie-yi-ge-simplevue/</guid><pubDate>Sat, 13 Jan 2018 07:20:30 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-5c7f65fbac7d4949661b13e56456a820-d725c.jpeg&quot;
+    href=&quot;/static/header-f0b08c7250e24c1bbc82345e98f547eb-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3021,19 +2838,17 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAED/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIE/9oADAMBAAIQAxAAAAHSxOID/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBABAQADAAAAAAAAAAAAAAAAAREAIEH/2gAIAQEAAT8hxA7br//aAAwDAQACAAMAAAAQDC//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAEFAQAAAAAAAAAAAAAAAREAIDFBYfD/2gAIAQEAAT8QogQ5ANHezPm3/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIE/9oADAMBAAIQAxAAAAG6xOID/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBAAAgMAAAAAAAAAAAAAAAAAAREAIEH/2gAIAQEAAT8hhC11/9oADAMBAAIAAwAAABCML//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EKf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAgMBAAAAAAAAAAAAAAABEWEAICFB/9oACAEBAAE/EMMECXSPC71//9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;自己动手写一个 SimpleVue&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-5c7f65fbac7d4949661b13e56456a820-d6978.jpeg&quot;
-        srcset=&quot;/static/header-5c7f65fbac7d4949661b13e56456a820-527f0.jpeg 300w,
-/static/header-5c7f65fbac7d4949661b13e56456a820-9a7cd.jpeg 600w,
-/static/header-5c7f65fbac7d4949661b13e56456a820-d6978.jpeg 1200w,
-/static/header-5c7f65fbac7d4949661b13e56456a820-fee16.jpeg 1800w,
-/static/header-5c7f65fbac7d4949661b13e56456a820-d725c.jpeg 2000w&quot;
+        src=&quot;/static/header-f0b08c7250e24c1bbc82345e98f547eb-d6978.jpeg&quot;
+        srcset=&quot;/static/header-f0b08c7250e24c1bbc82345e98f547eb-527f0.jpeg 300w,
+/static/header-f0b08c7250e24c1bbc82345e98f547eb-9a7cd.jpeg 600w,
+/static/header-f0b08c7250e24c1bbc82345e98f547eb-d6978.jpeg 1200w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3399,7 +3214,7 @@ Dep&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target &lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHvU1gA/8QAFxABAAMAAAAAAAAAAAAAAAAAAQACIP/aAAgBAQABBQJlVc//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAACAgMAAAAAAAAAAAAAAAABEQAgITFB/9oACAEBAAE/IWWAzCBeuV//2gAMAwEAAgADAAAAENvP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAQADAQAAAAAAAAAAAAAAAREAIFFx/9oACAEBAAE/EEWlwWYpyXBJ66//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAd6bIC//xAAYEAACAwAAAAAAAAAAAAAAAAAAAQIRIP/aAAgBAQABBQJkXef/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAEAAgMAAAAAAAAAAAAAAAABESEAIEH/2gAIAQEAAT8hUFE4rarmv//aAAwDAQACAAMAAAAQ/wDP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARQRBR/9oACAEBAAE/EEVReESaVaRrvaHCUT//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -3902,7 +3717,7 @@ Dep&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target &lt;span
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB3klUtAX/xAAZEAACAwEAAAAAAAAAAAAAAAABEAARITH/2gAIAQEAAQUCqDUer//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABwQAQABBAMAAAAAAAAAAAAAAAEAECExURGBkf/aAAgBAQABPyFDv2G7J20dk5dwxP/aAAwDAQACAAMAAAAQrw//xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQMBAT8QjH//xAAVEQEBAAAAAAAAAAAAAAAAAAAQMf/aAAgBAgEBPxCH/8QAHRABAAICAgMAAAAAAAAAAAAAAQAhETFRkXGx8P/aAAgBAQABPxC5eiPUBBMX1uBgC65YwApXMqLdzR4n/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHeSVLQD//EABkQAAIDAQAAAAAAAAAAAAAAAAEQABEhMf/aAAgBAQABBQKoNR6v/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAHBABAAEEAwAAAAAAAAAAAAAAAQAQITFREYGR/9oACAEBAAE/IUO/YbsnbR2Tl3DE/9oADAMBAAIAAwAAABCrD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQACAgIDAAAAAAAAAAAAAAEAIRExUZFxsfD/2gAIAQEAAT8QuXoj1AQTF9bgYAuuWMAKVzKi3c0eJ//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -4044,7 +3859,7 @@ require&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cache&lt;sp
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwX/2gAMAwEAAhADEAAAAVPlo0IqMDj/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADERL/2gAIAQEAAQUCyLQxDLyZWTk//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABgRAAIDAAAAAAAAAAAAAAAAAAECEBEh/9oACAECAQE/AXsDI//EABoQAAEFAQAAAAAAAAAAAAAAAAABAhARIUH/2gAIAQEABj8CLwpYdvI//8QAGxABAAICAwAAAAAAAAAAAAAAAREhABBBYXH/2gAIAQEAAT8haEuWcDi8RYJO9EjR61//2gAMAwEAAgADAAAAEHvv/8QAFhEBAQEAAAAAAAAAAAAAAAAAERAh/9oACAEDAQE/EA7P/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxB7XFZp/8QAHBABAAICAwEAAAAAAAAAAAAAAQARITEQUWGR/9oACAEBAAE/EAE2lhUNXgvZfyP14A8CxRYBGe45bZ//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwX/2gAMAwEAAhADEAAAAVPlo0IqMDj/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADERL/2gAIAQEAAQUCyLQxDLyZWTk//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABcRAQEBAQAAAAAAAAAAAAAAAAEAAxH/2gAIAQIBAT8B0UOkX//EABoQAAEFAQAAAAAAAAAAAAAAAAABAhARIUH/2gAIAQEABj8CLwpYdvI//8QAGxABAAICAwAAAAAAAAAAAAAAAREhABBBYXH/2gAIAQEAAT8haEuWcDi8RYJO9EjR61//2gAMAwEAAgADAAAAEHPv/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxCi7H//xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQIBAT8QTkjG/8QAHBABAAICAwEAAAAAAAAAAAAAAQARITEQUWGR/9oACAEBAAE/EAE2lhUNXgvZfyP14A8CxRYBGe45bZ//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -4249,7 +4064,7 @@ myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABYdi0UmGZeP8A/8QAHBAAAgEFAQAAAAAAAAAAAAAAAQIDBBIhIjNC/9oACAEBAAEFAhIQ92JXZZAdvNR2/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQMBAT8BV//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhEQcf/aAAgBAQAGPwJ7xpU89GSUf//EABwQAQEAAAcAAAAAAAAAAAAAAAEAEBEhMUFRsf/aAAgBAQABPyFganVk18QroibjHjgv/9oADAMBAAIAAwAAABCzL//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIRH/2gAIAQMBAT8QNk9dv//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxDYDL//xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhMWGRobH/2gAIAQEAAT8Q4QRhk0bwiNopTGYBoFDWNv5ujEtlaV3rPcPhn//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABYdi0UmGZeP8A/8QAHBAAAgEFAQAAAAAAAAAAAAAAAQIDBBIhIjNC/9oACAEBAAEFAhIQ92JXZZAdvNR2/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQMBAT8BV//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhEQcf/aAAgBAQAGPwJ7xpU89GSUf//EABwQAQEAAAcAAAAAAAAAAAAAAAEAEBEhMUFRsf/aAAgBAQABPyFganVk18QroibjHjgv/9oADAMBAAIAAwAAABC3L//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QCTr2/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/ENgMv//EABwQAQEAAgIDAAAAAAAAAAAAAAERACExYZGhsf/aAAgBAQABPxDhBGGTRvCI2ilMZgGgUNY2/m6MS2VpXes9w+Gf/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -4475,7 +4290,7 @@ myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAABBAX/2gAMAwEAAhADEAAAAdk0TVmuEif/xAAZEAACAwEAAAAAAAAAAAAAAAAAARARITH/2gAIAQEAAQUCMLQ+R//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/Aar/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGI/8QAFhAAAwAAAAAAAAAAAAAAAAAAACAx/9oACAEBAAY/Air/AP/EABkQAQADAQEAAAAAAAAAAAAAAAEAETEQcf/aAAgBAQABPyFoLWeMSdm3f//aAAwDAQACAAMAAAAQP+//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFB/9oACAEDAQE/EEHLV//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQIBAT8QFan/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhMRBBYf/aAAgBAQABPxBUQN6jm04a6uUDL0gvm//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAABBAX/2gAMAwEAAhADEAAAAdk0TVmuEif/xAAZEAACAwEAAAAAAAAAAAAAAAAAARARITH/2gAIAQEAAQUCMLQ+R//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/Aar/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGI/8QAFhAAAwAAAAAAAAAAAAAAAAAAACAx/9oACAEBAAY/Air/AP/EABkQAQADAQEAAAAAAAAAAAAAAAEAETEQcf/aAAgBAQABPyFoLWeMSdm3f//aAAwDAQACAAMAAAAQP+//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFB/9oACAEDAQE/EEHLV//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQIBAT8QFan/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhMRBBYf/aAAgBAQABPxBVQN6jm04a6uUDL0gvm//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -5137,7 +4952,7 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB0JU6Ljgf/8QAGBABAAMBAAAAAAAAAAAAAAAAAQACETH/2gAIAQEAAQUC2rWlqqmzkAw5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAwACAwAAAAAAAAAAAAAAAAEhAhAxQWH/2gAIAQEABj8CbS7MuFaRE9Mpr//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVFh/9oACAEBAAE/IaBKEFRA8A9ZY6Y6DBeSCoHN8fIaxP/aAAwDAQACAAMAAAAQyy//xAAXEQADAQAAAAAAAAAAAAAAAAAQESFx/9oACAEDAQE/EKsH/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEhMf/aAAgBAgEBPxCNU//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExcUFhof/aAAgBAQABPxDLyFXd5PsvzYy1qcdyxbBRZUISHRwJVJt4HPl3AAAHqf/Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdCVOjccYv/EABgQAQADAQAAAAAAAAAAAAAAAAEAAhEx/9oACAEBAAEFAtq1paqps5AMOf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAMAAgMAAAAAAAAAAAAAAAABIQIxEEFh/9oACAEBAAY/Am0uzLStNE9Mpx//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMVFh/9oACAEBAAE/IaBKEFRA8A9ZYzMdBgvJBUDt8+Q1if/aAAwDAQACAAMAAAAQzy//xAAXEQADAQAAAAAAAAAAAAAAAAAQESFx/9oACAEDAQE/EHMH/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxBbCI//xAAcEAEAAwACAwAAAAAAAAAAAAABABEhMXFBYaH/2gAIAQEAAT8Qy8hV3eT7L82MtanHcsW4UWVCEh0cCVSbeBz5dwAAB6n/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -5305,7 +5120,7 @@ force&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAL/2gAMAwEAAhADEAAAAUN15WaKi6//xAAbEAACAQUAAAAAAAAAAAAAAAABEQACAxAiQv/aAAgBAQABBQJBU7BTm3j/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFhEAAwAAAAAAAAAAAAAAAAAAAhAx/9oACAECAQE/AQq//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQETGR/9oACAEBAAY/Arp9NNQhx//EABsQAAICAwEAAAAAAAAAAAAAAAERABAxUXHw/9oACAEBAAE/ISFQ9eCK1B2oTLOn/9oADAMBAAIAAwAAABBTP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EGz/xAAXEQADAQAAAAAAAAAAAAAAAAABEBFB/9oACAECAQE/ECkDV//EABwQAQACAgMBAAAAAAAAAAAAAAEAETHhEEGR0f/aAAgBAQABPxA+ockNPVwx3eETmU3PyMmqmo3x4//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAL/2gAMAwEAAhADEAAAAUN15WaKi6//xAAbEAACAQUAAAAAAAAAAAAAAAABEQACAxAiQv/aAAgBAQABBQJBU7BTm3j/xAAVEQEBAAAAAAAAAAAAAAAAAAACEP/aAAgBAwEBPwEz/8QAFhEAAwAAAAAAAAAAAAAAAAAAAhAx/9oACAECAQE/AQq//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQETGR/9oACAEBAAY/Arp9NNQhx//EABsQAAICAwEAAAAAAAAAAAAAAAERABAxUXHw/9oACAEBAAE/ISFQ9eCK1B2oTLOn/9oADAMBAAIAAwAAABBTP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EEs//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAgEBPxApA1f/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEx4RBBkdH/2gAIAQEAAT8QPqHJDT1cMd3hE5lNz8jJqpqN8eP/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
