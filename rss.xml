@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 30 Jan 2018 09:37:39 GMT</lastBuildDate><item><title><![CDATA[快速搭建你的 github pages 个人博客 —— 基于 Create-React-App 的单页面应用实践]]></title><description><![CDATA[相信各位github资深玩家们都有自己基于  github pages  搭建的个人站点。官方推荐的静态站点生成器是  Jekyll ，关于  Jekyll  的使用感兴趣的各位请自行 google，这里就不赘述了。本文主要介绍下基于  Create-React-App…]]></description><link>https://knownsec-fed.com/2018-01-29-kuai-su-da-jian-ni-de-github-page-ge-ren-bo-ke-ji-yu-createreactapp-de-dan-ye-mian-ying-yong-shi-jian/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-29-kuai-su-da-jian-ni-de-github-page-ge-ren-bo-ke-ji-yu-createreactapp-de-dan-ye-mian-ying-yong-shi-jian/</guid><pubDate>Mon, 29 Jan 2018 02:58:17 GMT</pubDate><content:encoded>&lt;p&gt;相信各位github资深玩家们都有自己基于 &lt;code&gt;github pages&lt;/code&gt; 搭建的个人站点。官方推荐的静态站点生成器是 &lt;code&gt;Jekyll&lt;/code&gt;，关于 &lt;code&gt;Jekyll&lt;/code&gt; 的使用感兴趣的各位请自行 google，这里就不赘述了。本文主要介绍下基于 &lt;code&gt;Create-React-App&lt;/code&gt; 搭建个人博客的相关实践，可能更适合做前端开发的伙伴。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 30 Jan 2018 10:22:23 GMT</lastBuildDate><item><title><![CDATA[快速搭建你的 github pages 个人博客 —— 基于 Create-React-App 的单页面应用实践]]></title><description><![CDATA[相信各位github资深玩家们都有自己基于  github pages  搭建的个人站点。官方推荐的静态站点生成器是  Jekyll ，关于  Jekyll  的使用感兴趣的各位请自行 google，这里就不赘述了。本文主要介绍下基于  Create-React-App…]]></description><link>https://knownsec-fed.com/2018-01-29-kuai-su-da-jian-ni-de-github-page-ge-ren-bo-ke-ji-yu-createreactapp-de-dan-ye-mian-ying-yong-shi-jian/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-29-kuai-su-da-jian-ni-de-github-page-ge-ren-bo-ke-ji-yu-createreactapp-de-dan-ye-mian-ying-yong-shi-jian/</guid><pubDate>Mon, 29 Jan 2018 02:58:17 GMT</pubDate><content:encoded>&lt;p&gt;相信各位github资深玩家们都有自己基于 &lt;code&gt;github pages&lt;/code&gt; 搭建的个人站点。官方推荐的静态站点生成器是 &lt;code&gt;Jekyll&lt;/code&gt;，关于 &lt;code&gt;Jekyll&lt;/code&gt; 的使用感兴趣的各位请自行 google，这里就不赘述了。本文主要介绍下基于 &lt;code&gt;Create-React-App&lt;/code&gt; 搭建个人博客的相关实践，可能更适合做前端开发的伙伴。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1051,7 +1051,7 @@ inquirer
 &lt;p&gt;不过，您可以采取一些简单的步骤来让每个团队访问不同的系统。它可能非常简单，比如为必要的团队成员提供分析账户，并提供培训，让每个人知道如何使用它。这样，即使他们无法在重大问题上取得进展，他们至少也有能力解决你的问题。在等待主存储库容纳不同的数据集时，避免关闭循环的诱惑。相反，通过简单地共享静态数据和跨组织的报告来启动低技术。部门间的对话对于消除模式转换摩擦是至关重要的。&lt;/p&gt;
 &lt;p&gt;接下来：选择一个面向客户的部门，并授予该团队试点访问一个产品系统的子集，解决关键的用户痛点。评估与解决方案度量（例如问题解决，处理时间）相关的努力（培训，供应等），以确定系统是否有帮助，如果是，则制定完整的推出计划。&lt;/p&gt;
 &lt;p&gt;看，那并不难。&lt;/p&gt;
-&lt;p&gt;模式转换摩擦的良方并不复杂，它的核心是需要对你的用户所发生的事情进行全面的描述，并故意和有意地设计产品生命周期的每一步的间隙。完成这个产品体验循环将帮助你提高人们在实际使用你的产品时有更好的产品体验。它将会使你的用户更快乐，更有品牌忠诚度，增加收入，让你的产品更长寿。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript 魔幻代理]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-01-27-javascript-mo-huan-dai-li/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-27-javascript-mo-huan-dai-li/</guid><pubDate>Sat, 27 Jan 2018 03:23:02 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;模式转换摩擦的良方并不复杂，它的核心是需要对你的用户所发生的事情进行全面的描述，并故意和有意地设计产品生命周期的每一步的间隙。完成这个产品体验循环将帮助你提高人们在实际使用你的产品时有更好的产品体验。它将会使你的用户更快乐，更有品牌忠诚度，增加收入，让你的产品更长寿。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript 魔幻代理]]></title><description><![CDATA[前言 什么是代理？ 让我们看三个案例： A: 上小学的时候，李小红来你家叫你出去玩，第一个回应的不是你自己，是你妈：“王小明在家写作业，今天不出去！” B…]]></description><link>https://knownsec-fed.com/2018-01-27-javascript-mo-huan-dai-li/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-27-javascript-mo-huan-dai-li/</guid><pubDate>Sat, 27 Jan 2018 03:23:02 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-64b1abe2f7b3ae19fe2e743acfefe4e7-d6978.jpeg&quot;
@@ -1086,9 +1086,10 @@ inquirer
     &lt;/p&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
 &lt;h3&gt;什么是代理？&lt;/h3&gt;
-&lt;p&gt;上小学的时候，李小红来你家叫你出去玩，第一个回应的不是你自己，是你妈：“王小明在家写作业，今天不出去！”&lt;/p&gt;
-&lt;p&gt;上中学的时候，赵二虎带着小弟们放学在校门口等着揍你，走在前面的不是你自己，是二虎他爸：“考试没及格还学会装黑社会了！”拎起二虎就是一顿胖揍。&lt;/p&gt;
-&lt;p&gt;上了大学，躺在宿舍里的床上，好饿。出门买饭并交代好不要葱蒜多放辣最后还直接端到床上的不是你自己，是快递小哥。&lt;/p&gt;
+&lt;p&gt;让我们看三个案例：&lt;/p&gt;
+&lt;p&gt;A: 上小学的时候，李小红来你家叫你出去玩，第一个回应的不是你自己，是你妈：“王小明在家写作业，今天不出去！”&lt;/p&gt;
+&lt;p&gt;B: 上中学的时候，赵二虎带着小弟们放学在校门口等着揍你，走在前面的不是你自己，是二虎他爸：“考试没及格还学会装黑社会了！”拎起二虎就是一顿胖揍。&lt;/p&gt;
+&lt;p&gt;C: 上了大学，躺在宿舍里的床上，好饿。出门买饭并交代好不要葱蒜多放辣最后还直接端到床上的不是你自己，是快递小哥。&lt;/p&gt;
 &lt;p&gt;这些都是代理。&lt;/p&gt;
 &lt;h3&gt;什么是 JavaScript 代理？&lt;/h3&gt;
 &lt;p&gt;用官方的洋文来说，是 &lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy&quot;&gt;Proxy&lt;/a&gt;：&lt;/p&gt;
