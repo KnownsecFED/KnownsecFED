@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 09 Feb 2018 02:37:10 GMT</lastBuildDate><item><title><![CDATA[记一次简单的 CSRF 攻击实验]]></title><description><![CDATA[CSRF 攻击实验 CSRF 攻击涉及用户受害者, 受信任的网站和恶意网站。当受害者与受信任的站点拥有一个活跃的会话同时，如果访问恶意网站，恶意网站会注入一个 HTTP 请求到为受信任的站点，从而破话用户的信息。 CSRF…]]></description><link>https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</guid><pubDate>Mon, 05 Feb 2018 09:14:41 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 09 Feb 2018 04:02:43 GMT</lastBuildDate><item><title><![CDATA[记一次简单的 CSRF 攻击实验]]></title><description><![CDATA[CSRF 攻击实验 CSRF 攻击涉及用户受害者, 受信任的网站和恶意网站。当受害者与受信任的站点拥有一个活跃的会话同时，如果访问恶意网站，恶意网站会注入一个 HTTP 请求到为受信任的站点，从而破话用户的信息。 CSRF…]]></description><link>https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</guid><pubDate>Mon, 05 Feb 2018 09:14:41 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg&quot;
+    href=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -9,22 +9,22 @@
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 816px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 55.63725490196079%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7CAAAOwgEVKEqAAAACGElEQVQoz62Sy2sTURTGz6RNQ21JSJvH3Pckk5maNI9aY6FilVKELkQ3SlcpKoXSNikiBcWFdKEIvtBCF4JrFxY37gQ3rtwK/gP+AwUXCtbX+E1IIAF11Qu/+c6958x3z70zVDJZsrmKUGdInrKoZwjOBjjnfUgp+2r+OridydpMZMLYG4tYWqlUPGWG/lVv27aXzWYXoCfBcTAH5ttJLcUK46IhmL2klblTKVXnpVS+EmJNCLGKrhpC8GXoCuaXczknnk6nYzD4CJ4BCxTBLuUUXxJS3+/u7Dpmy8177XneyFnG2EvwGrwCezANlFKNTpdvO4YJcA0cISX4I1s4F8KCcVvHQj3q5s8a7dyQSj/FsfbBFZjdwgufoR9q1epIj+EL5KegT0CSjOQtLvS9boc5rUWoM5OTzDHOGxzxQTentZ5Gh+/BXrlcHobRO/Cw514jtFjMDGkhdgSTa5rxc3njbBvl1064RV4pVs6HhZfGatGFpB8N4zl/aoQztqvad86fc5vthOuL46XB/s8m42XSow7N0jCpRIn8pKF6NPrfX+MiDZI7qvrWPg1cjf2iVi2gxzyguyKgmyyg7SK0HtBW4ie1pgPaPPabWi7U+UYbhX1rdeI7NasBXS8EdDuHOI+cD1KERxSG3ldrfQLFNSTdL9Z66YCaMz+oiU02PZjVwWlQxrzSMdeoLRzQxinEZ7AWGko67PEH0QWE8OQdWKsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1qnoVcZD/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECERAiI//aAAgBAQABBQLeuyFGTRWP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAECBwAAAAAAAAAAAAAAAAEAAhEgITFBUWH/2gAIAQEABj8C6rg0xtCLjJ//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMVFB/9oACAEBAAE/Ib9HfHkQslXwkORmjTKOSnCUcn//2gAMAwEAAgADAAAAEBcP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAgMAAwEAAAAAAAAAAAAAAREAIUExkfHB/9oACAEBAAE/ELhSNlDnEcz7DBYyEIqLKYfkuZeC7Qb5tuOx1PGgFwHU/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;记一次简单的 CSRF 攻击实验&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg&quot;
-        srcset=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-948ca.jpeg 300w,
-/static/header-52c265bcfb99a2f261a5bac403b1d9b3-44a81.jpeg 600w,
-/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg 816w&quot;
-        sizes=&quot;(max-width: 816px) 100vw, 816px&quot;
+        src=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg&quot;
+        srcset=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-527f0.jpeg 300w,
+/static/header-fca87732a6ebaccb88714ddc855e572f-9a7cd.jpeg 600w,
+/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -558,7 +558,7 @@
 &lt;p&gt;了解更多信息，请访问&lt;a href=&quot;http://reactscope.com/&quot;&gt;React Scope官网&lt;/a&gt;和&lt;a href=&quot;https://github.com/React-Scope/React-Scope&quot;&gt;GitHub&lt;/a&gt;。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】六个选择UI颜色的技巧]]></title><description><![CDATA[原文链接： Color Matters. 6 Tips on Choosing UI Colors. – UX Planet 作者：Tubik Studio…]]></description><link>https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</guid><pubDate>Sat, 03 Feb 2018 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-d725c.jpeg&quot;
+    href=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -570,19 +570,17 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.64999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABbiqwbmy4EP/EABsQAQACAgMAAAAAAAAAAAAAAAECEQMSEyIx/9oACAEBAAEFAotQyrxS9DvqGJq//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAwEBPwGcWf/EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAECAQE/Aaf/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIQETFBYf/aAAgBAQAGPwLTeDou4wh//8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUYH/2gAIAQEAAT8hSooCzdluOGzEVuX2LPOQEss2nrFoL5P/2gAMAwEAAgADAAAAEHjf/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAEDAQE/EIsP/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EMUxf//EABwQAQACAwADAAAAAAAAAAAAAAEAESExUWGRwf/aAAgBAQABPxAye7BDqvyofajiQjyWSJYFEydvEEbanPu7HKk4AJ//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABeIlm5wsxD//EABkQAAIDAQAAAAAAAAAAAAAAAAECAxExQ//aAAgBAQABBQIOAHa4mje13md//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAwEBPwGcWf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAEDBQAAAAAAAAAAAAAAAAEAEBESITJRcf/aAAgBAQAGPwKmb6CMFYlhxv/EABkQAQEBAQEBAAAAAAAAAAAAAAEAESFBYf/aAAgBAQABPyHNSA0Kd+/h9lugZ5HMon1f/9oADAMBAAIAAwAAABDrz//EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAgBAwEBPxDQclf/xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQIBAT8Qx1Yv/8QAHBABAQACAgMAAAAAAAAAAAAAAREAIUFRMYHB/9oACAEBAAE/ELFY0MnDduWVEFBrfIT5iYg9JMsovczYaJonGMVT7z//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;【翻译】六个选择UI颜色的技巧&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-d6978.jpeg&quot;
-        srcset=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-527f0.jpeg 300w,
-/static/header-f2e54824e0aac2c95238394bf482abd6-9a7cd.jpeg 600w,
-/static/header-f2e54824e0aac2c95238394bf482abd6-d6978.jpeg 1200w,
-/static/header-f2e54824e0aac2c95238394bf482abd6-fee16.jpeg 1800w,
-/static/header-f2e54824e0aac2c95238394bf482abd6-d725c.jpeg 2000w&quot;
+        src=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg&quot;
+        srcset=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-527f0.jpeg 300w,
+/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-9a7cd.jpeg 600w,
+/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg 1200w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
