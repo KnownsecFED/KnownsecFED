@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 09 Feb 2018 04:02:43 GMT</lastBuildDate><item><title><![CDATA[记一次简单的 CSRF 攻击实验]]></title><description><![CDATA[CSRF 攻击实验 CSRF 攻击涉及用户受害者, 受信任的网站和恶意网站。当受害者与受信任的站点拥有一个活跃的会话同时，如果访问恶意网站，恶意网站会注入一个 HTTP 请求到为受信任的站点，从而破话用户的信息。 CSRF…]]></description><link>https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</guid><pubDate>Mon, 05 Feb 2018 09:14:41 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 26 Feb 2018 07:58:28 GMT</lastBuildDate><item><title><![CDATA[【翻译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg&quot;
+    href=&quot;/static/header-f817b2bbffd38015871e18584c9287f5-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -13,18 +13,1455 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1qnoVcZD/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECERAiI//aAAgBAQABBQLeuyFGTRWP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAECBwAAAAAAAAAAAAAAAAEAAhEgITFBUWH/2gAIAQEABj8C6rg0xtCLjJ//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMVFB/9oACAEBAAE/Ib9HfHkQslXwkORmjTKOSnCUcn//2gAMAwEAAgADAAAAEBcP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAgMAAwEAAAAAAAAAAAAAAREAIUExkfHB/9oACAEBAAE/ELhSNlDnEcz7DBYyEIqLKYfkuZeC7Qb5tuOx1PGgFwHU/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/aAAwDAQACEAMQAAABTzqqdjRAb//EABkQAQACAwAAAAAAAAAAAAAAAAEAEQIQMf/aAAgBAQABBQIClwrT2f/EABcRAQADAAAAAAAAAAAAAAAAAAIBAxD/2gAIAQMBAT8BuUnP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAQIQEf/aAAgBAgEBPwFBs//EABcQAAMBAAAAAAAAAAAAAAAAAAAgMWL/2gAIAQEABj8Cppf/xAAaEAACAwEBAAAAAAAAAAAAAAAAAREhMRBx/9oACAEBAAE/IW1bv6IRmj1TfdhYj//aAAwDAQACAAMAAAAQP+//xAAXEQEBAQEAAAAAAAAAAAAAAAABACFR/9oACAEDAQE/EABOxpf/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QNuz/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQoSFBYf/aAAgBAQABPxAeBV4QUy+QPLKD3qsWzZZrE//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;不仅仅是漂亮：图像如何驱动用户体验&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-f817b2bbffd38015871e18584c9287f5-d6978.jpeg&quot;
+        srcset=&quot;/static/header-f817b2bbffd38015871e18584c9287f5-527f0.jpeg 300w,
+/static/header-f817b2bbffd38015871e18584c9287f5-9a7cd.jpeg 600w,
+/static/header-f817b2bbffd38015871e18584c9287f5-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;https://www.smashingmagazine.com/2017/01/more-than-just-pretty-how-imagery-drives-user-experience/&quot;&gt;More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文作者：Nick Babich&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;俗话说：“一图胜千言”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;人类是高度可视化的生物，他们几乎可以瞬间处理视觉信息，我们所感知到的所有信息中，有 90% 是视觉传达的。图像可以成为吸引用户注意力和区分产品的有力手段。一个单一的图像比一个复杂的文本更能传达给观察者关键信息。此外，图像可以跨越语言障碍，在某种程度上，文本是做不到的。&lt;/p&gt;
+&lt;p&gt;图像不仅仅是装饰，他们还有能力创造或破坏用户的体验。在本文中，我们将介绍大量有用的原则和最佳实践，它们将帮助您成功地将映像集成到您的设计中。&lt;/p&gt;
+&lt;h2&gt;只使用相关的图片&lt;/h2&gt;
+&lt;p&gt;每一张图片都有一个故事要讲。就像写作一样，如果你在开始前知道自己想说什么就更好了。引人注目的图像有独特的能力去激发和吸引你的观众，但不是所有的图像都能提高体验。有些只是占用空间，有的甚至会给用户造成干扰。在任何设计中，最危险的元素之一就是传达错误信息的图像。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1-5d9e14be74d21dacba6ee5de1acd9ade-0d623.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 160.46511627906978%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAgABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAWAQEBAQAAAAAAAAAAAAAAAAADAgH/2gAMAwEAAhADEAAAAZ611lUJ2DVj59XFmA1//8QAHRAAAQMFAQAAAAAAAAAAAAAAAQACEQMSEyExMv/aAAgBAQABBQIXOqYUy5MBkuAG5iWaVX0OJ3f/xAAYEQACAwAAAAAAAAAAAAAAAAAAARAhMf/aAAgBAwEBPwFKhZP/xAAYEQACAwAAAAAAAAAAAAAAAAAAMQECEP/aAAgBAgEBPwEs8ln/xAAdEAACAgIDAQAAAAAAAAAAAAAAAQIRITEQIlGB/9oACAEBAAY/Aqs6zf0djYsjsSiazwsxNo9P/8QAHRABAAIDAAMBAAAAAAAAAAAAAQARITFBUXGhsf/aAAgBAQABPyEUrLYtMphUCbGGqPuJBbO4U6VuHSNytmX5wN3LzMuPvC9GGzM//9oADAMBAAIAAwAAABAPJDL/xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQMBAT8QJS2UsZf/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EG5Ih9ieF0f/xAAeEAEAAwEAAgMBAAAAAAAAAAABABExIUGBUWGRsf/aAAgBAQABPxB4RUu8LlUrvlxfjmQBK0RcyE8BaCWFsUCztFENSpq9xjwVpeXvfcuShTA8+ZjygOkMAueWE5/ZeL+1kpTm0o/Z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1-5d9e14be74d21dacba6ee5de1acd9ade-d6978.jpg&quot;
+        srcset=&quot;/static/1-5d9e14be74d21dacba6ee5de1acd9ade-527f0.jpg 300w,
+/static/1-5d9e14be74d21dacba6ee5de1acd9ade-9a7cd.jpg 600w,
+/static/1-5d9e14be74d21dacba6ee5de1acd9ade-d6978.jpg 1200w,
+/static/1-5d9e14be74d21dacba6ee5de1acd9ade-0d623.jpg 1290w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（与主题无关的图片经常引起信息传达的混淆。)&lt;/p&gt;
+&lt;p&gt;用户对视觉效果的反应比文本快，所以要确保你的内容与视觉效果相匹配。你应该选择与你的产品目标有密切关系的图像，并确保它们与上下文相关。&lt;/p&gt;
+&lt;h2&gt;图像不应该产生视觉噪音&lt;/h2&gt;
+&lt;p&gt;“越多越好”的原则不适用于图像。不要花太多精力去创造纯粹的装饰性图像，因为人们通常会忽略这些图像。相反，能展示你产品的图片。在你的设计中使用有限数量的醒目的视觉效果——那些能真正吸引用户注意力的视觉效果。&lt;/p&gt;
+&lt;h2&gt;使用高质量的图片，不要失真&lt;/h2&gt;
+&lt;p&gt;确保您的图像适合在所有平台上显示。图像不应该出现像素化，所以一定要测试特定比例和设备的适当分辨率。显示照片和图形的原始纵横比，并且不要缩放它们超过 100%。不要让你的产品看起来倾斜的艺术品或图形，太小或太大。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2-252c6b3400343797e5a9ffc52e45f74f-1716d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1088px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 36.764705882352935%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHHkioV/8QAFxABAQEBAAAAAAAAAAAAAAAAAQISMf/aAAgBAQABBQKUzKFPf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMAAwAAAAAAAAAAAAAAAAECEQAQIf/aAAgBAQAGPwJhO4tF1//EABkQAAMBAQEAAAAAAAAAAAAAAAERIQAxUf/aAAgBAQABPyHsshD5iMghMKOK7//aAAwDAQACAAMAAAAQ/wDP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAExUf/aAAgBAwEBPxDE2//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABgQAQEBAQEAAAAAAAAAAAAAAAERACEx/9oACAEBAAE/EKACHhYxloyvHIEhXL5v/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2-252c6b3400343797e5a9ffc52e45f74f-1716d.jpg&quot;
+        srcset=&quot;/static/2-252c6b3400343797e5a9ffc52e45f74f-da88b.jpg 300w,
+/static/2-252c6b3400343797e5a9ffc52e45f74f-b1d2a.jpg 600w,
+/static/2-252c6b3400343797e5a9ffc52e45f74f-1716d.jpg 1088w&quot;
+        sizes=&quot;(max-width: 1088px) 100vw, 1088px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（左：失真模糊的图像   右：高清图像）&lt;/p&gt;
+&lt;p&gt;响应式网站和移动应用程序经常会选择最适合各种用户设备的图像分辨率。很明显，所有屏幕分辨率和不同设备的图像都不够用。但是，每个像素的图像太多，如果你有大量的图像，每次裁剪一张图像可能会感到崩溃。&lt;/p&gt;
+&lt;p&gt;那么，如何才能自动选择最佳响应图像大小呢？希望这些在线工具可以帮助您管理整个图像文件夹的多个大小。其中之一是 Cloudinary，它使您能够交互地生成响应性的图像断点。该工具使用高级算法，轻松为每个上传的图像生成最佳匹配断点，对图像进行分析，以图像为基础找到最佳的断点，而不是创建所有可能的图像分辨率。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3-0d172f2d11d30c8545007051a2949409-e863f.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.22254758418741%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHapwjGL//EABgQAAIDAAAAAAAAAAAAAAAAAAEQABEx/9oACAEBAAEFAi6Exf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAEFAAAAAAAAAAAAAAAAABAAITEyof/aAAgBAQAGPwKumEw//8QAFxABAQEBAAAAAAAAAAAAAAAAAREAIf/aAAgBAQABPyEN4EyF0NLsZKnBjf/aAAwDAQACAAMAAAAQD+//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAHhABAAICAQUAAAAAAAAAAAAAAQARITFBUXGBkaH/2gAIAQEAAT8QF30afKjgFHmXafTByAXb1gVQBgNEFXvfLc//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3-0d172f2d11d30c8545007051a2949409-d6978.jpg&quot;
+        srcset=&quot;/static/3-0d172f2d11d30c8545007051a2949409-527f0.jpg 300w,
+/static/3-0d172f2d11d30c8545007051a2949409-9a7cd.jpg 600w,
+/static/3-0d172f2d11d30c8545007051a2949409-d6978.jpg 1200w,
+/static/3-0d172f2d11d30c8545007051a2949409-e863f.jpg 1366w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+(Cloudinary 是一个基于云的服务，用于批量、裁剪和调整图像。)&lt;/p&gt;
+&lt;h2&gt;图像聚焦设计并不适用于每一页&lt;/h2&gt;
+&lt;p&gt;用赏心悦目的图像吸引人们的注意力当然是有价值的，但它的代价是让其他元素更不容易被看到和使用。&lt;/p&gt;
+&lt;p&gt;在你的设计中过多地关注图像可能会造成视觉上的过度，这会严重地分散用户的注意力。您可以在 SoundCloud 的应用程序中看到这种效果，其中图像引起了所有人的注意，而几乎没有注意到这两个按钮。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4-f67db247319db6f069d1e8ab73dfbd77-57027.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 414px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 144.9275362318841%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAwYE/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABvSPUprqiAy5lDFYr0RYOP//EABwQAAMAAgMBAAAAAAAAAAAAAAECAwQRABIzIf/aAAgBAQABBQLLDNXs45E7jlKC+vkPCx1SzdhDwzJksJsSi9U//8QAGBEAAwEBAAAAAAAAAAAAAAAAARASAiH/2gAIAQMBAT8BkShri//EABcRAQADAAAAAAAAAAAAAAAAABACMUH/2gAIAQIBAT8BjZp//8QAJBAAAgECAwkAAAAAAAAAAAAAAAECESEDUXISIjEyM1KBkaH/2gAIAQEABj8CosTZ3Tnl7IN5Db7SRDSeCyapxIaRSU6WOp8IxyR//8QAHxAAAwABBAMBAAAAAAAAAAAAAAERITFBobFRccHh/9oACAEBAAE/IUN5VUs8n6IMYK2tZtSJ9Erc06pDgui4sZTVeym6jbg4Lo2M1IPyvOozZYKn/9oADAMBAAIAAwAAABDnzoD/xAAXEQEBAQEAAAAAAAAAAAAAAAABERAh/9oACAEDAQE/EBAzuRjP/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARMf/aAAgBAgEBPxDSoCUv/8QAHxABAQABBAIDAAAAAAAAAAAAAREAITFRYUHwgcHR/9oACAEBAAE/EB0+QYVe2+mDmX5C+8b0rRqsNcFvxm627MAkm6K+c9LwwNV1ywxxZMolq8Df3Pe8Me3vTditt7yfS+Qfi51IylhLn//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/4-f67db247319db6f069d1e8ab73dfbd77-57027.jpg&quot;
+        srcset=&quot;/static/4-f67db247319db6f069d1e8ab73dfbd77-6431a.jpg 300w,
+/static/4-f67db247319db6f069d1e8ab73dfbd77-57027.jpg 414w&quot;
+        sizes=&quot;(max-width: 414px) 100vw, 414px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（在 Soundcloud 的主页视图中，屏幕按钮被图像所弱化。)&lt;/p&gt;
+&lt;p&gt;尽管在某些情况下（例如，苹果的主页），以图像为中心的设计是适当的，但绝大多数应用程序和网站应该遵循一个平衡的方法——在用户界面中使用的图像应该支撑产品，但不能掩盖其他重要的内容或主要功能。&lt;/p&gt;
+&lt;h2&gt;使用多种媒介&lt;/h2&gt;
+&lt;p&gt;插图和摄影都可以在同一产品中使用。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;摄影是理想的展示特定的实体和故事。例如，我们需要展示一朵玫瑰时：
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5-06ec134972b7495c720fe131fad48afc-1ec8f.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1024px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.69921875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAd8rai3GEP/EABsQAAIDAAMAAAAAAAAAAAAAAAEDAAIEEhMx/9oACAEBAAEFAtL+uV53A80IDopYXSf/xAAYEQACAwAAAAAAAAAAAAAAAAABEhAhMf/aAAgBAwEBPwEqtbH/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGH/8QAGxABAAIDAQEAAAAAAAAAAAAAAQIRABASMUH/2gAIAQEABj8C5GnIz78+6G6TCJr/xAAZEAADAQEBAAAAAAAAAAAAAAAAARExQVH/2gAIAQEAAT8hsTjVaiWUtJpLVoeccynBjvpT/9oADAMBAAIAAwAAABBHD//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxAZI//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxDSz//EABsQAQADAQEBAQAAAAAAAAAAAAEAESExUWFx/9oACAEBAAE/EDx6WGjzfY0oxMBPE4xiBT9uWhdw0L/SaRg1GxhquT//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;5&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5-06ec134972b7495c720fe131fad48afc-1ec8f.jpg&quot;
+        srcset=&quot;/static/5-06ec134972b7495c720fe131fad48afc-c575d.jpg 300w,
+/static/5-06ec134972b7495c720fe131fad48afc-bcea4.jpg 600w,
+/static/5-06ec134972b7495c720fe131fad48afc-1ec8f.jpg 1024w&quot;
+        sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（对于具体的实体，使用照片表示。)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插图可以有效表达概念和隐喻，摄影可能会达不到这种效果。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6-a8ea12403a463f4b5fdb7066b52ba7b0-09846.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 546px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 125.0915750915751%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHt4tmk1cXKLAD/xAAbEAEAAgIDAAAAAAAAAAAAAAABAhADERIgIf/aAAgBAQABBQKbxjDJtoCzw6f/xAAWEQEBAQAAAAAAAAAAAAAAAAABESD/2gAIAQMBAT8BEmP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAZEAACAwEAAAAAAAAAAAAAAAABEQAQMDH/2gAIAQEABj8CYiN8w//EABkQAQEBAAMAAAAAAAAAAAAAAAEREAAgIf/aAAgBAQABPyF1CvECN0/oLogdf//aAAwDAQACAAMAAAAQ68wA/8QAFhEBAQEAAAAAAAAAAAAAAAAAASAh/9oACAEDAQE/EAITY//EABURAQEAAAAAAAAAAAAAAAAAACBB/9oACAECAQE/EKP/xAAcEAEBAAEFAQAAAAAAAAAAAAABEQAQICExQWH/2gAIAQEAAT8QjIOC9H3J1H4aMjesWmhSho8kwwPDb//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;6&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6-a8ea12403a463f4b5fdb7066b52ba7b0-09846.jpg&quot;
+        srcset=&quot;/static/6-a8ea12403a463f4b5fdb7066b52ba7b0-4d3b8.jpg 300w,
+/static/6-a8ea12403a463f4b5fdb7066b52ba7b0-09846.jpg 546w&quot;
+        sizes=&quot;(max-width: 546px) 100vw, 546px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（插图更加写意，能表达一些创作者的思想。)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;有一个焦点&lt;/h2&gt;
+&lt;p&gt;意象是一种传达信息的视觉传达工具。清晰的焦点一目了然地传达了这一概念，而缺乏重点则使图像变得毫无意义。&lt;/p&gt;
+&lt;p&gt;当焦点被遮挡时，图像的图标质量会丢失：
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7-80d64136df21e9480b70bfd693399511-1ec8f.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1024px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.69921875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAACBP/aAAwDAQACEAMQAAABVLbTU5AGf//EABkQAAIDAQAAAAAAAAAAAAAAAAATAQIDEf/aAAgBAQABBQJo0nUXXqKSWx5P/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEv/aAAgBAwEBPwFVRuj/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIS/9oACAECAQE/AXkUyf/EABcQAQEBAQAAAAAAAAAAAAAAAAAxEEH/2gAIAQEABj8C2Oq//8QAGxABAAICAwAAAAAAAAAAAAAAAQARMUEhcYH/2gAIAQEAAT8hBoZ0uKOJhp53iJKKew6xz//aAAwDAQACAAMAAAAQV8//xAAXEQEBAQEAAAAAAAAAAAAAAAABADFR/9oACAEDAQE/EOiQdv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QJ6kk0L//xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFhoXH/2gAIAQEAAT8QWXEhML4bjM97lYYeDLyXsW9lo9bOyf/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;7&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7-80d64136df21e9480b70bfd693399511-1ec8f.jpg&quot;
+        srcset=&quot;/static/7-80d64136df21e9480b70bfd693399511-c575d.jpg 300w,
+/static/7-80d64136df21e9480b70bfd693399511-bcea4.jpg 600w,
+/static/7-80d64136df21e9480b70bfd693399511-1ec8f.jpg 1024w&quot;
+        sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（缺乏焦点会使图像失去意义。)&lt;/p&gt;
+&lt;p&gt;避免用户寻找图像中的意义，并确保用一种令人难忘的方式将一个清晰的概念传达给用户。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8-8e763e689230ae85cf63fd383be25b22-1ec8f.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1024px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.69921875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAF5HcYTUb//xAAbEAACAgMBAAAAAAAAAAAAAAAAAQIDERITFP/aAAgBAQABBQKUJIe+WmeiwsusR3mf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/AZiP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAECAQE/Abqv/8QAHRAAAQIHAAAAAAAAAAAAAAAAAAExAhARISIyQf/aAAgBAQAGPwK0JrJxMuVHP//EABoQAAIDAQEAAAAAAAAAAAAAAAABESEx4fD/2gAIAQEAAT8htpBXaYkmz3RSdLgbeT//2gAMAwEAAgADAAAAEDcP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEx/9oACAEDAQE/EJYh/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EJRp/8QAHhABAAIBBAMAAAAAAAAAAAAAAQARITFBcZFRsdH/2gAIAQEAAT8QH0U859TdAtNbdS9qjxL0x6w7EuMNWLWheHyf/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;8&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8-8e763e689230ae85cf63fd383be25b22-1ec8f.jpg&quot;
+        srcset=&quot;/static/8-8e763e689230ae85cf63fd383be25b22-c575d.jpg 300w,
+/static/8-8e763e689230ae85cf63fd383be25b22-bcea4.jpg 600w,
+/static/8-8e763e689230ae85cf63fd383be25b22-1ec8f.jpg 1024w&quot;
+        sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（清晰的焦点可以一目了然地传达概念。)&lt;/p&gt;
+&lt;p&gt;尽量减少分心并把注意力集中在图像中有意义的元素上。&lt;/p&gt;
+&lt;h2&gt;显示真实的人&lt;/h2&gt;
+&lt;p&gt;人的形象是一个非常有效的方式让你的用户参与。当我们看到别人的脸时，我们会觉得我们实际上是在和他们联系，而不仅仅是使用产品。然而，许多企业网站是臭名昭著的过度使用虚假的摄影是用来“建立信任。”（图片）
+人的形象是让用户参与其中的一种非常有效的方式。当我们看到别人的脸时，我们会觉得我们实际上是在和他们联系，而不仅仅是使用一个冷冰冰的产品。然而，许多企业网站因过度使用用于“建立信任”的虚假摄影而臭名昭着。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9-fad3c61ca24284fb903ae4c74f4f8b2e-c79f3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 720px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.55555555555556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABcrLQG2MJT//EABsQAAMAAgMAAAAAAAAAAAAAAAECAwASESEx/9oACAEBAAEFAqPoOmoPKtvVFBJfjP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwGMf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEv/aAAgBAgEBPwG1p//EABwQAAEEAwEAAAAAAAAAAAAAAAEAAhAREjFBcf/aAAgBAQAGPwL1PtouG1oLLpj/xAAaEAEBAQADAQAAAAAAAAAAAAABEQAhMUFR/9oACAEBAAE/IRJSqgZvXH3mbozwPhkXMTUd7//aAAwDAQACAAMAAAAQYx//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QEK5//8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAECAQE/EEpj/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITFBUXH/2gAIAQEAAT8Q6+M0r9xaQJVWhyYiFGAdwwJLd8r1xEiAQYQ5feathd8z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;9&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9-fad3c61ca24284fb903ae4c74f4f8b2e-c79f3.jpg&quot;
+        srcset=&quot;/static/9-fad3c61ca24284fb903ae4c74f4f8b2e-85aac.jpg 300w,
+/static/9-fad3c61ca24284fb903ae4c74f4f8b2e-f2bdb.jpg 600w,
+/static/9-fad3c61ca24284fb903ae4c74f4f8b2e-c79f3.jpg 720w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（不真实的图像给用户留下了一种浅薄、虚假的伪装感。）&lt;/p&gt;
+&lt;p&gt;可用性测试表明，纯装饰性的照片很少会给设计增加价值，而且往往会损害用户体验。用户通常会忽略这些图片，甚至可能会对它们感到失望。&lt;/p&gt;
+&lt;p&gt;一个非常简单的经验法则是，使用与你的应用程序或网站角色匹配的人的高质量照片。使用的图像应该真实的表示你的产品，公司或文化。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/10-1eacf5154c0aecbf29eef0f2e44e7496-dfbe2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 780px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAXY5KJKJhl//xAAaEAACAwEBAAAAAAAAAAAAAAABAgADERIT/9oACAEBAAEFAl3aSwnuqSs41gHGCf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAACAQQDAAAAAAAAAAAAAAAAARECECFhIjFx/9oACAEBAAY/AopWPSFByy9COtW//8QAGhABAAIDAQAAAAAAAAAAAAAAAQAhETFBYf/aAAgBAQABPyHAuC+JZWvY0AJbsTOsF1UCDR4qJOp//9oADAMBAAIAAwAAABBXL//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EKt//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEx/9oACAECAQE/ENR//8QAHRABAQACAgMBAAAAAAAAAAAAAREAMUGRIVFhgf/aAAgBAQABPxCDe6njQ3q4ZsKL743ccDGMz0S/mSQqqA3hvIhyI/cYAAz/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;10&quot;
+        title=&quot;&quot;
+        src=&quot;/static/10-1eacf5154c0aecbf29eef0f2e44e7496-dfbe2.jpg&quot;
+        srcset=&quot;/static/10-1eacf5154c0aecbf29eef0f2e44e7496-71414.jpg 300w,
+/static/10-1eacf5154c0aecbf29eef0f2e44e7496-c062d.jpg 600w,
+/static/10-1eacf5154c0aecbf29eef0f2e44e7496-dfbe2.jpg 780w&quot;
+        sizes=&quot;(max-width: 780px) 100vw, 780px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（展示真实的，脚踏实地的人，并确保他们真的与你产品的角色匹配。)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;小贴士：&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;尽量避免人群拍摄，使用具有单一主要主题的照片。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择代表真实故事的图像。给你的人拍一些有趣的照片。如果你有一个产品，可以考虑他们与产品互动的方式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;使图像与设计相融合&lt;/h2&gt;
+&lt;p&gt;当你在你的设计中使用图像时，问问你自己，你所拍摄的图片是否符合你的应用程序或网站的美感。Squarespace 的主页是一个关注图像的好例子。优雅，干净，并且使用大量的留白和大型全屏图像来创建引人注目的大胆设计。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/11-bdcde2be05db900873d1d3ef01be840c-6bead.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.20754716981131%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABZVSzEyAT/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQMSEwAhMv/aAAgBAQABBQK0SS2RB07hIF2f/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAQMFAAAAAAAAAAAAAAAAAQACEBESITFC/9oACAEBAAY/AiMp4uJpOuY//8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERMSFhcf/aAAgBAQABPyHQ0t4YuwGpWlV6arsUeJkR/9oADAMBAAIAAwAAABCkH//EABcRAQADAAAAAAAAAAAAAAAAAAEQESH/2gAIAQMBAT8QDLj/xAAVEQEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAgEBPxCn/8QAHRABAAICAgMAAAAAAAAAAAAAAREhADFBUXGh0f/aAAgBAQABPxCBAStArdxHvKhMpdiLXzEJCeFeeAQJ2TiiBZEN3hI1zn//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;11&quot;
+        title=&quot;&quot;
+        src=&quot;/static/11-bdcde2be05db900873d1d3ef01be840c-d6978.jpg&quot;
+        srcset=&quot;/static/11-bdcde2be05db900873d1d3ef01be840c-527f0.jpg 300w,
+/static/11-bdcde2be05db900873d1d3ef01be840c-9a7cd.jpg 600w,
+/static/11-bdcde2be05db900873d1d3ef01be840c-d6978.jpg 1200w,
+/static/11-bdcde2be05db900873d1d3ef01be840c-6bead.jpg 1325w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（选择适合主题的图片是很重要的。)&lt;/p&gt;
+&lt;h2&gt;改善您的电子商务设计&lt;/h2&gt;
+&lt;p&gt;通过产品形象销售产品。用户通常依靠产品图像来评估产品及其特性。无论你的产品是什么，无论是耳机还是玩具，产品摄影都是任何电子商务网站最重要的元素。最终，你的产品吸引访问者的吸引力越高，他们对你的产品越有信心，购买意愿越强烈，并且你的转化率会更高。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/12-2795a8c3a84cf99bb9c3a5292ec89f55-c1165.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUGAv/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFhlc6iYKMH/8QAGhABAAIDAQAAAAAAAAAAAAAAAgEDBBESIf/aAAgBAQABBQLXYVNbrRkrEt5UT6iJn//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/AVn/xAAdEAACAQQDAAAAAAAAAAAAAAAAARECEiIxIWJx/9oACAEBAAY/Apux6ltPDIeyx6ZFKM4b8P/EABoQAAMBAQEBAAAAAAAAAAAAAAABESFBMVH/2gAIAQEAAT8hxPHKyTl1Q5LiHW/IRSFXzCiQD//aAAwDAQACAAMAAAAQYO//xAAXEQEAAwAAAAAAAAAAAAAAAAABEBEh/9oACAEDAQE/EKDY/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxAQ7bf/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFRYXH/2gAIAQEAAT8QLqoFLT13UF8+cqPss3WkY+X1zmnklr7YYD73FesbNDrM/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;12&quot;
+        title=&quot;&quot;
+        src=&quot;/static/12-2795a8c3a84cf99bb9c3a5292ec89f55-c1165.jpg&quot;
+        srcset=&quot;/static/12-2795a8c3a84cf99bb9c3a5292ec89f55-c552c.jpg 300w,
+/static/12-2795a8c3a84cf99bb9c3a5292ec89f55-b5c43.jpg 600w,
+/static/12-2795a8c3a84cf99bb9c3a5292ec89f55-c1165.jpg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（通过图像来感受产品。）&lt;/p&gt;
+&lt;p&gt;使产品图像变得美丽。一个好的形象能为你做好所有的努力：它抓住了用户的注意力，并使你的产品与众不同。然而，好的产品摄影需要方法。请考虑阅读“如何为您的产品拍摄高质量照片”一文中的文章“使用精美的产品照片改进您的电子商务设计”。&lt;/p&gt;
+&lt;p&gt;让产品推销自己。考虑下面显示的 Gorilla Pod 示例。照片充分展示了该产品的优点。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/13-f8e743caaf48635deb9f70fc03f0b2b5-64ecf.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 38.94658753709199%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABvQLCP//EABoQAAICAwAAAAAAAAAAAAAAAAECAAMREhP/2gAIAQEAAQUCF2qvZkdBP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIREjL/2gAIAQEABj8Ct2RzJo6P/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAEhMRFhcYH/2gAIAQEAAT8hXI9KS2I8+CeqLp//2gAMAwEAAgADAAAAEPP/AP/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxBKkP/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxBcj//EABoQAQEAAwEBAAAAAAAAAAAAAAERAGFxIbH/2gAIAQEAAT8QNxFgi3esCjwUhw35lRxr3P/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;13&quot;
+        title=&quot;&quot;
+        src=&quot;/static/13-f8e743caaf48635deb9f70fc03f0b2b5-d6978.jpg&quot;
+        srcset=&quot;/static/13-f8e743caaf48635deb9f70fc03f0b2b5-527f0.jpg 300w,
+/static/13-f8e743caaf48635deb9f70fc03f0b2b5-9a7cd.jpg 600w,
+/static/13-f8e743caaf48635deb9f70fc03f0b2b5-d6978.jpg 1200w,
+/static/13-f8e743caaf48635deb9f70fc03f0b2b5-64ecf.jpg 1348w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;在折叠上方显示主图像。不要让用户滚动来查看产品的主要图像。主要的产品形象应该固定在一个显眼的位置，以便销售你的优先产品。&lt;/p&gt;
+&lt;p&gt;为了让图像更有效，它需要很大——尽可能大。然后，当你把你的图像的尺寸缩小了，你需要集成放大产品具体细节的功能。这对于像服装这样的产品尤其重要，因为用户更关心细节。放大后的图像也需要保持高质量。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/14-9f7b4ca10e0addac3e385e8d62a52161-f3cd9.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 387px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.51937984496124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAIBAwUE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAevN4ltsHjm9VnQSMQJuC//EAB0QAAMAAgMBAQAAAAAAAAAAAAECAwAxBBESEyH/2gAIAQEAAQUCanTmnQX9DuiZJ50warL6FJU9jT8hJuOUnaH0h3g1/8QAFxEAAwEAAAAAAAAAAAAAAAAAABEgIf/aAAgBAwEBPwHBz//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BX//EACEQAAEDAwQDAAAAAAAAAAAAAAEAAhEQEiEgMUFxIpGh/9oACAEBAAY/AreVlSF5kDtGwzFJG4Qc5+32ha6Z6WZ9IEc6P//EABsQAQACAwEBAAAAAAAAAAAAAAEAERAhMUFh/9oACAEBAAE/IQSz8VLBuEVaUMt29Ytxe2sTjVw3LWvkwvLA5B1ZDo5h8FsTXDhP/9oADAMBAAIAAwAAABDPLAB/z//EABcRAAMBAAAAAAAAAAAAAAAAAAABISD/2gAIAQMBAT8QTmDy/8QAFxEAAwEAAAAAAAAAAAAAAAAAABEgIf/aAAgBAgEBPxDRT//EAB4QAQADAAIDAQEAAAAAAAAAAAEAESExQXGx4VFh/9oACAEBAAE/EMYkumKiOidh9iP47CDn1ArXDjuAhCBWy/MNEP19wib7YaDXD0whgGrcD0/zzPY+5unK5Ck+S8GMHRObb4lg1WxTTs2V3sGoah//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;14&quot;
+        title=&quot;&quot;
+        src=&quot;/static/14-9f7b4ca10e0addac3e385e8d62a52161-f3cd9.jpg&quot;
+        srcset=&quot;/static/14-9f7b4ca10e0addac3e385e8d62a52161-c0890.jpg 300w,
+/static/14-9f7b4ca10e0addac3e385e8d62a52161-f3cd9.jpg 387w&quot;
+        sizes=&quot;(max-width: 387px) 100vw, 387px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（放大的视图迫使用户查看特定的部分。）
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/15-352386b6bfc5a5d4ff445d32c5816cd8-52361.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 750px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 92%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAIDAQQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAeviEI21arAkwv8A/8QAHBAAAgICAwAAAAAAAAAAAAAAAQIAAxETISIx/9oACAEBAAEFAiexbEXkM9ObNRlIVUPpgn//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAfEAACAQMFAQAAAAAAAAAAAAABEQACAyIgITEyQXH/2gAIAQEABj8C7gTe5SJy/kyTEyqRXkVssaP/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUEQUf/aAAgBAQABPyFLCjhcJhidLU3K/LHZ06ZiQVTC1Ym+h34cTWf/2gAMAwEAAgADAAAAEDwAwP/EABcRAAMBAAAAAAAAAAAAAAAAAAAQETH/2gAIAQMBAT8Qpr//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMVFxQZGx/9oACAEBAAE/EBpotwGvGLzHRFMJLzvUWkl4SQzFX0sCOPUEKu1pWpuoLdtV3c2dzA6E+s//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;15&quot;
+        title=&quot;&quot;
+        src=&quot;/static/15-352386b6bfc5a5d4ff445d32c5816cd8-52361.jpg&quot;
+        srcset=&quot;/static/15-352386b6bfc5a5d4ff445d32c5816cd8-120ae.jpg 300w,
+/static/15-352386b6bfc5a5d4ff445d32c5816cd8-756d1.jpg 600w,
+/static/15-352386b6bfc5a5d4ff445d32c5816cd8-52361.jpg 750w&quot;
+        sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（让用户拥有操控权，允许他们放大他们喜欢的部分【深度和缩放范围都由用户控制】。)&lt;/p&gt;
+&lt;h2&gt;表达个性，激发用户情感&lt;/h2&gt;
+&lt;p&gt;图像可以传达产品或服务的本质，但它也能带来惊喜和愉悦。图像有娱乐的能力，也有提供信息的能力。如果你已经有了满意的用户体验，为你的产品添加乐趣可以帮助你和你的用户建立情感联系。情感强大的图像是确保用户继续深入体验您的产品的一个因素。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/16-f86e1461c70b0e132bd7128f494a8b83-ae448.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.888888888888886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1136xIB//8QAGBABAAMBAAAAAAAAAAAAAAAAAgEQEQP/2gAIAQEAAQUC6HYIUXlf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAQAgMUGBkf/aAAgBAQAGPwK8Kk9b/8QAGRABAQADAQAAAAAAAAAAAAAAAREAEDGB/9oACAEBAAE/ITsp8MZkh7dEuA1//9oADAMBAAIAAwAAABA73//EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPxBUf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEBAAIDAAAAAAAAAAAAAAERABAhYaHh/9oACAEBAAE/EL8h0U9NPmVFPuCEMAjiKzvy8f/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;16&quot;
+        title=&quot;&quot;
+        src=&quot;/static/16-f86e1461c70b0e132bd7128f494a8b83-d6978.jpg&quot;
+        srcset=&quot;/static/16-f86e1461c70b0e132bd7128f494a8b83-527f0.jpg 300w,
+/static/16-f86e1461c70b0e132bd7128f494a8b83-9a7cd.jpg 600w,
+/static/16-f86e1461c70b0e132bd7128f494a8b83-d6978.jpg 1200w,
+/static/16-f86e1461c70b0e132bd7128f494a8b83-ae448.jpg 1350w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（图像能够唤起观众的情感反应。一点点幽默可以减轻用户的负担，让用户产生好感。)&lt;/p&gt;
+&lt;p&gt;情感大脑容易受到照片和插图，尤其是人物和故事的影响。说到插画，即使是不包含画风的网站或应用，可以使用插画来实现这些目的。例如，插图可用于说明，教程和空白状态。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/17-f7c5659172197f619c88f08983783d5d-62d4d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1080px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAABAP/2gAMAwEAAhADEAAAAUUm2ezIdiN6S7UbjOAA/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAEQEwIDESH/2gAIAQEAAQUClHgynWU6ynAYszqjij//xAAYEQACAwAAAAAAAAAAAAAAAAAAIQEQEf/aAAgBAwEBPwEYjIv/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREQEv/aAAgBAgEBPwGIiKzp7//EABkQAAIDAQAAAAAAAAAAAAAAAAAxARAgEf/aAAgBAQAGPwLSEKuS8//EACAQAQACAQQCAwAAAAAAAAAAAAEAESExQVGREPBhsfH/2gAIAQEAAT8hUrbuWcks5JT47mrbuUvE9qw/Sz3sVmGpkwn2INo+FtS6gAYKn//aAAwDAQACAAMAAAAQB+Wxg8//xAAaEQACAgMAAAAAAAAAAAAAAAAAERBRITFh/9oACAEDAQE/EM2OwtEcJ//EABcRAQEBAQAAAAAAAAAAAAAAAGEAARD/2gAIAQIBAT8QCOfZd7//xAAgEAEAAgEEAgMAAAAAAAAAAAABABFBITFRYYGRwdHw/9oACAEBAAE/EKHXtFO3ujfueYLt4GRAavTi1BgV0xAbVfrMQ8sSrKF7/c0R1zVwi+AsrbkPmAXYckQa6hIHgvErxDgn/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;17&quot;
+        title=&quot;&quot;
+        src=&quot;/static/17-f7c5659172197f619c88f08983783d5d-62d4d.jpg&quot;
+        srcset=&quot;/static/17-f7c5659172197f619c88f08983783d5d-997c4.jpg 300w,
+/static/17-f7c5659172197f619c88f08983783d5d-7dd84.jpg 600w,
+/static/17-f7c5659172197f619c88f08983783d5d-62d4d.jpg 1080w&quot;
+        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（选择引人注目的图片来吸引人们的注意，并表达特性。)&lt;/p&gt;
+&lt;h2&gt;真实场景：如何为登陆页面选择图片，以实现目的&lt;/h2&gt;
+&lt;p&gt;登录页面本质上是你的商店窗口，在大多数情况下，你只有一次机会来给用户留下深刻印象。当涉及到登录页面时，您希望访问者在页面上只有一个任务——转换。巨大的登录页面围绕着坚实的用户体验而建立，图像在建立这种体验中起着重要作用。当用户来到你的页面时，他们会有某种反应。无论是积极的还是消极的，很大程度上取决于他们所看到的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;下面是几点提议：&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;01、选择适合你信息的图片。&lt;/h3&gt;
+&lt;p&gt;选择能简单解释产品或服务概念的图片很重要。这并不意味着图像需要说所有的东西——单独看到的图像可能看起来并不清楚，但是当它与页面上的其他内容相连接时，它应该符合逻辑。它应该在视觉上强化你试图传达给访问者的信息。&lt;/p&gt;
+&lt;h3&gt;02、在正确的地方展示图片。&lt;/h3&gt;
+&lt;p&gt;如果图像带有高优先级目标，它应该具有更多的视觉重点，相反，与次要目标相关的图像应该更少强调。最重要的图像应该被放在一个突出的位置（即在折叠的上方），并且应该是焦点的主要焦点。&lt;/p&gt;
+&lt;h3&gt;03、选择醒目的视觉效果来吸引眼球。&lt;/h3&gt;
+&lt;p&gt;专注于选择你能找到的最引人注目的图片。正如斯蒂文·斯奈尔所说：“生动鲜明的形象将会留在游客的脑海中。文字可能被阅读和遗忘，但是强烈的图像将被记住。”&lt;/p&gt;
+&lt;h3&gt;04、使用情感强大的意象。&lt;/h3&gt;
+&lt;p&gt;你的图像应该具有情感上的说服力——会产生情感上的影响并加强你试图创造的感觉。毕竟，当涉及到决策时，情绪往往会压倒逻辑。&lt;/p&gt;
+&lt;p&gt;下面是一个由 Intercom 提供的登录页面示例，该服务可以让你更有效地与你的客户进行通信。登录页采用了相当复杂的想法，很容易理解这个产品是如何工作的，以及为什么它可能是有益的。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/18-9629d9eb5de92febf4def12c49c89a8b-4f1fe.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.99777282850779%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHbaHRCsT//xAAZEAABBQAAAAAAAAAAAAAAAAAQAQIRITH/2gAIAQEAAQUCkaXUv//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAAgIf/aAAgBAQAGPwJYf//EABsQAQACAgMAAAAAAAAAAAAAAAEAESExEFFx/9oACAEBAAE/Id8Eba6gGVDELONTDyf/2gAMAwEAAgADAAAAEPAv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EI1//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EKyv/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFREP/aAAgBAQABPxBqjANbxNQ0t9gllu0BjLQc884TV1hP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;18&quot;
+        title=&quot;&quot;
+        src=&quot;/static/18-9629d9eb5de92febf4def12c49c89a8b-d6978.jpg&quot;
+        srcset=&quot;/static/18-9629d9eb5de92febf4def12c49c89a8b-527f0.jpg 300w,
+/static/18-9629d9eb5de92febf4def12c49c89a8b-9a7cd.jpg 600w,
+/static/18-9629d9eb5de92febf4def12c49c89a8b-d6978.jpg 1200w,
+/static/18-9629d9eb5de92febf4def12c49c89a8b-4f1fe.jpg 1347w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;从可用性的角度来考虑图像是很重要的。在你的设计中所有的视觉传达都会给用户留下累积的印象。&lt;/p&gt;
+&lt;p&gt;令人信服的图像具有独特的能力，可以激励和吸引你的观众提供有用的信息。花时间让你的应用或网站中的每张图片都能强化用户体验。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSS3 clip-path 用法介绍]]></title><description><![CDATA[一、基本概念 刷新 QQ 空间动态时，发现一则广告，随着用户上下滑动动态列表，就会自动切换广告图片，这样的效果对移动端本就不大的屏幕来说，无疑是很精妙的考虑，这样的效果是怎么实现的呢？ 你可以点击这里： QQ空间广告示意demo…]]></description><link>https://knownsec-fed.com/2018-02-23-css3-clip-path-yong-fa-jie-shao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-23-css3-clip-path-yong-fa-jie-shao/</guid><pubDate>Fri, 23 Feb 2018 10:07:47 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-1c2d6b76dfae6405f62a3a1abd482ee2-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABuwmeseqLA//EABoQAQADAAMAAAAAAAAAAAAAAAEDERITITP/2gAIAQEAAQUCF1ydDZI1MLiHy//EABcRAQEBAQAAAAAAAAAAAAAAAAEAAjH/2gAIAQMBAT8BdMcv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AcV//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERIYH/2gAIAQEABj8CaWws4UUG7uCP/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAIUFREDGx/9oACAEBAAE/IUAIdiTHJ4NvYrpei4ZoQ01mX0tZ8H//2gAMAwEAAgADAAAAENPf/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERcf/aAAgBAwEBPxCiaNUZ/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EA5DFL//xAAcEAEAAgMBAQEAAAAAAAAAAAABABEhMUFhUZH/2gAIAQEAAT8QM/IM2NcIYzrBGRfRVleSutHwfsChTUq63NI4Cywzi5u9RX1tn//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;CSS3 clip-path 用法介绍&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-1c2d6b76dfae6405f62a3a1abd482ee2-d6978.jpeg&quot;
+        srcset=&quot;/static/header-1c2d6b76dfae6405f62a3a1abd482ee2-527f0.jpeg 300w,
+/static/header-1c2d6b76dfae6405f62a3a1abd482ee2-9a7cd.jpeg 600w,
+/static/header-1c2d6b76dfae6405f62a3a1abd482ee2-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;一、基本概念&lt;/h2&gt;
+&lt;p&gt;刷新 QQ 空间动态时，发现一则广告，随着用户上下滑动动态列表，就会自动切换广告图片，这样的效果对移动端本就不大的屏幕来说，无疑是很精妙的考虑，这样的效果是怎么实现的呢？&lt;/p&gt;
+&lt;p&gt;你可以点击这里：&lt;a href=&quot;http://sandbox.runjs.cn/show/9mjidsy2&quot;&gt;QQ空间广告示意demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;接下来就说说这个效果的具体实现思路：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将两张图片通过定位，相对于图片容器堆叠在一起；&lt;/li&gt;
+&lt;li&gt;在图片容器的左上角或右下角选取一个圆心，绘制一个圆，不断加大圆的半径来显示第二张图片；&lt;/li&gt;
+&lt;li&gt;上划下拉时，根据滑动速度动态改变圆的半径；&lt;/li&gt;
+&lt;li&gt;当图片容器距屏幕顶部或底部的距离为 0 时，则相应的改变图片堆叠顺序及圆心位置。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在图片上绘制圆，为什么就能显示出第二张图片呢？说到这里，就不得不说一下咱们今天的主角 clip-path，引用 MDN 上的描述：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;clip-path属性可以创建一个只有元素的部分区域可以显示的剪切区域。区域内的部分显示，区域外的隐藏。剪切区域是被引用内嵌的URL定义的路径或者外部svg的路径，或者作为一个形状例如circle().。clip-path属性代替了现在已经弃用的剪切 clip属性。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;clip-path 的含义就是裁剪路径，通过指定的闭合路径或者形状，甚至是 SVG 中 clipPath 标签定义的形状，裁剪出部分需要保留的区域，这样网页中的布局实现可以是多种多样的。&lt;/p&gt;
+&lt;p&gt;在 clip-path 出现之前，CSS2.1 中的 clip 属性也有裁剪的效果，但是它只支持矩形，而且只对 position:absolute 或者 position:fixed 的元素生效，使用方式如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;clip: rect(60px, 60px, 60px, 60px); // 标准写法
+clip: rect(60px  60px  60px  60px); // 兼容 ie 及 火狐浏览器&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;注意: rect 参数的顺序为 top、right、botton、left&lt;/p&gt;
+&lt;p&gt;所有主流浏览器都支持 clip 属性，在雪碧图（ CSS Sprite ）的展示仍然有它的用武之地，但是由于 clip 属性的局限性， clip 已经被 clip-path 代替。平常开发中我们可以使用 border、border-radius 等属性制作三角形、圆或圆角矩形等简单图案，clip-path 为我们提供了更多的可能，结合 SVG 的 path、animate 等标签可以制作更多的有趣的图案。&lt;/p&gt;
+&lt;h2&gt;二、用法实践&lt;/h2&gt;
+&lt;p&gt;clip-path 属性可以裁剪出很多图形，circle、ellipse、polygon、inset，同时也可以使用动画和 SVG 的 clipPath 标签。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;圆 circle&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;clip-path: circle(25% at 50% 50%);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;椭圆 ellipse&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;clip-path: ellipse(25% 25% at 50% 50%);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;inset&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;clip-path: inset(35% 35% 35% 35% round 0 70% 0 70%);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;多边形 polygon&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;clip-path: polygon(50% 0, 25% 50% ,75% 50%);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;你可以点击这里：&lt;a href=&quot;http://sandbox.runjs.cn/show/gdcpiqf5&quot;&gt;clip-path示意demo&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;url&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;&lt;section class=&quot;container&quot;&gt;
+  &lt;img src=&quot;img01.jpg&quot; class=&quot;contract&quot;&gt;
+  &lt;img src=&quot;img02.jpg&quot;&gt;
+&lt;/section&gt;
+&lt;svg height=&quot;0&quot; width=&quot;0&quot;&gt;
+  &lt;clipPath id=&quot;clip02&quot;&gt;
+    &lt;circle cx=&quot;400&quot; cy=&quot;210&quot; r=&quot;0&quot;&gt;
+      &lt;animate
+        attributeType=&quot;CSS&quot;
+        attributeName=&quot;r&quot;
+        values=&quot;0;480;0&quot;
+        dur=&quot;9s&quot;
+        repeatCount=&quot;2&quot;
+      /&gt;
+    &lt;/circle&gt;
+  &lt;/clipPath&gt;
+&lt;/svg&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;.contract {
+  clip-path: url(#clip02);
+  z-index:1;
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;值得说明的是使用 SVG 的 clipPath 标签可以包裹 animate，其中 animate 标签的 attributeName 是指设置圆的半径，values 可以设置动画的帧，可以有多个值用分号分割，dur 是指动画的持续时间，repeatCount 是指动画的次数。&lt;/p&gt;
+&lt;h3&gt;兼容性&lt;/h3&gt;
+&lt;p&gt;目前 IE 和 Edge 都不支持这个属性。Firefox 仅部分支持 clip-path，部分支持是指只支持形状和 URL(#path) 内联SVG的语法。Chrome、Safari 和 Opera 需要使用 -webkit- 的前缀兼容此属性。不支持外部的 SVG 形状。更多兼容信息可以点击这里查看 &lt;a href=&quot;https://caniuse.com/#search=clip-path&quot;&gt;clip-path 浏览器兼容情况&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;三、经验总结&lt;/h2&gt;
+&lt;p&gt;使用 URL(#path) 内联SVG 的方式，我们可以很轻易的裁剪出复杂的形状，也能够包含一些形象生动的动画效果，比如在扑克游戏出牌下注的倒计时上添加扇形遮罩，或是在矩形边缘添加倒计时进度，加载中的动画等等，都能够使用clip-path 属性巧妙的实现，同时在使用 clip-path 属性可以裁剪图形时可以灵活的使用相对单位。&lt;/p&gt;
+&lt;h2&gt;四、参考链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/CSS/clip-path&quot;&gt;clip-path&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://species-in-pieces.com/&quot;&gt;species-in-pieces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhangxinxu.com/wordpress/2014/12/css3-svg-clip-path/&quot;&gt;CSS3/SVG clip-path路径剪裁遮罩属性简介&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[读书笔记：可视化是一种艺术 -《不只是美：信息图表设计原理与经典案例》序章]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-02-23-du-shu-bi-ji-ke-shi-hua-shi-yi-zhong-yi-shu-bu-zhi-shi-mei-xin-xi-tu-biao-she-ji-yuan-li-yu-jing-dian-an-li-xu-zhang/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-23-du-shu-bi-ji-ke-shi-hua-shi-yi-zhong-yi-shu-bu-zhi-shi-mei-xin-xi-tu-biao-she-ji-yuan-li-yu-jing-dian-an-li-xu-zhang/</guid><pubDate>Fri, 23 Feb 2018 08:38:03 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-7bcc04033704065f31ef0c3b7993bd04-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEEAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABm3N2sYw//8QAGRAAAgMBAAAAAAAAAAAAAAAAABACERIx/9oACAEBAAEFAumSlBf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAASAyQf/aAAgBAQAGPwLCyj//xAAcEAACAQUBAAAAAAAAAAAAAAAAATEQEUFhgXH/2gAIAQEAAT8hW6estwztKIdHJ//aAAwDAQACAAMAAAAQE9//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGxABAAICAwAAAAAAAAAAAAAAAQARITFBYYH/2gAIAQEAAT8QWVVeqDJx3qNXcSaZqlNsz//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;读书笔记：可视化是一种艺术 -《不只是美：信息图表设计原理与经典案例》序章&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-7bcc04033704065f31ef0c3b7993bd04-d6978.jpeg&quot;
+        srcset=&quot;/static/header-7bcc04033704065f31ef0c3b7993bd04-527f0.jpeg 300w,
+/static/header-7bcc04033704065f31ef0c3b7993bd04-9a7cd.jpeg 600w,
+/static/header-7bcc04033704065f31ef0c3b7993bd04-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;读书笔记：可视化是一种艺术 -《不只是美：信息图表设计原理与经典案例》序章&lt;/h1&gt;
+&lt;h2&gt;表达与挖掘的相互关系&lt;/h2&gt;
+&lt;p&gt;在看到这个主题时，相信大多数的同学会和我第一次看到一样觉得数据表达与挖掘之间貌似没有什么关系，可是当我读完这部分之后发现并不是这样的。&lt;/p&gt;
+&lt;p&gt;在一开始，作者就提出，我们的大脑是有创建并理解不同程度抽取的可视化表达的能力，而这些可视化表达式对数据、概念、关系以及地理位置编码后的图表。这句话读起来可能会有点绕，简单的来说这里作者就提出我们的大脑会对这些可视化图表进行不同程度的抽取，也就是说信息挖掘，这里就隐隐的点出了表达与挖掘之间的关系。&lt;/p&gt;
+&lt;p&gt;后面作者解释道，&lt;strong&gt;大脑不仅仅处理眼睛所获得的信息，也产生心里视觉图像，通过这些图像我们进行推断并采取正确的行动。&lt;/strong&gt;这也是说明了我们在看图表所表达的事情的时候其实我们的大脑已经默认的帮我们进行了一些挖掘工作，当然这仅仅只是说在查看简单图表的时候。比如一个柱状图，折线图，我们可以轻易地看出其突出点，但是如果我们看的是一个复杂的图表，我们就需要动脑去思考图表表达的是什么意思，这就是挖掘。&lt;/p&gt;
+&lt;h2&gt;信息图表与可视化的统一共存&lt;/h2&gt;
+&lt;p&gt;接下来作者提出，&lt;strong&gt;信息图表与可视化的统一共存&lt;/strong&gt;这一观点。想象两根平行线，上面这根线左边标注“信息图表”，右边标注“可视化”，下面那根左边标注“表达”，右边标注“挖掘”。如图1，所有的图表都代表数据并允许一定程度的挖掘。一些图表几乎全是表达，所以只能够对其进行有限的挖掘，如图2，我们认为他们偏向与信息图表，而其他的则更多与让读者自己分析展示的内容，在我们的直线上他们偏向于可视化，如图3，在读者花费一定时间分析后，能够找出其模式并发现不同的信息。所有的信息图表和可视化都有表达和挖掘的成分：表达信息，同时也利于读者从不同角度分析内容。这也就诠释了表达与挖掘之间的关系，还有很多的例子，大家可以去找来进行相应的分析试试。&lt;/p&gt;
+&lt;div class=&quot;img-box&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/recorder1-1-c39f684360eba804dd2027b9e577271d-21a29.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 51.87747035573123%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABuElEQVQoz02S7Y7TMBBF+/4PskJC7IKgLS2IFU3j77HjJG3aXXiWyx23i/bHkR3Lc2bGk9Xr6PA6ObyMFtdquXpcuF+qIQ5nnp24n4vBlImupcc89DgNhnDl2cL9ZbBY/ZkDhYEirrNwL7hOkdKApREpDQz0FHOtnkJLIZMx+YmS82Bb8gtZ/Z0TDrtvWD9+xObpE1LfITsDcT0SibaHN0fCvbNI3sF0B+y/b3D8/YwqESOZJGDOQStMqJ5Bh2ccfuyQGFhjQAkeOYSGkHQnesWj7zo43s16lwykJgpfpsS3E5Zb+A6FWYQZhZlvDKRIJgU5ZQqUtzPhWWzSIWmlicJRcGa5SxGiwszyVZopvAW9IRQln1ixwBwN6RD4BIUyFVYVXmvEkiOOP/f4tV0j8JJYg2gMgrFsy7zDwhJte7ve4MPDA75++YzKrkprmcJLCU3Y7XfYPj3e35AZSeEFIfk9WqmexwRvXUukFZakwojVIhx95MjZ8pmZJn0LBozp1vLQ2s73ltP/4QgT3tDBcYDRt8GsztE24YkfM5kYNPJiTRzInaIiTjbwtwnONXTSqeEgRKX6Z/wDj/ykJZCtLZcAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;recorder1 1&quot; title=&quot;&quot; src=&quot;/static/recorder1-1-c39f684360eba804dd2027b9e577271d-abe1c.png&quot; srcset=&quot;/static/recorder1-1-c39f684360eba804dd2027b9e577271d-10046.png 300w,
+/static/recorder1-1-c39f684360eba804dd2027b9e577271d-3c4a3.png 600w,
+/static/recorder1-1-c39f684360eba804dd2027b9e577271d-abe1c.png 1200w,
+/static/recorder1-1-c39f684360eba804dd2027b9e577271d-1c9b7.png 1800w,
+/static/recorder1-1-c39f684360eba804dd2027b9e577271d-21a29.png 2024w&quot; sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;span style=&quot;
+      display: block;
+      width: 100%;
+      line-height: 30px;
+      text-align: center;
+    &quot;&gt;&amp;#x56FE;1 - &amp;#x8868;&amp;#x8FBE;&amp;#x4E0E;&amp;#x6316;&amp;#x6398;&amp;#x5173;&amp;#x7CFB;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;img-box&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/recorder1-2-f221df1a7e8fc594cdf6d843ff588c5a-ef6ef.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 591px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 65.65143824027074%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACGUlEQVQ4y41Tz2sTURDev8ijCKKHeujBm2gFoQdPXi1IwR8g3uwPBRF6qAepHhQP1VqKAWOP1mjS4jZoNUpDYhOy2202m/2R3bdvP9+bt7tJWw8OfDAzu/PN9+bN05IkQcw54jiG9LnwCdL/D8gaaao2gSYDxhjCMMw/EKB+PGoyHyecIC1OGPzAy+u1rENGdqg4JZfFo2pGLRJiHMdBFEWKkLqI40qV0h5/L+LaxhJ27PY/FfYiH3PVAmar72CHfqp6KCAnzDrcLC1ibHUKFfMnxU3XQmFvG9/sPYoNv4vLxXuYEJC+NC5OkKnXeHoRWSe7dhdm5Tx8e5NyK/VPOPH6Omb0ZYpZaMLavooDgVj4StkIoVSnZqCGyn7dQrR5DrxXprhvFFAvjcOqL6ji0ACrXiFIPyPMTMtWJesQ1O7ALY8jTgm5uQZWPoO48UjFgsTTJwl8RGFOONyhNLl7A9BPA06JRpDsvwXfOomk+UANP+oAOxcUhE+5o4TyhgeDASXW1j9g4fkzNFotivUfvzHz5CWKHytqBJ6LF29eEVzhj67XsT2UNr3k4extG59rao1WvwxwarqLhysexR2b49JcHxdn+zBsnt5ycniGwyMnmF82MTnfhL4b0A/rX11M3G/g6Xu1Ivs9hqnFtkALlsNywmMKs4uxbB+Nto0gZNQgCGP86Tjo+0y9GvFejQMfZtcnH0Q2fGV/AUA3zp1E6CcnAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;recorder1 2&quot; title=&quot;&quot; src=&quot;/static/recorder1-2-f221df1a7e8fc594cdf6d843ff588c5a-ef6ef.png&quot; srcset=&quot;/static/recorder1-2-f221df1a7e8fc594cdf6d843ff588c5a-a5f2a.png 300w,
+/static/recorder1-2-f221df1a7e8fc594cdf6d843ff588c5a-ef6ef.png 591w&quot; sizes=&quot;(max-width: 591px) 100vw, 591px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;span style=&quot;
+      display: block;
+      width: 100%;
+      line-height: 30px;
+      text-align: center;
+    &quot;&gt;&amp;#x56FE;2 - &amp;#x7B80;&amp;#x5355;&amp;#x67F1;&amp;#x72B6;&amp;#x56FE;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;img-box&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/recorder1-3-45cab3c2680569e6c0c634737ce9a32e-71258.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 382px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 70.68062827225131%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3KoB/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAQABBQKIy//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABgQAAMBAQAAAAAAAAAAAAAAAAABETFB/9oACAEBAAE/Iam2WcYkRrSQTP/aAAwDAQACAAMAAAAQo8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAACAwEBAQAAAAAAAAAAAAAAIQERUTFBYf/aAAgBAQABPxDgKr3ThJIPplKsJoTeiGf/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;recorder1 3&quot; title=&quot;&quot; src=&quot;/static/recorder1-3-45cab3c2680569e6c0c634737ce9a32e-71258.jpg&quot; srcset=&quot;/static/recorder1-3-45cab3c2680569e6c0c634737ce9a32e-f587f.jpg 300w,
+/static/recorder1-3-45cab3c2680569e6c0c634737ce9a32e-71258.jpg 382w&quot; sizes=&quot;(max-width: 382px) 100vw, 382px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;span style=&quot;
+      display: block;
+      width: 100%;
+      line-height: 30px;
+      text-align: center;
+    &quot;&gt;&amp;#x56FE;3 - Stefanie Posavec &amp;#x7684;&amp;#x201C;&amp;#x6587;&amp;#x5B66;&amp;#x6709;&amp;#x673A;&amp;#x4F53;&amp;#x201D;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2&gt;美感源于优雅的实用性&lt;/h2&gt;
+&lt;p&gt;作者在阐明了信息图表与可视化的统一共存之后立马指出了，&lt;strong&gt;图表、图解和地图不仅仅是用于欣赏的工具，更是用于解读和详细分析的工具。&lt;/strong&gt;这句话的意思就是，信息图表首要目的不是满足眼睛的感官，而是&lt;strong&gt;可读性&lt;/strong&gt;，但是很多人在实际操作中却往往会忽视这一个重要的规则，要么就是将大量数据如乱麻一般展示，或者就是展示错误数据，数据之间并不能反映出一些客观事实。&lt;/p&gt;
+&lt;p&gt;作者在这里使用了一个他自己制作的一张图，来向我们展示了一些复杂的事情。如图4，这张图上的彩色折线如同历史标记一般，因为他揭示了两种变量之间的关系。这里补充一下背景知识：Lula执政期间，采取几项收入分配政策后，经济取得了持续稳定的增长；Jose Sarney和Fernando Collor执政期间，经济增长缓慢，不均等性无规律上下波动；Fernndo Henrique Cardoso上台后，采取一系列慰问措施，使得巴西走出了通货膨胀的黑洞。&lt;/p&gt;
+&lt;p&gt;在这个例子中，作者仅仅使用了一条简单的折线图以及折线图上面的颜色进行划分，就向我们展示了巨大的信息量，从历史出发，到每一任领导人的执政方针，以及年代国情，这张图上面展示的东西太多太多，为了能够跟上作者的思想，我还专门去查了这些领导人以及当时巴西的国情，我想这就是我对这张图的一个挖掘过程吧。&lt;/p&gt;
+&lt;div class=&quot;img-box&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/recorder1-4-da0e3e24cd0cf8e989e145c991135fa9-c11f4.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 1176px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 78.91156462585035%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAADLklEQVQ4yy1Ta3eiSBTk//+D2Uk2k0nGOIJvQZGHCAgIiOAramZyNtmzv6O2bjsf6nTTtnXr1q3W/rvu8fm6xcd5i+suQ50tCB/1eoEt19N2RSQKxyrGuclw2a9x3ef4uNb4fGvwcakVPq8NtH8vO5x5+Vwn2BdLNOsAZeIij+YK2XKGlEiCKVa+pVY5X0c29psY+zLC71OpyBThx6XBkT8cyhBNHqAmNomHNJhh6YyIMSLPhD8bIJgPkYW2KpDHDkmloI3LLsc/f1Rqb7sCp80Kr39aEtKmCBWqLLiRzkeIfBOZEEQOUpLmLHpi+2eSXQ8FVVZ4p23apRE/CrwfK7zWKd4OJf1KcWCBPf0rVh6q9RIFCeoyRpnSW1pTFxHPA7zST+lKcZwraML867jBbxLuRFXu40ii826NIvWxmA/UKmQRPfTsIWL66E77CNwxVtyLl8LxftqwZSr6Rcj0tpxsU3Iw4mmdYcd1yyIbnld5CMfqYtxrwRq2YbTuYbzcw5katOaWhushh3alB0J4pI/pckoPlzhVEb+XbDlRpE0pypdwZ31F1O98gzVoo9v+G/ZEVwOStvebEJoQNcxeyRjk8fw2wWCMxB9hJXt6l8UeSt4RwoH+HXrrDkP9ifiOsfGE0J2gIKnkVosYhcQjQWAxXw49cenNjJjAY1Q8e6B8E2Kfd7vtB+hsddz7oWD2W1iIr94EycKClnFTen2ktoF1OKfxDC4V5bHLnDFrrBzxjmRQhiCFhFjUymBcqwfH7DJaQ4SMmFatfDScYrVyKdtVKgUqtMxbwoCnqpAJ19RJYHDyN3KPhM6kC3vU4drBgkU0Z6QjmA3Vh0ODfa4W2/CmPcSMibyS0DVvyngm565pYD7uwBaQbMoBWf0XmEyAFjkme5+pdxrxT+JFQE8C+/bsxB/xUlp0LIEQiiodXU58+PMRo84j+u1v6L08QCvpVxG5yAL79vhprDw18cxnSzMqsCcGJpI/KhEVw45M9xmdp68YkFB/vkP78QuMp7tby4spJ0kvpr0XeFQgbczHulIx6nKa3RZDTAXtR6p6UATGj3tFoj/L+hd+ct/h+j8kBQx1cYHPXQAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;recorder1 4&quot; title=&quot;&quot; src=&quot;/static/recorder1-4-da0e3e24cd0cf8e989e145c991135fa9-c11f4.png&quot; srcset=&quot;/static/recorder1-4-da0e3e24cd0cf8e989e145c991135fa9-83625.png 300w,
+/static/recorder1-4-da0e3e24cd0cf8e989e145c991135fa9-8d635.png 600w,
+/static/recorder1-4-da0e3e24cd0cf8e989e145c991135fa9-c11f4.png 1176w&quot; sizes=&quot;(max-width: 1176px) 100vw, 1176px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;span style=&quot;
+      display: block;
+      width: 100%;
+      line-height: 30px;
+      text-align: center;
+    &quot;&gt;&amp;#x56FE;4 - &amp;#x5DF4;&amp;#x897F;&amp;#x7ECF;&amp;#x6D4E;&amp;#x589E;&amp;#x957F;&amp;#x4E0E;&amp;#x793E;&amp;#x4F1A;&amp;#x4E0D;&amp;#x5747;&amp;#x7B49;&amp;#x6027;&amp;#x5173;&amp;#x7CFB;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2&gt;序章结语&lt;/h2&gt;
+&lt;p&gt;在读完序章之后，突然发现原来可视化是一个丰富的但是也是复杂的一个学问，一门艺术。在平时工作时注意到的点以及没有注意到的点，都被作者一一抓住并且做了解释。可视化不仅仅只是展示数据那么简单，首先需要进行数据的表达，根据实际需要，剖析数据，找出关联数据，将其按照一定的方式进行展示，接下来是对展示的数据进行挖掘，对于表达与挖掘的关系，我们也是需要深入的理解，多维的表达相应的能够挖掘到隐藏更深的问题或者发现，我们在挖掘数据时，可以进行多维数据比较展示，这样反应的事实也许更接近于现实。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[咱来聊聊 Vue - compile]]></title><description><![CDATA[在 Vue 里，模板编译也是非常重要的一部分，里面也非常复杂，这次探究不会深入探究每一个细节，而是走一个全景概要，来吧，大家和我一起去一探究竟。 初体验 我们看了 Vue 的初始化函数就会知道，在最后一步，它进行了  vm.$mount(el)  的操作，而这个 $mount…]]></description><link>https://knownsec-fed.com/2018-02-09-zan-lai-liao-liao-vuecompile/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-09-zan-lai-liao-liao-vuecompile/</guid><pubDate>Fri, 09 Feb 2018 08:07:44 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-f0b08c7250e24c1bbc82345e98f547eb-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIE/9oADAMBAAIQAxAAAAG6xOID/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBABAAMBAAAAAAAAAAAAAAAAAQARIDH/2gAIAQEAAT8hiBxvP//aAAwDAQACAAMAAAAQjC//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxAAAQQDAAAAAAAAAAAAAAAAAQARIUEgMWH/2gAIAQEAAT8QTRtTFCge4//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;咱来聊聊 Vue - compile&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-f0b08c7250e24c1bbc82345e98f547eb-d6978.jpeg&quot;
+        srcset=&quot;/static/header-f0b08c7250e24c1bbc82345e98f547eb-527f0.jpeg 300w,
+/static/header-f0b08c7250e24c1bbc82345e98f547eb-9a7cd.jpeg 600w,
+/static/header-f0b08c7250e24c1bbc82345e98f547eb-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 Vue 里，模板编译也是非常重要的一部分，里面也非常复杂，这次探究不会深入探究每一个细节，而是走一个全景概要，来吧，大家和我一起去一探究竟。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;初体验&lt;/h2&gt;
+&lt;p&gt;我们看了 Vue 的初始化函数就会知道，在最后一步，它进行了 &lt;strong&gt;vm.$mount(el)&lt;/strong&gt; 的操作，而这个 $mount 在两个地方定义过，分别是在 &lt;strong&gt;entry-runtime-with-compiler.js(简称：eMount)&lt;/strong&gt; 和 &lt;strong&gt;runtime/index.js(简称：rMount)&lt;/strong&gt; 这两个文件里，那么这两个有什么区别呢？&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// entry-runtime-with-compiler.js&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; mount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;$mount &lt;span class=&quot;token comment&quot;&gt;// 这个 $mount 其实就是 rMount&lt;/span&gt;
+Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;$mount&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  el&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; string &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Element&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  hydrating&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; boolean
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Component &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; options &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;$options
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;render&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;template&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; render&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; staticRenderFns &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;compileToFunctions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;template&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        shouldDecodeNewlines&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        shouldDecodeNewlinesForHref&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        delimiters&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;delimiters&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        comments&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;comments
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;render &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; render
+      options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;staticRenderFns &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; staticRenderFns
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mount&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; el&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; hydrating&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;其实 eMount 最后还是去调用的 rMount，只不过在 eMount 做了一定的操作，如果你提供了 render 函数，那么它会直接去调用 rMount，如果没有，它就会去找你有没有提供 template，如果你没有提供 template，它就会用 el 去查询 dom 生成 template，最后通过编译返回了一个 render 函数，再去调用 eMount。&lt;/p&gt;
+&lt;p&gt;从上面可以看出，最重要的一部分就是 compileToFunctions 这个函数，它最后返回了 render 函数，关于这个函数，它有点复杂，我画了一张图来看一看它的关系，可能会有误差，希望大侠们可以指出。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/compile-41dc70dd9a286a383a57a560d829cbc6-5f0c3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1157px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.21694036300779%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABIklEQVQoz22TB47FIAxEuf8903vvYfUsDeJHizTCNngyNo57nsd/cV2Xr+va53nuj+Ow2H3fAfjv+/7EAHlOBOA8Tztg7fvu13U1m1jbtj5NU0NZlnZOLgtywXEwjqPv+94Pw+CnaTIfhU3TmM/ZPM/hI8uyGIjzoa7rAhwlccCXIYAMYuzYB9jbtgVAVlWVz7LMdnwn2SRAroV8LZQpmb5CjFL1Elu9dQpwEckkqxwpBPFDSA0+cRECI6RPyKZvlIIPWVEURh6/qIj1WDwk1ZFnhHpVmo6ty1wEStRIiQQCcqgsSRITQMuMEBUEGB0lUzoPxU6cHRLuUiK+Zg8ijZzDoDQIRaadXtEGeogaJans7w9hhPFwfi9oWGP/vz8rJvwD1EJYZuDhn4kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;compile&quot;
+        title=&quot;&quot;
+        src=&quot;/static/compile-41dc70dd9a286a383a57a560d829cbc6-5f0c3.png&quot;
+        srcset=&quot;/static/compile-41dc70dd9a286a383a57a560d829cbc6-082e2.png 300w,
+/static/compile-41dc70dd9a286a383a57a560d829cbc6-bfbf4.png 600w,
+/static/compile-41dc70dd9a286a383a57a560d829cbc6-5f0c3.png 1157w&quot;
+        sizes=&quot;(max-width: 1157px) 100vw, 1157px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;编译三步走&lt;/h2&gt;
+&lt;p&gt;看一下这个编译的整体过程，我们其实可以发现，最核心的部分就是在这里传进去的 baseCompile 做的工作：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;parse:&lt;/strong&gt; 第一步，我们需要将 template 转换成抽象语法树(AST)。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;optimizer:&lt;/strong&gt; 第二步，我们对这个抽象语法树进行静态节点的标记，这样就可以优化渲染过程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;generateCode:&lt;/strong&gt; 第三步，根据 AST 生成一个 render 函数字符串。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;好了，我们接下来就一个一个慢慢看。&lt;/p&gt;
+&lt;h3&gt;解析器&lt;/h3&gt;
+&lt;p&gt;在解析器中有一个非常重要的概念 AST，大家可以去自行了解一下。&lt;/p&gt;
+&lt;p&gt;在 Vue 中，ASTNode 分几种不同类型，关于 ASTNode 的定义在 &lt;strong&gt;flow/compile.js&lt;/strong&gt; 里面，请看下图：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/astnode-6928ea6354e06a0777e78807a497ca38-68f50.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 773px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 86.9340232858991%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAACH0lEQVQ4y5VUyVLbQBTU16UIGDBeMDbeF222JMubbNnB2AEqKSrhQiWcOOZCJYf8YOf1kCEmDtg5TM2ip1a/7h4Zh9UO/jUOKu21/X7Z3VhnbALTQEd1D+Zwjmo3RrLWQUr2um613ngJjHOi5AiQLwCeAPjwZ1do9N7hSACTUpMoS+3/MKz4E9TDGUqdSLGzowXcyVKBf/56h+svd9gpWIrxq4BssSggzf6ZGi0Z7niJweIagbDMNAPUumOU/WhN1xcBT9ujZ+2nGwEsYWkO5sgK4IHU7BadzRrqAjKkflxrQEqQkvmw2n7W5iqooV1McIgJ+7/ngjtUZnD/aJCLrBnCER2Lwp7n6YYvLG3slf4wNfhSyRujGsTi4EzNZEcDGJW0tJdthWrNczpNTVMClhKW9TAW00ZPWhpspdadKrGji0+Ir25gjc4Rnn1AJ76ALWtGhXM4/6gAc1ZPsWF0Hn5+x+39Pd6cmKojpeGJ3ZeiPo6lUK/JNu8MVGTK0gFNYoS86SXy9gB7YkhGWJKZZqda1hquDhZTQ13EL1OrnHxMsRY5msJauf3XbXnVZW0KDWGblWCCTKuLY7OHnBj09tTaDlAHm/pSBgKTFTNIcD4vOH20J4vtcsgXqJ87fq+AnGipDPNnl8rdXWHmT5f49uPhKasbfw4EZXs0g7Exh+fKEOYwK+dJCfdO3txeQw2q/zoMM+PDDNL5x9virbX8C0ca4eeABbVPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;astnode&quot;
+        title=&quot;&quot;
+        src=&quot;/static/astnode-6928ea6354e06a0777e78807a497ca38-68f50.png&quot;
+        srcset=&quot;/static/astnode-6928ea6354e06a0777e78807a497ca38-a72c5.png 300w,
+/static/astnode-6928ea6354e06a0777e78807a497ca38-4e2cc.png 600w,
+/static/astnode-6928ea6354e06a0777e78807a497ca38-68f50.png 773w&quot;
+        sizes=&quot;(max-width: 773px) 100vw, 773px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我们用一个简单的例子来说明一下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;demo&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Latest Vue.js Commits&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;{{1 + 1}}&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们想一想这段代码会生成什么样的 AST 呢？&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/example-e5fd9070797706977dbc8c9b704b4edc-f3fa3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 621px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.623188405797094%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABo0lEQVQoz4VS2VbiUBDk+0R0RH1wISwSJQmBAEnYQQSViMuMc1yOx38tu1rAuD/U6U7f7rpVfZNYz5VBrGWdZUwZNlIS1z4gpWfz3Hjti88xJhaE8eJW0UO6UMHGHOkFDqrYFLDGuCl98blPhLxxy/Rgt05QbPRRCo9hSX4YDBUH9b6gp7W819WePSfEasZ6I4yzM982a9gvN4V0jODkAt3pX9SHERrHEUx/AMNtoXV6hR3LF4XVJeGffEwhiVhc2S+pnboMUyVJy50JnPYY1f4ZvMF0+c1z1qg6KbOrGVs5VCFJKD9f66kKt3uqFkvhCEaljYLUreZICU1/qLCFlD0k50y22kHO6yDBva3nHDjzvR3JoSkxUw6RFXuG2CfhoRIN1CJ3yEsL9dc9s54TwiPJ1XKxOYZ/fova5Abt2T1Gt8+aB9P/sPsRdoWERNwtsWMFqrDSO0Mv+odwfKmroKAE7TaiOwSXj2hc3MOfLeKD1prXT0gXa0jKfukmqQ/gqpqKqHS7E10HVeZpefHKbPoSsd/qO7Bvo+C+f+XfEO/7aeYFwzLrwvS+SOEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;example&quot;
+        title=&quot;&quot;
+        src=&quot;/static/example-e5fd9070797706977dbc8c9b704b4edc-f3fa3.png&quot;
+        srcset=&quot;/static/example-e5fd9070797706977dbc8c9b704b4edc-2b8c4.png 300w,
+/static/example-e5fd9070797706977dbc8c9b704b4edc-4d703.png 600w,
+/static/example-e5fd9070797706977dbc8c9b704b4edc-f3fa3.png 621w&quot;
+        sizes=&quot;(max-width: 621px) 100vw, 621px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我们这个例子最后生成的大概就是这么一棵树，那么 Vue 是如何去做这样一些解析的呢？我们继续看。&lt;/p&gt;
+&lt;p&gt;在 parse 函数中，我们先是定义了非常多的全局属性以及函数，然后调用了 parseHTML 这么一个函数，这也是 parse 最核心的函数，这个函数会不断的解析模板，填充 root，最后把 root(AST) 返回回去。&lt;/p&gt;
+&lt;h4&gt;parseHTML&lt;/h4&gt;
+&lt;p&gt;在这个函数中，最重要的是 while 循环中的代码，而在解析过程中发挥重要作用的有这么几个正则表达式。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; attribute &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;^&lt;/span&gt;\s&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;^&lt;/span&gt;\s&lt;span class=&quot;token string&quot;&gt;&quot;&apos;&amp;lt;&gt;\/=]+)(?:\s*(=)\s*(?:&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;]*)&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;([^&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;+|([^\s&quot;&apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`]+)))?/
+const ncname = &apos;[a-zA-Z_][\\w\\-\\.]*&apos;
+const qnameCapture = `&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;$&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;ncname&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;\\&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;$&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;ncname&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`
+const startTagOpen = new RegExp(`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;$&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;qnameCapture&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`)
+const startTagClose = /^\s*(\/?)&gt;/
+const endTag = new RegExp(`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;\\&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;$&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;qnameCapture&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;`&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; doctype &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token regex&quot;&gt;/^&amp;lt;!DOCTYPE [^&gt;]+&gt;/i&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; comment &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token regex&quot;&gt;/^&amp;lt;!\--/&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; conditionalComment &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token regex&quot;&gt;/^&amp;lt;!\[/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Vue 通过上面几个正则表达式去匹配开始结束标签、标签名、属性等等。&lt;/p&gt;
+&lt;p&gt;关于 while 的详细注解我放在我&lt;a href=&quot;https://github.com/balancelove/readingNotes/blob/master/vue/while.md&quot;&gt;仓库&lt;/a&gt;里了，有兴趣的可以去看看。&lt;/p&gt;
+&lt;p&gt;在 while 里，其实就是不断的去用 &lt;code&gt;html.indexOf(&apos;&amp;#x3C;&apos;)&lt;/code&gt; 去匹配，然后根据返回的索引的不同去做不同的解析处理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;等于 0：&lt;/strong&gt;这就代表这是注释、条件注释、doctype、开始标签、结束标签中的某一种&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;大于等于 0：&lt;/strong&gt;这就说明是文本、表达式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;小于 0：&lt;/strong&gt;表示 html 标签解析完了，可能会剩下一些文本、表达式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;parse 函数就是不断的重复这个工作，然后将 template 转换成 AST，在解析过程中，其实对于标签与标签之间的空格，Vue 也做了优化处理，有些元素之间的空格是没用的。&lt;/p&gt;
+&lt;p&gt;compile 其实要说要说非常多的篇幅，但是这里只能简单的理一下思路，具体代码还需要各位下去深扣。&lt;/p&gt;
+&lt;h3&gt;优化器&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt; 从代码中的注释我们可以看出，优化器的目的就是去找出 AST 中纯静态的子树：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;把纯静态子树提升为常量，每次重新渲染的时候就不需要创建新的节点了&lt;/li&gt;
+&lt;li&gt;在 patch 的时候就可以跳过它们&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;optimize 的代码量没有 parse 那么多，我们来看看：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;optimize&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;ASTElement&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; CompilerOptions&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 判断 root 是否存在&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 判断是否是静态的属性&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// &apos;type,tag,attrsList,attrsMap,plain,parent,children,attrs&apos;&lt;/span&gt;
+  isStaticKey &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;genStaticKeysCached&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;staticKeys &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 判断是否是平台保留的标签，html 或者 svg 的&lt;/span&gt;
+  isPlatformReservedTag &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isReservedTag &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; no
+  &lt;span class=&quot;token comment&quot;&gt;// 第一遍遍历: 给所有静态节点打上是否是静态节点的标记&lt;/span&gt;
+ &lt;span class=&quot;token function&quot;&gt; markStatic&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 第二遍遍历:标记所有静态根节点&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;markStaticRoots&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;下面两段代码我都剪切了一部分，因为有点多，这里就不贴太多代码了，详情请参考&lt;a href=&quot;https://github.com/balancelove/readingNotes/blob/master/vue/optimize.md&quot;&gt;我的仓库&lt;/a&gt;。&lt;/p&gt;
+&lt;h4&gt;第一遍遍历&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;markStatic&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ASTNode&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;isStatic&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;type &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;其实 markStatic 就是一个递归的过程，不断地去检查 AST 上的节点，然后打上标记。&lt;/p&gt;
+&lt;p&gt;刚刚我们说过，AST 节点分三种，在 isStatic 这个函数中我们对不同类型的节点做了判断：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;isStatic&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ASTNode&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; boolean &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;type &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// expression&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;type &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// text&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pre &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hasBindings &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// no dynamic bindings&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// not v-if or v-for or v-else&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isBuiltInTag&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// not a built-in&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;isPlatformReservedTag&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// not a component&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isDirectChildOfTemplateFor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+    Object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;every&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;isStaticKey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;可以看到 Vue 对下面几种情况做了处理：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;当这个节点的 type 为 2，也就是表达式节点的时候，很明显它不是一个静态节点，所以返回 false&lt;/li&gt;
+&lt;li&gt;当 type 为 3 的时候，也就是文本节点，那它就是一个静态节点，返回 true&lt;/li&gt;
+&lt;li&gt;如果你在元素节点中使用了 &lt;code&gt;v-pre&lt;/code&gt; 或者使用了 &lt;code&gt;&amp;#x3C;pre&gt;&lt;/code&gt; 标签，就会在这个节点上加上 pre 为 true，那么这就是个静态节点&lt;/li&gt;
+&lt;li&gt;如果它是静态节点，那么需要它不能有动态的绑定、不能有 v-if、v-for、v-else 这些指令，不能是 slot 或者 component 标签、不是我们自定义的标签、没有父节点或者元素的父节点不能是带 v-for 的 template、 这个节点的属性都在 &lt;strong&gt;type,tag,attrsList,attrsMap,plain,parent,children,attrs&lt;/strong&gt; 里面，满足这些条件，就认为它是静态的节点。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;接下来，就开始对 AST 进行递归操作，标记静态的节点，至于里面做了哪些操作，可以到上面那个仓库里去看，这里就不展开了。&lt;/p&gt;
+&lt;h4&gt;第二遍遍历&lt;/h4&gt;
+&lt;p&gt;第二遍遍历的过程是标记静态根节点，那么我们对静态根节点的定义是什么，首先根节点的意思就是他不能是叶子节点，起码要有子节点，并且它是静态的。在这里 Vue 做了一个说明，如果一个静态节点它只拥有一个子节点并且这个子节点是文本节点，那么就不做静态处理，它的成本大于收益，不如直接渲染。&lt;/p&gt;
+&lt;p&gt;同样的，我们在函数中不断的递归进行标记，最后在所有静态根节点上加上 staticRoot 的标记，关于这段代码也可以去上面的仓库看一看。&lt;/p&gt;
+&lt;h3&gt;代码生成器&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在这个函数中，我们将 AST 转换成为 render 函数字符串，代码量还是挺多的，我们可以来看一看。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;generate&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  ast&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ASTElement &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; CompilerOptions
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; CodegenResult &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 这就是编译的一些参数&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;CodegenState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;options&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 生成 render 字符串&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; code &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ast &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;genElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ast&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;_c(&quot;div&quot;)&apos;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    render&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`with(this){return &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;code&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;}`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    staticRenderFns&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;staticRenderFns
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;可以看到在最后代码生成阶段，最重要的函数就是 genElement 这个函数，针对不同的指令、属性，我们会选择不同的代码生成函数。最后我们按照 AST 生成拼接成一个字符串，如下所示：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;_c&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;div&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;attrs&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;demo&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;_c&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;h1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;_v&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Latest Vue.js Commits&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;_e&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;在 render 这个函数字符串中，我们会看到一些函数，那么这些函数是在什么地方定义的呢？我们可以在 &lt;strong&gt;core/instance/index.js&lt;/strong&gt; 这个文件中找到这些函数：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// v-once&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_o &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; markOnce
+&lt;span class=&quot;token comment&quot;&gt;// 转换&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; toNumber
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; toString
+&lt;span class=&quot;token comment&quot;&gt;// v-for&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_l &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; renderList
+&lt;span class=&quot;token comment&quot;&gt;// slot&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_t &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; renderSlot
+&lt;span class=&quot;token comment&quot;&gt;// 是否相等&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_q &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; looseEqual
+&lt;span class=&quot;token comment&quot;&gt;// 检测数组里是否有相等的值&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; looseIndexOf
+&lt;span class=&quot;token comment&quot;&gt;// 渲染静态树&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_m &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; renderStatic
+&lt;span class=&quot;token comment&quot;&gt;// 过滤器处理&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_f &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; resolveFilter
+&lt;span class=&quot;token comment&quot;&gt;// 检查关键字&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_k &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; checkKeyCodes
+&lt;span class=&quot;token comment&quot;&gt;// v-bind&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; bindObjectProps
+&lt;span class=&quot;token comment&quot;&gt;// 创建文本节点&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_v &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; createTextVNode
+&lt;span class=&quot;token comment&quot;&gt;// 创建空节点&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_e &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; createEmptyVNode
+&lt;span class=&quot;token comment&quot;&gt;// 处理 scopeslot&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_u &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; resolveScopedSlots
+&lt;span class=&quot;token comment&quot;&gt;// 处理事件绑定&lt;/span&gt;
+target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_g &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; bindObjectListeners
+&lt;span class=&quot;token comment&quot;&gt;// 创建 VNode 节点&lt;/span&gt;
+vm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;_c&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;vm&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;在编译结束后，我们根据不同的指令、属性等等去选择需要调用哪一个处理函数，最后拼接成一个函数字符串。&lt;/p&gt;
+&lt;p&gt;我们可以很清楚的看到，最后生成了一个 render 渲染字符串，那么我们要如何去使用它呢？其实在后面进行渲染的时候，我们进行了 &lt;code&gt;new Function(render)&lt;/code&gt; 的操作，然后我们就能够正常的使用 render 函数了。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;大流程走完之后，我相信大家会对编译过程有一个比较清晰的认识，然后再去挖细节相信也会容易的多了，读源码，其实并不是一个为了读而读的过程，我们可以在源码中学到很多我们可能在日常开发中没有了解到的知识。&lt;/p&gt;
+&lt;p&gt;至于最后代码生成器中的那一大段代码，我还没有把它注释好，后面应该会将源码注释放到仓库里，不过我也相信大家也能够顺利的去读懂源码。&lt;/p&gt;
+&lt;p&gt;还有一点要提的是在 render 函数中，Vue 使用了 with 函数，我们平时肯定没见过，因为官方不推荐我们去使用 with，我抱着这样的想法去找了找原因，最后我在知乎上找到了尤大大的回答，这是&lt;a href=&quot;https://www.zhihu.com/question/49929356/answer/118563361&quot;&gt;链接&lt;/a&gt;，大家可以去了解下。&lt;/p&gt;
+&lt;p&gt;在结束之际，给大家拜个晚年，祝各位同行者在新的一年成为自己心中的自己。&lt;/p&gt;
+&lt;p&gt;To Be yourself!&lt;/p&gt;
+&lt;p&gt;最后，借组长的话：愿平静、快乐与你同在！&lt;/p&gt;
+&lt;p&gt;PS: 如果各位大侠看的可还行，欢迎到&lt;a href=&quot;https://github.com/balancelove/readingNotes&quot;&gt;我的仓库&lt;/a&gt;给个 star 支持一波，笔芯。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[每个node应用可能存在的timing-attack安全漏洞]]></title><description><![CDATA[前言 假如你在项目中遇到过eslint报错  Potential timing attack  ，不可忽视！这是一个涉及到安全的问题：时序攻击。 eslint报错原因 首先 eslint 引入了一个叫做 eslint-plugin-security…]]></description><link>https://knownsec-fed.com/2018-02-23-mei-ge-node-ying-yong-ke-neng-cun-zai-de-timing-attack-an-quan-lou-dong/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-23-mei-ge-node-ying-yong-ke-neng-cun-zai-de-timing-attack-an-quan-lou-dong/</guid><pubDate>Fri, 09 Feb 2018 06:07:59 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-b6620fa1c67ec6dc84e727023c85be4d-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHcQUVZJrH/xAAYEAADAQEAAAAAAAAAAAAAAAAAAQIQIf/aAAgBAQABBQLhJUKdZ//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAgEBPwFK/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAERIP/aAAgBAQAGPwIdhFj/xAAcEAEBAAEFAQAAAAAAAAAAAAABEQAQITFBUZH/2gAIAQEAAT8hkFn3EME+YgUk731bec//2gAMAwEAAgADAAAAEDzP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBOyNv/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QVx//xAAbEAEBAAMAAwAAAAAAAAAAAAABEQAhMUFRkf/aAAgBAQABPxBHRMOxkUAYht+5WAKqrr5xV6uGnWsQanXvP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;每个node应用可能存在的timing-attack安全漏洞&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-b6620fa1c67ec6dc84e727023c85be4d-d6978.jpeg&quot;
+        srcset=&quot;/static/header-b6620fa1c67ec6dc84e727023c85be4d-527f0.jpeg 300w,
+/static/header-b6620fa1c67ec6dc84e727023c85be4d-9a7cd.jpeg 600w,
+/static/header-b6620fa1c67ec6dc84e727023c85be4d-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;假如你在项目中遇到过eslint报错 &lt;span style=&quot;color: red;&quot;&gt;Potential timing attack&lt;/span&gt; ，不可忽视！这是一个涉及到安全的问题：时序攻击。&lt;/p&gt;
+&lt;h2&gt;eslint报错原因&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;首先&lt;code&gt;eslint&lt;/code&gt;引入了一个叫做&lt;code&gt;eslint-plugin-security&lt;/code&gt;的插件，这个插件有助于识别出潜在的安全问题，但同时也会产生误报的问题，附上插件 &lt;a href=&quot;https://github.com/nodesecurity/eslint-plugin-security/blob/master/rules/detect-possible-timing-attacks.js&quot;&gt;源码地址&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; keywords &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;((&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;password&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;secret&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;api&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;apiKey&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;token&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;auth&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;pass&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;hash&apos;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;)|(&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;))&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; re &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;RegExp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;^&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; keywords &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;$&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;im&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;containsKeyword&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;type &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Identifier&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;re&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;test&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;operator &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;==&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;test&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;operator &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;===&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;test&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;operator &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;!=&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;test&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;operator &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;!==&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 在这里console出错误&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;首先这个插件会判断本次的运算符是否为 &lt;code&gt;==、===、！=、！==&lt;/code&gt;其中一种，其次检查标识符(字段名)是否包含特殊字符串&lt;code&gt;password、secret、api、apiKey、token、auth、pass、hash&lt;/code&gt;，如果同时满足二者情况，eslint就会编译报错 &lt;span style=&quot;color: red;&quot;&gt;Potential timing attack&lt;/span&gt;。&lt;/p&gt;
+&lt;h2&gt;攻击定义&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;timing attack&lt;/code&gt;：时序攻击，属于侧信道攻击/旁路攻击，侧信道攻击指的是利用信道外的信息，比如加解密的数据、数据比较时间、密文传输的流量和途径进行攻击的方式，相当于是“旁敲侧击”。&lt;/p&gt;
+&lt;h3&gt;攻击点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先讲讲&lt;code&gt;js&lt;/code&gt;比较两个字符串大小的原理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;判断字符串长度是否为&lt;code&gt;0&lt;/code&gt;，如果为&lt;code&gt;0&lt;/code&gt;，就可以直接比较出结果；反之，进入到第二步。&lt;/li&gt;
+&lt;li&gt;字符串是由一个个字符组成，通过每个字符的&lt;code&gt;charCode&lt;/code&gt;进行比较。&lt;/li&gt;
+&lt;li&gt;在第二步中，只要出现一个字符不同，就 &lt;code&gt;return false&lt;/code&gt;，剩余的字符不再做比较。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;单个字符的比较是很快的，攻击者可以细化测量时间精度到微秒，通过响应时间的差异推算出是从哪一个字符开始不用的，这样一次次实验或者用Python写个脚本去跑，就可以试出正确的密码，密码破解的难度也降低了不少。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;容易受攻击的写法&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;password &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; password&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 登录成功&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;防御措施&lt;/h3&gt;
+&lt;p&gt;每次不同的输入会造成处理时间的不同。为了防止它，我们需要使字符串比较花费相同的时间量，无论输入的密码是什么。&lt;/p&gt;
+&lt;h4&gt;不容易受攻击的写法&lt;/h4&gt;
+&lt;p&gt;系统中每一个密码的长度是固定的，每次比较密码是否相同时，使用正确密码的长度作为比较次数，使用异或比较每一个字符的Unicode编码是否相等，并且把每一次的比较结果存放到一个数组中，最后再判断数组的每一个元素是否为&lt;code&gt;0(为0表示两个字符相同)&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token comment&quot;&gt;// psdReceived 为用户输入密码；&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// psdDb 为系统中存储的正确用户密码&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;correctUser&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;psdDb&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; psdReceived&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; psdDb&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;psdReceived&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;psdReceived&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;charCodeAt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;^&lt;/span&gt; psdDb&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;charCodeAt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;every&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;item&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;三方包推荐&lt;/h4&gt;
+&lt;p&gt;也可以使用 &lt;a href=&quot;https://github.com/hapijs/cryptiles&quot;&gt;cryptiles&lt;/a&gt; 这个npm模块来解决这个问题&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; cryptiles &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;cryptiles&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; cryptiles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;fixedTimeCimparison&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;passwordFromDb&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; passwordReceived&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[记一次简单的 CSRF 攻击实验]]></title><description><![CDATA[CSRF 攻击实验 CSRF 攻击涉及用户受害者, 受信任的网站和恶意网站。当受害者与受信任的站点拥有一个活跃的会话同时，如果访问恶意网站，恶意网站会注入一个 HTTP 请求到为受信任的站点，从而破话用户的信息。 CSRF…]]></description><link>https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</guid><pubDate>Mon, 05 Feb 2018 09:14:41 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 816px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.63725490196079%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7CAAAOwgEVKEqAAAACGElEQVQoz62Sy2sTURTGz6RNQ21JSJvH3Pckk5maNI9aY6FilVKELkQ3SlcpKoXSNikiBcWFdKEIvtBCF4JrFxY37gQ3rtwK/gP+AwUXCtbX+E1IIAF11Qu/+c6958x3z70zVDJZsrmKUGdInrKoZwjOBjjnfUgp+2r+OridydpMZMLYG4tYWqlUPGWG/lVv27aXzWYXoCfBcTAH5ttJLcUK46IhmL2klblTKVXnpVS+EmJNCLGKrhpC8GXoCuaXczknnk6nYzD4CJ4BCxTBLuUUXxJS3+/u7Dpmy8177XneyFnG2EvwGrwCezANlFKNTpdvO4YJcA0cISX4I1s4F8KCcVvHQj3q5s8a7dyQSj/FsfbBFZjdwgufoR9q1epIj+EL5KegT0CSjOQtLvS9boc5rUWoM5OTzDHOGxzxQTentZ5Gh+/BXrlcHobRO/Cw514jtFjMDGkhdgSTa5rxc3njbBvl1064RV4pVs6HhZfGatGFpB8N4zl/aoQztqvad86fc5vthOuL46XB/s8m42XSow7N0jCpRIn8pKF6NPrfX+MiDZI7qvrWPg1cjf2iVi2gxzyguyKgmyyg7SK0HtBW4ie1pgPaPPabWi7U+UYbhX1rdeI7NasBXS8EdDuHOI+cD1KERxSG3ldrfQLFNSTdL9Z66YCaMz+oiU02PZjVwWlQxrzSMdeoLRzQxinEZ7AWGko67PEH0QWE8OQdWKsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;记一次简单的 CSRF 攻击实验&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg&quot;
-        srcset=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-527f0.jpeg 300w,
-/static/header-fca87732a6ebaccb88714ddc855e572f-9a7cd.jpeg 600w,
-/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg 1200w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        src=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg&quot;
+        srcset=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-948ca.jpeg 300w,
+/static/header-52c265bcfb99a2f261a5bac403b1d9b3-44a81.jpeg 600w,
+/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg 816w&quot;
+        sizes=&quot;(max-width: 816px) 100vw, 816px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -558,7 +1995,7 @@
 &lt;p&gt;了解更多信息，请访问&lt;a href=&quot;http://reactscope.com/&quot;&gt;React Scope官网&lt;/a&gt;和&lt;a href=&quot;https://github.com/React-Scope/React-Scope&quot;&gt;GitHub&lt;/a&gt;。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】六个选择UI颜色的技巧]]></title><description><![CDATA[原文链接： Color Matters. 6 Tips on Choosing UI Colors. – UX Planet 作者：Tubik Studio…]]></description><link>https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</guid><pubDate>Sat, 03 Feb 2018 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg&quot;
+    href=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-d725c.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -570,17 +2007,19 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABeIlm5wsxD//EABkQAAIDAQAAAAAAAAAAAAAAAAECAxExQ//aAAgBAQABBQIOAHa4mje13md//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAwEBPwGcWf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAEDBQAAAAAAAAAAAAAAAAEAEBESITJRcf/aAAgBAQAGPwKmb6CMFYlhxv/EABkQAQEBAQEBAAAAAAAAAAAAAAEAESFBYf/aAAgBAQABPyHNSA0Kd+/h9lugZ5HMon1f/9oADAMBAAIAAwAAABDrz//EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAgBAwEBPxDQclf/xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQIBAT8Qx1Yv/8QAHBABAQACAgMAAAAAAAAAAAAAAREAIUFRMYHB/9oACAEBAAE/ELFY0MnDduWVEFBrfIT5iYg9JMsovczYaJonGMVT7z//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 66.64999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABbiqwbmy4EP/EABsQAQACAgMAAAAAAAAAAAAAAAECEQMSEyIx/9oACAEBAAEFAotQyrxS9DvqGJq//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAwEBPwGcWf/EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAECAQE/Aaf/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIQETFBYf/aAAgBAQAGPwLTeDou4wh//8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUYH/2gAIAQEAAT8hSooCzdluOGzEVuX2LPOQEss2nrFoL5P/2gAMAwEAAgADAAAAEHjf/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAEDAQE/EIsP/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EMUxf//EABwQAQACAwADAAAAAAAAAAAAAAEAESExUWGRwf/aAAgBAQABPxAye7BDqvyofajiQjyWSJYFEydvEEbanPu7HKk4AJ//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;【翻译】六个选择UI颜色的技巧&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg&quot;
-        srcset=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-527f0.jpeg 300w,
-/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-9a7cd.jpeg 600w,
-/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg 1200w&quot;
+        src=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-d6978.jpeg&quot;
+        srcset=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-527f0.jpeg 300w,
+/static/header-f2e54824e0aac2c95238394bf482abd6-9a7cd.jpeg 600w,
+/static/header-f2e54824e0aac2c95238394bf482abd6-d6978.jpeg 1200w,
+/static/header-f2e54824e0aac2c95238394bf482abd6-fee16.jpeg 1800w,
+/static/header-f2e54824e0aac2c95238394bf482abd6-d725c.jpeg 2000w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
