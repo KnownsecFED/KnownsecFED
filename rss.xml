@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Mar 2018 09:49:04 GMT</lastBuildDate><item><title><![CDATA[【翻译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Mar 2018 09:59:38 GMT</lastBuildDate><item><title><![CDATA[【翻译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-f817b2bbffd38015871e18584c9287f5-d6978.jpeg&quot;
@@ -873,9 +873,8 @@ clip: rect(60px  60px  60px  60px); // 兼容 ie 及 火狐浏览器&lt;/code&gt
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h1&gt;读书笔记：可视化是一种艺术 -《不只是美：信息图表设计原理与经典案例》序章&lt;/h1&gt;
 &lt;h2&gt;表达与挖掘的相互关系&lt;/h2&gt;
-&lt;p&gt;在看到这个主题时，相信大多数的同学会和我第一次看到一样觉得数据表达与挖掘之间貌似没有什么关系，可是当我读完这部分之后发现并不是这样的。&lt;/p&gt;
+&lt;p&gt;在看到这个主题时，相信大多数的同学会和我第一次看到一样觉得数据表达与挖掘之间貌似没有什么关系，可是当我读完这部分之后发现并不是这样的。&lt;/p&gt;
 &lt;p&gt;在一开始，作者就提出，我们的大脑是有创建并理解不同程度抽取的可视化表达的能力，而这些可视化表达式对数据、概念、关系以及地理位置编码后的图表。这句话读起来可能会有点绕，简单的来说这里作者就提出我们的大脑会对这些可视化图表进行不同程度的抽取，也就是说信息挖掘，这里就隐隐的点出了表达与挖掘之间的关系。&lt;/p&gt;
 &lt;p&gt;后面作者解释道，&lt;strong&gt;大脑不仅仅处理眼睛所获得的信息，也产生心里视觉图像，通过这些图像我们进行推断并采取正确的行动。&lt;/strong&gt;这也是说明了我们在看图表所表达的事情的时候其实我们的大脑已经默认的帮我们进行了一些挖掘工作，当然这仅仅只是说在查看简单图表的时候。比如一个柱状图，折线图，我们可以轻易地看出其突出点，但是如果我们看的是一个复杂的图表，我们就需要动脑去思考图表表达的是什么意思，这就是挖掘。&lt;/p&gt;
 &lt;h2&gt;信息图表与可视化的统一共存&lt;/h2&gt;
