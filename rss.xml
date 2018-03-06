@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 10:01:49 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何找到完美的色彩搭配 - 介绍 ColorClaim]]></title><description><![CDATA[原地网址： How to find your perfect color pairings — Introducing ColorClaim 作者：Tobias van Schneider…]]></description><link>https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</guid><pubDate>Mon, 05 Mar 2018 12:41:57 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 11:13:59 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何找到完美的色彩搭配 - 介绍 ColorClaim]]></title><description><![CDATA[原地网址： How to find your perfect color pairings — Introducing ColorClaim 作者：Tobias van Schneider…]]></description><link>https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</guid><pubDate>Mon, 05 Mar 2018 12:41:57 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-5cde8a3daf4d59e378749b07275a9925-d6978.jpeg&quot;
@@ -157,7 +157,7 @@
 &lt;li&gt;如果在 &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt; 中找不到合适色彩配对，那就去创建新的配色。（通常的是我的 ColorClaim 库里都会有）。&lt;/li&gt;
 &lt;li&gt;由于研究颜色是我主要从事品牌项目的工作，所以我比较偏向简约的风格。我搭配颜色时要么选择一种主要颜色、然后搭配黑色和白色，要么选择一种主要高光颜色、然后选择两种辅助颜色。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;我的配色过程比想象的要简单得多，希望您能够理解这个过程，同时也希望 &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt; 对您有所帮助。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[危险的 target="_blank" 与 “opener”]]></title><description><![CDATA[在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在  <a>  标签上添加  target="_blank"  属性。 然而，就是这个属性，为钓鱼攻击者带来了可乘之机。 起源 parent  与  opener 在说  opener…]]></description><link>https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</guid><pubDate>Thu, 01 Mar 2018 15:43:42 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;我的配色过程比想象的要简单得多，希望您能够理解这个过程，同时也希望 &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt; 对您有所帮助。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[危险的 target="_blank" 与 “opener”]]></title><description><![CDATA[在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在  a  标签上添加  target等于"_blank"  属性。 然而，就是这个属性，为钓鱼攻击者带来了可乘之机。 起源 parent  与  opener 在说  opener…]]></description><link>https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</guid><pubDate>Thu, 01 Mar 2018 15:43:42 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-b2d5797f97e9d99eadd2357194ee34da-d6978.jpeg&quot;
@@ -191,7 +191,7 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在 &lt;code&gt;&amp;#x3C;a&gt;&lt;/code&gt; 标签上添加 &lt;code&gt;target=&quot;_blank&quot;&lt;/code&gt; 属性。&lt;/p&gt;
+&lt;p&gt;在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在 &lt;code&gt;a&lt;/code&gt; 标签上添加 &lt;code&gt;target等于&quot;_blank&quot;&lt;/code&gt; 属性。&lt;/p&gt;
 &lt;p&gt;然而，就是这个属性，为钓鱼攻击者带来了可乘之机。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1&gt;起源&lt;/h1&gt;
