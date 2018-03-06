@@ -1,4 +1,163 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 04:02:59 GMT</lastBuildDate><item><title><![CDATA[危险的 target="_blank" 与 “opener”]]></title><description><![CDATA[在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在  <a>  标签上添加  target="_blank"  属性。 然而，就是这个属性，为钓鱼攻击者带来了可乘之机。 起源 parent  与  opener 在说  opener…]]></description><link>https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</guid><pubDate>Thu, 01 Mar 2018 15:43:42 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 09:20:05 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何找到完美的色彩搭配 - 介绍 ColorClaim]]></title><description><![CDATA[原地网址： How to find your perfect color pairings — Introducing ColorClaim 作者：Tobias van Schneider…]]></description><link>https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</guid><pubDate>Mon, 05 Mar 2018 12:41:57 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-5cde8a3daf4d59e378749b07275a9925-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAAFpdSKDtHDX/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQMCERIhM//aAAgBAQABBQKTIBzGikbTQzcBS+f/xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPwGH/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAS/9oACAECAQE/AaK//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAIRcRASISL/2gAIAQEABj8CfZZ6eUixaG5haP/EABoQAQADAQEBAAAAAAAAAAAAAAEAESExUaH/2gAIAQEAAT8hOFQ+MA83LUSlbjYpd+TQonwJ/9oADAMBAAIAAwAAABAkP//EABcRAAMBAAAAAAAAAAAAAAAAAAABITH/2gAIAQMBAT8QbqCw/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxBR0Z//xAAbEAEBAQEBAAMAAAAAAAAAAAABEQAhQTFxwf/aAAgBAQABPxAibEgPfcuF2oLfEM5BIa/WflifYuidUlmIGEPy3//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【翻译】如何找到完美的色彩搭配 - 介绍 ColorClaim&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-5cde8a3daf4d59e378749b07275a9925-d6978.jpeg&quot;
+        srcset=&quot;/static/header-5cde8a3daf4d59e378749b07275a9925-527f0.jpeg 300w,
+/static/header-5cde8a3daf4d59e378749b07275a9925-9a7cd.jpeg 600w,
+/static/header-5cde8a3daf4d59e378749b07275a9925-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;原地网址：&lt;a href=&quot;https://medium.com/@vanschneider/how-to-find-your-perfect-color-parings-introducing-colorclaim-d00254c65ebc&quot;&gt;How to find your perfect color pairings — Introducing ColorClaim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者：Tobias van Schneider&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;由于许多人问我关于色彩的工作流程，所以我在这写了一篇的简短关于色彩搭配的文章。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每当我开始一个新项目工作时，都会定义一个新的调色板。并且每次我创建新的颜色配对后，都会将它们保存到我的的 JPG 文件里。到现在已经建立了自己的色彩参考库。&lt;/p&gt;
+&lt;p&gt;介绍： &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1-6fa539ec12b61a9771da6358b343b2de-75324.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60.266666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHWYVIFCo//xAAXEAEBAQEAAAAAAAAAAAAAAAABIRAx/9oACAEBAAEFAiDxLv8A/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESH/2gAIAQMBAT8BctLR/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAECAx/9oACAEBAAY/AhU//8QAGRABAQADAQAAAAAAAAAAAAAAAQAhMWFx/9oACAEBAAE/ITsuCezsJlLbOL//2gAMAwEAAgADAAAAEMQP/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAERITGR8P/aAAgBAwEBPxCSw2PHbP/EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQIBAT8QDIHt/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFRcYH/2gAIAQEAAT8QIaa8i0FF+oocQPAq5qCrRZsSq77J/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1-6fa539ec12b61a9771da6358b343b2de-d6978.jpg&quot;
+        srcset=&quot;/static/1-6fa539ec12b61a9771da6358b343b2de-527f0.jpg 300w,
+/static/1-6fa539ec12b61a9771da6358b343b2de-9a7cd.jpg 600w,
+/static/1-6fa539ec12b61a9771da6358b343b2de-d6978.jpg 1200w,
+/static/1-6fa539ec12b61a9771da6358b343b2de-75324.jpg 1500w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我不喜欢使用传统的调色板，所以就会在网上下载一些图片，吸取里面的颜色进行搭配。我认为色彩搭配时应多思考，多尝试着搭配。&lt;/p&gt;
+&lt;p&gt;对于色彩理论，我不太关注，因为我认为那只是理论上的。&lt;/p&gt;
+&lt;p&gt;当需要到新的颜色时，我主要是从摄影，自然，时尚和建筑中获得灵感。&lt;/p&gt;
+&lt;p&gt;我最喜欢的博客之一是“ &lt;a href=&quot;http://whereiseefashion.tumblr.com&quot;&gt;WISF&lt;/a&gt; ”。用 Bianca 的话来解释它（原作者）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“我在那里看到的时尚是一个关于时尚和启发一切的时尚博客，如艺术，设计，自然，摄影等等。它是由不同因素相互关联的图片集合，例如颜色，形状，感觉，概念。“&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2-8bfe714070f58f9239ededda45ff3163-4c612.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.14345991561181%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAG95o4mc0j/AP/EABwQAAEEAwEAAAAAAAAAAAAAABEAAQIDEiIxM//aAAgBAQABBQIh5epkreX7Pmv/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8BTJ//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREC/9oACAECAQE/AbUXR//EABwQAAICAgMAAAAAAAAAAAAAAAABESExMhBSsf/aAAgBAQAGPwJTjApT12K9EV1nj//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExQWFxgf/aAAgBAQABPyHySuIqwj2cfIkorPSZiWxYckudE//aAAwDAQACAAMAAAAQCM//xAAZEQEAAgMAAAAAAAAAAAAAAAABACFRkdH/2gAIAQMBAT8QdXKwaOT/xAAXEQEBAQEAAAAAAAAAAAAAAAABABHw/9oACAECAQE/EDIl1rf/xAAeEAEAAgEEAwAAAAAAAAAAAAABESEAMUFhgVGR8f/aAAgBAQABPxAgQiBdIhbmvkJDBXQq6cAgC2i+lyLggJYHYL78ZRwPmj7mhW5Qc//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2-8bfe714070f58f9239ededda45ff3163-d6978.jpeg&quot;
+        srcset=&quot;/static/2-8bfe714070f58f9239ededda45ff3163-527f0.jpeg 300w,
+/static/2-8bfe714070f58f9239ededda45ff3163-9a7cd.jpeg 600w,
+/static/2-8bfe714070f58f9239ededda45ff3163-d6978.jpeg 1200w,
+/static/2-8bfe714070f58f9239ededda45ff3163-fee16.jpeg 1800w,
+/static/2-8bfe714070f58f9239ededda45ff3163-4c612.jpeg 1896w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;这个博客里色彩搭配的原则主要是根据形状和颜色进行参考搭配。所以看完这些后，如果我想要搭配新的颜色时，就会根据一些摄影、艺术、自然等图片，创建一个新的调色板，并与其他颜色搭配使用。&lt;/p&gt;
+&lt;p&gt;现在当我开始一个新项目时，就会直奔 ColorClaim（我自己配对的小颜色库），然后将一对图像复制到 Photoshop 文档中进行色彩搭配。&lt;/p&gt;
+&lt;p&gt;正如下面的图片，ColorClaim 色彩搭配已经创建，可以作为一个独立的色彩调色板进行工作。其中我只是将两种到三种颜色（最多）结合起来，使用一种微妙的 BG 颜色，一种高光和一种高对比度颜色。这只是简单地创建一个颜色情绪板，了解颜色光谱以及颜色如何在更加明亮或黑暗的主题艺术方向上使用。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3-abb71544c75a857a38a0374c46d842aa-11afe.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.33766233766234%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAADA0lEQVQoz42Ta0hTYRjHZxcILKMvZkRgEhRkWuaFQghSy0ookMovYZgZ9CHCFAqFIinzMp1TN0WZqbmbM91Fp7OdszPnLp6zczbnLS8pXgizvkRRbnNP79l0JPShF/48L7x//vzO8zyHw0HHbB0Pf9umSKjmNSYKG1rjefymxNp6UYJKg8famZl9nP88L4U9gYvBSJeR9DTocXIdM1AbmIFEotwW2zgo1fgd1tPY1h+WdKOoJvR07gOQKA+uFfNaoPD1VU5EVmJKHrddKNZFB5Nxwl7ldC2AcYjxIIFfRsZL0TMgV2jzWE9Da19aeRMO528+/6oSykvAMAY/yxup5BNZ3dGpJXDy+jPB34GVjPMTYGanG8mHmUd9uNnpsZGTIJFp7rGepcW1vaIObXXBi4ZHwjL+flOHugrnNadrLmYn3YrJknBCk+ODgQbCzqURId2td9t7MHDK+n3o7rUhQqlUnct6jkZG7d7yDzAzZxTkZL7YOnZ8WxPDcgIVG2K4TmYWVl8J3cuVIpgTSnwL/Hav2TkHnVK1nzAmNu4QKqF91rFsUmtah3cacAxalgZNDt4HndVPNz89GxIgNFBc+/girJXUu5eqWmBUqvUtlzd7LNQUSDc/GZ09hZV1kRadZeV7cQ0IzmX/7hR0gZma+KEftF1gDUaTY0egh0aa63DMwViHxo3CwCXu9VEqg3eEmQGJRHWf9aSdOhvG1i+yXvHTy4+BE57pib5UAJjBvmK2uSLYN2KICQkOhUZD0Vtd63qLy4eqDxt2ekZIRCjX5G61qMvIxI8S1MrtjELghGX8OhD3EERinQkAdm0GBowESzg6j1aFdiOxFYZMjNfOEkoDhP5eE3aeA/VVIe6H2GvFcOVu6ey3z6uH2Td5D7EjOByVdrjCSn4ERLqOE+xiUxudSsKt1Fqhtf19zpYPERzDCTrTQk0UoH4NTE3MRW+G7dxG2CSSRfHrROk1tU0p/Nrm1BqkNxWClNIKQXr+k6IjrGcQGwn51++GFt5PVlTW4Q/8A70C13pz3YBnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3-abb71544c75a857a38a0374c46d842aa-abe1c.png&quot;
+        srcset=&quot;/static/3-abb71544c75a857a38a0374c46d842aa-10046.png 300w,
+/static/3-abb71544c75a857a38a0374c46d842aa-3c4a3.png 600w,
+/static/3-abb71544c75a857a38a0374c46d842aa-abe1c.png 1200w,
+/static/3-abb71544c75a857a38a0374c46d842aa-11afe.png 1540w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;然后，将这些颜色，放在不同背景上，进行绘制，渐变，合并等。如果合适，我就会将它放入到我的工作的文档里。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;当工作中搭配色彩时&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;颜色的搭配使用上必须适合该项目（色彩理论派上用场），风格保持一致。（艺术品，界面设计等）&lt;/li&gt;
+&lt;li&gt;打开 ColorClaim 看看过去的颜色色板里是否有适合该项目的色彩搭配。（ColorClaim 就像我一直想要使用的“待办事项列表）。&lt;/li&gt;
+&lt;li&gt;如果在 &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt; 中找不到合适色彩配对，那就去创建新的配色。（通常的是我的 ColorClaim 库里都会有）。&lt;/li&gt;
+&lt;li&gt;由于研究颜色是我主要从事品牌项目的工作，所以我比较偏向简约的风格。我搭配颜色时要么选择一种主要颜色、然后搭配黑色和白色，要么选择一种主要高光颜色、然后选择两种辅助颜色。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我的配色过程比想象的要简单得多，希望您能够理解这个过程，同时也希望 &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt; 对您有所帮助。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[危险的 target="_blank" 与 “opener”]]></title><description><![CDATA[在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在  <a>  标签上添加  target="_blank"  属性。 然而，就是这个属性，为钓鱼攻击者带来了可乘之机。 起源 parent  与  opener 在说  opener…]]></description><link>https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</guid><pubDate>Thu, 01 Mar 2018 15:43:42 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-b2d5797f97e9d99eadd2357194ee34da-d6978.jpeg&quot;
