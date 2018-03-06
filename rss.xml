@@ -1,4 +1,228 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 02 Mar 2018 09:40:14 GMT</lastBuildDate><item><title><![CDATA[【翻译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 04:02:59 GMT</lastBuildDate><item><title><![CDATA[危险的 target="_blank" 与 “opener”]]></title><description><![CDATA[在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在  <a>  标签上添加  target="_blank"  属性。 然而，就是这个属性，为钓鱼攻击者带来了可乘之机。 起源 parent  与  opener 在说  opener…]]></description><link>https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</guid><pubDate>Thu, 01 Mar 2018 15:43:42 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-b2d5797f97e9d99eadd2357194ee34da-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB1kUMwmLCv//EABsQAAIBBQAAAAAAAAAAAAAAAAECAAMQESEi/9oACAEBAAEFAnUZNNWnEQ7W3//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/AYf/xAAXEQEBAQEAAAAAAAAAAAAAAAABABES/9oACAECAQE/ATG5L//EABoQAAEFAQAAAAAAAAAAAAAAAAEAAhAikTL/2gAIAQEABj8CFBio1cnYMf/EABkQAQADAQEAAAAAAAAAAAAAAAEAESExwf/aAAgBAQABPyFhWELXRW9qA/BRnawhgDZVcn//2gAMAwEAAgADAAAAEPzP/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EHDKf//EABcRAAMBAAAAAAAAAAAAAAAAAAABEWH/2gAIAQIBAT8QhrRij//EAB0QAAICAwADAAAAAAAAAAAAAAERACExQWFxkaH/2gAIAQEAAT8QYN1Zbd3qo6xTIssH4a7BL9w15iKUEaJh/OOAolAAHJ//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;危险的 target=&quot;_blank&quot; 与 “opener”&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-b2d5797f97e9d99eadd2357194ee34da-d6978.jpeg&quot;
+        srcset=&quot;/static/header-b2d5797f97e9d99eadd2357194ee34da-527f0.jpeg 300w,
+/static/header-b2d5797f97e9d99eadd2357194ee34da-9a7cd.jpeg 600w,
+/static/header-b2d5797f97e9d99eadd2357194ee34da-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在 &lt;code&gt;&amp;#x3C;a&gt;&lt;/code&gt; 标签上添加 &lt;code&gt;target=&quot;_blank&quot;&lt;/code&gt; 属性。&lt;/p&gt;
+&lt;p&gt;然而，就是这个属性，为钓鱼攻击者带来了可乘之机。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;起源&lt;/h1&gt;
+&lt;h2&gt;&lt;code&gt;parent&lt;/code&gt; 与 &lt;code&gt;opener&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;在说 &lt;code&gt;opener&lt;/code&gt; 之前，可以先聊聊 &lt;code&gt;&amp;#x3C;iframe&gt;&lt;/code&gt; 中的 &lt;code&gt;parent&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;我们知道，在 &lt;code&gt;&amp;#x3C;iframe&gt;&lt;/code&gt; 中提供了一个用于父子页面交互的对象，叫做 &lt;code&gt;window.parent&lt;/code&gt;，我们可以通过 &lt;code&gt;window.parent&lt;/code&gt; 对象来从框架中的页面访问父级页面的 &lt;code&gt;window&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;opener&lt;/code&gt; 与 &lt;code&gt;parent&lt;/code&gt; 一样，只不过是用于 &lt;code&gt;&amp;#x3C;a target=&quot;_blank&quot;&gt;&lt;/code&gt; 在新标签页打开的页面的。通过 &lt;code&gt;&amp;#x3C;a target=&quot;_blank&quot;&gt;&lt;/code&gt; 打开的页面，可以直接使用 &lt;code&gt;window.opener&lt;/code&gt; 来访问来源页面的 &lt;code&gt;window&lt;/code&gt; 对象。&lt;/p&gt;
+&lt;h2&gt;同域与跨域&lt;/h2&gt;
+&lt;p&gt;浏览器提供了完整的跨域保护，在域名相同时，&lt;code&gt;parent&lt;/code&gt; 对象和 &lt;code&gt;opener&lt;/code&gt; 对象实际上就直接是上一级的 &lt;code&gt;window&lt;/code&gt; 对象；而当域名不同时，&lt;code&gt;parent&lt;/code&gt; 和 &lt;code&gt;opener&lt;/code&gt; 则是经过包装的一个 &lt;code&gt;global&lt;/code&gt; 对象。这个 &lt;code&gt;global&lt;/code&gt; 对象仅提供非常有限的属性访问，并且在这仅有的几个属性中，大部分也都是不允许访问的（访问会直接抛出 &lt;code&gt;DOMException&lt;/code&gt;）。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/same-b0119f9d1839c8a2a30132fac8ccfed1-67abc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 729px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 5.761316872427984%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAOElEQVQI1zWKyQ2AQAzEaIfcoYH0X5VhkfKyx5rL3YkIMpOZobs5bbmuqpgZVfW3s+XOj/t5EBFe0P0e0WR93swAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;同域&quot;
+        title=&quot;&quot;
+        src=&quot;/static/same-b0119f9d1839c8a2a30132fac8ccfed1-67abc.png&quot;
+        srcset=&quot;/static/same-b0119f9d1839c8a2a30132fac8ccfed1-942e0.png 300w,
+/static/same-b0119f9d1839c8a2a30132fac8ccfed1-08b62.png 600w,
+/static/same-b0119f9d1839c8a2a30132fac8ccfed1-67abc.png 729w&quot;
+        sizes=&quot;(max-width: 729px) 100vw, 729px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cross-c634dd4e086fcbb57b8fca08e8075337-67abc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 729px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 5.761316872427984%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAANklEQVQI1z2IxwEAIAgDXQepLsD+W0XDw9eV5e6ICGQmunvIV1Uws++qOk3nY2/JR3/NfyAiuMzTHrheFbgtAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;跨域&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cross-c634dd4e086fcbb57b8fca08e8075337-67abc.png&quot;
+        srcset=&quot;/static/cross-c634dd4e086fcbb57b8fca08e8075337-942e0.png 300w,
+/static/cross-c634dd4e086fcbb57b8fca08e8075337-08b62.png 600w,
+/static/cross-c634dd4e086fcbb57b8fca08e8075337-67abc.png 729w&quot;
+        sizes=&quot;(max-width: 729px) 100vw, 729px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;&amp;#x3C;iframe&gt;&lt;/code&gt; 中，提供了一个 &lt;code&gt;sandbox&lt;/code&gt; 属性用于控制框架中的页面的权限，因此即使是同域，也可以控制 &lt;code&gt;&amp;#x3C;iframe&gt;&lt;/code&gt; 的安全性。&lt;/p&gt;
+&lt;h1&gt;利用&lt;/h1&gt;
+&lt;p&gt;如果，你的网站上有一个链接，使用了 &lt;code&gt;target=&quot;_blank&quot;&lt;/code&gt;，那么一旦用户点击这个链接并进入一个新的标签，新标签中的页面如果存在恶意代码，就可以将你的网站直接导航到一个虚假网站。此时，如果用户回到你的标签页，看到的就是被替换过的页面了。&lt;/p&gt;
+&lt;h2&gt;详细步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在你的网站 &lt;code&gt;https://example.com&lt;/code&gt; 上存在一个链接：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://an.evil.site&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;_blank&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;进入一个“邪恶”的网站&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用户点击了这个链接，在新的标签页打开了这个网站。这个网站可以通过 HTTP Header 中的 &lt;code&gt;Referer&lt;/code&gt; 属性来判断用户的来源。&lt;/p&gt;
+&lt;p&gt;并且，这个网站上包含着类似于这样的 JavaScript 代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;encodeURIComponent&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;{{header.referer}}&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;opener&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;location&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;https://a.fake.site/?&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; url&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;此时，用户在继续浏览这个新的标签页，而原来的网站所在的标签页此时已经被导航到了 &lt;code&gt;https://a.fake.site/?https%3A%2F%2Fexample.com%2F&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;恶意网站 &lt;code&gt;https://a.fake.site&lt;/code&gt; 根据 Query String 来伪造一个足以欺骗用户的页面，并展示出来（期间还可以做一次跳转，使得浏览器的地址栏更具有迷惑性）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用户关闭 &lt;code&gt;https://an.evil.site&lt;/code&gt; 的标签页，回到原来的网站………………已经回不去了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;上面的攻击步骤是在跨域的情况下的，在跨域情况下，&lt;code&gt;opener&lt;/code&gt; 对象和 &lt;code&gt;parent&lt;/code&gt; 一样，是受到限制的，仅提供非常有限的属性访问，并且在这仅有的几个属性中，大部分也都是不允许访问的（访问会直接抛出 &lt;code&gt;DOMException&lt;/code&gt;）。&lt;/p&gt;
+&lt;p&gt;但是与 &lt;code&gt;parent&lt;/code&gt; 不同的是，&lt;strong&gt;在跨域的情况下，&lt;code&gt;opener&lt;/code&gt; 仍然可以调用 &lt;code&gt;location.replace&lt;/code&gt; 方法&lt;/strong&gt;而 &lt;code&gt;parent&lt;/code&gt; 则不可以。&lt;/p&gt;
+&lt;p&gt;如果是在同域的情况下（比如一个网站上的某一个页面被植入了恶意代码），则情况要比上面严重得多。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;防御&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;&amp;#x3C;iframe&gt;&lt;/code&gt; 中有 &lt;code&gt;sandbox&lt;/code&gt; 属性，而链接，则可以使用下面的办法：&lt;/p&gt;
+&lt;h2&gt;1. Referrer Policy 和 noreferrer&lt;/h2&gt;
+&lt;p&gt;上面的攻击步骤中，用到了 HTTP Header 中的 &lt;code&gt;Referer&lt;/code&gt; 属性，实际上可以在 HTTP 的响应头中增加 &lt;code&gt;Referrer Policy&lt;/code&gt; 头来保证来源隐私安全。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Referrer Policy&lt;/code&gt; 需要修改后端代码来实现，而在前端，也可以使用 &lt;code&gt;&amp;#x3C;a&gt;&lt;/code&gt; 标签的 &lt;code&gt;rel&lt;/code&gt; 属性来指定 &lt;code&gt;rel=&quot;noreferrer&quot;&lt;/code&gt; 来保证来源隐私安全。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://an.evil.site&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;_blank&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;noreferrer&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;进入一个“邪恶”的网站&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;但是要注意的是：即使限制了 &lt;code&gt;referer&lt;/code&gt; 的传递，仍然不能阻止原标签被恶意跳转。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;2. noopener&lt;/h2&gt;
+&lt;p&gt;为了安全，现代浏览器都支持在 &lt;code&gt;&amp;#x3C;a&gt;&lt;/code&gt; 标签的 &lt;code&gt;rel&lt;/code&gt; 属性中指定 &lt;code&gt;rel=&quot;noopener&quot;&lt;/code&gt;，这样，在打开的新标签页中，将无法再使用 &lt;code&gt;opener&lt;/code&gt; 对象了，它为设置为了 &lt;code&gt;null&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://an.evil.site&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;_blank&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;noopener&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;进入一个“邪恶”的网站&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;3. JavaScript&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;noopener&lt;/code&gt; 属性看似是解决了所有问题，但是…浏览器的兼容性问题…&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/caniuse-93575c220af3d268563890501021a14f-c4b3c.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 67.84591194968553%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADHElEQVQ4y32S/U9bZRTH7z+2n32JkWwYN5IpdQNE1mHUTaMZ+BLDVoyGbUAFNrJhZAgi2dYBHULV0gLztrf0vfX2nb7c9t62G5svccnHp2UsMxJ/+OY55+Q5n/M9eR5JS8kUftsiG3eTS21SLwSo5f1P1cjvF4MH6kEphJ71CSnUi2GqpRhSMeUlp3ooJWUacD3rpSIuVTIKRs4noAF2tfCBeliONAfWC/5mXC36kfTAPJo8RUk061qUyk4YQ3VQLWyh57Yx0t7mkHJGDEp5KAsDWlqhkvaI00tJ1CppvzCwZ0IqiFUz6iaxhavcGzyLfOc6uW0HsQsfkfT/TDboJBtzkgg7SYk84XeiBl2kgz+hBn4hqqyJ2hapsJtEyIlkiP2NukpueICvP3yOAfsZ/NZPsQ63Y2ghDLHS/vrGjnC843sm3peyVxeSGtbLepScdZDRwVfpm+1kuet5XneZic8Mo0VclEVTY+UDlf53LukCWDFiZEctjJ5v5ePZLlZ6j9BhMyF3tVL0rIgmMTT5q3gs5Wlj5YmezfeAjUCPULh0gYnPW+mfE8DThzmxaMJjbhMO1wkNnCFjn8Yoh/fg/wdsBPVaAnn+In0Tx/hsppO7vYc5uXgCuecoWtSN710TqZuTAhhpOv0PsLHlPjByqZ/81SHGnBZe2uzE8k0Hy28/AQqHpfA6yvsdJBtA8Xjl/DaltPizGU8TVBJnRfxJLac061Lwk9MEXjjE0Jev0OIzc/6aibVTLZiW2gl0H2v+w+h7HeSXb1CNuKlu2Pldi7NbCFMTjh/mQ5RXf+BBwsujYhRJ7j/F5ouHsFiO0LJ2ks75dsxTbRy9fZyz117j3p0rLPQdZ+WdNmzdL/PdUA93o7f4cXGEjf4e7BtT9I63MuO4zKoyhxR3zOEb+IARazdd9l7MNjNvLHXzpu0tzq2ewzX9FbddkzgXRlhbGmNGnuSGe4xbq1bk6Yt8vz7OrOc6s64JoXGk3WqcxxUVR2yeL5RBvg1dwanexJWwUSsFeFRP8Leu8mctyV/VRPPuY13URPzH/WQz3q819A+t4JpnwGaxKAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;noopener 的兼容性&quot;
+        title=&quot;&quot;
+        src=&quot;/static/caniuse-93575c220af3d268563890501021a14f-abe1c.png&quot;
+        srcset=&quot;/static/caniuse-93575c220af3d268563890501021a14f-10046.png 300w,
+/static/caniuse-93575c220af3d268563890501021a14f-3c4a3.png 600w,
+/static/caniuse-93575c220af3d268563890501021a14f-abe1c.png 1200w,
+/static/caniuse-93575c220af3d268563890501021a14f-c4b3c.png 1272w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;可以看到，现在绝大多数浏览器都已经兼容了 &lt;code&gt;rel=&quot;noopener&quot;&lt;/code&gt; 属性了。但是，为了保护稍旧的“近代”浏览器或是很旧的“古代”浏览器甚至是“远古”浏览器，只有 &lt;code&gt;noopener&lt;/code&gt; 属性还是远远不够的。&lt;/p&gt;
+&lt;p&gt;这时，就只能请出下面这段原生 JavaScript 来帮忙了。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript 1.8&quot;&gt;&lt;code&gt;&quot;use strict&quot;;
+function openUrl(url) {
+  var newTab = window.open();
+  newTab.opener = null;
+  newTab.location = url;
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h1&gt;推荐&lt;/h1&gt;
+&lt;p&gt;首先，在网站中的链接上，如果使用了 &lt;code&gt;target=&quot;_blank&quot;&lt;/code&gt;，就要带上 &lt;code&gt;rel=&quot;noopener&quot;&lt;/code&gt;，并且建议带上 &lt;code&gt;rel=&quot;noreferrer&quot;&lt;/code&gt;。类似于这样：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://an.evil.site&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;_blank&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;noopener noreferrer&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;进入一个“邪恶”的网站&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;当然，在跳转到第三方网站的时候，为了 SEO 权重，还建议带上 &lt;code&gt;rel=&quot;nofollow&quot;&lt;/code&gt;，所以最终类似于这样：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://an.evil.site&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;_blank&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;noopener noreferrer nofollow&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;进入一个“邪恶”的网站&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h1&gt;性能&lt;/h1&gt;
+&lt;p&gt;最后，再来说说性能问题。&lt;/p&gt;
+&lt;p&gt;如果网站使用了 &lt;code&gt;&amp;#x3C;a target=&quot;_blank&quot;&gt;&lt;/code&gt;，那么新打开的标签页的性能将会影响到当前页面。此时如果新打开的页面中执行了一个非常庞大的 JavaScript 脚本，那么原始标签页也会受到影响，会出现卡顿的现象（当然不至于卡死）。&lt;/p&gt;
+&lt;p&gt;而如果在链接中加入了 &lt;code&gt;noopener&lt;/code&gt;，则此时两个标签页将会互不干扰，使得原页面的性能不会受到新页面的影响。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-f817b2bbffd38015871e18584c9287f5-d6978.jpeg&quot;
@@ -718,7 +942,7 @@
     &lt;/p&gt;
 &lt;h2&gt;总结&lt;/h2&gt;
 &lt;p&gt;从可用性的角度来考虑图像是很重要的。在你的设计中所有的视觉传达都会给用户留下累积的印象。&lt;/p&gt;
-&lt;p&gt;令人信服的图像具有独特的能力，可以激励和吸引你的观众提供有用的信息。花时间让你的应用或网站中的每张图片都能强化用户体验。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSS3 clip-path 用法介绍]]></title><description><![CDATA[一、基本概念 刷新 QQ 空间动态时，发现一则广告，随着用户上下滑动动态列表，就会自动切换广告图片，这样的效果对移动端本就不大的屏幕来说，无疑是很精妙的考虑，这样的效果是怎么实现的呢？ 你可以点击这里： QQ空间广告示意demo…]]></description><link>https://knownsec-fed.com/2018-02-23-css3-clip-path-yong-fa-jie-shao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-23-css3-clip-path-yong-fa-jie-shao/</guid><pubDate>Fri, 23 Feb 2018 10:07:47 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;令人信服的图像具有独特的能力，可以激励和吸引你的观众提供有用的信息。花时间让你的应用或网站中的每张图片都能强化用户体验。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSS3 clip-path 用法介绍]]></title><description><![CDATA[ ## 一、基本概念 刷新 QQ 空间动态时，发现一则广告，随着用户上下滑动动态列表，就会自动切换广告图片，这样的效果对移动端本就不大的屏幕来说，无疑是很精妙的考虑，这样的效果是怎么实现的呢？ 你可以点击这里： QQ空间广告示意demo…]]></description><link>https://knownsec-fed.com/2018-02-23-css3-clip-path-yong-fa-jie-shao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-23-css3-clip-path-yong-fa-jie-shao/</guid><pubDate>Fri, 23 Feb 2018 10:07:47 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-1c2d6b76dfae6405f62a3a1abd482ee2-d6978.jpeg&quot;
@@ -750,8 +974,7 @@
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;一、基本概念&lt;/h2&gt;
+     ## 一、基本概念&lt;/p&gt;
 &lt;p&gt;刷新 QQ 空间动态时，发现一则广告，随着用户上下滑动动态列表，就会自动切换广告图片，这样的效果对移动端本就不大的屏幕来说，无疑是很精妙的考虑，这样的效果是怎么实现的呢？&lt;/p&gt;
 &lt;p&gt;你可以点击这里：&lt;a href=&quot;http://sandbox.runjs.cn/show/9mjidsy2&quot;&gt;QQ空间广告示意demo&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;接下来就说说这个效果的具体实现思路：&lt;/p&gt;
@@ -806,23 +1029,24 @@ clip: rect(60px  60px  60px  60px); // 兼容 ie 及 火狐浏览器&lt;/code&gt
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;&lt;section class=&quot;container&quot;&gt;
-  &lt;img src=&quot;img01.jpg&quot; class=&quot;contract&quot;&gt;
-  &lt;img src=&quot;img02.jpg&quot;&gt;
-&lt;/section&gt;
-&lt;svg height=&quot;0&quot; width=&quot;0&quot;&gt;
-  &lt;clipPath id=&quot;clip02&quot;&gt;
-    &lt;circle cx=&quot;400&quot; cy=&quot;210&quot; r=&quot;0&quot;&gt;
-      &lt;animate
-        attributeType=&quot;CSS&quot;
-        attributeName=&quot;r&quot;
-        values=&quot;0;480;0&quot;
-        dur=&quot;9s&quot;
-        repeatCount=&quot;2&quot;
-      /&gt;
-    &lt;/circle&gt;
-  &lt;/clipPath&gt;
-&lt;/svg&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;section&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;container&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;img&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;img01.jpg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;contract&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;img&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;img02.jpg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;section&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;svg&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;clipPath&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;clip02&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;circle&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;cx&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;400&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;cy&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;210&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;animate&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;attributeType&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;CSS&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;attributeName&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;r&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;0;480;0&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;dur&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;9s&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;repeatCount&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;2&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;circle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;clipPath&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;svg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;.contract {
@@ -1437,7 +1661,7 @@ vm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
 &lt;p&gt;PS: 如果各位大侠看的可还行，欢迎到&lt;a href=&quot;https://github.com/balancelove/readingNotes&quot;&gt;我的仓库&lt;/a&gt;给个 star 支持一波，笔芯。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[记一次简单的 CSRF 攻击实验]]></title><description><![CDATA[CSRF 攻击实验 CSRF 攻击涉及用户受害者, 受信任的网站和恶意网站。当受害者与受信任的站点拥有一个活跃的会话同时，如果访问恶意网站，恶意网站会注入一个 HTTP 请求到为受信任的站点，从而破话用户的信息。 CSRF…]]></description><link>https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-05-ji-yi-ci-jian-dan-de-csrf-gong-ji-shi-yan/</guid><pubDate>Mon, 05 Feb 2018 09:14:41 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg&quot;
+    href=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1445,22 +1669,22 @@ vm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 816px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 55.63725490196079%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7CAAAOwgEVKEqAAAACGElEQVQoz62Sy2sTURTGz6RNQ21JSJvH3Pckk5maNI9aY6FilVKELkQ3SlcpKoXSNikiBcWFdKEIvtBCF4JrFxY37gQ3rtwK/gP+AwUXCtbX+E1IIAF11Qu/+c6958x3z70zVDJZsrmKUGdInrKoZwjOBjjnfUgp+2r+OridydpMZMLYG4tYWqlUPGWG/lVv27aXzWYXoCfBcTAH5ttJLcUK46IhmL2klblTKVXnpVS+EmJNCLGKrhpC8GXoCuaXczknnk6nYzD4CJ4BCxTBLuUUXxJS3+/u7Dpmy8177XneyFnG2EvwGrwCezANlFKNTpdvO4YJcA0cISX4I1s4F8KCcVvHQj3q5s8a7dyQSj/FsfbBFZjdwgufoR9q1epIj+EL5KegT0CSjOQtLvS9boc5rUWoM5OTzDHOGxzxQTentZ5Gh+/BXrlcHobRO/Cw514jtFjMDGkhdgSTa5rxc3njbBvl1064RV4pVs6HhZfGatGFpB8N4zl/aoQztqvad86fc5vthOuL46XB/s8m42XSow7N0jCpRIn8pKF6NPrfX+MiDZI7qvrWPg1cjf2iVi2gxzyguyKgmyyg7SK0HtBW4ie1pgPaPPabWi7U+UYbhX1rdeI7NasBXS8EdDuHOI+cD1KERxSG3ldrfQLFNSTdL9Z66YCaMz+oiU02PZjVwWlQxrzSMdeoLRzQxinEZ7AWGko67PEH0QWE8OQdWKsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1qnoVcZD/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECERAiI//aAAgBAQABBQLeuyFGTRWP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAECBwAAAAAAAAAAAAAAAAEAAhEgITFBUWH/2gAIAQEABj8C6rg0xtCLjJ//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMVFB/9oACAEBAAE/Ib9HfHkQslXwkORmjTKOSnCUcn//2gAMAwEAAgADAAAAEBcP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAgMAAwEAAAAAAAAAAAAAAREAIUExkfHB/9oACAEBAAE/ELhSNlDnEcz7DBYyEIqLKYfkuZeC7Qb5tuOx1PGgFwHU/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;记一次简单的 CSRF 攻击实验&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg&quot;
-        srcset=&quot;/static/header-52c265bcfb99a2f261a5bac403b1d9b3-948ca.jpeg 300w,
-/static/header-52c265bcfb99a2f261a5bac403b1d9b3-44a81.jpeg 600w,
-/static/header-52c265bcfb99a2f261a5bac403b1d9b3-cac56.jpeg 816w&quot;
-        sizes=&quot;(max-width: 816px) 100vw, 816px&quot;
+        src=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg&quot;
+        srcset=&quot;/static/header-fca87732a6ebaccb88714ddc855e572f-527f0.jpeg 300w,
+/static/header-fca87732a6ebaccb88714ddc855e572f-9a7cd.jpeg 600w,
+/static/header-fca87732a6ebaccb88714ddc855e572f-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1994,7 +2218,7 @@ vm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
 &lt;p&gt;了解更多信息，请访问&lt;a href=&quot;http://reactscope.com/&quot;&gt;React Scope官网&lt;/a&gt;和&lt;a href=&quot;https://github.com/React-Scope/React-Scope&quot;&gt;GitHub&lt;/a&gt;。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】六个选择UI颜色的技巧]]></title><description><![CDATA[原文链接： Color Matters. 6 Tips on Choosing UI Colors. – UX Planet 作者：Tubik Studio…]]></description><link>https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</guid><pubDate>Sat, 03 Feb 2018 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-d725c.jpeg&quot;
+    href=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2006,19 +2230,17 @@ vm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.64999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABbiqwbmy4EP/EABsQAQACAgMAAAAAAAAAAAAAAAECEQMSEyIx/9oACAEBAAEFAotQyrxS9DvqGJq//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAwEBPwGcWf/EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAECAQE/Aaf/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIQETFBYf/aAAgBAQAGPwLTeDou4wh//8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUYH/2gAIAQEAAT8hSooCzdluOGzEVuX2LPOQEss2nrFoL5P/2gAMAwEAAgADAAAAEHjf/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAEDAQE/EIsP/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EMUxf//EABwQAQACAwADAAAAAAAAAAAAAAEAESExUWGRwf/aAAgBAQABPxAye7BDqvyofajiQjyWSJYFEydvEEbanPu7HKk4AJ//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABeIlm5wsxD//EABkQAAIDAQAAAAAAAAAAAAAAAAECAxExQ//aAAgBAQABBQIOAHa4mje13md//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAwEBPwGcWf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAEDBQAAAAAAAAAAAAAAAAEAEBESITJRcf/aAAgBAQAGPwKmb6CMFYlhxv/EABkQAQEBAQEBAAAAAAAAAAAAAAEAESFBYf/aAAgBAQABPyHNSA0Kd+/h9lugZ5HMon1f/9oADAMBAAIAAwAAABDrz//EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAgBAwEBPxDQclf/xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQIBAT8Qx1Yv/8QAHBABAQACAgMAAAAAAAAAAAAAAREAIUFRMYHB/9oACAEBAAE/ELFY0MnDduWVEFBrfIT5iYg9JMsovczYaJonGMVT7z//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;【翻译】六个选择UI颜色的技巧&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-d6978.jpeg&quot;
-        srcset=&quot;/static/header-f2e54824e0aac2c95238394bf482abd6-527f0.jpeg 300w,
-/static/header-f2e54824e0aac2c95238394bf482abd6-9a7cd.jpeg 600w,
-/static/header-f2e54824e0aac2c95238394bf482abd6-d6978.jpeg 1200w,
-/static/header-f2e54824e0aac2c95238394bf482abd6-fee16.jpeg 1800w,
-/static/header-f2e54824e0aac2c95238394bf482abd6-d725c.jpeg 2000w&quot;
+        src=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg&quot;
+        srcset=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-527f0.jpeg 300w,
+/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-9a7cd.jpeg 600w,
+/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg 1200w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
