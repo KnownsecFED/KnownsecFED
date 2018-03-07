@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 11:13:59 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何找到完美的色彩搭配 - 介绍 ColorClaim]]></title><description><![CDATA[原地网址： How to find your perfect color pairings — Introducing ColorClaim 作者：Tobias van Schneider…]]></description><link>https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</guid><pubDate>Mon, 05 Mar 2018 12:41:57 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 07 Mar 2018 02:17:42 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何找到完美的色彩搭配 - 介绍 ColorClaim]]></title><description><![CDATA[原地网址： How to find your perfect color pairings — Introducing ColorClaim 作者：Tobias van Schneider…]]></description><link>https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</guid><pubDate>Mon, 05 Mar 2018 12:41:57 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-5cde8a3daf4d59e378749b07275a9925-d6978.jpeg&quot;
@@ -157,7 +157,108 @@
 &lt;li&gt;如果在 &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt; 中找不到合适色彩配对，那就去创建新的配色。（通常的是我的 ColorClaim 库里都会有）。&lt;/li&gt;
 &lt;li&gt;由于研究颜色是我主要从事品牌项目的工作，所以我比较偏向简约的风格。我搭配颜色时要么选择一种主要颜色、然后搭配黑色和白色，要么选择一种主要高光颜色、然后选择两种辅助颜色。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;我的配色过程比想象的要简单得多，希望您能够理解这个过程，同时也希望 &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt; 对您有所帮助。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[危险的 target="_blank" 与 “opener”]]></title><description><![CDATA[在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在  a  标签上添加  target等于"_blank"  属性。 然而，就是这个属性，为钓鱼攻击者带来了可乘之机。 起源 parent  与  opener 在说  opener…]]></description><link>https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</guid><pubDate>Thu, 01 Mar 2018 15:43:42 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;我的配色过程比想象的要简单得多，希望您能够理解这个过程，同时也希望 &lt;a href=&quot;http://www.vanschneider.com/colors&quot;&gt;ColorClaim&lt;/a&gt; 对您有所帮助。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[如何使用Mac破解Wifi]]></title><description><![CDATA[无线网络认证原理 802.11无线网络常见的认证方式包括： 不启动安全 WEP WPA/WPA2-PSK WAP/WPA2 802.1x (radius认证) 本文主要讨论的是大家日常生活中用到的WPA-PSK认证方式的破解过程， 其中的关键是获取握手包， 4way…]]></description><link>https://knownsec-fed.com/2018-03-05-ru-he-shi-yong-mac-po-jie-wifi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-ru-he-shi-yong-mac-po-jie-wifi/</guid><pubDate>Mon, 05 Mar 2018 03:56:30 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB34WJGAv/xAAXEAEAAwAAAAAAAAAAAAAAAAABAAIg/9oACAEBAAEFApRUx//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAAgIf/aAAgBAQAGPwIq/wD/xAAYEAACAwAAAAAAAAAAAAAAAAAAIREgcf/aAAgBAQABPyEYDyK//9oADAMBAAIAAwAAABCcD//EABYRAQEBAAAAAAAAAAAAAAAAABEQIf/aAAgBAwEBPxA1n//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EKf/xAAaEAEAAgMBAAAAAAAAAAAAAAABEUEAICEx/9oACAEBAAE/EFgXECTKnxXuv//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;如何使用Mac破解Wifi&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-d6978.jpeg&quot;
+        srcset=&quot;/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-527f0.jpeg 300w,
+/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-9a7cd.jpeg 600w,
+/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;无线网络认证原理&lt;/h1&gt;
+&lt;p&gt;802.11无线网络常见的认证方式包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不启动安全&lt;/li&gt;
+&lt;li&gt;WEP&lt;/li&gt;
+&lt;li&gt;WPA/WPA2-PSK&lt;/li&gt;
+&lt;li&gt;WAP/WPA2 802.1x (radius认证)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;本文主要讨论的是大家日常生活中用到的WPA-PSK认证方式的破解过程， 其中的关键是获取握手包，&lt;/p&gt;
+&lt;p&gt;4way-handshake：
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4-way-handshake-af2eba35b70fcf45d780b28caa42faab-678bc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 393px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 79.64376590330788%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAABYUlEQVQ4y42T0U6DQBBFF6xFRQERXKCmUq021miq0TdjfDDxzSfjP/j/P+BsPNts1yU6yQ0Lw9yZuTOrlFI7gqXgWrAQnKkfi9SwWV9DrI2rFYSdYCLIBJUXnAh6vu96vhxSLSgEpXUUZPgSvPA+4ce54FXwTBeaAgzRVHBPlYY8NmQzmKc4LgRHJIoD7ca0bH1btlVrd1Qzg/QU+JpFA7qOqXZtl4JzwQryE4jVP4ZiNd4g7Gm5p9XaETcVtAwroZP9QIImlPWY4JqzRtM3BnXLcJb4aob0yfuv8jVrYUQe8RyyEXEZO9iFhmiq2h7QKwpo1zK8mpUz71c+YaL+NkvaQWIG+Uj7c/dHPUBQgcJpzVY4ZlAdg2zdwEPBB9lK5zY8OCv1ROKGvb1hWIvQta28tYgdkVPvexTYkOAuZQTnnM3zAH1WnHOwx4V4d+SK/ApLJ8CiIEnKOXcSadpe3+Vvc90UQ1CCRhYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;4-way-handshake&quot;
+        title=&quot;&quot;
+        src=&quot;/static/4-way-handshake-af2eba35b70fcf45d780b28caa42faab-678bc.png&quot;
+        srcset=&quot;/static/4-way-handshake-af2eba35b70fcf45d780b28caa42faab-a49b3.png 300w,
+/static/4-way-handshake-af2eba35b70fcf45d780b28caa42faab-678bc.png 393w&quot;
+        sizes=&quot;(max-width: 393px) 100vw, 393px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+4次握手就是认证器(AP)和请求者(SPA)之间的4次消息交换过程， 用一个伪随机函数PRF生成PTK.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;PMK = pdkdf2_SHA1(passphrase，SSID，SSID length，4096)
+
+PTK = PRF(PMK + ANonce + SNonce + AP_MAC + SPA_MAC)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;step1: AP生成一个ANonce。 发送给请求者SPA。&lt;/p&gt;
+&lt;p&gt;step2: SPA生成一个SNonce和利用2个Nonces生成PTK， 最后发送SNone和MIC作为PMK的验证。&lt;/p&gt;
+&lt;p&gt;step3: AP生成PTK， 验证MIC信息，验证成功后发送GTK， MIC， RSC信息给SPA。&lt;/p&gt;
+&lt;p&gt;step4: SPA验证MIC， 安装密钥， 发送消息给AP。&lt;/p&gt;
+&lt;h1&gt;无线网络破解原理&lt;/h1&gt;
+&lt;p&gt;利用网络攻击让SPA和AP断开， 随后SPA会自动尝试连接AP， 在这个重新连接的过程中，数据通信就产生了， 利用工具或者脚本捕获4次握手过程，生成一个包含了4次握手的cap包， 然后利用字典进行暴力破解。&lt;/p&gt;
+&lt;h1&gt;Mac下无线网络破解&lt;/h1&gt;
+&lt;p&gt;使用mac进行无线网络破解主要需要解决的是Aircrack-ng的安装以及握手包的获取。&lt;/p&gt;
+&lt;h3&gt;安装Aircrack-ng&lt;/h3&gt;
+&lt;p&gt;方式一： 使用MAcport进行安装，sudo port install aircrack-ng&lt;/p&gt;
+&lt;p&gt;方式二： 使用HomeBrew进行安装， brew install aircrack-ng&lt;/p&gt;
+&lt;h3&gt;握手包获取&lt;/h3&gt;
+&lt;p&gt;直接使用aircrack-ng会出现问题，提示wireless-tools找不到， 因为airmon-ng依赖于wireless-tools， 而wireless-tool在Mac下编译有问题。其实Mac自带一个airport工具， 可以方便的扫描，监听模式下监听。&lt;/p&gt;
+&lt;h2&gt;操作步骤：&lt;/h2&gt;
+&lt;p&gt;step1: ifconfig 查看网卡名称&lt;/p&gt;
+&lt;p&gt;step2: airport en0 scan 扫描网络&lt;/p&gt;
+&lt;p&gt;step3: sudo airport en0 sniff 6 监听模式监听信道6， 等待握手包的捕获，一段时间后使用control+C结束。 文件位于/tmp/airportSiffXXX.cap&lt;/p&gt;
+&lt;p&gt;step4: aircarck-ng -w ~/wordlist.txt /tmp/airportSniffXXX.cap 使用密码字典进行暴力破解。&lt;/p&gt;
+&lt;h1&gt;总结&lt;/h1&gt;
+&lt;p&gt;由于多数用户缺乏相关安全意识， 仅使用手机号码，生日以及简单的数字作为WPA-PSK的密码，密码字典可以针对这类密码进行快速的破解。&lt;/p&gt;
+&lt;p&gt;最后我们再做个简单计算让大家了解提高密码复杂度的必要性， 按照现在主流单机环境配置，维持100~~300k/s(k/s指的是破解时每秒调用的key数量)的破解速率，要把一个以小写字母和数字组合的5位WPA密码破开大概需要2-7天。这还只是5位数WPA密码，若是采用WPA密码为纯小写字母且长度在10位数以上，则最快需要时间是14921年! 如果在加上特殊符号， 暴力破解将彻底失去意义。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[危险的 target="_blank" 与 “opener”]]></title><description><![CDATA[在网页中使用链接时，如果想要让浏览器自动在新的标签页打开指定的地址，通常的做法就是在  a  标签上添加  target等于"_blank"  属性。 然而，就是这个属性，为钓鱼攻击者带来了可乘之机。 起源 parent  与  opener 在说  opener…]]></description><link>https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/</guid><pubDate>Thu, 01 Mar 2018 15:43:42 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-b2d5797f97e9d99eadd2357194ee34da-d6978.jpeg&quot;
@@ -381,7 +482,110 @@ function openUrl(url) {
 &lt;h1&gt;性能&lt;/h1&gt;
 &lt;p&gt;最后，再来说说性能问题。&lt;/p&gt;
 &lt;p&gt;如果网站使用了 &lt;code&gt;&amp;#x3C;a target=&quot;_blank&quot;&gt;&lt;/code&gt;，那么新打开的标签页的性能将会影响到当前页面。此时如果新打开的页面中执行了一个非常庞大的 JavaScript 脚本，那么原始标签页也会受到影响，会出现卡顿的现象（当然不至于卡死）。&lt;/p&gt;
-&lt;p&gt;而如果在链接中加入了 &lt;code&gt;noopener&lt;/code&gt;，则此时两个标签页将会互不干扰，使得原页面的性能不会受到新页面的影响。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;而如果在链接中加入了 &lt;code&gt;noopener&lt;/code&gt;，则此时两个标签页将会互不干扰，使得原页面的性能不会受到新页面的影响。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Active Record 和 Data Mappers 模式简介]]></title><description><![CDATA[nodejs 开发 web 应用时，orm 框架如 mongoose，sequelize 等能够帮助我们快速的开发项目，但是当想要再去抽象数据库访问层的时候（如 J2EE 中的 DAO 层），发现很困难，本人一直困惑到底问题出现在哪里，直到有天接触了 typeorm…]]></description><link>https://knownsec-fed.com/2018-02-28-activerecord-he-datamappers-mo-shi-jian-jie/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-28-activerecord-he-datamappers-mo-shi-jian-jie/</guid><pubDate>Wed, 28 Feb 2018 07:38:46 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-65455b15c786b9e8aba91ba7050a53e9-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGFWzpSJCv/xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIQEUH/2gAIAQEAAQUCaMqZ0//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAIDAAAAAAAAAAAAAAAAAAAyASAi/9oACAEBAAY/AoyKLT//xAAcEAEAAgEFAAAAAAAAAAAAAAABABExECFhcaH/2gAIAQEAAT8hRLJfIi82uZ2ptxq//9oADAMBAAIAAwAAABBrz//EABcRAAMBAAAAAAAAAAAAAAAAAAABETH/2gAIAQMBAT8QWih//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABoQAQACAwEAAAAAAAAAAAAAAAEAIRExQVH/2gAIAQEAAT8QRlhxYpRwvCMRwAAr1i0oXRFeoan/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Active Record 和 Data Mappers 模式简介&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-65455b15c786b9e8aba91ba7050a53e9-d6978.jpeg&quot;
+        srcset=&quot;/static/header-65455b15c786b9e8aba91ba7050a53e9-527f0.jpeg 300w,
+/static/header-65455b15c786b9e8aba91ba7050a53e9-9a7cd.jpeg 600w,
+/static/header-65455b15c786b9e8aba91ba7050a53e9-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;nodejs 开发 web 应用时，orm 框架如 mongoose，sequelize 等能够帮助我们快速的开发项目，但是当想要再去抽象数据库访问层的时候（如 J2EE 中的 DAO 层），发现很困难，本人一直困惑到底问题出现在哪里，直到有天接触了 typeorm，才揭开了问题的根源。&lt;/p&gt;
+&lt;h2&gt;什么是 ORM&lt;/h2&gt;
+&lt;p&gt;在深入之前，让我们看看 ORM 是什么。ORM 是一种使用面向对象编程语言在不兼容类型系统之间转换数据的编程技术。相当于创建里一个可以在编程语言中使用的 “虚拟对象数据库”。更简单的来说，让面向对象编程脱离了对手写 sql 的要求。当然 ORM 有这样或那样的问题，不再本篇讨论。&lt;/p&gt;
+&lt;h2&gt;Active Record 和 Data Mappers 与 ORM 的关系&lt;/h2&gt;
+&lt;p&gt;定义了 ORM 的功能，那么 ORM 有也不同的实现模式。Active Record 和 Data Mappers 是两种 ORM 最常见的实现模式。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/orm-ebf05926127131367c2761dd4a8774b2-08176.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 819px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 113.18681318681318%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsSAAALEgHS3X78AAAEc0lEQVQ4y42US2xUVRjHz8y905lpO53pPM7rvubO7ctSaGtLaUFsbIm6caXGhSEhbbEzLRSoEFHjypUbTYyGV4waQ0JCohuJRBALvqKmCxNjDEs3KtSEFZYp7fF/7nRqRUy8yS//c7/vO//zzblnDiH/8XyYz4W66jrxNddJQZtBsuo6UR1/LJH415xLlNYGqq+XqD1jRO0crrFrhKiSHwlzrtMHngVPgSkgw3jgR8La3buIGnzwb9cvGWv8nNGGzyiNXWY0/ilj8YvQBc4SJ3M58zfbyv9hW/Yvlmxdsi3rupSps4W8eQV1uh5z41fBNfCjEFHyFWdJbTyfzUbu/Qm/JuP33Q61ibl0S22LsMgXjMXIN4w1hEWfXCLcD0xeLMVC9QOjKWiPDGE8glivX4ppDaAUOVZqi9JSm9GzrT80XGTU+JbD8AJaJ4VwW4h0i7bl+bvBMNhuecVt0K3QATAI+i232AcCxEfwHtS7PseZuagNrzCaSFpOxnY8IV2Pw9SCOlAHk1zb8y2oBHoxK8w7noS6QFqY12q7uX2cJ27BNHQXnr/XLpZugxvgpgaTb0qN6y9hrLm5rkvIL63X/Q7uoO5N7fOxZTXUDZ9z/EAhuYF+L7Z1hHhB+wb31rmlNoVF3tU+70m5YTipk0jcga5AVzB5Zefu0ZChnQ+F+vDY+EpXz7YV4Xgr63XLegF0eCbcx02GFb2SjaSzCR3bTL3DOmGHiMHwA+3zkSVr54x7/hNIfgeugmt10MF92VSzABZheFyfyYu6w/P6YBdYg53OGM0taaMlkzZSaW40N5eiuXzRyOU9M5srGvlC0czlg2g6UzTSrdJsSqVQ22pkk41Rki/EJrhI/Cm4Sb7W5xBPj/CiVNgRJrqj5H88VLRHqHAjvihGCB8gC4zrg22Sn0U+NOyUZdOSB03HPhqRopIRvCIkr2Qln0lBU4LPpBHLgrwUMxlLzhkaT86aZFSRG5RELzMeIydYl76H/vE/zmefTHI22c3ohM/Z1BbO9u+A9jO6T+p3qLi34wm6K3FLNNYONuXTo5KX30dnpyxZOQ1OYfy24OV3QHg3QTvAacRPIH8CegaclKJ8lvHyePiVRWft2CAw61hHleAHFaM1BJ9TtVhlb82w8rhtzYdxzuocUI59XHFemdc1b4ihRN1wUopZtbXn2PLwjleqmge6nl/Gvil08XR4cYjKGDpc69lyrDq0/eXq4MBL1d7eF27b1iGF+RVd89YmwykpDqj2tsN3t3QfXYPxWlA6dFfHYPRMzbA8jo+h2oJDq12d82udHfNrHe1HqrY8jA7Ls7rmNTG0frB5eT++mOJ0WtFCDc7KSsewt+uGlXG9gI4zWmd61baOaMMDuuZ1sT1OVJYYzWzaRZd7uKw8wq2ZMQH0mCLWystcF7ewck5vflgjdb5Wg9ijyLkvZqj5kxQxcpk76e8L8YRqIVGVBGliqAiJhFd8I4leoIWmV1lf5hx1mtev/0hYk0BtBorYDwUzfp4HLdd5xvwLWoqF2PohksYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;orm&quot;
+        title=&quot;&quot;
+        src=&quot;/static/orm-ebf05926127131367c2761dd4a8774b2-08176.png&quot;
+        srcset=&quot;/static/orm-ebf05926127131367c2761dd4a8774b2-47a98.png 300w,
+/static/orm-ebf05926127131367c2761dd4a8774b2-85419.png 600w,
+/static/orm-ebf05926127131367c2761dd4a8774b2-08176.png 819w&quot;
+        sizes=&quot;(max-width: 819px) 100vw, 819px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Active Recode 和 Data Mapper 不同&lt;/h2&gt;
+&lt;h3&gt;Active Recode 模式&lt;/h3&gt;
+&lt;p&gt;Active Record 模式最早源于 Ruby On Rails 框架，从此流行起来。nodejs 中常用的 mongoose 和 sequelize 就是采用此模式。该模式下，模型对象都会继承一个基类，这个基类就是 Active Record 的实现，里面包含里完整的数据库操作方法。&lt;/p&gt;
+&lt;p&gt;典型的写法:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; user &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;knownsecer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;可以看出，你的 POJO 和数据库的持久化方法都集成到一个复杂的对象上了，这里每个对象对应数据库中的一行。&lt;/p&gt;
+&lt;h3&gt;Data Mapper 模式&lt;/h3&gt;
+&lt;p&gt;Data Mapper 模式是 ORM 最早的一种实现方式，该模式完全把数据和数据库持久化方法分离开，所以你的对象完全是干净的对象。nodejs 中采用该模式的框架比如 typeorm。该模式会提供一个统一的实体对象管理器 &lt;strong&gt;EntityManager&lt;/strong&gt; 用来持久化操作。&lt;/p&gt;
+&lt;p&gt;典型写法:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; user &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;knownsecer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; entityManager &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; connection&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;manager&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+entityManager&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;Active Record 和 Data Mappers 应用场景&lt;/h2&gt;
+&lt;p&gt;Active Record 和 Data Mapper 是长期存在的两种模式，不存在孰优孰劣的问题，只是适用于不同的应用场景。&lt;/p&gt;
+&lt;p&gt;Active Record，简单，易用，开发效率高。由于数据库记录和系统对象紧密匹配，适用于简单的领域模型或小型项目。正是由于这些特点，Active Record 成为 web 开发最受欢迎的 ORM。&lt;/p&gt;
+&lt;p&gt;Data Mappers，灵活，高性能，更符合 OOP 思想。可以使对象和数据之间存在一个抽象层，可以构建更复杂模型，适合大型的，长期发展的项目。&lt;/p&gt;
+&lt;h2&gt;问题&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;大家目前都在使用什么样的 ORM？&lt;/li&gt;
+&lt;li&gt;思考下该 ORM 是属于哪种模式？&lt;/li&gt;
+&lt;li&gt;既然选择里该框架肯定是冲着她的优点去的，那么在开发的过程在有没有体会到该框架带来的弊端？&lt;/li&gt;
+&lt;li&gt;有没有想过有朝一日放弃所有的 ORM，返璞归真，从 sql 开始？&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[【翻译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-f817b2bbffd38015871e18584c9287f5-d6978.jpeg&quot;
