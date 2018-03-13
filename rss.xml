@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 13 Mar 2018 08:04:11 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何创建交互友好的表单]]></title><description><![CDATA[原文地址： Creating User-friendly forms 作者：Momoh Silm…]]></description><link>https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</guid><pubDate>Tue, 13 Mar 2018 02:16:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 13 Mar 2018 08:22:50 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何创建交互友好的表单]]></title><description><![CDATA[原文地址： Creating User-friendly forms 作者：Momoh Silm…]]></description><link>https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</guid><pubDate>Tue, 13 Mar 2018 02:16:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-8c910dd21b5fa1deb2346fb016ac7523-d6978.jpeg&quot;
@@ -880,7 +880,7 @@ webServer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span 
 &lt;p&gt;仅仅有一点点新增的内容：&lt;code&gt;Transfer-Encoding: chunked&lt;/code&gt;，当我们不能提前知道响应的长度时很有用。你可以 &lt;a href=&quot;https://en.wikipedia.org/wiki/Chunked_transfer_encoding&quot;&gt;在维基百科上查看它的内容&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;总结&lt;/h3&gt;
-&lt;p&gt;通过使用简单的模块，例如：&lt;code&gt;net，Stream，Buffer&lt;/code&gt;，我们能够基于一个 TCP 服务器创建一个基本的 HTTP 服务器，实现一些解析逻辑。在过程中，我们学习一些内容关于 HTTP 请求和响应，可读写的 streams 和 buffers 的基础知识。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[自行车棚的颜色问题]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-03-11-bikeshedding/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-11-bikeshedding/</guid><pubDate>Sun, 11 Mar 2018 09:30:53 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;通过使用简单的模块，例如：&lt;code&gt;net，Stream，Buffer&lt;/code&gt;，我们能够基于一个 TCP 服务器创建一个基本的 HTTP 服务器，实现一些解析逻辑。在过程中，我们学习一些内容关于 HTTP 请求和响应，可读写的 streams 和 buffers 的基础知识。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[由屎色自行车棚引发的思考]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-03-11-bikeshedding/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-11-bikeshedding/</guid><pubDate>Sun, 11 Mar 2018 09:30:53 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-858cbc95bb035aea6a80f498840f04fb-d6978.jpeg&quot;
@@ -900,7 +900,7 @@ webServer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span 
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;自行车棚的颜色问题&quot;
+        alt=&quot;由屎色自行车棚引发的思考&quot;
         title=&quot;&quot;
         src=&quot;/static/header-858cbc95bb035aea6a80f498840f04fb-d6978.jpeg&quot;
         srcset=&quot;/static/header-858cbc95bb035aea6a80f498840f04fb-527f0.jpeg 300w,
@@ -913,6 +913,10 @@ webServer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span 
   
   &lt;/a&gt;
     &lt;/p&gt;
+&lt;p&gt;有一天，我走在路上，看到了一个屎色的自行车棚。车棚颜色饱满，让我不禁停下了脚步。在阳光的照射下甚至感觉闻道了什么莫名的味道。&lt;/p&gt;
+&lt;p&gt;路边走来一个老大爷，站到了我的旁边，开始吐槽起来：“如果我是市长，一定不会批准人们使用这个颜色来建造自行车棚！简直是太可恶啦！”&lt;/p&gt;
+&lt;p&gt;我对着大爷笑了笑作为回应，然后转身走开。&lt;/p&gt;
+&lt;p&gt;但内心却升起了疑问：“自行车棚到底应该使用什么颜色？”&lt;/p&gt;
 &lt;h1&gt;自行车棚应该使用什么颜色？&lt;/h1&gt;
 &lt;p&gt;简短的回答是：你不需要关心这个问题。&lt;/p&gt;
 &lt;p&gt;长一点的解释是：拥有建造一个自行车棚的能力并不代表你就要阻止别人建造一个&lt;strong&gt;屎&lt;/strong&gt;色的自行车棚。&lt;/p&gt;
