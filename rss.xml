@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 15 Mar 2018 03:22:35 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何创建交互友好的表单]]></title><description><![CDATA[原文地址： Creating User-friendly forms 作者：Momoh Silm…]]></description><link>https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</guid><pubDate>Tue, 13 Mar 2018 02:16:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 15 Mar 2018 04:03:37 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何创建交互友好的表单]]></title><description><![CDATA[原文地址： Creating User-friendly forms 作者：Momoh Silm…]]></description><link>https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</guid><pubDate>Tue, 13 Mar 2018 02:16:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-8c910dd21b5fa1deb2346fb016ac7523-d6978.jpeg&quot;
@@ -1308,7 +1308,7 @@ docker container run -p 8080:3000 -it knownsec /bin/bash
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;cy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;contains&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Log In&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/three-bb985c229235be044d3543fe6370e170.gif&quot; alt=&quot;three&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/three-40cd3a8174ad86ccd75ba4978d6270be.gif&quot; alt=&quot;three&quot;&gt;&lt;/p&gt;
 &lt;p&gt;它失败了。这很好，我们已经确定 happy path 确实很 happy。Cypress 为我们提供了详细的堆栈跟踪 — 发生了什么问题以及在哪里发生的问题。&lt;/p&gt;
 &lt;p&gt;添加更多的用例:&lt;/p&gt;
 &lt;ul&gt;
@@ -1428,7 +1428,7 @@ docker container run -p 8080:3000 -it knownsec /bin/bash
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;观察它们失败：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/five-274148bafe91647e5f13a61004fb275d.gif&quot; alt=&quot;five&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/five-ae7b3cf4dc7ee6dcf728982cda4f057b.gif&quot; alt=&quot;five&quot;&gt;&lt;/p&gt;
 &lt;p&gt;然后修改第14行和第20行（将&lt;code&gt;first()&lt;/code&gt;更改为&lt;code&gt;last()&lt;/code&gt;，将&lt;code&gt;cy.visit(&apos;log-out&apos;)&lt;/code&gt;更改为&lt;code&gt;cy.visit(&apos;logout&apos;)&lt;/code&gt;并观察测试如何通过:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/six-0e725167f65c66f3e51e650be4223cf2.gif&quot; alt=&quot;six&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;TL;DR&lt;/h2&gt;
