@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 15 Mar 2018 04:03:37 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何创建交互友好的表单]]></title><description><![CDATA[原文地址： Creating User-friendly forms 作者：Momoh Silm…]]></description><link>https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</guid><pubDate>Tue, 13 Mar 2018 02:16:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 15 Mar 2018 04:10:09 GMT</lastBuildDate><item><title><![CDATA[【翻译】如何创建交互友好的表单]]></title><description><![CDATA[原文地址： Creating User-friendly forms 作者：Momoh Silm…]]></description><link>https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</guid><pubDate>Tue, 13 Mar 2018 02:16:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-8c910dd21b5fa1deb2346fb016ac7523-d6978.jpeg&quot;
@@ -1301,7 +1301,7 @@ docker container run -p 8080:3000 -it knownsec /bin/bash
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;现在，请转到 Cypress 应用程序并选择我们刚刚创建的测试。它应该在一个文件中运行所有的测试，我们可以看到它们的表现如何：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/two-c8cd2fd30a21fdf3711f8b1b31708392.gif&quot; alt=&quot;two&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/two-16287261e66e2b1c8ecbc30283ebc238.gif&quot; alt=&quot;two&quot;&gt;&lt;/p&gt;
 &lt;p&gt;在测试运行器的左侧窗格中，我们可以看到 Cypress 执行的所有操作，查找到的元素以及浏览器重定向的元素。我们还可以使用漂亮的时间旅行功能，并检查我们测试的每一步。&lt;/p&gt;
 &lt;p&gt;让我们停下来！修改测试的第12行：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
@@ -1340,7 +1340,7 @@ docker container run -p 8080:3000 -it knownsec /bin/bash
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;我们保存测试文件之后，Cypress应该重新运行所有的测试：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/four-a7d69f43e18e29d75df97560df2ed594.gif&quot; alt=&quot;four&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/four-f844f2b4fc8de8453cd52d56ea490fb4.gif&quot; alt=&quot;four&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;测试注销&lt;/h2&gt;
 &lt;p&gt;下一个要覆盖的功能是注销操作。我们希望确定该用户可以正确地从我们的应用程序注销。听起来很简单，对吧？&lt;/p&gt;
 &lt;p&gt;但是，让我们再考虑一下…为了注销，我们需要先登录，对吧？我们是否应该重用先前测试的代码，然后再添加更多逻辑？听起来很傻，我们是开发者，我们可以做得更好！&lt;/p&gt;
@@ -1430,7 +1430,7 @@ docker container run -p 8080:3000 -it knownsec /bin/bash
 &lt;p&gt;观察它们失败：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/five-ae7b3cf4dc7ee6dcf728982cda4f057b.gif&quot; alt=&quot;five&quot;&gt;&lt;/p&gt;
 &lt;p&gt;然后修改第14行和第20行（将&lt;code&gt;first()&lt;/code&gt;更改为&lt;code&gt;last()&lt;/code&gt;，将&lt;code&gt;cy.visit(&apos;log-out&apos;)&lt;/code&gt;更改为&lt;code&gt;cy.visit(&apos;logout&apos;)&lt;/code&gt;并观察测试如何通过:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/six-0e725167f65c66f3e51e650be4223cf2.gif&quot; alt=&quot;six&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/six-b76faf266822ed0723117fad901929b5.gif&quot; alt=&quot;six&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;总之，用 Cypress 写测试真的很有趣。&lt;/p&gt;
 &lt;p&gt;正如所宣称的，配置几乎为零，编写断言很简单，感觉很自然，而且 GUI 非常棒！您可以进行时间旅行，调试所有步骤，并且因为它们都作为 Electron 应用程序启动，所以我们甚至可以访问开发者工具以了解每个动作发生了什么。&lt;/p&gt;
@@ -10142,7 +10142,7 @@ require&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cache&lt;sp
 &lt;p&gt;&lt;code&gt;overrideConfig&lt;/code&gt;就是修改后的 webpack 对象，最后修改调用了 webpack 对象的代码，将原来的 webpack 对象替换成修改后的 webpack 对象。&lt;/p&gt;
 &lt;h2&gt;总结&lt;/h2&gt;
 &lt;p&gt;CRA 是一个非常棒的 React 脚手架工具，但你如果不满足于它的 webpack 默认配置，你可以通过上述几种方式来扩展自己项目的 webpack 配置，这几种方式各有优缺点，可以结合具体的使用场景来选择合适自己的方式。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[3D GIS 应用开发 —— 基于 Mapbox GL 的实践总结]]></title><description><![CDATA[最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源： uber的deck.gl项目 ）： 下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS…]]></description><link>https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-08-mapbox-gl-js/</guid><pubDate>Mon, 08 Jan 2018 03:03:39 GMT</pubDate><content:encoded>&lt;p&gt;最近在折腾的 web 端的可视化项目，由于相关业务的需要，用到了 Mapbox 这一地图开发的神器。在此先奉上一个基于mapbox-gl实现的demo短片（来源：&lt;a href=&quot;https://uber.github.io/deck.gl/#/&quot;&gt;uber的deck.gl项目&lt;/a&gt;）：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/demo-e3d6a9b924539c98bbd68ec2be2e829a.gif&quot; alt=&quot;demo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/demo-e9a835903bbe48d46b1ad5291b22b36f.gif&quot; alt=&quot;demo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;下面我们从这个项目一步步来介绍 Mapbox 的前端 GIS 引擎 &lt;a href=&quot;https://github.com/mapbox/mapbox-gl-js&quot;&gt;Mapbox GL JS&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;一、简单了解&lt;/h1&gt;
 &lt;p&gt;首先，Mapbox 在地图领域是一家很 Newbee 的公司。已为 Foursquare、Pinterest、Evernote、金融时报、天气频道、优步科技 等公司的网站提供了订制在线地图服务。&lt;/p&gt;
