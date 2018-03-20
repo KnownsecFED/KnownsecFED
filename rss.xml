@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 20 Mar 2018 08:03:43 GMT</lastBuildDate><item><title><![CDATA[React ref 指北教程]]></title><description><![CDATA[React，Vue 等前端框架的出现之前 Web 页面交互完全依靠频繁的 Dom 操作实现，在那个刀耕火种的年代 Jquery 作为一个便捷的实现 Dom 操作的库便走上了神坛，成为了 Web 开发工程师必备技能。幸运的是 Web 2.0 时代，React 和 Vue…]]></description><link>https://knownsec-fed.com/2018-03-19-reactref-zhi-bei-jiao-cheng/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-19-reactref-zhi-bei-jiao-cheng/</guid><pubDate>Mon, 19 Mar 2018 01:47:51 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 20 Mar 2018 10:39:37 GMT</lastBuildDate><item><title><![CDATA[【翻译】实用的 UI 动画技巧——改进 UI 微交互的实用建议]]></title><description><![CDATA[原文链接： Good to great UI animation tips 原文作者：Pablo Stanley 让我们来看看一些 UI 动画的例子。只要稍微调整一下，你就可以用动画来提升你的 UI…]]></description><link>https://knownsec-fed.com/2018-03-19-fan-yi-shi-yong-de-ui-dong-hua-ji-qiao-gai-jin-ui-wei-jiao-hu-de-shi-yong-jian-yi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-19-fan-yi-shi-yong-de-ui-dong-hua-ji-qiao-gai-jin-ui-wei-jiao-hu-de-shi-yong-jian-yi/</guid><pubDate>Mon, 19 Mar 2018 01:50:24 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-c3e1993b0cc4c7b27f5385ed4a0252d0-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAdqW8pgaf//EABoQAAICAwAAAAAAAAAAAAAAAAABAgMQEjH/2gAIAQEAAQUCluONzFzP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAQIQEf/aAAgBAwEBPwEps//EABcRAAMBAAAAAAAAAAAAAAAAAAECEBH/2gAIAQIBAT8BDZP/xAAYEAACAwAAAAAAAAAAAAAAAAAAASAiMv/aAAgBAQAGPwKqNR//xAAZEAADAQEBAAAAAAAAAAAAAAABETEAIHH/2gAIAQEAAT8hNkCXGRHh0HeP/9oADAMBAAIAAwAAABCsz//EABYRAQEBAAAAAAAAAAAAAAAAAAEQQf/aAAgBAwEBPxDas//EABYRAQEBAAAAAAAAAAAAAAAAAAEQQf/aAAgBAgEBPxDME//EABoQAQACAwEAAAAAAAAAAAAAAAEAERAhMZH/2gAIAQEAAT8QEkR0TxiA86NHtECArAW4TH//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【翻译】实用的 UI 动画技巧——改进 UI 微交互的实用建议&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-c3e1993b0cc4c7b27f5385ed4a0252d0-d6978.jpeg&quot;
+        srcset=&quot;/static/header-c3e1993b0cc4c7b27f5385ed4a0252d0-527f0.jpeg 300w,
+/static/header-c3e1993b0cc4c7b27f5385ed4a0252d0-9a7cd.jpeg 600w,
+/static/header-c3e1993b0cc4c7b27f5385ed4a0252d0-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a href=&quot;https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5&quot;&gt;Good to great UI animation tips&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文作者：Pablo Stanley&lt;/p&gt;
+&lt;p&gt;让我们来看看一些 UI 动画的例子。只要稍微调整一下，你就可以用动画来提升你的 UI 体验。
+这些动画相互作用显示了状态之间的连续性，表示了共享元素之间的关系，并将用户的注意力吸引到他们应该注意并采取行动的事情上。&lt;/p&gt;
+&lt;h2&gt;在选项卡中显示内容&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/1-f24d965bd9c345bb9b1c4356f54d9619.gif&quot;&gt;
+左边的内容淡入淡出。右边的幻灯片和标签一起滑动。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;好的动画会将内容从一个状态转移到另一个状态。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一个伟大的动画通过使内容在不同的状态之间移动来显示过渡的连续性。
+当您设计交互式选项卡或弹出式菜单时，请尝试将内容的位置与打开它的操作相关联。通过这种方式，您不仅可以制作内容的可见性，还可以制作位置动画。当你在制作它的时候，添加一个滑动手势，可以将你从一个内容带到另一个。&lt;/p&gt;
+&lt;h2&gt;连接卡片的共享元素&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/2-9ee678975954f8f6797e74b1a48d130e.gif&quot;&gt;
+左侧的内容向上滑动打开一个新的屏幕。右侧的卡扩展并填充屏幕。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个好的动画使用像向左或向上滑动的过渡来显示详细信息屏幕上的内容。&lt;/li&gt;
+&lt;li&gt;一个伟大的动画通过动画共享内容来建立两个状态之间的连接。
+在不同状态之间进行动画制作时，请查看它们之间是否有共享元素并将它们连接起来。使用 InVision Studio 时，在创建运动转换时，在两个链接屏幕之间重复的组件会自动连接。这使原型动画变得轻而易举。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;在内容中使用瀑布效果&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/3-02b4d88a51ae2fb4a0c1d0b4f3380505.gif&quot;&gt;
+左边的卡片通过滑动和淡入来显示。右边的卡片具有相同的动画，但每张卡片都有一个短暂的延迟。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个好的动画改变内容进入屏幕时的位置和不透明度。&lt;/li&gt;
+&lt;li&gt;一个伟大的动画会迅速错开每个组或元素的显示排列。
+要完成瀑布效果，请尝试对每个内容或一组内容应用延迟。保持相同的缓解和持续时间，所以感觉一致。尽管如此，不要串联每个小元素，这些元素组合起来就是一个动画。保持动画快速和快速。谷歌建议开始每个元素不超过 20 毫秒。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;让内容将其他元素排除在外&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/4-22ff9a2907c23bad9b072720390ec0e7.gif&quot;&gt;
+左侧的动画直接在上面显示动画的内容，右侧的动画会随着它的增长推出内容。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个好的动画在上下文中移动并显示元素。&lt;/li&gt;
+&lt;li&gt;一个伟大的动画显示当他们改变时会影响周围环境的元素。
+让您的内容中的元素了解他们的环境。这意味着使内容吸引或排斥周围的元素。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;使菜单显示在上下文中&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/5-b11da93654072b590b79b959ceafb1d6.gif&quot;&gt;
+左边的菜单从下面飞入。右侧的菜单从创建它的操作扩展而来。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个好的动画菜单显示从打开它们的按钮的方向出现内容。&lt;/li&gt;
+&lt;li&gt;一个伟大的动画菜单从创建它们的动作中浮现出来，从触摸点发展而来。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;使用按钮显示不同的状态&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/6-bba3d2c12a8b5074e1e29ace3c95dd33.gif&quot;&gt;
+左边的按钮显示文本指示状态。右边的按钮使用容器显示不同状态的事件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个好的动画交互显示按钮旁边的事件。&lt;/li&gt;
+&lt;li&gt;一个伟大的动画交互使用按钮本身来显示不同的状态。
+尝试使用按钮来提供状态的可视反馈。例如，您可以用微调器或加载动画替换 CTA; 或者您可以将动画添加到显示进度的背景&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;引起用户的注意力&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/7-d9f71a1078728cd6fa8822e865b994c4.gif&quot;&gt;
+左边的例子使用颜色和位置来使元素脱颖而出。右边的一个使用微妙的动画来唤起用户的注意力。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个好的动画设计使用颜色，大小和位置突出显示用户需要注意或采取行动的重要动作。&lt;/li&gt;
+&lt;li&gt;一个伟大的动画设计使用动画来关注那个重要的动作，而不会造成干扰。
+当用户需要采取一些重要的行动时，请尝试通过动画来吸引他们的注意力。从微妙的动画开始，增加动作的重要程度（大小，颜色和速度的变化）。只能用于关键性操作 - 使用此效果的次数越多，影响越小… 并且您的用户受到的骚扰越多。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;结论&lt;/h2&gt;
+&lt;p&gt;让我们应用动画来解释状态的变化，提请注意必要的操作，确定元素之间的关系，并为我们的产品添加一些乐趣和特征。遵循这些原则，我们将把动画从优秀转变为卓越。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React ref 指北教程]]></title><description><![CDATA[React，Vue 等前端框架的出现之前 Web 页面交互完全依靠频繁的 Dom 操作实现，在那个刀耕火种的年代 Jquery 作为一个便捷的实现 Dom 操作的库便走上了神坛，成为了 Web 开发工程师必备技能。幸运的是 Web 2.0 时代，React 和 Vue…]]></description><link>https://knownsec-fed.com/2018-03-19-reactref-zhi-bei-jiao-cheng/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-19-reactref-zhi-bei-jiao-cheng/</guid><pubDate>Mon, 19 Mar 2018 01:47:51 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-921377915f3d51f9de090e35979d9750-d6978.jpeg&quot;
@@ -210,7 +305,97 @@ third &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; React&lt;span 
       &lt;/div&gt;
 &lt;h2&gt;参考文档&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.leighhalliday.com/using-refs-in-react&quot;&gt;Using Refs in React&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://reactjs.org/docs/refs-and-the-dom.html&quot;&gt;React 官方文档&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[一种方便的跨域开发解决方案]]></title><description><![CDATA[现在越来越多的 Web 项目都采取前后端分离的开发方式，也就是在开发过程中前端工程运行在一个 node server 上，同时提供 REST API 的后端工程作为独立的服务运行在另一个 server 上，这样前后端通过 HTTP…]]></description><link>https://knownsec-fed.com/2018-03-17-yi-zhong-qian-hou-duan-fen-li-de-kua-yu-kai-fa-fang-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-17-yi-zhong-qian-hou-duan-fen-li-de-kua-yu-kai-fa-fang-shi/</guid><pubDate>Sat, 17 Mar 2018 14:30:10 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;&lt;a href=&quot;https://reactjs.org/docs/refs-and-the-dom.html&quot;&gt;React 官方文档&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】 如何使你的 Node 应用免于崩溃]]></title><description><![CDATA[原文地址： How to prevent your Node.js process from crashing 原文作者：Alberto Gimeno 通过对一些 Node.js 开发者的采访，我发现没有人能够正确的回答出这两个问题： 在 Node.js…]]></description><link>https://knownsec-fed.com/2018-03-18-fan-yi-how-to-prevent-your-node.js-process-from-crashing/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-18-fan-yi-how-to-prevent-your-node.js-process-from-crashing/</guid><pubDate>Sat, 17 Mar 2018 23:08:12 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-cb4c748214e2be4c15303f5123db0749-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABxRVcICv/xAAZEAADAAMAAAAAAAAAAAAAAAAAAQIQESH/2gAIAQEAAQUC4Up0PP8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEhIP/aAAgBAQAGPwKkef/EABoQAQABBQAAAAAAAAAAAAAAAAEhABEgMXH/2gAIAQEAAT8hJSsVsleYv//aAAwDAQACAAMAAAAQS8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAWEQEBAQAAAAAAAAAAAAAAAAARECH/2gAIAQIBAT8QNZ//xAAcEAACAQUBAAAAAAAAAAAAAAABERAAMUFRkfD/2gAIAQEAAT8QYptoDoQDlot6/OZj/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;如何使你的 Node 应用免于崩溃&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-cb4c748214e2be4c15303f5123db0749-d6978.jpeg&quot;
+        srcset=&quot;/static/header-cb4c748214e2be4c15303f5123db0749-527f0.jpeg 300w,
+/static/header-cb4c748214e2be4c15303f5123db0749-9a7cd.jpeg 600w,
+/static/header-cb4c748214e2be4c15303f5123db0749-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文地址：&lt;a href=&quot;https://medium.com/dailyjs/how-to-prevent-your-node-js-process-from-crashing-5d40247b8ab2&quot;&gt;How to prevent your Node.js process from crashing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;原文作者：Alberto Gimeno&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通过对一些 Node.js 开发者的采访，我发现没有人能够正确的回答出这两个问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Node.js 中，不处理 rejected promise 会发生什么?&lt;/li&gt;
+&lt;li&gt;不处理  stream 中的错误会发生什么?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;在 Node.js 中，不处理 rejected promise 会发生什么 ?&lt;/h3&gt;
+&lt;p&gt;在最新版本的 Node.js（8.x，9.x以及可能更早的版本）中，您会得到这样的一些警告：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;48446&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; UnhandledPromiseRejectionWarning&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; This is &lt;span class=&quot;token function&quot;&gt;fine&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;48446&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; UnhandledPromiseRejectionWarning&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Unhandled promise rejection&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; This error originated either by throwing inside &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; an &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; without a &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; block&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; or by rejecting a promise which was not handled &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;rejection id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;48446&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;DEP0018&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; DeprecationWarning&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Unhandled promise rejections are deprecated&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; In the future&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; promise rejections that are not handled will terminate the Node&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;js process &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; a non&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;zero exit code&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;该进程不会崩溃，但在未来的 Node.js 版本中，可能会发生崩溃。应该如何处理 rejected promise 呢?可以监听进程的 unhandledRejection 事件。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;unhandledRejection&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reason&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; promise&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Unhandled Rejection at:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; reason&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;stack &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; reason&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// Recommended: send the information to sentry.io&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// or whatever crash reporting service you use&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;对于 rejected 状态的错误，例如：&lt;code&gt;Promise.reject(new Error(&apos;This is fine&apos;))&lt;/code&gt; ，将会打印出堆栈信息，同时也可以监听进程的警告事件，获取到更多的错误相关信息。&lt;/p&gt;
+&lt;h3&gt;不处理  stream 中的错误会发生什么?&lt;/h3&gt;
+&lt;p&gt;创建应用程序：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; fs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;fs&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; stream &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createReadStream&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;does-not-exist.txt&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;以上代码将会异常退出并打印出：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;events&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;js&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;137&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; er&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Unhandled &apos;error&apos; event&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;^&lt;/span&gt;
+Error&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ENOENT&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; no such file or directory&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; open &lt;span class=&quot;token string&quot;&gt;&apos;do-not-exists.txt&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;用户正在上传文件，服务器端应用程序使用 stream 处理文件，用户上传的文件可能非常大，因为某些原因用户中止上传，stream 被意外关闭，服务器端 Node.js 进程会立即崩溃，同时会影响到其它用户使用。所以，不要忘记处理所有 stream 中的错误事件！&lt;/p&gt;
+&lt;h3&gt;补充：JSON.parse()&lt;/h3&gt;
+&lt;p&gt;JSON.parse() 中，如果传入的字符串不是有效的JSON，将会抛出一个错误。可以使用 try-catch 把它包裹起来。这同样适用于 Node.js API 中的任何 * Sync() 方法。否则下面的代码会让你的进程崩溃：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;/foo&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; next&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; foo &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; JSON&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;body&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jsonString&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;总结&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;监听未处理的 rejected 事件，获取堆栈信息，可以有效防止 Node.js 进程退出；&lt;/li&gt;
+&lt;li&gt;始终捕获并处理 stream 的异常错误；&lt;/li&gt;
+&lt;li&gt;将 JSON.parse()和任何 * Sync() 函数包装在 try-catch 块中。&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[一种方便的跨域开发解决方案]]></title><description><![CDATA[现在越来越多的 Web 项目都采取前后端分离的开发方式，也就是在开发过程中前端工程运行在一个 node server 上，同时提供 REST API 的后端工程作为独立的服务运行在另一个 server 上，这样前后端通过 HTTP…]]></description><link>https://knownsec-fed.com/2018-03-17-yi-zhong-qian-hou-duan-fen-li-de-kua-yu-kai-fa-fang-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-17-yi-zhong-qian-hou-duan-fen-li-de-kua-yu-kai-fa-fang-shi/</guid><pubDate>Sat, 17 Mar 2018 14:30:10 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-509052d3640b64511a13f356d08df049-d6978.jpeg&quot;
