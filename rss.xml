@@ -1,4 +1,1862 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 21 Mar 2018 08:02:00 GMT</lastBuildDate><item><title><![CDATA[【翻译】实用的 UI 动画技巧——改进 UI 微交互的实用建议]]></title><description><![CDATA[原文链接： Good to great UI animation tips 原文作者：Pablo Stanley 让我们来看看一些 UI 动画的例子。只要稍微调整一下，你就可以用动画来提升你的 UI…]]></description><link>https://knownsec-fed.com/2018-03-19-fan-yi-shi-yong-de-ui-dong-hua-ji-qiao-gai-jin-ui-wei-jiao-hu-de-shi-yong-jian-yi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-19-fan-yi-shi-yong-de-ui-dong-hua-ji-qiao-gai-jin-ui-wei-jiao-hu-de-shi-yong-jian-yi/</guid><pubDate>Mon, 19 Mar 2018 01:50:24 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KnownsecFED]]></title><description><![CDATA[Knownsec Frontend Team Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 28 Mar 2018 08:03:09 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;编写一个项目的 README 就像是写一本书的序言一样，一个好的项目不应该仅仅只有一份高质量代码，同时更应该有一份高质量的文档。而对使用者来说，一份好的文档能够节省大量的时间。&lt;/p&gt;
+&lt;h2&gt;国际化&lt;/h2&gt;
+&lt;p&gt;要知道比如 GitHub 这样的代码托管平台，可是有着另一个名字，全世界最大的同性交友网站（技术基不说话），你的项目可能不止中国的程序猿在使用，一个好的项目，使用者来自世界各地，那么一份中英双语的文档至关重要。&lt;/p&gt;
+&lt;p&gt;毕竟对母语的文档有更加亲和的感觉，同时阅读起来会更加顺畅。&lt;/p&gt;
+&lt;p&gt;比如，Ant Design Pro 的文档：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read1-4b6d2b1df1b8e4d7ea09cd79dd8f6fa8-69fab.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 571px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 23.992994746059544%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAiElEQVQY052QwQ6CMBBE+/8/12gKWkNPUKjQHiQx9GD7tCZ4w6CTTPYy+3aygg3lnPlHIsZIPwxcp0AzLBi3cI+PgiSl/AGXueeIWMPp5YJJG20La4V+s3DOoVTFpTFIKdFao6oaYwyHo8La/qcXiHm+vZcm7+mspW076tOZcZzwIeB92N2u+AnCA4aP276FBwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read1-4b6d2b1df1b8e4d7ea09cd79dd8f6fa8-69fab.png&quot;
+        srcset=&quot;/static/read1-4b6d2b1df1b8e4d7ea09cd79dd8f6fa8-f161a.png 300w,
+/static/read1-4b6d2b1df1b8e4d7ea09cd79dd8f6fa8-69fab.png 571w&quot;
+        sizes=&quot;(max-width: 571px) 100vw, 571px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;项目是干什么的&lt;/h2&gt;
+&lt;p&gt;首先，要有一个项目名，不一定要霸气，但是一定要朗朗上口，不会读起来很拗口，而且别太长。&lt;/p&gt;
+&lt;p&gt;比如说，chalk、react、vue、commander 等等。如果自己实在不知道怎么起，搞个随机函数，试试自己的运气吧。&lt;/p&gt;
+&lt;p&gt;当然了，如果你有 LOGO 是最好的了，一张高清大图 LOGO 帅一脸，看起来就舒服有木有。&lt;/p&gt;
+&lt;p&gt;就比如说这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read-e1a2a950d53723a391359effcbaa12fd-5922e.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 328px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50.91463414634146%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAA30lEQVQoz2P49ev3f2pihv94wD8g/vPv7/8/f/+C+X+BNIj/DyyDHTD8+weUxoHxgb8geSx6GHAqBoL7X1/9n3V+1/8V63f+//Hz5/9N2w78n35i+/8rnx6jqENxIT4D3//88t9nT9d/zYS4/0WlPf+NYpP+226s+//gy2vSDAQBWLjtfX31v/niiv9GLtH/jaYW/l/x9ASKPFEGoodj0enF//Wm5f9PODT9/8+/v1HUEG3gf2gMg8C190/+W+yo+3/g+TUU8X+keBmmGEbvf3b1/y8CriPaQGTN6BahAwAiBgA9VE7NGgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read-e1a2a950d53723a391359effcbaa12fd-5922e.png&quot;
+        srcset=&quot;/static/read-e1a2a950d53723a391359effcbaa12fd-da01a.png 300w,
+/static/read-e1a2a950d53723a391359effcbaa12fd-5922e.png 328w&quot;
+        sizes=&quot;(max-width: 328px) 100vw, 328px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;或者这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read2-5d5e03cdc0fe4ed3a5042fed13b700f0-63e88.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 219px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 108.67579908675799%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAAC5UlEQVQ4y51V30tTYRj+LpIIuukviC67ratuKkK3pJsghYx+UP5IgwizhGwLlUjWMmk/gjGwUIxiiLKWTrc53HSbOra5zU1U2qagt7qBMLedp/OdeQ477viDXng557zv9z3neZ7zHj4CNhiG4ZK/zxfybBZENVE/n0eB7YPW92t8EJQUmP0FfOSYAgfM93IsUGm/ULJPBCgqshdXYAGL4UURsLAlvYuJmWn8XU+JQMsYUpk0OtUqkKdynBlQoOnHV8Qi0eLK3SwsTjuuDn4E+fYKFTXXEVzwcy1qAU9IACwwRWm+cAiXmu+BNN8C6WvCac0L1H//ApnxA4j+OYjqCU6xYA872pDOpMtYEkh4Mjr0E+ZfJly4XQky1AHi/gwyrwdpq8WDxnpMj1owZZ3g1u7t7UlL5imnt7fR3PEa1SYtKkxdIIo6nJNdQcV9GYj2Gc5b+lCje48+raZIomQaxB7mix62Kt6ANFaBdNbhbO0NtHYpkUqmMDPvQ3VbC0gLa8WnxyBVl+FxuY/wcH88vKEALsqv4eW7t0isreFg2KaduPmoDpV37yCTTpfNaRlDp2MKBq0Ox0VLYxNSqVSZ7DLAhoYGdHV3Y31jA4FgENFoFJFIREhaSySTkMnl6O/vFySLPOTlbrAgPT090Ov1GBwYxOTEJMb+jGF8bFyU1nErRkZGYDQapSXzgJQBXWT5beHS4XDAbrdLp80Og8Eg7JUEDIfDiMfjgi9UilTmcjkOwGazCXN4KODy8jJOGhQwm80eDri6ugqTyQSdTseBcx8hEECQ/RButxtWqxV+vx8ulwuxWIx7PpLhysoKhoeH4fV6oVaroVQq0d7eDpVKBY1Gw72ot7cXCoWCY0e9PJJhqWTqVSaTwc7Ozv9LDoVCnOyTxrEMKZjT6cTW1hYSiQSS7ADTpH8En/wzvZrNZumxKR3MpaUleDwezM3NwefzSSbtzc7OYnNz8/Aj4GDjpMEcOFf+Ad3dIH4d4GetAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read2-5d5e03cdc0fe4ed3a5042fed13b700f0-63e88.png&quot;
+        srcset=&quot;/static/read2-5d5e03cdc0fe4ed3a5042fed13b700f0-63e88.png 219w&quot;
+        sizes=&quot;(max-width: 219px) 100vw, 219px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;再接下来，一个好的项目简介，能够帮助使用者了解他能够使用这个工具干什么，能不能满足自己的需求。一般来说，我们希望从简介中，了解下面一些信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;什么语言写的？Node、Python 还是其他什么&lt;/li&gt;
+&lt;li&gt;这个项目的用途是什么&lt;/li&gt;
+&lt;li&gt;最新版本信息&lt;/li&gt;
+&lt;li&gt;构建、测试结果等信息&lt;/li&gt;
+&lt;li&gt;Demo 演示地址或者官网&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;就像这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-48daa.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 763px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 23.85321100917431%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA7UlEQVQY04WQzU7DMBCE8/4X3qBnJC4VhQNCQiqoggs8AwIppPmxE8duUv992FUDJ8RIo9GsV7O7LtbbSzbliu3ugc3TFevPFfcv17y+3/C4u+Pi9o3nD0VGiJH4BzOyFmXTUOmafTdQS8FgO5TuMceBUSvq4YCxgf+wBBfKeNTokdozaEd06SFEgg+EkIJiwDuHtRaXNPNoHWaOzNZjkz/1nVEIKan2NbKXSNlTdZqvVic11GJEpForJN2Z2YteUTYjXT/StB1yUGhjcN5TTNOcTjOYw5QmRdJiP0z2dMbyd3mTzBh/udR8Css93wN9f9smKdcrAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-48daa.png&quot;
+        srcset=&quot;/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-7a867.png 300w,
+/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-4af92.png 600w,
+/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-48daa.png 763w&quot;
+        sizes=&quot;(max-width: 763px) 100vw, 763px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;对于我们技术 README 一定要各种徽章砸脸上，比如标配的 travis、coverage、npm 等等，给人一种安全感，如果你自己测试构建都没过，我用着也不放心。至于这些东西大家可以去这儿看看：&lt;a href=&quot;http://shields.io/&quot;&gt;http://shields.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;同时，我们要精要的总结项目的闪光点，有哪些特性是激动人心的，别人没有的，这是吸引用户的好方法。&lt;/p&gt;
+&lt;p&gt;比如这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-c7da2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 633px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 28.751974723538705%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAzUlEQVQY041R0Q6CMBDj//+GxG/RKBsMtqEgYIJsAwTqMROelNikabLc9Xq3IAwPYHGCFcuy4B+sdb8YNM0DbfvENE0Yx3HjMAxejbXoOgNLaq3DPM/7hn3f43g6g3EOzmPSGEpriCyFlBL59YZMKnpT0DqnIa/dbQLnHKKIIUkEhBCIGKPmHNdbAZGmeHadT+dc71OvCffWDowxuJBhmkkopX2KmMwZTyil9KZKKRRFiaqu/Rl2E64FZXknlqibBp+btrhX1db87VN+4Q3A/89CzoSeswAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-c7da2.png&quot;
+        srcset=&quot;/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-90aba.png 300w,
+/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-12a46.png 600w,
+/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-c7da2.png 633w&quot;
+        sizes=&quot;(max-width: 633px) 100vw, 633px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;安装及快速开始&lt;/h2&gt;
+&lt;p&gt;这部分内容是是文档很重要的部分，通过这些步骤，能够让使用者快速的使用。&lt;/p&gt;
+&lt;p&gt;首先，你要告诉用户怎么去获取以及初始化项目，比如下面这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-95ce6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 40.714285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABEklEQVQoz42S6W6DMBCE8/4vWKlpSlKOloTD+Lahme5uCEp/NKqlT2Mbe8QM7EAj5xkxZSRWIsQE5wN8iILzcVu7dS/ELHt8L8/Lxo4Nz92IfVHh8H7E/nBE1bRouwGXfsSZ4Hl74bUi7eX8oDQ+zx1GbeHZPCRBDPthQnGqUHzUUNrJA2WcMLHSJb7YjRM9ywhpFpO73s3E8Hq9IlLEW4wksVmt80SApbiPcCUpLyu3+a/IbOicEyyhtYa1DsYYUgvjFwx2gSJ8/AYdfzokMpc+USQ1GYpI8SYtaIrLcBSOF1Je9W/WjzLg5fUNx7JBWTX4qlucmLJGR/1y1MeeniGG3J/SRt40UQ8bW1+33+k//AB+HGuX4Bl6NgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read5&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-95ce6.png&quot;
+        srcset=&quot;/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-896dd.png 300w,
+/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-9a461.png 600w,
+/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-95ce6.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;然后你需要给一个简单的例子，让使用者快速感受到使用它的好处：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read6-aa131217a7919e18d73181a70493c634-a072c.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 687px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.33187772925764%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABNElEQVQoz51S2ZKDMAzj//9xewLlyH2QQACtA53OPrVsmRFOHiJLsosYI5TS8N6DMYau67EsM779iikleOdhfYDQHtp6uGHEECeqAT6MGKeEKc2HUCT6WS7RcYsHJ0IX0ciATnnUvUTL1dbMU4NM/gnFNC8wLYPsODrpoElloAikMuBS052Uy91BVv0JRVpXOCbQ3lv8PDREzVBfS5xvFU6XBpczR9OJrfvwVPmecFnhs+U7EVxrNJVBVUtcywa3iprcGpzKliJRL5XvSDfLqhcQZLvpOWVGWTK7DWcfTITN8PFYhikTUl6eHg1x3MMnRJpsRqBzGHccyjDvobUWjvZwq87BGAulNVUDrF/sobEONu8iYQiRVI2vmncr/QNkeQYTCj1NuqfhGAo+jE+r8ZjNv/gFPNlVtCddHP0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read6&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read6-aa131217a7919e18d73181a70493c634-a072c.png&quot;
+        srcset=&quot;/static/read6-aa131217a7919e18d73181a70493c634-1b896.png 300w,
+/static/read6-aa131217a7919e18d73181a70493c634-c6a2a.png 600w,
+/static/read6-aa131217a7919e18d73181a70493c634-a072c.png 687w&quot;
+        sizes=&quot;(max-width: 687px) 100vw, 687px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;当然了，在这个地方，最好最直观的方法就是放一张 gif 的图片，吸引用户的注意力，同时给用户展示使用结果，比如这样：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/read-783a490f5dcb64a16f40a29a5114833f.gif&quot; alt=&quot;gif&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;API&lt;/h2&gt;
+&lt;p&gt;API 是一个项目的灵魂，这是暴露给用户最直接的地方，当使用者有疑问的时候，他会第一时间去找你的 API 文档。&lt;/p&gt;
+&lt;p&gt;对于一个 API 应该表述清楚的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;作用&lt;/li&gt;
+&lt;li&gt;入参及每个参数是否必须，数据类型是什么等等&lt;/li&gt;
+&lt;li&gt;返回值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你的 API 不多，那么可以放在一个文件里，但是如果你的 API 非常多，那么建议你将 API 单独放到一个文件里，这个文件留一个链接就可以。&lt;/p&gt;
+&lt;p&gt;同时，如果你的 API 有相当多个版本，那么需要准备几份 API 文档，应对不同的需求。&lt;/p&gt;
+&lt;p&gt;就比如这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-bca50.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 735px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 11.428571428571429%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAUklEQVQI112MUQ6AMAhDd/+7TjaZGgejCjMxWZMXWj5eMjOISKA6oMMmOpGPdcuy3eNJLsp5AxGh8oXSBHx21EPefoO4g1qPW9okfvz3vPeQeh7DApx/pVb/DQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read8&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-bca50.png&quot;
+        srcset=&quot;/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-41e4d.png 300w,
+/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-f64ad.png 600w,
+/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-bca50.png 735w&quot;
+        sizes=&quot;(max-width: 735px) 100vw, 735px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;版本变化&lt;/h2&gt;
+&lt;p&gt;还有最好是能有一份 CHANGELOG 文档，对不同版本做了哪些修改，有什么特性等等，让用户知道每个版本干了什么。&lt;/p&gt;
+&lt;p&gt;就比如这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read7-523ba0004ba966c0d5a0540a494588d4-b272b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 870px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.0919540229885%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVQ4y5VT23aEIBDz//+zra6oCChyMyUjbvfsS1vOmR0ubshkQrdtG5ZlwTRNNWZM8wytNR6jQowRHOd5/jk6Y6wAGWOg1xXramCtw1rXOWdc43zGHwAvoFzKc7O0OQFjrrmcLePX0fHPBO2HAcPjAaUU+n7AWDNl6JXBMC4Y1IppsXB7gtkzNp/gfBYir7J03nvR8C6RF+RKhZmRUhQtc04SMV1s5SxfIDegMKReA9kND4QQJI7jaBEE7Gh7IcQaB3zIOGJBiBk+lqbtBdqRlbVWylN3mT3LH/Hx+SUXjWqqXR/r+YTP0aKffY0Dszkq4zdA6jfKx0o03LYd/x2iX3NDx5LIUFVmy6Ixz5ee3KOleCHXt71Yga7WWl2Edgl2DzBbejanc841sEXs8xuT25X37/tZR+HlpczX7WSj9Srgrr4iMmPjeDHXd143souVHZuWn6Ddvu8CxlJZUmrWuc39Oj+ZS76i+Y6mL+XHOuJDNoRGZunWNTY1OOdbp56y56vevtRcxNw09nvJ30Ve9eYisuHiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read7&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read7-523ba0004ba966c0d5a0540a494588d4-b272b.png&quot;
+        srcset=&quot;/static/read7-523ba0004ba966c0d5a0540a494588d4-81012.png 300w,
+/static/read7-523ba0004ba966c0d5a0540a494588d4-0f940.png 600w,
+/static/read7-523ba0004ba966c0d5a0540a494588d4-b272b.png 870w&quot;
+        sizes=&quot;(max-width: 870px) 100vw, 870px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;FAQ&lt;/h2&gt;
+&lt;p&gt;当然了，如果你不想回答一些非常重复的问题，我想你需要一份 FAQ 来记录一些常见问题。&lt;/p&gt;
+&lt;h2&gt;贡献&lt;/h2&gt;
+&lt;p&gt;我相信很多人跟我一样，能给一些知名仓库提交 PR 是一件比较自豪的事情。&lt;/p&gt;
+&lt;p&gt;所以如果能提供一个提交 PR 的方式或者是途径，能够吸引更多的人来贡献代码，同时将贡献者，展示出来，我想会有更多人愿意贡献出自己的力量。&lt;/p&gt;
+&lt;p&gt;比如在这样的列表中也是挺有意思的：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-8936b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 920px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 19.021739130434785%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABGklEQVQY0w2PS07CAAAFObgHUA+AJhoEFUgEkU+hYrFQGmwpCC2I5ROgfBICRJAqQVZjF5OZ1Uuer25mGU5bDGY6o6nm2WJgCfTmNp+jBlZPoj+xqHd0xpMWna6K7ZgeBlZTpj+t0+yU0LUMq6WDLxQ+RTZTSNINaimEVImRSgeQlSiC6CdfCJBWIoRiF4ivEeK5IE/ZK+qDAg/hM0QlhKBFOfef0O638YnFIFIjg6TEKBtpFF3whi7RzCTVVo6aLXqdoFoTMAdlMtItjy8Bhut3nov3VLyHjWGJzFuc2XKET60kaU2aGLaM/pFHU+/IZ6+pGAlUI8J40WV/WPO73/F33LFzFzhzh/3Rxf35YvO9wt1v2bobDp7/ARiZC4VTx9xSAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read9&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-8936b.png&quot;
+        srcset=&quot;/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-ce236.png 300w,
+/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-53a11.png 600w,
+/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-8936b.png 920w&quot;
+        sizes=&quot;(max-width: 920px) 100vw, 920px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;版权&lt;/h2&gt;
+&lt;p&gt;相信前不久 Facebook 的开源协议事件也是闹得沸沸扬扬，所以，做好在项目中，将开源协议证书这些东西弄好。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;最后，总结一下，对于一份好的 README 来说，这些也许够了，也许不够，但是，文档始终是因为使用者才存在的东西，所以使用者关注什么，什么才是我们文档的重点。&lt;/p&gt;
+&lt;p&gt;但是这些基础是我们应该都需要的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;名字&lt;/li&gt;
+&lt;li&gt;简介&lt;/li&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;li&gt;安装配置&lt;/li&gt;
+&lt;li&gt;快速教程&lt;/li&gt;
+&lt;li&gt;API 文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】为开源软件设计]]></title><description><![CDATA[为开源软件设计 【原文标题】Designing for open source software 【原文链接】 https://uxdesign.cc/mattermost-relay-e19dfb68c708 作者：Varun Pai…]]></description><link>https://knownsec-fed.com/2018-03-27-fan-yi-wei-kai-yuan-ruan-jian-she-ji/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-27-fan-yi-wei-kai-yuan-ruan-jian-she-ji/</guid><pubDate>Tue, 27 Mar 2018 07:19:35 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-2b760d6dc817a3ab35b84acee629fa6f-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAE/9oADAMBAAIQAxAAAAESs5GstmDRf//EABoQAAICAwAAAAAAAAAAAAAAAAABAhEDEBL/2gAIAQEAAQUCVGOVHSER1//EABYRAQEBAAAAAAAAAAAAAAAAAAACEf/aAAgBAwEBPwG2P//EABYRAQEBAAAAAAAAAAAAAAAAAAABEv/aAAgBAgEBPwGMv//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAQEAAgMAAAAAAAAAAAAAAAEAETEhUYH/2gAIAQEAAT8hIDhfbJhgyEnu2jRf/9oADAMBAAIAAwAAABB8z//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxCGX//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/ECH/xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFxkf/aAAgBAQABPxB5FJbgqZl57uXsEKhuL7G02J7eJ//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【翻译】为开源软件设计&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-2b760d6dc817a3ab35b84acee629fa6f-d6978.jpeg&quot;
+        srcset=&quot;/static/header-2b760d6dc817a3ab35b84acee629fa6f-527f0.jpeg 300w,
+/static/header-2b760d6dc817a3ab35b84acee629fa6f-9a7cd.jpeg 600w,
+/static/header-2b760d6dc817a3ab35b84acee629fa6f-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;为开源软件设计&lt;/h1&gt;
+&lt;p&gt;【原文标题】Designing for open source software&lt;/p&gt;
+&lt;p&gt;【原文链接】&lt;a href=&quot;https://uxdesign.cc/mattermost-relay-e19dfb68c708&quot;&gt;https://uxdesign.cc/mattermost-relay-e19dfb68c708&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者：Varun Pai&lt;/p&gt;
+&lt;p&gt;从历史上看，我们都知道开源软件的设计很糟糕。&lt;/p&gt;
+&lt;h2&gt;Mattermost → Relay&lt;/h2&gt;
+&lt;p&gt;当你听到一个产品上的“开源”这个词时，脑海中会浮现出什么样的画面呢?你能想象一个办公室里满是设计师对每一个小像素的痴迷吗?或者你能想象一群书呆子们拼凑出一些专有软件的破破烂烂的山寨产品吗?&lt;/p&gt;
+&lt;p&gt;从历史上看，我们都相信开源软件的设计很糟糕。(当然不包括所有的开源软件)&lt;/p&gt;
+&lt;p&gt;30年前，在1988年，软件的许可或设计语言的概念远远超出一般人。十年后，一切都很糟糕。软件几乎不工作。你的电脑上肯定有病毒。HTML有一个标签。安装Linux需要几个星期的耐心和对自己的信任，而我需要为马拉松训练的那种信念。如果有一个典型的失败，我们可以宣传为这个黑暗时代的典范，它是OpenOffice。或者StarOffice或LibreOffice或Apache OpenOffice或OOo或AOO或者任何你可能知道的名字。当产品的名字被打破时，它不太可能成为一个品牌。&lt;/p&gt;
+&lt;p&gt;快进10年。截至2008年，火狐正在蚕食微软的午餐。Firefox是开源的、快速的、符合标准的。很容易喜欢Firefox。但是我们不喜欢以前的Firefox。我们喜欢现在的Firefox。Firefox之前就有一个品牌。一个品牌不是一个时髦的名字和一个可爱的标志。你的产品是你的品牌，你的产品是由它的设计决定的。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/01-acee8bf442dcef261fb5db0e40df6b03-7cfc4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAADP0lEQVQ4y4WUW28bRRTH/XH4AEg88gG4SLwgXlChT4go0L6EVoheQ4tQkewmJKoSlaaCokSIRiVycHwJvsVOfFlfcrNjx+vb2l7bsR3bSZzY/z+z60R5QWG0v5kz55z575mZ1RpWll73l5bfwG53wGK1wmo2w+vxYM3ng0/gdLmwYrXBZrfjH6cTUiSCWDyOsBQTc5eIu3VfJBrD6qqjb3DYrPC4nHQ5V+kW+Lxurnlc9Ps8DG74GQ5uUAoFdEKBdUalEDdjEuNRiZKIhYLCFwkzJgX5t8UGw1JoG4+mXnFi7k/cN73E6Pg0Ru4+xahg5I4JX35n1NHskTtGfHVvAjdFztcPp3Dj+2nc/nEWY4+f4fGz37kQ2IfB5I7i8x9+4c2f53Ht0QzfGzPxw1smfvCNUR91+5bxHBPfF/6Pv53gZ/enef3BND8dn+G18Rl88fQ3TnpTMCzu5mDJVriwlcNsWObSzi5t+SotOZUWuayzIuI6mk/gKTe43+3phKqHdBRqWM6U+NyfhsErl+HYyzFk/AS3n/zEUeND+qNv6M426SlU6S4e0JVVhWCN1mSe9lSB9mSOK4ksfXKJUkHl6l4e5q0059ZEhcVmGzvlAybG3sGDd9/i3ZG3mdxcYGBikqHXfzD86iUDL2YZNJu57FrjoiBeOuBGRmEwW+KmUmdgPwn/Xop/SXkYeqenOCZZXPdCuvERFdcTNg9bVBbnmZ+fY+7FFOVfZ6k8n2QsFOS6FGHz5Ixqq0Ol2aZ62GGjc4ST0x7DmQYMQgv6Izq9v6Lhf0K7xQ4MwFCn3WqhUi5RrZSoFAsslxSWlCIr5bJua6OqVqgoCosiXlVVaku11YNzjcZh91KwVq1CEQKtVpO1WlWn2WiwXquxXq/pc01Em1erqu4bDIY1X2icnBxfCp6dnUHwn7vBFZsdVjnUOD4WgoPz14jKkJUzENtCp9NGv9/X8qBWKlrl6LTb6PV60PIHg/75eImmcXR0dHEperni/MpsHNR1+6IJcWpnWyzk2e12r7y0U/HFGFKp1CCXy2F7axPrfh9isSjS6TRkUa0sy9jZ2UZc/F3i8RiSySQywjeMDeM6mQyy2SwSicTgXycJFQWFVQFlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;01&quot;
+        title=&quot;&quot;
+        src=&quot;/static/01-acee8bf442dcef261fb5db0e40df6b03-7cfc4.png&quot;
+        srcset=&quot;/static/01-acee8bf442dcef261fb5db0e40df6b03-c1837.png 300w,
+/static/01-acee8bf442dcef261fb5db0e40df6b03-7cfc4.png 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;在2018年，用户期望要求设计渐近接近完美。您的产品最好是开放的、兼容的、干净的、快速的和强大的。当nilenso第一次从Slack到Mattermost的时候，我们把这些都记在心里。从我们第一次部署最重要的时候，它就感觉完整了。我们之所以选择Mattermost，是因为它与我们想要的设计非常接近，我们知道我们可以将它带到其他地方。&lt;/p&gt;
+&lt;h3&gt;开始&lt;/h3&gt;
+&lt;p&gt;目前最重要的设计问题不仅仅是视觉上的，而是与互动和体验相关的。我们首先讨论的问题之一是向通道历史添加无限滚动。我们无法理解为什么用户应该手动点击载入历史的每一页。所以我们把它优化了!&lt;/p&gt;
+&lt;p&gt;在不久的将来，我们会把所有细微的细节都添加到你绝对喜欢的软件中。然而，目前我们的目标是解决用户对最重要的Mattermost／Relay体验的明显问题。像无限滚动这些问题，让我们的早期用户会对我们说：“啊…这不是固定的吗? !”&lt;/p&gt;
+&lt;p&gt;这些问题源于不一致性和视觉差异所造成的痛苦，这些差异会阻碍可用性。很多人惊讶地发现，这些看似微不足道的问题，竟然会以千种剪纸的形式消亡。同样令人惊讶的是，一旦你掌握了基本的知识，软件就会变成一种乐趣。&lt;/p&gt;
+&lt;p&gt;我们将从最基本的图标和字体开始，然后再讨论我们重新设计的Mattermost的细节。&lt;/p&gt;
+&lt;h3&gt;Icons&lt;/h3&gt;
+&lt;p&gt;当我们从Slack转向Mattermost时，所使用的图标的差异是明显的。最重要的图标在重量上不一致。他们站在外面，而不是混入其中。&lt;/p&gt;
+&lt;p&gt;在进一步挖掘之后，我们发现Mattermost使用的是免费版本的字体Awesome。别误会我的意思，我喜欢字体太棒的家伙，我甚至支持他们的kickstarter。但并不是所有的图标都能在自由的重量(规则和固体)中得到，这是一个相当大的失败。&lt;/p&gt;
+&lt;p&gt;我们有三个选择图标集的规则:
+1.图标必须是开源的
+2.图标需要扩展
+3.图标需要有不同的样式(线条和实体)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请允许我打断一下。从技术上讲，我们可以通过将商业的人工制品从源树中保留下来，从而将其构建到中继客户端，即使中继是agpl3许可的(作为最基本的web应用程序的派生)。那么，为什么我们觉得图标必须是开源的呢?继电器生活在自由软件的原则和管理它的许可的原则的交叉点上。Relay站在巨人的肩膀上，不仅是最重要的源代码，还有Linux、GoLang、React和其他数百个项目。在这里，在精神和开放哲学的信之间，存在着大量的细微差别。通过这种细微差别来切割是一个根本的概念，但是“分享一样。”“如果我们从自由/开放的软件社区中获取一些东西，我们将会回到那个社区，为下一个接受者提供我们拥有的同样的自由。”如果我们调整继电器的设计，直到它完全完美，但这涉及到最重要的变化，最重要的是不能吸收上游，我们已经失败了，我们的每一个项目都是我们自己建立起来的。因此，我们的图标必须有一个开放的许可证。&lt;/p&gt;
+&lt;p&gt;---Steven Deobald&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;谢谢你，Steven。记住以上几点，有三个图标集进行了最后一轮的讨论:
+1.清晰的图标
+2.羽毛的图标
+3.标志性的图标&lt;/p&gt;
+&lt;p&gt;我们选择了Clarity图标集，因为样式、一致性和图标是设计语言系统的一部分。Clarity是一个开源设计系统，由VMware的优秀人员创建和维护。由于VMware有一个专门的团队来推动持续更新，所以很少有人担心图标集会被抛弃或过时。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/02-76c1e9120a3ccddc66fb677fd51ce326-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 39.4375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAA9ElEQVQY03WRTW6DMBCFfcEeqOoRuu02uy64QESOEKkLJKoQQEiW+A2kEAGJbQSGPHUkNxLpLKyZN/NZ42e2rGIcR6UGrfWjOAzDPM+Uo0Ul0yK++u+Cb5Z5om6aZpzzsizNtJTS87zz+YfKtm3ruun7nmmZ3qIPGX8auCiKLMtOpz+4aS6+H2AjKkEeDseu69h67Wma9G8YBbm56FF5AkMFv/wfIIUQSFitum2835ceYTirqnIcJ0kSo2A6CII8zwnGo6Iogins+8Jfdq9vXxszCrcwih5hpNi2DYcIdl3XsizwT9aGt+t/wp7m2UqpMAzh3x0lfsnXP0djmgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;02&quot;
+        title=&quot;&quot;
+        src=&quot;/static/02-76c1e9120a3ccddc66fb677fd51ce326-abe1c.png&quot;
+        srcset=&quot;/static/02-76c1e9120a3ccddc66fb677fd51ce326-10046.png 300w,
+/static/02-76c1e9120a3ccddc66fb677fd51ce326-3c4a3.png 600w,
+/static/02-76c1e9120a3ccddc66fb677fd51ce326-abe1c.png 1200w,
+/static/02-76c1e9120a3ccddc66fb677fd51ce326-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;FONT&lt;/h3&gt;
+&lt;p&gt;我们的字体选择遵循同样的规则:
+1.字体必须是开源的。
+2.字体应该有多个权重。
+伴随着这些也进行了补充：
+1.字体大x高，易于阅读。
+2.字体有较厚的常规重量，所以字体将会是脆的。&lt;/p&gt;
+&lt;p&gt;我们非常重视字体的权重，因为中继首先是一个消息传递工具。在接力赛中，你把大部分时间都花在阅读上，我们希望这段经历尽可能的愉快。中继也有完整的Markdown支持和权重，帮助在应用程序内部和消息本身中建立层次结构。&lt;/p&gt;
+&lt;p&gt;我们发现有几个竞争者满足了这些要求。PT Sans、Lato和Noto Sans都有令人愉快的阅读体验，但经过大量的尝试和错误之后，我们选择了Fira Sans。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/03-80519e50ed30bdbae45d215f82d6f351-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.49999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABFUlEQVQoz5WQXXKEIAzHvf8VeoCepa+dVkEE/LYzgm4Xrbqg2xC1fdi+9DcZJDEh/yRwA5vL521Rd892/w/BcqGXt6d5aKzdnLPrut5OxnEchmFZltsDELLOBbOZ5MsrT4u6rquqKsuyP9FI/xe6/zTjVzDPc9tpSmPGWAKwRHcd2CN9jx/8B4+CKF+slYaGUsoszfI8F0JwzoWQcMKLPPGev3AuBWRJSEhlZowJpmkCGU3zQQmNaUwIARW7hWFEAUIJWhQR70IOXn6LYWCoBNWoP2FI7GHoHpE9CKNlWQbr9MUwA6wqfA8JPo19UMGPHUF6CiFFUfjOzjkY25ihbVvcRKcPOqWOs8OgUmpfHFyuV2Ot/QavDuwuxG1bhQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;03&quot;
+        title=&quot;&quot;
+        src=&quot;/static/03-80519e50ed30bdbae45d215f82d6f351-abe1c.png&quot;
+        srcset=&quot;/static/03-80519e50ed30bdbae45d215f82d6f351-10046.png 300w,
+/static/03-80519e50ed30bdbae45d215f82d6f351-3c4a3.png 600w,
+/static/03-80519e50ed30bdbae45d215f82d6f351-abe1c.png 1200w,
+/static/03-80519e50ed30bdbae45d215f82d6f351-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/04-b0075b8bf1f407cfbf76c74cd6611356-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.49999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABI0lEQVQoz5VQu3KDMBDk/7uU+YfU6dOlxMEGIRgz4WkjC/QwjokMZCXitJ7s6HG3p9vVnBfw/dPHS3Phy7LM87z8B16kyuf4tTmfbPMyrxIPsTgbbyoa9fbOeiGF6Pt+GAZjzPcjfI3G3G6e0boiJN3v8888jiljp2maUDZ/uLnjjjUe3QMP9pfr9dAc6qrmnHecM8baFqtFylwA5uBwPCJrESilIOFZmeuYJGkYRoQQe0YWMb5BaRQis8v3Nxt/s93udttdEASQuDePI8TyvCgKu6uyKooSQemwxnXdlGWFEpjV2X57bc6yDLawIhGxljGFM3GgNIlWkiaExGEYpknadZ11xtxxaX0WQiglISmlxOilg9ZaCNn3KP4yuEFiopjrD5nZ9nsQUHXnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;04&quot;
+        title=&quot;&quot;
+        src=&quot;/static/04-b0075b8bf1f407cfbf76c74cd6611356-abe1c.png&quot;
+        srcset=&quot;/static/04-b0075b8bf1f407cfbf76c74cd6611356-10046.png 300w,
+/static/04-b0075b8bf1f407cfbf76c74cd6611356-3c4a3.png 600w,
+/static/04-b0075b8bf1f407cfbf76c74cd6611356-abe1c.png 1200w,
+/static/04-b0075b8bf1f407cfbf76c74cd6611356-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Fira Sans是一种难以置信的字体。它有各种各样的重量和压缩性质的字体保存消息接口，同时保持它的脆性。&lt;/p&gt;
+&lt;p&gt;你知道Fira Sans是建立在Erik Spiekermann的商业字体FF Meta之上的吗?这个Spiekermann是由Mozilla基金会委托的!
+（阅读这里的了解全部故事：&lt;a href=&quot;http://typographica.org/typeface-reviews/fira-sans/&quot;&gt;Fira Sans – Typographica&lt;/a&gt;）&lt;/p&gt;
+&lt;h3&gt;Mattermost如何成为Relay&lt;/h3&gt;
+&lt;p&gt;实现设计基础改进了现有的经验。但要使这些改变真正令人愉快，我们需要对应用程序的各个方面进行微调。
+1.左侧边栏
+2.频道标题
+3.主消息传递界面
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/05-369efdaecdf8f3081cef17a8ea3dcdd7-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.06250000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABuklEQVQoz32QXSsEURzG9wN4q91Z1oqtdaPcuHAhyjVRMjMrb61S7t1wy0fwAZS4tithWsbKO4VQSojyEtnB7s6Zc+acM7PjnB2kTZ6L/zmdzq/n+T+eQNtUa8t4gzRd0j4ndMxunz8bQIcQOXlZlkUoYZNSatt27luEEPbiEZrHQp0ztf3LwciiX1o6OLqy3u+1jyylhMHs32/G+ZbLe0obRwNyPBTdCPYmhIi6f3xjZ59Sb2kDAOdfceeipolA93z1gCpIK34xsXD28AhT2Y8MpZad1//wZFCOhQbXfeKKT17dO7mxMg+uM4QQQGT/SlsIFzdNcud+tSKiCJG1w+NrBzxndIRYaSZG1NERAcAg+KuCn+X5zhwW52sG172SUi4m4mf3T0jD0PyphyXHGLPCC5zZC4crpVh4KOmXFK+Y2D29dfArRISXbHOekQAANl1Pt3z2bpom37lKjoWjSb+s+HrWtjYvwOOdpiNoGCgvkwuzw72z6baYTqc5zJyr+tSyrmWvrKzupN5eoJbJQgNSy8r9qXxsXdd57JqeeP3IZt1wMhxVDy81HgnTHA/Nv+WcQoydEBOE6SeehxqZdwlAuQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;05&quot;
+        title=&quot;&quot;
+        src=&quot;/static/05-369efdaecdf8f3081cef17a8ea3dcdd7-abe1c.png&quot;
+        srcset=&quot;/static/05-369efdaecdf8f3081cef17a8ea3dcdd7-10046.png 300w,
+/static/05-369efdaecdf8f3081cef17a8ea3dcdd7-3c4a3.png 600w,
+/static/05-369efdaecdf8f3081cef17a8ea3dcdd7-abe1c.png 1200w,
+/static/05-369efdaecdf8f3081cef17a8ea3dcdd7-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;左侧边栏&lt;/h3&gt;
+&lt;p&gt;侧边栏的团队部分允许用户在组织内的团队之间切换，他们是其中的一部分。当前的Mattermost实现截断了团队名称并添加了一条署名。这个问题的问题在于，它不会增加任何值，因为在团队中徘徊会打开一个带有团队名称的工具提示。我们删除了byline和截断的文本。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06-e148829a1d3adca5c27351f4295625e6-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.0625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABy0lEQVQoz2P4DwV//r9c/v/x5P+/X4C5/2Di///9A7Hvf3vWcHHuonvbkeUY/v79d+LSoz3Hb2xf37FqXfPWE5f3nn3x8etPuLa3H7/uOfFg0o5DtrOao5fP33Xq6clrL6Gaf/397567StCqntdtbqxtrYdllXLchqv33gLlfv/+CyQ3nXyY6pje6J2l4jx7lXGAj01pZOcJsNH/GX7/++9dtFHauYXfub/GOKTcM0EvbdP1+2DNf0Cat556GGWfleWazm/d2WLka+lXH9V+BKr5x6+/9vGTBAzTBOw6+PzWCfqvlAhcc/HOe6D0L7DNB07f57Ss5bWp4XefKxCyld1nrU/lQbjmf7axfQIGifz2XXKx+1US9mkm77949yNC85n7fObVQpYVQj5LtdMOK8buCW05A9X88/c/84huLp0EAfsuhdi9ctE7leN3X7z3EdlmPvMqcZtKQa/F8rH7JMK2hzafRmg2Cu5gVY9ht2iTjNwjGrJdNmoXsuZ9p+4x6ZdzGJVyuS4UCd3N67fFv/4kVPPff/8Onb2/8cD1rUfvHbj4Zs+5V/vOv/709Tc8ql6//7r50M0th25sP/Fk7/k3By++uXz/EySqADtrdCh3hH4JAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;06&quot;
+        title=&quot;&quot;
+        src=&quot;/static/06-e148829a1d3adca5c27351f4295625e6-abe1c.png&quot;
+        srcset=&quot;/static/06-e148829a1d3adca5c27351f4295625e6-10046.png 300w,
+/static/06-e148829a1d3adca5c27351f4295625e6-3c4a3.png 600w,
+/static/06-e148829a1d3adca5c27351f4295625e6-abe1c.png 1200w,
+/static/06-e148829a1d3adca5c27351f4295625e6-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;侧边栏的通道部分被混合在一起。有一个明确的层次结构，包括通道标题，如“最喜欢的通道”和区分活动和非活动通道。我们把这种等级制度带到表面。活跃的通道有一个沉重的重量和不活跃的通道逐渐消失和一个较低的不透明度，尽管增加的脆度的Fira Sans。&lt;/p&gt;
+&lt;p&gt;分组通道现在有更紧密的间距，组本身有更大的间距，允许组标题有更小的字体。总之，这使得层次结构一目了然。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07-3f6aa7289cc45f21c520d26f4b589c8a-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.87499999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAACrUlEQVQoz2P4//3ffyD49/P/8wX/n8z4/+fdfzD/PwT8/f/3D4h9/sPN6vMztj49ChL7B5Vl2HjszbZL7/acvLd5XcfWtY17T17df/7VtpMPH7z6BJQ+eeP1puPPDl183bJ1r+n0hsINa49derPz1OMDl579+vOXId6gxM2yTC5qg3LkNgHfjXzui4W8F/LbL1yw8gZQc2Hy+knyts7eneZZe0yjt0l5r+Rxmy/svcgjfseH9z8ZOrQTKr3jdFI36UYvE/KYK+A+X8x/oYr78pXL7wA1FyWvbdZwsYiZqJ24XjpgIa/bXEGP+UKe851jt3z48JOB332tYNAaYd/Vgr6rBXxWAZFowBoGh8WTN4Js9qg4yOS+QTRsk1jgehEgClgvGrCOx2u1ZtLWd59/MsgH71FO3Kccv1c+do9a0j7FuL2iYTuZ3LdM33QfqDmg9rRcxB6tlANKcXvVk/ZrphwQD9/F4bNVL/3gu8+/GEySDupn7jfI2K+btk8vfb8hmCEcsm3udpDmjP4rDgWH/etPeFUfByKf2hMeVcdcyo86lh59D9RslXbYLO+gdcFhs9yDRpkHjLMPAEnhkO1ztz8Aao5pu6Aas8e68LBF3iHjrIO66fuBFmil7LPIPwzSrBK2RyZ6l3TETsnwnYJB2/j8twoHb2d02zRt0z2gZp/KEwK+2xTjdstF75KJ2iUUtE0gcBuH92ad1H0gZ6uE7paLBctF7wIqkozYIR66g9l903SwZr/qk0L+25Tj9wB1ysXsUk3YIxWxE2gB0H6QZrWIPQpxu5Xj9oiH7QDaCURABrJmEf/t6kl7gQogsiIh23n9t+qmQTSH75GP3S0duRMih6lZ2H+7SuIeibCdQkEYmmUDdkpG7pQI34FVs2/VST6fbUDTxUJ3CGHYDAB/xZ+urdHd1AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;07&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07-3f6aa7289cc45f21c520d26f4b589c8a-abe1c.png&quot;
+        srcset=&quot;/static/07-3f6aa7289cc45f21c520d26f4b589c8a-10046.png 300w,
+/static/07-3f6aa7289cc45f21c520d26f4b589c8a-3c4a3.png 600w,
+/static/07-3f6aa7289cc45f21c520d26f4b589c8a-abe1c.png 1200w,
+/static/07-3f6aa7289cc45f21c520d26f4b589c8a-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;频道标题&lt;/h3&gt;
+&lt;p&gt;在通道标题中我们清理了图标。以下是我们在图标上遇到的问题:
+1.大多数图标的重量都不一样。
+2.有些图标的大小不同。
+3.一些图标有一些定位覆盖来对齐它们。&lt;/p&gt;
+&lt;p&gt;通道头的旧图标突出显示，将注意力从主聊天区转移开。我们想让他们融入设计中不引人注目但仍然很明显。为了做到这一点，我们去掉了边框，将图标设置为清晰。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/08-209a93a01f4a0021bf5b5730d520fe6b-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABCklEQVQoz6VR20oDMRDd//YXfPFZf0H8ClErgliR1SIFxS202m2ySZPJ3JyIKN6g0sMhJJk5cyaThvzd0O7i6koNwir6Sf6F/vEmdLdvydpoUSaNDmAo2QNGzD7H1RoG4CQ/eXQ6OTs5xt5z1kaQIWVIwIUJqK6FMWPdo3yjoFzO4L574QxC5rwFmuvldGd0MFq0dmCR/4kn7mlvfDheTquYWazAH7ARxUKLWJDe59pIUZuZRgVfKDI4SH0Kz5GjyFo/SFEU9OKh2z9vu3mvoUYbq0hM5mlNWzFzthMh1Ra+0qIByizkQlQzzdnuTSo1yozWUgHGTd+cC7oQc87J4Hs39IvgNhVv81Wvne+D/MH4++UAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;08&quot;
+        title=&quot;&quot;
+        src=&quot;/static/08-209a93a01f4a0021bf5b5730d520fe6b-abe1c.png&quot;
+        srcset=&quot;/static/08-209a93a01f4a0021bf5b5730d520fe6b-10046.png 300w,
+/static/08-209a93a01f4a0021bf5b5730d520fe6b-3c4a3.png 600w,
+/static/08-209a93a01f4a0021bf5b5730d520fe6b-abe1c.png 1200w,
+/static/08-209a93a01f4a0021bf5b5730d520fe6b-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;除了图标之外，我们还为标题和右侧的侧边栏修改了CSS，去掉了所有有趣的边距和相对位置。我们还为每个图标添加了一致的高度、大小和大小。这些修复不仅仅是在UI中添加了抛光效果;一旦合并，他们也将确保社区中的任何人，包括我们，更容易定制最重要的。&lt;/p&gt;
+&lt;h3&gt;主消息传递界面&lt;/h3&gt;
+&lt;p&gt;消息传递接口是用户花费最多时间的地方。消息传递接口也是最重要的设计不一致的地方，这是最基本的:对齐、贴子之间的间距、字体大小和界面上的其他元素，如应答框。&lt;/p&gt;
+&lt;p&gt;在我们使用Fira Sans之后，增加了字体的大小，确定了标题和名称的粗细，以建立层次结构，和固定的对齐方式，间距问题，以提供更清晰和更愉快的阅读体验。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/09-32191529096b8757e5625ca45456303c-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 109.87500000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAIAAABPIytRAAAACXBIWXMAAAsSAAALEgHS3X78AAABxUlEQVQ4y51U247TMBD1/38J8AIChBBPCKFFYsXCC6ii3XbTNE1cx7ETO77H2TGIEAFLN3tkWZqx5+KZM0aOXqjjyyGODwDSfZ3na0oba+2kDSFYY73zAGMMiPEX4NQ5p7UGJdIu0lMtWs55CzKcwY1hBlDCHmeYlMgax6+el+WO1o0Qwjm/IG3jxzXnVXNseSeETInFFP1extINj3ef9mTfdRJSWVYwaweGi6rKOKGy5X0n+q7r23ZwbjznCxml2cdnZf6dYiKaRjImWimEllKHc+9HvRs2ndBOW+dgQXdcCD6OynrGoAX8Zwvjv4BsGF5sPxfkYLUJQ5g7nhp7Z+Rvzf6SrOM4xLiYZejytHq1ee+N+zsmAMgAJJv7nXiS0gZZKVdVWCk13Zg4BEWASvzx1PADydixg169LisshYT7i5JHIz/41ZvN9ibL9hif5vHPGx+tfEu3p6qCyIuInYyvFX1SfCnyvMLYGK10AsSfT+jdaQvitxe73Q0lddcmcsGCTSkdzn0RyNfX8upRUeKaEDCCue6EZCrwtPz/y4diakwawYeQJJPkafahLEp45+/vZhzv4wmVmr/DX1nDYCTiuCz4LY6BCBNRox5+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;09&quot;
+        title=&quot;&quot;
+        src=&quot;/static/09-32191529096b8757e5625ca45456303c-abe1c.png&quot;
+        srcset=&quot;/static/09-32191529096b8757e5625ca45456303c-10046.png 300w,
+/static/09-32191529096b8757e5625ca45456303c-3c4a3.png 600w,
+/static/09-32191529096b8757e5625ca45456303c-abe1c.png 1200w,
+/static/09-32191529096b8757e5625ca45456303c-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;主题&lt;/h2&gt;
+&lt;p&gt;可访问性问题。我们有感光敏感的同事，我们相信你也是。这就是为什么Relay的布局框架有亮色和暗色的主题。&lt;/p&gt;
+&lt;p&gt;现在已经有很多的Relay/Mattermost最兼容的主题，但是我们还是将把所有的精力投入到这两者中。他们已经把火炬传递得很漂亮，而且每一次改善都只会变得更好。&lt;/p&gt;
+&lt;p&gt;当然，我们并没有把你限制在这两个主题上。Relay还带有社区主题和Relay的整个色彩方案是完全可定制的…不仅仅侧边栏。我们正在努力通过CSS使Relay 100%定制，这样用户就能完全控制UI的各个方面，如果他们想要的话。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/10-9860c7d296a1a37795dde6e32c9d8dd2-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 29.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsSAAALEgHS3X78AAABBElEQVQY02MwMY51dUzw9Mk3MU62skw/f+7m508fv3399vfP3z+///z6+evnj5+/fvz6+uUrkP37128ggggCEYOurr+Dfa63d42bS5m7a+WSheufPHz47t17oBxQHUQ/RAOEC0RwIxi0NL2dHIqD/Ft8vet9vRrXbtpz/+HdRw8fv3v7DqgCYj9WBNHs62BX4Ovd4Opa5eNat/DM4Ssv77598frHjx9g5/34/esXViNAmjU1fJwcigL9m12dK7086lYu33Ln1s3Hj54AbX4PhG/ff/709fcv3Dbb2xZ4uNU42JV6utdu3rjv4/u3Hz9+AobQl89fv339+eXzjx/fgZZj0QwArQAcGooJqTcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;10&quot;
+        title=&quot;&quot;
+        src=&quot;/static/10-9860c7d296a1a37795dde6e32c9d8dd2-abe1c.png&quot;
+        srcset=&quot;/static/10-9860c7d296a1a37795dde6e32c9d8dd2-10046.png 300w,
+/static/10-9860c7d296a1a37795dde6e32c9d8dd2-3c4a3.png 600w,
+/static/10-9860c7d296a1a37795dde6e32c9d8dd2-abe1c.png 1200w,
+/static/10-9860c7d296a1a37795dde6e32c9d8dd2-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/11-20cfeb3f63221ccbb4c9c54c598071d5-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 29.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsSAAALEgHS3X78AAAA70lEQVQY03WOa0vDMBSG+0PmhogXZLAuaa5Lm0SnYLehDDYoMrVL2igtdn7o/1+26Rd18HI4t/c8J+hfPwk6j+Xq4nx2dTnjrLwbbwguIFhHcI0ig5HFyDBa+sSXB+2bNjg7lRBkInaMmjBcgcFi8rBRsj6s7v3fV3z8paDX5RF8vdWNVjXFLsRZOm2maatk5ccQ5H89P8qDXkeA8DmJK8ZKEpr+slSLr3vdELz7lpDCM+Exc7czQvDlRn9SYiNohoPl/LGdpK1/RMtaJ5VgDh0ln+zIjDoI3rwZDjOVuFh8cOZG/J0jK3BBkf0Pnm8BcDNgUy9sWCMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;11&quot;
+        title=&quot;&quot;
+        src=&quot;/static/11-20cfeb3f63221ccbb4c9c54c598071d5-abe1c.png&quot;
+        srcset=&quot;/static/11-20cfeb3f63221ccbb4c9c54c598071d5-10046.png 300w,
+/static/11-20cfeb3f63221ccbb4c9c54c598071d5-3c4a3.png 600w,
+/static/11-20cfeb3f63221ccbb4c9c54c598071d5-abe1c.png 1200w,
+/static/11-20cfeb3f63221ccbb4c9c54c598071d5-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;整合在一起&lt;/h3&gt;
+&lt;p&gt;通过对图标、字体和主题的一致设计语言，我们确保所有的“片段”都是完整的。将它们组合在一起，应用程序本身就变得很完整了。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/12-19c862703c933a4e6a672379d5fbe695-7e266.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.12500000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABb0lEQVQoz32Rz0vCUADH/YPqXE3mnBrT2dQ6Bx27BCoRDpaBJZ06FEQQ1cGjEHRJsUPQpQ4dAuvQpZLQzTRye9v0vW2avTkQihx8Du/Xh+973+cJ+VdYLjk3szo9tVwu3cKeLneUQX/Qt/qWaRnIwMAexOCpg2mYeBEPPH5qLcoKEYb3EqnTk4v32pskNmG3h/cc3zmNGcsO2MdyOs7txLhckBaOj87rtddGXWx/tBBETv4kEEIeypdMxLaj7FaI5PcvS4+g9iW10ehWDm4yTaUW4/kIs+nzbhSKV+KnKNYbQAGaqqlA1TV9Uv4omUxGmGyQztAUf7BXeH6qSlJT7siKrABZVwHUVOiWHFvIseEsSayXK/fWt6ECzenTQLgqu61/ZcOwC0stJfJhRggQmd1i8U6sgrZsWZZLVRj8Fvwuu7A4Zyd7Z9OlysNwOIRd6G7+krlobj7AE6RwfXaIXm4aLdlEaHzuT+HjL8DX/gFk5O7o2HXx2QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;12&quot;
+        title=&quot;&quot;
+        src=&quot;/static/12-19c862703c933a4e6a672379d5fbe695-abe1c.png&quot;
+        srcset=&quot;/static/12-19c862703c933a4e6a672379d5fbe695-10046.png 300w,
+/static/12-19c862703c933a4e6a672379d5fbe695-3c4a3.png 600w,
+/static/12-19c862703c933a4e6a672379d5fbe695-abe1c.png 1200w,
+/static/12-19c862703c933a4e6a672379d5fbe695-7e266.png 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Mattermost发布了一项设计挑战，鼓励来自世界各地的设计师提高最重要的可读性和可用性。我们的重新设计解决了这个挑战。&lt;/p&gt;
+&lt;p&gt;注册一下（&lt;a href=&quot;https://relay-chat.com/signup&quot;&gt;Relay&lt;/a&gt;），尝试重新设计，并且告诉我们你的想法!&lt;/p&gt;
+&lt;p&gt;随着视觉设计的改变，中继也致力于显著改善用户体验。我们的公共Trello董事会包含了我们的Relay计划。&lt;/p&gt;
+&lt;h2&gt;未来&lt;/h2&gt;
+&lt;p&gt;“设计”是Medium最受欢迎的第8个标签。“开源”排名290。源代码许可永远不会像你所在城市的自来水公司那样性感。供水本身就是你城市设计的一部分。同样地，你作为用户的自由被设计成你购买的软件。你对产品的所有权只是设计之树的另一个分支。&lt;/p&gt;
+&lt;p&gt;开源软件需要好的设计，因为好的设计尊重用户。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[服务端渲染和静态化]]></title><description><![CDATA[这里不说 React 的 SSR，说下在 hapi 框架下使用 hapi-react-views 静态化网站时的一个小 tip。 hapi-react-views 的 render 服务端渲染其实很简单，就是把数据和模板结合的一个过程，最简单的例子可以用 ES…]]></description><link>https://knownsec-fed.com/2018-03-25-react-server-side-render-with-hapi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-react-server-side-render-with-hapi/</guid><pubDate>Sun, 25 Mar 2018 03:46:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-921925015decb72b2c474fc73b392bc2-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHcizQJ/8QAFhAAAwAAAAAAAAAAAAAAAAAAAAEg/9oACAEBAAEFAhT/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAEFAAAAAAAAAAAAAAAAAAEAESAhQf/aAAgBAQABPyFbcizH/9oADAMBAAIAAwAAABAL/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAQUAAAAAAAAAAAAAAAABEQAgITHB/9oACAEBAAE/EFAl1SRDshA9t//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;服务端渲染和静态化&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-921925015decb72b2c474fc73b392bc2-d6978.jpeg&quot;
+        srcset=&quot;/static/header-921925015decb72b2c474fc73b392bc2-527f0.jpeg 300w,
+/static/header-921925015decb72b2c474fc73b392bc2-9a7cd.jpeg 600w,
+/static/header-921925015decb72b2c474fc73b392bc2-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;这里不说 React 的 SSR，说下在 hapi 框架下使用 hapi-react-views 静态化网站时的一个小 tip。&lt;/p&gt;
+&lt;h2&gt;hapi-react-views 的 render&lt;/h2&gt;
+&lt;p&gt;服务端渲染其实很简单，就是把数据和模板结合的一个过程，最简单的例子可以用 ES6 的字符串模板来理解。&lt;/p&gt;
+&lt;p&gt;hapi-react-views 的基本用法文档写的很详细，不赘述，这里着重看下 render 的方法。根据文档有一下 4 种渲染的方式:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;reply.render(‘index’, data)&lt;/li&gt;
+&lt;li&gt;request.render(‘index’, data)&lt;/li&gt;
+&lt;li&gt;server.render(‘index’, data)&lt;/li&gt;
+&lt;li&gt;manager.render(‘index’, data)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;无论那种方式，首先要调用 render 方法，然后将模板和数据传入到 render 方法中。但是 hapi 自身并没有 render 方法，而是 hapi-react-views 本身提供的，然后注入到 hapi 中并挂载到 hapi 不同的对象上，来方便我们获取到 render 方法而已。&lt;/p&gt;
+&lt;p&gt;实际上渲染这个过程与 hapi 并没有太多的直接关系，只要能够拿到 render 方法，我们就能够得到一系列的 html 字符串，然后可以通过 hapi 的 reply 返回给前端。抛开框架，简单示意下流程:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; hapiReactViews &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hapi-react-views&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; reply&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; render &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hapiReactViews&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;render&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; htmlString &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;index&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;reply&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;htmlString&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;注: hapi 在注册 views 时，注意 &lt;code&gt;server.root.views&lt;/code&gt; 和 &lt;code&gt;server.views&lt;/code&gt; 的区别，否则会报错。&lt;/p&gt;
+&lt;h2&gt;如何静态化&lt;/h2&gt;
+&lt;p&gt;网站的静态化就是把整个网站所有可访问的 URL 返回的 HTML 都已文本的方式保存。在细粒度上控制可以有全站静态化，模块静态化，详情静态化，定时静态化，按时间段静态化等。&lt;/p&gt;
+&lt;p&gt;实现方式简单来说有两种方式:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;遍历访问所有 URL&lt;/li&gt;
+&lt;li&gt;遍历渲染所有的 render 方法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;第一种方式缺点显而易见，每个 URL 都要走完整的 HTTP 请求，耗时较长，也给服务器带来不必要的压力，但是好处是代码耦合度低。
+第二种方式，直接调用 render 保存数据，优点是速度快，缺点是耦合度高。&lt;/p&gt;
+&lt;h2&gt;实践&lt;/h2&gt;
+&lt;p&gt;hapi 下实现服务端渲染和静态的化的关键在于如何获取 render 方法。虽然有四种方式都可以获取 render 方法，但是并不是每一种都能实现不同细粒度上的静态化。举个例子: 定时静态化 + reply.render(或 request.render)
+由于定时静态化并没有 http 请求，所以此时是不存在 request 和 reply 对象，更不用说 render 方法了。那么四种 render 方式，只剩下两种可以选择，这里选择第三种，在 server 对象上获取 render 方法。&lt;/p&gt;
+&lt;p&gt;第一步，定义公共的 service 层方法，专门渲染输出静态 html。该设计将渲染工作和具体模板引擎独立开，无论使用或更换什么渲染引擎，只需要传入对应渲染引擎的 render 即可。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * 传入相应的渲染引擎 render，以及对应的业务参数
+ * 返回 html 字符串
+ * renderService.js
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; renderIndex &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; options &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;render&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; params&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 业务层代码 -- 根据 params 参数获取 render 数据&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getRenderData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;index&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;第二步，定义 controller 方法，实现 SSR。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * 第一种 controller 层的实现方式
+ * 不使用 service 渲染层，而是直接在 controller 中渲染
+ * 优点：简单直接，缺点：无法公用 service 层方法，功能分层不明显，抽象度低
+ * indexController.js
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; indexController1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; h&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; request&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+   &lt;span class=&quot;token comment&quot;&gt;// 业务层代码 -- 根据 params 参数获取 render 数据&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getRenderData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; h&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;index&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;/**
+ * 第二种，调用公共 service 层方法，推荐这种方式
+ * service 层抽象了公共的方法，所有需要 html 的地方都可以调用，代码简洁，分层明显
+ * indexController.js
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;requestWrapper&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; request &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 强行将 render 的执行上下文绑定为 request&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; render &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; request&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;render&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  request&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;render &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; render&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; request&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; indexController2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; h&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; request&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 在 controller 中，从 request 中获取 render 方法，并强行绑定 render 方法的执行上下文&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;render&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;requestWrapper&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 调用 service 渲染层方法&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; content &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; renderService&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;renderIndex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;render&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; params&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;reply&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;content&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;第三步，定义静态化 schedule 层并以插件的形式插入到 hapi 中。server 中 render 可以类似理解为全局的属性，不需要具体的 request 和 reply.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; register &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;server&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; next&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 通过 server 获取 render 方法，并强行绑定 render 的执行上下文&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; render &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;render&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;server&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 调用 service 渲染层，由于公用方法，减少了很多代码量&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; content &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; renderService&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;renderIndex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;render&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; params&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;writeFileSync&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;indexPath&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; content&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+register&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;attributes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;schedule&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; register&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;在同时需要处理服务端渲染和静态化的时候，有几个需要注意的知识点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;hapi 注册 views 时，注意 &lt;code&gt;server.root.views&lt;/code&gt; 和 &lt;code&gt;server.views&lt;/code&gt; 用法，到底有啥子区别？&lt;/li&gt;
+&lt;li&gt;javascript 中函数执行上下文绑定，如 &lt;code&gt;server.render.bind(server)&lt;/code&gt;，不这样绑定会怎样？&lt;/li&gt;
+&lt;li&gt;service 渲染层的抽象，渲染通常不是在 controller 层吗？&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[如何写一个高逼格 README]]></title><description><![CDATA[最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。 编写一个项目的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/</guid><pubDate>Sun, 25 Mar 2018 02:33:41 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-81cd8091e971960cd0c5e31184e68a0f-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe7NBFH/xAAXEAADAQAAAAAAAAAAAAAAAAARICEi/9oACAEBAAEFAqdL/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAACAx/9oACAEBAAY/AiL/AP/EABoQAAICAwAAAAAAAAAAAAAAAAExACERIFH/2gAIAQEAAT8hJQKmeECt6f/aAAwDAQACAAMAAAAQwA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAgIDAAAAAAAAAAAAAAABACERIDGBof/aAAgBAQABPxAtF9Ti7LjUoxhZp//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;如何写一个高逼格 README&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-81cd8091e971960cd0c5e31184e68a0f-d6978.jpeg&quot;
+        srcset=&quot;/static/header-81cd8091e971960cd0c5e31184e68a0f-527f0.jpeg 300w,
+/static/header-81cd8091e971960cd0c5e31184e68a0f-9a7cd.jpeg 600w,
+/static/header-81cd8091e971960cd0c5e31184e68a0f-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;编写一个项目的 README 就像是写一本书的序言一样，一个好的项目不应该仅仅只有一份高质量代码，同时更应该有一份高质量的文档。而对使用者来说，一份好的文档能够节省大量的时间。&lt;/p&gt;
+&lt;h2&gt;国际化&lt;/h2&gt;
+&lt;p&gt;要知道比如 GitHub 这样的代码托管平台，可是有着另一个名字，全世界最大的同性交友网站（技术基不说话），你的项目可能不止中国的程序猿在使用，一个好的项目，使用者来自世界各地，那么一份中英双语的文档至关重要。&lt;/p&gt;
+&lt;p&gt;毕竟对母语的文档有更加亲和的感觉，同时阅读起来会更加顺畅。&lt;/p&gt;
+&lt;p&gt;比如，Ant Design Pro 的文档：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read1-4b6d2b1df1b8e4d7ea09cd79dd8f6fa8-69fab.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 571px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 23.992994746059544%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAiElEQVQY052QwQ6CMBBE+/8/12gKWkNPUKjQHiQx9GD7tCZ4w6CTTPYy+3aygg3lnPlHIsZIPwxcp0AzLBi3cI+PgiSl/AGXueeIWMPp5YJJG20La4V+s3DOoVTFpTFIKdFao6oaYwyHo8La/qcXiHm+vZcm7+mspW076tOZcZzwIeB92N2u+AnCA4aP276FBwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read1-4b6d2b1df1b8e4d7ea09cd79dd8f6fa8-69fab.png&quot;
+        srcset=&quot;/static/read1-4b6d2b1df1b8e4d7ea09cd79dd8f6fa8-f161a.png 300w,
+/static/read1-4b6d2b1df1b8e4d7ea09cd79dd8f6fa8-69fab.png 571w&quot;
+        sizes=&quot;(max-width: 571px) 100vw, 571px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;项目是干什么的&lt;/h2&gt;
+&lt;p&gt;首先，要有一个项目名，不一定要霸气，但是一定要朗朗上口，不会读起来很拗口，而且别太长。&lt;/p&gt;
+&lt;p&gt;比如说，chalk、react、vue、commander 等等。如果自己实在不知道怎么起，搞个随机函数，试试自己的运气吧。&lt;/p&gt;
+&lt;p&gt;当然了，如果你有 LOGO 是最好的了，一张高清大图 LOGO 帅一脸，看起来就舒服有木有。&lt;/p&gt;
+&lt;p&gt;就比如说这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read-e1a2a950d53723a391359effcbaa12fd-5922e.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 328px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50.91463414634146%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAA30lEQVQoz2P49ev3f2pihv94wD8g/vPv7/8/f/+C+X+BNIj/DyyDHTD8+weUxoHxgb8geSx6GHAqBoL7X1/9n3V+1/8V63f+//Hz5/9N2w78n35i+/8rnx6jqENxIT4D3//88t9nT9d/zYS4/0WlPf+NYpP+226s+//gy2vSDAQBWLjtfX31v/niiv9GLtH/jaYW/l/x9ASKPFEGoodj0enF//Wm5f9PODT9/8+/v1HUEG3gf2gMg8C190/+W+yo+3/g+TUU8X+keBmmGEbvf3b1/y8CriPaQGTN6BahAwAiBgA9VE7NGgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read-e1a2a950d53723a391359effcbaa12fd-5922e.png&quot;
+        srcset=&quot;/static/read-e1a2a950d53723a391359effcbaa12fd-da01a.png 300w,
+/static/read-e1a2a950d53723a391359effcbaa12fd-5922e.png 328w&quot;
+        sizes=&quot;(max-width: 328px) 100vw, 328px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;或者这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read2-5d5e03cdc0fe4ed3a5042fed13b700f0-63e88.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 219px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 108.67579908675799%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAAC5UlEQVQ4y51V30tTYRj+LpIIuukviC67ratuKkK3pJsghYx+UP5IgwizhGwLlUjWMmk/gjGwUIxiiLKWTrc53HSbOra5zU1U2qagt7qBMLedp/OdeQ477viDXng557zv9z3neZ7zHj4CNhiG4ZK/zxfybBZENVE/n0eB7YPW92t8EJQUmP0FfOSYAgfM93IsUGm/ULJPBCgqshdXYAGL4UURsLAlvYuJmWn8XU+JQMsYUpk0OtUqkKdynBlQoOnHV8Qi0eLK3SwsTjuuDn4E+fYKFTXXEVzwcy1qAU9IACwwRWm+cAiXmu+BNN8C6WvCac0L1H//ApnxA4j+OYjqCU6xYA872pDOpMtYEkh4Mjr0E+ZfJly4XQky1AHi/gwyrwdpq8WDxnpMj1owZZ3g1u7t7UlL5imnt7fR3PEa1SYtKkxdIIo6nJNdQcV9GYj2Gc5b+lCje48+raZIomQaxB7mix62Kt6ANFaBdNbhbO0NtHYpkUqmMDPvQ3VbC0gLa8WnxyBVl+FxuY/wcH88vKEALsqv4eW7t0isreFg2KaduPmoDpV37yCTTpfNaRlDp2MKBq0Ox0VLYxNSqVSZ7DLAhoYGdHV3Y31jA4FgENFoFJFIREhaSySTkMnl6O/vFySLPOTlbrAgPT090Ov1GBwYxOTEJMb+jGF8bFyU1nErRkZGYDQapSXzgJQBXWT5beHS4XDAbrdLp80Og8Eg7JUEDIfDiMfjgi9UilTmcjkOwGazCXN4KODy8jJOGhQwm80eDri6ugqTyQSdTseBcx8hEECQ/RButxtWqxV+vx8ulwuxWIx7PpLhysoKhoeH4fV6oVaroVQq0d7eDpVKBY1Gw72ot7cXCoWCY0e9PJJhqWTqVSaTwc7Ozv9LDoVCnOyTxrEMKZjT6cTW1hYSiQSS7ADTpH8En/wzvZrNZumxKR3MpaUleDwezM3NwefzSSbtzc7OYnNz8/Aj4GDjpMEcOFf+Ad3dIH4d4GetAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read2-5d5e03cdc0fe4ed3a5042fed13b700f0-63e88.png&quot;
+        srcset=&quot;/static/read2-5d5e03cdc0fe4ed3a5042fed13b700f0-63e88.png 219w&quot;
+        sizes=&quot;(max-width: 219px) 100vw, 219px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;再接下来，一个好的项目简介，能够帮助使用者了解他能够使用这个工具干什么，能不能满足自己的需求。一般来说，我们希望从简介中，了解下面一些信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;什么语言写的？Node、Python 还是其他什么&lt;/li&gt;
+&lt;li&gt;这个项目的用途是什么&lt;/li&gt;
+&lt;li&gt;最新版本信息&lt;/li&gt;
+&lt;li&gt;构建、测试结果等信息&lt;/li&gt;
+&lt;li&gt;Demo 演示地址或者官网&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;就像这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-48daa.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 763px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 23.85321100917431%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA7UlEQVQY04WQzU7DMBCE8/4X3qBnJC4VhQNCQiqoggs8AwIppPmxE8duUv992FUDJ8RIo9GsV7O7LtbbSzbliu3ugc3TFevPFfcv17y+3/C4u+Pi9o3nD0VGiJH4BzOyFmXTUOmafTdQS8FgO5TuMceBUSvq4YCxgf+wBBfKeNTokdozaEd06SFEgg+EkIJiwDuHtRaXNPNoHWaOzNZjkz/1nVEIKan2NbKXSNlTdZqvVic11GJEpForJN2Z2YteUTYjXT/StB1yUGhjcN5TTNOcTjOYw5QmRdJiP0z2dMbyd3mTzBh/udR8Css93wN9f9smKdcrAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-48daa.png&quot;
+        srcset=&quot;/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-7a867.png 300w,
+/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-4af92.png 600w,
+/static/read3-31d573b50e7c98c1e9db00c5d1589cdc-48daa.png 763w&quot;
+        sizes=&quot;(max-width: 763px) 100vw, 763px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;对于我们技术 README 一定要各种徽章砸脸上，比如标配的 travis、coverage、npm 等等，给人一种安全感，如果你自己测试构建都没过，我用着也不放心。至于这些东西大家可以去这儿看看：&lt;a href=&quot;http://shields.io/&quot;&gt;shield.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;同时，我们要精要的总结项目的闪光点，有哪些特性是激动人心的，别人没有的，这是吸引用户的好方法。&lt;/p&gt;
+&lt;p&gt;比如这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-c7da2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 633px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 28.751974723538705%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAzUlEQVQY041R0Q6CMBDj//+GxG/RKBsMtqEgYIJsAwTqMROelNikabLc9Xq3IAwPYHGCFcuy4B+sdb8YNM0DbfvENE0Yx3HjMAxejbXoOgNLaq3DPM/7hn3f43g6g3EOzmPSGEpriCyFlBL59YZMKnpT0DqnIa/dbQLnHKKIIUkEhBCIGKPmHNdbAZGmeHadT+dc71OvCffWDowxuJBhmkkopX2KmMwZTyil9KZKKRRFiaqu/Rl2E64FZXknlqibBp+btrhX1db87VN+4Q3A/89CzoSeswAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-c7da2.png&quot;
+        srcset=&quot;/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-90aba.png 300w,
+/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-12a46.png 600w,
+/static/read4-181e1fda7e48c1f5dd2321a86a7feed3-c7da2.png 633w&quot;
+        sizes=&quot;(max-width: 633px) 100vw, 633px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;安装及快速开始&lt;/h2&gt;
+&lt;p&gt;这部分内容是是文档很重要的部分，通过这些步骤，能够让使用者快速的使用。&lt;/p&gt;
+&lt;p&gt;首先，你要告诉用户怎么去获取以及初始化项目，比如下面这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-95ce6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 40.714285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABEklEQVQoz42S6W6DMBCE8/4vWKlpSlKOloTD+Lahme5uCEp/NKqlT2Mbe8QM7EAj5xkxZSRWIsQE5wN8iILzcVu7dS/ELHt8L8/Lxo4Nz92IfVHh8H7E/nBE1bRouwGXfsSZ4Hl74bUi7eX8oDQ+zx1GbeHZPCRBDPthQnGqUHzUUNrJA2WcMLHSJb7YjRM9ywhpFpO73s3E8Hq9IlLEW4wksVmt80SApbiPcCUpLyu3+a/IbOicEyyhtYa1DsYYUgvjFwx2gSJ8/AYdfzokMpc+USQ1GYpI8SYtaIrLcBSOF1Je9W/WjzLg5fUNx7JBWTX4qlucmLJGR/1y1MeeniGG3J/SRt40UQ8bW1+33+k//AB+HGuX4Bl6NgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read5&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-95ce6.png&quot;
+        srcset=&quot;/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-896dd.png 300w,
+/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-9a461.png 600w,
+/static/read5-c02fca4bc88f9daae8ab30d3b087b1e2-95ce6.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;然后你需要给一个简单的例子，让使用者快速感受到使用它的好处：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read6-aa131217a7919e18d73181a70493c634-a072c.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 687px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.33187772925764%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABNElEQVQoz51S2ZKDMAzj//9xewLlyH2QQACtA53OPrVsmRFOHiJLsosYI5TS8N6DMYau67EsM779iikleOdhfYDQHtp6uGHEECeqAT6MGKeEKc2HUCT6WS7RcYsHJ0IX0ciATnnUvUTL1dbMU4NM/gnFNC8wLYPsODrpoElloAikMuBS052Uy91BVv0JRVpXOCbQ3lv8PDREzVBfS5xvFU6XBpczR9OJrfvwVPmecFnhs+U7EVxrNJVBVUtcywa3iprcGpzKliJRL5XvSDfLqhcQZLvpOWVGWTK7DWcfTITN8PFYhikTUl6eHg1x3MMnRJpsRqBzGHccyjDvobUWjvZwq87BGAulNVUDrF/sobEONu8iYQiRVI2vmncr/QNkeQYTCj1NuqfhGAo+jE+r8ZjNv/gFPNlVtCddHP0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read6&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read6-aa131217a7919e18d73181a70493c634-a072c.png&quot;
+        srcset=&quot;/static/read6-aa131217a7919e18d73181a70493c634-1b896.png 300w,
+/static/read6-aa131217a7919e18d73181a70493c634-c6a2a.png 600w,
+/static/read6-aa131217a7919e18d73181a70493c634-a072c.png 687w&quot;
+        sizes=&quot;(max-width: 687px) 100vw, 687px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;当然了，在这个地方，最好最直观的方法就是放一张 gif 的图片，吸引用户的注意力，同时给用户展示使用结果，比如这样：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/read-783a490f5dcb64a16f40a29a5114833f.gif&quot; alt=&quot;gif&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;API&lt;/h2&gt;
+&lt;p&gt;API 是一个项目的灵魂，这是暴露给用户最直接的地方，当使用者有疑问的时候，他会第一时间去找你的 API 文档。&lt;/p&gt;
+&lt;p&gt;对于一个 API 应该表述清楚的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;作用&lt;/li&gt;
+&lt;li&gt;入参及每个参数是否必须，数据类型是什么等等&lt;/li&gt;
+&lt;li&gt;返回值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你的 API 不多，那么可以放在一个文件里，但是如果你的 API 非常多，那么建议你将 API 单独放到一个文件里，这个文件留一个链接就可以。&lt;/p&gt;
+&lt;p&gt;同时，如果你的 API 有相当多个版本，那么需要准备几份 API 文档，应对不同的需求。&lt;/p&gt;
+&lt;p&gt;就比如这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-bca50.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 735px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 11.428571428571429%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAUklEQVQI112MUQ6AMAhDd/+7TjaZGgejCjMxWZMXWj5eMjOISKA6oMMmOpGPdcuy3eNJLsp5AxGh8oXSBHx21EPefoO4g1qPW9okfvz3vPeQeh7DApx/pVb/DQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read8&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-bca50.png&quot;
+        srcset=&quot;/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-41e4d.png 300w,
+/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-f64ad.png 600w,
+/static/read8-5fa4bb2bf7687439638e63eceb5c1c3e-bca50.png 735w&quot;
+        sizes=&quot;(max-width: 735px) 100vw, 735px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;版本变化&lt;/h2&gt;
+&lt;p&gt;还有最好是能有一份 CHANGELOG 文档，对不同版本做了哪些修改，有什么特性等等，让用户知道每个版本干了什么。&lt;/p&gt;
+&lt;p&gt;就比如这样：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read7-523ba0004ba966c0d5a0540a494588d4-b272b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 870px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.0919540229885%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVQ4y5VT23aEIBDz//+zra6oCChyMyUjbvfsS1vOmR0ubshkQrdtG5ZlwTRNNWZM8wytNR6jQowRHOd5/jk6Y6wAGWOg1xXramCtw1rXOWdc43zGHwAvoFzKc7O0OQFjrrmcLePX0fHPBO2HAcPjAaUU+n7AWDNl6JXBMC4Y1IppsXB7gtkzNp/gfBYir7J03nvR8C6RF+RKhZmRUhQtc04SMV1s5SxfIDegMKReA9kND4QQJI7jaBEE7Gh7IcQaB3zIOGJBiBk+lqbtBdqRlbVWylN3mT3LH/Hx+SUXjWqqXR/r+YTP0aKffY0Dszkq4zdA6jfKx0o03LYd/x2iX3NDx5LIUFVmy6Ixz5ee3KOleCHXt71Yga7WWl2Edgl2DzBbejanc841sEXs8xuT25X37/tZR+HlpczX7WSj9Srgrr4iMmPjeDHXd143souVHZuWn6Ddvu8CxlJZUmrWuc39Oj+ZS76i+Y6mL+XHOuJDNoRGZunWNTY1OOdbp56y56vevtRcxNw09nvJ30Ve9eYisuHiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read7&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read7-523ba0004ba966c0d5a0540a494588d4-b272b.png&quot;
+        srcset=&quot;/static/read7-523ba0004ba966c0d5a0540a494588d4-81012.png 300w,
+/static/read7-523ba0004ba966c0d5a0540a494588d4-0f940.png 600w,
+/static/read7-523ba0004ba966c0d5a0540a494588d4-b272b.png 870w&quot;
+        sizes=&quot;(max-width: 870px) 100vw, 870px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;FAQ&lt;/h2&gt;
+&lt;p&gt;当然了，如果你不想回答一些非常重复的问题，我想你需要一份 FAQ 来记录一些常见问题。&lt;/p&gt;
+&lt;h2&gt;贡献&lt;/h2&gt;
+&lt;p&gt;我相信很多人跟我一样，能给一些知名仓库提交 PR 是一件比较自豪的事情。&lt;/p&gt;
+&lt;p&gt;所以如果能提供一个提交 PR 的方式或者是途径，能够吸引更多的人来贡献代码，同时将贡献者，展示出来，我想会有更多人愿意贡献出自己的力量。&lt;/p&gt;
+&lt;p&gt;比如在这样的列表中也是挺有意思的：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-8936b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 920px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 19.021739130434785%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABGklEQVQY0w2PS07CAAAFObgHUA+AJhoEFUgEkU+hYrFQGmwpCC2I5ROgfBICRJAqQVZjF5OZ1Uuer25mGU5bDGY6o6nm2WJgCfTmNp+jBlZPoj+xqHd0xpMWna6K7ZgeBlZTpj+t0+yU0LUMq6WDLxQ+RTZTSNINaimEVImRSgeQlSiC6CdfCJBWIoRiF4ivEeK5IE/ZK+qDAg/hM0QlhKBFOfef0O638YnFIFIjg6TEKBtpFF3whi7RzCTVVo6aLXqdoFoTMAdlMtItjy8Bhut3nov3VLyHjWGJzFuc2XKET60kaU2aGLaM/pFHU+/IZ6+pGAlUI8J40WV/WPO73/F33LFzFzhzh/3Rxf35YvO9wt1v2bobDp7/ARiZC4VTx9xSAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;read9&quot;
+        title=&quot;&quot;
+        src=&quot;/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-8936b.png&quot;
+        srcset=&quot;/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-ce236.png 300w,
+/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-53a11.png 600w,
+/static/read9-f8dc2eaafb477c649a5e38fcd20165ee-8936b.png 920w&quot;
+        sizes=&quot;(max-width: 920px) 100vw, 920px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;版权&lt;/h2&gt;
+&lt;p&gt;相信前不久 Facebook 的开源协议事件大家都知道，也是闹得沸沸扬扬，所以，对于开源协议等等的版权问题一定要慎重，如果你想做的不是一个玩具项目，那么关于这块一定要写清楚。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;最后，总结一下，对于一份好的 README 来说，这些也许够了，也许不够，但是，文档始终是因为使用者才存在的东西，所以使用者关注什么，什么才是我们文档的重点。&lt;/p&gt;
+&lt;p&gt;但是这些基础是我们应该都需要的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;名字&lt;/li&gt;
+&lt;li&gt;简介&lt;/li&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;li&gt;安装配置&lt;/li&gt;
+&lt;li&gt;快速教程&lt;/li&gt;
+&lt;li&gt;API 文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[全栈工程师之路-React Native之扫描二维码]]></title><description><![CDATA[前言 以前开发移动端页面，总会被原生开发各种嫌弃，H5性能太低，动画不流畅，身为一名小前端我能怎么办呢？总是在无人的夜里，心里默默地流泪~ 后来 React Native 出来以后，终于可以翻身农奴把歌唱：哈哈哈，原生的小X人们，等待我 RN 的小皮鞭吧，pia…]]></description><link>https://knownsec-fed.com/2018-03-25-quan-zhan-gong-cheng-shi-zhi-lu-reactnative-zhi-sao-miao-er-wei-ma/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-quan-zhan-gong-cheng-shi-zhi-lu-reactnative-zhi-sao-miao-er-wei-ma/</guid><pubDate>Sat, 24 Mar 2018 16:43:17 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-9112b6e6ba9dc923931642aa14149b01-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABg0lEQVQoz3WSy0rDQBSG8xzmniZpbk1iQo1gbWhLFYrBlUXEpQuxG3HrbSU+QB/4d/7RCbXQxeHM5cw3/7log8EASZLA931YlgXHcaSPoghBEGA4HMr7OI6lua4LW8Q4wjuOWNu2fKNMy7JMBvKCPs9zCeLDNE2lSYhtIQhDJIw1DVj6ESzD6EEKrBVFAc/zQKVlWYJ7Qhmg1HFNqKnrSI5rlPMV4rM5omYC+y+rXiEfh+JnbkajkYQSxLSVQq5NYbah46RbY7p5x/T5C+P1A7wwElCzV6mxdlTxm5aNtm0xm82kp3Vdh+XyAs14jLw5w+ndIxZvWyxet5g8fSBrL3ugVMi6sY5UwtoRTtV1XUvFVVXJdSpi+Gl5dYvzzSfal2809xsERS1qugNU9SOIAEL5AT3vCFElYCOCokK+vEa5ukEi6sisVENkyrsHHBUqZk13z/txUSMiPqIq1w9k9/91WT2kEcguq5k8BDzkJZCBTI0pMzXu1ZoBqmn7A7w/f8p+AI+0J3jTOiJNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;全栈工程师之路-React Native之扫描二维码&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-9112b6e6ba9dc923931642aa14149b01-d6978.jpeg&quot;
+        srcset=&quot;/static/header-9112b6e6ba9dc923931642aa14149b01-527f0.jpeg 300w,
+/static/header-9112b6e6ba9dc923931642aa14149b01-9a7cd.jpeg 600w,
+/static/header-9112b6e6ba9dc923931642aa14149b01-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;以前开发移动端页面，总会被原生开发各种嫌弃，H5性能太低，动画不流畅，身为一名小前端我能怎么办呢？总是在无人的夜里，心里默默地流泪~&lt;/p&gt;
+&lt;p&gt;后来 React Native 出来以后，终于可以翻身农奴把歌唱：哈哈哈，原生的小X人们，等待我 RN 的小皮鞭吧，pia~&lt;/p&gt;
+&lt;p&gt;但是那时候若是不懂点 Android 或者 iOS，完全用 RN 开发一个 App，是非常痛苦的。&lt;/p&gt;
+&lt;p&gt;在尝试一段时间以后，由于实在难以忍受调教各种莫明其妙的报错，让我一度对这项新技能又爱又恨，望而生畏~&lt;/p&gt;
+&lt;p&gt;但是最近由于项目上的需求又捡了起来，猛然发现，原来不知不觉间，RN 这迷人的小妖精已经成长得越发成熟了~&lt;/p&gt;
+&lt;p&gt;好了废话不多说，把口水擦干净后，我们先来讲讲本次主题：如何破解一张有码的图片~&lt;/p&gt;
+&lt;h2&gt;项目构建&lt;/h2&gt;
+&lt;h3&gt;准备&lt;/h3&gt;
+&lt;p&gt;如何读懂这张有码的图片就是我们要攻克的最大难题了，但是如果单凭我自身大脑的人工智能，我想这问题是无解了。&lt;/p&gt;
+&lt;p&gt;没错，我们需要用到照相机，随手一搜&lt;code&gt;react-native-camera&lt;/code&gt;。。。&lt;/p&gt;
+&lt;p&gt;咦我是乱搜的，还真有这个库啊。。。再搭配&lt;code&gt;react-native-qrcode-scanner&lt;/code&gt;，嗯，就是你了，和我一起拯救银河系吧~&lt;/p&gt;
+&lt;h3&gt;开始工作&lt;/h3&gt;
+&lt;p&gt;首先项目根目录安装三方库，通过&lt;code&gt;yarn add&lt;/code&gt;命令安装相应包文件&lt;/p&gt;
+&lt;p&gt;由于会用到 native 的功能，&lt;code&gt;react link&lt;/code&gt;会自动向 native 模块中添加各种依赖和导包的操作。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code&gt;$ yarn add react-native-camera
+$ react-native link react-native-camera
+$ yarn add react-native-qrcode-scanner
+$ react-native link react-native-qrcode-scanner&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这里我们假设点击一个小按钮，然后进入相册，扫描出这张有码的二维图后，回到小按钮页面，并弹出扫描内容。&lt;/p&gt;
+&lt;p&gt;需要注意的一点是：按钮页和相册扫描是两个页面，这里我们用&lt;code&gt;react-navigation&lt;/code&gt;管理路由，具体使用详见&lt;a href=&quot;https://reactnavigation.org/&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;先看看App.js：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-jsx&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; StackNavigator &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-navigation&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Home &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./Home&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Scanner &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./Scanner&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Home 和 Scanner 是两个页面，点开应用后首先进入 Home&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Stack &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;StackNavigator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  Home&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Home&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  Scanner&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Scanner&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; Stack&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这里的Home，&lt;code&gt;react-navigation&lt;/code&gt;自动会往props上加个&lt;code&gt;navigation&lt;/code&gt;属性，类似 web 开发时的 history，有 push, pop，replace等多个方法。&lt;/p&gt;
+&lt;p&gt;Home.js只需要一个按钮，点击跳转至 Scanner 页即可&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-jsx&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Component &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; PropTypes &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;prop-types&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Button&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Toast &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;antd-mobile&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Home&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// react-navigation 的 StackNavigator 会自动在添加组件的 props 上添加 navigation 属性&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; propTypes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    navigation&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; PropTypes&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isRequired&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// 点击按钮时触发&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;scan&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;navigation&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;navigate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Scanner&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      onRead&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;onRead
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// 传递给下一个页面的回调函数，显示传入内容&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;onRead&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    Toast&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Button&lt;/span&gt;
+        &lt;span class=&quot;token attr-name&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;scan&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;屠龙宝刀，点击就送&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Scanner.js 就是本次的重点了&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-jsx&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Component &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; QRCodeScanner &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-native-qrcode-scanner&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Scanner&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; props &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; goBack &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;navigation&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// onRead 是相机扫描二维码后自动调用，首先返回上一页，然后再调用传入的回调函数，显示扫描内容&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;QRCodeScanner&lt;/span&gt;
+      &lt;span class=&quot;token attr-name&quot;&gt;onRead&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;e &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;goBack&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;onRead&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; Scanner&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;至此，所有的工作结束。&lt;/p&gt;
+&lt;h3&gt;探索&lt;/h3&gt;
+&lt;p&gt;依然很麻烦不是么？毕竟需要引入两个三方包呢，未来 RN 升级会不会不兼容？&lt;/p&gt;
+&lt;p&gt;所以即使已给了我莫大的好处，我正义凛然的内心依然是拒绝的。&lt;/p&gt;
+&lt;p&gt;等等，大侠您等一等！！！先把我脖子上的刀放下来好好说，我不是故意逗你玩的。&lt;/p&gt;
+&lt;p&gt;不行，我陈D秀这次一定要站着把话说完！&lt;/p&gt;
+&lt;p&gt;这里不得不说下&lt;a href=&quot;https://expo.io/&quot;&gt;Expo&lt;/a&gt;，一款 RN 开发的工具链，集成并提供了 RN 开发过程中各种问题的解决方案，也是官网目前推荐方式。&lt;/p&gt;
+&lt;p&gt;于是第二个文件 Scanner.js 修改一下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-jsx&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Component &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; BarCodeScanner&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Permissions &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;expo&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Scanner&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    hasCameraPermission&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; propTypes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    navigation&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; PropTypes&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isRequired&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// 这里首先判定是否拥有相机权限，有我们才能正大光明的调用&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;componentWillMount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; status &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; Permissions&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;askAsync&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Permissions&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;CAMERA&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; hasCameraPermission&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; status &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;granted&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// 扫描成功自动调用，这里先返回上一页，再调用回调函数，显示扫描内容&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;handleBarCodeRead&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; data &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; goBack&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;navigation&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;goBack&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;onRead&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; hasCameraPermission &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// 若无权限，提示用户&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;hasCameraPermission &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Requesting &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; camera permission&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;hasCameraPermission &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;No access to camera&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;View&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; flex&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;BarCodeScanner&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;onBarCodeRead&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;handleBarCodeRead&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;StyleSheet&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;absoluteFill&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;View&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; Scanner&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;好了，圆满了。对于这智慧的结晶，我还是比较满意的，谢谢大家赞许的目光。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;现在使用 RN 最大的感受是，各种开发装备越发全面，当然也或许是之前并未深入学习，对这块的技术链了解太少。&lt;/p&gt;
+&lt;p&gt;整个开发体验提升不止一个档次，让我再次燃起了内心征服的欲望。&lt;/p&gt;
+&lt;p&gt;哈哈哈，原生的小X人们，等待着我 RN 的小皮鞭吧，pia~&lt;/p&gt;</content:encoded></item><item><title><![CDATA[无线网络另类嗅探]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-03-22-wu-xian-wang-luo-ling-lei-xiu-tan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-22-wu-xian-wang-luo-ling-lei-xiu-tan/</guid><pubDate>Thu, 22 Mar 2018 03:05:34 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB34WJGAv/xAAXEAEAAwAAAAAAAAAAAAAAAAABAAIg/9oACAEBAAEFApRUx//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAAgIf/aAAgBAQAGPwIq/wD/xAAYEAACAwAAAAAAAAAAAAAAAAAAIREgcf/aAAgBAQABPyEYDyK//9oADAMBAAIAAwAAABCcD//EABYRAQEBAAAAAAAAAAAAAAAAABEQIf/aAAgBAwEBPxA1n//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EKf/xAAaEAEAAgMBAAAAAAAAAAAAAAABEUEAICEx/9oACAEBAAE/EFgXECTKnxXuv//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;无线网络另类嗅探&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-d6978.jpeg&quot;
+        srcset=&quot;/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-527f0.jpeg 300w,
+/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-9a7cd.jpeg 600w,
+/static/header-49e7c5b37f51e2a12538a6f4fbef2e96-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;前沿&lt;/h1&gt;
+&lt;p&gt;无线网络对于我而言总有着莫名的吸引力，我一直觉得空气中通过无线网络传播的数据包应该是可以截获或者监听的。虽然它们是无形的，但是却从我的身体我的电脑我的无线网卡中经过。如果我的大脑足够特殊，应该能够抓住他们，可惜我的大脑并不特殊。还好无线网卡足够特殊，可以在监听模式，抓取任何经过的数据包：
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/无线网卡工作模式-eedb3afa76bc691460de59122c94e6c7-56104.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 570px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 158.24561403508773%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC5klEQVRIx52W2U4qQRCGef8HUeIVV5oIgnKBiYKJBAmEsKosLiCL7FjnfJUU6Rl6OEslnZlpqv7a/q4mJr/l5+dHl4l9s1arla71eh3Y9+kjMXtxjW1vs9lIuVyWQqEgpVJJv10Qc+SC7gG3262Mx2N5fn6W5XKpit/f3wpSq9VkPp/vQdjn96+vL3l5edk7CgACkslk5Pb2Vo0+Pj7UwWKxkGw2K7vdTg3f399lMpnourq6kru7u2CElgKpJZNJyefzCk7EyGg0kvv7ewWyMgBeqVTk/PxcisWiOt1HyAsKhA8QqVldEKLs9/v6NEGfCNFlkdFBymH53/1YFG2sUUT39vYmr6+vgdTCwAe0IY3pdCqfn5/6bnvUbjgcSq/XC5TC0uY30z+gDZSh2ERinYQiLGqFQwB40px2uy3VanXfwAAgqZ2dncnNzY1GguFsNtsDswCiOTSh2+3K6emp0uyANoSMp2azKZ1OR6M5Jug3Gg0lPMTGUYA27vELn2Vf8X16XsAoIU0isVodpY3bZQzpMoZ8G2GhDMOB5th5RofDQK0DEbpdHgwGUq/X1RBwjh0Nwgn0gY/Ui31ATd87HDCIx+NyfX2t4BjaM5FISCqVUjrReaKHFScnJ5LL5fxdhn94a7VagS5DD4YDLCAiywZdbOCut8uAuk9bfEMlSOxGwr4tbw191IiiTJTNwRUQHl0I0T08PGhqYXKj7zYkECFAKNBJ3qkTyjYj6SrfRhm7ItD3nmV+YKQzuekmtLHzy7J3oxJdZsLTrIMu4+Hp6UnS6bQWnygAtVsNICK1W5F0Hx8flWLhZikgxtQK724KpsiF5V6hOAGIk0Kk3pSjukZkpG+X1F9fAWH+mQI1uri40AzCPDw6bdxNG+kcMwbu5eWlpuhzGOZl7NiNRm2IkEFKl6PS9ALaJoYUm7rZ3xO+7U5h8e3exa7EXOYjDAfSo9sYcdsxXFkMCvYZDID+c8p/El/KvwAbvrA7MYgfFgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;无线网卡工作模式&quot;
+        title=&quot;&quot;
+        src=&quot;/static/无线网卡工作模式-eedb3afa76bc691460de59122c94e6c7-56104.png&quot;
+        srcset=&quot;/static/无线网卡工作模式-eedb3afa76bc691460de59122c94e6c7-26660.png 300w,
+/static/无线网卡工作模式-eedb3afa76bc691460de59122c94e6c7-56104.png 570w&quot;
+        sizes=&quot;(max-width: 570px) 100vw, 570px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;抓包&lt;/h1&gt;
+&lt;p&gt;因为我使用的mac笔记本， 所以我打算直接使用自带的airport进行抓包：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;扫描网络查看网络信息，这里我们需要注意网络的SSID和CHANNEL信道：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;airport scan&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;监听对应的信道：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;airport sniff 11&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;一段时间后使用Ctrl+C结束监听生产cap包, cap包默认存储在/tmp/文件下。&lt;/p&gt;
+&lt;h1&gt;解析&lt;/h1&gt;
+&lt;p&gt;使用wireshark打开我们捕获到的数据包：
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/wireshark-fe032109c1501678519402666c4d6928-0f29e.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.92457057505601%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACiklEQVQoz5XO208TQRTH8f3jTNQXNSZEUYoYENT44qMvEoNcQhERhapg6bZLu71t2y0VVBQQKEihXDReSIsQ2gq2QHngKvB1aAwa1Bgn+eR35syZyUjx9xOkkjN8TqZIfkmSSMyTSs2REL1EakaczRGPfWL2c5zE/BzprwssZRZzloWVH5le/CJmE0iVbX3UK320+YZ5pI3QHopiC45i1sJY9Agmd5gWbRhZ9GR9FKUjSps+Rqs/SpMnQqN7JKdGCVNvCSEdP1fCyYJSLhSWcspQxvnia+QVXubkmYucEPIKLnHOUIpBpKGwjIKiK+QXXeW04TLH8os5eraY4/klHMkrouT6DfHD+gaqjXcwVlZTKbLGWEdlTS03y29RXnGbGlEbhdqqaupENor5R80mTELdvUaq6u9SfbeBCnG3qdWMpHU8xeXVsNsUXD4/drcHu9ONRbZha3fgdLlxOl2odgcOh4oqaq/mw+fX8QSCaMEQWkcIr96B3tmF5Ak9R9VCyLIDq1vngbmdhxYV0xOFFllFUX1YFXfuXLY6sdhcyHYvVlcAizOAzRPEFRRv6M/wdfUgWa0ttJqMqOb7WJ40oNqacxyKINKvPuaZX6ZbV3gRsOV0C50+mYDHTMDbhq5Z8LvNvOpyIWWnIySH/KTHn7PxqY+dWD/EBw7sCnt/wMzgb3bFXYm/rD1h9x92DtnvSSsry2QyaZaXl8hmV3J1Jv2V1dUsG+trbG1t8m17i+1fHN7/tIkUj88Qi8XZz9nZOaanY3z48JGFhUVWs6usr63zP0vq6enmpdDb+4rBcD+vB/t4PdDL0JswQyNhwsODTE5NMvV2gql3EwcZnRwVIrkci0YYGxc5HuE7tJ8Mbf7d6mgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;wireshark&quot;
+        title=&quot;&quot;
+        src=&quot;/static/wireshark-fe032109c1501678519402666c4d6928-abe1c.png&quot;
+        srcset=&quot;/static/wireshark-fe032109c1501678519402666c4d6928-10046.png 300w,
+/static/wireshark-fe032109c1501678519402666c4d6928-3c4a3.png 600w,
+/static/wireshark-fe032109c1501678519402666c4d6928-abe1c.png 1200w,
+/static/wireshark-fe032109c1501678519402666c4d6928-0f29e.png 1339w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;注意这里我们捕获到数据全部都是802.11协议。802.11标准将所有的数据包分为3种：数据、管理、控制。数据链路层是一个很靠近底层的通信协议，所以我们是不能直接看出数据包中携带数据内容。&lt;/p&gt;
+&lt;p&gt;配置wireshark的首选项，设置IEEE 802.11协议解析：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/config-78061f8d23a9a606ba339b57d9cce085-3b1d1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1012px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.81422924901186%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABa0lEQVQoz42R606rQBRGef9X8Z8v4I8mx0QJl1prEelwkUvpQDstIu2JXQ4YbRPt8ZB8mQA7a9be2wh8Hz9JiNMF4XNOHMck/btOnmfEzwXek2AePCGE0N9ysiw7G6Pe7pCy5u0AdbPnxpkydh1s28HzPMIwHCBKKeq6pqqq4TwXo+06XjYV/dPuD9xOAmzLxLJsHQvbcQiCgDRNB5iU8p8xTH/Fn/sSWzSMwy037gzTvMXShjPvkSiKtGExFH8C+/NcjNG05nIUcHHlY/o1nkh5mD2SRHO26x5wLP4NNgC7/Z62b/mwo/v7hvsguHNtrl3BROi5VMd2/suw2ryyXiv0TlAvHfMoocgSrqeS0aRiVcsvy1PY6QXHaOCm3bEocm1S0bzuKOXHtvp2G/UJ+9nqu61eilQt8zBGrhSrpqMol8OPpezzUXQ6x3OGfX251IZZUZLmJXkpNUx+3fTbrE7bXC5yxkJyYSreAS+H6A0tqCy3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;config&quot;
+        title=&quot;&quot;
+        src=&quot;/static/config-78061f8d23a9a606ba339b57d9cce085-3b1d1.png&quot;
+        srcset=&quot;/static/config-78061f8d23a9a606ba339b57d9cce085-a9e8e.png 300w,
+/static/config-78061f8d23a9a606ba339b57d9cce085-3ef88.png 600w,
+/static/config-78061f8d23a9a606ba339b57d9cce085-3b1d1.png 1012w&quot;
+        sizes=&quot;(max-width: 1012px) 100vw, 1012px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;点击Edit, 使用wpa-pwd的方式设置网络名:网络密码：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/pw-d17e4689a154f7443c666fb74dcddbcd-db570.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 561px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.0445632798574%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABuUlEQVQ4y7WT3WvUQBTF8zeLCr756rNIX0Rrn0TwSdoHBQVBwX7ubrK7bbKbzUw+ZjKZmbBtV+jW5DiTZMtKS6VSL/w4N7l3DndIrpMeHKIf9zElE8RxgiSJEYQUn3ePMfRcDIceXNdtaPMBfN9v+iil5gwFjVslJIJzEDB8+RHgyOfYG6fYG8UYE4VRJDGYKfSmCv2w1d5Uomfyo4nEYSAMxRX7foGAcDivPlE82fLxYjvGs/cEzz9QvPyYYWMnxdO3ER5sTvHoTYiHhnVd5/FWaPpm+DrI4PDyJ2zUtaHTqqrbd/h7rHouK4AwBYfpRWdYd+X6hudb6PquGVamUP8j1nD568YJ7x5XhtX/NrQf4l6uzMsF7iPsj9EYEnGGcnEJdbaEPl8avbgz+vwC4nSJWSbh5KIAy1cI5IW8HSHBO1Z5xiWYUOB5DidNUzDGml0MwxBaKyglDeoPSi1BYrN+Yw3PV3BPygbvRGFi1jKKFNLMGNrm3ExmVUoJ2eh1bL0o7BQKwmiScnDGMSIa7/bnhlOz/6I1tFNas9U063mL7Exlg9ba3CgGSyjGVOP1tzk2v8/hhQK/AUGvatTZoBrkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;pw&quot;
+        title=&quot;&quot;
+        src=&quot;/static/pw-d17e4689a154f7443c666fb74dcddbcd-db570.png&quot;
+        srcset=&quot;/static/pw-d17e4689a154f7443c666fb74dcddbcd-6b5ab.png 300w,
+/static/pw-d17e4689a154f7443c666fb74dcddbcd-db570.png 561w&quot;
+        sizes=&quot;(max-width: 561px) 100vw, 561px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;完成配置后，我们就可以看到解析后的从链路层到应用层的报文了。&lt;/p&gt;
+&lt;h1&gt;总结&lt;/h1&gt;
+&lt;p&gt;大部分人到了一个咖啡厅一家餐馆，都迫不及待的加入他们的无线网络，但是从不考虑它是否安全，有没有人在监听你的网络偷窥你的隐私。甚至很多人都不会关闭自己手机的wifi自动连接功能， 很多不法分子利用免费wifi盗取手机中的钱财。网络安全不仅仅是交给专业人员去做，很多时候提高自己的安全意识就可以避免。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】实用的 UI 动画技巧——改进 UI 微交互的实用建议]]></title><description><![CDATA[原文链接： Good to great UI animation tips 原文作者：Pablo Stanley 让我们来看看一些 UI 动画的例子。只要稍微调整一下，你就可以用动画来提升你的 UI…]]></description><link>https://knownsec-fed.com/2018-03-19-fan-yi-shi-yong-de-ui-dong-hua-ji-qiao-gai-jin-ui-wei-jiao-hu-de-shi-yong-jian-yi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-19-fan-yi-shi-yong-de-ui-dong-hua-ji-qiao-gai-jin-ui-wei-jiao-hu-de-shi-yong-jian-yi/</guid><pubDate>Mon, 19 Mar 2018 01:50:24 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-c3e1993b0cc4c7b27f5385ed4a0252d0-d6978.jpeg&quot;
