@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 02 Aug 2018 06:08:26 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 02 Aug 2018 10:43:25 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1412,7 +1412,7 @@
 &lt;p&gt;一旦我们完成了这些目标，那么没有任何东西能够保留这些自然界面，并且它们将成为主流。&lt;/p&gt;
 &lt;h1&gt;历史重演：成为它的一部分&lt;/h1&gt;
 &lt;p&gt;人有多种感官。不止一个的技术和界面更有可能促进强大的人机交互。&lt;/p&gt;
-&lt;p&gt;之前发生过类似的多模式演变。收音机和无声电影被合并到电影中，并通过 3D 进一步增强等等。我确信这一过程也将在交互式数字世界中发生。激动人心的时代即将。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】HTTP1 到 HTTP 2 的演变如何改变了 web]]></title><description><![CDATA[原文地址： How Evolution Of HTTP/2 From HTTP/1 Changed The Web 作者：Sarah Elson…]]></description><link>https://knownsec-fed.com/2018-03-31-fan-yi-http1-dao-http2-de-yan-bian-ru-he-gai-bian-liao-web/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-31-fan-yi-http1-dao-http2-de-yan-bian-ru-he-gai-bian-liao-web/</guid><pubDate>Sat, 31 Mar 2018 15:02:32 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;之前发生过类似的多模式演变。收音机和无声电影被合并到电影中，并通过 3D 进一步增强等等。我确信这一过程也将在交互式数字世界中发生。激动人心的时代即将。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】HTTP1 到 HTTP 2 的演变如何改变了 web]]></title><description><![CDATA[原文地址： How Evolution Of HTTP/2 From HTTP/1 Changed The Web 作者：Sarah Elson…]]></description><link>https://knownsec-fed.com/2018-03-31-fan-yi-http1-dao-http2-de-yan-bian-ru-he-gai-bian-liao-web/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-31-fan-yi-http1-dao-http2-de-yan-bian-ru-he-gai-bian-liao-web/</guid><pubDate>Sat, 31 Mar 2018 15:02:32 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-5a22dda73513aadc336a209bd5206dcb-d6978.jpeg&quot;
@@ -1699,7 +1699,7 @@ HTTP / 2 源自 Google 开发的早期实验性 SPDY 协议。它使 Web 应用�
 &lt;li&gt;
 &lt;p&gt;HTTP / 2 未知事实： HTTP 仍然是新的，因此需要进行大量研究以确定最佳实践和可能的缺点。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[谁动了我的 DOM??!]]></title><description><![CDATA[元素的样式为何频频被改？ DOM 的属性为何离奇失踪？？ 消失的 DOM 究竟是何人所为？？？ 出现的陌生 DOM 究竟是人是鬼？？？？ 这一切的背后是人性的扭曲还是道德的沦丧？？？？？ 是无意写的 Bug 还是有人故意而为之？？？？？？ 让我们跟随镜头，探寻千变万化的 DOM…]]></description><link>https://knownsec-fed.com/2018-03-28-shui-dong-liao-wo-de-dom/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-28-shui-dong-liao-wo-de-dom/</guid><pubDate>Tue, 27 Mar 2018 16:24:51 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[谁动了我的 DOM？！]]></title><description><![CDATA[元素的样式为何频频被改？ DOM 的属性为何离奇失踪？？ 消失的 DOM 究竟是何人所为？？？ 出现的陌生 DOM 究竟是人是鬼？？？？ 这一切的背后是人性的扭曲还是道德的沦丧？？？？？ 是无意写的 Bug 还是有人故意而为之？？？？？？ 让我们跟随镜头，探寻千变万化的 DOM…]]></description><link>https://knownsec-fed.com/2018-03-28-shui-dong-liao-wo-de-dom/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-28-shui-dong-liao-wo-de-dom/</guid><pubDate>Tue, 27 Mar 2018 16:24:51 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-ba4be0a2aaf0eb002ef06caf8c3b66ce-d6978.jpeg&quot;
@@ -2519,7 +2519,7 @@ string
 &lt;p&gt;随着视觉设计的改变，中继也致力于显著改善用户体验。我们的公共Trello董事会包含了我们的Relay计划。&lt;/p&gt;
 &lt;h2&gt;未来&lt;/h2&gt;
 &lt;p&gt;“设计”是Medium最受欢迎的第8个标签。“开源”排名290。源代码许可永远不会像你所在城市的自来水公司那样性感。供水本身就是你城市设计的一部分。同样地，你作为用户的自由被设计成你购买的软件。你对产品的所有权只是设计之树的另一个分支。&lt;/p&gt;
-&lt;p&gt;开源软件需要好的设计，因为好的设计尊重用户。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】node.js Two-Factor 身份认证]]></title><description><![CDATA[原文地址：  Two-Factor Authentication with Node.js 原文作者： David Walsh 有许多的各式各样的方法策略，以保护你的重要网络凭证。我们经常听说Password managers和 Generators…]]></description><link>https://knownsec-fed.com/2018-03-27-fan-yi-nodejstwofactor-shen-fen-ren-zheng/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-27-fan-yi-nodejstwofactor-shen-fen-ren-zheng/</guid><pubDate>Tue, 27 Mar 2018 02:25:01 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;开源软件需要好的设计，因为好的设计尊重用户。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】node.js Two-Factor 身份认证]]></title><description><![CDATA[原文地址：  Two-Factor Authentication with Node.js 原文作者： David Walsh 有许多的各式各样的方法策略，以保护你的重要网络凭证。我们经常听说Password managers和 Generators…]]></description><link>https://knownsec-fed.com/2018-03-27-fan-yi-nodejstwofactor-shen-fen-ren-zheng/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-27-fan-yi-nodejstwofactor-shen-fen-ren-zheng/</guid><pubDate>Tue, 27 Mar 2018 02:25:01 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-d965f95ca887cb28f097c3fc9f5ed07d-d6978.jpeg&quot;
@@ -4149,7 +4149,501 @@ Error&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ENOENT&lt;sp
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;在这里 context 的含义在 webpack-dev-server 文档中是找不到的，它的说明出现在 &lt;a href=&quot;&quot;&gt;&lt;strong&gt;http-proxy-middleware&lt;/strong&gt;&lt;/a&gt; 中，context 支持传入一个 function 用于自定义转发的逻辑，只在返回值为 true 时才转发请求，&lt;strong&gt;因此该代理将只会转发 ajax 或者 fetch 发出的 HTTP 请求 。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;除了文中提到的这种最简单的配置，webpack-dev-server 的 proxy 还支持多种配置方式以同时满足多种代理规则，感兴趣的同学可以去文档里面了解更多细节。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】如何创建交互友好的表单]]></title><description><![CDATA[原文地址： Creating User-friendly forms 作者：Momoh Silm…]]></description><link>https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</guid><pubDate>Tue, 13 Mar 2018 02:16:00 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;除了文中提到的这种最简单的配置，webpack-dev-server 的 proxy 还支持多种配置方式以同时满足多种代理规则，感兴趣的同学可以去文档里面了解更多细节。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[基于 Babylon.js 实现 3D 打击效果]]></title><description><![CDATA[基于 Babylon.js 的 3D 打击效果实现 先上效果图 是不是觉得很有意思, 那么就跟随我一起来实现吧! 准备工作 package V babylon 3.1.0 前往  Babylon.js  官网下载 Babylon.js. 准备一个 HTML…]]></description><link>https://knownsec-fed.com/2018-03-16-yuan-chuang-ji-yu-babylonjs-shi-xian-3d-da-ji-xiao-guo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-16-yuan-chuang-ji-yu-babylonjs-shi-xian-3d-da-ji-xiao-guo/</guid><pubDate>Fri, 16 Mar 2018 03:45:22 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-7428e1187e1c65f1b1900d9047e2bace-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHr12IrE//EABkQAQACAwAAAAAAAAAAAAAAAAIAEQESIP/aAAgBAQABBQIp3eZsuP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAAyAQISIP/aAAgBAQAGPwKdVFE4/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAERISAxUf/aAAgBAQABPyF+lS0LsHNTRh//2gAMAwEAAgADAAAAEDP/AP/EABcRAQADAAAAAAAAAAAAAAAAAAABEVH/2gAIAQMBAT8QVOv/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBX/8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAMSAhQYH/2gAIAQEAAT8Q3olJZhfH0QcmeC7w/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;[原创] 基于 Babylon.js 实现 3D 打击效果&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-7428e1187e1c65f1b1900d9047e2bace-d6978.jpeg&quot;
+        srcset=&quot;/static/header-7428e1187e1c65f1b1900d9047e2bace-527f0.jpeg 300w,
+/static/header-7428e1187e1c65f1b1900d9047e2bace-9a7cd.jpeg 600w,
+/static/header-7428e1187e1c65f1b1900d9047e2bace-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;基于 Babylon.js 的 3D 打击效果实现&lt;/h1&gt;
+&lt;h3&gt;先上效果图&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/attack-map-8dd3907c92e6105de547d4ef883dbf60.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;是不是觉得很有意思, 那么就跟随我一起来实现吧!&lt;/p&gt;
+&lt;h2&gt;准备工作&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;package&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;V&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;babylon&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;3.1.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;前往 &lt;a href=&quot;http://www.babylonjs.com/&quot;&gt;Babylon.js&lt;/a&gt; 官网下载 Babylon.js.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;准备一个 HTML 页面, 将下载好的 &lt;code&gt;Babylon.js&lt;/code&gt; 通过 &lt;code&gt;script&lt;/code&gt; 标签引入.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在这个空白的 HTML 页面中放置一个 &lt;code&gt;canvas&lt;/code&gt;, 让这个 &lt;code&gt;canvas&lt;/code&gt; 占满屏幕&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;文件结构&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;.
+|____images             -&gt; 图片资源
+| |____attackMap.gif    -&gt; 组件运行效果截图
+|____data.json          -&gt; 组件默认数据源
+|____lib.js             -&gt; 基于 Babylon.js 实现的类
+|____index.js           -&gt; 组件入口文件
+|____style.css          -&gt; React 组件的 CSS 样式
+|____utils.js           -&gt; 工具方法
+|____videoTexture.js    -&gt; 波纹视频材质&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;images/red.png          -&gt; 默认红色攻击线条贴图
+images/green.png        -&gt; 默认绿色攻击线条贴图
+images/blue.png         -&gt; 默认蓝色攻击线条贴图
+images/ring_blue.png    -&gt; 默认红色攻击波纹贴图
+images/ring_blue.png    -&gt; 默认红色攻击波纹贴图
+images/ring_blue.png    -&gt; 默认红色攻击波纹贴图&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;科普一下&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;3D 打击效果实质上就是一条线在一条抛物线轨迹上运动的过程，且这条抛物线轨迹是由两个已知并且处在同一平面（X 轴和 z 轴）上。这条抛物线的高度（y 轴）是随机确定, 这样处理可以让攻击源和目标点之间多次攻击的抛物线在不同高度显示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;模拟数据&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;[
+    {
+        &quot;from&quot;: {
+            &quot;x&quot;: 61.66897643728131,
+            &quot;y&quot;: 0,
+            &quot;z&quot;: 57.218511027229994
+        },
+        &quot;to&quot;: {
+            &quot;x&quot;: 22.638902093327285,
+            &quot;y&quot;: 0,
+            &quot;z&quot;: 88.63784341676953
+        },
+        &quot;texture&quot;: &quot;green&quot;,
+        &quot;attack_power&quot;: 18,
+        &quot;data&quot;: {}
+    },
+    {
+        &quot;from&quot;: {
+            &quot;x&quot;: 17.25975278621781,
+            &quot;y&quot;: 0,
+            &quot;z&quot;: 34.859315533740556
+        },
+        &quot;to&quot;: {
+            &quot;x&quot;: 85.73410306095155,
+            &quot;y&quot;: 0,
+            &quot;z&quot;: 43.63666854877888
+        },
+        &quot;texture&quot;: &quot;green&quot;,
+        &quot;attack_power&quot;: 14,
+        &quot;data&quot;: {}
+    },
+    ...
+]&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;打击路径 (抛物线的构造)&lt;/h2&gt;
+&lt;p&gt;我们将这条抛物线进行分解, 由于抛物线对称的特性, 我们就可以通过计算 &lt;code&gt;后半段的平抛运动&lt;/code&gt; 的坐标点数组, 再通过 &lt;code&gt;对称&lt;/code&gt;, 就可以求出前半段运动的坐标. 在 &lt;code&gt;x-z 轴平面&lt;/code&gt; 上, 运动可以拆解为 &lt;code&gt;x 轴的匀速运动&lt;/code&gt; 和 &lt;code&gt;z 轴的匀速运动&lt;/code&gt;. 来看算法:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;/**
+ * 抛物线方程（计算路线）
+ * data：攻击起点和终点坐标对象数组
+ * avg：点之间的间距
+ */
+export const parabola = (data, avg) =&gt; {
+  const routes = data.map(ele =&gt; {
+    const temp = ele;
+    // 制作一个 Y-xz 坐标系，x=(Math.abs(x0-x1)^2+Math.abs(z0-z1)^2)^1/2
+    // xz 方向的长度
+    const xz =
+      (Math.abs(temp.to.x - temp.from.x) ** 2 +
+        Math.abs(temp.to.z - temp.from.z) ** 2) **
+      (1 / 2);
+    // 对应的 sin,cos 和 tan
+    const cos = Math.abs(temp.to.x - temp.from.x) / xz;
+    const sin = Math.abs(temp.to.z - temp.from.z) / xz;
+    const tan = (temp.to.z - temp.from.z) / (temp.to.x - temp.from.x);
+    // 设置点距（速度）
+    const speeds = xz * 1 / avg;
+    // 定义抛物线的坐标数组, 并将起点坐标存入
+    const XYarray = [];
+    // 确定顶点, 一个随机高度
+    const mPointY = Math.random() * (xz / 2 - 1) + 1;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;有人可能会问, 为什么要求三角函数 &lt;code&gt;sin&lt;/code&gt;,&lt;code&gt;cos&lt;/code&gt;,&lt;code&gt;tan&lt;/code&gt;? 这里主要的目的是为了求出在 &lt;code&gt;x-z 轴&lt;/code&gt; 上运动的长度投影到 &lt;code&gt;x 轴&lt;/code&gt; 和 &lt;code&gt;z 轴&lt;/code&gt; 上分别对应的 &lt;code&gt;x 轴&lt;/code&gt; 坐标值和 &lt;code&gt;z 轴&lt;/code&gt; 坐标值.&lt;/p&gt;
+&lt;h4&gt;接下来我们要算出 &lt;code&gt;后半段平抛运动竖直方向的加速度g&lt;/code&gt;&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;// 得出 g, 平抛运动竖直方向的加速度
+    const g = 2 * mPointY / (avg / 2) ** 2;
+    // 应为抛物路线是对称的，所以先求出后半段的 Y 轴坐标数组
+    const Y = [];
+    for (let i = 0; i &lt;= avg / 2; i++) {
+      Y.push(mPointY - g * i * i * (1 / 2));
+    }
+    // 定义点的坐标
+    let x = 0;
+    let z = 0;
+    for (let i = 0; i &lt;= avg; i++) {
+      const index = i &lt;= avg / 2 ? avg / 2 - i : i - avg / 2;
+      if (tan&gt; 0) {
+        if (temp.from.z &lt; temp.to.z) {
+          x = temp.from.x + i * speeds * cos;
+          z = temp.from.z + i * speeds * sin;
+        } else {
+          x = temp.from.x - i * speeds * cos;
+          z = temp.from.z - i * speeds * sin;
+        }
+      } else if (temp.from.z&gt; temp.to.z) {
+        x = temp.from.x + i * speeds * cos;
+        z = temp.from.z - i * speeds * sin;
+      } else {
+        x = temp.from.x - i * speeds * cos;
+        z = temp.from.z + i * speeds * sin;
+      }
+      const temps = new BABYLON.Vector3(x, Y[index], z);
+      XYarray.push(temps);
+    }
+    return XYarray;
+  });
+  return routes;
+};&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;有了路径之后, 就要有一条线在这条轨迹上运动:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;/**
+ * 打击线条构造器
+ * scene：容器
+ * data：源数据
+ * matList：材质
+ */
+export const createLine = (scene, data, matList) =&gt; {
+  const lineArray = data.map((item, index) =&gt; {
+    // 初始化线条在3D空间中连线的点
+    const point = new Array(LINE_LENGTH).fill(
+      new BABYLON.Vector3(item.from.x, item.from.y, item.from.z)
+    );
+    // 根据连线的点来创建这条线条
+    const line = BABYLON.MeshBuilder.CreateTube(
+      randomId(&apos;line&apos;),
+      {path: point, radius: 0.1, updatable: true},
+      scene
+    );
+    // 为线条贴上纹理
+    line.material = matList[index];
+    line.pointArray = point;
+    // 创建波纹平面
+    const plane = createPlane(
+      scene,
+      item.texture,
+      item.attack_power,
+      new BABYLON.Vector3(item.to.x, item.to.y, item.to.z)
+    );
+    line.plane = plane;
+    line.plane.isVisible = false;
+    return line;
+  });
+
+  return lineArray;
+};&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;创建线条的纹理贴图:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;/**
+ * 线条材质列表
+ * scene：容器
+ * data：源数据
+ */
+const creatMatList = (scene, data) =&gt; {
+  const colorGenerator = {
+    red: &apos;red&apos;,
+    green: &apos;green&apos;,
+    blue: &apos;blue&apos;,
+  };
+  const matList = [];
+  data.forEach(item =&gt; {
+    const myMaterial = new BABYLON.StandardMaterial(randomId(&apos;myMat&apos;), scene);
+    const texture = item.texture;
+    const color = colorGenerator[texture];
+    myMaterial.diffuseTexture = new BABYLON.Texture(
+      `/models/images/${color}.png`,
+      scene
+    );
+    myMaterial.diffuseTexture.hasAlpha = true;
+    myMaterial.emissiveTexture = myMaterial.diffuseTexture;
+    matList.push(myMaterial);
+  });
+  return matList;
+};&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;光是一条线移动是看不出打击效果的, 故我们还要加上一个打击产生波纹的效果:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;/**
+ * 波纹构造器
+ * scene：容器
+ * data：数据源
+ * power：大小
+ * position：位置
+ */
+const createPlane = (scene, texture, power, positon) =&gt; {
+  const videoMat = getVideoTexture(scene, &apos;meteor&apos;, texture);
+  const mat = new BABYLON.StandardMaterial(randomId(&apos;mat&apos;), scene);
+  mat.diffuseTexture = videoMat;
+  mat.diffuseColor = new BABYLON.Color3(0, 0, 0);
+  mat.diffuseTexture.hasAlpha = true;
+  mat.emissiveTexture = mat.diffuseTexture;
+  mat.backFaceCulling = false;
+  mat.alpha = 0.8;
+  const plane = BABYLON.MeshBuilder.CreatePlane(
+    randomId(&apos;plane&apos;),
+    {size: power},
+    scene
+  );
+  plane.material = mat;
+  plane.rotation.x = 90 * Math.PI / 180;
+  plane.position = positon;
+  return plane;
+};&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这里为了优化, 波纹的纹理材质是一个视频, 所以要创建一个视频的贴图 (videoTexture.js 在这个文件中):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;const TEXTURE_COLORS = [&apos;red&apos;, &apos;green&apos;, &apos;blue&apos;];
+const videoTexture = {
+  meteor: {},
+};
+
+class SourceException {
+  constructor(message) {
+    this.message = message;
+    this.name = &apos;SourceException&apos;;
+  }
+}
+
+// 获取视频材质
+export const getVideoTexture = (scene, type, color) =&gt; {
+  if (!videoTexture[type]) {
+    throw new SourceException(
+      `Error: the video texture of &apos;${type}_${color}&apos; does not exist.`
+    );
+  }
+
+  videoTexture[type][color] =
+    videoTexture[type][color] ||
+    new BABYLON.VideoTexture(
+      `videoTexture_${type}_${color}`,
+      [`models/${type}/${type}_${color}.mp4`],
+      scene,
+      true,
+      false
+    );
+  return videoTexture[type][color];
+};
+
+// 播放视频
+export const onScenePointerUp = scene =&gt; {
+  Object.keys(videoTexture).forEach(type =&gt; {
+    TEXTURE_COLORS.forEach(color =&gt; {
+      getVideoTexture(scene, type, color).video.play();
+    });
+  });
+};&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;为了让攻击线条能够以圆滑的方式进场和出场, 所以还要对线条进行一点处理:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;/**
+ * 线条数据更新
+ * counter：计数器
+ * path：移动路线
+ * tempArrary：进入平面和移出平面时的线条长度
+ */
+const setLinePath = (counter, path, tempArrary) =&gt; {
+  const temp = tempArrary;
+  const head = counter % path.length;
+  const tail = (counter - LINE_LENGTH + 1) % path.length;
+
+  // 线条在凋零时
+  if (tail&gt; path.length - LINE_LENGTH) {
+    temp.splice(head, 1, path[path.length - 1]);
+    return temp;
+  }
+  const curPoints = path.slice(tail, head + 1);
+
+  return curPoints;
+};&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;所有的演员已就绪, 现在开始表演:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;/**
+ * 攻击线条更新
+ * scene：容器
+ * data：数据源
+ * routes：移动路线数组
+ * alpha：计数器数组
+ */
+export const updataLine = (scene, data, routes, alpha) =&gt; {
+  let counter = alpha;
+  const matList = creatMatList(scene, data);
+  const lineArray = createLine(scene, data, matList);
+
+  // 这里调用Babylon.js内置的一个实现动画的方法
+  const anim = scene.onBeforeRenderObservable.add(() =&gt; {
+    lineArray.forEach((ele, index) =&gt; {
+      let temp = ele;
+      const head = counter % routes[index].length;
+      const tail = (counter - LINE_LENGTH + 1) % routes[index].length;
+      temp.pointArray = setLinePath(counter, routes[index], temp.pointArray);
+      // 这里利用Babylon.js中物体自身刷新重载的方法,让物体在自身上进行新的位置刷新,而不是重新构造一个新的物体.这样就可以提高运行的效率
+      temp = BABYLON.MeshBuilder.CreateTube(
+        randomId(&apos;line&apos;),
+        {path: temp.pointArray, radius: 0.1, updatable: true, instance: temp},
+        scene
+      );
+      temp.material = matList[index];
+      // 当线条头部分接触平面后,显示波纹,
+      if (head === 100) {
+        temp.plane.isVisible = true;
+        onScenePointerUp(scene);
+      }
+      // 当线条尾巴部分离开平面后,打击动画停止
+      if (tail === 100) {
+        temp.plane.isVisible = false;
+        temp.plane.dispose();
+        temp.dispose();
+        scene.onBeforeRenderObservable.remove(anim);
+      }
+    });
+    counter += 1;
+  });
+};&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;演员演得再好, 没有一个好的舞台背景怎么行呢:&lt;/p&gt;
+&lt;p&gt;摄像机来:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;_initCameras = (scene, canvas) =&gt; {
+    const camera = new BABYLON.ArcRotateCamera(
+      &apos;MainCamera&apos;,
+      5,
+      10,
+      10,
+      BABYLON.Vector3(0, 10, 0),
+      scene
+    );
+    camera.lowerBetaLimit = 0.1;
+    camera.upperBetaLimit = Math.PI / 2 * 0.99;
+    camera.lowerRadiusLimit = 150;
+    camera.attachControl(canvas, true);
+    return camera;
+  };&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;灯光来:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;_initLights = scene =&gt; {
+    const pointLight = new BABYLON.HemisphericLight(
+      &apos;pointLight&apos;,
+      new BABYLON.Vector3(1, 1, 0),
+      scene
+    );
+    pointLight.intensity = 0.06;
+    return pointLight;
+  };&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;背景来:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt; _initGround = screen =&gt; {
+    const ground = BABYLON.MeshBuilder.CreateGround(
+      &apos;ground&apos;,
+      {
+        width: 400,
+        height: 400,
+      },
+      screen
+    );
+    ground.diffuseColor = new BABYLON.Color3(0, 0, 0);
+    return ground;
+  };&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;最后,将所有的元素放置到空白 HTML 中的&lt;code&gt;canvas&lt;/code&gt;中&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;/**
+   * 当请求数据时更新动画
+   */
+  _renderLine = scene =&gt; {
+    // 页面加载完毕调用动画
+    this._beginAnimation(scene, this.startData);
+    // 根据props中duration来决定数据请求的间隔时间
+    this.lineInterval = setInterval(() =&gt; {
+      // 更新数据源
+      this.startData = data;
+      this._beginAnimation(scene, this.startData);
+    }, this.props.duration);
+  };
+
+  /**
+   * 运行动画
+   */
+  _beginAnimation = scene =&gt; {
+    // 构建路线
+    const routes = lib.parabola(this.startData, 100);
+    const alpha = 0;
+    lib.updataLine(scene, this.startData, routes, alpha);
+  };
+
+  _onResize = engine =&gt; {
+    engine.resize();
+  };
+
+_onLoaded = canvas =&gt; {
+    this.engine = new BABYLON.Engine(canvas, true);
+    const createScene = () =&gt; {
+      const scene = new BABYLON.Scene(this.engine);
+      this._initCameras(scene, canvas);
+      this._initLights(scene);
+      this._initGround(scene);
+      this._renderLine(scene);
+      return scene;
+    };
+    const scene = createScene();
+    this._renderLoop(this.engine, scene);
+    window.addEventListener(&apos;resize&apos;, () =&gt; {
+      this._onResize(this.engine);
+    });
+  };&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;打完, 收工&lt;/p&gt;
+&lt;h1&gt;总结&lt;/h1&gt;
+&lt;p&gt;3D 打击效果实现的要点主要就是怎么去算出这条打击轨迹.这就需要运用数学和物理上的相关知识了.&lt;/p&gt;
+&lt;p&gt;从数学角度来看,打击轨迹就是一条抛物线.所以只需求出已知两点的抛物线就可以得到这条打击轨迹了.但单从数学的角度来做的话,实现起来太过于麻烦.但仔细观察就可以发现这条抛物线是对称的,并且有一半是在做平抛运动,所以只要通过物理上平抛运动的方程就可以解决问题.&lt;/p&gt;
+&lt;p&gt;水平方向运动可以将其看成是沿&lt;code&gt;x轴&lt;/code&gt;和&lt;code&gt;z轴&lt;/code&gt;的水平匀速运动.最后通过水平方向运动得到的坐标带入平抛运动方程中,求出竖直方向的坐标,然后对称,就可以得到这条抛物线的所有坐标点了.&lt;/p&gt;
+&lt;p&gt;线条运动说穿了就是点的移动,有了抛物线的坐标点,只需安装Babylon.js的规范实现点的移动就可以展示打击效果了&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】如何创建交互友好的表单]]></title><description><![CDATA[原文地址： Creating User-friendly forms 作者：Momoh Silm…]]></description><link>https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-13-fan-yi-ru-he-chuang-jian-jiao-hu-you-hao-de-biao-dan/</guid><pubDate>Tue, 13 Mar 2018 02:16:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-8c910dd21b5fa1deb2346fb016ac7523-d6978.jpeg&quot;
@@ -4632,7 +5126,7 @@ Medium 在显示搜索结果后没有清除搜索栏&lt;/p&gt;
   
   &lt;/a&gt;
     
-Cowrywise 让标签尽可能的清晰，并且在按钮的描述性文字上也做得很好&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】让我们从零开始变编写一个web服务器]]></title><description><![CDATA[原文链接： Let’s code a web server from scratch with NodeJS Streams!   作者： Ziad Saab 在这篇文章中，我将通过 node.js 的  stream  模块从零开始搭建一个简单的 web…]]></description><link>https://knownsec-fed.com/2018-03-12-fan-yi-rang-wo-men-cong-ling-kai-shi-bian-bian-xie-yi-ge-web-fu-wu-qi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-12-fan-yi-rang-wo-men-cong-ling-kai-shi-bian-bian-xie-yi-ge-web-fu-wu-qi/</guid><pubDate>Mon, 12 Mar 2018 10:45:21 GMT</pubDate><content:encoded>&lt;p&gt;
+Cowrywise 让标签尽可能的清晰，并且在按钮的描述性文字上也做得很好&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】让我们从零开始编写一个web服务器]]></title><description><![CDATA[原文链接： Let’s code a web server from scratch with NodeJS Streams!   作者： Ziad Saab 在这篇文章中，我将通过 node.js 的  stream  模块从零开始搭建一个简单的 web…]]></description><link>https://knownsec-fed.com/2018-03-12-fan-yi-rang-wo-men-cong-ling-kai-shi-bian-bian-xie-yi-ge-web-fu-wu-qi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-12-fan-yi-rang-wo-men-cong-ling-kai-shi-bian-bian-xie-yi-ge-web-fu-wu-qi/</guid><pubDate>Mon, 12 Mar 2018 10:45:21 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-4a609cb1c6079044d4ec9e51ff66bb3e-d6978.jpeg&quot;
@@ -5318,7 +5812,7 @@ docker container run -p 8080:3000 -it knownsec /bin/bash
 &lt;li&gt;&lt;a href=&quot;https://yeasy.gitbooks.io/docker_practice/content/data_management/&quot;&gt;Docker 数据管理&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;总结&lt;/h2&gt;
-&lt;p&gt;刚开始学习 Docker，很多东西了解得不深入不全面，只知道一点表象知识。Docker 的命令很多，Dockerfile 配置文件的命令也很多，所以需要经常使用才能牢记。高级网络配置，安全等暂时还不了解的知识希望在以后的路上慢慢补上来！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】基于 Cypress 测试 React 应用]]></title><description><![CDATA[原文链接： Testing React app with Cypress 作者： Adam Trzciński 两周(原文发布于2017/11/6)以前，Cypress 开源了并且适用于任何人。 Cypress…]]></description><link>https://knownsec-fed.com/2018-03-07-fan-yi-ji-yu-cypress-ce-shi-react-ying-yong/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-07-fan-yi-ji-yu-cypress-ce-shi-react-ying-yong/</guid><pubDate>Wed, 07 Mar 2018 08:41:36 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;刚开始学习 Docker，很多东西了解得不深入不全面，只知道一点表象知识。Docker 的命令很多，Dockerfile 配置文件的命令也很多，所以需要经常使用才能牢记。高级网络配置，安全等暂时还不了解的知识希望在以后的路上慢慢补上来！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】基于 Cypress 测试 React 应用]]></title><description><![CDATA[原文链接： Testing React app with Cypress 作者： Adam Trzciński 两周(原文发布于2017/11/6)以前，Cypress 开源了并且适用于任何人。 Cypress…]]></description><link>https://knownsec-fed.com/2018-03-07-fan-yi-ji-yu-cypress-ce-shi-react-ying-yong/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-07-fan-yi-ji-yu-cypress-ce-shi-react-ying-yong/</guid><pubDate>Wed, 07 Mar 2018 08:41:36 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-d7343fcc2f16967864203ae4485571ab-d6978.jpeg&quot;
@@ -5588,7 +6082,7 @@ docker container run -p 8080:3000 -it knownsec /bin/bash
 &lt;blockquote&gt;
 &lt;p&gt;网络已经进化，测试依旧会如此。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;让我们写一些测试吧，愿原力与你同在！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】如何找到完美的色彩搭配 - 介绍 ColorClaim]]></title><description><![CDATA[原地网址： How to find your perfect color pairings — Introducing ColorClaim 作者：Tobias van Schneider…]]></description><link>https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</guid><pubDate>Mon, 05 Mar 2018 12:41:57 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;让我们写一些测试吧，愿原力与你同在！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】如何找到完美的色彩搭配 - 介绍 ColorClaim]]></title><description><![CDATA[原地网址： How to find your perfect color pairings — Introducing ColorClaim 作者：Tobias van Schneider…]]></description><link>https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-fan-yi-ru-he-zhao-dao-wan-mei-de-se-cai-da-pei-jie-shao-colorclaim/</guid><pubDate>Mon, 05 Mar 2018 12:41:57 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-5cde8a3daf4d59e378749b07275a9925-d6978.jpeg&quot;
@@ -5848,7 +6342,7 @@ PTK = PRF(PMK + ANonce + SNonce + AP_MAC + SPA_MAC)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;step4: aircarck-ng -w ~/wordlist.txt /tmp/airportSniffXXX.cap 使用密码字典进行暴力破解。&lt;/p&gt;
 &lt;h1&gt;总结&lt;/h1&gt;
 &lt;p&gt;由于多数用户缺乏相关安全意识， 仅使用手机号码，生日以及简单的数字作为WPA-PSK的密码，密码字典可以针对这类密码进行快速的破解。&lt;/p&gt;
-&lt;p&gt;最后我们再做个简单计算让大家了解提高密码复杂度的必要性， 按照现在主流单机环境配置，维持100~~300k/s(k/s指的是破解时每秒调用的key数量)的破解速率，要把一个以小写字母和数字组合的5位WPA密码破开大概需要2-7天。这还只是5位数WPA密码，若是采用WPA密码为纯小写字母且长度在10位数以上，则最快需要时间是14921年! 如果在加上特殊符号， 暴力破解将彻底失去意义。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[程序员偷懒指南 -- 用chrome插件实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，也就是我们常说的插件，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://knownsec-fed.com/2018-03-05-yi-ge-chrome-kuo-zhan-jiu-zhe-yang-dan-sheng-liao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-yi-ge-chrome-kuo-zhan-jiu-zhe-yang-dan-sheng-liao/</guid><pubDate>Mon, 05 Mar 2018 02:42:42 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;最后我们再做个简单计算让大家了解提高密码复杂度的必要性， 按照现在主流单机环境配置，维持100~~300k/s(k/s指的是破解时每秒调用的key数量)的破解速率，要把一个以小写字母和数字组合的5位WPA密码破开大概需要2-7天。这还只是5位数WPA密码，若是采用WPA密码为纯小写字母且长度在10位数以上，则最快需要时间是14921年! 如果在加上特殊符号， 暴力破解将彻底失去意义。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[程序员偷懒指南——用chrome插件实现前端资讯推送]]></title><description><![CDATA[最近接触了一下 chrome 扩展，也就是我们常说的插件，发现这确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom…]]></description><link>https://knownsec-fed.com/2018-03-05-yi-ge-chrome-kuo-zhan-jiu-zhe-yang-dan-sheng-liao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-05-yi-ge-chrome-kuo-zhan-jiu-zhe-yang-dan-sheng-liao/</guid><pubDate>Mon, 05 Mar 2018 02:42:42 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-474dca67cb6167d917c8b72ae98b8aea-d6978.jpeg&quot;
@@ -6508,7 +7002,7 @@ entityManager&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;s
 &lt;li&gt;思考下该 ORM 是属于哪种模式？&lt;/li&gt;
 &lt;li&gt;既然选择里该框架肯定是冲着她的优点去的，那么在开发的过程在有没有体会到该框架带来的弊端？&lt;/li&gt;
 &lt;li&gt;有没有想过有朝一日放弃所有的 ORM，返璞归真，从 sql 开始？&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[【翻译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[【译】不仅仅是漂亮：图像如何驱动用户体验]]></title><description><![CDATA[原文地址： More Than Just Pretty: How Imagery Drives User Experience — Smashing Magazine 原文作者：Nick Babich…]]></description><link>https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-26-bu-jin-jin-shi-piao-liang-tu-xiang-ru-he-qu-dong-yong-hu-ti-yan/</guid><pubDate>Mon, 26 Feb 2018 03:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-f817b2bbffd38015871e18584c9287f5-d6978.jpeg&quot;
@@ -8446,7 +8940,7 @@ vm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
 &lt;li&gt;如果要使用 async,await 这两个方法，node 版本需要在 7 以上。&lt;/li&gt;
 &lt;li&gt;相信大家一定也想到了，这个实验最重要的是需要获得被攻击方的 ID，但是我们没有被攻击方的密码，怎么能够获取他 ID 呢，这个我也在继续思考。&lt;/li&gt;
 &lt;li&gt;虽然这个实验是一个简单的实验，但是也还是折射出网络安全的重要性，虽然我们是前端工程师，也还是需要将安全检测做到位。&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[【翻译】React Scope介绍]]></title><description><![CDATA[原文链接： React Scope 作者： Tiffany Lin 随着React应用程序复杂度的增长， components 、 state  、 props 的复杂性也变得越来越高。上个月，一些开发人员和我对于这个问题建立了解决方案。我们决定开发Chrome的插件 React…]]></description><link>https://knownsec-fed.com/2018-02-04-fan-yi-reactscope-jie-shao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-04-fan-yi-reactscope-jie-shao/</guid><pubDate>Sun, 04 Feb 2018 01:24:37 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[【译】React Scope介绍]]></title><description><![CDATA[原文链接： React Scope 作者： Tiffany Lin 随着React应用程序复杂度的增长， components 、 state  、 props 的复杂性也变得越来越高。上个月，一些开发人员和我对于这个问题建立了解决方案。我们决定开发Chrome的插件 React…]]></description><link>https://knownsec-fed.com/2018-02-04-fan-yi-reactscope-jie-shao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-04-fan-yi-reactscope-jie-shao/</guid><pubDate>Sun, 04 Feb 2018 01:24:37 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-9b54ff1cab86ce5fd0b762b1d94ad917-d6978.jpeg&quot;
@@ -8501,7 +8995,7 @@ vm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&
 &lt;p&gt;而且，能够很容易地看到&lt;em&gt;props&lt;/em&gt;如何传递，可以使调试变得更容易。例如，如果一个&lt;em&gt;props&lt;/em&gt;在某个组件中是不可访问的，那么用户可以在树中查找以确定它传递失败的位置。&lt;/p&gt;
 &lt;h3&gt;入门&lt;/h3&gt;
 &lt;p&gt;您可以从&lt;a href=&quot;https://chrome.google.com/webstore/detail/react-scope/nkkiickggkoojpdiajhgkbdmfgcinlai&quot;&gt;Chrome网上应用店&lt;/a&gt;安装&lt;em&gt;React Scope&lt;/em&gt;。如果您有任何想法或建议，请给我们反馈。这是我们每个人热爱的项目，我们正在积极探索改善它的方法。&lt;/p&gt;
-&lt;p&gt;了解更多信息，请访问&lt;a href=&quot;http://reactscope.com/&quot;&gt;React Scope官网&lt;/a&gt;和&lt;a href=&quot;https://github.com/React-Scope/React-Scope&quot;&gt;GitHub&lt;/a&gt;。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】六个选择UI颜色的技巧]]></title><description><![CDATA[原文链接： Color Matters. 6 Tips on Choosing UI Colors. – UX Planet 作者：Tubik Studio…]]></description><link>https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</guid><pubDate>Sat, 03 Feb 2018 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;了解更多信息，请访问&lt;a href=&quot;http://reactscope.com/&quot;&gt;React Scope官网&lt;/a&gt;和&lt;a href=&quot;https://github.com/React-Scope/React-Scope&quot;&gt;GitHub&lt;/a&gt;。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】六个选择UI颜色的技巧]]></title><description><![CDATA[原文链接： Color Matters. 6 Tips on Choosing UI Colors. – UX Planet 作者：Tubik Studio…]]></description><link>https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-03-fan-yi-liu-ge-xuan-ze-ui-yan-se-de-ji-qiao/</guid><pubDate>Sat, 03 Feb 2018 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-f098b9c6f8de6f011c024d9d0c4fe2bd-d6978.jpeg&quot;
@@ -9163,7 +9657,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;结语&lt;/h2&gt;
-&lt;p&gt;  本文只是列举了一非常简单的 Node 命令行程序创建，发布，安装流程．希望大家举一反三让 Node 脚本更好的服务与我们工作和生活之中。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】React ⚛️  新的 Context API]]></title><description><![CDATA[原文地址： React’s ⚛️ new Context API 作者： kentcdodds 这不再是一个  实验性的 API ，并且它更符合  工程化  的理念，目前它已成为  React 一级棒的 API 。 ⚠️ ：大家可以通过  newsletter…]]></description><link>https://knownsec-fed.com/2018-02-01-fan-yi-react-xin-de-contextapi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-01-fan-yi-react-xin-de-contextapi/</guid><pubDate>Thu, 01 Feb 2018 02:35:39 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;  本文只是列举了一非常简单的 Node 命令行程序创建，发布，安装流程．希望大家举一反三让 Node 脚本更好的服务与我们工作和生活之中。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】React ⚛️  新的 Context API]]></title><description><![CDATA[原文地址： React’s ⚛️ new Context API 作者： kentcdodds 这不再是一个  实验性的 API ，并且它更符合  工程化  的理念，目前它已成为  React 一级棒的 API 。 ⚠️ ：大家可以通过  newsletter…]]></description><link>https://knownsec-fed.com/2018-02-01-fan-yi-react-xin-de-contextapi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-02-01-fan-yi-react-xin-de-contextapi/</guid><pubDate>Thu, 01 Feb 2018 02:35:39 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-28193925cddf7d6452396c4238361a9b-d6978.jpeg&quot;
@@ -10027,7 +10521,7 @@ inquirer
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;值得一提的是，因为它是一个 Redux 的 middleware，&lt;code&gt;返回&lt;/code&gt; 意味着将 action 传递给下一个 middleware，直到传递到 reducer 中。从图中可以看出，如果你不是按照它规定的格式书写 action，它会直接透传出去，因此它并不会对项目造成什么副作用（除非你以前的 action 中的对象就是有叫 payload 的属性，并通过 payload 直接把一个 promise 对象发给了 reducer，这种本身也是不规范的写法）。&lt;/p&gt;
-&lt;p&gt;除了文章中讲到的这些，redux-promise-middleware 还有许多其他的使用技巧帮助我们提高编码效率，同时很多属性也支持自定义，比如代表三种状态的 action 的后缀等等，感兴趣的同学可以下来自行阅读官方文档。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】React 组件设计模式基础]]></title><description><![CDATA[原文链接： React Component Patterns 作者： Gustavo Matheus 随着 React 在前端开发中越来越流行，各种各样的设计模式及新概念亦层出不穷。本文旨在总结 React 开发中一些常见的设计模式。 有状态 (Stateful) vs…]]></description><link>https://knownsec-fed.com/2018-01-28-fan-yi-react-zu-jian-mo-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-28-fan-yi-react-zu-jian-mo-shi/</guid><pubDate>Sun, 28 Jan 2018 03:54:17 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;除了文章中讲到的这些，redux-promise-middleware 还有许多其他的使用技巧帮助我们提高编码效率，同时很多属性也支持自定义，比如代表三种状态的 action 的后缀等等，感兴趣的同学可以下来自行阅读官方文档。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】React 组件设计模式基础]]></title><description><![CDATA[原文链接： React Component Patterns 作者： Gustavo Matheus 随着 React 在前端开发中越来越流行，各种各样的设计模式及新概念亦层出不穷。本文旨在总结 React 开发中一些常见的设计模式。 有状态 (Stateful) vs…]]></description><link>https://knownsec-fed.com/2018-01-28-fan-yi-react-zu-jian-mo-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-28-fan-yi-react-zu-jian-mo-shi/</guid><pubDate>Sun, 28 Jan 2018 03:54:17 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-41dac6053e9c1076378266f209aa4fc4-d6978.jpeg&quot;
@@ -10269,7 +10763,7 @@ inquirer
 &lt;li&gt;&lt;a href=&quot;https://medium.com/merrickchristensen/function-as-child-components-5f3920a9ace9&quot;&gt;Function as Child Components&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/acdlite/recompose&quot;&gt;Recompose&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/paypal/downshift&quot;&gt;Downshift&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【翻译】不要让用户在产品体验上受到挫折]]></title><description><![CDATA[原文地址： Don’t Frustrate Users With Gaps in Your Product Experience 作者：Shiren Vijiasingam…]]></description><link>https://knownsec-fed.com/2018-01-28-fan-yi-bu-yao-rang-yong-hu-zai-chan-pin-ti-yan-shang-shou-dao-cuo-zhe/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-28-fan-yi-bu-yao-rang-yong-hu-zai-chan-pin-ti-yan-shang-shou-dao-cuo-zhe/</guid><pubDate>Sun, 28 Jan 2018 02:19:42 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【译】不要让用户在产品体验上受到挫折]]></title><description><![CDATA[原文地址： Don’t Frustrate Users With Gaps in Your Product Experience 作者：Shiren Vijiasingam…]]></description><link>https://knownsec-fed.com/2018-01-28-fan-yi-bu-yao-rang-yong-hu-zai-chan-pin-ti-yan-shang-shou-dao-cuo-zhe/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-28-fan-yi-bu-yao-rang-yong-hu-zai-chan-pin-ti-yan-shang-shou-dao-cuo-zhe/</guid><pubDate>Sun, 28 Jan 2018 02:19:42 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-e029b1604d58f824810393a2a303b791-d6978.jpeg&quot;
@@ -11362,7 +11856,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/chentsulin/electron-react-boilerplate&quot;&gt;electron-react-boilerplate github&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【翻译】UI 设计中的格式塔原则]]></title><description><![CDATA[原文链接:  Gestalt principles in UI design 作者：Eleana Gkogka…]]></description><link>https://knownsec-fed.com/2018-01-20-fan-yi-ui-she-ji-zhong-de-ge-shi-ta-yuan-ze/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-20-fan-yi-ui-she-ji-zhong-de-ge-shi-ta-yuan-ze/</guid><pubDate>Sat, 20 Jan 2018 17:41:53 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【译】UI 设计中的格式塔原则]]></title><description><![CDATA[原文链接:  Gestalt principles in UI design 作者：Eleana Gkogka…]]></description><link>https://knownsec-fed.com/2018-01-20-fan-yi-ui-she-ji-zhong-de-ge-shi-ta-yuan-ze/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-20-fan-yi-ui-she-ji-zhong-de-ge-shi-ta-yuan-ze/</guid><pubDate>Sat, 20 Jan 2018 17:41:53 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-31f16200f4d7cfa584604d101cc45c96-d6978.jpeg&quot;
@@ -12198,7 +12692,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;/ul&gt;
 &lt;h1&gt;总结&lt;/h1&gt;
 &lt;p&gt;QUIC 实现的目标，就是利用 UDP 实现一个 TCP，支持 TCP 的所有特性，并且比 TCP 更快更好用。&lt;/p&gt;
-&lt;p&gt;QUIC 是从 2012 年开始的项目，到目前也还只是草案阶段，并且同样处于草案阶段的 TLS1.3 也同样拥有了 QUIC 中的很多优点（比如 0-RTT）。对于访问速度的优化方式越来越多，适当的选择可以为网站增色许多。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】使用 CSS 追踪用户]]></title><description><![CDATA[原文地址： Crooked Style Sheets 作者：jbtronics 除了使用 JS 追踪用户，现在有人提出了还可以使用  CSS…]]></description><link>https://knownsec-fed.com/2018-01-19-fan-yi-shi-yong-css-zhui-zong-yong-hu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-19-fan-yi-shi-yong-css-zhui-zong-yong-hu/</guid><pubDate>Fri, 19 Jan 2018 03:26:10 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;QUIC 是从 2012 年开始的项目，到目前也还只是草案阶段，并且同样处于草案阶段的 TLS1.3 也同样拥有了 QUIC 中的很多优点（比如 0-RTT）。对于访问速度的优化方式越来越多，适当的选择可以为网站增色许多。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】使用 CSS 追踪用户]]></title><description><![CDATA[原文地址： Crooked Style Sheets 作者：jbtronics 除了使用 JS 追踪用户，现在有人提出了还可以使用  CSS…]]></description><link>https://knownsec-fed.com/2018-01-19-fan-yi-shi-yong-css-zhui-zong-yong-hu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-19-fan-yi-shi-yong-css-zhui-zong-yong-hu/</guid><pubDate>Fri, 19 Jan 2018 03:26:10 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-7bb518397e954c9cbae89c3a0f56dbb6-d6978.jpeg&quot;
@@ -12602,7 +13096,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;从上面的代码中看出，&lt;code&gt;notification&lt;/code&gt; 组件使用 &lt;code&gt;unmountComponentAtNode&lt;/code&gt; 函数将其进行销毁，这个方法适用于某些不能在当前组件中进行组件销毁的情况，举个例子，模态框的删除也可以使用这个方法执行。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】UI 中的排版：初学者指南]]></title><description><![CDATA[原文链接： Typography in UI: Guide for Beginners. 作者：Tubik Studio…]]></description><link>https://knownsec-fed.com/2018-01-14-ui-zhong-de-pai-ban-chu-xue-zhe-zhi-nan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-14-ui-zhong-de-pai-ban-chu-xue-zhe-zhi-nan/</guid><pubDate>Sun, 14 Jan 2018 05:39:05 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;从上面的代码中看出，&lt;code&gt;notification&lt;/code&gt; 组件使用 &lt;code&gt;unmountComponentAtNode&lt;/code&gt; 函数将其进行销毁，这个方法适用于某些不能在当前组件中进行组件销毁的情况，举个例子，模态框的删除也可以使用这个方法执行。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】UI 中的排版：初学者指南]]></title><description><![CDATA[原文链接： Typography in UI: Guide for Beginners. 作者：Tubik Studio…]]></description><link>https://knownsec-fed.com/2018-01-14-ui-zhong-de-pai-ban-chu-xue-zhe-zhi-nan/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-14-ui-zhong-de-pai-ban-chu-xue-zhe-zhi-nan/</guid><pubDate>Sun, 14 Jan 2018 05:39:05 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-3ab6ef5d4c66ae19e55c59daf1b04d4e-d6978.jpeg&quot;
@@ -13066,7 +13560,7 @@ mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[koa包教包会(一)--白话koa]]></title><description><![CDATA[学习 koa 的必要性 koa 是由 express 原班人马打造的，小巧的，健壮的 web 开发框架，也正因为它这些的优点，eggjs 等很多 web 框架的核心也是由 koa 驱动的，熟悉 koa 代码，不仅对于使用 koa 进行开发有很大帮助，也有助于深入理解像 eggjs…]]></description><link>https://knownsec-fed.com/2018-01-14-learn-koa-intro/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-14-learn-koa-intro/</guid><pubDate>Sun, 14 Jan 2018 03:47:59 GMT</pubDate><content:encoded>&lt;p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[koa包教包会(一)——白话koa]]></title><description><![CDATA[学习 koa 的必要性 koa 是由 express 原班人马打造的，小巧的，健壮的 web 开发框架，也正因为它这些的优点，eggjs 等很多 web 框架的核心也是由 koa 驱动的，熟悉 koa 代码，不仅对于使用 koa 进行开发有很大帮助，也有助于深入理解像 eggjs…]]></description><link>https://knownsec-fed.com/2018-01-14-learn-koa-intro/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-14-learn-koa-intro/</guid><pubDate>Sun, 14 Jan 2018 03:47:59 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-31fad4487f570cd901c0147626041e16-d6978.jpeg&quot;
@@ -13654,7 +14148,7 @@ Dep&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target &lt;span
 &lt;h2&gt;总结&lt;/h2&gt;
 &lt;p&gt;上面的代码也借鉴了前人的想法，但由于时间比较久了，所以我也没找到，感谢大佬提供思路。&lt;/p&gt;
 &lt;p&gt;Vue 的设计很有意思，在学习之中也能有很多不一样的感受，同时，在读源码的过程中，不要过多的追求读懂每一个变量，每一个句子。第一遍代码，先读懂程序是怎么跑起来的，大概是怎么走的，通读一遍，第二遍再去深究，扣一扣当时不清楚的东西，这是我看源码的一些心得，可能每个人的方法不一样，希望你能有所收获。&lt;/p&gt;
-&lt;p&gt;最后，因为 &lt;a href=&quot;https://cn.vuejs.org/v2/guide/&quot;&gt;Vue 2.0&lt;/a&gt; 已经出来一段时间了，源码也有很多的变动，生命周期的变化、Virtual DOM 等等，还有比较感兴趣的 diff 算法，这些后续会继续研究的，谢谢。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】React Web 动画的 5 种创建方式，每一种都不简单]]></title><description><![CDATA[原文地址 ： React Animations in Depth 作者 ：Nader Dabit 在  Tweet  得到很多大佬关于  React Web 动画  不错的的回应，于是决定在这里分享给大家 以下便是本文要分享的创建  React 动画  的几种方式。 CSS…]]></description><link>https://knownsec-fed.com/2018-01-12-translation-React-Animations-in-Depth/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-12-translation-React-Animations-in-Depth/</guid><pubDate>Thu, 11 Jan 2018 16:36:35 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;最后，因为 &lt;a href=&quot;https://cn.vuejs.org/v2/guide/&quot;&gt;Vue 2.0&lt;/a&gt; 已经出来一段时间了，源码也有很多的变动，生命周期的变化、Virtual DOM 等等，还有比较感兴趣的 diff 算法，这些后续会继续研究的，谢谢。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】React Web 动画的 5 种创建方式，每一种都不简单]]></title><description><![CDATA[原文地址 ： React Animations in Depth 作者 ：Nader Dabit 在  Tweet  得到很多大佬关于  React Web 动画  不错的的回应，于是决定在这里分享给大家 以下便是本文要分享的创建  React 动画  的几种方式。 CSS…]]></description><link>https://knownsec-fed.com/2018-01-12-translation-React-Animations-in-Depth/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-12-translation-React-Animations-in-Depth/</guid><pubDate>Thu, 11 Jan 2018 16:36:35 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-772b9056a34c15f58bf4cf6bf00c21c8-d6978.jpeg&quot;
@@ -14504,7 +14998,7 @@ myMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 &lt;h1&gt;五、一点总结&lt;/h1&gt;
 &lt;p&gt;最后，在此总结下个人对 Mapbox 的一些感观。&lt;/p&gt;
 &lt;p&gt;Mapbox 的产品定位是随时随地的 GIS（跨平台、应用），它为我们提供了一系列的简单操作的 API，使得 GIS 开发变得灵活而有趣。尤其对于开发 GIS 类型的数据可视化应用，Mapbox 是绝佳的选择。&lt;/p&gt;
-&lt;p&gt;然而，如果你只是为了那些绚丽的 3D 效果的话，或许选择专门的框架更为合适。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】视觉吸引力在网页设计中的重要性]]></title><description><![CDATA[原文地址： The Importance of Visual Appeal in Web Design 作者：Robyn Collinge…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in-web-design/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in-web-design/</guid><pubDate>Sun, 07 Jan 2018 01:12:08 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;然而，如果你只是为了那些绚丽的 3D 效果的话，或许选择专门的框架更为合适。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】视觉吸引力在网页设计中的重要性]]></title><description><![CDATA[原文地址： The Importance of Visual Appeal in Web Design 作者：Robyn Collinge…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in-web-design/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in-web-design/</guid><pubDate>Sun, 07 Jan 2018 01:12:08 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-cdb4726e5011e25d077b76d384395a05-d6978.jpeg&quot;
