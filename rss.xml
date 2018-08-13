@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 07 Aug 2018 10:22:17 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 13 Aug 2018 03:47:26 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,238 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】2018 年 12 种移动端用户体验设计趋势]]></title><description><![CDATA[原文网址： 12 Mobile UX Design Trends For 2018 原文作者：Nick Babich 在移动应用领域，事物发展得非常迅速。为了能在移动用户体验设计领域取得成功，设计师需要有远见，并为即将到来的新挑战做好准备。
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[那迷人的被遗忘的语言：Prolog]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-08-09-prolog/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-09-prolog/</guid><pubDate>Thu, 09 Aug 2018 03:46:41 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-6c77233f9f5f86bdc998314fdd535858-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAE/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHWJHkllq//xAAbEAADAAIDAAAAAAAAAAAAAAAAAQIDERMhMf/aAAgBAQABBQJ3KLyd89GkV4j/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAARAhMUH/2gAIAQEABj8C1FI4ZP8A/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAERECExYUFRkf/aAAgBAQABPyHn59SPUFRtGkWsPKDuD//aAAwDAQACAAMAAAAQ3N//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCn/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAECAQE/EImP/8QAHRAAAgIBBQAAAAAAAAAAAAAAAREAITFBUWFx0f/aAAgBAQABPxAPRsoBl5ClADJc+oBUFjg1CFg9ZSVBUhU1E53n/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;那迷人的被遗忘的语言：Prolog&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-6c77233f9f5f86bdc998314fdd535858-d6978.jpeg&quot;
+        srcset=&quot;/static/header-6c77233f9f5f86bdc998314fdd535858-527f0.jpeg 300w,
+/static/header-6c77233f9f5f86bdc998314fdd535858-9a7cd.jpeg 600w,
+/static/header-6c77233f9f5f86bdc998314fdd535858-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;在进入正题之前，我们先一起思考一个问题：当我们在编程时，我们在做什么？&lt;/p&gt;
+&lt;p&gt;看到这个问题，有些同学可能会第一时间要回答：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在听音乐&lt;/li&gt;
+&lt;li&gt;在打字&lt;/li&gt;
+&lt;li&gt;在发呆&lt;/li&gt;
+&lt;li&gt;在装作很忙的样子&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;尼玛，我不是那个意思，说认真的：当我们在编程时，我们在做什么？&lt;/p&gt;
+&lt;p&gt;我们在把所想的「解决方案」转换成计算机可理解的「计算机语言」。&lt;/p&gt;
+&lt;p&gt;JavaScript, Python, Java, Ruby, C++ …… 等等等等，哪怕是世界上最好的语言 PHP，也大抵如此：&lt;strong&gt;「解决方案」-&gt;「计算机语言」&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;但你有没有想过反过来？&lt;strong&gt;「计算机语言」-&gt;「解决方案」&lt;/strong&gt; 这样，我们使用「计算机语言」描述问题，而计算机来告诉我们「解决方案」？&lt;/p&gt;
+&lt;p&gt;或许你会想到人工智能、深度学习等等概念，但那些热门话题不是我们今天要讨论的。&lt;/p&gt;
+&lt;p&gt;今天，我们来一起聊聊那迷人的被遗忘的语言：Prolog.&lt;/p&gt;
+&lt;h1&gt;Prolog 简介&lt;/h1&gt;
+&lt;p&gt;Prolog（Programming in Logic的缩写）是一种逻辑编程语言。它创建在逻辑学的理论基础之上， 诞生与 1972 年，最初被运用于自然语言等研究领域，距今 46 年历史。当下火热的 JavaScript 语言 23 岁，年龄刚好是 Prolog 的一半。&lt;/p&gt;
+&lt;p&gt;说到 Prolog 是一种逻辑编程语言，那么跟一般的函数式语言有什么区别呢？答：完全不是一码事情。在 Prolog 里，最基本的做法是先描述事实（定立对象与对象之间的关系），然后用询问目标的方式来查询各种对象之间的关系，系统会自动进行匹配、回溯，并给出答案。&lt;/p&gt;
+&lt;p&gt;举个例子：&lt;/p&gt;
+&lt;p&gt;我们使用下面的语法来表述一个事实&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;handsome&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这个语句描述了一个事实：二狗 (ergou) 是无比帅气 (handsome) 的，然后以句号 (.) 结束，表明这个事实描述完毕，不容置疑。&lt;/p&gt;
+&lt;p&gt;然后接下来我们在 Prolog 的控制台 (REPL) 里就会得到如下的结论：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handsome&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ergou&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;其中 &lt;code&gt;?-&lt;/code&gt; 开头的是我们手动输入的，其他的是 Prolog 返回的。上面的那些操作是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;我们首先问 Prolog：谁是世界上最帅的人？&lt;code&gt;handsome(X).&lt;/code&gt; 其中 &lt;code&gt;X&lt;/code&gt; 是大写字母开头，在 Prolog 里所有大写字母开头的都是变量。&lt;/li&gt;
+&lt;li&gt;然后 Prolog 回答说：&lt;code&gt;X = ergou.&lt;/code&gt; ，当然是二狗了！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上，应该可以算作 Prolog 基本思路的一个演示。你可以去下载适用于你的 Prolog 环境，然后在自己的电脑上把玩一下。&lt;/p&gt;
+&lt;p&gt;建议使用 SWI Prolog（本文的所有演示代码都是在 SWI Prolog 进行的操作）：&lt;a href=&quot;http://www.swi-prolog.org/&quot;&gt;http://www.swi-prolog.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安装完毕之后，执行下面三步，即可复现上面的结果：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将事实写入文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;handsome(ergou).&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; fact.prolog
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;启动 Prolog REPL 并加载既定事实：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;swipl fact.prolog
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;在 Prolog REPL 内输入以下语句并回车：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;handsome&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h1&gt;谁是我大爷？&lt;/h1&gt;
+&lt;p&gt;刚才的例子是我们描述了一个事实，然后又让 Prolog 告诉了我们这个事实，好像没有太大的用途，接下来我们试着做一下别的事情：&lt;/p&gt;
+&lt;h4&gt;文件名：grandfather.prolog&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;father&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;yigou&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;father&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;linggou&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;yigou&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;grandfather&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;Z&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;father&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;father&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;Z&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;看了上面的代码，应该可以理解到，我们是描述了三个事实：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;二狗 (ergou) 的父亲是 一狗 (yigou)&lt;/li&gt;
+&lt;li&gt;一狗 (yigou) 的父亲是零狗 (linggou)&lt;/li&gt;
+&lt;li&gt;X 是 Z 大爷的前提条件是：X 是 Y 的父亲，Y 是 Z 的父亲&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;有了这些事实，我们可以干什么？可以找到二狗爷爷啊！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;载入既定事实&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;swipl grandfather.prolog
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;执行询问语句&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grandfather&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;yigou&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+false&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grandfather&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; linggou&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;可以看到一狗 (yigou) 是没有爷爷的，二狗 (ergou) 的爷爷是零狗 (linggou) 。&lt;/p&gt;
+&lt;h1&gt;我和小红的共同爱好是什么？&lt;/h1&gt;
+&lt;p&gt;像刚才那个例子，我们再举一个来加深一下这种思维方式：&lt;/p&gt;
+&lt;h4&gt;文件名：music.prolog&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bach&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;% 二狗 听 巴赫&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; beethoven&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;% 二狗 听 贝多芬&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mozart&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;% 二狗 听 莫扎特&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;xiaohong&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mj&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;% 小红 听 迈克尔·杰克逊&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;xiaohong&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dylan&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;% 小红 听 鲍勃·迪伦&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;xiaohong&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bach&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;% 小红 听 巴赫&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;xiaohong&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; beethoven&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;% 小红 听 贝多芬&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;上面这些代码描述了二狗和小红的听歌品味，现在如果二狗想要找出自己与小红在听歌品味上的共同之处，该怎么办？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;载入既定事实&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;swipl music.prolog
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;执行询问语句&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;xiaohong&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; bach &lt;span class=&quot;token operator&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; beethoven &lt;span class=&quot;token operator&quot;&gt;;&lt;/span&gt;
+false&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们在加载了既定事实之后，开始询问：有什么音乐是二狗 (ergou) 和小红 (xiaohong) 都有在听的呢？&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;xiaohong&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;然后我们得到了下面的答案：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ergou&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;xiaohong&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; bach
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;如果你有在跟着文章手动操作，如果你是个细心的同学，你会发现这次询问之后光标停留在了 &lt;code&gt;X = bach&lt;/code&gt; 这里，而不是换行显示出 &lt;code&gt;?-&lt;/code&gt;。这是为什么呢？&lt;/p&gt;
+&lt;p&gt;这时候 Prolog 是在说：问题还有别的解答，按下 &lt;code&gt;;&lt;/code&gt; 寻求更多，按下 &lt;code&gt;Enter&lt;/code&gt; 表示接受当前答案。在上边了例子中，我们持续按下 &lt;code&gt;;&lt;/code&gt; ，直到返回 &lt;code&gt;false&lt;/code&gt; 才停下来。&lt;/p&gt;
+&lt;p&gt;于是我们得到了二狗和小红共同欣赏的音乐，是巴赫和贝多芬。&lt;/p&gt;
+&lt;h1&gt;鸡兔同笼问题&lt;/h1&gt;
+&lt;p&gt;接下来我们来一个经典问题：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;今有雉兔同笼，上有三十五头，下有九十四足，问雉兔各几何？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;—— 《孙子算经》&lt;/p&gt;
+&lt;p&gt;翻译成白话文：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有若干只鸡兔同在一个笼子里，从上面数，有35个头，从下面数，有94只脚。问笼中各有多少只鸡和兔？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;停！快停止思考！&lt;/p&gt;
+&lt;p&gt;如果你在使用 JavaScript、Python 等等语言的思路去尝试编程解决问题的话，赶紧停下来，现在我们要用描述既定事实的方式，让 Prolog 给我们答案！&lt;/p&gt;
+&lt;h4&gt;文件名：chicken-and-rabbits.prolog&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;% 首先，我们引入一个 clpq 的库来帮助我们进行运算符描述&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;:-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;use_module&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;clpq&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;% 然后，我们定义事实：脑袋的总数量(H) 应当等于 鸡的总数量(C) 加上 兔子的总数量(R)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;H&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:-&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;H&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;% 然后，我们定义事实：脚的总数量(F) 应当等于 鸡的总数量(C)乘以二 加上 兔子的总数量(R)乘以四&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;foot&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:-&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;F&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们定义好了事实，那么接下来让我们去询问 Prolog 答案：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;载入既定事实&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;swipl chicken-and-rabbits.prolog
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;执行询问语句&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-prolog&quot;&gt;&lt;code&gt;&lt;span class=&quot;token operator&quot;&gt;?-&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;35&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;foot&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;94&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;R&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;12.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;答：鸡有 23 只！兔有 12 只！&lt;/p&gt;
+&lt;p&gt;哈哈哈哈，没错！再也不需要去绞尽脑汁思考怎么告诉计算机去计算啦！只需要告诉 Prolog 既定事实，剩下的，就是提出正确的问题啦！&lt;/p&gt;
+&lt;p&gt;古老的 Prolog 在计算机科学中的逐渐退热，必然有对应的原因，但这种语言所特有的思维方式，也不妨去探寻一下。在当下的编程氛围里，或许 Prolog 就像是夏日的一杯加冰柠檬水，给我们带来凉爽和清新呢！&lt;/p&gt;
+&lt;p&gt;好了，关于 Prolog 的讨论，我们今天就到这里了，多谢各位！&lt;/p&gt;
+&lt;p&gt;还有更多关于 Prolog 的资料，感兴趣可以继续阅读：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Prolog&quot;&gt;Prolog - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.swi-prolog.org/&quot;&gt;SWI-Prolog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.swi-prolog.org/man/clpqr.html&quot;&gt;SWI-Prolog manual / clpqr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sjsu.edu/faculty/watkins/prolog.htm&quot;&gt;Introduction to the Programming Language PROLOG: A Language  for Logic Programming and Symbolic Computation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【翻译】2018 年 12 种移动端用户体验设计趋势]]></title><description><![CDATA[原文网址： 12 Mobile UX Design Trends For 2018 原文作者：Nick Babich 在移动应用领域，事物发展得非常迅速。为了能在移动用户体验设计领域取得成功，设计师需要有远见，并为即将到来的新挑战做好准备。
 为了简化这个任务，我列出了 201…]]></description><link>https://knownsec-fed.com/2018-04-16-fan-yi-2018-nian-12-zhong-yi-dong-duan-yong-hu-ti-yan-she-ji-qu-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-04-16-fan-yi-2018-nian-12-zhong-yi-dong-duan-yong-hu-ti-yan-she-ji-qu-shi/</guid><pubDate>Mon, 16 Apr 2018 02:25:20 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
