@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 13 Aug 2018 03:47:26 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 Aug 2018 02:20:36 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,205 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[那迷人的被遗忘的语言：Prolog]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-08-09-prolog/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-09-prolog/</guid><pubDate>Thu, 09 Aug 2018 03:46:41 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[要点梳理：TCP连接及常见攻击手法分析]]></title><description><![CDATA[TCP 协议简介 TCP 协议是一种面向连接的，可靠的字节流服务。 可靠性：TCP 在传输过程中可以通过校验和，确认和重传机制保证可靠传输 TCP 给数据分节进行排序，并使用累计确认保证数据的顺序不变和非重复 TCP…]]></description><link>https://knownsec-fed.com/2018-08-13-tcp-lian-jie-ji-chang-jian-gong-ji-shou-fa-fen-xi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-13-tcp-lian-jie-ji-chang-jian-gong-ji-shou-fa-fen-xi/</guid><pubDate>Mon, 13 Aug 2018 02:32:21 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-15fd1a70477683b99e5e78471dba97ee-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB0E4THSos/8QAGhABAAMAAwAAAAAAAAAAAAAAAQACBBESMv/aAAgBAQABBQI015tqRtqYLH32Z//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAARAxAiEy/9oACAEBAAY/AuXGsUXFs//EABwQAAMAAgMBAAAAAAAAAAAAAAABESFRMUGR4f/aAAgBAQABPyFqGkfZJ1gq1Dbembt80f1j/9oADAMBAAIAAwAAABBUD//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EGP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAxIUFRYZH/2gAIAQEAAT8QEHWyVgexsycoRdxO0EZIN7XUtZ+WmxCyJuPgVAbz/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;TCP连接及常见攻击手法分析&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-15fd1a70477683b99e5e78471dba97ee-d6978.jpeg&quot;
+        srcset=&quot;/static/header-15fd1a70477683b99e5e78471dba97ee-527f0.jpeg 300w,
+/static/header-15fd1a70477683b99e5e78471dba97ee-9a7cd.jpeg 600w,
+/static/header-15fd1a70477683b99e5e78471dba97ee-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TCP 协议简介&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TCP 协议是一种面向连接的，可靠的字节流服务。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可靠性：TCP 在传输过程中可以通过校验和，确认和重传机制保证可靠传输&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TCP 给数据分节进行排序，并使用累计确认保证数据的顺序不变和非重复&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TCP 使用滑动窗口机制来实现流量控制，通过动态改变窗口的大小进行拥塞控制&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TCP 的三次握手建立连接&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;所谓三次握手是指，建立一个 TCP 连接，需要客户端和服务端总共发送三个包。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第一次握手（SYN=1，seq=x)：客户端发送一个 TCP 的 SYN 标志位置1的包，指明客户端准备连接服务器的端口，以及初始序列号X，保存在包头的序列号（Sequence Number）字段里。发送完毕后，客户端进入 SYN_SEND 状态。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;其中第一次的序列号是随机的，这样是为了网络安全，如果不是随机产生初始序列号，黑客将会以很容易的方式获取到你与其他主机之间的初始化序列号，并且伪造序列号进行攻击。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二次握手（SYN=1，ACK=1，seq=y，ACKnum=x+1）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;服务器发回确认包（ACK）应答，即 SYN 标志位和 ACK 标志位均为1.服务器端选择自己 ISN 序列号，放到 Seq 域里，同时将确认序号（Acknowledgement Number）设置为客户的 ISN 加1，即X+1。发送完毕后，服务器进入 SYN_RCVD 状态。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三次握手（ACK=1，ACKnum=y+1)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;客户端再次发送确认包（ACK），SYN 标志位为0，ACK 标志位为1，并且把服务器发来 ACK 的序号字段+1，放在确定字段中发送给对方。发送完毕后，客户端发送完毕后进入 ESTABLISHED 状态，TCP 握手结束。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/tcp-connection-made-three-way-handshake-dc84424c5323fe09589acbdfc16b3b46-c9279.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 982px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.24032586558045%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABsElEQVQoz41S21LbMBT0//9F2z/IC81D89QAT8GkNB5ioORCcHxNbEuWZMvbcwSY0PahO6MZSaOzZ7V7vLbtIRsLIQ0Yfd+7xdDawlo73DPiJEWj9Ie3jWqhTQ/m8rKsxMy/w9NziVNorfFtcj4QvRF/+vwFy/B+uLO2d7XMEcUHeELUiKIdjFEIwxA/b25wPf+BX49rRPscUmoitQNxI8VA/g6LLI2hVAPvcDhgsVigqmq6UCjLElVdu7MxHe4fiDiKsFpvsX2K0XU98jx3K8sy9+5drYXXdZ0j+gusyKnqidg4lVmhsNrkuLy8wPfpFJPJhDxNEO/3uF0uURQFPEtFqm3/4Hr5nmokgiBwP+AVBKFTzwIUedy+1rEoIYRr7Jm6gkxiF4Lv+7i68jGbzcj4Ozyuc+x2MWoiSdPUKeD9W8PT5lzPxF5HJpssxXq1wmg0wng8xtnXM0zPL7DZJthsIvL16AiPx9Kp+Bc0qe3YwyEnOhQUEJv9UnykhAU4tKqqnLo9jQU3mc+vaRLmbiqkbFy9IFGmoZRPB/l/YEyLhILIqQE3E1KyGqjoGfzb33VN/QLGgQ7aAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;three-way-handshake&quot;
+        title=&quot;&quot;
+        src=&quot;/static/tcp-connection-made-three-way-handshake-dc84424c5323fe09589acbdfc16b3b46-c9279.png&quot;
+        srcset=&quot;/static/tcp-connection-made-three-way-handshake-dc84424c5323fe09589acbdfc16b3b46-656e2.png 300w,
+/static/tcp-connection-made-three-way-handshake-dc84424c5323fe09589acbdfc16b3b46-e99e6.png 600w,
+/static/tcp-connection-made-three-way-handshake-dc84424c5323fe09589acbdfc16b3b46-c9279.png 982w&quot;
+        sizes=&quot;(max-width: 982px) 100vw, 982px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TCP 的四次挥手断开连接&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;四次挥手是指，TCP 连接的拆除需要发送四个包。客户端或服务器均可发起挥手动作，在 socket 编程中，任何一方执行 close() 操作即可产生挥手操作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第一次挥手（FIN=1，seq=x）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;当发送 FIN 包，表示自己已经没有数据可以发送了，但是仍然可以接受数据。发送完毕后，（假设发送方式客户端）客户端进入 FIN+WAIT_1 状态。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二次挥手（ACK=1，ACKnum=X+1）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;服务器确认客户端的 FIN 包，发送一个确认包，表明自己接受到了客户端关闭连接的请求，但是还没准备好关闭连接（理论上：有可能还有数据向客户端传送）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三次挥手（FIN=1， seq=y)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;服务器端准备好关闭连接时，向客户端发送结束连接请求，FIN 置为1。发送完毕后，服务器端进入 LAST_ACK 状态，等待来自客户端的最后一个 ACK 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第四次挥手（ACK=1，ACKnum=y+1)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;客户端接受到来自服务器的关闭请求，发送一个确认包，并进入 TIME_WAIT 状态，等待可能出现的要求重传 ACK 包。服务器端接受到这个确认包后，关闭连接，进入 CLOSED 状态。&lt;/li&gt;
+&lt;li&gt;客户端等待 2MSL 之后，没有收到服务器端的 ACK ，认为服务器端已经处于正常关闭连接，于是自己也关闭连接，进入 CLOSED 状态。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/tcp-connection-closed-four-way-handshake-69f6d3667924846d097ec18d390d36df-f975b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 968px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 59.917355371900825%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAAB6klEQVQoz21S6W6bQBD2+79Mq75A+qdREiuNksiWmoAx2NyYazHscn2dWQyxq47EsbPsdw2rYRiRFy2SU4NGduDiHpcQEnWtpt449U6nFM7BxVQjpOqQlwqi6tD3A1Z8e337A+eYYMRtPTw+E1E6Hb0APv9+wbfvPy7EA6TsYVoBXl4/CHDEijfiOCLmBEWRI01TlKVAnucEliGMS+oLOtiQ2lqr6rtWu5hJeF1VQr+vuOl5PmzbIaCSwGM8Pj3h1/09ATRku8LetjWR4/iIk0armqsoCjqTUD+ZAPnGQMzO4FJKGIZJBDaiKIFpWgSWwXWPRBzg0/RoneNwOFB+SjtxXRd+EHwpdBwHlmVpNgZmNbzeWUc6UFM2HRQd7sgaF+9vtlsaZrEo5TwXhfPiunhY49gTSKdVtG2LNBOUa42u/xqfbBpY+712xOI04J7UfBoGXM/T4HPYolKw7BN2O8owSxEEoR5GRu+bzZb6O03IMU0DuygUQuB8PpOtyVKWZYijiCZX4+39A74fEViAI2UVhIn+lTiz4mKZ1Z+vAbkxVxiGWK/XuLv7qa2OQ0/7Sn+jlKTcalLT3sTDZKZpgo0tU66qapkyD4CfbOf/Nd78h/ycLw0YkT2DMuRBzB/Mqq8/vr6WvX+o/gISc5vkfRGypwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;four-way-handshake&quot;
+        title=&quot;&quot;
+        src=&quot;/static/tcp-connection-closed-four-way-handshake-69f6d3667924846d097ec18d390d36df-f975b.png&quot;
+        srcset=&quot;/static/tcp-connection-closed-four-way-handshake-69f6d3667924846d097ec18d390d36df-7e69f.png 300w,
+/static/tcp-connection-closed-four-way-handshake-69f6d3667924846d097ec18d390d36df-6cf3e.png 600w,
+/static/tcp-connection-closed-four-way-handshake-69f6d3667924846d097ec18d390d36df-f975b.png 968w&quot;
+        sizes=&quot;(max-width: 968px) 100vw, 968px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在 TCP 握手中可能存在的攻击手段：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SYN Flooding： 当 Server(B) 收到 Client(A) 的 SYN 请求报文时，将发送一个（ACK，SYN）应答报文，同时创建一个控制结构，将其加入到一个队列中，等待对方的 ACK 报文。接收到 ACK 报文后，双方都进入链接状。如果 Server 在一段时间内没有收到应答消息，则控制块将被释放。在 TCP 协议软件中，通常对每个端口等待建立链接的数目有一定限制，当队列长度到达设定阈值时，将丢弃后面到达的 TCP SYN 请求报文。如果攻击者不断发送大量的 TCP SYN 报文，其他用户就无法再链接到被攻击者服务器。&lt;/li&gt;
+&lt;li&gt;防御方法：通过增加连接数目、减小超时时间，可以缓解攻击，但是无法从根本阻止攻击，是 DOS 的一种，可通过 netstat 命令通过查看服务器网络连接情况，如果存在大量 SYN 的连接，则有可能收到了SYN Flooding攻击。&lt;/li&gt;
+&lt;li&gt;Land 攻击：利用了 TCP 连接建立的三次握手过程，通过向一个目标计算机发送一个 TCP SYN 报文(连接请求报文)而完成对目标计算机的攻击。与正常的 TCP SYN 报文不同的是，LAND 攻击报文的源 IP 地址和目的 IP 地址是相同的，都是目标计算机地址，这样目标计算机接受到 SYN 报文后，就会向该报文的源地址发送一个 ACK 报文，并建立一个 TCP 连接控制结构（TCB），而该报文的源地址就是自己，因此，这个 ACK 报文就发给了自己。这样如果攻击者发送了足够多的 SYN 报文，则目标计算机的 TCB 可能会耗尽，最终不能正常服务。这也是一种 DOS 攻击。可以通过 Kali Linux 提供的如 hping3 实现伪造包的功能。&lt;/li&gt;
+&lt;li&gt;防御措施：可以通过防火墙、路由设备，建立规则，丢掉源地址和目标地址相同的 SYN、SYN+ACK 和 TCP。&lt;/li&gt;
+&lt;li&gt;TCP 会话劫持：利用 TCP 会话劫持，可以方便地修改、伪造数据。TCP 通过三次握手建立连接以后,主要采用滑动窗口机制来验证对方发送的数据。如果对方发送的数据不在自己的接收窗口内,则丢弃此数据,这种发送序号不在对方接收窗口的状态称为非同步状态。当通信双方进入非同步状态后,攻击者可以伪造发送序号在有效接收窗口内的报文,也可以截获报文,篡改内容后,再修改发送序号,而接收方会认为数据是有效数据。TCP 劫持的关键在于使通信双方进入非同步状态。有多种方法可以达到此目的。如图2 所示,在主机 A 发送 SYN 请求后,B 发送 ACK &amp;#x26; SYN 进行应答,则 A 认为连接已经建立。此时,攻击者伪装成 A 向 B 发送一个 RST 报文,则 B 释放连接,攻击者继续伪装成 A 用自己的初始序列号和 B 建立新的连接,而 A 和 B 对此毫不觉察。当攻击者伪装成 A 和 B 建立连接后,A 和 B 就已经进入了非同步状态。利用 Telnet 协议的 NOP 命令也可以使通信双方进入非同步状态。主机 B 接收到 NOP 命令后,并不进行任何操作,但确认序列号将会加1。如果攻击者伪装成 A 向 B 发送大量的 NOP 命令,则会造成 A 和 B 的非同步状态。&lt;/li&gt;
+&lt;li&gt;检测 TCP 劫持的关键在于检测非同步状态。如果不断收到在接收窗口之外的数据或确认报文,则可以确定遭到 TCP 劫持攻击。或者设置禁止 RST 报文。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TCP 伪装：主要是需要获取其他客户端的初始序列号进行伪装&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;建立连接时，攻击者需要知道被伪装者的当前初始序列号&lt;/li&gt;
+&lt;li&gt;发送命令时，攻击者需要知道V的响应报文的数据长度。（可以大概计算出来）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[那迷人的被遗忘的语言：Prolog]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-08-09-prolog/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-09-prolog/</guid><pubDate>Thu, 09 Aug 2018 03:46:41 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-6c77233f9f5f86bdc998314fdd535858-d6978.jpeg&quot;
@@ -622,7 +820,311 @@ false&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.swi-prolog.org/&quot;&gt;SWI-Prolog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.swi-prolog.org/man/clpqr.html&quot;&gt;SWI-Prolog manual / clpqr&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.sjsu.edu/faculty/watkins/prolog.htm&quot;&gt;Introduction to the Programming Language PROLOG: A Language  for Logic Programming and Symbolic Computation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【翻译】2018 年 12 种移动端用户体验设计趋势]]></title><description><![CDATA[原文网址： 12 Mobile UX Design Trends For 2018 原文作者：Nick Babich 在移动应用领域，事物发展得非常迅速。为了能在移动用户体验设计领域取得成功，设计师需要有远见，并为即将到来的新挑战做好准备。
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[悄悄掀起 WebAssembly 的神秘面纱]]></title><description><![CDATA[前端开发人员想必对现代浏览器都已经非常熟悉了吧？HTML5，CSS4，JavaScript ES6，这些已经在现代浏览器中慢慢普及的技术为前端开发带来了极大的便利。 得益于 JIT（Just-in-time）技术，JavaScript 的运行速度比原来快了 1…]]></description><link>https://knownsec-fed.com/2018-08-08-qiao-qiao-xian-qi-webassembly-de-shen-mi-mian-sha/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-08-qiao-qiao-xian-qi-webassembly-de-shen-mi-mian-sha/</guid><pubDate>Tue, 07 Aug 2018 17:19:02 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-ba6d87467eca66a6f7e65f697c72af20-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB7VGtSRL/xAAaEAACAwEBAAAAAAAAAAAAAAABAgADERAh/9oACAEBAAEFArPUpVlMwTBz/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFxEAAwEAAAAAAAAAAAAAAAAAEBESIf/aAAgBAgEBPwGsQ//EABoQAAICAwAAAAAAAAAAAAAAAAExABACEoH/2gAIAQEABj8CyAcOxPaUVf/EABwQAAICAgMAAAAAAAAAAAAAAAERACEQMWFxkf/aAAgBAQABPyFynSrhiIBGFzR9TieY/9oADAMBAAIAAwAAABADz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABYRAQEBAAAAAAAAAAAAAAAAAAEQUf/aAAgBAgEBPxAQ9z//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMVHx/9oACAEBAAE/ENylgKNwHMQXzmYN6iqT7Wi54qABQUT/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;悄悄掀起 WebAssembly 的神秘面纱&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-ba6d87467eca66a6f7e65f697c72af20-d6978.jpeg&quot;
+        srcset=&quot;/static/header-ba6d87467eca66a6f7e65f697c72af20-527f0.jpeg 300w,
+/static/header-ba6d87467eca66a6f7e65f697c72af20-9a7cd.jpeg 600w,
+/static/header-ba6d87467eca66a6f7e65f697c72af20-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;前端开发人员想必对现代浏览器都已经非常熟悉了吧？HTML5，CSS4，JavaScript ES6，这些已经在现代浏览器中慢慢普及的技术为前端开发带来了极大的便利。&lt;/p&gt;
+&lt;p&gt;得益于 JIT（Just-in-time）技术，JavaScript 的运行速度比原来快了 10 倍，这也是 JavaScript 被运用得越来越广泛的原因之一。但是，这是极限了吗？&lt;/p&gt;
+&lt;p&gt;随着浏览器技术的发展，Web 游戏眼看着又要“卷土重来”了，不过这一次不是基于 Flash 的游戏，而是充分利用了现代 HTML5 技术实现。JavaScript 成为了 Web 游戏的开发语言，但是对于游戏这样需要大量运算的程序来说，即便是有 JIT 加持，JavaScript 的性能还是不能满足人类贪婪的欲望。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;JavaScript 在浏览器中是怎么跑起来的？&lt;/h1&gt;
+&lt;p&gt;对于现在的计算机来说，它们只能读懂“机器语言”，而人类的大脑能力有限，直接编写机器语言难度有点大，为了能让人更方便地编写程序，人类发明了大量的“高级编程语言”，JavaScript 就属于其中特殊的一种。&lt;/p&gt;
+&lt;p&gt;为什么说是特殊的一种呢？由于计算机并不认识“高级编程语言”写出来的东西，所以大部分“高级编程语言”在写好以后都需要经过一个叫做“编译”的过程，将“高级编程语言”翻译成“机器语言”，然后交给计算机来运行。但是，JavaScript 不一样，它没有“编译”的过程，那么机器是怎么认识这种语言的呢？&lt;/p&gt;
+&lt;p&gt;实际上，JavaScript 与其他一部分脚本语言采用的是一种“边解释边运行”的姿势来运行的，将代码一点一点地翻译给计算机。&lt;/p&gt;
+&lt;p&gt;那么，JavaScript 的“解释”与其他语言的“编译”有什么区别呢？不都是翻译成“机器语言”吗？简单来讲，“编译”类似于“全文翻译”，就是代码编写好后，一次性将所有代码全部编译成“机器语言”，然后直接交给计算机；而“解释”则类似于“实时翻译”，代码写好后不会翻译，运行到哪，翻译到哪。&lt;/p&gt;
+&lt;p&gt;“解释”和“编译”两种方法各有利弊。使用“解释”的方法，程序编写好后就可以直接运行了，而使用“编译”的方法，则需要先花费一段时间等待整个代码编译完成后才可以执行。这样一看似乎是“解释”的方法更快，但是如果一段代码要执行多次，使用“解释”的方法，程序每次运行时都需要重新“解释”一遍，而“编译”的方法则不需要了。这样一看，“编译”的整体效率似乎更高，因为它永远只翻译一次，而“解释”是运行一次翻译一次。并且，“编译”由于是一开始就对整个代码进行的，所以可以对代码进行针对性的优化。&lt;/p&gt;
+&lt;p&gt;JavaScript 是使用“解释”的方案来运行的，这就造成了它的效率低下，因为代码每运行一次都要翻译一次，如果一个函数被循环调用了 10 次、100 次，这个执行效率可想而知。&lt;/p&gt;
+&lt;p&gt;好在聪明的人类发明了 JIT（Just-in-time）技术，它综合了“解释”与“编译”的优点，它的原理实际上就是在“解释”运行的同时进行跟踪，如果某一段代码执行了多次，就会对这一段代码进行编译优化，这样，如果后续再运行到这一段代码，则不用再解释了。&lt;/p&gt;
+&lt;p&gt;JIT 似乎是一个好东西，但是，对于 JavaScript 这种动态数据类型的语言来说，要实现一个完美的 JIT 非常难。为什么呢？因为 JavaScript 中的很多东西都是在运行的时候才能确定的。比如我写了一行代码：&lt;code&gt;const sum = (a, b, c) =&gt; a + b + c;&lt;/code&gt;，这是一个使用 ES6 语法编写的 JavaScript 箭头函数，可以直接放在浏览器的控制台下运行，这将声明一个叫做 sum 的函数。然后我们可以直接调用它，比如：&lt;code&gt;console.log(sum(1, 2, 3))&lt;/code&gt;，任何一个合格的前端开发人员都能很快得口算出答案，这将输出一个数字 &lt;code&gt;6&lt;/code&gt;。但是，如果我们这样调用呢：&lt;code&gt;console.log(sum(&apos;1&apos;, 2, 3))&lt;/code&gt;，第一个参数变成了一个字符串，这在 JavaScript 中是完全允许的，但是这时得到的结果就完全不同了，这会导致一个字符串和两个数字进行连接，得到 &lt;code&gt;&quot;123&quot;&lt;/code&gt;。这样一来，针对这一个函数的优化就变得非常困难了。&lt;/p&gt;
+&lt;p&gt;虽说 JavaScript 自身的“特性”为 JIT 的实现带来了一些困难，但是不得不说 JIT 还是为 JavaScript 带来了非常可观的性能提升。&lt;/p&gt;
+&lt;h1&gt;WebAssembly&lt;/h1&gt;
+&lt;p&gt;为了能让代码跑得更快，WebAssembly 出现了（并且现在主流浏览器也都开始支持了），它能够允许你预先使用“编译”的方法将代码编译好后，直接放在浏览器中运行，这一步就做得比较彻底了，不再需要 JIT 来动态得进行优化了，所有优化都可以在编译的时候直接确定。&lt;/p&gt;
+&lt;p&gt;WebAssembly 到底是什么呢？&lt;/p&gt;
+&lt;p&gt;首先，它不是直接的机器语言，因为世界上的机器太多了，它们都说着不同的语言（架构不同），所以很多情况下都是为各种不同的机器架构专门生成对应的机器代码。但是要为各种机器都生成的话，太复杂了，每种语言都要为每种架构编写一个编译器。为了简化这个过程，就有了“中间代码（Intermediate representation，IR）”，只要将所有代码都翻译成 IR，再由 IR 来统一应对各种机器架构。&lt;/p&gt;
+&lt;p&gt;实际上，WebAssembly 和 IR 差不多，就是用于充当各种机器架构翻译官的角色。WebAssembly 并不是直接的物理机器语言，而是抽象出来的一种虚拟的机器语言。从 WebAssembly 到机器语言虽说也需要一个“翻译”过程，但是在这里的“翻译”就没有太多的套路了，属于机器语言到机器语言的翻译，所以速度上已经非常接近纯机器语言了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里有一个 WebAssembly 官网上提供的 Demo，是使用 &lt;a href=&quot;https://unity3d.com/&quot;&gt;Unity&lt;/a&gt; 开发并发布为 WebAssembly 的一个小游戏：&lt;a href=&quot;https://webassembly.org/demo/&quot;&gt;https://webassembly.org/demo/&lt;/a&gt;，可以去体验体验。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;.wasm 文件 与 .wat 文件&lt;/h1&gt;
+&lt;p&gt;WebAssembly 是通过 *.wasm  文件进行存储的，这是编译好的二进制文件，它的体积非常的小。&lt;/p&gt;
+&lt;p&gt;在浏览器中，提供了一个全局的 &lt;code&gt;window.WebAssembly&lt;/code&gt; 对象，可以用于实例化 WASM 模块。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/window.webassembly-5969ae40f51e4742cc91bbf07a52f58d-5e6c6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 551px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.96551724137932%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAB10lEQVQ4y41S2XLbMAz0V3g8frMtiSJ1U9RF64jixM1r//9jtgBcp+5M6+RhBxJELlbY3XjvMY4jnHNSz+czdrsdttst9vs9pmlC13Xo+16em6aRcwzu83tVVajrWs5sHj9ygz+UZSkDrLWCJEkQxzGKosA8zwIezGK4Mvg+102e51heFlwuF3R9h1jHQqCUEhKtGUaeuc/nuTKyLBNwjyuf2fBFZr6+XbEuK/zgScFC0wfqT3i7/oQxmmA+CbS+vd/JuZemKcIwxCYIAhhlUGuHTBWwpUPT9rKboigJFfjM8Xj8EqfT6UaYmgxD5lGZGpXt8PHxQwzg6YfDQQi/CyHMkwKeCDNdYpxXXN/fxRheB0++H2YFjOeEYYAkTuCMQ64rOHv7ZXaXXWXwbh6JnhGTwpMonPIJVdriZXnFuq6obf3pZhRFf116plIUmtigSRqUMeUuJYVVi9o15LKXPDpXSz55n/ed/k/lb1NStEmH1rRkjENnPaZhgh8nCb3lkBPYeSZ+rpB+2dAOfXoWUlf0WIYFUzfTTik2lK+e0FHuLGeQ6l3dv0DBjhETCrqcqUxMqQkqUNCRhgojGJqcEBTn8SuXtbkl/LEprgZ/ph6ZiPf2jRz+Alh1p2Crz2AqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;window.WebAssembly&quot;
+        title=&quot;&quot;
+        src=&quot;/static/window.webassembly-5969ae40f51e4742cc91bbf07a52f58d-5e6c6.png&quot;
+        srcset=&quot;/static/window.webassembly-5969ae40f51e4742cc91bbf07a52f58d-50568.png 300w,
+/static/window.webassembly-5969ae40f51e4742cc91bbf07a52f58d-5e6c6.png 551w&quot;
+        sizes=&quot;(max-width: 551px) 100vw, 551px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;WebAssembly 是一种“虚拟&lt;strong&gt;机器语言&lt;/strong&gt;”，所以它也有对应的“汇编语言”版本，也就是 *.wat 文件，这是 WebAssembly 模块的文本表示方法，采用“S-表达式（S-Expressions）”进行描述，可以直接通过工具将 *.wat 文件编译为 *.wasm 文件。熟悉 &lt;a href=&quot;https://en.wikipedia.org/wiki/Lisp_%28programming_language%29&quot;&gt;LISP&lt;/a&gt; 的同学可能对这种表达式语法比较熟悉。&lt;/p&gt;
+&lt;h1&gt;一个非常简单的例子&lt;/h1&gt;
+&lt;p&gt;我们来看一个非常简单的例子，这个已经在 Chrome 69 Canary 和 Chrome 70 Canary 中测试通过，理论上可以在所有已经支持 WebAssembly 的浏览器中运行。&lt;em&gt;（在后文中有浏览器的支持情况）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;首先，我们先使用 S-表达式 编写一个十分简单的程序：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-wat&quot;&gt;&lt;code&gt;;; test.wat
+(module
+  (import &quot;env&quot; &quot;mem&quot; (memory 1)) ;; 这里指定了从 env.mem 中导入一个内存对象
+  (func (export &quot;get&quot;) (result i32)  ;; 定义并导出一个叫做“get”的函数，这个函数拥有一个 int32 类型的返回值，没有参数
+    memory.size))  ;; 最终返回 memory 对象的“尺寸”（单位为“页”，目前规定 1 页 = 64 KiB = 65536 Bytes）&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以使用 &lt;a href=&quot;https://github.com/WebAssembly/wabt&quot;&gt;wabt&lt;/a&gt; 中的 &lt;a href=&quot;https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wasm2wat/&quot;&gt;wasm2wat&lt;/a&gt; 工具将 wasm 文件转为使用“S-表达式”进行描述的 wat 文件。同时也可以使用 &lt;a href=&quot;https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/&quot;&gt;wat2wasm&lt;/a&gt; 工具将 wat 转为 wasm。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 wat 文件中，双分号 &lt;code&gt;;;&lt;/code&gt; 开头的内容都是注释。&lt;/p&gt;
+&lt;p&gt;上面这个 wat 文件定义了一个 module，并导入了一个内存对象，然后导出了一个叫做“get”的函数，这个函数返回当前内存的“尺寸”。&lt;/p&gt;
+&lt;p&gt;在 WebAssembly 中，线性内存可以在内部直接定义然后导出，也可以从外面导入，但是最多只能拥有一个内存。这个内存的大小并不是固定的，只需要给一个初始大小 &lt;code&gt;initial&lt;/code&gt;，后期还可以根据需要调用 &lt;code&gt;grow&lt;/code&gt; 函数进行扩展，也可以指定最大大小 &lt;code&gt;maximum&lt;/code&gt;。&lt;em&gt;（这里所有内存大小的单位都是“页”，目前规定的是 1 页 = 64 KiB = 65536 Bytes。）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;上面这个 wat 文件使用 &lt;a href=&quot;https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/&quot;&gt;wat2wasm&lt;/a&gt; 编译为 wasm 后生成的文件体积非常小，只有 50 Bytes：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;$ wat2wasm test.wat
+$ xxd test.wasm
+00000000: 0061 736d 0100 0000 0105 0160 0001 7f02  .asm.......`....
+00000010: 0c01 0365 6e76 036d 656d 0200 0103 0201  ...env.mem......
+00000020: 0007 0701 0367 6574 0000 0a06 0104 003f  .....get.......?
+00000030: 000b                                     ..&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;为了让这个程序能在浏览器中运行，我们还必须使用 JavaScript 编写一段“胶水代码（glue code）”，以便这个程序能被加载到浏览器中并执行：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// main.js&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; file &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;./test.wasm&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; memory &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;WebAssembly&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Memory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; initial&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; mod &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;WebAssembly&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;instantiateStreaming&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  env&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; memory&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mod&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;instance&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// 调用 WebAssembly 模块导出的 get 函数&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// 1&lt;/span&gt;
+memory&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;grow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mod&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;instance&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// 调用 WebAssembly 模块导出的 get 函数&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// 3&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这里我使用了现代浏览器都已经支持的 ES6 语法，首先，使用浏览器原生提供的 &lt;code&gt;fetch&lt;/code&gt; 函数加载我们编译好的 &lt;code&gt;test.wasm&lt;/code&gt; 文件。注意，这里根据规范，HTTP 响应的 Content-Type 中指定的 MIME 类型必须为 &lt;code&gt;application/wasm&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;接下来，我们 new 了一个 &lt;code&gt;WebAssembly.Memory&lt;/code&gt; 对象，通过这个对象，可以实现 JavaScript 与 WebAssembly 之间互通数据。&lt;/p&gt;
+&lt;p&gt;再接下来，我们使用了 &lt;code&gt;WebAssembly.instantiateStreaming&lt;/code&gt; 来实例化加载的 WebAssembly 模块，这里第一个参数是一个 Readable Stream，第二个参数是 importObject，用于指定导入 WebAssembly 的结构。因为上面的 wat 代码中指定了要从 &lt;code&gt;env.mem&lt;/code&gt; 导入一个内存对象，所以这里就得要将我们 new 出来的内存对象放到 &lt;code&gt;env.mem&lt;/code&gt; 中。 &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;WebAssembly 还提供了一个 &lt;code&gt;instantiate&lt;/code&gt; 函数，这个函数的第一个参数可以提供一个 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer&quot;&gt;ArrayBuffer&lt;/a&gt; 或是 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays&quot;&gt;TypedArray&lt;/a&gt;。但是这个函数是不推荐使用的，具体原因做过流量代理转发的同学可能会比较清楚，这里就不具体解释了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最后，我们就可以调用 WebAssembly 导出的函数 &lt;code&gt;get&lt;/code&gt; 了，首先输出的内容为 &lt;code&gt;memory&lt;/code&gt; 的 &lt;code&gt;initial&lt;/code&gt; 的值。然后我们调用了 &lt;code&gt;memory.grow&lt;/code&gt; 方法来增长 &lt;code&gt;memory&lt;/code&gt; 的尺寸，最后输出的内容就是增长后内存的大小 &lt;code&gt;1 + 2 = 3&lt;/code&gt;。&lt;/p&gt;
+&lt;h1&gt;一个 WebAssembly 与 JavaScript 数据互通交互的例子&lt;/h1&gt;
+&lt;p&gt;在 WebAssembly 中有一块内存，这块内存可以是内部定义的，也可以是从外面导入的，如果是内部定义的，则可以通过 &lt;code&gt;export&lt;/code&gt; 进行导出。JavaScript 在拿到这块“内存”后，是拥有完全操作的权利的。JavaScript 使用 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView&quot;&gt;DataView&lt;/a&gt; 对 &lt;code&gt;Memory&lt;/code&gt; 对象进行包装后，就可以使用 DataView 下面的函数对内存对象进行读取或写入操作。&lt;/p&gt;
+&lt;p&gt;这里是一个简单的例子：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-wat&quot;&gt;&lt;code&gt;;; example.wat
+(module
+  (import &quot;env&quot; &quot;mem&quot; (memory 1))
+  (import &quot;js&quot; &quot;log&quot; (func $log (param i32)))
+  (func (export &quot;example&quot;)
+    i32.const 0
+    i64.const 8022916924116329800
+    i64.store
+    (i32.store (i32.const 8) (i32.const 560229490))
+    (call $log (i32.const 0))))&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这个代码首先从 &lt;code&gt;env.mem&lt;/code&gt; 导入一个内存对象作为默认内存，这和前面的例子是一样的。&lt;/p&gt;
+&lt;p&gt;然后从 &lt;code&gt;js.log&lt;/code&gt; 导入一个函数，这个函数拥有一个 32 位整型的参数，不需要返回值，在 wat 内部被命名为“$log”，这个名字只存在于 wat 文件中，在编译为 wasm 后就不存在了，只存储一个偏移地址。&lt;/p&gt;
+&lt;p&gt;后面定义了一个函数，并导出为“example”函数。在 WebAssembly 中，函数里的内容都是在栈上的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;首先，使用 &lt;code&gt;i32.const 0&lt;/code&gt; 在栈内压入一个 32 位整型常数 &lt;code&gt;0&lt;/code&gt;，然后使用 &lt;code&gt;i64.const 8022916924116329800&lt;/code&gt; 在栈内压入一个 64 位整型常数 &lt;code&gt;8022916924116329800&lt;/code&gt;，之后调用 &lt;code&gt;i64.store&lt;/code&gt; 指令，这个指令将会将栈顶部第一个位置的一个 64 位整数存储到栈顶部第二个位置指定的“内存地址”开始的连续 8 个字节空间中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;TL; DR; 简而言之，就是在内存的第 0 个位置开始的连续 8 个字节的空间里，存入一个 64 位整型数字 &lt;code&gt;8022916924116329800&lt;/code&gt;。这个数字转为 16 进制表示为：&lt;code&gt;0x 6f 57 20 6f 6c 6c 65 48&lt;/code&gt;，但是由于 WebAssembly 中&lt;a href=&quot;https://webassembly.org/docs/semantics/#linear-memory-accesses&quot;&gt;规定&lt;/a&gt;的&lt;a href=&quot;https://en.wikipedia.org/wiki/Endianness&quot;&gt;字节序&lt;/a&gt;是使用“小端序（Little-Endian Byte Order）”来存储数据，所以，在内存中第 0 个位置存储的是 &lt;code&gt;0x48&lt;/code&gt;，第 1 个位置存储的是 &lt;code&gt;0x65&lt;/code&gt;……所以，最终存储的实际上是 &lt;code&gt;0x 48 65 6c 6c 6f 20 57 6f&lt;/code&gt;，对应着 &lt;a href=&quot;http://www.asciitable.com/&quot;&gt;ASCII&lt;/a&gt; 码为：“Hello Wo”。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;然后，后面的一句指令 &lt;code&gt;(i32.store (i32.const 8) (i32.const 560229490))&lt;/code&gt; 的格式是上面三条指令的“S-表达式”形式，只不过这里换成了 &lt;code&gt;i32.store&lt;/code&gt; 来存储一个 32 位整型常数 &lt;code&gt;560229490&lt;/code&gt; 到 8 号“内存地址”开始的连续 4 个字节空间中。&lt;/p&gt;
+&lt;p&gt;实际上这一句指令的写法写成上面三句的语法是完全等效的：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-wat&quot;&gt;&lt;code&gt;i32.const 8
+i32.const 560229490
+i32.store&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;类似的，这里是在内存的第 8 个位置开始的连续 4 个字节的空间里，存入一个 32 位整型数字 &lt;code&gt;560229490&lt;/code&gt;。这个数字转为 16 进制表示位：&lt;code&gt;0x 21 64 6c 72&lt;/code&gt;，同样采用“小端序”来存储，所以存储的实际上是 &lt;code&gt;0x 72 6c 64 21&lt;/code&gt;，对应着 &lt;a href=&quot;http://www.asciitable.com/&quot;&gt;ASCII&lt;/a&gt; 码为：“rld!“。&lt;/p&gt;
+&lt;p&gt;所以，最终，内存中前 12 个字节中的数据为 &lt;code&gt;0x 48 65 6c 6c 6f 20 57 6f 72 6c 64 21&lt;/code&gt;，连起来就是对应着 &lt;a href=&quot;http://www.asciitable.com/&quot;&gt;ASCII&lt;/a&gt; 码：“Hello World!“。&lt;/p&gt;
+&lt;p&gt;将这个 wat 编译为 wasm 后，文件大小为 95 Bytes：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;$ wat2wasm example.wat
+$ xxd example.wasm
+00000000: 0061 736d 0100 0000 0108 0260 017f 0060  .asm.......`...`
+00000010: 0000 0215 0203 656e 7603 6d65 6d02 0001  ......env.mem...
+00000020: 026a 7303 6c6f 6700 0003 0201 0107 0b01  .js.log.........
+00000030: 0765 7861 6d70 6c65 0001 0a23 0121 0041  .example...#.!.A
+00000040: 0042 c8ca b1e3 f68d c8ab ef00 3703 0041  .B..........7..A
+00000050: 0841 f2d8 918b 0236 0200 4100 1000 0b    .A.....6..A....&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;接下来，还是使用 JavaScript 编写“胶水代码”：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// example.js&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; file &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;./example.wasm&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; memory &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;WebAssembly&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Memory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; initial&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; dv &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;DataView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;memory&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;log&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; offset &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; length &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; end &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; offset&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;end &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; dv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;byteLength &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; dv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getUint8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;end&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; buf &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ArrayBuffer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; bufDv &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;DataView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buf&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; p &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; offset&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; p &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    bufDv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setUint8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getUint8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;TextDecoder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;utf-8&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buf&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; mod &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;WebAssembly&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;instantiateStreaming&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;file&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  env&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; memory&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  js&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; log &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+mod&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;instance&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// 调用 WebAssembly 模块导出的 example 函数&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这里，使用 &lt;code&gt;DataView&lt;/code&gt; 对 &lt;code&gt;memory&lt;/code&gt; 进行了一次包装，这样就可以方便地对内存对象进行读写操作了。&lt;/p&gt;
+&lt;p&gt;然后，这里在 JavaScript 中实现了一个 &lt;code&gt;log&lt;/code&gt; 函数，函数接受一个参数（这个参数在上面的 wat 中指定了是整数型）。下面的实现首先是确定输出的字符串长度（字符串通常以 &lt;code&gt;&apos;\0&apos;&lt;/code&gt; 结尾），然后将字符串复制到一个长度合适的 &lt;code&gt;ArrayBuffer&lt;/code&gt; 中，然后使用浏览器中的 &lt;code&gt;TextDecoder&lt;/code&gt; 类对其进行字符串解码，就得到了原始字符串。&lt;/p&gt;
+&lt;p&gt;最后，将 log 函数放入 importObject 的 &lt;code&gt;js.log&lt;/code&gt; 中，实例化 WebAssembly 模块，最后调用导出的 &lt;code&gt;example&lt;/code&gt; 函数，就可以看到打印的 &lt;code&gt;Hello World&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/example-c98eba29994a4fa5b6634b93b98d3984-17e1f.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 351px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 23.361823361823365%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA60lEQVQY04VQ23KDIBT0SxwFjSAIZFJNQA1JrNFeHvr/P7MFM+n0pdOHnXPfnT2J9x7LsmCwHJPnuI4coxOYbxrvdwU/SLhTg89F4+tDY7oe0B4t8jxHmqZbzLIMlFKUZYnk7C+4L2/oBxfiK27TBcPoIMQOqmHgfIe6ZluuVahZCdf3WNcV8zzDWos+1FVVPQiN2QeyEceTg3UDDi8thFQghILQIig/QMgTFEqpjcQ5h67r0LYtiqIAYwyJ1gZ7Y9BICWN0aFbhiGxqfyHaizYjouW4H3sycCS1kD8/eA6i2n+IxL/zeCeEwDfzEph09k3FkQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Example - Hello World!&quot;
+        title=&quot;&quot;
+        src=&quot;/static/example-c98eba29994a4fa5b6634b93b98d3984-17e1f.png&quot;
+        srcset=&quot;/static/example-c98eba29994a4fa5b6634b93b98d3984-812fb.png 300w,
+/static/example-c98eba29994a4fa5b6634b93b98d3984-17e1f.png 351w&quot;
+        sizes=&quot;(max-width: 351px) 100vw, 351px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过 WebAssembly，我们可以将很多其他语言编写的类库直接封装到浏览器中运行，比如 Google Developers 就给了一个使用 WebAssembly 加载一个使用 C 语言编写的 WebP 图片编码库，将一张 jpg 格式的图片转换为 webp 格式并显示出来的例子：&lt;a href=&quot;https://developers.google.com/web/updates/2018/03/emscripting-a-c-library&quot;&gt;https://developers.google.com/web/updates/2018/03/emscripting-a-c-library&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;这个例子使用 &lt;a href=&quot;http://emscripten.org&quot;&gt;Emscripten&lt;/a&gt; 工具对 C 语言代码进行编译，这个工具在安装的时候需要到 GitHub、亚马逊 S3 等服务器下载文件，在国内这神奇的网络环境下速度异常缓慢，总共几十兆的文件可能挂机一天都下不完。可以尝试修改 emsdk 文件（Python），增加代理配置（但是效果不明显），或是在下载的过程中会提示下载链接和存放路径，使用其他工具下载后放到指定地方，重新安装会自动跳过已经下载的文件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;WebAssembly 的现状与未来&lt;/h1&gt;
+&lt;p&gt;目前 WebAssembly 的二进制格式版本已经确定，未来的改进也都将以兼容的形式进行更新，这表示 WebAssembly 已经进入现代标准了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://caniuse.com/#feat=wasm&quot;&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/caniuse-eab51268adc721d158996e8d0ecfe6e3-c4b3c.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 87.8930817610063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADH0lEQVQ4y42S60/TUBjG+0f51U9GE0PEeGU6QB1XGaCBKESDYrxfUKeJBtgciChOEUSuBsOY7N5tbdfNdV1b1su2lp4VRgAvaDzDoEYwmjx58+Sc9/c+b3IOkmb8UsIrJXxKEptPhRfSJBQ0ULlM5A8tylGVxzWJWMjENIVGJNrLUy5YpbgnnfCJcW8q4ZVnA0DEc3J0cYN+TsnJESQbGVBDz+RkUE6RshDOMnaN9wCR0ESYgAMBA3xITWJz/JrhMSUJKwFHAxFDUrQ7yaKxV52Bc3XRwW7OM0yazjPhaZ508PGZRMTB4XaGdDIR5yxpp4lpCrezhI+LOhnSgcB52jxDt191b99Ct19JuUew2sNqMqhKhApjBVwVMSi4gppPw7Mirgqh/JWII7APgHjcctNTuJW23BTdw3jDUZlD4Z5zfCivZFDJ65eBFZ5DswZnadp8Iw9bb0m+MQgrEBbW4Q36AUOtw53XPPu3xczXhamXeOMxGKL+LwzitLXNe6QwdLI0WHModKYq82Hmb+RGmGK6784YCl11B1HDXrT6IFqxV6G9cxLxb1gFlNB173bbgUtPy8MVOtfJw6hht0J7FNavzAZ+7/4TVoTQcpp65nu4a6rkjrV84rSu4XWFv2KPQrnJ1nrB3q9mIj9GbALLrG+FIzpR046ZUpO5bLS5qHq80g/Xptz4KQM/+XwTeN0g0Ttn6Zojpo5jO/2Vpg7DWJPOOFqFVu6TYy6sqZyftAGNVkQc8sp6LMxbe/AgErlQF9XvbnugLwhWmx6VjbbojRNVfmMRSAappuq0vV9+PwRc40tqYkEggEQAzk+dqoT/TFMpBGs+fq11l25Av/9NSbmttOaJvmhAX2vVoX33e1uL3zYW244XPLY0Doafj/Rd9ZytQZ+aLA0FAdvD8IAZER2ve97drp9qNI7V1k2caLG3jKK9lx0XiSHzZKAvNN7ldPYOE33DaM/0+8exfkt4pGuCsJFDVmqoC1maT3zWWCmFvvjQ/SRiZkX3KmCW56iVHLeaZT8tcF807pvKfgPsqsatLM5+zHFfAftxkYMN3wEfAkgngsGAGAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;浏览器兼容性&quot;
+        title=&quot;&quot;
+        src=&quot;/static/caniuse-eab51268adc721d158996e8d0ecfe6e3-abe1c.png&quot;
+        srcset=&quot;/static/caniuse-eab51268adc721d158996e8d0ecfe6e3-10046.png 300w,
+/static/caniuse-eab51268adc721d158996e8d0ecfe6e3-3c4a3.png 600w,
+/static/caniuse-eab51268adc721d158996e8d0ecfe6e3-abe1c.png 1200w,
+/static/caniuse-eab51268adc721d158996e8d0ecfe6e3-c4b3c.png 1272w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;现在的 WebAssembly 还并不完美，虽说已经有使用 WebAssembly 开发的 Web 游戏出现了，但是还有很多不完美的地方。&lt;/p&gt;
+&lt;p&gt;比如，现在的 WebAssembly 还必须配合“JavaScript glue code”来使用，也就是必须使用 JavaScript 来 fetch WebAssembly 的文件，然后调用 &lt;code&gt;window.WebAssembly.instantiate&lt;/code&gt;、&lt;code&gt;window.WebAssembly.instantiateStreaming&lt;/code&gt; 等函数进行实例化。部分情况下还需要 JavaScript 来管理堆栈。官方推荐的编译工具 &lt;a href=&quot;http://emscripten.org&quot;&gt;Emscripten&lt;/a&gt; 虽然使用了各种黑科技来缩小编译后生成的代码的数量，但是最终生成的 JavaScript Glue Code 文件还是至少有 15K。&lt;/p&gt;
+&lt;p&gt;未来，WebAssembly 将可能直接通过 HTML 标签进行引用，比如：&lt;code&gt;&amp;#x3C;script src=&quot;./wa.wasm&quot;&gt;&amp;#x3C;/script&gt;&lt;/code&gt;；或者可以通过 JavaScript ES6 模块的方式引用，比如：&lt;code&gt;import xxx from &apos;./wa.wasm&apos;;&lt;/code&gt;；&lt;/p&gt;
+&lt;p&gt;线程的支持，异常处理，垃圾收集，尾调用优化等，都已经加入 WebAssembly 的&lt;a href=&quot;https://webassembly.org/docs/future-features&quot;&gt;计划列表&lt;/a&gt;中了。&lt;/p&gt;
+&lt;h1&gt;小结&lt;/h1&gt;
+&lt;p&gt;WebAssembly 的出现，使得前端不再只能使用 JavaScript 进行开发了，C、C++、Go 等等都可以为浏览器前端贡献代码。&lt;/p&gt;
+&lt;p&gt;这里我使用 wat 文件来编写的两个例子仅供参考，实际上在生产环境不大可能直接使用 wat 来进行开发，而是会使用 C、C++、Go 等语言编写模块，然后发布为 WebAssembly。&lt;/p&gt;
+&lt;p&gt;WebAssembly 的出现不是要取代 JavaScript，而是与 JavaScript 相辅相成，为前端开发带来一种新的选择。将计算密集型的部分交给 WebAssembly 来处理，让浏览器发挥出最大的性能！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】2018 年 12 种移动端用户体验设计趋势]]></title><description><![CDATA[原文网址： 12 Mobile UX Design Trends For 2018 原文作者：Nick Babich 在移动应用领域，事物发展得非常迅速。为了能在移动用户体验设计领域取得成功，设计师需要有远见，并为即将到来的新挑战做好准备。
 为了简化这个任务，我列出了 201…]]></description><link>https://knownsec-fed.com/2018-04-16-fan-yi-2018-nian-12-zhong-yi-dong-duan-yong-hu-ti-yan-she-ji-qu-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-04-16-fan-yi-2018-nian-12-zhong-yi-dong-duan-yong-hu-ti-yan-she-ji-qu-shi/</guid><pubDate>Mon, 16 Apr 2018 02:25:20 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
