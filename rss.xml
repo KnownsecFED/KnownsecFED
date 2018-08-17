@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 Aug 2018 02:22:22 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 Aug 2018 03:16:18 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -874,7 +874,7 @@ false&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
 &lt;p&gt;首先，它不是直接的机器语言，因为世界上的机器太多了，它们都说着不同的语言（架构不同），所以很多情况下都是为各种不同的机器架构专门生成对应的机器代码。但是要为各种机器都生成的话，太复杂了，每种语言都要为每种架构编写一个编译器。为了简化这个过程，就有了“中间代码（Intermediate representation，IR）”，只要将所有代码都翻译成 IR，再由 IR 来统一应对各种机器架构。&lt;/p&gt;
 &lt;p&gt;实际上，WebAssembly 和 IR 差不多，就是用于充当各种机器架构翻译官的角色。WebAssembly 并不是直接的物理机器语言，而是抽象出来的一种虚拟的机器语言。从 WebAssembly 到机器语言虽说也需要一个“翻译”过程，但是在这里的“翻译”就没有太多的套路了，属于机器语言到机器语言的翻译，所以速度上已经非常接近纯机器语言了。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这里有一个 WebAssembly 官网上提供的 Demo，是使用 &lt;a href=&quot;https://unity3d.com/&quot;&gt;Unity&lt;/a&gt; 开发并发布为 WebAssembly 的一个小游戏：&lt;a href=&quot;https://webassembly.org/demo/&quot;&gt;https://webassembly.org/demo/&lt;/a&gt;，可以去体验体验。&lt;/p&gt;
+&lt;p&gt;这里有一个 WebAssembly 官网上提供的 Demo，是使用 [Unity] 开发并发布为 WebAssembly 的一个小游戏：&lt;a href=&quot;https://webassembly.org/demo/&quot;&gt;https://webassembly.org/demo/&lt;/a&gt;，可以去体验体验。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1&gt;.wasm 文件 与 .wat 文件&lt;/h1&gt;
 &lt;p&gt;WebAssembly 是通过 *.wasm  文件进行存储的，这是编译好的二进制文件，它的体积非常的小。&lt;/p&gt;
@@ -911,7 +911,7 @@ false&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;WebAssembly 是一种“虚拟&lt;strong&gt;机器语言&lt;/strong&gt;”，所以它也有对应的“汇编语言”版本，也就是 *.wat 文件，这是 WebAssembly 模块的文本表示方法，采用“S-表达式（S-Expressions）”进行描述，可以直接通过工具将 *.wat 文件编译为 *.wasm 文件。熟悉 &lt;a href=&quot;https://en.wikipedia.org/wiki/Lisp_%28programming_language%29&quot;&gt;LISP&lt;/a&gt; 的同学可能对这种表达式语法比较熟悉。&lt;/p&gt;
+&lt;p&gt;WebAssembly 是一种“虚拟&lt;strong&gt;机器语言&lt;/strong&gt;”，所以它也有对应的“汇编语言”版本，也就是 *.wat 文件，这是 WebAssembly 模块的文本表示方法，采用“S-表达式（S-Expressions）”进行描述，可以直接通过工具将 *.wat 文件编译为 *.wasm 文件。熟悉 [LISP] 的同学可能对这种表达式语法比较熟悉。&lt;/p&gt;
 &lt;h1&gt;一个非常简单的例子&lt;/h1&gt;
 &lt;p&gt;我们来看一个非常简单的例子，这个已经在 Chrome 69 Canary 和 Chrome 70 Canary 中测试通过，理论上可以在所有已经支持 WebAssembly 的浏览器中运行。&lt;em&gt;（在后文中有浏览器的支持情况）&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;首先，我们先使用 S-表达式 编写一个十分简单的程序：&lt;/p&gt;
@@ -923,12 +923,12 @@ false&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;
     memory.size))  ;; 最终返回 memory 对象的“尺寸”（单位为“页”，目前规定 1 页 = 64 KiB = 65536 Bytes）&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;可以使用 &lt;a href=&quot;https://github.com/WebAssembly/wabt&quot;&gt;wabt&lt;/a&gt; 中的 &lt;a href=&quot;https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wasm2wat/&quot;&gt;wasm2wat&lt;/a&gt; 工具将 wasm 文件转为使用“S-表达式”进行描述的 wat 文件。同时也可以使用 &lt;a href=&quot;https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/&quot;&gt;wat2wasm&lt;/a&gt; 工具将 wat 转为 wasm。&lt;/p&gt;
+&lt;p&gt;可以使用 [wabt] 中的 [wasm2wat] 工具将 wasm 文件转为使用“S-表达式”进行描述的 wat 文件。同时也可以使用 [wat2wasm] 工具将 wat 转为 wasm。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;在 wat 文件中，双分号 &lt;code&gt;;;&lt;/code&gt; 开头的内容都是注释。&lt;/p&gt;
 &lt;p&gt;上面这个 wat 文件定义了一个 module，并导入了一个内存对象，然后导出了一个叫做“get”的函数，这个函数返回当前内存的“尺寸”。&lt;/p&gt;
 &lt;p&gt;在 WebAssembly 中，线性内存可以在内部直接定义然后导出，也可以从外面导入，但是最多只能拥有一个内存。这个内存的大小并不是固定的，只需要给一个初始大小 &lt;code&gt;initial&lt;/code&gt;，后期还可以根据需要调用 &lt;code&gt;grow&lt;/code&gt; 函数进行扩展，也可以指定最大大小 &lt;code&gt;maximum&lt;/code&gt;。&lt;em&gt;（这里所有内存大小的单位都是“页”，目前规定的是 1 页 = 64 KiB = 65536 Bytes。）&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;上面这个 wat 文件使用 &lt;a href=&quot;https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/&quot;&gt;wat2wasm&lt;/a&gt; 编译为 wasm 后生成的文件体积非常小，只有 50 Bytes：&lt;/p&gt;
+&lt;p&gt;上面这个 wat 文件使用 [wat2wasm] 编译为 wasm 后生成的文件体积非常小，只有 50 Bytes：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;$ wat2wasm test.wat
 $ xxd test.wasm
@@ -960,11 +960,11 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;接下来，我们 new 了一个 &lt;code&gt;WebAssembly.Memory&lt;/code&gt; 对象，通过这个对象，可以实现 JavaScript 与 WebAssembly 之间互通数据。&lt;/p&gt;
 &lt;p&gt;再接下来，我们使用了 &lt;code&gt;WebAssembly.instantiateStreaming&lt;/code&gt; 来实例化加载的 WebAssembly 模块，这里第一个参数是一个 Readable Stream，第二个参数是 importObject，用于指定导入 WebAssembly 的结构。因为上面的 wat 代码中指定了要从 &lt;code&gt;env.mem&lt;/code&gt; 导入一个内存对象，所以这里就得要将我们 new 出来的内存对象放到 &lt;code&gt;env.mem&lt;/code&gt; 中。 &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;WebAssembly 还提供了一个 &lt;code&gt;instantiate&lt;/code&gt; 函数，这个函数的第一个参数可以提供一个 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer&quot;&gt;ArrayBuffer&lt;/a&gt; 或是 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays&quot;&gt;TypedArray&lt;/a&gt;。但是这个函数是不推荐使用的，具体原因做过流量代理转发的同学可能会比较清楚，这里就不具体解释了。&lt;/p&gt;
+&lt;p&gt;WebAssembly 还提供了一个 &lt;code&gt;instantiate&lt;/code&gt; 函数，这个函数的第一个参数可以提供一个 [ArrayBuffer] 或是 [TypedArray]。但是这个函数是不推荐使用的，具体原因做过流量代理转发的同学可能会比较清楚，这里就不具体解释了。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;最后，我们就可以调用 WebAssembly 导出的函数 &lt;code&gt;get&lt;/code&gt; 了，首先输出的内容为 &lt;code&gt;memory&lt;/code&gt; 的 &lt;code&gt;initial&lt;/code&gt; 的值。然后我们调用了 &lt;code&gt;memory.grow&lt;/code&gt; 方法来增长 &lt;code&gt;memory&lt;/code&gt; 的尺寸，最后输出的内容就是增长后内存的大小 &lt;code&gt;1 + 2 = 3&lt;/code&gt;。&lt;/p&gt;
 &lt;h1&gt;一个 WebAssembly 与 JavaScript 数据互通交互的例子&lt;/h1&gt;
-&lt;p&gt;在 WebAssembly 中有一块内存，这块内存可以是内部定义的，也可以是从外面导入的，如果是内部定义的，则可以通过 &lt;code&gt;export&lt;/code&gt; 进行导出。JavaScript 在拿到这块“内存”后，是拥有完全操作的权利的。JavaScript 使用 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView&quot;&gt;DataView&lt;/a&gt; 对 &lt;code&gt;Memory&lt;/code&gt; 对象进行包装后，就可以使用 DataView 下面的函数对内存对象进行读取或写入操作。&lt;/p&gt;
+&lt;p&gt;在 WebAssembly 中有一块内存，这块内存可以是内部定义的，也可以是从外面导入的，如果是内部定义的，则可以通过 &lt;code&gt;export&lt;/code&gt; 进行导出。JavaScript 在拿到这块“内存”后，是拥有完全操作的权利的。JavaScript 使用 [DataView] 对 &lt;code&gt;Memory&lt;/code&gt; 对象进行包装后，就可以使用 DataView 下面的函数对内存对象进行读取或写入操作。&lt;/p&gt;
 &lt;p&gt;这里是一个简单的例子：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-wat&quot;&gt;&lt;code&gt;;; example.wat
@@ -984,7 +984,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;blockquote&gt;
 &lt;p&gt;首先，使用 &lt;code&gt;i32.const 0&lt;/code&gt; 在栈内压入一个 32 位整型常数 &lt;code&gt;0&lt;/code&gt;，然后使用 &lt;code&gt;i64.const 8022916924116329800&lt;/code&gt; 在栈内压入一个 64 位整型常数 &lt;code&gt;8022916924116329800&lt;/code&gt;，之后调用 &lt;code&gt;i64.store&lt;/code&gt; 指令，这个指令将会将栈顶部第一个位置的一个 64 位整数存储到栈顶部第二个位置指定的“内存地址”开始的连续 8 个字节空间中。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;TL; DR; 简而言之，就是在内存的第 0 个位置开始的连续 8 个字节的空间里，存入一个 64 位整型数字 &lt;code&gt;8022916924116329800&lt;/code&gt;。这个数字转为 16 进制表示为：&lt;code&gt;0x 6f 57 20 6f 6c 6c 65 48&lt;/code&gt;，但是由于 WebAssembly 中&lt;a href=&quot;https://webassembly.org/docs/semantics/#linear-memory-accesses&quot;&gt;规定&lt;/a&gt;的&lt;a href=&quot;https://en.wikipedia.org/wiki/Endianness&quot;&gt;字节序&lt;/a&gt;是使用“小端序（Little-Endian Byte Order）”来存储数据，所以，在内存中第 0 个位置存储的是 &lt;code&gt;0x48&lt;/code&gt;，第 1 个位置存储的是 &lt;code&gt;0x65&lt;/code&gt;……所以，最终存储的实际上是 &lt;code&gt;0x 48 65 6c 6c 6f 20 57 6f&lt;/code&gt;，对应着 &lt;a href=&quot;http://www.asciitable.com/&quot;&gt;ASCII&lt;/a&gt; 码为：“Hello Wo”。&lt;/p&gt;
+&lt;p&gt;简而言之，就是在内存的第 0 个位置开始的连续 8 个字节的空间里，存入一个 64 位整型数字 &lt;code&gt;8022916924116329800&lt;/code&gt;。这个数字转为 16 进制表示为：&lt;code&gt;0x 6f 57 20 6f 6c 6c 65 48&lt;/code&gt;，但是由于 WebAssembly 中&lt;a href=&quot;https://webassembly.org/docs/semantics/#linear-memory-accesses&quot;&gt;规定&lt;/a&gt;的[字节序]是使用“小端序（Little-Endian Byte Order）”来存储数据，所以，在内存中第 0 个位置存储的是 &lt;code&gt;0x48&lt;/code&gt;，第 1 个位置存储的是 &lt;code&gt;0x65&lt;/code&gt;……所以，最终存储的实际上是 &lt;code&gt;0x 48 65 6c 6c 6f 20 57 6f&lt;/code&gt;，对应着 [ASCII] 码为：“Hello Wo”。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;然后，后面的一句指令 &lt;code&gt;(i32.store (i32.const 8) (i32.const 560229490))&lt;/code&gt; 的格式是上面三条指令的“S-表达式”形式，只不过这里换成了 &lt;code&gt;i32.store&lt;/code&gt; 来存储一个 32 位整型常数 &lt;code&gt;560229490&lt;/code&gt; 到 8 号“内存地址”开始的连续 4 个字节空间中。&lt;/p&gt;
 &lt;p&gt;实际上这一句指令的写法写成上面三句的语法是完全等效的：&lt;/p&gt;
@@ -994,8 +994,8 @@ i32.const 560229490
 i32.store&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;类似的，这里是在内存的第 8 个位置开始的连续 4 个字节的空间里，存入一个 32 位整型数字 &lt;code&gt;560229490&lt;/code&gt;。这个数字转为 16 进制表示位：&lt;code&gt;0x 21 64 6c 72&lt;/code&gt;，同样采用“小端序”来存储，所以存储的实际上是 &lt;code&gt;0x 72 6c 64 21&lt;/code&gt;，对应着 &lt;a href=&quot;http://www.asciitable.com/&quot;&gt;ASCII&lt;/a&gt; 码为：“rld!“。&lt;/p&gt;
-&lt;p&gt;所以，最终，内存中前 12 个字节中的数据为 &lt;code&gt;0x 48 65 6c 6c 6f 20 57 6f 72 6c 64 21&lt;/code&gt;，连起来就是对应着 &lt;a href=&quot;http://www.asciitable.com/&quot;&gt;ASCII&lt;/a&gt; 码：“Hello World!“。&lt;/p&gt;
+&lt;p&gt;类似的，这里是在内存的第 8 个位置开始的连续 4 个字节的空间里，存入一个 32 位整型数字 &lt;code&gt;560229490&lt;/code&gt;。这个数字转为 16 进制表示位：&lt;code&gt;0x 21 64 6c 72&lt;/code&gt;，同样采用“小端序”来存储，所以存储的实际上是 &lt;code&gt;0x 72 6c 64 21&lt;/code&gt;，对应着 [ASCII] 码为：“rld!“。&lt;/p&gt;
+&lt;p&gt;所以，最终，内存中前 12 个字节中的数据为 &lt;code&gt;0x 48 65 6c 6c 6f 20 57 6f 72 6c 64 21&lt;/code&gt;，连起来就是对应着 [ASCII] 码：“Hello World!“。&lt;/p&gt;
 &lt;p&gt;将这个 wat 编译为 wasm 后，文件大小为 95 Bytes：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;$ wat2wasm example.wat
@@ -1079,7 +1079,7 @@ mod&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;instance&lt;spa
     &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;通过 WebAssembly，我们可以将很多其他语言编写的类库直接封装到浏览器中运行，比如 Google Developers 就给了一个使用 WebAssembly 加载一个使用 C 语言编写的 WebP 图片编码库，将一张 jpg 格式的图片转换为 webp 格式并显示出来的例子：&lt;a href=&quot;https://developers.google.com/web/updates/2018/03/emscripting-a-c-library&quot;&gt;https://developers.google.com/web/updates/2018/03/emscripting-a-c-library&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;这个例子使用 &lt;a href=&quot;http://emscripten.org&quot;&gt;Emscripten&lt;/a&gt; 工具对 C 语言代码进行编译，这个工具在安装的时候需要到 GitHub、亚马逊 S3 等服务器下载文件，在国内这神奇的网络环境下速度异常缓慢，总共几十兆的文件可能挂机一天都下不完。可以尝试修改 emsdk 文件（Python），增加代理配置（但是效果不明显），或是在下载的过程中会提示下载链接和存放路径，使用其他工具下载后放到指定地方，重新安装会自动跳过已经下载的文件。&lt;/p&gt;
+&lt;p&gt;这个例子使用 [Emscripten] 工具对 C 语言代码进行编译，这个工具在安装的时候需要到 GitHub、亚马逊 S3 等服务器下载文件，在国内这神奇的网络环境下速度异常缓慢，总共几十兆的文件可能挂机一天都下不完。可以尝试修改 emsdk 文件（Python），增加代理配置（但是效果不明显），或是在下载的过程中会提示下载链接和存放路径，使用其他工具下载后放到指定地方，重新安装会自动跳过已经下载的文件。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1&gt;WebAssembly 的现状与未来&lt;/h1&gt;
 &lt;p&gt;目前 WebAssembly 的二进制格式版本已经确定，未来的改进也都将以兼容的形式进行更新，这表示 WebAssembly 已经进入现代标准了。&lt;/p&gt;
@@ -1118,13 +1118,28 @@ mod&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;instance&lt;spa
   &lt;/a&gt;
     &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;现在的 WebAssembly 还并不完美，虽说已经有使用 WebAssembly 开发的 Web 游戏出现了，但是还有很多不完美的地方。&lt;/p&gt;
-&lt;p&gt;比如，现在的 WebAssembly 还必须配合“JavaScript glue code”来使用，也就是必须使用 JavaScript 来 fetch WebAssembly 的文件，然后调用 &lt;code&gt;window.WebAssembly.instantiate&lt;/code&gt;、&lt;code&gt;window.WebAssembly.instantiateStreaming&lt;/code&gt; 等函数进行实例化。部分情况下还需要 JavaScript 来管理堆栈。官方推荐的编译工具 &lt;a href=&quot;http://emscripten.org&quot;&gt;Emscripten&lt;/a&gt; 虽然使用了各种黑科技来缩小编译后生成的代码的数量，但是最终生成的 JavaScript Glue Code 文件还是至少有 15K。&lt;/p&gt;
+&lt;p&gt;比如，现在的 WebAssembly 还必须配合“JavaScript glue code”来使用，也就是必须使用 JavaScript 来 fetch WebAssembly 的文件，然后调用 &lt;code&gt;window.WebAssembly.instantiate&lt;/code&gt;、&lt;code&gt;window.WebAssembly.instantiateStreaming&lt;/code&gt; 等函数进行实例化。部分情况下还需要 JavaScript 来管理堆栈。官方推荐的编译工具 [Emscripten] 虽然使用了各种黑科技来缩小编译后生成的代码的数量，但是最终生成的 JavaScript Glue Code 文件还是至少有 15K。&lt;/p&gt;
 &lt;p&gt;未来，WebAssembly 将可能直接通过 HTML 标签进行引用，比如：&lt;code&gt;&amp;#x3C;script src=&quot;./wa.wasm&quot;&gt;&amp;#x3C;/script&gt;&lt;/code&gt;；或者可以通过 JavaScript ES6 模块的方式引用，比如：&lt;code&gt;import xxx from &apos;./wa.wasm&apos;;&lt;/code&gt;；&lt;/p&gt;
-&lt;p&gt;线程的支持，异常处理，垃圾收集，尾调用优化等，都已经加入 WebAssembly 的&lt;a href=&quot;https://webassembly.org/docs/future-features&quot;&gt;计划列表&lt;/a&gt;中了。&lt;/p&gt;
+&lt;p&gt;线程的支持，异常处理，垃圾收集，尾调用优化等，都已经加入 WebAssembly 的[计划列表]中了。&lt;/p&gt;
 &lt;h1&gt;小结&lt;/h1&gt;
 &lt;p&gt;WebAssembly 的出现，使得前端不再只能使用 JavaScript 进行开发了，C、C++、Go 等等都可以为浏览器前端贡献代码。&lt;/p&gt;
 &lt;p&gt;这里我使用 wat 文件来编写的两个例子仅供参考，实际上在生产环境不大可能直接使用 wat 来进行开发，而是会使用 C、C++、Go 等语言编写模块，然后发布为 WebAssembly。&lt;/p&gt;
-&lt;p&gt;WebAssembly 的出现不是要取代 JavaScript，而是与 JavaScript 相辅相成，为前端开发带来一种新的选择。将计算密集型的部分交给 WebAssembly 来处理，让浏览器发挥出最大的性能！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【翻译】2018 年 12 种移动端用户体验设计趋势]]></title><description><![CDATA[原文网址： 12 Mobile UX Design Trends For 2018 原文作者：Nick Babich 在移动应用领域，事物发展得非常迅速。为了能在移动用户体验设计领域取得成功，设计师需要有远见，并为即将到来的新挑战做好准备。
+&lt;p&gt;WebAssembly 的出现不是要取代 JavaScript，而是与 JavaScript 相辅相成，为前端开发带来一种新的选择。将计算密集型的部分交给 WebAssembly 来处理，让浏览器发挥出最大的性能！&lt;/p&gt;
+&lt;p&gt;See also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://unity3d.com/&quot;&gt;Unity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Lisp_%28programming_language%29&quot;&gt;LISP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/WebAssembly/wabt&quot;&gt;wabt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wasm2wat/&quot;&gt;wasm2wat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cdn.rawgit.com/WebAssembly/wabt/aae5a4b7/demo/wat2wasm/&quot;&gt;wat2wasm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer&quot;&gt;ArrayBuffer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays&quot;&gt;TypedArray&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView&quot;&gt;DataView&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Endianness&quot;&gt;字节序&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.asciitable.com/&quot;&gt;ASCII&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://emscripten.org&quot;&gt;Emscripten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://webassembly.org/docs/future-features&quot;&gt;计划列表&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【翻译】2018 年 12 种移动端用户体验设计趋势]]></title><description><![CDATA[原文网址： 12 Mobile UX Design Trends For 2018 原文作者：Nick Babich 在移动应用领域，事物发展得非常迅速。为了能在移动用户体验设计领域取得成功，设计师需要有远见，并为即将到来的新挑战做好准备。
 为了简化这个任务，我列出了 201…]]></description><link>https://knownsec-fed.com/2018-04-16-fan-yi-2018-nian-12-zhong-yi-dong-duan-yong-hu-ti-yan-she-ji-qu-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-04-16-fan-yi-2018-nian-12-zhong-yi-dong-duan-yong-hu-ti-yan-she-ji-qu-shi/</guid><pubDate>Mon, 16 Apr 2018 02:25:20 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
