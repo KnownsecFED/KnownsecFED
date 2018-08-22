@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 21 Aug 2018 03:35:46 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 22 Aug 2018 06:47:21 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -589,7 +589,290 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[DApp 开发简介]]></title><description><![CDATA[一、DApp介绍 什么是 DApp？ DApp 是  Decentralized Application  的简称，及去中心化应用。 在某种程度上，比特币可以说是出现的第一个 DAPP…]]></description><link>https://knownsec-fed.com/2018-08-10-dapp-kai-fa-jian-jie/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-10-dapp-kai-fa-jian-jie/</guid><pubDate>Fri, 10 Aug 2018 08:36:21 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[然并卵：BF 科普 & BF 解释器的 JS 实现]]></title><description><![CDATA[最近在  Codewars 上做练习，某道题的内容是实现一个 brainFuck（简称BF语言） 解释器。动手实践的过程还是很有趣的，中间也遇到了各种各样的问题，最终通过测试，代码也比较接近目前的 JS 高分 solution…]]></description><link>https://knownsec-fed.com/2018-08-13-ran-bing-luan-bf-ke-pu-bf-jie-shi-qi-de-js-shi-xian/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-13-ran-bing-luan-bf-ke-pu-bf-jie-shi-qi-de-js-shi-xian/</guid><pubDate>Mon, 13 Aug 2018 02:04:03 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-84ae7dd5a0882578d19390a36353421c-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB5VItSGB//8QAGBAAAgMAAAAAAAAAAAAAAAAAARAAAhH/2gAIAQEAAQUCrMCD/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRABAQADAQAAAAAAAAAAAAAAAQAQITFB/9oACAEBAAE/IQezCbxZ7f/aAAwDAQACAAMAAAAQ/wAf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QZ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAAEFAQAAAAAAAAAAAAAAAAEAEBEhMaH/2gAIAQEAAT8QKFgoO9QpMwx//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;图片来源：google 搜索&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-84ae7dd5a0882578d19390a36353421c-d6978.jpeg&quot;
+        srcset=&quot;/static/header-84ae7dd5a0882578d19390a36353421c-527f0.jpeg 300w,
+/static/header-84ae7dd5a0882578d19390a36353421c-9a7cd.jpeg 600w,
+/static/header-84ae7dd5a0882578d19390a36353421c-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;最近在 &lt;a href=&quot;https://www.codewars.com/&quot;&gt;Codewars&lt;/a&gt;上做练习，某道题的内容是实现一个 brainFuck（简称BF语言） 解释器。动手实践的过程还是很有趣的，中间也遇到了各种各样的问题，最终通过测试，代码也比较接近目前的 JS 高分 solution。这篇文章准备聊聊相关的一些知识和实现的细节。&lt;/p&gt;
+&lt;h2&gt;“脑洞大开”的语言 —— BF 简介&lt;/h2&gt;
+&lt;p&gt;BrainFuck（后文以简写BF指代），单是名字就很容易让人脑洞大开，有种不可描述的“哲学”韵味。所以如果你忍不住 google 一下相关图片的话，你会可能搜到类似下面的图片：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bf_brief-8abaaedda56550b08c5c054b40373e08-869f4.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 995px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 80.10050251256283%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAbVasGE4f//EABkQAAIDAQAAAAAAAAAAAAAAAAECAAMSBP/aAAgBAQABBQLrbUXodYjh1GjYcmGsz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EACAQAAECBQUAAAAAAAAAAAAAAAEAEQMSITFRAhMiQWL/2gAIAQEABj8C2dIJJuyaW2U4USLJ5btVvhcRRf/EABoQAAMBAQEBAAAAAAAAAAAAAAERIQBBYaH/2gAIAQEAAT8hjsdiQwNmEIEcPy8OVhIkUQLuKj/TQSAdm//aAAwDAQACAAMAAAAQc8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAgIDAAAAAAAAAAAAAAABESEAMUFRcf/aAAgBAQABPxDQ2ynHczq3hwBGZMVwQrNuKEh3Sjh4JGg2VRcldRedDkCYXhvGQEAoSfM//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;图片来源：google 搜索&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bf_brief-8abaaedda56550b08c5c054b40373e08-869f4.jpeg&quot;
+        srcset=&quot;/static/bf_brief-8abaaedda56550b08c5c054b40373e08-ec7a6.jpeg 300w,
+/static/bf_brief-8abaaedda56550b08c5c054b40373e08-a5fb3.jpeg 600w,
+/static/bf_brief-8abaaedda56550b08c5c054b40373e08-869f4.jpeg 995w&quot;
+        sizes=&quot;(max-width: 995px) 100vw, 995px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;画面是不是已经很生动了？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;BF 字面上的含义已经暗示了这是一种不太直观和容易阅读的语言，当然，在当下也不会是一种通用语言。她属于 Esolang（全称 Esoteric programming language，直译：深奥的编程语言） 的范畴。&lt;/p&gt;
+&lt;p&gt;BF诞生于上世纪30年代，曾运用于早期的 PC（Amiga），想详细了解的童鞋可以浏览 &lt;a href=&quot;https://zh.wikipedia.org/wiki/Brainfuck&quot;&gt;维基百科&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BF 在当下有什么应用场景呢？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我想，对一个吃瓜群众来说，了解了它，对写作 &lt;strong&gt;逼格&lt;/strong&gt; 和 &lt;strong&gt;脑力&lt;/strong&gt; 的提升是很有用的。BF 具有&lt;strong&gt;极简主义&lt;/strong&gt;（搞设计的童鞋的不妨了解下下）和&lt;strong&gt;功能齐全&lt;/strong&gt;（图灵完全）的特点，旨在为用户带来困惑和挑战，丰富劳动人民的业余生活。&lt;/p&gt;
+&lt;h2&gt;8 种运算符及其操作&lt;/h2&gt;
+&lt;p&gt;BF 作为一种极简的计算机语言，仅有8种运算符，分别为: &lt;code&gt;&amp;#x3C;&lt;/code&gt; &lt;code&gt;&gt;&lt;/code&gt; &lt;code&gt;+&lt;/code&gt; &lt;code&gt;-&lt;/code&gt; &lt;code&gt;,&lt;/code&gt; &lt;code&gt;.&lt;/code&gt; &lt;code&gt;[&lt;/code&gt; &lt;code&gt;]&lt;/code&gt;，其功能对照如下表所示：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;指令&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;含义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;&amp;#x3C;&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;指针减一（指针左移）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;指针加一（指针右移）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;+&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;指针指向的字节的值加一（当前单元的数值+1）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;-&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;指针指向的字节的值减一（当前单元的数值-1）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;,&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;输入内容到指针指向的单元（输入一个字符，将其ASCII码保存到当前指针所指单元）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;.&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;将指针指向的存储单元的内容作为字符输出（将ASCII码输出为字符）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;[&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;如果指针指向的存储单元为零，向后跳转到对应的 
+&lt;code&gt;]&lt;/code&gt;
+ 指令处&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;]&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;如果指针指向的存储单元不为零，向前跳转到对应的 
+&lt;code&gt;[&lt;/code&gt;
+ 指令处&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;BF基于一个简单的机器模型，除了八个指令，这个机器还包括：一个以字节为单位、被初始化为零的数组、一个指向该数组的指针(初始时指向数组的第一个字节)、以及用于输入输出的两个字节流。&lt;/p&gt;
+&lt;p&gt;对 BF 比较有意思的比拟可以是这样的：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如果把机器内存看成是一个无限长的“小火车”（类似于&lt;code&gt;Array&lt;/code&gt;或&lt;code&gt;List&lt;/code&gt;的数据结构）,每个车厢（存储单元）里面的货物默认都是数字 &lt;code&gt;0&lt;/code&gt;，列车上仅有一个列车员（数据指针）；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;#x3C;&gt;&lt;/code&gt; 相当于列车员在车厢间进行移动，只有当列车员在某节车厢时，才能对车厢的货物进行操作；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+-&lt;/code&gt; 相当于列车员对当前所在车厢的货物进行增减；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;,&lt;/code&gt; 相当于列车在装货，列车员将当前所在车厢的货物替换为货运站输入的单批次货物（一个字符的ASCII码）；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.&lt;/code&gt; 会将当前车厢里的货物名称（单个字符）出来；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;[]&lt;/code&gt; 相当于列车员在满足条件的两节车厢间来回移动；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这里要注意的是，数组的每个单元都是一个字节大小；&lt;code&gt;-&lt;/code&gt; 命令允许溢出，它可以用 255 个 &lt;code&gt;+&lt;/code&gt; 命令来代替。例如，当某个存储单元的值为 255 时，其执行指令 &lt;code&gt;+&lt;/code&gt; 的结果为 0。类似的， 0 执行指令 &lt;code&gt;-&lt;/code&gt; 的结果为 255.&lt;/p&gt;
+&lt;h2&gt;与通用语言的类比&lt;/h2&gt;
+&lt;p&gt;据此，BF的运算符与通用语言的类比如下（以C语言为例）：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;BrainFuck&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;C&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;&amp;#x3C;&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;--ptr;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;++ptr;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;+&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;++*ptr;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;-&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;--*ptr;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;,&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;*ptr = getchar();&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;.&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;putchar(*ptr);&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;[&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;while (*ptr) {&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;]&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code&gt;}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;BF 解释器的 JS 函数实现&lt;/h2&gt;
+&lt;h3&gt;代码奉上：&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;brainLuck&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;code&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; input&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;             &lt;span class=&quot;token comment&quot;&gt;// @1&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; inputChars &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; input&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;         &lt;span class=&quot;token comment&quot;&gt;// @2&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; codes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; code&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;               &lt;span class=&quot;token comment&quot;&gt;// @3&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; codeIdx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;                             &lt;span class=&quot;token comment&quot;&gt;// @4&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; arrIdx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; outputStr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;                         &lt;span class=&quot;token comment&quot;&gt;// @5&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;codeIdx &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; code&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;             &lt;span class=&quot;token comment&quot;&gt;// @6&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; ops &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; codes&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;codeIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;handleLeftBracket&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;         &lt;span class=&quot;token comment&quot;&gt;// @7&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; cnt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;cnt&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          codeIdx&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;codes&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;codeIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            cnt &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;codes&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;codeIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            cnt &lt;span class=&quot;token operator&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;handleRightBracket&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;// @8&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; cnt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;cnt&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          codeIdx&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;codes&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;codeIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            cnt &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;codes&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;codeIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            cnt &lt;span class=&quot;token operator&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ops&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;                            &lt;span class=&quot;token comment&quot;&gt;// @9&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        arrIdx &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        arrIdx &lt;span class=&quot;token operator&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;+&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;~&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;,&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; iptChar &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; inputChars&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;shift&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; iptChar &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; iptChar&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;charCodeAt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        outputStr &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; String&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;fromCharCode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;arrIdx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;handleLeftBracket&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;handleRightBracket&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    codeIdx&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;                               &lt;span class=&quot;token comment&quot;&gt;// @10&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; outputStr&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;                          &lt;span class=&quot;token comment&quot;&gt;// @11&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;实现思路阐述（与代码中注释的序号对应）：&lt;/h3&gt;
+&lt;p&gt;(1) 我们实现了一个函数 brainLuck 用以模拟 BF 语言的解释执行，函数 brainLuck 的用例如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; code &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;,+[-.,+]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Parksben&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; String&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;fromCharCode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; output &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;brainLuck&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;code&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; input&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;output&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// -&gt; &apos;Parksben&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;(2) 将输入的字符串切割为单个字符，暂存进数组 inputChars；&lt;/p&gt;
+&lt;p&gt;(3) 将 BF 程序切割为单个操作符，方便遍历每个指令，用 codeIdx 作为下标进行遍历；&lt;/p&gt;
+&lt;p&gt;(4) 声明一个数组 arr 用以模拟机器内存，过程产生的数值存储到此数组中；&lt;/p&gt;
+&lt;p&gt;(5) 用字符串 outputStr 存储程序的输出；&lt;/p&gt;
+&lt;p&gt;(6) 遍历 BF 运算符，对不同指令进行相应的操作；&lt;/p&gt;
+&lt;p&gt;(7) 方法 handleLeftBracket，用以匹配到与当前 &lt;code&gt;[&lt;/code&gt; 对应的 &lt;code&gt;]&lt;/code&gt;（通过操作下标 codeIdx）；&lt;/p&gt;
+&lt;p&gt;(8) 方法 handleRightBracket，用以匹配到与当前 &lt;code&gt;]&lt;/code&gt; 对应的 &lt;code&gt;[&lt;/code&gt;（通过操作下标 codeIdx）；&lt;/p&gt;
+&lt;p&gt;(9) 用以处理不同指令的 switch 语句；&lt;/p&gt;
+&lt;p&gt;(10) codeIdx 加一，以向前遍历 codes；&lt;/p&gt;
+&lt;p&gt;(11) 程序输出；&lt;/p&gt;
+&lt;h2&gt;延伸阅读&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://vironit.com/brainfuck-a-programming-language-or-a-joke/&quot;&gt;Brainfuck: a Programming Language or a Joke?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hevanet.com/cristofd/brainfuck/&quot;&gt;丹尼尔·克里斯托法尼的一些 BF 实例&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%A5%A5%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80&quot;&gt;深奥的编程语言 - 维基百科&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[DApp 开发简介]]></title><description><![CDATA[一、DApp介绍 什么是 DApp？ DApp 是  Decentralized Application  的简称，及去中心化应用。 在某种程度上，比特币可以说是出现的第一个 DAPP…]]></description><link>https://knownsec-fed.com/2018-08-10-dapp-kai-fa-jian-jie/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-10-dapp-kai-fa-jian-jie/</guid><pubDate>Fri, 10 Aug 2018 08:36:21 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-6decd4e9a66e378d391445f4726a05fb-d6978.jpeg&quot;
