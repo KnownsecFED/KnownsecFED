@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 23 Aug 2018 04:03:28 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 24 Aug 2018 07:06:12 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1325,7 +1325,205 @@ Geth 相当于在本机启动一个以太坊网络节点，但是通过参数控
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;h2&gt;总结&lt;/h2&gt;
-&lt;p&gt;随着区块链近些年的大红大紫，DApp 被推上了风口浪尖，本文从技术的角度大致介绍了一下 DApp 所涉及的技术要点。后续的文章，可以更加详细的分享一些 DApp 开发的具体案例，引入跟介绍一些 DApp Demo 跟具体开发流程等。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[那迷人的被遗忘的语言：Prolog]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-08-09-prolog/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-09-prolog/</guid><pubDate>Thu, 09 Aug 2018 03:46:41 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;随着区块链近些年的大红大紫，DApp 被推上了风口浪尖，本文从技术的角度大致介绍了一下 DApp 所涉及的技术要点。后续的文章，可以更加详细的分享一些 DApp 开发的具体案例，引入跟介绍一些 DApp Demo 跟具体开发流程等。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[试炼之石-Performance]]></title><description><![CDATA[最近在阅读 Vue 的源码的时候去溜达了一圈以前没有关注过的几个 API，比如 mark、measure 等等，于是总结一下前端监控利器 performance 相关的知识。 何为试炼之石？ 可能有些同学不太了解这个 API…]]></description><link>https://knownsec-fed.com/2018-08-09-shi-lian-zhi-shi-performance/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-09-shi-lian-zhi-shi-performance/</guid><pubDate>Thu, 09 Aug 2018 03:53:16 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-d8e651f151407169b0768cefc71b8340-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAID/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgME/9oADAMBAAIQAxAAAAHa4VxAh//EABcQAAMBAAAAAAAAAAAAAAAAAAACESD/2gAIAQEAAQUCGmf/xAAWEQEBAQAAAAAAAAAAAAAAAAABEDH/2gAIAQMBAT8BMZ//xAAVEQEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAgEBPwGn/8QAFhAAAwAAAAAAAAAAAAAAAAAAACAh/9oACAEBAAY/AiL/AP/EABgQAAIDAAAAAAAAAAAAAAAAAAAhASBh/9oACAEBAAE/ISS5df/aAAwDAQACAAMAAAAQ+8//xAAXEQEAAwAAAAAAAAAAAAAAAAABEBFx/9oACAEDAQE/EGVZH//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAgEBPxAwv//EABsQAAIBBQAAAAAAAAAAAAAAAAEQABEhMUFR/9oACAEBAAE/EIRaIyq6xtf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;试炼之石-Performance&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-d8e651f151407169b0768cefc71b8340-d6978.jpeg&quot;
+        srcset=&quot;/static/header-d8e651f151407169b0768cefc71b8340-527f0.jpeg 300w,
+/static/header-d8e651f151407169b0768cefc71b8340-9a7cd.jpeg 600w,
+/static/header-d8e651f151407169b0768cefc71b8340-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最近在阅读 Vue 的源码的时候去溜达了一圈以前没有关注过的几个 API，比如 mark、measure 等等，于是总结一下前端监控利器 performance 相关的知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;何为试炼之石？&lt;/h2&gt;
+&lt;p&gt;可能有些同学不太了解这个 API，因为其实说实话，平常也不会接触这些，但是这却是一个很有用的 API。我们可以利用这个 API 完成对页面的性能表现达到十分精确的度量和控制。&lt;/p&gt;
+&lt;p&gt;下面呢，我们将会一起领略一下 performance 的魅力，关于 performance 的 API 等等的信息，网上其实说的已经非常多了，这里就不再赘述，有兴趣的可以自行查阅。&lt;/p&gt;
+&lt;h2&gt;耗时统计&lt;/h2&gt;
+&lt;p&gt;在 performance 中的 timing 对象里，存储了各种与浏览器性能有关的时间数据，我们可以通过其中的一些属性来获取到浏览器在不同阶段处理网页的耗时统计。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; timing &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; performance&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; t &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// DNS 查询时间&lt;/span&gt;
+t&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dns &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;domainLookupEnd &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;domainLookupStart&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 解析 DOM 树时间&lt;/span&gt;
+t&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dom &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;domComplete &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;domInteractive&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 重定向时间&lt;/span&gt;
+t&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;redirect &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;redirectEnd &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;redirectStart&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 请求耗时&lt;/span&gt;
+t&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;request &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;responseEnd &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requestStart&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 白屏时间&lt;/span&gt;
+t&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;wait &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;responseStart &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; timing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;navigationStart&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;其实我们能从这些时间里还能够得到非常多的信息，上面都是一些很常用的时间，我们可以从这些信息中获知整个页面的整体性能。&lt;/p&gt;
+&lt;p&gt;比如说，当DNS 查询时间长时，这时候你就要考虑是不是使用的域名太多了，或者有没有做 DNS 预解析， 关于 DNS 预解析要注意的是在 HTTP 协议下 a 标签是默认开启的，而 HTTPS 是默认关闭的，需要自己开启。&lt;/p&gt;
+&lt;p&gt;当重定向时间长的时候，你就可以去看看代码里这样的情况，比如说 &lt;code&gt;https://baidu.com&lt;/code&gt; 就会重定向到 &lt;code&gt;https://www.baidu.com&lt;/code&gt;，当然了，重定向的情况不止这一种，还需要根据自身项目去优化重定向的时间。&lt;/p&gt;
+&lt;p&gt;当 DOM 解析时间过长的时候，你就要考虑你的 HTML 的结构是不是不合理。我们可以通过不同的时间去检测页面的各种性能，然后针对性的进行修改。&lt;/p&gt;
+&lt;h2&gt;打点分析&lt;/h2&gt;
+&lt;p&gt;先看一段 Vue 的源码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; perf &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; inBrowser &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;performance
+&lt;span class=&quot;token comment&quot;&gt;/* istanbul ignore if */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  perf &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+  perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mark &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+  perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;measure &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+  perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;clearMarks &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+  perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;clearMeasures
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;mark&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tag &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;mark&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;measure&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; startTag&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; endTag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;measure&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; startTag&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; endTag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;clearMarks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;startTag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;clearMarks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;endTag&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    perf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;clearMeasures&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;可以看到，其实它封装的两个函数中使用到的就是 performance 中的 mark、measure、clearMarks 以及 clearMeasures 几个函数。&lt;/p&gt;
+&lt;p&gt;performance.mark() 和 performance.clearMarks() 是一组函数，我们可以通过使用 performance.mark() 来标记时间戳，我们可以通过这些时间戳的名字来计算两个时间戳中间所花费的时间。&lt;/p&gt;
+&lt;p&gt;而这样的计算方式是不是看着有点熟，是的，在 console 里的 time 和 timeEnd 也能够计时，但是没有 mark 和 measure 灵活。看下面的例子：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;per&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  performance&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;mark&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;per_begin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  performance&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;mark&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;per_end&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;per&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// 这时候我们调用 performance.getEntriesByType(&apos;mark&apos;) 就可以看到刚刚我们标记的两个时间戳了&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 我们使用 measure 来计算这两个标记点之间所消耗的时间&lt;/span&gt;
+performance&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;measure&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;per&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;per_begin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;per_end&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 通过 performance.getEntriesByName(&apos;per&apos;) 就可以看到 measure 的时间了&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Vue 的源码中对这两个方法进行了封装，从实验中我们能够看到我们每次打点以及计算都会在 performance 里留下记录，Vue 封装的方法在计算完成之后将记录清除掉了。&lt;/p&gt;
+&lt;p&gt;这里有些同学可能就有点困惑了，你 measure 计算的时候计算了就直接 clear 了，这不就白计算了么？其实，在官方的 devTools 里使用了 PerformanceObserver 去监听 performance 的动作，所以监听到取完值，删掉也就没什么了。&lt;/p&gt;
+&lt;p&gt;就比如说这样：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; observer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PerformanceObserver&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;list &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    list&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getEntries&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;entry &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;entry&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;entry&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;duration&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+observer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;observe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    entryTypes&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;measure&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这样当我们调用 performance.measure 就会触发这个回调函数了。&lt;/p&gt;
+&lt;h2&gt;资源监控&lt;/h2&gt;
+&lt;p&gt;我们对前端的监控主要是两个方面。&lt;/p&gt;
+&lt;p&gt;第一就是运行错误，这个很明显就是我们代码写得有问题，出现了 bug，我们可以在一些可以预知返回结果的地方主动判断函数运行是否正确，其次我们可以通过 &lt;code&gt;try...catch...&lt;/code&gt; 或者是 &lt;code&gt;window.onerror&lt;/code&gt; 等方法来进行错误的监控。&lt;/p&gt;
+&lt;p&gt;第二个方面就是对前端加载的资源进行监控，比较常用的方法有 Object.onerror 来捕获错误，要注意的是资源的错误不会冒泡，就是说 window 是捕获不到的，那么还有些什么其他办法呢？当然有，下面说的一种资源监控的方式就要利用到我们的 performance 了。&lt;/p&gt;
+&lt;p&gt;顺便提一嘴，前端的错误我们可以通过比如说 Ajax 的方式上报，但是呢？写 Ajax 还是比较烦的，你还可以通过 Image 对象上报错误。好了，不扯远了，我们继续看 performance 怎么监控资源。&lt;/p&gt;
+&lt;p&gt;我们随便打开一个网站，就以掘金为例，我们打开浏览器控制台。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 在控制台输入&lt;/span&gt;
+performance&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getEntries&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们可以得到下面的输出：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/getEntries-f4b8245d57d3b6a27f62533e48bcc271-a7326.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 989px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.27502527805865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABYklEQVQozz2Ri3aEIAxE/f+P3NX6hIQAAVG37dpB287xaExyJxEba23XdX3fPx6Pj0vPqhbBnewuXcnnHSPZtrWhmecZL+i7O3AHhBpilNuuwzUM/TRNwzAgM44jgtoGOGmap3lZFnNpnCZnLc3SPq2ZiIyx5ISLNRp88pCk4I+cvkrZmjUVZiYm5xxZa6zdRBK7yVh1bg0BGQBmMY4DM5zdtr3O9wkBXonIkoUFJmMBmCnzuCyAs8hywbB1LjIL4H1/necN61rnEvElzMnMR99nA8qiUMiuziEfvCLhnIhEEb/mvSlaKnwZAAaRxJV58nVPFmwBO8Hyps6vPaKaVdO2HX/w/2RjsGohggvgjSkauHiiauUwmMVLwGl9f7+x9i9889naYpZsjGcKRLmeojdznkc1SwxBk+bP11f94vfZHOXA31LscSmo7iltGn2IJed9XWOMZd1VY84FDXj+wuf5Ay4IKi1Ni1QgAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;getEntries&quot;
+        title=&quot;&quot;
+        src=&quot;/static/getEntries-f4b8245d57d3b6a27f62533e48bcc271-a7326.png&quot;
+        srcset=&quot;/static/getEntries-f4b8245d57d3b6a27f62533e48bcc271-1479f.png 300w,
+/static/getEntries-f4b8245d57d3b6a27f62533e48bcc271-78b12.png 600w,
+/static/getEntries-f4b8245d57d3b6a27f62533e48bcc271-a7326.png 989w&quot;
+        sizes=&quot;(max-width: 989px) 100vw, 989px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;这个 API 返回的是全部加载成功的资源，那么同时我们可以通过 document 去拿到我们要加载的所有资源。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/tagName-4955ee23b03e847336642601cf26d2ba-6752c.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 463px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.93088552915766%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAAApklEQVQoz5WRQRaDIAxEvf8tFaIWUEkC1KcNFhbdN7P/788kg1RJmBAoGkjBJG/lcz3/ZRARjkxAx9TIsRzuKqSA6SACRGNPDo8mQ6vdzTOjgR9clbXnttme5JXmXrtvjpPRw1Voo2ZGu5a4qmH0yCuj9XmHNwYt3LQYxxf7Ue5bXbubIeQNqojS7LC9imzIwejhQLS0Pzs1XGvlnZPLvGwlLqqDfQHv4v1DcYcMEAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;tagName&quot;
+        title=&quot;&quot;
+        src=&quot;/static/tagName-4955ee23b03e847336642601cf26d2ba-6752c.png&quot;
+        srcset=&quot;/static/tagName-4955ee23b03e847336642601cf26d2ba-00041.png 300w,
+/static/tagName-4955ee23b03e847336642601cf26d2ba-6752c.png 463w&quot;
+        sizes=&quot;(max-width: 463px) 100vw, 463px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;这时候，我们就能够通过这两个数组来看资源的加载情况了。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;performance 这个 API 出来时间也很长了，但是以前一直没有了解过这个 API，在阅读源码的过程中才看到，属于查缺补漏。&lt;/p&gt;
+&lt;p&gt;关于 performance 的相关资源都在下面，有兴趣的可以看看：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MDN: &lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/API/Performance&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/API/Performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;使用性能API快速分析web前端性能: &lt;a href=&quot;https://segmentfault.com/a/1190000004010453&quot;&gt;https://segmentfault.com/a/1190000004010453&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;window.performance 详解: &lt;a href=&quot;https://github.com/fredshare/blog/issues/5&quot;&gt;https://github.com/fredshare/blog/issues/5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[那迷人的被遗忘的语言：Prolog]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2018-08-09-prolog/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-09-prolog/</guid><pubDate>Thu, 09 Aug 2018 03:46:41 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-6c77233f9f5f86bdc998314fdd535858-d6978.jpeg&quot;
