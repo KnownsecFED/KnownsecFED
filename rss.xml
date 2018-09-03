@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 03 Sep 2018 02:32:24 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 03 Sep 2018 03:01:19 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,8 +391,7 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[简述大数据实时处理框架]]></title><description><![CDATA[欢迎来到BigData…]]></description><link>https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</guid><pubDate>Fri, 31 Aug 2018 06:55:23 GMT</pubDate><content:encoded>&lt;h1&gt;欢迎来到BigData的世界&lt;/h1&gt;
-&lt;h2&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[简述大数据实时处理框架]]></title><description><![CDATA[   欢迎来到BigData…]]></description><link>https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</guid><pubDate>Fri, 31 Aug 2018 06:55:23 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-e44c25c207e851b1aaf1667f2c83d95f-d6978.jpeg&quot;
@@ -424,7 +423,8 @@
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/h2&gt;
+      &lt;/p&gt;
+&lt;h1&gt;欢迎来到BigData的世界&lt;/h1&gt;
 &lt;p&gt;现如今，我们来到了数据时代，数据信息化与我们的生活与工作息息相关。此篇文章简述利用大数据框架，实时处理数据的流程与相关框架的介绍，主要包括：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
