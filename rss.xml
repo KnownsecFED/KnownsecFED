@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Sep 2018 08:12:52 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Sep 2018 09:28:07 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -966,7 +966,112 @@ agent 里面可以包含多个 source，channel，sink。&lt;/p&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[要点梳理：TCP连接及常见攻击手法分析]]></title><description><![CDATA[TCP 协议简介 TCP 协议是一种面向连接的，可靠的字节流服务。 可靠性：TCP 在传输过程中可以通过校验和，确认和重传机制保证可靠传输 TCP 给数据分节进行排序，并使用累计确认保证数据的顺序不变和非重复 TCP…]]></description><link>https://knownsec-fed.com/2018-08-13-tcp-lian-jie-ji-chang-jian-gong-ji-shou-fa-fen-xi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-13-tcp-lian-jie-ji-chang-jian-gong-ji-shou-fa-fen-xi/</guid><pubDate>Mon, 13 Aug 2018 02:32:21 GMT</pubDate><content:encoded>&lt;p&gt;
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[深入Promise]]></title><description><![CDATA[深入Promise new Promise((resolve, reject) => setTimeout(resolve, 1000, ‘foo’)) .then(console.log) // foo (1s后) 在使用 Promise…]]></description><link>https://knownsec-fed.com/2018-08-22-shen-ru-promise/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-22-shen-ru-promise/</guid><pubDate>Wed, 22 Aug 2018 01:52:52 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-78bfec2b6f52903dfe09f0c20ac21089-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAXAQADAQAAAAAAAAAAAAAAAAABAgME/9oADAMBAAIQAxAAAAHtwsmV1NIn/8QAFxABAAMAAAAAAAAAAAAAAAAAAQASIP/aAAgBAQABBQKXXP8A/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABgRAAIDAAAAAAAAAAAAAAAAAAECEBEh/9oACAECAQE/AWOVH//EABcQAAMBAAAAAAAAAAAAAAAAAAABIDH/2gAIAQEABj8CMc//xAAaEAEAAwADAAAAAAAAAAAAAAABABARITFR/9oACAEBAAE/IVwZyTAHzumNf//aAAwDAQACAAMAAAAQSD//xAAWEQADAAAAAAAAAAAAAAAAAAABECH/2gAIAQMBAT8QCr//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QuMf/xAAaEAACAwEBAAAAAAAAAAAAAAABEQAxcRAh/9oACAEBAAE/EDlCwPIHZaBrrIpSW5//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;深入Promise&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-78bfec2b6f52903dfe09f0c20ac21089-d6978.jpeg&quot;
+        srcset=&quot;/static/header-78bfec2b6f52903dfe09f0c20ac21089-527f0.jpeg 300w,
+/static/header-78bfec2b6f52903dfe09f0c20ac21089-9a7cd.jpeg 600w,
+/static/header-78bfec2b6f52903dfe09f0c20ac21089-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;深入Promise&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;new Promise((resolve, reject) =&gt; setTimeout(resolve, 1000, ‘foo’))&lt;br&gt;
+.then(console.log)&lt;br&gt;
+// foo (1s后)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在使用 Promise 的时候，我们最简单的理解与用法就是像上面的代码那样，把异步结果提供给 resolve 作参数，然后通过给 then 方法传递一个自定义函数作为结果处理函数。但 resolve 和 reject 这两个参数到底是什么？在这背后，它的基本工作方式到底是怎样的呢？让我们从规范的角度来初步了解它吧。  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ecma-international.org/ecma-262/8.0/#sec-promise-objects&quot;&gt;参考: ES8 Promise&lt;/a&gt;  &lt;/p&gt;
+&lt;h2&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;promise 的工作机制与 callback 类似，都采用内部的抽象操作 Job 来实现异步&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Promise 构造函数里的 resolve/reject 函数是内部创建的，在调用它们时传入的参数就是要解析的结果，把它和 promise 已经存储的用户传入的处理函数一起插入到 Job 队列中。传入的参数也可以是一个 promise，在 Promise.all/race 的内部就有用到。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Promise.prototype.then 根据当前的 promise 的状态来决定是立即将 promise 中存储的结果取出并和参数中的处理函数一起直接插入到 Job 队列中还是先与 promise 关联起来作为结果处理函数。then 会隐式调用 Promise 构建函数构建新的 promise 并返回。  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Promise.all 先创建一个新的 promise，然后先、初始化一个空的结果数组和一个计数器来对已经 resolve 的 promise进行计数，之后会进行迭代，对于每个迭代值它都会为其创造一个promise，并设定这个promise的then为向结果数组里添加结果以及计数器—，当计数器减至0时就会resolve最终结果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Promise.race 也是会创建一个新的主 promise，之后主要是根据 promise 只能 resolve 一次的限制，对于每个迭代值都会创造另一个promise，先resolve的也就会先被主 promise resolve 返回结果。 &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;code&gt;new Promise(executor)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;首先从 Promise 这个构造函数说起，它是全局对象的 Promise 属性的值，这也就是为什么浏览器环境下我们能直接调用它的原因，就像 String, Array 这些构造函数一样。  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;new Promise(executor)&lt;/code&gt;的第一步就像其他构造函数一样，按照 Promise 的 prototype 来构建一个新对象，并初始化了几个内部插槽&lt;code&gt;[[PromiseState]]&lt;/code&gt;，&lt;code&gt;[[PromiseResult]]&lt;/code&gt;，&lt;code&gt;[[PromiseFullfillReactions]]&lt;/code&gt;，&lt;code&gt;[[PromiseRejectReactions]]&lt;/code&gt;，&lt;code&gt;[[PromiseIsHandled]]&lt;/code&gt;来记录一些相关的信息，可以从名字来大致推断出他们的作用，详情我们下文再提。这里它们的初始值除了&lt;code&gt;[[PromiseResult]]&lt;/code&gt;依次为 “pending”，空 list，空 list，false。  &lt;/p&gt;
+&lt;p&gt;下一步，ES 会根据这个 promise 对象来生成用来resolve promise的 &lt;code&gt;resolve function&lt;/code&gt; 和用来 reject promise 的 &lt;code&gt;reject function&lt;/code&gt;。然后调用 executor，以 &lt;code&gt;resolve function&lt;/code&gt; 和 &lt;code&gt;reject function&lt;/code&gt; 为参数，如果在这个过程中出错了，就直接 reject promise。最后返回 promise。  &lt;/p&gt;
+&lt;p&gt;那什么又是 resolve，什么又是 reject 呢。我们知道 Promise 的状态，也就是&lt;code&gt;[[PromiseState]]&lt;/code&gt;有三种值: pending, fullfilled, rejected，用 &lt;code&gt;reject function&lt;/code&gt; 就可以 reject promise，把它的状态从 pending 变为rejected。不过 &lt;code&gt;resolve function&lt;/code&gt; 既可以 fullfill promise 来把promise的状态从 pending 变为 fullfilled，也可以用来 reject promise。  &lt;/p&gt;
+&lt;p&gt;那么 &lt;code&gt;resolve function&lt;/code&gt; 和 &lt;code&gt;reject function&lt;/code&gt; 到底做了些什么呢？  &lt;/p&gt;
+&lt;p&gt;先来看 &lt;code&gt;reject function&lt;/code&gt; ，首先在生成它的时候，会给它初始化&lt;code&gt;[[Promise]]&lt;/code&gt;和&lt;code&gt;[[AlreadyResolved]]&lt;/code&gt;插槽，也就是把它和某个 promise 关联起来。在执行时，会传入一个参数 reason，并只有当&lt;code&gt;[[AlreadyResolved]]&lt;/code&gt;是 false，也就是还没 resolve 过、状态为 pending 时，才会调用返回 &lt;code&gt;RejectPromise&lt;/code&gt;、传入 promise 和 reason 参数来 reject promise，否则返回 undefined。&lt;br&gt;
+&lt;code&gt;RejectPromise(promise, reason)&lt;/code&gt;，除了把&lt;code&gt;[[PromiseState]]&lt;/code&gt;从 pending 变为 rejected 之外，还会把 promise 的结果&lt;code&gt;[[PromiseResult]]&lt;/code&gt;的值设为 reason，并会取出 promise 的&lt;code&gt;[[PromiseRejectReactions]]&lt;/code&gt;中已存的记录（相信读者们已经明白后面还会有一个操作来向这个内部插槽里存记录），并用 &lt;code&gt;TriggerPromiseReactions&lt;/code&gt; 调用这些记录做后续处理，并传入 reject 的原因 reason。类似的，&lt;code&gt;resolve function&lt;/code&gt; 中用到的 &lt;code&gt;FullfillPromise(promise, value)&lt;/code&gt; 操作把 promise 的状态变为 fulfilled，抽取&lt;code&gt;[[PromiseFullfillReactions]]&lt;/code&gt;的值调用 &lt;code&gt;TriggerPromiseReactions&lt;/code&gt;，并传入 fulfilled 的结果 value。  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;TriggerPromiseReactions(reactions, argument)&lt;/code&gt; 会调用 &lt;code&gt;EnqueueJob(&quot;PromiseJobs&quot;, PromiseReactionJob, &amp;#x3C;&amp;#x3C;reactions, argument&gt;&gt;)&lt;/code&gt;，待会再详细说明。  &lt;/p&gt;
+&lt;p&gt;再来看 &lt;code&gt;resolve function&lt;/code&gt;，与 &lt;code&gt;reject function&lt;/code&gt; 一样，在生成它时，会把它与某个 promise 关联起来。在执行时，我们传入的参数叫做 resolution。如果 promise 已经 resolve 过，就返回 undefined。之后的情况就相对复杂一些了。    &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;如果用户把这个 promise 本身传给了 resolve function 作为参数 resolution，就会创建一个 TypeError，throw 它，并调用 &lt;code&gt;RejectPromise&lt;/code&gt;，reason 参数为这个 TypeError。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果 resolution 的类型不是 Object，就调用 &lt;code&gt;FulfillPromise(promise, resolution)&lt;/code&gt;。  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其余的情况就是 resolution 是除了自身以外的带 then 的对象 (Promise) 的情况了。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果 resolution 是个不带then的对象，就 &lt;code&gt;RejectPromise&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;如果有 then 属性但不能调用，也 &lt;code&gt;FulfillPromise&lt;/code&gt;, 。&lt;/li&gt;
+&lt;li&gt;如果有 then 属性并且可以调用，就 &lt;code&gt;EnqueueJob(&quot;PromiseJobs&quot;, PromiseResolveThenableJob, &amp;#x3C;&amp;#x3C;promise, resolution, thenAction&gt;&gt;)&lt;/code&gt;。 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在说明 &lt;code&gt;EnqueueJob&lt;/code&gt; 之前，先来看看 Job 是个什么东西。简单来说，它就像是回调的内部实现机制：“当没有其他 ES 在跑时，初始化并执行自己对应的 ES。“。我们有一个待执行的 FIFO 的 Job 队列，以及当前的执行环境 running execution context 和 execution context stack，当后两者均为空时，才会执行 Job 队列的第一个。  &lt;/p&gt;
+&lt;p&gt;ES 规定实现里至少要有两个 Job 队列，&lt;code&gt;ScriptJobs&lt;/code&gt; 和 &lt;code&gt;PromiseJobs&lt;/code&gt;。当我们调用 &lt;code&gt;EnqueueJob(&quot;PromiseJobs&quot;, ...)&lt;/code&gt;时，也就将要完成的 Job 和它们的参数插入到了 &lt;code&gt;PromiseJobs&lt;/code&gt; 这个队列。可以看到，Promise 下有两种 Job  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;PromiseReactionJob(reaction, argument)&lt;/code&gt;&lt;br&gt;
+reaction 有三个内部插槽 &lt;code&gt;[[Capability]]&lt;/code&gt;、&lt;code&gt;[[Type]]&lt;/code&gt; 和 &lt;code&gt;[[Handler]]&lt;/code&gt;，分别表示 &lt;code&gt;[[关联的 promise 及相关的resolve function 和 reject function]]&lt;/code&gt;、&lt;code&gt;[[类别]]&lt;/code&gt;、&lt;code&gt;[[handler]]&lt;/code&gt;。如果用户没有给 handler(undefined)，就根据类别是 Fulfill 还是 Reject 来把 argument 当作结果。如果给了 handler，就用它来对 argument 进行进一步处理。最后根据这个结果来用 resolve function 和 reject function 进行处理并返回。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PromiseResolveThenableJob(promiseToResolve, thenable, then)&lt;/code&gt;&lt;br&gt;
+创建和 promiseToResolve 关联的 resolve function 和 reject function。以 then 为调用函数，thenable 为this，resolve function和reject function 为参数调用返回。  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;code&gt;Promise.prototype.then(onfulfilled, onrejected)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;首先是创建一个 &lt;code&gt;promiseCapability&lt;/code&gt;，它包含了一个新的 promise 和相关联的 &lt;code&gt;resolve function&lt;/code&gt; 和 &lt;code&gt;reject function&lt;/code&gt;。promise 的产生就是像正常使用 Promise 构造函数那样构建一个 promise，不过传给构造函数 executor 是内部自动创建的，作用是把 resolve/reject function 记录到&lt;code&gt;PromiseCapability&lt;/code&gt;中。
+根据 promiseCapability 和 onfulfilled/onrejected 创建两个分别用于 fulfill 和 reject 的PromiseReaction，也就是 PromiseJobs 里最终要执行的操作。
+如果当前的 promise(&lt;code&gt;this&lt;/code&gt;)是 pending 状态，就把这两个 reaction 分别插入到 promise的&lt;code&gt;[[PromiseFulfillReactions]]&lt;/code&gt;和&lt;code&gt;[[PromiseRejectReactions]]&lt;/code&gt;队列中。但如果此时 promise 已经是 fulfilled 或是 rejected 状态了，就从 promise 的&lt;code&gt;[[PromiseResult]]&lt;/code&gt;取出值 result，作为 fulfilled 的结果/reject 的原因，插入到 Job 队列里，&lt;code&gt;EnqueueJob(&quot;PromiseJobs&quot;, PromiseReactionJob, &amp;#x3C;&amp;#x3C;reaciton, result&gt;&gt;)&lt;/code&gt;，最后返回 prjomiseCapability 里存储的新 promise。&lt;code&gt;Promise.prototype.catch(onrejected)&lt;/code&gt; 就是 &lt;code&gt;Promise.prototype.then(undefined, onrejected)&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;Promise.resolve(x)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;像 then 那样创建一个 &lt;code&gt;promiseCapability&lt;/code&gt;，然后直接调用其中的 &lt;code&gt;resolve function&lt;/code&gt; 并传入要解析的值x，最后返回其中的新 promise.  &lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;Promise.all(iterable)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Promise.all也会像 then 那样创建一个 &lt;code&gt;promiseCapability&lt;/code&gt;，里面包含着一个新的 promise 及其关联的 &lt;code&gt;resolve function&lt;/code&gt; 和 &lt;code&gt;reject function&lt;/code&gt;，之后就结合迭代器循环：1.如果迭代完了并且计数器为0则调用 &lt;code&gt;promiseCapability&lt;/code&gt; 的 &lt;code&gt;resolve function&lt;/code&gt; 来 resolve 结果数组 2.否则计数器加1，然后取出下一个迭代的值，传给 &lt;code&gt;Promise.resolve&lt;/code&gt; 也构建一个新的 promise，然后内部创建一个 &lt;code&gt;Promise.all Resolve Element Function&lt;/code&gt;，传给这个新 promise 的 then 用来把结果添加到结果数组并使计数器减一。  &lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;Promise.race(iterable)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;同样的，创建一个 &lt;code&gt;promiseCapability&lt;/code&gt;，然后进行迭代，用 &lt;code&gt;Promise.resolve&lt;/code&gt; 来构建一个新的 promise，之后调用这个新 promise 的 then 方法，传入 promiseCapability 里的 &lt;code&gt;resolve/reject function&lt;/code&gt;，结合之前提到的 promise 只会 resolve 一次，可以看到确实很有 race 的意味。  &lt;/p&gt;
+&lt;h2&gt;结语&lt;/h2&gt;
+&lt;p&gt;看到这里，不知道大家是否对 Promise 有了更深的理解了呢。再往深一步，ES6里新提出的 async/await 实际上也是应用了 Generator 的思想与 Promise，感兴趣的话可以继续了解一下。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[要点梳理：TCP连接及常见攻击手法分析]]></title><description><![CDATA[TCP 协议简介 TCP 协议是一种面向连接的，可靠的字节流服务。 可靠性：TCP 在传输过程中可以通过校验和，确认和重传机制保证可靠传输 TCP 给数据分节进行排序，并使用累计确认保证数据的顺序不变和非重复 TCP…]]></description><link>https://knownsec-fed.com/2018-08-13-tcp-lian-jie-ji-chang-jian-gong-ji-shou-fa-fen-xi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-13-tcp-lian-jie-ji-chang-jian-gong-ji-shou-fa-fen-xi/</guid><pubDate>Mon, 13 Aug 2018 02:32:21 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-15fd1a70477683b99e5e78471dba97ee-d6978.jpeg&quot;
