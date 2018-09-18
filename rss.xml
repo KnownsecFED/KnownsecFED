@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 14 Sep 2018 09:09:02 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 18 Sep 2018 04:03:34 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,235 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[浅谈 Vue 中 computed 实现原理]]></title><description><![CDATA[浅谈 Vue 中 computed 实现原理 虽然目前的技术栈已由 Vue 转到了 React，但从之前使用 Vue 开发的多个项目实际经历来看还是非常愉悦的，Vue 文档清晰规范，api 设计简洁高效，对前端开发人员友好，上手快，甚至个人认为在很多场景使用 Vue 比React…]]></description><link>https://knownsec-fed.com/2018-09-12-qian-tan-vue-zhong-computed-shi-xian-yuan-li/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-12-qian-tan-vue-zhong-computed-shi-xian-yuan-li/</guid><pubDate>Wed, 12 Sep 2018 02:43:52 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[前端工程化：脚手架]]></title><description><![CDATA[介绍 Web 工程化学习的目标是让项目从”搭建-开发-部署”更加快速以及规范。文章中使用的相关技术栈是 ReatJS 和 NodeJS…]]></description><link>https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</guid><pubDate>Wed, 12 Sep 2018 06:24:15 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cube-bfef5e864fc8cf00bcae5ba21c350fc9-9170e.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 32.88826423049895%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABT0lEQVQoz0VSy07DMBDsp9lpkpYDpQU+kQvqA1VtmkefKnwCEiBxQaLQ2ImQ+IFh1m7DYbTrtXd2dtctux3A5G0iQJkpmEzTetgicHGTa2flbJdt/07iywhmSH+ivF+EaJllh07kSO0q5kWIY6oIjc/E45AofC0UDguNbxbyOfKWSEk892QmF0JRJxcM1I9Uu76gSoWPmcbzvcLLUONtEuH9IcDrSPNMNUXHk06Zm4aecKxQ7fsklErnalR6zIKmfVuI6gjVpsdWYyJsYFZdmISEC/opLYtV2x5aZTMzhdKp7fj2N9euYrW/hF1fwW77JOqj3t+gfrriO7ZeyOyjkyUohgrPijTnxoHnsZufobKfUYzfuwHqcRd2d4tqQtJ5iGonJCchifpfKpfHpci2POkxazcLMSu2wGJ1FsFKgqiYMmmmXGKZnX9A0PwK8f8ASv6VHEAtekkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;前端工程化-脚手架&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cube-bfef5e864fc8cf00bcae5ba21c350fc9-abe1c.png&quot;
+        srcset=&quot;/static/cube-bfef5e864fc8cf00bcae5ba21c350fc9-10046.png 300w,
+/static/cube-bfef5e864fc8cf00bcae5ba21c350fc9-3c4a3.png 600w,
+/static/cube-bfef5e864fc8cf00bcae5ba21c350fc9-abe1c.png 1200w,
+/static/cube-bfef5e864fc8cf00bcae5ba21c350fc9-9170e.png 1423w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;介绍&lt;/h1&gt;
+&lt;p&gt;Web 工程化学习的目标是让项目从”搭建-开发-部署”更加快速以及规范。文章中使用的相关技术栈是 ReatJS 和 NodeJS.&lt;/p&gt;
+&lt;p&gt;首先，我们一起来了解什么是脚手架，所谓脚手架其实就是帮助我们快速搭建项目的工具，通常只需要跑一个命令就可以帮助我们生成一个项目，让用户不需要再思考项目的目录结构，单元测试，所需要的依赖等繁琐的事情。然后我们来看看目前常用的脚手架有哪些：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;官方推出的 create-react-app&lt;/li&gt;
+&lt;li&gt;世界流行的 yoman&lt;/li&gt;
+&lt;li&gt;知道创宇内部使用的 cube&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;create-react-app&lt;/h1&gt;
+&lt;p&gt;安装脚手架参照官方的文章 &lt;a href=&quot;https://github.com/facebook/create-react-app&quot;&gt;https://github.com/facebook/create-react-app&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;npm i create-react-app
+npx create-react-app my-app
+cd my-app&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;项目结构&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;my-app
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    └── registerServiceWorker.js&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;启动项目：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;npm start&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/react-project-544e9b09e3b8c82631382a813d917a50-89095.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 31.375000000000004%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAp0lEQVQY062O3wqCMBjF9wRthtUjBClNCG/sSnr/l3CI1c3mhdkf5sktGs6sqw78OPDxO/ARxhhY0NM3pdSnv4WMYrXdYbneYE5n9jZ0WBC8tsYNFyBJkoBzDtNjoihClu1xyHNLmqaI49j33JZbiFIKQ6SUrsuyRFEUEEI4qqpyjrepa5xPRxD8MfpxB+m6Dt/QWk8y5Zm0l+bzQyO8+xdj1+R2bfEEboJxcocVaNEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;react项目&quot;
+        title=&quot;&quot;
+        src=&quot;/static/react-project-544e9b09e3b8c82631382a813d917a50-89095.png&quot;
+        srcset=&quot;/static/react-project-544e9b09e3b8c82631382a813d917a50-f17ae.png 300w,
+/static/react-project-544e9b09e3b8c82631382a813d917a50-8b9c0.png 600w,
+/static/react-project-544e9b09e3b8c82631382a813d917a50-89095.png 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;提供的快捷操作包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;npm start 启动项目&lt;/li&gt;
+&lt;li&gt;npm test  跑测试&lt;/li&gt;
+&lt;li&gt;npm run build 打包代码&lt;/li&gt;
+&lt;li&gt;npm run eject 把项目webpack, babel, eslint等依赖导出到项目。不能回滚的一次性操作。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/react-src-acb94b0ec7b17921b5245140d467c2fa-5cb87.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 420px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 158.8095238095238%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAAAsSAAALEgHS3X78AAADpUlEQVRIx51Wa3ObRhTVv+g0iS3B8gaBBEYSCCEQb/Ryk8w0mXaa/v8/cXoXS0oiKzbuhzvLwO7h3Ne5O1itVjgeDvjry5/4959vSNcJ5vM5giDobYvFAmEYwnVdDGa+j7QokRwf4YUeTM/GdDrFZDIhO6+vmDPB1J3CtCwMNEWBMnag1nvoSxda5EAQRIgiu5gkyS8bkyCpCkSJEaCuQ6YXIbm5b9YIZgFM04JljTvTdQOyrPQyJkoY6JoOkSkwNBHfPr7DOklRUAiqqkKeF+Ax5ixeAjp/Z+wEKIgKfJfhczPEKk4IJEZCwHxdLIJuY39Acvl+pOJj9QHbYkqAORzH+Sl250O/YvoMcEiA++w9Ds0DymqPhErn1oFfgd4AVHAo7rCrPGR5g23bUum4YFeHpav1/HwFaEAcjeCnNeKioURk2GRZF7+iLLtYxsSY72PSKZac6Rn0B9bfAQUCzFqs8xZNUaEuanI7xbbeotgUKLMS3sSjH7PvDH9gfwWo4e5exm4zQpRScS4dKJEFFpjQYgdGNIEe8HdjsPmpJqUbMVRVMJkANdWA7RrYfnaRpGuEmxXikmqxraA7FgRNAtPpkMFNvV06px90DA1C1r0ZzONXcpdiRnVoaCbGlg2FNkpU/RKTn1ZuN9vv6T0vtcEDgQWrAmHzFYf9J7TtgerwgZp+RuqxgOstntZXzPMCjMdTDGzbgW5M8Udr43EXo2kfEQYRDMOmXnaor/uZZU2gkWcDTVPx4V7CIf8dTT6mXi4wn82IvtjF5C3Gzzy13r2CT/k7HFsXdXOE/+C/2r831aZLComDZJqIahV57FPMZkRdvwC+pjTP65DKRhurGFIh+2EBy9TB46ooai+wZ4BcYIWhiBnJf1KsUVcNzYdlb7CbnTIUVOyS39BmNvVxDZeEQVW1/wfYxYsK1qbhFCcxqrImta4RRaveiXnmMqN0GzRLwjRHkedIN1k3V24B9tbDNr9DW06pn0ssl8vuI994Xq/V+0WGksAghD5mJA4lDaY03VwyzeWNx5M/v4GhisPmPZrMIVHdIiOB5RMvOU3ALMu7zPcCVCgpY5lhozNkZYPddtsd5h/PrPjam6Gm6lBI89xAp+zSPNnuUNc1xTH6aTD1jqFOVxHJ8qCVf6OiebLbH8jNogN8az93gKos404xMPLXSOmWkFBCgiC8MGJM7qU0F4F16aYVxWvMoxgeXcd8uo25rkdiaXeZ7md2dzkwDAP/AQp/zX5n4cClAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;react代码&quot;
+        title=&quot;&quot;
+        src=&quot;/static/react-src-acb94b0ec7b17921b5245140d467c2fa-5cb87.png&quot;
+        srcset=&quot;/static/react-src-acb94b0ec7b17921b5245140d467c2fa-2500f.png 300w,
+/static/react-src-acb94b0ec7b17921b5245140d467c2fa-5cb87.png 420w&quot;
+        sizes=&quot;(max-width: 420px) 100vw, 420px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;当 eject 后主要新增了 config 和 scripts 的目录，package.json 中的依赖也全部出来了。通过阅读 eject 出来的代码我们可以发现，yarn start 是使用了 WebpackDevServer 单独启动的前端项目，这样便于实现前后端分离的项目。&lt;/p&gt;
+&lt;p&gt;而当我们需要调试前后端的时候，可以在 package.json 中添加（假如我们的后端在 localhost:4000 ）&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;proxy&quot;: &quot;http://localhost:4000&quot;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;PS: 如果项目想用 TypeScript， 可以产考 &lt;a href=&quot;https://github.com/wmonk/create-react-app-typescript&quot;&gt;https://github.com/wmonk/create-react-app-typescript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;该的脚手架提供了非常基础的的前端代码，比较适合于组件模版的生成。&lt;/p&gt;
+&lt;h1&gt;Yoman&lt;/h1&gt;
+&lt;p&gt;Yoman 支持创建新的项目，以及在新项目中新增模块，支持的语言也很丰富有 Web, JAVA, Python, C#…&lt;/p&gt;
+&lt;p&gt;我在官方搜索了下和 react 相关的 generator：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/yo-f8c3213025cf69205e809d9ff244d34d-89095.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 67%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAB60lEQVQ4y52Rv2sUQRTH93+505hUFsZUKVKmsVGRRGPUIwe2VgomBrWwEbS2sBK0sREjnHAENTkvgj8SLcWIJgTkbm93dmd2Znb265vZvWDIXoQ8+PBmd9585r1d78b9e5i4dh0jl65iZLaOI1OXUSUqBcdm5nD0fA2V6RqqM3WXhy7UMHyxjirl8VOnMTE7h2Gqq0xfgTf0rInRF6s4+2YDZ4hz775hsvkZo0ttjL1aw0nKlrGltT35xMsPGG8s4+mTR3jdbGHq8XMcb3yEt9j+ilutddxpb+AuYfNtYqH1BfOrg1kgbr5fx8PGWzxYbmNx5RPmyeOhCJ1miKUBVwaRTJFlOFR4hk5mhFApQqHApEaYKEidwhiD9D9kFjpvCjz7YJsxKQlSnV9j35nMCc0/xQ6TZzuB3edcIOLKHnJiJ7TBdT6qSnNJP7Jigj2QVGuNlJpgLAIXyW7trrDLOLY7PXS6PoIgRMQY3c73y1B0FkXuOaacJGXCkGFrZwcs5kiEcB1YSjsklMr37KWC6vcJGX2L7Y6Pnh2Bi4NHdkKV/0ySlXbosxg///joBAy9IHAjS6kGSu3egR36scCvLskijpDWUkr3rQZ1qPsjx3G5sNsLsPl7C99/bMKntSsoisrCXmbDjm7pC/8C9Qyv3hgT1GEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;yo&quot;
+        title=&quot;&quot;
+        src=&quot;/static/yo-f8c3213025cf69205e809d9ff244d34d-89095.png&quot;
+        srcset=&quot;/static/yo-f8c3213025cf69205e809d9ff244d34d-f17ae.png 300w,
+/static/yo-f8c3213025cf69205e809d9ff244d34d-8b9c0.png 600w,
+/static/yo-f8c3213025cf69205e809d9ff244d34d-89095.png 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;然后使用以下命令进行安装：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;npm install -g yo
+npm install -g generator-jhipster
+yo jhipster&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;然后我们可以看到命令行提示很多选择，我们看一个根据我们的项目需求进行选择。但是下在的时间非常的长，而且后端应该使用的 JAVA 相关的框架，我并不是特别了解，所以对这个项目不做深入的分析了。但是通过这些操作我们可以知道如何选择适合自己的项目框架。&lt;/p&gt;
+&lt;p&gt;PS: 在截图中我们还可以看到一个叫 jest 的模块，这里看描述应该是可以通过这个命令把 jest 配置好的单元测试引入到任何react项目中。&lt;/p&gt;
+&lt;h1&gt;Cube&lt;/h1&gt;
+&lt;p&gt;知道创宇内部提供的一站式解决 Web 开发、测试、持续集成、发布部署、运维的强大脚手架，目前还没对外发布，希望某天可以开源出来。&lt;/p&gt;
+&lt;p&gt;使用以下命令安装脚手架，创建项目：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;yarn global add @cube/create-cube-app
+create-cube-app my-app&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;然后我们可以看到我们的项目结构：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;.
+├── package.json
+├── README.md
+├── server # 后端工程目录
+│   ├── config
+│   ├── nodemon.json
+│   ├── package.json
+│   ├── README.md
+│   ├── src
+│   ├── test
+│   └── yarn.lock
+├── ui # 前端工程目录
+│   ├── docs
+│   ├── index.html
+│   ├── package.json
+│   ├── public
+│   ├── README.md
+│   ├── src
+│   └── yarn.lock
+└── yarn.lock&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;其中最外层的 package.json 里包含了项目整体开发时会用到的一些工具链，而在 server 和 ui 目录下，又有各自前后端对应的开发工具链的配置。&lt;/p&gt;
+&lt;p&gt;项目在跑 yarn build 的时候，会把 ui 中 build 出来的文件，拷贝到 server build 后的 dist 文件夹中，作为 static Files。最后跑 dist/server.js 就可以完美一键运行。&lt;/p&gt;
+&lt;p&gt;PS: 后端为什么也需要打包呢？ &lt;a href=&quot;https://stackoverflow.com/questions/37788142/webpack-for-back-end&quot;&gt;https://stackoverflow.com/questions/37788142/webpack-for-back-end&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[浅谈 Vue 中 computed 实现原理]]></title><description><![CDATA[浅谈 Vue 中 computed 实现原理 虽然目前的技术栈已由 Vue 转到了 React，但从之前使用 Vue 开发的多个项目实际经历来看还是非常愉悦的，Vue 文档清晰规范，api 设计简洁高效，对前端开发人员友好，上手快，甚至个人认为在很多场景使用 Vue 比React…]]></description><link>https://knownsec-fed.com/2018-09-12-qian-tan-vue-zhong-computed-shi-xian-yuan-li/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-12-qian-tan-vue-zhong-computed-shi-xian-yuan-li/</guid><pubDate>Wed, 12 Sep 2018 02:43:52 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-f0b08c7250e24c1bbc82345e98f547eb-d6978.jpeg&quot;
