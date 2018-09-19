@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 19 Sep 2018 02:24:54 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 19 Sep 2018 07:13:50 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,337 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[前端工程化：脚手架]]></title><description><![CDATA[介绍 Web 工程化学习的目标是让项目从”搭建-开发-部署”更加快速以及规范。文章中使用的相关技术栈是 ReactJS 和 NodeJS…]]></description><link>https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</guid><pubDate>Wed, 12 Sep 2018 06:24:15 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】如何设计更好的数据表]]></title><description><![CDATA[如何设计更好的数据表 原文地址： https://uxdesign.cc/design-better-data-tables-4ecc99d23356 原文作者：Andrew Coyle 当我们在设计数据表UI…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-ru-he-she-ji-geng-hao-de-shu-ju-biao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-ru-he-she-ji-geng-hao-de-shu-ju-biao/</guid><pubDate>Wed, 19 Sep 2018 06:21:51 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/banner-db5b609db2237e574c1594eac13996ae-d6978.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/2gAMAwEAAhADEAAAAeitZegsCBT/AP/EABwQAAIBBQEAAAAAAAAAAAAAAAECAwAREhMUIf/aAAgBAQABBQJIYyjQ+uLHoCpuNMcj/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAS/9oACAEDAQE/ATK//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQIQ/9oACAECAQE/AQvP/8QAGxAAAQUBAQAAAAAAAAAAAAAAAQACEBEhMXH/2gAIAQEABj8CFtWMz2AGjV01H//EABoQAQEBAQEBAQAAAAAAAAAAAAERACFBYXH/2gAIAQEAAT8hZUqHuRTDxnHkwzkEVypH5Ibudf3f/9oADAMBAAIAAwAAABAn3//EABgRAAMBAQAAAAAAAAAAAAAAAAABESEx/9oACAEDAQE/EG4HLh//xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhsf/aAAgBAgEBPxCxvorNP//EABsQAQEAAgMBAAAAAAAAAAAAAAERACExQXHB/9oACAEBAAE/EHmGlranuV5zAH64W60scgQ3gCHRcIsDug5vaki8s//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【译】如何设计更好的数据表&quot;
+        title=&quot;&quot;
+        src=&quot;/static/banner-db5b609db2237e574c1594eac13996ae-d6978.jpg&quot;
+        srcset=&quot;/static/banner-db5b609db2237e574c1594eac13996ae-527f0.jpg 300w,
+/static/banner-db5b609db2237e574c1594eac13996ae-9a7cd.jpg 600w,
+/static/banner-db5b609db2237e574c1594eac13996ae-d6978.jpg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;如何设计更好的数据表&lt;/h1&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;https://uxdesign.cc/design-better-data-tables-4ecc99d23356&quot;&gt;https://uxdesign.cc/design-better-data-tables-4ecc99d23356&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文作者：Andrew Coyle&lt;/p&gt;
+&lt;p&gt;当我们在设计数据表UI及交互时，如果没有对数据进行可视化设计，或者用户无法对信息进行操作，那么这些数据将会毫无用处。在这个大数据时代，能够将高级数据收集与更好的用户体验结合起来的企业才能取得更大的成功，而数据表包含了大部分用户体验。&lt;/p&gt;
+&lt;p&gt;一个良好的数据表会允许用户浏览、分析、比较、过滤、排序和操作信息，通过这些来获取对自己有用的信息。下文提供了几种常见的数据表样式类型、交互模式及交互动效，以便帮助你设计出更好的数据表。&lt;/p&gt;
+&lt;h2&gt;1. 固定表头类&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;747BE3C2-705E-4100-9C26-E1F4B9536255-8f3f169d7c1f1955adb86e25efa0650c.gif&quot;&gt;
+这种是最常见的表格类型，将表头固定，可以让用户在滚动鼠标时能清楚知道自己所浏览信息的每一列的标题是什么。&lt;/p&gt;
+&lt;h2&gt;2. 水平滚动模式&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;D97FC361-F007-4585-96A7-8326B6D338EC-41b414192ac041f195c4e5ee5de7f7e8.gif&quot;&gt;
+这种水平滚动的交互模式适用于大型的数据集，数据表字段过多时，就需要水平滚动来解决这一问题，这种模式最好将标识符数据放在第一列中，作为高级功能，对这一列单独锁定，方便用户针对这些标识符对每一字段下的数据进行比较。&lt;/p&gt;
+&lt;h2&gt;3. 可调整宽度的列&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;28393AC4-2177-4AC5-B50C-B6B6A007AD6C-cdb7d4eab201c7d335dfc4a2ef2e9629.gif&quot;&gt;
+用户可以通过调整列的宽度，完整地查看被缩写的数据。&lt;/p&gt;
+&lt;h2&gt;4. 行样式&lt;/h2&gt;
+&lt;p&gt;斑马条纹、线条分割、无分割自由形式是在数据表设计中比较常见的几种行样式。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;5A0396BC-80CF-40FD-B6A8-CC7DBAD8BD12-33d1bfdfb93ff602c007c2582d06988e.gif&quot;&gt;
+行样式可以辅助用户浏览数据。删除行线或斑马条纹可以在一定程度上减少视觉噪声，但这种方式只适用于小型数据集。当表格涉及到的数据比较庞大时，使用这种样式可能会造成用户在浏览数据时失去焦点。这时交替行（又名斑马条纹）可以帮助用户在浏览时更好的定点信息位置。&lt;/p&gt;
+&lt;h2&gt;5. 显示密度&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;EEE5906C-9C36-4011-A1CF-CDD1A57CBC2B-6d791cb4856653508fbf369cbc997453.gif&quot;&gt;
+较小的行高度使用户无需滚动即可查看更多数据。但是，它会影响信息的可阅读性，造成不好的用户体验，甚至导致用户对信息的分析出现错误。这就是为什么许多成功的数据表设计会包含控制显示密度的功能。&lt;/p&gt;
+&lt;h2&gt;6. 可视化图表&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;BBADF9E6-FFEF-47E1-9052-DF2A4C62AB08-2df73d2dc79f7cdfead19237924e0a60-c1165.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe1pBQf/xAAWEAADAAAAAAAAAAAAAAAAAAACEiD/2gAIAQEAAQUCNq//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAABEiAhUf/aAAgBAQAGPwILty//xAAYEAACAwAAAAAAAAAAAAAAAAAAICFRwf/aAAgBAQABPyGmwJX/2gAMAwEAAgADAAAAEDAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAAICAwEAAAAAAAAAAAAAAQARITEQQVFx/9oACAEBAAE/EEGlCCiCeo5FJrMNF1cO/vDP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;   SFLOCALFILEPATH   BBADF9E6 FFEF 47E1 9052 DF2A4C62AB08&quot;
+        title=&quot;&quot;
+        src=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;BBADF9E6-FFEF-47E1-9052-DF2A4C62AB08-2df73d2dc79f7cdfead19237924e0a60-c1165.jpeg&quot;
+        srcset=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;BBADF9E6-FFEF-47E1-9052-DF2A4C62AB08-2df73d2dc79f7cdfead19237924e0a60-c552c.jpeg 300w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;BBADF9E6-FFEF-47E1-9052-DF2A4C62AB08-2df73d2dc79f7cdfead19237924e0a60-b5c43.jpeg 600w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;BBADF9E6-FFEF-47E1-9052-DF2A4C62AB08-2df73d2dc79f7cdfead19237924e0a60-c1165.jpeg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+一般来说将数据可视化的同时，还需要给用户提供详细数据信息附表，可视化图表的作用主要是让用户清楚地看到数据的大致趋势，和统计对比情况。&lt;/p&gt;
+&lt;h2&gt;7. 分页&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;A3DD7348-BED5-41B4-960C-A5936C320657-b8baf08ac3450b7be3fa8ade46c93c8d-c1165.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3kFB/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFxAAAwEAAAAAAAAAAAAAAAAAABBB0f/aAAgBAQABPyEi0i//2gAMAwEAAgADAAAAEDAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxAAAgEFAAAAAAAAAAAAAAAAABExQVFxscH/2gAIAQEAAT8Qe1BIRUcl8n//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;   SFLOCALFILEPATH   A3DD7348 BED5 41B4 960C A5936C320657&quot;
+        title=&quot;&quot;
+        src=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;A3DD7348-BED5-41B4-960C-A5936C320657-b8baf08ac3450b7be3fa8ade46c93c8d-c1165.jpeg&quot;
+        srcset=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;A3DD7348-BED5-41B4-960C-A5936C320657-b8baf08ac3450b7be3fa8ade46c93c8d-c552c.jpeg 300w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;A3DD7348-BED5-41B4-960C-A5936C320657-b8baf08ac3450b7be3fa8ade46c93c8d-b5c43.jpeg 600w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;A3DD7348-BED5-41B4-960C-A5936C320657-b8baf08ac3450b7be3fa8ade46c93c8d-c1165.jpeg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+分页一般需要有以下几个功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.提供自定义页面视图行数的功能。&lt;/li&gt;
+&lt;li&gt;2.指定跳转到其他页。&lt;/li&gt;
+&lt;li&gt;3.显示总页数以及当前所在页码。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;分页有时候会被瀑布式滚动加载所代替，瀑布式加载会在用户滚动时逐步加载结果，这种加载方式很适合微博、Tweeter、Facebook等发现类网站，用户浏览目的性不强的网站。但对于信息管理类应用来说却是一种很不好的交互模式。用户很难定位自己想要的信息。&lt;/p&gt;
+&lt;h2&gt;8. 悬停操作&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;FE446BFB-21E3-42A6-8AD6-357150F70B6E-53adbdc6e342ab2847c3cfec7bc1149c.gif&quot;&gt;
+当用户鼠标悬停在某一行时，显示更多的操作，这样的交互模式可以减少页面的视觉干扰。但是，它可能会导致可发现性问题，因为用户需要与表交互才能发现这些操作。&lt;/p&gt;
+&lt;h2&gt;9. 内联编辑&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;4E0E8EFD-A698-4800-8A87-556D41856BD4-4f254af1f730f63c655233ae8b2ef968.gif&quot;&gt;
+内联编辑可以让用户不用到某条信息的单独详情页，就可以对表内信息进行编辑，方便用户编辑、修改操作。&lt;/p&gt;
+&lt;h2&gt;10. 可展开的行&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;7F9123EF-0978-4DD9-8BE2-530E55074CCB-638300b51667d386417fb8cd9fc7c3cd.gif&quot;&gt;
+可展开的行允许用户在不丢失上下文的情况下评估附加信息。&lt;/p&gt;
+&lt;h2&gt;11. 快速浏览&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;08636EB5-F5E4-4E81-A5A1-CD770B2D2ED8-e422cce075d9c517da6074214309e1f8.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;与可展开的行非常相似，快速查看使用户能够在保持上下文的同时查看其他信息。&lt;/p&gt;
+&lt;h2&gt;12. 弹窗&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;8E1363A7-A612-4ACF-B268-7AC76406ED96-28f0e505861f8b42614ebff7494994c4.gif&quot;&gt;
+弹窗允许用户保持在表视图中，但更多地关注其他信息和操作。&lt;/p&gt;
+&lt;h2&gt;13. 多弹窗&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;9237952E-3065-4220-91D3-2849BD897369-f42046094b13e4dd21f5922b6fb540f9.gif&quot;&gt;
+多弹窗功能对于主动、高频使用的用户来说非常有用，用户可以通过这种操作来比较不同项目的细节。&lt;/p&gt;
+&lt;h2&gt;14. 查看行信息细节&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;4EAEAA13-C7D4-4901-AA10-19F8C96A5F06-a8731a304efd7902d4181712e200a9d2.gif&quot;&gt;
+当用户单击行，右侧会侧滑出改行的详细信息视图，这种交互模式适用于用户解析大型数据集的情况。&lt;/p&gt;
+&lt;h2&gt;15. 可排序的列&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;CEE9E277-FC4F-4E1C-B3C4-B45F966861F5-6d7434d1377ae4bbfcca1ac5bcb11c97-c1165.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3QUH/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFRABAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQEAAT8ha//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAYEAEBAAMAAAAAAAAAAAAAAAAAAREx0f/aAAgBAQABPxCso0dR/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;   SFLOCALFILEPATH   CEE9E277 FC4F 4E1C B3C4 B45F966861F5&quot;
+        title=&quot;&quot;
+        src=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;CEE9E277-FC4F-4E1C-B3C4-B45F966861F5-6d7434d1377ae4bbfcca1ac5bcb11c97-c1165.jpeg&quot;
+        srcset=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;CEE9E277-FC4F-4E1C-B3C4-B45F966861F5-6d7434d1377ae4bbfcca1ac5bcb11c97-c552c.jpeg 300w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;CEE9E277-FC4F-4E1C-B3C4-B45F966861F5-6d7434d1377ae4bbfcca1ac5bcb11c97-b5c43.jpeg 600w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;CEE9E277-FC4F-4E1C-B3C4-B45F966861F5-6d7434d1377ae4bbfcca1ac5bcb11c97-c1165.jpeg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    可排序的列允许用户按照字母顺序和数字顺序等多种排序方式，对信息进行排序，以便用户更好的查找信息。&lt;/p&gt;
+&lt;h2&gt;16. 筛选过滤&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;684C0B46-D04E-4A69-8C44-7A0EDD3AB459-21a1c77e2e5536fa5ca0a92df0692bc3-c1165.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3VgB/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAQABPyGbWf/aAAwDAQACAAMAAAAQsw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAQEAAwAAAAAAAAAAAAABABExIWFx/9oACAEBAAE/EEMYc31OXhPGx8wdPl//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;   SFLOCALFILEPATH   684C0B46 D04E 4A69 8C44 7A0EDD3AB459&quot;
+        title=&quot;&quot;
+        src=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;684C0B46-D04E-4A69-8C44-7A0EDD3AB459-21a1c77e2e5536fa5ca0a92df0692bc3-c1165.jpeg&quot;
+        srcset=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;684C0B46-D04E-4A69-8C44-7A0EDD3AB459-21a1c77e2e5536fa5ca0a92df0692bc3-c552c.jpeg 300w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;684C0B46-D04E-4A69-8C44-7A0EDD3AB459-21a1c77e2e5536fa5ca0a92df0692bc3-b5c43.jpeg 600w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;684C0B46-D04E-4A69-8C44-7A0EDD3AB459-21a1c77e2e5536fa5ca0a92df0692bc3-c1165.jpeg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    用户可以通过对数据地筛选过滤来缩小范围，快速定位对自己有用的信息。&lt;/p&gt;
+&lt;h2&gt;17. 过滤字段&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/&amp;#x26;&amp;#x26;&amp;#x26;SFLOCALFILEPATH&amp;#x26;&amp;#x26;&amp;#x26;78ECDC26-23CD-494D-9854-0F8B2B4B3F67.png-3d6b4104c69b1e7baa8f574ec4ae250e.gif&quot;&gt;
+当图表数据量过于庞大，字段过多时，这种交互模式允许用户将过滤参数配置给特定的列。&lt;/p&gt;
+&lt;h2&gt;18. 可搜索的列&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;82049508-F236-488C-8BA9-B4E2E1E21D7D-94f1c36cff3c5e102236180793153cba-c1165.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3QUD/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFRABAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQEAAT8ha//aAAwDAQACAAMAAAAQ8A//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAACAQUAAAAAAAAAAAAAAAAAATEhUXGR0f/aAAgBAQABPxBuhfIiGzooP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;   SFLOCALFILEPATH   82049508 F236 488C 8BA9 B4E2E1E21D7D&quot;
+        title=&quot;&quot;
+        src=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;82049508-F236-488C-8BA9-B4E2E1E21D7D-94f1c36cff3c5e102236180793153cba-c1165.jpeg&quot;
+        srcset=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;82049508-F236-488C-8BA9-B4E2E1E21D7D-94f1c36cff3c5e102236180793153cba-c552c.jpeg 300w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;82049508-F236-488C-8BA9-B4E2E1E21D7D-94f1c36cff3c5e102236180793153cba-b5c43.jpeg 600w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;82049508-F236-488C-8BA9-B4E2E1E21D7D-94f1c36cff3c5e102236180793153cba-c1165.jpeg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+这种交互模式允许用户搜索每列中的特定值。&lt;/p&gt;
+&lt;h2&gt;19. 添加列&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;1FF242F2-678A-4B84-8C7C-942E69A7D47C-06dd249dbcb27d77f969c05e2e863817-c1165.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3QUH/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABPyFf/9oADAMBAAIAAwAAABDQz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQABBQEAAAAAAAAAAAAAAAEAESExUYFx/9oACAEBAAE/EDB2ONWiUglDsEt5Gf/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;   SFLOCALFILEPATH   1FF242F2 678A 4B84 8C7C 942E69A7D47C&quot;
+        title=&quot;&quot;
+        src=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;1FF242F2-678A-4B84-8C7C-942E69A7D47C-06dd249dbcb27d77f969c05e2e863817-c1165.jpeg&quot;
+        srcset=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;1FF242F2-678A-4B84-8C7C-942E69A7D47C-06dd249dbcb27d77f969c05e2e863817-c552c.jpeg 300w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;1FF242F2-678A-4B84-8C7C-942E69A7D47C-06dd249dbcb27d77f969c05e2e863817-b5c43.jpeg 600w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;1FF242F2-678A-4B84-8C7C-942E69A7D47C-06dd249dbcb27d77f969c05e2e863817-c1165.jpeg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+此模式允许用户给数据表添加列。这时一种自由度比较高的交互模式，允许用户根据自己的用例添加额外的字段。&lt;/p&gt;
+&lt;h2&gt;20. 自定义字段&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;DE393676-A936-4770-BCCF-D2AF6A65F388-0259df5fd62943377b56528538504dfe-c1165.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABrpYVCQP/xAAbEAACAQUAAAAAAAAAAAAAAAABAgADBBASE//aAAgBAQABBQK2ALPTTSAkTq+P/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAQQCAwAAAAAAAAAAAAAAAQAQESECIjEyUf/aAAgBAQAGPwIyJpZajjxqK7lv/8QAGBABAAMBAAAAAAAAAAAAAAAAAQARYRD/2gAIAQEAAT8hNy0gGL7cO2w5FSml3n//2gAMAwEAAgADAAAAEKAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAQEBAQEAAAAAAAAAAAAAAQARMUFh/9oACAEBAAE/ED4xoBvscGEEGjkcvrglkmQDEeiL/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;   SFLOCALFILEPATH   DE393676 A936 4770 BCCF D2AF6A65F388&quot;
+        title=&quot;&quot;
+        src=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;DE393676-A936-4770-BCCF-D2AF6A65F388-0259df5fd62943377b56528538504dfe-c1165.jpeg&quot;
+        srcset=&quot;/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;DE393676-A936-4770-BCCF-D2AF6A65F388-0259df5fd62943377b56528538504dfe-c552c.jpeg 300w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;DE393676-A936-4770-BCCF-D2AF6A65F388-0259df5fd62943377b56528538504dfe-b5c43.jpeg 600w,
+/static/&amp;&amp;&amp;SFLOCALFILEPATH&amp;&amp;&amp;DE393676-A936-4770-BCCF-D2AF6A65F388-0259df5fd62943377b56528538504dfe-c1165.jpeg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+可自定义字段的功能，使用户可以选择他们想要查看的字段，并对这些字段进行相应的排序。这种交互模式一般还会配合保存预设之类的功能，方便用户以后使用。&lt;/p&gt;
+&lt;h2&gt;为什么表格很重要&lt;/h2&gt;
+&lt;p&gt;数据正成为全球经济的原材料。对数据的追求推动了陈旧工业的再造。能源、媒体、制造业、物流、医疗、零售、金融甚至政府都在经历数字化转型。&lt;/p&gt;
+&lt;p&gt;但是，如果没有能够对其进行可视化和操作的能力，数据就毫无意义。未来10年能幸存下来的公司不仅需要拥有大量优质的数据; 还需要拥有卓越的用户体验。&lt;/p&gt;
+&lt;p&gt;良好的用户界面设计需要将人的目的和行为作为基础。 用户界面反过来也会影响行为，从而推动进一步的设计决策。 用户体验以微妙和无意识的方式改变人类的决策方式。视觉呈现以及交互方式，都会影响用户行为。重要的是我们需要做出良好的设计，让世界变得更美好。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[前端工程化：脚手架]]></title><description><![CDATA[介绍 Web 工程化学习的目标是让项目从”搭建-开发-部署”更加快速以及规范。文章中使用的相关技术栈是 ReactJS 和 NodeJS…]]></description><link>https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</guid><pubDate>Wed, 12 Sep 2018 06:24:15 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/cube-bfef5e864fc8cf00bcae5ba21c350fc9-9170e.png&quot;
