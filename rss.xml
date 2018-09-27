@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 21 Sep 2018 03:49:59 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Sep 2018 09:37:43 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,206 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】与用户联系：在网页设计中融入幽默]]></title><description><![CDATA[与用户联系：在网页设计中融入幽默 原文地址： https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/ 作者：Victor Yocco 琼正在申请all-online-loanzzz…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</guid><pubDate>Wed, 19 Sep 2018 07:26:17 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAeptzeQM/8QAFxABAAMAAAAAAAAAAAAAAAAAEBEhQf/aAAgBAQABBQK5MP/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/AWf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEn/8QAFhAAAwAAAAAAAAAAAAAAAAAAESBB/9oACAEBAAY/AoG//8QAGhAAAgIDAAAAAAAAAAAAAAAAARAAESFBYf/aAAgBAQABPyE4a6Q3oIN//9oADAMBAAIAAwAAABCc7//EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPxCkP//EABYRAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxCCv//EABsQAQACAgMAAAAAAAAAAAAAAAEAESExEEFR/9oACAEBAAE/EEQ0bS5vyoitKdZhaZKZs5//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【译】超实用！7 个优秀的 UI 交互动画技巧&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-d6978.jpeg&quot;
+        srcset=&quot;/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-527f0.jpeg 300w,
+/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-9a7cd.jpeg 600w,
+/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[异端审判器！一个泛用型文本聚类模型的实现（1）]]></title><description><![CDATA[如果给你一大堆用户输入，里面有大量的中文地名，像是“北京”、“成都”、“东莞”，不幸的是，其中也混有一些罗马地名，比如 “Singapore”、“New York”、“Tokyo”。你的任务是将它们分开，你会如何去做？ 当然，有很多方法可以轻易做到。 如果是一堆 “good…]]></description><link>https://knownsec-fed.com/2018-09-25- heretic-judger-1/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-25- heretic-judger-1/</guid><pubDate>Tue, 25 Sep 2018 03:14:54 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-4fd5ab707531b10faf64ff62a6df50b1-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUEBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAefp4KhHB//EABoQAAICAwAAAAAAAAAAAAAAAAADAQIEMjP/2gAIAQEAAQUCGqiqRfTN1P/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABAhAREnH/2gAIAQEABj8CMtauo9FX/8QAGRAAAgMBAAAAAAAAAAAAAAAAAREAEKEh/9oACAEBAAE/IYiMKQfTWBNFf//aAAwDAQACAAMAAAAQkA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAQQDAAAAAAAAAAAAAAABEQAQIfAxcYH/2gAIAQEAAT8QBUDlqXhhmThM+y9WEg6NZPvFv//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;异端审判器！一个泛用型文本聚类模型的实现（1）&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-4fd5ab707531b10faf64ff62a6df50b1-d6978.jpeg&quot;
+        srcset=&quot;/static/header-4fd5ab707531b10faf64ff62a6df50b1-527f0.jpeg 300w,
+/static/header-4fd5ab707531b10faf64ff62a6df50b1-9a7cd.jpeg 600w,
+/static/header-4fd5ab707531b10faf64ff62a6df50b1-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;如果给你一大堆用户输入，里面有大量的中文地名，像是“北京”、“成都”、“东莞”，不幸的是，其中也混有一些罗马地名，比如 “Singapore”、“New York”、“Tokyo”。你的任务是将它们分开，你会如何去做？&lt;/p&gt;
+&lt;p&gt;当然，有很多方法可以轻易做到。&lt;/p&gt;
+&lt;p&gt;如果是一堆 “good”、“fine”、“not bad”、“amazing”、“nice” 的简短反馈里混有 “Fallout 4 is the epitemy of everything wrong with modern gaming, it has a total of 2 compelling quests, its gameplay is worse then the rest, and to top it off they added microtransactions to it. it is the worst of the fallout series.” 这样的长篇抱怨呢？&lt;/p&gt;
+&lt;p&gt;你可能会想，这不更简单了嘛，检测字符串长度甚至标点符号数目就行呀。&lt;/p&gt;
+&lt;p&gt;如果是一堆 “12345678”、“5201314”、“password”里混有“password’ and (select count(*) from data)&gt;0 and ‘a’=‘a”、“&gt;”‘&gt;&lt;script&gt;alert(‘XSS’)&lt;/script&gt;” 呢？&lt;/p&gt;
+&lt;p&gt;或许你已经不耐烦了：这点安全素养还是有的！检测关键字和特殊符号呀！&lt;/p&gt;
+&lt;p&gt;你已经不打算让我再“如果”下去了：没有什么是一段正则表达式搞不定的，如果有，那就该再学一次。&lt;/p&gt;
+&lt;p&gt;好，但是现在，我们需要的是，用同一个模型实现上述所有场景——当字符串有长有短，它要将长度异常的字符串分开。当有常规字符串和包含特殊符号的字符串，它能把特殊的那些拎出来。当字符串混有不同的语言，它能进行“净化”。甚至，还有各种不在意料之中的情形。&lt;/p&gt;
+&lt;p&gt;这段代码就像是在宗教战争中审判异端，无论是中出了一个叛徒还是干脆分裂成了两类，它总是能根据字符串的长相，把少数派给抓出来。&lt;/p&gt;
+&lt;p&gt;如果你恰好做过一些事，例如探索&lt;strong&gt;深度学习对网络安全&lt;/strong&gt;的应用，相信你看着数据集，能很快想到这个“异端审判器”的实用价值。&lt;/p&gt;
+&lt;p&gt;让我们默契地眨眨眼。在后文里，我们会实现这样一个玩具。&lt;/p&gt;
+&lt;h2&gt;主教的自我修养：看脸&lt;/h2&gt;
+&lt;p&gt;北京与成都之间相距再远，也可以用欧式距离轻松度量。但 “Beijing” 与 “Chengdu” 之间的距离呢？&lt;/p&gt;
+&lt;p&gt;我们需要看脸，根据字符串“外貌”的特征，去定义和量化这样一种差异。&lt;/p&gt;
+&lt;p&gt;不难发现，字符串之间的距离至少应该包括如下组分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;字符串长度差异（如 &lt;code&gt;cat&lt;/code&gt; 与&lt;code&gt;miaomiaomiaomiaomiao&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;字符集差异（如 &lt;code&gt;123&lt;/code&gt; 与 &lt;code&gt;abc&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;字符序列差异（如 &lt;code&gt;上海自来水&lt;/code&gt; 与 &lt;code&gt;水来自海上&lt;/code&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;长度差异&lt;/h3&gt;
+&lt;p&gt;这有什么好说的……长度为5的字符串显然比长度为3的字符串多出一个2……&lt;/p&gt;
+&lt;p&gt;在此略过。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;strLengthDiffer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; str2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;字符集差异&lt;/h3&gt;
+&lt;p&gt;字符集的差异是为了刻画不同字符串在字符选择上的差异，我们应该对差异较大的字符串——特别是出现了不同类别的字符时——进行距离上的惩罚。&lt;/p&gt;
+&lt;p&gt;为了实现这个目标，首先要定义字符间的距离。这里，我们把相同字符间距离定义为 0, 同类字符（如&lt;code&gt;a&lt;/code&gt;与&lt;code&gt;b&lt;/code&gt;）间距离定义为 1，不同类字符间距离定义为 10。&lt;/p&gt;
+&lt;p&gt;字符分类可以为小写字母、大写字母、数字和其他，当然读者也可以根据自己的实际用途进行分类，把系统需要敏感识别的差异分为不同的两类。&lt;/p&gt;
+&lt;p&gt;有了字符间距离，我们定义字符 A(1) 与字符集 B 的距离为该 A(1) 到 B 中每一个字符的距离的最小值。&lt;/p&gt;
+&lt;p&gt;在上述基础上，我们进一步定义字符集 A 到字符集 B 间的距离为：A 中每一个字符到 B 的距离的算术和。&lt;/p&gt;
+&lt;p&gt;显然：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;字符距离(a, b) = 字符距离(b, a)&lt;/li&gt;
+&lt;li&gt;字符到字符集距离(a, B) = 字符集到字符距离(B, a)&lt;/li&gt;
+&lt;li&gt;字符集间距离(A, B) = 字符集间距离(B, A)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;由此，我们对字符集间距离完成了符合认知的定义。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;charSetDiffer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; s2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 由于笔者使用的代码版本在这里有更复杂的逻辑，就不提供代码细节了&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 已经讲得这么明确了，写写看吧&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; s
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;字符序列差异&lt;/h3&gt;
+&lt;p&gt;对于开发者而言，用户输入是 &lt;code&gt;alert(&quot;test&quot;)&lt;/code&gt; 还是 &lt;code&gt;aeelrstt&quot;&quot;()&lt;/code&gt;，显然有着完全不同的含义。后面这种意味不明的字符串根本不会让人多看一眼，而前者如果被用户执行成功，那么他后续多半会再搞些别的破坏，非常邪恶。&lt;/p&gt;
+&lt;p&gt;这个故事告诉我们，字符序列的差异不容忽视。&lt;/p&gt;
+&lt;p&gt;在这里，我们使用 N-Gram 语言模型，借助 N=2 时的 Gram 数目来度量两个序列的差异。&lt;/p&gt;
+&lt;p&gt;如果你并不知道我在说什么，那么具体而言是像这样的计算：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;假设我们有字符串 S1 与 S2。&lt;/li&gt;
+&lt;li&gt;将字符串 S1 每两个连续字符作为一个元素，构成集合 G1，同理也有 G2。&lt;/li&gt;
+&lt;li&gt;字符串 S1 与 S2 之间的序列差异就是 G1 与 G2 中不同元素的数目。显然，你可以通过他们的交集减去他们的并集取到该值。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;n_grams&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;islice&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;zip&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;groupDiffer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; s2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    len1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;intersection&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    len2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;union&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;len2 &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; len1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;总算有了字符串间距离&lt;/h3&gt;
+&lt;p&gt;到现在为止，我们对两个字符串间三个形式维度的差异都有了量化，接下来做的就是通过精妙绝伦的加权求和，算出那个令人拍案叫绝的字符串间距离。&lt;/p&gt;
+&lt;p&gt;在此，笔者使用的方法是——&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;samplesDistance&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; str2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; strLengthDiffer&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; str2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; charSetDiffer&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; str2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    s1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; n_grams&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    s2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; n_grams&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; groupDiffer&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; s2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; a&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;b&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;c
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; d
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;是的！简单相加……&lt;/p&gt;
+&lt;p&gt;山不在高，有庙则有人送锦旗，算法不在复杂，有用就行。&lt;/p&gt;
+&lt;p&gt;你当然可以根据自己的需要，去调节系统对于其中三个维度的不同敏感度，但笔者认为字符集差异的值天然就比另外两种差异的值要大，已经符合我的需要，就不再调整啦。&lt;/p&gt;
+&lt;h2&gt;你好像和他们不太一样&lt;/h2&gt;
+&lt;p&gt;有了字符串间的距离，进一步，就有一个字符串到另一堆字符串的距离。我们定义如下：&lt;/p&gt;
+&lt;p&gt;字符串样本与字符串集合的距离 = 该字符串样本到字符串集合中每个字符串样本的距离的算术平均值&lt;/p&gt;
+&lt;p&gt;即：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sampleClassDistance&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sample&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; class1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    list_0 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    length &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;class1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; item &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; class1&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        list_0&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;samplesDistance&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sample&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; item&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;list_0&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;length
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;你们是两类&lt;/h2&gt;
+&lt;p&gt;由上一节的一个字符串到一堆字符串的距离出发，我们可以得到一堆字符串到另一堆字符串的距离。它的定义形式很相似：&lt;/p&gt;
+&lt;p&gt;字符串集合间的距离 = 该字符串集合中的每一样本到字符串集合的距离的算术平均值 = 该字符串集合中每一样本到另一字符串中每一样本的距离的算术平均值&lt;/p&gt;
+&lt;p&gt;即：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;classesDistance&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;class1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; class2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    list_0 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    class1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; flatten&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;class1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    class2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; flatten&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;class2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    m &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;class1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;class2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; item1 &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; class1&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; item2 &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; class2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            list_0&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sampleDistance&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; item2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;list_0&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;类内无派，千奇百怪&lt;/h2&gt;
+&lt;p&gt;同理，也可以定义“类内距离”作为一堆字符串内部的属性。它在实际意义上可能有些接近于方差。我们规定：&lt;/p&gt;
+&lt;p&gt;类内距离 = 该字符串集合到自己的距离&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;innerClassesDistanse&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;class1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; classesDistance&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;class1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; class1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;让我们停下来整理一下思路&lt;/h2&gt;
+&lt;p&gt;到这里你可能已经晕了，定义这么多距离到底要干嘛？&lt;/p&gt;
+&lt;p&gt;我们说过，要把两类不确定的形式不同的字符串分开，关键是定义差异，也就是去量化“长得显然不同”到底有多不同。&lt;/p&gt;
+&lt;p&gt;于是我们发明了一些“距离”作为量化属性，两个字符串之间，有长度不同、构成的字符不同、字符序列不同，那么这两个字符串就有可量化的距离。&lt;/p&gt;
+&lt;p&gt;两个字符串有距离，那么一个字符串到另一类字符串、一类字符串到另一类字符串、同一类字符串内部也有距离。&lt;/p&gt;
+&lt;p&gt;当你混迹人群，最重要的事情是弄清谁是朋友、谁是敌人。而当你需要把人群分为两类，最重要的事情就是知道&lt;strong&gt;两类人有多不同&lt;/strong&gt;，以及&lt;strong&gt;每类人内部有多一致&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;放在分类字符串的情景，就是要能够量化&lt;strong&gt;类间距离&lt;/strong&gt;与&lt;strong&gt;类内距离&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;嘿，这不，我们已经有了 &lt;code&gt;classesDistance()&lt;/code&gt; 与 &lt;code&gt;innerClassesDistanse()&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;就到这里，我们下次再会 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】与用户联系：在网页设计中融入幽默]]></title><description><![CDATA[与用户联系：在网页设计中融入幽默 原文地址： https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/ 作者：Victor Yocco 琼正在申请all-online-loanzzz…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</guid><pubDate>Wed, 19 Sep 2018 07:26:17 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-2b7c591cf9e1753f4180b06cf0e1a704-d6978.jpeg&quot;
