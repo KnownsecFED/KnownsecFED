@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Sep 2018 10:08:03 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Sep 2018 10:17:30 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,7 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><description><![CDATA[超实用！7个优秀的UI交互动画技巧 原文网址：  https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5   原文作者：Pablo Stanley 以下是提高UI动效的实用建议，让我们一起看看UI…]]></description><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-d6978.jpeg&quot;
@@ -423,7 +423,137 @@
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[异端审判器！一个泛用型文本聚类模型的实现（1）]]></title><description><![CDATA[如果给你一大堆用户输入，里面有大量的中文地名，像是“北京”、“成都”、“东莞”，不幸的是，其中也混有一些罗马地名，比如 “Singapore”、“New York”、“Tokyo”。你的任务是将它们分开，你会如何去做？ 当然，有很多方法可以轻易做到。 如果是一堆 “good…]]></description><link>https://knownsec-fed.com/2018-09-25- heretic-judger-1/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-25- heretic-judger-1/</guid><pubDate>Tue, 25 Sep 2018 03:14:54 GMT</pubDate><content:encoded>&lt;p&gt;
+    &lt;/p&gt;
+&lt;h1&gt;超实用！7个优秀的UI交互动画技巧&lt;/h1&gt;
+&lt;p&gt;原文网址： &lt;a href=&quot;https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5&quot;&gt;https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;原文作者：Pablo Stanley&lt;/p&gt;
+&lt;p&gt;以下是提高UI动效的实用建议，让我们一起看看UI交互动画从良好走向优秀的实例。他们是如何通过细节的调整，使用交互动画来提升用户的界面体验。&lt;/p&gt;
+&lt;p&gt;本文所列出的界面主要显示状态之间的连续性，表示共享元素之间的关系并将用户的注意力引向他们应该注意和采取行动的事物上。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/开头-1eeec929b8d23ef6ef7ddca099ee3131-89095.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABh0lEQVQoz51RzytEURh9yQbxDygbykKUNUtKNrKgLEgp2fgL/AWsJIkphbKT/Bw/Jj9DkoQSsZhkxszEGHpz37v3vfd9x503Ggtv5XQWX/fec87XuQZ8MED8yzw8f5h/clq2ZfeB7NqXbTv21otXuDLwBw5h5BoD5xi6wPAl6pakMS2KpkVxSBiT2bEbpd+45IvzMRmF/ST2EjhMIRzn2jWuWkHlMqpXUb4oS+dF84bdvGkboezEnfMrzi95/cFdx+g7Q88Jek+5ZpVr19G0i/pNVCzYxpRZNidKZoUxbo7e/hFfpbnzKKfU7DjkxjA3hNEYhrZo3XU691R7RA2eqv5jGYm5wE8vP2snLZ56xPgDFqPYeuXtV555QiSBmEDU5JUYNmL4dHIk5kI7hcI4ZdGLSdLTC9G75PsvPGeRlogL1kVEkjm9PnQpQJz/L9bGHpHlkunwl2JTsXAobuFN4kNBETgo2ZcWZm1COYIoY3tRk3xbus+Q5VBgcjC0hed5rk89BSf/A9/l2E6rq/r6EAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;  &quot;
+        title=&quot;&quot;
+        src=&quot;/static/开头-1eeec929b8d23ef6ef7ddca099ee3131-89095.png&quot;
+        srcset=&quot;/static/开头-1eeec929b8d23ef6ef7ddca099ee3131-f17ae.png 300w,
+/static/开头-1eeec929b8d23ef6ef7ddca099ee3131-8b9c0.png 600w,
+/static/开头-1eeec929b8d23ef6ef7ddca099ee3131-89095.png 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;为了创建这些动画，我遵循了来自 Material Motion、IBM 的动画原理和 UX in Motion Manifesto 中的指导原则。&lt;/p&gt;
+&lt;p&gt;所有的交互都是使用早期的 InVision Studio 版本访问的。您可以在这里下载源文件。&lt;/p&gt;
+&lt;h2&gt;1.使标签内容可滑动&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/1-78e56b907fd87666267d10b51c84a644.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左边的内容是淡入淡出的，右边的内容是随着标签一起滑动。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个好的动画会将内容从一种状态转换为另一个状态。&lt;/li&gt;
+&lt;li&gt;一个优秀的动画则是使内容在不同的状态转换之间保持连续性。&lt;/li&gt;
+&lt;li&gt;当你设计像标签或弹出菜单类似的交互时，可以尝试将内容的位置与打开它的操作相关联。这样你不仅可以提升内容的可见性，还可以为内容的位置设置动画。当你在设计这个动画的时候，还可以添加一个滑动手势，将你从一个内容带到另一个内容。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;2.连接卡片的共享元素&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/2-d7be55e72d05c3b34753c9e42c6b9bbc.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左边的内容是打开一个向上滑动的新界面，右边的内容是将卡片展开并填充满整个屏幕。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个好的动画使用向左或向上滑动等过渡细节来展示内容。&lt;/li&gt;
+&lt;li&gt;一个优秀的动画通过共享元素的动画来建立两个状态之间的联系。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在不同状态之间制作动画时，查看它们之间是否有存在共享元素并将它们联系起来。在使用 InVision Studio 时，创建 Motion 转换时会自动连接两个屏幕之间重复的组件。 这使得原型动画的制作变得轻而易举。&lt;/p&gt;
+&lt;p&gt;查看动画宣言，了解您可以应用的动画类型。 上面的示例使用了 Masking，Transformation，Parenting 和 Easing 原则的组合。&lt;/p&gt;
+&lt;h2&gt;3.在内容中使用级联效果&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/3-2dfaa6b63c817fa12474a8bc12c3ca52.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左边的内容是在动画中有滑动和淡入的显示，右边是相同的动画，但每张卡片都有短暂的延迟。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个好的动画会在元素进入界面时改变元素的位置和不透明度。&lt;/li&gt;
+&lt;li&gt;一个优秀的动画会很快的将界面元素错落有序的出现。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;要完成瀑布效果，请尝试延迟应用到每个内容或每组内容上。 保持相同的缓和和持续时间，会带给用户一致的感觉。 尽管如此，不要对每个小元素进行级联 而是使内容组动画化，保持动画的快速和流畅。 谷歌建议每个元素开始运动不要超过 20 毫秒的间隔。可以查看 Material Motion 中的编排原理来查看更多时示例。&lt;/p&gt;
+&lt;h2&gt;4.让内容把界面的其他元素撑开到界面以外&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/4-f8863a482dbf01b94cff3b4d3d1eb1ea.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左边的内容是盖在其他内容的上面，右边的内容是随着界面的展开将内容推出来。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个好的动画是在上下文中移动并显示元素。&lt;/li&gt;
+&lt;li&gt;一个优秀的动画是在当元素改变时会影响周围环境的元素。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;让内容中的元素了解周围环境。这意味着内容改变时会吸引或排斥其周围的元素。有关更多示例，请查看 Material Design 中的 Aware 运动原理。&lt;/p&gt;
+&lt;h2&gt;5.让菜单出现在上下文中&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/5-0619f517d36643b5901120a6a27f42d5.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左边的内容是菜单从下面飞进来，右边的内容是菜单从创建它的动作中扩展而来。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个好的动画是菜单从打开它们的按钮方向显示出现的内容。&lt;/li&gt;
+&lt;li&gt;一个优秀的动画是从创建它们的动作中浮现出来，从触摸点开始展开。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;6.使用按钮来显示不同的状态&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/6-d4d1a20af1ef88be5372b3966006e4b6.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左边的内容是按钮显示指示状态的文本，右边的内容是按钮使用变化的容器来显示不同的事件。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个好的动画是在按钮附近显示事件。&lt;/li&gt;
+&lt;li&gt;一个优秀的动画是使用按钮本身来显示不同的状态。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;尝试使用按钮的容器来提供状态的可视反馈。例如，您可以使用微调器或加载动画替换 CTA; 或者您可以在显示进度的背景中添加动画。解决方案取决于您，我们的想法是使用用户已经与之交互的空间。如果您使用按钮颜色和样式来确认成功状态，则奖励积分。&lt;/p&gt;
+&lt;h2&gt;7.把注意力放在重要的事情上&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/7-bf4c8eed6c1a9592edb5b7e67e5e9cf8.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左边的内容是用颜色和位置使元素脱颖而出，右边的内容是使用微妙的动画来引起用户的注意。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个好的动画会使用颜色，大小和位置来突出用户需要注意或采取的重要操作。&lt;/li&gt;
+&lt;li&gt;一个优秀的动画会使用动画来引起用户对重要操作的关注，并且不会对用户造成干扰。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;当用户需要对重要事项采取行动时，请尝试设置动画来吸引他们的注意力。从一个微妙的动画开始，增加与动作重要程度相关的强度（大小，颜色和速度的变化）。同时仅将其用于关键操作，您使用此效果的次数越多，其影响就越小，并且用户获得的烦恼也会越多。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/结尾-c6a7302bcb50a903487cf31de06859d3-a9315.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 120px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 96.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIEBQH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQME/9oADAMBAAIQAxAAAAHaooWzaiuloscETA//xAAcEAACAgIDAAAAAAAAAAAAAAABAgADEhMQERT/2gAIAQEAAQUCewJPQ0VsltON+0GUd6yAZgvH/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAERAhMf/aAAgBAwEBPwFn32oDYz//xAAZEQABBQAAAAAAAAAAAAAAAAACAAEQMWH/2gAIAQIBAT8BEcT3P//EABwQAAICAgMAAAAAAAAAAAAAAAABEBEhMjNBYf/aAAgBAQAGPwL06Ey3k41GVZqo/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITEQcVFhkf/aAAgBAQABPyE/LfhL3B0hE6SVgUNDKmaPc6hbU1t2IHr48f/aAAwDAQACAAMAAAAQJAj8/8QAGREBAAIDAAAAAAAAAAAAAAAAAQAREDFh/9oACAEDAQE/EHUauSoZRj//xAAYEQEBAQEBAAAAAAAAAAAAAAABEQAQIf/aAAgBAgEBPxAYPq4RGrz/xAAfEAEAAgEDBQAAAAAAAAAAAAABABEhMUFhEFFxsdH/2gAIAQEAAT8Qa1AWFzFJObambha8cRqHQ6BK+xV1qqTtBnKRgjgv1BwGOwxOxPB6f//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;  &quot;
+        title=&quot;&quot;
+        src=&quot;/static/结尾-c6a7302bcb50a903487cf31de06859d3-a9315.jpeg&quot;
+        srcset=&quot;/static/结尾-c6a7302bcb50a903487cf31de06859d3-a9315.jpeg 120w&quot;
+        sizes=&quot;(max-width: 120px) 100vw, 120px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我希望这些示例可以帮助您在为交互添加动画时做出更好的决策。借助 InVision 工作室等新动画和原型制作工具，我预测我们很快就会看到创意互动的复兴。 我们只需要负责任地在这个新的超级大国里任意发挥。&lt;/p&gt;
+&lt;p&gt;让我们应用动画来解释状态的变化，引起对必要动作的注意，确定元素之间的关系，并为我们的产品添加一些乐趣和特征。 通过遵循这些原则，我们将把动画从好转变为优秀。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[异端审判器！一个泛用型文本聚类模型的实现（1）]]></title><description><![CDATA[如果给你一大堆用户输入，里面有大量的中文地名，像是“北京”、“成都”、“东莞”，不幸的是，其中也混有一些罗马地名，比如 “Singapore”、“New York”、“Tokyo”。你的任务是将它们分开，你会如何去做？ 当然，有很多方法可以轻易做到。 如果是一堆 “good…]]></description><link>https://knownsec-fed.com/2018-09-25- heretic-judger-1/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-25- heretic-judger-1/</guid><pubDate>Tue, 25 Sep 2018 03:14:54 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-4fd5ab707531b10faf64ff62a6df50b1-d6978.jpeg&quot;
