@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Sep 2018 02:21:24 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 30 Sep 2018 03:09:47 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1163,7 +1163,224 @@
 &lt;p&gt;当你混迹人群，最重要的事情是弄清谁是朋友、谁是敌人。而当你需要把人群分为两类，最重要的事情就是知道&lt;strong&gt;两类人有多不同&lt;/strong&gt;，以及&lt;strong&gt;每类人内部有多一致&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;放在分类字符串的情景，就是要能够量化&lt;strong&gt;类间距离&lt;/strong&gt;与&lt;strong&gt;类内距离&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;嘿，这不，我们已经有了 &lt;code&gt;classesDistance()&lt;/code&gt; 与 &lt;code&gt;innerClassesDistanse()&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;就到这里，我们下次再会 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】与用户联系：在网页设计中融入幽默]]></title><description><![CDATA[与用户联系：在网页设计中融入幽默 原文地址： https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/ 作者：Victor Yocco 琼正在申请all-online-loanzzz…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</guid><pubDate>Wed, 19 Sep 2018 07:26:17 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;就到这里，我们下次再会 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[我们应该做些力所能及的优化]]></title><description><![CDATA[本文2941字，预计阅读时间5分钟。 在 web 应用开发过程中，我们经常谈及到的就是优化，而优化往往又是既简单而又复杂的过程，优化这个命题很广，最终体现出来的都是用户体验问题，我们一切优化都是为了用户体验。为什么说简单？在现代 web…]]></description><link>https://knownsec-fed.com/2018-09-25-wo-men-ying-gai-zuo-xie-li-suo-neng-ji-de-you-hua/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-25-wo-men-ying-gai-zuo-xie-li-suo-neng-ji-de-you-hua/</guid><pubDate>Tue, 25 Sep 2018 02:46:32 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-879bb5ff471588b5424ddb1e992175af-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABnzmsoGkwp//EABoQAAIDAQEAAAAAAAAAAAAAAAABAgMxERL/2gAIAQEAAQUCqVLJeEdI68P/xAAZEQABBQAAAAAAAAAAAAAAAAAAAQIREkH/2gAIAQMBAT8BdC4VP//EABcRAQADAAAAAAAAAAAAAAAAAAABERL/2gAIAQIBAT8Bi2n/xAAYEAACAwAAAAAAAAAAAAAAAAAAARIgIv/aAAgBAQAGPwLTHF1//8QAGxABAAEFAQAAAAAAAAAAAAAAAQARIDFxgeH/2gAIAQEAAT8hUw9jYVzUWvth/wD/2gAMAwEAAgADAAAAEDMf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAEDAQE/EHhA3//EABYRAQEBAAAAAAAAAAAAAAAAABEAIf/aAAgBAgEBPxAtZX//xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMVFhcZH/2gAIAQEAAT8QEAW5kawuLZf2XJOtSbPJtYrjLqf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;我们应该做些力所能及的优化&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-879bb5ff471588b5424ddb1e992175af-d6978.jpeg&quot;
+        srcset=&quot;/static/header-879bb5ff471588b5424ddb1e992175af-527f0.jpeg 300w,
+/static/header-879bb5ff471588b5424ddb1e992175af-9a7cd.jpeg 600w,
+/static/header-879bb5ff471588b5424ddb1e992175af-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;本文2941字，预计阅读时间5分钟。&lt;/p&gt;
+&lt;p&gt;在 web 应用开发过程中，我们经常谈及到的就是优化，而优化往往又是既简单而又复杂的过程，优化这个命题很广，最终体现出来的都是用户体验问题，我们一切优化都是为了用户体验。为什么说简单？在现代 web 开发生态中，有非常优秀的工具链帮助我们做一些很实际的优化工作，例如 &lt;code&gt;webpack&lt;/code&gt; 。这些工具可以很好的帮助我们解决包之间的依赖、减小包大小、提取公共模块等等问题。为什么说复杂？优化这个话题我们谈了很多年，只要有用户群，优化问题就会一直存在。而优化工作涉及的领域特别广，包含的因素又特别多，有时候需要针对特定的场景做特殊的优化工作，所以说又很复杂。不管是简单还是复杂，作为程序员，我们应当做一些我们力所能及的优化工作，本文属于探讨性话题，希望广大网友能够在留言区留下您的一些思考。&lt;/p&gt;
+&lt;h2&gt;Code Splitting&lt;/h2&gt;
+&lt;p&gt;这里不探讨如何书写高性能的代码，而是探讨下我们书写的代码该如何被构建。这里以 &lt;a href=&quot;https://webpack.js.org/&quot;&gt;webpack&lt;/a&gt; 为构建工具（版本为4.19），来阐述下在 &lt;a href=&quot;https://webpack.js.org/&quot;&gt;webpack&lt;/a&gt; 我们该做的优化工作。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://webpack.js.org/&quot;&gt;webpack&lt;/a&gt; 从 &lt;code&gt;v4&lt;/code&gt; 版本开始，做了很多的优化工作，详情请看&lt;a href=&quot;https://medium.com/webpack/webpack-4-beta-try-it-today-6b1d27d7d7e2&quot;&gt;这里&lt;/a&gt; 。我们就拿 &lt;code&gt;Code Splitting&lt;/code&gt; 说起，&lt;code&gt;Code Splitting&lt;/code&gt; 是 &lt;a href=&quot;https://webpack.js.org&quot;&gt;webpack&lt;/a&gt; 一项重要的编译特性，能够帮助我们将代码进行拆包，抽取出公共代码。利用这项特性我们可以做更多的优化工作，减少加载时间，例如可以做按需加载。而在 &lt;a href=&quot;https://webpack.js.org&quot;&gt;webpack&lt;/a&gt; 中开启 &lt;code&gt;Code Splitting&lt;/code&gt; 也很简单，它是一项开箱即用的插件，示例代码如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+    optimization&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        splitChunks&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            chunks&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;all&apos;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;上面的 &lt;code&gt;chunks&lt;/code&gt; 配置建议大家配置为 &lt;code&gt;all&lt;/code&gt; ，详细配置请参考：&lt;a href=&quot;https://webpack.js.org/plugins/split-chunks-plugin/#splitchunks-chunks&quot;&gt;splitChunks.chunks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这里给出个参考结果：分别为配置前和配置后&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/code_splitting_before-e7f01589f5861d7d96e403c2fbfe20e2-6d0d5.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 810px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 40.61728395061729%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAB0ElEQVQozzWR6U7bQBRG8xxk8b7FNrbHie0sGDsmiRIgaWmhdJFIgfd/hdNLUH98uiPN6JszZ3pRHOMFAXGa4gdjovgSL40wYg8zCTDT4LyOC4U/HqPUhCRJ8CPZixwGoxGmaZEpRSA9PbeMKI8l1XFKdT+lOBQ0ry3de0fz0tC9rujeOhbPNfO24nC3xtQNxrOU/GdLqDxsU8O2HYlNT9M0wtAky2zKrWIm5avHiu3rNdu3lu17y+69YflQMK0Sbvc1+kgjXuYoKUymHnkWsVgshV5JoakzMg2GhsFAYgcWV0K7Fsrr5wUbKbw5NXLRlHldsN/VZ8LLqwnZj4ZLKUziAMf1GA6H9KzQwRFPTupjhS524pN8vWJy2qB+dUxePmd8mJPPS7rVGkPTiZbq/GTNNbFMG9fz6Pf79Ab9AYOL/mdkbUUu6XFBeVpT/t1QvW0p/nQkhxl5JeQ3a3FmkbYlk98rdM8kDmM2GzlXFPJkXUeXfE4D3dCx5FedfIw7Cc8zbHLiWylYltx0a0YXA/xpjHqsMXz7DPLRYYiyXtuuxMueu/sd3x52qKYkOc7Jvojk7zVTocufG/Kna9RTTbKfnbXYosjJAjQB+HD3P/8A6Yr/5cWWpFMAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;code splitting before&quot; title=&quot;&quot; src=&quot;/static/code_splitting_before-e7f01589f5861d7d96e403c2fbfe20e2-6d0d5.png&quot; srcset=&quot;/static/code_splitting_before-e7f01589f5861d7d96e403c2fbfe20e2-119ca.png 300w,
+/static/code_splitting_before-e7f01589f5861d7d96e403c2fbfe20e2-cf127.png 600w,
+/static/code_splitting_before-e7f01589f5861d7d96e403c2fbfe20e2-6d0d5.png 810w&quot; sizes=&quot;(max-width: 810px) 100vw, 810px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    	
+	&lt;br&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/code_splitting_after-084153ce440f9a930c095bb10bf1aab1-4c79b.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 1029px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 42.66277939747327%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAB7klEQVQoz1WSbW/aQBCE+R3BBvwKts+HzwfYgLF5h6SVEoUqVaqqaaVWVaX+/69PD0eplA+j1a1252ZG20kmGYnOkEVOPFf4M0FYSvyJIK2niLFkOi1I05ShTnAin35/QColrutyc3ODbdv0er22dhYfcuanMcVJsflWc/575PTnwPHXjualRi8V52PTLuSXhvFBEw8d4kQghEAaYsdx/pN2HNvC6V1hk28zmu8bNj93rL7UlJc5ulTsNhWe56Hva6IqZSwizrd3lEVBkiTvCV0xxIkDXIPZxxl7o+xgcK2r54qymXLcV+3S5LIm3Srkdd71Wrvdbve95b47aB+DwEWcC/IvW/TXPeppjXxcIWc5q2WD7/tMHxvCRYrn+GRKmSz7WJbV7r+hM/AdPDkknCaohyWzlz2L37cUP46oS0VWaJpVQxzFzIzCK2Hg+hwORwpjOQxCrK6FbdmvCv04JKkUYqNJDORtgbwrW6inGlVN2e52+GHA5NOaeJvjmjzn1ZJ8oolETN8bMPAcrm47qTAhx2NGwxFuGuKlwzZP36iOVuakVjmy0ngifH1vtXEjCPK4nXdNfzSXLQIV0anv95xMXvlxRmpUZQ8Vk+cN+vOa7H7JaDkm0DFxoxgtJMPS3GORthFFlflgnbf9N8J/hzcazmRrWssAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;code splitting after&quot; title=&quot;&quot; src=&quot;/static/code_splitting_after-084153ce440f9a930c095bb10bf1aab1-4c79b.png&quot; srcset=&quot;/static/code_splitting_after-084153ce440f9a930c095bb10bf1aab1-95d44.png 300w,
+/static/code_splitting_after-084153ce440f9a930c095bb10bf1aab1-51e6f.png 600w,
+/static/code_splitting_after-084153ce440f9a930c095bb10bf1aab1-4c79b.png 1029w&quot; sizes=&quot;(max-width: 1029px) 100vw, 1029px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    	
+    &lt;br&gt;
+&lt;/div&gt;
+&lt;p&gt;这里明显多出了几个包含 &lt;code&gt;vendors~&lt;/code&gt; 字样的文件，而且你会发现 &lt;code&gt;app&lt;/code&gt; 这个文件被提取出了 &lt;code&gt;vendors~app~react_vendor&lt;/code&gt; 和 &lt;code&gt;vendors_app_redux_vendor&lt;/code&gt; 这两个文件。至于最大的文件为什么还有&lt;strong&gt;1.02M&lt;/strong&gt;，我们可以使用 &lt;code&gt;analyze&lt;/code&gt; 来分析下包的结构，这里是由于包含了 &lt;code&gt;antd&lt;/code&gt; 的文件。&lt;/p&gt;
+&lt;p&gt;在实际开发过程中，路由也是需要进行 &lt;code&gt;Code Splitting&lt;/code&gt; ，在过去我们经常使用 &lt;a href=&quot;https://webpack.js.org/loaders/bundle-loader&quot;&gt;bundle-loader&lt;/a&gt; ，来帮助我们进行代码分割，它是基于 &lt;a href=&quot;https://webpack.js.org/api/module-methods/#require-ensure&quot;&gt;require.ensure&lt;/a&gt; 接口进行实现。既然我们可以对路由进行代码分割，那么路由页面中的组件我们是否可以按需加载，实现代码分割呢？答案是显然的。&lt;/p&gt;
+&lt;p&gt;这种业务场景也是非常的多，这里我举一个例子，就是一个登录页面，登录有多种方式，其中最常见的就是账号登录和扫码登录，默认为扫码登录。当用户没有选择账号登录，那么按道理这部分代码我们可以不进行加载，从而减少加载时间，优化用户体验。我们建议能进行&lt;strong&gt;组件级&lt;/strong&gt;分割就分割，最大化减小页面大小。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;React&lt;/code&gt; 中虽然也可以使用 &lt;a href=&quot;https://webpack.js.org/loaders/bundle-loader&quot;&gt;bundle-loader&lt;/a&gt; 来实现组件级代码分割，但是也会有一些&lt;a href=&quot;https://github.com/ReactTraining/react-router/issues/5418&quot;&gt;问题&lt;/a&gt;。在后来，&lt;code&gt;React Router&lt;/code&gt; 官方也推荐使用 &lt;a href=&quot;https://github.com/jamiebuilds/react-loadable&quot;&gt;react-loadable&lt;/a&gt; 来进行代码分割。强烈建议 &lt;code&gt;React&lt;/code&gt; 使用者使用此库，该库的功能很强大，是基于 &lt;a href=&quot;https://github.com/tc39/proposal-dynamic-import&quot;&gt;import()&lt;/a&gt; 实现。它可以实现预加载、重新加载等等强大功能。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/react_loadable-1e0606b21a4a001f78f570207bbcb170-9c1b9.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 998px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 78.5571142284569%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACiUlEQVQ4y61Ty07bQBTNslKlQhw7sT0vP+PgvEFIlWhXXbVJWjZtt1XV3yqIT+AHEgmRb2AXAilKNmHFKpE5vXYIlEUlimrpaObaM8fnnDuTw398bm9vkZtfX2N0OcHl+ApXvwhX/47pbIbFYrEi/PHtO954HK/flWFtuRBcgkv1ZDAhoVwPZ2dnmcrc/qd9SG0D/hZD3i5CK+jQDBoNA4V01I0V1u/TuVaguvDwjTAcDpEkCXLvOz2EkY3thg9VjuHuvgWvtlGv+4i3HLBKEyJuQdZ34OzsQdXaYF6IknBQshmMkplhMBhguVwi96HThRQGokjCclzYUQ2WV0bgc9jMRFEFVIeww63sve2XwWiN7UewuIBeLGXo3xN2e2BMR7USggdVyJgUVWI49RaC1ja459HmEKKxC6e5CzeKYRCBQZFkZKTuMSEp3NA01Fp7CGKyRRtUXEN1p4l6swyuVKaGURyp9VQdc32Yf9h9RNjtfUShaGWbDMpFtwSNXoa8XrprgIFNTc/mBS2PQtqItGnFVeMeCBfIdciyZelwHUZZmvA9RkfHhJImpCNguiGUwylTAe4omJSjxRWUCGidD86dTGW/319n2AVnRepyC+1mA81mBMeT8HwJN3BhBRV4nkAlUhCuyuqU0JW0TlIkYk14Z7nT6+HFy1cIwwCNOv2VVKWdZnEbdrmW5WZFDdieD4vZ0HU9s3hvubiyPFhbTpuySdmkIacHNM3kMUp/rfW7eZ4O/b3lz1++JiQ5EcpJ6ColXMing9bT1Uvo6iUnJyfJcrFIcqenQxwdHeHg4AA/n4HDw0McHx9jOp2u7vJ8Ph9NJpPz8Xj8LFxcXJzPZrPzm5ubEVke/QajtZrZ0vVKSQAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;react loadable&quot; title=&quot;&quot; src=&quot;/static/react_loadable-1e0606b21a4a001f78f570207bbcb170-9c1b9.png&quot; srcset=&quot;/static/react_loadable-1e0606b21a4a001f78f570207bbcb170-337fc.png 300w,
+/static/react_loadable-1e0606b21a4a001f78f570207bbcb170-0ef57.png 600w,
+/static/react_loadable-1e0606b21a4a001f78f570207bbcb170-9c1b9.png 998w&quot; sizes=&quot;(max-width: 998px) 100vw, 998px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    	
+&lt;/div&gt;
+&lt;h2&gt;Tree Shaking&lt;/h2&gt;
+&lt;p&gt;如果你对自己编写的代码很了解，你可以通过在 &lt;code&gt;package.json&lt;/code&gt; 中添加 &lt;code&gt;sideEffects&lt;/code&gt; 来启用 &lt;code&gt;Tree Shaking&lt;/code&gt; ，即摇树优化，帮助我们删掉一些不用的代码。这里不再赘述，详情可以点击&lt;a href=&quot;https://webpack.js.org/guides/tree-shaking/&quot;&gt;Tree Shaking&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;Dynamic import&lt;/h2&gt;
+&lt;p&gt;在谈到 &lt;code&gt;Code Spliting&lt;/code&gt; 时，我们不得不想到 &lt;code&gt;dynamic import&lt;/code&gt; ，在之前版本的 &lt;a href=&quot;https://webpack.js.org&quot;&gt;webpack&lt;/a&gt; 中，我们想实现动态加载使用的是 &lt;a href=&quot;https://webpack.js.org/api/module-methods/#require-ensure&quot;&gt;require.ensure&lt;/a&gt; ，而在新版本中，取而代之的 &lt;a href=&quot;https://github.com/tc39/proposal-dynamic-import&quot;&gt;import()&lt;/a&gt; ，这是TC39关于使用 &lt;a href=&quot;https://github.com/tc39/proposal-dynamic-import&quot;&gt;import()&lt;/a&gt;的提案，而目前 &lt;a href=&quot;https://github.com/tc39/proposal-dynamic-import&quot;&gt;import()&lt;/a&gt;兼容性如下：&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/caniuse_dynamic_import-471517d7e909434b19b6b7d01584af3b-4926c.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 36.313291139240505%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABxElEQVQoz2WRzWsTYRDG9//SP8CDJ5VCFb1YRBHEW0FUaEsRSkNpEakVUSjiQUQb1BKiTWs+203SrUl2s5vv7Ed24zbYRM8/J6l68TA88/LMPPO8M4rbLOLU83j1A9za/j90zCy2tU/Y1Tjplf8Pv8IPr0TQLgqWGfRMQt9ACfWPBPo2/U5RyAL99iHHPUNIndDWJoIjaR4F49BP0f+b6wycoz9chdDTTgX7Rgy7pk7c+fUcJ3VxpYm7Zh6/U8CTYZ4MC8R50MjTsVSc2gGtShLPyuNWVVz5jS+c4nbLjMNuFHDH9kOTePwJDxfPo6sf+GVXCQq7BPmENKj4TRnQ0HCkvmVm8B2DwLPojNckvOKVEtjaZ3pmmlY2Snd9mdWtWc7uTrGUe8Rm8SlrG9d5vnETv/yVVmkHo54Qdzv05G2+WsVYX8QuxPCrKZRvLyJkIvdI3r1G/NYUe+fOsLRwgelPM1x+c4VLb6e5GL3KjXczHK3Msf1ynpVMhOjmAodr86Tm7pB6cJucaJRfP0YZ9g2GcrXv2he85HucZ1IcW2ZWvU/a2qJlZzHbezS7aUb9qizf4KevT3DcOzq2GA1qk3woR/oN4njXNwe0/XsAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;caniuse dynamic import&quot; title=&quot;&quot; src=&quot;/static/caniuse_dynamic_import-471517d7e909434b19b6b7d01584af3b-abe1c.png&quot; srcset=&quot;/static/caniuse_dynamic_import-471517d7e909434b19b6b7d01584af3b-10046.png 300w,
+/static/caniuse_dynamic_import-471517d7e909434b19b6b7d01584af3b-3c4a3.png 600w,
+/static/caniuse_dynamic_import-471517d7e909434b19b6b7d01584af3b-abe1c.png 1200w,
+/static/caniuse_dynamic_import-471517d7e909434b19b6b7d01584af3b-4926c.png 1264w&quot; sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    	
+    &lt;br&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/tc39/proposal-dynamic-import&quot;&gt;import()&lt;/a&gt; 返回一个 &lt;code&gt;Promise&lt;/code&gt; ，如果你想使用它请确保支持 &lt;code&gt;Promise&lt;/code&gt; 或者使用 &lt;code&gt;Polyfill&lt;/code&gt; ，在想使用 &lt;a href=&quot;https://github.com/tc39/proposal-dynamic-import&quot;&gt;import()&lt;/a&gt; 前，我们还得使用预处理器，我们可以使用 &lt;a href=&quot;https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import/#installation&quot;&gt;@babel/plugin-syntax-dynamic-import &lt;/a&gt; 插件来帮助&lt;a href=&quot;https://webpack.js.org&quot;&gt;webpack&lt;/a&gt;解析。&lt;a href=&quot;https://webpack.js.org&quot;&gt;webpack&lt;/a&gt; 官方给了我们一个 &lt;code&gt;dynamic import&lt;/code&gt; 的&lt;a href=&quot;https://webpack.js.org/guides/code-splitting/#dynamic-imports&quot;&gt;示例&lt;/a&gt; ，这里我就不做举例。使用 &lt;a href=&quot;https://github.com/tc39/proposal-dynamic-import&quot;&gt;import()&lt;/a&gt; 我们可以很方便的实现 &lt;code&gt;preload&lt;/code&gt; 预加载、懒加载以及上面谈到的 &lt;code&gt;Code Splitting&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;Polyfill&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Polyfill&lt;/code&gt; 现在对于大家来说应该并不陌生，他可以帮助我们使用一些浏览器目前并不支持的特性，例如 &lt;code&gt;Promise&lt;/code&gt; 。在&lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel&lt;/a&gt;中，官方建议使用 &lt;a href=&quot;https://babeljs.io/docs/en/babel-preset-env&quot;&gt;babel-preset-env&lt;/a&gt; 配合 &lt;a href=&quot;https://github.com/browserslist/browserslist&quot;&gt;.browserslistrc&lt;/a&gt; ，开发人员可以无需关心目标环境，提升开发体验。尤其在 &lt;code&gt;Polyfill&lt;/code&gt; 方面，只要我们配置好 &lt;a href=&quot;https://github.com/browserslist/browserslist&quot;&gt;.browserslistrc&lt;/a&gt; ，&lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel&lt;/a&gt; 就可以智能的根据我们配置的浏览器列表来帮助我们自注入 &lt;code&gt;Polyfill&lt;/code&gt; ，比如：&lt;/p&gt;
+&lt;p&gt;.babelrc&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;presets&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&quot;@babel/preset-env&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;useBuiltIns&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;entry&quot;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://babeljs.io/docs/en/babel-preset-env#usebuiltins&quot;&gt;useBuiltIns&lt;/a&gt; 告诉 &lt;a href=&quot;https://babeljs.io/docs/en/babel-preset-env&quot;&gt;babel-preset-env&lt;/a&gt; 如何配置 &lt;code&gt;Polyfill&lt;/code&gt; ，这里我配置为：&lt;code&gt;entry&lt;/code&gt; ，然后在 &lt;a href=&quot;https://webpack.js.org&quot;&gt;webpack&lt;/a&gt; 入口文件中引入 &lt;code&gt;import &apos;@babel/polyfill&apos;&lt;/code&gt; 即可，这里注意不能多次引入 &lt;code&gt;import &apos;@babel/polyfill&apos;&lt;/code&gt; ，否则会报错。&lt;/p&gt;
+&lt;p&gt;.browserslistrc&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;&gt; 1%
+Last 2 versions&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这样就完成了自动根据 &lt;a href=&quot;https://github.com/browserslist/browserslist&quot;&gt;.browserslistrc&lt;/a&gt;注入 &lt;code&gt;Polyfill&lt;/code&gt; ，&lt;strong&gt;但是这样有一个问题，就是所有的浏览器都会有 &lt;code&gt;Polyfill&lt;/code&gt; 的并集&lt;/strong&gt;。每个浏览器之间的特性具有很大的差异，为了尽可能的减小包的大小，我们可以为每个主流浏览器单独生成 &lt;code&gt;Polyfill&lt;/code&gt; ，不同的浏览器加载不同的 &lt;code&gt;Polyfill&lt;/code&gt; 。&lt;/p&gt;
+&lt;h2&gt;首屏文件&lt;/h2&gt;
+&lt;p&gt;SPA 程序打包出来的html文件一般都是很小的，也就2kb左右，似乎我们还可以利用下这个大小做个优化，有了解&lt;a href=&quot;https://tylercipriani.com/blog/2016/09/25/the-14kb-in-the-tcp-initial-window/&quot;&gt;初始拥塞窗口&lt;/a&gt; 的同学应该知道，通常是14.6KB，也就意味着这我们还能利用剩下的12KB左右的大小去干点什么，这了我建议内联一些首屏关键的css文件（可以使用 &lt;a href=&quot;https://github.com/filamentgroup/criticalCSS&quot;&gt;criticalCSS&lt;/a&gt; ），或者将css初始化文件内联进去，当然你也可以放其他东西，这里只是充分利用下&lt;a href=&quot;https://tylercipriani.com/blog/2016/09/25/the-14kb-in-the-tcp-initial-window/&quot;&gt;初始拥塞窗口&lt;/a&gt; 特性。&lt;/p&gt;
+&lt;p&gt;这里顺便讲下css初始化，css初始化有很多种选择，其中有三种比较出名的，分别是：&lt;a href=&quot;https://github.com/csstools/normalize.css&quot;&gt;normalize.css&lt;/a&gt; 、&lt;a href=&quot;https://github.com/csstools/sanitize.css&quot;&gt;sanitize.css&lt;/a&gt; 和 &lt;a href=&quot;http://meyerweb.com/eric/tools/css/reset/&quot;&gt;reset.css&lt;/a&gt; 。关于这三种的区别我就直接&lt;a href=&quot;https://www.npmjs.com/package/sanitize.css#differences&quot;&gt;引用&lt;/a&gt;了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/csstools/normalize.css&quot;&gt;normalize.css&lt;/a&gt; and &lt;a href=&quot;https://github.com/csstools/sanitize.css&quot;&gt;sanitize.css&lt;/a&gt; correct browser bugs while carefully testing and documenting changes. normalize.css styles adhere to css specifications. sanitize.css styles adhere to common developer expectations and preferences. &lt;a href=&quot;http://meyerweb.com/eric/tools/css/reset/&quot;&gt;reset.css&lt;/a&gt; unstyles all elements. Both sanitize.css and normalize.css are maintained in sync. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;缓存&lt;/h2&gt;
+&lt;p&gt;在利用 &lt;a href=&quot;https://webpack.js.org&quot;&gt;webpack&lt;/a&gt; 打包完之后，我们有些文件几乎不会变更，比如我这里列举的&lt;code&gt;react&lt;/code&gt;、&lt;code&gt;redux&lt;/code&gt;、&lt;code&gt;polyfill&lt;/code&gt;相关的文件。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt; entry&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    react_vendor&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-dom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-router-dom&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    redux_vendor&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;react-redux&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;redux&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;redux-immutable&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;redux-saga&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;immutable&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    polyfill&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@babel/polyfill&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    app&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; path&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cwd&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;app/app.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这些不变的文件我们就可以好好的利用下，常见(http 1.1)的就是设置 &lt;code&gt;Etag&lt;/code&gt; ，&lt;code&gt;Last-Modified&lt;/code&gt; 和 &lt;code&gt;Cache-Control&lt;/code&gt; 。前面两种属于对比缓存，还是需要和服务器通信一次，只有当服务器返回 &lt;code&gt;304&lt;/code&gt; ，浏览器才会去读取缓存文件。而 &lt;code&gt;Cache-Control&lt;/code&gt; 属于强制缓存，服务器设定 &lt;code&gt;max-age&lt;/code&gt; 当过了设定的时间后才会向服务器发起请求。这里打包再配上 &lt;code&gt;chunk-hash&lt;/code&gt; 几乎可以完美的配置缓存。&lt;/p&gt;
+&lt;p&gt;当然还可以利用 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage&quot;&gt;localStorage&lt;/a&gt; 来做缓存，这里提出一种思路，是我以前在效仿百度首页缓存机制想的。我们可以在把js文件版本号弄成一个配置，同时存储在服务端和客户端，比如：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;react_version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;16.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;redux_version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5.0&lt;/span&gt;.&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;web_version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;客户端将该版本号存储在 &lt;code&gt;cookie&lt;/code&gt; 或其他存储引擎中，这里推荐 &lt;a href=&quot;https://github.com/localForage/localForage&quot;&gt;localForage&lt;/a&gt; 来做存储。服务端将最新版本号渲染到html文件中，然后通过js脚本对比版本号，如若版本号不同，则进行加载对应的js文件，加载成功后再存储到本地存储中。如果相同，则直接取本地存储文件。&lt;/p&gt;
+&lt;p&gt;还有一种缓存的场景，就是有一些api服务端更新的进度很慢，比如一天之内访问的数据都是一样的，这样就可以对客户端进行请求缓存并拦截请求，从而优化速度，减小服务器压力。&lt;/p&gt;
+&lt;h2&gt;其他&lt;/h2&gt;
+&lt;p&gt;还有其他很多可以优化的地方，比如减少http请求、图片懒加载等等，就不一一列举了，大家可以看雅虎34条军规：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尽量减少 HTTP 请求个数——须权衡&lt;/p&gt;
+&lt;p&gt;使用 &lt;strong&gt;CDN&lt;/strong&gt;（内容分发网络）&lt;/p&gt;
+&lt;p&gt;为文件头指定 Expires 或 Cache-Control ，使内容具有缓存性。&lt;/p&gt;
+&lt;p&gt;避免空的 src 和 href&lt;/p&gt;
+&lt;p&gt;使用 gzip 压缩内容&lt;/p&gt;
+&lt;p&gt;把 CSS 放到顶部&lt;/p&gt;
+&lt;p&gt;把 JS 放到底部&lt;/p&gt;
+&lt;p&gt;避免使用 CSS 表达式&lt;/p&gt;
+&lt;p&gt;将 CSS 和 JS 放到外部文件中&lt;/p&gt;
+&lt;p&gt;减少 DNS 查找次数&lt;/p&gt;
+&lt;p&gt;精简 CSS 和 JS&lt;/p&gt;
+&lt;p&gt;避免跳转&lt;/p&gt;
+&lt;p&gt;剔除重复的 JS 和 CSS&lt;/p&gt;
+&lt;p&gt;配置 ETags&lt;/p&gt;
+&lt;p&gt;使 AJAX 可缓存&lt;/p&gt;
+&lt;p&gt;尽早刷新输出缓冲&lt;/p&gt;
+&lt;p&gt;使用 GET 来完成 AJAX 请求&lt;/p&gt;
+&lt;p&gt;延迟加载&lt;/p&gt;
+&lt;p&gt;预加载&lt;/p&gt;
+&lt;p&gt;减少 DOM 元素个数&lt;/p&gt;
+&lt;p&gt;根据域名划分页面内容&lt;/p&gt;
+&lt;p&gt;尽量减少 iframe 的个数&lt;/p&gt;
+&lt;p&gt;避免 404&lt;/p&gt;
+&lt;p&gt;减少 Cookie 的大小&lt;/p&gt;
+&lt;p&gt;使用无 cookie 的域&lt;/p&gt;
+&lt;p&gt;减少 DOM 访问&lt;/p&gt;
+&lt;p&gt;开发智能事件处理程序&lt;/p&gt;
+&lt;p&gt;用  代替 @import&lt;/p&gt;
+&lt;p&gt;避免使用滤镜&lt;/p&gt;
+&lt;p&gt;优化图像&lt;/p&gt;
+&lt;p&gt;优化 CSS Spirite&lt;/p&gt;
+&lt;p&gt;不要在 HTML 中缩放图像——须权衡&lt;/p&gt;
+&lt;p&gt;favicon.ico要小而且可缓存&lt;/p&gt;
+&lt;p&gt;保持单个内容小于25K&lt;/p&gt;
+&lt;p&gt;打包组件成复合文本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;写在最后&lt;/h2&gt;
+&lt;p&gt;关于优化的文章网上太多太多，这篇文章并不是告诉大家如何优化，而是在平时写代码时能够培养一种习惯、一种意识，就是&lt;strong&gt;做我们力所能及的优化&lt;/strong&gt;以及要&lt;strong&gt;知其所以然&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[【译】与用户联系：在网页设计中融入幽默]]></title><description><![CDATA[与用户联系：在网页设计中融入幽默 原文地址： https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/ 作者：Victor Yocco 琼正在申请all-online-loanzzz…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</guid><pubDate>Wed, 19 Sep 2018 07:26:17 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-2b7c591cf9e1753f4180b06cf0e1a704-d6978.jpeg&quot;
