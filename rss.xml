@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 08 Oct 2018 03:04:25 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 08 Oct 2018 03:16:52 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,218 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><description><![CDATA[超实用！7个优秀的UI交互动画技巧 原文网址：  https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5   原文作者：Pablo Stanley 以下是提高UI动效的实用建议，让我们一起看看UI…]]></description><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[区块链上编程：DApp 开发实践]]></title><description><![CDATA[导读：本文旨在引导对 DApp 开发感兴趣的开发者，构建一个基于以太坊去中心化应用，通过开发一款功能完备的竞猜游戏，迈出 DApp 开发的第一步，通过实例讲解 Solidity 语言的常用语法，以及前端如何与智能合约进行交互。如果正在阅读的你，从未接触过 DApp…]]></description><link>https://knownsec-fed.com/2018-10-07-dapp-dev-practice/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-07-dapp-dev-practice/</guid><pubDate>Sun, 07 Oct 2018 14:10:15 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-b61aa0a57a1e5b17c47771d05e97c648-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/9oADAMBAAIQAxAAAAGRBa6NEFH/xAAaEAABBQEAAAAAAAAAAAAAAAABAAIQERIx/9oACAEBAAEFAhmstR7P/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAECEv/aAAgBAwEBPwG8tP/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAIAQIBAT8BirH/xAAYEAACAwAAAAAAAAAAAAAAAAAAASAhMv/aAAgBAQAGPwK2aj//xAAZEAEAAwEBAAAAAAAAAAAAAAABABARIVH/2gAIAQEAAT8hKXNpYFjp7GNf/9oADAMBAAIAAwAAABBkL//EABYRAQEBAAAAAAAAAAAAAAAAAAEAUf/aAAgBAwEBPxBdlX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAAWH/2gAIAQIBAT8Q2SX/xAAcEAEAAgMAAwAAAAAAAAAAAAABESEAMWEQcbH/2gAIAQEAAT8QQLKIjRV/cWi9ynoHnN4w4lQ0k8jvP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;dapp-dev-practice&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-b61aa0a57a1e5b17c47771d05e97c648-d6978.jpeg&quot;
+        srcset=&quot;/static/header-b61aa0a57a1e5b17c47771d05e97c648-527f0.jpeg 300w,
+/static/header-b61aa0a57a1e5b17c47771d05e97c648-9a7cd.jpeg 600w,
+/static/header-b61aa0a57a1e5b17c47771d05e97c648-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;导读：本文旨在引导对 DApp 开发感兴趣的开发者，构建一个基于以太坊去中心化应用，通过开发一款功能完备的竞猜游戏，迈出 DApp 开发的第一步，通过实例讲解 Solidity 语言的常用语法，以及前端如何与智能合约进行交互。如果正在阅读的你，从未接触过 DApp 开发也不要紧，可以先阅读【&lt;a href=&quot;https://knownsec-fed.com/2018-08-10-dapp-kai-fa-jian-jie/&quot;&gt;区块链上编程：DApp开发简介&lt;/a&gt;】进行前置知识补充。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;随着加密猫、FOMO3D 等游戏的火爆，去中心化应用在游戏领域遍地开花，下面就带着大家一起开发一款简单有趣的 DApp 游戏，帮助大家熟悉 DApp 开发。本 DApp 实现的合约功能：用户从 0-6 的数字中，任意组合三位数进行投注，合约计算出 3 位随机数，根据随机数的组合规则分别给予用户不同倍数的奖励，如随机数为 AAA ，A 等于 6 则奖励至少 20 倍投注金额，即奖池所有余额；A 不等于 6 则奖励 5 倍投注金额；随机数为 AAB，则奖励 2 倍投注金额；随机数为 ABC 则不奖励，同时用户可查看奖池余额和个人投注记录。&lt;/p&gt;
+&lt;h4&gt;合约编写&lt;/h4&gt;
+&lt;p&gt;可以看出合约需要实现用户投注、生成随机数、发放奖励、奖池余额查询的功能，接下来编写我们的合约代码。&lt;/p&gt;
+&lt;p&gt;新建&lt;code&gt;Lottery.sol&lt;/code&gt;合约文件，声明合约版本，&lt;code&gt;^&lt;/code&gt;表示合约编译版本为 0.4.0 至 0.5.0（不含 0.5.0）。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;pragma solidity ^0.4.0;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;定义合约基本内容，同时声明最低投注金额。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;contract Lottery {
+  uint public betMoney = 10 finney;
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;生成随机数，通过区块难度&lt;code&gt;block.difficulty&lt;/code&gt;和内置函数&lt;code&gt;keccak256&lt;/code&gt;生成随机数，在&lt;code&gt;EVM&lt;/code&gt;中常用的数据存储位置：&lt;code&gt;memory&lt;/code&gt;、&lt;code&gt;storage&lt;/code&gt;，函数的参数、返回值默认存储在&lt;code&gt;memory&lt;/code&gt;中，状态变量默认存储在&lt;code&gt;storage&lt;/code&gt;中，我们可以通过声明&lt;code&gt;memory&lt;/code&gt;、&lt;code&gt;storage&lt;/code&gt;改变默认存储位置，两者的存储都需要消耗&lt;code&gt;gas&lt;/code&gt;，但&lt;code&gt;storage&lt;/code&gt;的开销远大于&lt;code&gt;memory&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;contract Lottery {
+  ...
+  function generateRandomNumber() private view returns(uint[]) {
+    uint[] memory dices = new uint[](3);
+    for (uint i = 0; i &lt; 3; i++) {
+      dices[i] = uint(keccak256(abi.encodePacked(block.difficulty, now, i))) % 6 + 1;
+    }
+    return dices;
+  }
+  ...
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;获取合约余额，&lt;code&gt;address&lt;/code&gt;类型比较重要的成员属性主要有&lt;code&gt;balance&lt;/code&gt;、&lt;code&gt;transfer&lt;/code&gt;，分别为获取地址余额、转移&lt;code&gt;eth&lt;/code&gt;至该地址，默认&lt;code&gt;eth&lt;/code&gt;单位是&lt;code&gt;wei&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;contract Lottery {
+  ...
+  function getBankBalance() public view returns(uint) {
+    return address(this).balance;
+  }
+  ...
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;用户投注，投注方法需要使用&lt;code&gt;payable&lt;/code&gt;关键字描述，用来表示可以接收&lt;code&gt;eth&lt;/code&gt;；通过&lt;code&gt;msg.sender&lt;/code&gt;和&lt;code&gt;msg.value&lt;/code&gt;获得交易发送者地址和当前交易附带的&lt;code&gt;eth&lt;/code&gt;。通常使用&lt;code&gt;require&lt;/code&gt;来校验外部输入参数，当判定条件为&lt;code&gt;false&lt;/code&gt;时，则会将剩余的&lt;code&gt;gas&lt;/code&gt;退回，同时回滚交易；&lt;code&gt;assert&lt;/code&gt;则用来处理合约内部的逻辑错误，当错误发生时会消耗掉所有&lt;code&gt;gas&lt;/code&gt;，同时回滚交易。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;contract Lottery {
+  ...
+  function bet() public payable {
+    uint amount = msg.value;
+    require(amount &gt;= betMoney, &apos;bet money not less than 10 finney&apos;);
+    require(address(this).balance &gt;= amount * 20, &apos;contract money not enough to pay reward&apos;);
+
+    uint[] memory dices = generateRandomNumber();
+    require(dices.length == 3, &apos;dices illegal&apos;);
+
+    address addr = msg.sender;
+    bool isReward = false;
+    uint reward = 0;
+
+    if ((dices[0] == dices[1]) &amp;&amp; (dices[1] == dices[2]) &amp;&amp; (dices[0] == 6)) {
+      isReward = true;
+      reward = address(this).balance;
+    } else if ((dices[0] == dices[1]) &amp;&amp; (dices[1] == dices[2]) &amp;&amp; (dices[0] != 6)) {
+      isReward = true;
+      reward = amount * 5;
+    } else if ((dices[0] == dices[1]) || (dices[0] == dices[2]) || (dices[1] == dices[2])) {
+      isReward = true;
+      reward = amount * 2;
+    }
+
+    if (isReward) {
+      addr.transfer(reward);
+    }
+  }
+  ...&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;定义事件，通过合约内部触发事件，web3 监听到事件回调进行相应逻辑处理，从而进行页面 UI 更新；同时前端也可以通过对应事件名称获取日志信息。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;contract Lottery {
+  ...
+  event BetList(
+    address addr,
+    uint amount,
+    bool isReward,
+    uint reward,
+    uint[] dices
+  );
+
+  function bet() public payable {
+    ...
+    emit BetList(addr, amount, isReward, reward, dices);
+  }
+  ...&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;与合约进行交互&lt;/h4&gt;
+&lt;p&gt;至此，我们已经写完了&lt;a href=&quot;https://gist.github.com/caoleic/9aee03b1561227431a0aedc36caf70b8&quot;&gt;合约代码&lt;/a&gt;，前端页面实现就不在此赘述，主要介绍如何使用 web3 与合约交互，这里使用到的 web3 版本是 1.0，web3 1.0 和 0.2x.x 的 API 调用方式差别较大，1.0 的 API 支持异步调用。&lt;/p&gt;
+&lt;p&gt;安装 Metamask 浏览器插件后，会在浏览器页面内注入一个 web3 实例。检测页面中是否存在 web3 实例，如果不存在则连接自己的实例。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;import Web3 from &apos;web3&apos;;
+
+if (typeof web3 !== &apos;undefined&apos;) {
+  web3 = new Web3(web3.currentProvider);
+} else {
+  web3 = new Web3(new Web3.providers.HttpProvider(NODE_NRL));
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;传入合约 ABI，合约地址，实例化合约对象。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;this.contract = new web3.eth.Contract(
+  CONTRACT_ABI,
+  CONTRACT_ADDR,
+);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;调用合约中的投注方法，通过&lt;code&gt;try catch&lt;/code&gt;可以捕获到 Metamask 弹窗取消交易操作。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;userBet = async () =&gt; {
+  try {
+    await this.contract.methods
+      .bet(
+        ...
+      )
+      .send({
+        from: ACCOUNT,
+        value: MONEY,
+      });
+  } catch (error) {
+    ...
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;查询记录的日志，可以通过指定事件名称、区块高度及过滤条件来进行日志查询，值得注意的是，在合约内不能查询到日志信息。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;queryEvent = async () =&gt; {
+  const event = await this.contract.getPastEvents(
+    EVENT_NAME,
+    {
+      filter: {},
+      fromBlock: 0,
+      toBlock: &apos;latest&apos;,
+    }
+  )
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;功能拓展&lt;/h4&gt;
+&lt;p&gt;比如修改用户投注金额及充值这类敏感操作，就需要管理员的权限来进行操作。同样地，我们也可以拓展赞助商的功能，通过充值奖池的累计金额排名来展示赞助商的广告，这里就不做展开了。&lt;/p&gt;
+&lt;p&gt;定义修饰器，在构造函数里设置管理员地址，将创建合约的账户设置为管理员。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;contract Lottery {
+  ...
+  address public owner;
+
+  modifier onlyOwner() {
+    require(owner == msg.sender);
+    _;
+  }
+
+  constructor() public {
+    owner = msg.sender;
+  }
+  ...
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;实现修改投注金额的功能，仅管理员账户可触发。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;contract Lottery {
+  ...
+  function setBetMoney(uint _betMoney) public onlyOwner {
+    betMoney = _betMoney;
+  }
+
+  function deposit() public payable onlyOwner {}
+  ...
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;总结&lt;/h4&gt;
+&lt;p&gt;当前随机数的实现通过链上信息生成，这种生成随机数的方式容易受到不诚实的节点攻击。下一篇文章将通过多个实例介绍相应的第三方工具库的使用（Oricalize、SafeMath、OpenZepplin），生成安全的随机数。&lt;/p&gt;
+&lt;h4&gt;参考资料&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://solidity.readthedocs.io/en/v0.4.24&quot;&gt;Solidity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://web3js.readthedocs.io/en/1.0&quot;&gt;Web3js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cryptozombies.io/zh/course&quot;&gt;Cryptozombies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners&quot;&gt;Coursetro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><description><![CDATA[超实用！7个优秀的UI交互动画技巧 原文网址：  https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5   原文作者：Pablo Stanley 以下是提高UI动效的实用建议，让我们一起看看UI…]]></description><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-d6978.jpeg&quot;
