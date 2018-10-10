@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 08 Oct 2018 03:16:52 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Oct 2018 08:22:18 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2393,7 +2393,386 @@ Delish采取措施侮辱用户，试图让他们提供他们的电子邮件地�
 &lt;h2&gt;为什么表格很重要&lt;/h2&gt;
 &lt;p&gt;数据正成为全球经济的原材料。对数据的追求推动了陈旧工业的再造。能源、媒体、制造业、物流、医疗、零售、金融甚至政府都在经历数字化转型。&lt;/p&gt;
 &lt;p&gt;但是，如果没有能够对其进行可视化和操作的能力，数据就毫无意义。未来10年能幸存下来的公司不仅需要拥有大量优质的数据; 还需要拥有卓越的用户体验。&lt;/p&gt;
-&lt;p&gt;良好的用户界面设计需要将人的目的和行为作为基础。 用户界面反过来也会影响行为，从而推动进一步的设计决策。 用户体验以微妙和无意识的方式改变人类的决策方式。视觉呈现以及交互方式，都会影响用户行为。重要的是我们需要做出良好的设计，让世界变得更美好。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[前端工程化：脚手架]]></title><description><![CDATA[介绍 Web 工程化学习的目标是让项目从”搭建-开发-部署”更加快速以及规范。文章中使用的相关技术栈是 ReactJS 和 NodeJS…]]></description><link>https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</guid><pubDate>Wed, 12 Sep 2018 06:24:15 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;良好的用户界面设计需要将人的目的和行为作为基础。 用户界面反过来也会影响行为，从而推动进一步的设计决策。 用户体验以微妙和无意识的方式改变人类的决策方式。视觉呈现以及交互方式，都会影响用户行为。重要的是我们需要做出良好的设计，让世界变得更美好。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[一道事件循环题引发的血案]]></title><description><![CDATA[这次我们就不要那么多前戏，直奔主题，我们的龙门阵正式开始。 开局一道题，内容全靠吹。（此处应有滑稽） note:  上面的代码执行环境是 node v10.7.0，浏览器的事件循环和 node…]]></description><link>https://knownsec-fed.com/2018-09-13-yi-dao-shi-jian-xun-huan-ti-yin-fa-de-xie-an/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-13-yi-dao-shi-jian-xun-huan-ti-yin-fa-de-xie-an/</guid><pubDate>Thu, 13 Sep 2018 00:42:10 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-3a59c624e6ff95a7e8c5a23c979f5abe-a770b.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.48573757131214%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABeUlEQVQoz5VSa0/CQBDkr/tL/BFqjEKiEgmgRT8oCMhDFIJA3+/ea9zSVgoaE7eZzHZvOzd324qSEglXEPYE0h6jCCUFIFj+coBylGqKnorgDLafIJldIWodQZgvkLGJpHsMbvSyfiWIZQalcshdLa+nzZVC3owXGBq3GFsaXjcNDFc3mDgdjO0HQgcjU0PfaCERIQJuYWi1MaG1kdVBX2/S98utTiXdKY2lO0Z7dg5tVkXnowbtvYbHRY3yS9zPLoiraL2dwfENrN055afUk/U2pyf49KaFYOZQj+fomg0MrDv0zTZ6RhMDu02umhnIxfO6jpD5cBMdXb2OATlO8bS6hh7O9wWlb4O5azBPJ96AE3Nyw2UMrmIwYkacXrykU7G8zvO6VPxA0DQAxwGCgOADrgNlWbtJFkP9bdIoTbkQZIwjShI4nkf35G9zLgR+KP4Rqda3IOeczAWwyZXj2AjDIEe4RbpW5IfwyEQURftHLv6v8m7/RRpf3GsAKoymSTIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;一道事件循环题引发的血案&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-3a59c624e6ff95a7e8c5a23c979f5abe-d6978.jpeg&quot;
+        srcset=&quot;/static/header-3a59c624e6ff95a7e8c5a23c979f5abe-527f0.jpeg 300w,
+/static/header-3a59c624e6ff95a7e8c5a23c979f5abe-9a7cd.jpeg 600w,
+/static/header-3a59c624e6ff95a7e8c5a23c979f5abe-d6978.jpeg 1200w,
+/static/header-3a59c624e6ff95a7e8c5a23c979f5abe-a770b.jpeg 1227w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;这次我们就不要那么多前戏，直奔主题，我们的龙门阵正式开始。&lt;/p&gt;
+&lt;p&gt;开局一道题，内容全靠吹。（此处应有滑稽）&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 文件名: index.js&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 我们尽量模拟所有的异步场景，包括 timers、Promise、nextTick等等&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;timeout 1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextTick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;nextTick 1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readFile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;./index.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;I/O callback&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextTick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;nextTick 2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;setImmediate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;immediate 1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextTick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;nextTick 3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;timeout 2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextTick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;nextTick 4&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;resolve&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; reject&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;promise run&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nextTick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;nextTick 5&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;promise then&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;setImmediate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;immediate 2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;res &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;note:&lt;/strong&gt; 上面的代码执行环境是 node v10.7.0，浏览器的事件循环和 node 还是有一点区别的，有兴趣的可以自己找资料看一看。&lt;/p&gt;
+&lt;p&gt;好了，上面的代码涉及到定时器、nextTick、Promise、setImmediate 和  I/O 操作。头皮有点小发麻哈，大家想好答案了么？检查一下吧！&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;promise run
+nextTick &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+nextTick &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+promise then
+timeout &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+immediate &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+immediate &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+nextTick &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+I&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;O callback
+nextTick &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+timeout &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+nextTick &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;怎么样？跟自己想的一样么？不一样的话，就听我慢慢道来。&lt;/p&gt;
+&lt;h2&gt;event loop&lt;/h2&gt;
+&lt;p&gt;在 Node.js 中，event loop 是基于 libuv 的。通过查看 &lt;a href=&quot;http://docs.libuv.org/en/v1.x/design.html&quot;&gt;libuv&lt;/a&gt; 的文档可以发现整个 event loop 分为 6 个阶段：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;timers: 定时器相关任务，node 中我们关注的是它会执行 setTimeout() 和 setInterval() 中到期的回调&lt;/li&gt;
+&lt;li&gt;pending callbacks: 执行某些系统操作的回调&lt;/li&gt;
+&lt;li&gt;idle, prepare: 内部使用&lt;/li&gt;
+&lt;li&gt;poll: 执行 I/O callback，一定条件下会在这个阶段阻塞住&lt;/li&gt;
+&lt;li&gt;check: 执行 setImmediate 的回调&lt;/li&gt;
+&lt;li&gt;close callbacks: 如果 socket 或者 handle 关闭了，就会在这个阶段触发 close 事件，执行 close 事件的回调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;   ┌───────────────────────────┐
+┌─&gt;│           timers          │
+│  └─────────────┬─────────────┘
+│  ┌─────────────┴─────────────┐
+│  │     pending callbacks     │
+│  └─────────────┬─────────────┘
+│  ┌─────────────┴─────────────┐
+│  │       idle, prepare       │
+│  └─────────────┬─────────────┘      ┌───────────────┐
+│  ┌─────────────┴─────────────┐      │   incoming:   │
+│  │           poll            │&lt;─────┤  connections, │
+│  └─────────────┬─────────────┘      │   data, etc.  │
+│  ┌─────────────┴─────────────┐      └───────────────┘
+│  │           check           │
+│  └─────────────┬─────────────┘
+│  ┌─────────────┴─────────────┐
+└──┤      close callbacks      │
+   └───────────────────────────┘&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;event loop 的代码在文件 &lt;code&gt;deps/uv/src/unix/core.c&lt;/code&gt; 中。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-c++&quot;&gt;&lt;code&gt;int uv_run(uv_loop_t* loop, uv_run_mode mode) {
+  int timeout;
+  int r;
+  int ran_pending;
+
+  // 确定 event loop 是否继续
+  r = uv__loop_alive(loop);
+  if (!r)
+    uv__update_time(loop);
+
+  while (r != 0 &amp;&amp; loop-&gt;stop_flag == 0) {
+    uv__update_time(loop); // 更新时间
+    uv__run_timers(loop); // timers 阶段
+    ran_pending = uv__run_pending(loop); // pending callbacks 阶段
+    uv__run_idle(loop); // idle 阶段
+    uv__run_prepare(loop); // prepare 阶段
+
+    timeout = 0;
+    // 设置 poll 阶段的超时时间，有以下情况超时时间设为 0，此时 poll 不会阻塞
+    // 1. stop_flag 不为 0
+    // 2. 没有活跃的 handles 和 request
+    // 3. idle、pending callback、close 阶段 handle 队列不为空
+    // 否则的话会将超时时间设置成距离当前时间最近的 timer 的时间
+    if ((mode == UV_RUN_ONCE &amp;&amp; !ran_pending) || mode == UV_RUN_DEFAULT)
+      timeout = uv_backend_timeout(loop);
+
+    // poll 阶段
+    uv__io_poll(loop, timeout);
+    // check 阶段
+    uv__run_check(loop);
+    // close 阶段
+    uv__run_closing_handles(loop);
+
+    if (mode == UV_RUN_ONCE) {
+      uv__update_time(loop);
+      uv__run_timers(loop);
+    }
+
+    r = uv__loop_alive(loop);
+    if (mode == UV_RUN_ONCE || mode == UV_RUN_NOWAIT)
+      break;
+  }
+
+  if (loop-&gt;stop_flag != 0)
+    loop-&gt;stop_flag = 0;
+
+  return r;
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;注册加触发&lt;/h2&gt;
+&lt;p&gt;这一小节我们主要看看 Node 如何将我们写的定时器等等注册到 event loop 中去并执行的。&lt;/p&gt;
+&lt;p&gt;以 setTimeout 为例，首先我们进到了 &lt;code&gt;timers.js&lt;/code&gt; 这个文件中，找到了 &lt;code&gt;setTimeout&lt;/code&gt; 函数，我们主要关注这么两句：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;callback&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; after&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; arg1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; arg2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; arg3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; timeout &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Timeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;callback&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; after&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;active&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;timeout&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; timeout&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们看到它 new 了一个  Timeout 类，我们顺着这条线索找到了 Timeout 的构造函数：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Timeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;callback&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; after&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; isRepeat&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_onTimeout &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; callback&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们主要关注这一句，Node 将回调挂载到了 &lt;code&gt;_onTimeout&lt;/code&gt; 这个属性上。那么这个回调是在什么时候执行的呢？我们全局搜一下 &lt;code&gt;_onTimeout()&lt;/code&gt;，我们可以发现是一个叫做 &lt;code&gt;ontimeout&lt;/code&gt; 的方法执行了回调，好了，我们开始顺藤摸瓜，可以找到这么一条调用路径 &lt;code&gt;processTimers -&gt; listOnTimeout -&gt; tryOnTimeout -&gt; ontimeout -&gt; _onTimeout&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;最后的最后，我们在文件的头部发现了这么几行代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  getLibuvNow&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  setupTimers&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  scheduleTimer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  toggleTimerRef&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  immediateInfo&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  toggleImmediateRef
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;internalBinding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;timers&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;setupTimers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;processImmediate&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; processTimers&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们一看，&lt;code&gt;setupTimers&lt;/code&gt; 是从 &lt;code&gt;internalBinding(&apos;timers&apos;)&lt;/code&gt; 获取的，我们去看一下 &lt;code&gt;internalBinding&lt;/code&gt; 就知道这就是 js 代码和内建模块关联的地方了。于是，我们顺着这条线索往下找，我们去 &lt;code&gt;src&lt;/code&gt; 目录下去找叫 timers 的文件，果不其然，我们找到一个叫 &lt;code&gt;timers.cc&lt;/code&gt; 的文件，同时，找到了一个叫 &lt;code&gt;SetupTimers&lt;/code&gt; 的函数。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-c++&quot;&gt;&lt;code&gt;void SetupTimers(const FunctionCallbackInfo&lt;Value&gt;&amp; args) {
+  CHECK(args[0]-&gt;IsFunction());
+  CHECK(args[1]-&gt;IsFunction());
+  auto env = Environment::GetCurrent(args);
+
+  env-&gt;set_immediate_callback_function(args[0].As&lt;Function&gt;());
+  env-&gt;set_timers_callback_function(args[1].As&lt;Function&gt;());
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;上面的 &lt;code&gt;args[1]&lt;/code&gt; 就是我们传递的 &lt;code&gt;processTimers&lt;/code&gt;，在这个函数中我们其实就完成了 &lt;code&gt;processTimers&lt;/code&gt; 的注册，它成功的注册到了 node 中。&lt;/p&gt;
+&lt;p&gt;那是如何触发的回调呢？这里我们首先先看到 event loop 代码中的 timers 阶段执行的函数，然后跟进去：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-c++&quot;&gt;&lt;code&gt;void uv__run_timers(uv_loop_t* loop) {
+  struct heap_node* heap_node;
+  uv_timer_t* handle;
+
+  for (;;) {
+    heap_node = heap_min(timer_heap(loop));
+    if (heap_node == NULL)
+      break;
+
+    handle = container_of(heap_node, uv_timer_t, heap_node);
+    if (handle-&gt;timeout &gt; loop-&gt;time)
+      break;
+
+    uv_timer_stop(handle);
+    uv_timer_again(handle);
+    handle-&gt;timer_cb(handle);
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这段代码我们将我们的目光放在 &lt;code&gt;handle-&gt;timer_cb(handle)&lt;/code&gt; 这一行，这个函数是在哪儿定义的呢？我们全局搜一下 &lt;code&gt;timer_cb&lt;/code&gt; 发现 &lt;code&gt;uv_timer_start&lt;/code&gt; 中有这么一行代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-c++&quot;&gt;&lt;code&gt;handle-&gt;timer_cb = cb;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;所以我们知道是调用了 &lt;code&gt;uv_timer_start&lt;/code&gt; 将回调函数挂载到了 handle 上。那么 cb 又是什么呢？其实你沿着代码上去找就能发现其实 cb 就是 &lt;code&gt;timers_callback_function&lt;/code&gt;，眼熟对么？这就是我们上面注册进来触发回调的函数 &lt;code&gt;processTimers&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;恍然大悟，原来是这么触发的回调，现在还有个问题，谁去调用的 &lt;code&gt;uv_timer_start&lt;/code&gt; 呢？这个问题就简单了，我们通过源码可以知道是 &lt;code&gt;ScheduleTimer&lt;/code&gt; 这个函数调用了，是不是感觉很熟悉，对，这个函数就是我们通过 &lt;code&gt;internalBinding&lt;/code&gt; 引进来的 &lt;code&gt;scheduleTimer&lt;/code&gt; 函数。&lt;/p&gt;
+&lt;p&gt;在这个地方就有点不一样了。现在最新的 tag 版本和 github 上 node 最新的代码是有区别的，在一次 pr 中，将 &lt;code&gt;timer_wrap.cc&lt;/code&gt; 重构成了 &lt;code&gt;timers.cc&lt;/code&gt;，并且移除了 &lt;code&gt;TimerWrap&lt;/code&gt; 类，再说下面的区别之前，先补充一下 &lt;code&gt;timer&lt;/code&gt; 对应的数据结构：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 这是在有 TimeWrap 的版本&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 对应的时间后面是一个 timer 链表&lt;/span&gt;
+refedLists &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; TimeWrap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;_list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;TimersList&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; TimeWrap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;_list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;TimersList&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 这是 scheduleTimer 的版本&lt;/span&gt;
+refedLists &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;TimersList&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;TimersList&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;item&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;在 &lt;code&gt;TimeWrap&lt;/code&gt; 的版本里，js 是通过调用实例化后的 &lt;code&gt;start()&lt;/code&gt; 函数去调用了 &lt;code&gt;uv_timer_start&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;而 &lt;code&gt;scheduleTimer&lt;/code&gt; 版本是注册定时器的时候通过比较哪个定时器是最近要执行的，从而将对应时间的 &lt;code&gt;timerList&lt;/code&gt; 注册到 &lt;code&gt;uv_timer&lt;/code&gt; 中去。&lt;/p&gt;
+&lt;p&gt;那么，为什么要这么改呢？是为了让定时器和 Immediate 拥有更相似的行为，也就是将单个 uv&lt;em&gt;timer&lt;/em&gt;t handle 存在 Environment 上（Immediate 是有一个 ImmediateQueue，这也是个链表）。&lt;/p&gt;
+&lt;p&gt;这里就只说了一个 timer，其他的大家就自己去看看吧，顺着这个思路大家肯定会有所收获的。&lt;/p&gt;
+&lt;h2&gt;事件循环流程&lt;/h2&gt;
+&lt;p&gt;在加载 node 的时候，将 setTimeout、setInterval 的回调注册到 timerList，将 Promise.resolve 等 microTask 的回调注册到 microTasks，将 setImmediate 注册到 immediateQueue 中，将 process.nextTick 注册到 nextTickQueue 中。&lt;/p&gt;
+&lt;p&gt;当我们开始 event loop 的时候，首先进入 timers 阶段（我们只看跟我们上面说的相关的阶段），然后就判断 timerList 的时间是否到期了，如果到期了就执行，没有就下一个阶段（其实还有 nextTick，等下再说）。&lt;/p&gt;
+&lt;p&gt;接下来我们说 poll 阶段，在这个阶段，我们先计算需要在这个阶段阻塞轮询的时间（简单点就是下个 timer 的时间），然后等待监听的事件。&lt;/p&gt;
+&lt;p&gt;下个阶段是 check 阶段，对应的是 immediate，当有 immediateQueue 的时候就会跳过 poll 直接到 check 阶段执行 setImmediate 的回调。&lt;/p&gt;
+&lt;p&gt;那有同学就要问了，nextTick 和 microTasks 去哪儿了啊？别慌，听我慢慢道来。&lt;/p&gt;
+&lt;h2&gt;process.nextTick 和 microTasks&lt;/h2&gt;
+&lt;p&gt;现在我们有了刚刚找 timer 的经验，我们继续去看看 nextTick 是怎么执行的。&lt;/p&gt;
+&lt;p&gt;经过排查我们能找到一个叫 &lt;code&gt;_tickCallback&lt;/code&gt; 的函数，它不断的从 nextTickQueue 中获取 nextTick 的回调执行。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;_tickCallback&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; tock&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tock &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; queue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;shift&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; callback &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tock&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;callback&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tock&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;args &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; undefined&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;token function&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+          Reflect&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;callback&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; undefined&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; tock&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        &lt;span class=&quot;token function&quot;&gt;emitAfter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;asyncId&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      tickInfo&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;kHasScheduled&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;runMicrotasks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;queue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isEmpty&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;emitPromiseRejectionWarnings&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    tickInfo&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;kHasPromiseRejections&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们看到了什么？在将 nextTick 的回调执行完之后，它执行了 &lt;code&gt;runMicrotasks&lt;/code&gt;。一切都真相大白了，microTasks 的执行时机是当执行完所有的 nextTick 的回调之后。那 nextTick 又是在什么时候执行的呢？&lt;/p&gt;
+&lt;p&gt;这就需要我们去找 C++ 的代码了，在 &lt;code&gt;bootstrapper.cc&lt;/code&gt; 里找到了 &lt;code&gt;BOOTSTRAP_METHOD(_setupNextTick, SetupNextTick)&lt;/code&gt;，所以我们就要去找 &lt;code&gt;SetupNextTick&lt;/code&gt; 函数。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-c++&quot;&gt;&lt;code&gt;void SetupNextTick(const FunctionCallbackInfo&lt;Value&gt;&amp; args) {
+  Environment* env = Environment::GetCurrent(args);
+  // ...
+  env-&gt;set_tick_callback_function(args[0].As&lt;Function&gt;());
+  // ...
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们关注这一句，是不是很熟啊，跟上面 timer 一样是吧，我们将 &lt;code&gt;__tickCallback&lt;/code&gt; 注册到了 node，在 C++ 中通过 &lt;code&gt;tick_callback_function&lt;/code&gt; 来调用这个函数。&lt;/p&gt;
+&lt;p&gt;我们通过查看源码可以发现是 &lt;code&gt;InternalCallbackScope&lt;/code&gt; 这个类调用 &lt;code&gt;Close&lt;/code&gt; 函数的时候就会触发 nextTixk 执行。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-c++&quot;&gt;&lt;code&gt;void InternalCallbackScope::Close() {
+  if (closed_) return;
+  closed_ = true;
+  HandleScope handle_scope(env_-&gt;isolate());
+  // ...
+  if (!tick_info-&gt;has_scheduled()) {
+    env_-&gt;isolate()-&gt;RunMicrotasks();
+  }
+  // ...
+  if (!tick_info-&gt;has_scheduled() &amp;&amp; !tick_info-&gt;has_promise_rejections()) {
+    return;
+  }
+  // ...
+  if (env_-&gt;tick_callback_function()-&gt;Call(process, 0, nullptr).IsEmpty()) {
+    failed_ = true;
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;可能有同学有疑问了，为啥在执行 nextTick 上面还有 &lt;code&gt;RunMicrotasks&lt;/code&gt; 呢？其实这是对 event loop 的优化，假如没有 &lt;code&gt;process.nextTick&lt;/code&gt; 就直接从 node 里面调用 &lt;code&gt;RunMicrotasks&lt;/code&gt; 加快速度。&lt;/p&gt;
+&lt;p&gt;现在在 &lt;code&gt;node.cc&lt;/code&gt; 里我们找到了调用 &lt;code&gt;Close&lt;/code&gt; 的地方：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-c++&quot;&gt;&lt;code&gt;MaybeLocal&lt;Value&gt; InternalMakeCallback(Environment* env,
+                                       Local&lt;Object&gt; recv,
+                                       const Local&lt;Function&gt; callback,
+                                       int argc,
+                                       Local&lt;Value&gt; argv[],
+                                       async_context asyncContext) {
+  CHECK(!recv.IsEmpty());
+  InternalCallbackScope scope(env, recv, asyncContext);
+
+  scope.Close();
+
+  return ret;
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;而 &lt;code&gt;InternalMakeCallback()&lt;/code&gt; 则是在 &lt;code&gt;async_wrap.cc&lt;/code&gt; 的 &lt;code&gt;AsyncWrap::MakeCallback()&lt;/code&gt; 中被调用。&lt;/p&gt;
+&lt;p&gt;找了半天，只找到了 setImmediate 注册时，注册函数执行回调运行了这个函数，没有找到 timer 的。之前因为使用的 TimeWrap，TimeWrap 继承了 AsyncWrap，在执行回调的时候调用了 &lt;code&gt;MakeCallback()&lt;/code&gt;，问题是现在移除了 &lt;code&gt;TimeWrap&lt;/code&gt;，那是怎么调用的呢？我们会到 js 代码，发现了这样的代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; _tickCallback&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; runNextTicks &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; process&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;processTimers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;now&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;runNextTicks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;一切都明了了，在移除了 &lt;code&gt;TimeWrap&lt;/code&gt; 之后，将 &lt;code&gt;_tickCallback&lt;/code&gt; 放到了这里执行，所以我们刚刚在 C++ 里找不到。&lt;/p&gt;
+&lt;p&gt;其实，每一个阶段执行完之后，都会去执行 &lt;code&gt;_tickCallback&lt;/code&gt; ，只是方式可能有点不同。&lt;/p&gt;
+&lt;h2&gt;答案解析&lt;/h2&gt;
+&lt;p&gt;好了，刚刚了解了关于 event loop 的一些情况，我们再来看看文章开头的那段代码，我们一起来分析。&lt;/p&gt;
+&lt;h3&gt;第一步&lt;/h3&gt;
+&lt;p&gt;首先运行 Promise 里的代码，&lt;strong&gt;输出了 promise run&lt;/strong&gt;，然后 promise.resolve 将 then 放入 microTasks。&lt;/p&gt;
+&lt;h3&gt;第二步&lt;/h3&gt;
+&lt;p&gt;这里要提到的一点是 nextTick 在注册之后，bootstrap 构建结束后运行&lt;code&gt;SetupNextTick&lt;/code&gt;函数，这时候就会清空 nextTickQueue 和 MicroTasks，所以&lt;strong&gt;输出 nextTick 1、nextTick 5、promise then&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3&gt;第三步&lt;/h3&gt;
+&lt;p&gt;在 bootstrap 之后便进入了 event loop，第一个阶段 timers，这时 timeout 1 定时器时间到期，执行回调&lt;strong&gt;输出 timeout 1&lt;/strong&gt;，timerList 没有其他定时器了，去清空 nextTickQueue 和 MicroTasks，没有任务，这时继续下阶段，这时候有 immediate，所以跳过 poll，进入 check，执行 immediate 回调，&lt;strong&gt;输出 immediate 1 和 immediate 2&lt;/strong&gt;，并将 nextTick 3 推入 nextTickQueue，阶段完成 immediateQueue 没有需要处理的东西了，就去清空 nextTickQueue 和 MicroTasks &lt;strong&gt;输出 nextTick 3&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3&gt;第四步&lt;/h3&gt;
+&lt;p&gt;在这一轮，文件读取完成，并且 timers 没到期，进入 poll 阶段，超时时间设置为 timeout 2 的时间，执行回调&lt;strong&gt;输出 I/O callback&lt;/strong&gt;，并且向 nextTickQueue 推入 nextTick 2。阻塞过程中没有其他的 I/O 事件，去清空 nextTickQueue 和 MicroTasks，&lt;strong&gt;输出 nextTick 2&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3&gt;第五步&lt;/h3&gt;
+&lt;p&gt;这时候又到了 timers 阶段，执行 timeout 2 的回调，&lt;strong&gt;输出 timeout 2&lt;/strong&gt;，将 nextTick 4 推入 nextTickQueue，这时 timeList 已经没有定时器了，清空 nextTickQueue 和 MicroTasks &lt;strong&gt;输出 nextTick 4&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;不知道大家懂了没有，整个过程其实还比较粗糙，在学习过程中也看了不少的源码分析，但是 node 发展很快，很多分析已经过时了，源码改变了不少，但是对于理清思路还是很有作用的。&lt;/p&gt;
+&lt;p&gt;各位看官如果觉得还行、OK、有点用，欢迎来我 &lt;a href=&quot;https://github.com/balancelove/readingNotes&quot;&gt;GitHub&lt;/a&gt; 给个小星星，我会很舒服的，哈哈。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[前端工程化：脚手架]]></title><description><![CDATA[介绍 Web 工程化学习的目标是让项目从”搭建-开发-部署”更加快速以及规范。文章中使用的相关技术栈是 ReactJS 和 NodeJS…]]></description><link>https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-12-qian-duan-gong-cheng-hua-jiao-shou-jia/</guid><pubDate>Wed, 12 Sep 2018 06:24:15 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/cube-bfef5e864fc8cf00bcae5ba21c350fc9-9170e.png&quot;
