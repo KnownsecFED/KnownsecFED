@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Oct 2018 08:22:18 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Oct 2018 03:11:04 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,206 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[区块链上编程：DApp 开发实践]]></title><description><![CDATA[导读：本文旨在引导对 DApp 开发感兴趣的开发者，构建一个基于以太坊去中心化应用，通过开发一款功能完备的竞猜游戏，迈出 DApp 开发的第一步，通过实例讲解 Solidity 语言的常用语法，以及前端如何与智能合约进行交互。如果正在阅读的你，从未接触过 DApp…]]></description><link>https://knownsec-fed.com/2018-10-07-dapp-dev-practice/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-07-dapp-dev-practice/</guid><pubDate>Sun, 07 Oct 2018 14:10:15 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】你耳朵里有条鱼]]></title><description><![CDATA[译者注：标题取自于普林斯顿大学比较文学系法语教授戴维·贝洛斯著作 《你耳朵里有条鱼吗：翻译及万物的意义》，讲述了翻译的重要性并探讨了什么是好的翻译。 本文章作者为 Google Translate 设计团队 UX manager， Pendar Yousefi…]]></description><link>https://knownsec-fed.com/2018-10-11-yi-ni-er-duo-li-you-tiao-yu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-11-yi-ni-er-duo-li-you-tiao-yu/</guid><pubDate>Thu, 11 Oct 2018 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-c8be1ec4ef9a7bebad0b9f2358559e68-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHtX2CR/8QAGhABAAIDAQAAAAAAAAAAAAAAAgExAAMQEv/aAAgBAQABBQLc/BKSyKdxz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABUQAQEAAAAAAAAAAAAAAAAAACAh/9oACAEBAAY/Aov/xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhEDH/2gAIAQEAAT8hUk1uIs4lNUX7gIpuDnn/2gAMAwEAAgADAAAAEIAv/8QAFxEBAAMAAAAAAAAAAAAAAAAAARAxUf/aAAgBAwEBPxCxHY//xAAWEQEBAQAAAAAAAAAAAAAAAAABEDH/2gAIAQIBAT8QTJ//xAAcEAEAAgMAAwAAAAAAAAAAAAABACERQVEQMZH/2gAIAQEAAT8QLCu11LZlA7zPyaDS8dmEB3ZACAAPR4//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【译】你耳朵里有条鱼&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-c8be1ec4ef9a7bebad0b9f2358559e68-d6978.jpeg&quot;
+        srcset=&quot;/static/header-c8be1ec4ef9a7bebad0b9f2358559e68-527f0.jpeg 300w,
+/static/header-c8be1ec4ef9a7bebad0b9f2358559e68-9a7cd.jpeg 600w,
+/static/header-c8be1ec4ef9a7bebad0b9f2358559e68-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;译者注：标题取自于普林斯顿大学比较文学系法语教授戴维·贝洛斯著作 《你耳朵里有条鱼吗：翻译及万物的意义》，讲述了翻译的重要性并探讨了什么是好的翻译。&lt;/p&gt;
+&lt;p&gt;本文章作者为 Google Translate 设计团队 UX manager， Pendar Yousefi。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;只要语言的存在，人类就会着迷于突破语言障碍的神奇工具或设备。在 Google Translate，我们有机会去创造这样具有魔力的产品。&lt;/p&gt;
+&lt;h1&gt;神奇的功能&lt;/h1&gt;
+&lt;p&gt;Google 翻译的相机即时翻译和实时翻译模式，让我们的用户感到惊讶不已。这些特性不仅仅是引入注目，同时也是非常有用的，可以帮助到语言学习者、学生、游客和各种需要突破语言障碍的人群。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/01-ec0f6e2f6c516d607534e7ac46e918b0.gif&quot;&gt;&lt;/p&gt;
+&lt;h1&gt;有人没发现这些功能？&lt;/h1&gt;
+&lt;p&gt;不幸的是，我们许多的用户都不知道这些功能的存在。当用户在调研期间询问我们已经存在的功能时，我们就立刻预感到了这点。之后，我们再次通过调查确认，有 38％ 的用户不知道我们已经有这些功能了。（比如：功能的图标太小了！）&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/02-bf3d85d11b2ba199b661058bdf3a401d-dfbef.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.29166666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAAA1UlEQVQoz6WPO27DMBBEdUG3RqqUaXyPFHHnwlXgIxjwjYRQH0uQSO5Hn9CRnBUFF1aEyIAfphhwdzhkQPcws9Gl+gqTWMWRSpNoUKy0LmQ0WQ6mYaKsxCjDOB8kRqTOmBU4jf4N1wwfJ1jveHOgt0963dPLjldbfj9aGeH/YQSIcg5zV6DT9KO5N1Wvyi4pKgC70AwAFdN3Wzc1Xy7ueqNtGmst3X97JoyIY6D3jJ75gWYhTVPnhk7nEdN1nTFG7l0Io0f25JHgGc14vtyMc9AcAT3BL2iaMfiVTaobAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;02&quot;
+        title=&quot;&quot;
+        src=&quot;/static/02-bf3d85d11b2ba199b661058bdf3a401d-abe1c.png&quot;
+        srcset=&quot;/static/02-bf3d85d11b2ba199b661058bdf3a401d-10046.png 300w,
+/static/02-bf3d85d11b2ba199b661058bdf3a401d-3c4a3.png 600w,
+/static/02-bf3d85d11b2ba199b661058bdf3a401d-abe1c.png 1200w,
+/static/02-bf3d85d11b2ba199b661058bdf3a401d-1c9b7.png 1800w,
+/static/02-bf3d85d11b2ba199b661058bdf3a401d-dfbef.png 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;初次尝试：让图标更明显&lt;/h1&gt;
+&lt;p&gt;我们假设这些新功能的入口点太小或者不明显，我们的第一直觉就是让他们更大更明显，因此我们尝试设计了新用户界面，以下：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/03-1f4eba7c21c07cb31f6d158f2d2b9681-dfbef.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 77.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAACDklEQVQoz51TTWsTQRjOD/Diyb/hxbtexbN48QNBEFEEPYiggpfiyZOotwge1BalflAtLUEUSdooJjWmbVI1NVmbZHd2PnY2zc5sdn1mo3Y3evJh2B1m3ueZZ973nZyXgpSe8DzLslqtVrvd/p6g8xveX8iNf0IISilxXZcQxpiEjNEyYIxzZoAAhHHO8c2QwZLSp5R5gmNHKRWGIeKwzoXklIIy8H2tNdahMkkeDodQV1pHUYQDB4NBch4DB1/IYR1yCEtOkllyEAQqUErHCUajcGxVqyDUQRhCNMYIlM6QMcNVtVbRaBQZjAClIzBdyrZ1PAxjHY01zR7IadsSYe9rrdXm5kajU1//0dywpFMjjmP3Nul6Pu7k3S9P7z6u3Hqymn9WtR2Ssc2YWHj3sVqplotrhde1pdIKt97aDuNby07xdOnFFefNsYNHru46NHv+4lSv2/V9Hzn/ZZsQiAnfwIhiIDeO64utJVI6VZi+tF2/cOb2g937bx69Pm9jI+mIHTLSY4qIKppCYspQpq61xlYuh9VztDl18uH8ngM39p4t9gg3ZJEig5fuHihIRstfW4+W68Hne3bj+eE7hX3H75+4NtPr2zC4QzbtlYWDi3Be67Rnyh/63xrNT5W5uZfTs68WFxcm65zkzFT1D8wtxhY4J1T0CZoMbkXaYC71KiaR3koSKf/9MP4PPwGaeS9Z6szyngAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;03&quot;
+        title=&quot;&quot;
+        src=&quot;/static/03-1f4eba7c21c07cb31f6d158f2d2b9681-abe1c.png&quot;
+        srcset=&quot;/static/03-1f4eba7c21c07cb31f6d158f2d2b9681-10046.png 300w,
+/static/03-1f4eba7c21c07cb31f6d158f2d2b9681-3c4a3.png 600w,
+/static/03-1f4eba7c21c07cb31f6d158f2d2b9681-abe1c.png 1200w,
+/static/03-1f4eba7c21c07cb31f6d158f2d2b9681-1c9b7.png 1800w,
+/static/03-1f4eba7c21c07cb31f6d158f2d2b9681-dfbef.png 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;让我们震惊的是，新的用户页面产生了相反的效应！人们使用相机即时翻译和实时翻译的次数变得更少了，究竟发生了什么？究其原因，我们发现许多人主动忽略了输入框部分下面的彩色东西，常常假设它们不重要，而且我们曾用这部分空间来展示促销信息。&lt;/p&gt;
+&lt;h1&gt;回顾设计稿&lt;/h1&gt;
+&lt;p&gt;因此，我们再次回顾设计稿并扪心自问：我们可以对哪些现有熟悉的 UI 进行最小的更改，让这些功能更清晰可见？我们对图标进行了调整，添加了文字标签，同时将语音功能分为两个重要但独立的功能：听写（Handwriting）和对话（Conversation）。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/04-d8caabe8c33855a1deb9f379c3ca6550-dfbef.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 54.37499999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABWklEQVQoz4VSS0vDQBDujxVE8SYIetBf4F0o6qGi6M1bFUSEQhGLIJaCL0oflB6a7M5uNuk+JnGSbSOtFT/mMHyPmSyTilwFxlgQBGEB36y0VcouimalVDQejweDwXA47Pf7vV6PGi/9ERYCADgHD1VYYxXFsaKxQkSelwLIKCX4ORUhZKLE6R3bOoGDK9g959s12KjC2hEcXrPafbB5TDzbu+A7Z0D9elXsX/KAcZpebBa89RnVX93jF1I13lzzHesvrtGRzx/8po1PXWx1sflhSb1t24dOEjI2C9P3JArQKDQyQ53NoXUCEGY2Rk38tOStNZyx2Zs550JK59BaZx26NMU0NykVA4c0zYx1zuWk542xrAwLIUajEekkIKIxxm8gB0kyslo7rW0yzYumk2EhTMvLA+SBAkSSKaT3MTaZTMIgvzmfn+TnVD6/BFEAFuHDv3+SZcj/8A2eJWNUhMC9LgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;04&quot;
+        title=&quot;&quot;
+        src=&quot;/static/04-d8caabe8c33855a1deb9f379c3ca6550-abe1c.png&quot;
+        srcset=&quot;/static/04-d8caabe8c33855a1deb9f379c3ca6550-10046.png 300w,
+/static/04-d8caabe8c33855a1deb9f379c3ca6550-3c4a3.png 600w,
+/static/04-d8caabe8c33855a1deb9f379c3ca6550-abe1c.png 1200w,
+/static/04-d8caabe8c33855a1deb9f379c3ca6550-1c9b7.png 1800w,
+/static/04-d8caabe8c33855a1deb9f379c3ca6550-dfbef.png 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;赞！所有功能的使用全面增加，手写功能（HandWriting）使用率比以前高出25％！我们甚至看到有人发推，认为某些存在多年的功能是新功能。&lt;/p&gt;
+&lt;h1&gt;提升实时翻译 UI&lt;/h1&gt;
+&lt;p&gt;我们的改变并未驻足不前，在Google Translate，我们一直在思考如何提升用户的产品体验。我们希望实时翻译模式的 UI 更容易也更直观易用。&lt;/p&gt;
+&lt;p&gt;我们之前的实时翻译 UI 有三个按钮：每种语言左右两个按钮，中间有一个我们有时称之为魔术麦克风的大图标。魔术麦克风的功能，应该知道人们什么时候说话，他们说什么语言，他们何时停止说话，并进行翻译，这一切没有任何来自用户额外的输入。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/05-1ba906eeaaab9ce693370c6be9be152b.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;对于某些语言来说，魔术麦克风并不像其他语言那样准确。 由于用户界面过于强调魔术麦克风，许多人只是使用它，甚至没有意识到有另外两个可以操作的语言按钮，可以让他们有更好的控制和准确性。 结果，一些用户遇到错误并放弃此模式，并使用其他方法（例如键入）。&lt;/p&gt;
+&lt;h1&gt;改变迫在眉睫&lt;/h1&gt;
+&lt;p&gt;之前，我们通过对图标简单的更改，便提高了功能被发现的可能性，这次，我们能否和以前一样通过简单的改变，使体验更直观？&lt;/p&gt;
+&lt;p&gt;我们通过改变形状和颜色，让手动语言按钮更加明显，我们仍然保留了魔术麦克风，甚至给它一个更具描述性的文字标签（Speak now），但它不再是 UI 的大明星。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./016.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;与此同时，我们与硬件团队合作，确保与 Pixel Buds 一致的使用体验。 我们对UI进行了小幅调整，例如，在 Pixel Buds 连接时显示耳机图标。 我们团队出色的设计师之一：Liu Liu， 甚至想出了 “破冰器” 屏幕的巧妙构思。 他在用户研究中注意到，开始对话是交互中最尴尬的部分，他制作了一个标准信息的视觉屏幕，用户可以向另一个人展示打破僵局。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07-6b1313e3c217e5141fcbb10295ebb379-dfbef.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.95833333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABe0lEQVQoz4VSyU7DMBDt/yIkxEfADQkkuPAVHHpEQDkgJLpAK3EoFXLJ0qRNYzvenYVJIqEAhr7DyB75eebNvF7mAiEkSZJtAzikaep81vud4pwDZ7lcfjRACMVxzBjbQaaUYoyBCZW/XkMGKkMSIpzdZAoMmmHKIeZ5XhRF0/xWKSmlMMZWVSWE6PJ7XZ0049pWeVFWDZRSBGO4FFVVloUxUmv9JxnUVh0Yo9cbcn55/7F4Tdbs8ODk4XFotAZ1DjLotLbU2ipprYVSyl+le8d3V7czD837p0doNmBCZ04yJUwwQ4lMN1xwo5WMN9uza35xY3LhF+N9gfo4UzCf3W1bY4MgeJkMp5On0Wi8ePcyJsj/mmEqMKpGs4ENe54XhqsoisIwALXwzLVnSqKEPS8Lo6SQPFmpyAclGBalG8AY4FP3tDmjfpQOpinLKOMZmsfoLYKGlKwX3aJt0O0woGle+6k2M8OMQ5e151qTQewynd5mLX7evydbfAKe3RO6aJb/FgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;07&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07-6b1313e3c217e5141fcbb10295ebb379-abe1c.png&quot;
+        srcset=&quot;/static/07-6b1313e3c217e5141fcbb10295ebb379-10046.png 300w,
+/static/07-6b1313e3c217e5141fcbb10295ebb379-3c4a3.png 600w,
+/static/07-6b1313e3c217e5141fcbb10295ebb379-abe1c.png 1200w,
+/static/07-6b1313e3c217e5141fcbb10295ebb379-1c9b7.png 1800w,
+/static/07-6b1313e3c217e5141fcbb10295ebb379-dfbef.png 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;由于 UI 的改变以及实时翻译技术的进步（翻译速度更快），我们看到整体语音翻译的使用显着增加。 虽然我们改进这些功能和其他功能的追求并未在此结束，但这次让神奇的功能更容易被发现和使用时，我们跨出了一大步。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[区块链上编程：DApp 开发实践]]></title><description><![CDATA[导读：本文旨在引导对 DApp 开发感兴趣的开发者，构建一个基于以太坊去中心化应用，通过开发一款功能完备的竞猜游戏，迈出 DApp 开发的第一步，通过实例讲解 Solidity 语言的常用语法，以及前端如何与智能合约进行交互。如果正在阅读的你，从未接触过 DApp…]]></description><link>https://knownsec-fed.com/2018-10-07-dapp-dev-practice/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-07-dapp-dev-practice/</guid><pubDate>Sun, 07 Oct 2018 14:10:15 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-b61aa0a57a1e5b17c47771d05e97c648-d6978.jpeg&quot;
