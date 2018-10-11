@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Oct 2018 03:11:04 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Oct 2018 04:07:09 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -553,7 +553,41 @@
 &lt;h1&gt;改变迫在眉睫&lt;/h1&gt;
 &lt;p&gt;之前，我们通过对图标简单的更改，便提高了功能被发现的可能性，这次，我们能否和以前一样通过简单的改变，使体验更直观？&lt;/p&gt;
 &lt;p&gt;我们通过改变形状和颜色，让手动语言按钮更加明显，我们仍然保留了魔术麦克风，甚至给它一个更具描述性的文字标签（Speak now），但它不再是 UI 的大明星。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./016.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06-898be50c93655357dacd9bd38ae1f3c2-dfbef.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAACUElEQVQozz1S24sScRT2j2hfgoge6qWIfaiIfRJ2FzKFimJ9iHxq2ZBKNgrEgnAJXKrtomYQbXhJDZRwWq+tlwc3a1Zd8RJrW63KVLbpOM44zjjOxX5edr+Hw+EcvvN9v3N+ot4AgiDwPA+Ser3u8/lAQrRIHCdqaLOCVBtY48Gd23cVM0/nZ8VHDi0/X+IYBqv9E/V2Afj4AIBM0QzRZkAERdBCStu35BfW3hoqfpt+Tq6QTDXRegvHRcM2EHQ6nWazORwOB4NBkiQH43o83++Wv2+9e7SQ91gSy0s2jVJ24nghm6dpbqSs1WqlUqlarQ4EAvF4nGXZPT8gMBSR9Zhh48Km/YXj3g3pxKnKzwrVZkdkq9WqUCiMRqPBoJfJpDC8znO9JkZh9TbV5igc/ZNLfLYZUxbT5WnxlTOTFEGQbXpkG8Mwt9u9Gg5funh+bGyfyfSyL9jpcqzQE3okQfz6moLjn6IfY7LJafHhAwGntcvu2gZkCIK8Xq9Op1OpVOVyGRRZlgPobx4nSmu+yIo/4I3Oz86dPLj/6tmp7WJxpIyiKHhtrVbLZDJ9TVbYwXmaokiy1aGFnWodSQYy8XgyWfjg8pybOC0ZP+qyOUbKYL1AdvdqPIrT4VybYbqAXipUf2wU/8KedCyS3tgs5LdePTNIxo+ZHj4WDS8Mot/vbzQaIzaw2+1wvOCFfKsWPZqNIBFHAnJFYwn4Szqdyl+TzyxqNH3y8G+FQiEEQfZmDWF+Y7c/WfydeP9t5XXMaYGgoN8bWk/l1Erl/ZvX/wPlUwlhe7etiQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;06&quot;
+        title=&quot;&quot;
+        src=&quot;/static/06-898be50c93655357dacd9bd38ae1f3c2-abe1c.png&quot;
+        srcset=&quot;/static/06-898be50c93655357dacd9bd38ae1f3c2-10046.png 300w,
+/static/06-898be50c93655357dacd9bd38ae1f3c2-3c4a3.png 600w,
+/static/06-898be50c93655357dacd9bd38ae1f3c2-abe1c.png 1200w,
+/static/06-898be50c93655357dacd9bd38ae1f3c2-1c9b7.png 1800w,
+/static/06-898be50c93655357dacd9bd38ae1f3c2-dfbef.png 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;与此同时，我们与硬件团队合作，确保与 Pixel Buds 一致的使用体验。 我们对UI进行了小幅调整，例如，在 Pixel Buds 连接时显示耳机图标。 我们团队出色的设计师之一：Liu Liu， 甚至想出了 “破冰器” 屏幕的巧妙构思。 他在用户研究中注意到，开始对话是交互中最尴尬的部分，他制作了一个标准信息的视觉屏幕，用户可以向另一个人展示打破僵局。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
