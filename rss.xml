@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Oct 2018 04:07:09 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Oct 2018 02:26:00 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1824,7 +1824,58 @@ Last 2 versions&lt;/code&gt;&lt;/pre&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;写在最后&lt;/h2&gt;
 &lt;p&gt;关于优化的文章网上太多太多，这篇文章并不是告诉大家如何优化，而是在平时写代码时能够培养一种习惯、一种意识，就是&lt;strong&gt;做我们力所能及的优化&lt;/strong&gt;以及要&lt;strong&gt;知其所以然&lt;/strong&gt;。&lt;/p&gt;
-&lt;hr&gt;</content:encoded></item><item><title><![CDATA[【译】与用户联系：在网页设计中融入幽默]]></title><description><![CDATA[与用户联系：在网页设计中融入幽默 原文地址： https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/ 作者：Victor Yocco 琼正在申请all-online-loanzzz…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</guid><pubDate>Wed, 19 Sep 2018 07:26:17 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[【译】有哪些事情是编程 20 到 50 多年后才知道的？]]></title><description><![CDATA[本文翻译、整理自  Quora  问答： What are some things that only someone who has been programming 20-50 years would know? 有哪些事情是编程 20 到 5…]]></description><link>https://knownsec-fed.com/2018-09-25-twenty-to-fifty-years-programming/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-25-twenty-to-fifty-years-programming/</guid><pubDate>Tue, 25 Sep 2018 01:27:15 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-f71fb144f1856888cbfe52a48ec4d7be-aef09.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 980px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.9795918367347%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAXqQplfM0n//xAAbEAEAAgIDAAAAAAAAAAAAAAACAAEEEgMTFP/aAAgBAQABBQIsHj9O07WZizMSpCq1/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/Aax//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EAB0QAAICAQUAAAAAAAAAAAAAAAABAhEDEiIxcZL/2gAIAQEABj8CUqs2YmynGHon2VqdHB//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhQVGBkf/aAAgBAQABPyFXO2LMyyqCYI9CatRSQcBjxY8n/9oADAMBAAIAAwAAABDoD//EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAEDAQE/EKH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxAr/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBUWGR4f/aAAgBAQABPxBTySi5cHiG8V18ZZNLsCqPZ3E3wBRwYmW6boeopLXaif/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【译】有哪些事情是编程 20 到 50 多年后才知道的？&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-f71fb144f1856888cbfe52a48ec4d7be-aef09.jpeg&quot;
+        srcset=&quot;/static/header-f71fb144f1856888cbfe52a48ec4d7be-aa9bf.jpeg 300w,
+/static/header-f71fb144f1856888cbfe52a48ec4d7be-7c63a.jpeg 600w,
+/static/header-f71fb144f1856888cbfe52a48ec4d7be-aef09.jpeg 980w&quot;
+        sizes=&quot;(max-width: 980px) 100vw, 980px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文翻译、整理自 &lt;a href=&quot;https://www.quora.com/What-are-some-things-that-only-someone-who-has-been-programming-20-50-years-would-know/answer/John-Byrd-2?share=1&quot;&gt;Quora&lt;/a&gt; 问答：&lt;a href=&quot;https://www.quora.com/What-are-some-things-that-only-someone-who-has-been-programming-20-50-years-would-know/answer/John-Byrd-2&quot;&gt;What are some things that only someone who has been programming 20-50 years would know?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;有哪些事情是编程 20 到 50 多年后才知道的？&lt;/h2&gt;
+&lt;p&gt;在软件开发方面，所有的东西都已经被发明过了。人们只是不停地去重新发现，然后装作是自己发明了它。你所认为的新鲜的炫酷的无论什么玩意儿，那拷贝自 &lt;a href=&quot;https://en.wikipedia.org/wiki/Smalltalk&quot;&gt;Smalltalk&lt;/a&gt;，或者 &lt;a href=&quot;https://en.wikipedia.org/wiki/HAKMEM&quot;&gt;HAKMEM&lt;/a&gt;，或者 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ivan_Sutherland&quot;&gt;Ivan Sutherland&lt;/a&gt;，或者 &lt;a href=&quot;https://en.wikipedia.org/wiki/Douglas_Engelbart&quot;&gt;&lt;/a&gt;，或者是早期的 IBM，又或者是贝尔实验室。&lt;/p&gt;
+&lt;p&gt;不要相信编译器。不要相信工具。不要相信文档。不要相信自己。&lt;/p&gt;
+&lt;p&gt;我们不需要更多的计算机语言。然而，你还是会跑去再发明一种。让我想想看，你的超级炫酷无敌新语言使用了 IEEE-754 二进制浮点数算术标准以及指定精度的整数。你的超级炫酷无敌新语言是坏掉了的。&lt;/p&gt;
+&lt;p&gt;维护代码比写代码要难。写一大堆的新代码可以被认为是懒。&lt;/p&gt;
+&lt;p&gt;你已经被教导编程时不去考虑内存、处理器时间、网络带宽这些，好像它们都是可以随便用和往死里用的。不是这样，不是这样，不是这样。去读一下 &lt;a href=&quot;https://en.wikipedia.org/wiki/Donald_Knuth&quot;&gt;Donald Knuth&lt;/a&gt; 关于过早优化&lt;a href=&quot;https://en.wikipedia.org/wiki/Program_optimization#When_to_optimize&quot;&gt;相关的段落&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;你将会在几个月内忘掉你现在是在写什么东西。把代码写的尽可能的通俗易读。&lt;/p&gt;
+&lt;p&gt;有时候，你所需要的仅仅是一行 sed 命令。&lt;/p&gt;
+&lt;p&gt;注意那些说话比较绝对的程序员，比如「我的方法一定比你的好」这种。编程是一种艺术，不是信仰。&lt;/p&gt;
+&lt;p&gt;如果你知道你将会把一套流程重复干十次以上，把它自动化了。&lt;/p&gt;
+&lt;p&gt;备份是一回事。恢复是另外一回事。&lt;/p&gt;
+&lt;p&gt;东西在你电脑上跑着没毛病不代表就没有 BUG — Piers Sutton&lt;/p&gt;
+&lt;p&gt;等开发工具发了第一版之后再安装使用。不要急着去做小白鼠。&lt;/p&gt;
+&lt;p&gt;好程序员写好代码。伟大的程序员不写代码。神级程序员删代码。&lt;/p&gt;
+&lt;p&gt;不管有多少经理在后边催着你，第一步要做的是可靠地重现 BUG。&lt;/p&gt;
+&lt;p&gt;有一天，你会遇到一个年长的有经验的人。某个时候，这个人将会教导你编程之道。别理他。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】与用户联系：在网页设计中融入幽默]]></title><description><![CDATA[与用户联系：在网页设计中融入幽默 原文地址： https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/ 作者：Victor Yocco 琼正在申请all-online-loanzzz…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</guid><pubDate>Wed, 19 Sep 2018 07:26:17 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-2b7c591cf9e1753f4180b06cf0e1a704-d6978.jpeg&quot;
