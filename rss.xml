@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Oct 2018 02:26:00 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 15 Oct 2018 08:57:30 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -835,7 +835,541 @@ if (typeof web3 !== &apos;undefined&apos;) {
 &lt;li&gt;&lt;a href=&quot;https://web3js.readthedocs.io/en/1.0&quot;&gt;Web3js&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://cryptozombies.io/zh/course&quot;&gt;Cryptozombies&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners&quot;&gt;Coursetro&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><description><![CDATA[超实用！7个优秀的UI交互动画技巧 原文网址：  https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5   原文作者：Pablo Stanley 以下是提高UI动效的实用建议，让我们一起看看UI…]]></description><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[你听说过原生 HTML 组件吗？]]></title><description><![CDATA[嘿！看看这几年啊，Web 前端的发展可是真快啊！ 想想几年前，HTML 是前端开发者的基本技能，通过各式各样的标签就可以搭建一个可用的网站，基本交互也不是问题。如果再来点 CSS，嗯，金黄酥脆，美味可口。这时候再撒上几把 JavaScript…]]></description><link>https://knownsec-fed.com/2018-10-05-ni-ting-shuo-guo-yuan-sheng-html-zu-jian-ma/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-05-ni-ting-shuo-guo-yuan-sheng-html-zu-jian-ma/</guid><pubDate>Fri, 05 Oct 2018 09:34:47 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-359740780f601a98e72a48d83f3299e5-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAW/KwkcSxH//xAAbEAABBAMAAAAAAAAAAAAAAAADAAECIgQQMv/aAAgBAQABBQKyx5kk42rofH//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/AU8If//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/AWf/xAAZEAACAwEAAAAAAAAAAAAAAAAAARESIDL/2gAIAQEABj8CcOWOx1bH/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARITFBUf/aAAgBAQABPyFCfGkB7J6uVCOuurK7A2ABQbP/2gAMAwEAAgADAAAAECv/AP/EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8QxQnZA4X/xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxAZRjm7/8QAHBABAAMBAAMBAAAAAAAAAAAAAQARITFRYZHR/9oACAEBAAE/EHVmEHA2x3xMZcaxrQo7+RCKr7b9HypS8HYBgI9i0tHW+z//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;你听说过原生 HTML 组件吗？&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-359740780f601a98e72a48d83f3299e5-d6978.jpeg&quot;
+        srcset=&quot;/static/header-359740780f601a98e72a48d83f3299e5-527f0.jpeg 300w,
+/static/header-359740780f601a98e72a48d83f3299e5-9a7cd.jpeg 600w,
+/static/header-359740780f601a98e72a48d83f3299e5-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;嘿！看看这几年啊，Web 前端的发展可是真快啊！&lt;/p&gt;
+&lt;p&gt;想想几年前，HTML 是前端开发者的基本技能，通过各式各样的标签就可以搭建一个可用的网站，基本交互也不是问题。如果再来点 CSS，嗯，金黄酥脆，美味可口。这时候再撒上几把 JavaScript，简直让人欲罢不能。&lt;/p&gt;
+&lt;p&gt;随着需求的增长，HTML 的结构越来越复杂，大量重复的代码使得页面改动起来异常困难，这也就孵化了一批批模版工具，将公共的部分抽取出来变为公共组件。再后来，随着 JavaScript 的性能提升，JavaScript 的地位越来越高，不再只是配菜了，前端渲染的出现降低了服务端解析模版的压力，服务端只要提供静态文件和 API 接口就行了嘛。再然后，前端渲染工具又被搬回了服务端，后端渲染出现了（黑人问号？？？）&lt;/p&gt;
+&lt;p&gt;总之，组件化使得复杂的前端结构变得清晰，各个部分独立起来，高内聚低耦合，使得维护成本大大降低。&lt;/p&gt;
+&lt;p&gt;那么，你有听说过原生 HTML 组件吗？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;四大 Web 组件标准&lt;/h1&gt;
+&lt;p&gt;在说原生 HTML 组件之前，要先简单介绍一下四大 Web 组件标准，四大 Web 组件标准分别为：HTML Template、Shadow DOM、Custom Elements 和 HTML Imports。实际上其中一个已经被废弃了，所以变成“三大”了。&lt;/p&gt;
+&lt;p&gt;HTML Template 相信很多人都有所耳闻，简单的讲也就是 HTML5 中的 &lt;code&gt;&amp;#x3C;template&gt;&lt;/code&gt; 标签，正常情况下它无色无味，感知不到它的存在，甚至它下面的 img 都不会被下载，script 都不会被执行。&lt;code&gt;&amp;#x3C;template&gt;&lt;/code&gt; 就如它的名字一样，它只是一个模版，只有到你用到它时，它才会变得有意义。&lt;/p&gt;
+&lt;p&gt;Shadow DOM 则是原生组件封装的基本工具，它可以实现组件与组件之间的独立性。&lt;/p&gt;
+&lt;p&gt;Custom Elements 是用来包装原生组件的容器，通过它，你就只需要写一个标签，就能得到一个完整的组件。&lt;/p&gt;
+&lt;p&gt;HTML Imports 则是 HTML 中类似于 ES6 Module 的一个东西，你可以直接 import 另一个 html 文件，然后使用其中的 DOM 节点。但是，由于 HTML Imports 和 ES6 Module 实在是太像了，并且除了 Chrome 以外没有浏览器愿意实现它，所以它已经被废弃并不推荐使用了。未来会使用 ES6 Module 来取代它，但是现在貌似还没有取代的方案，在新版的 Chrome 中这个功能已经被删除了，并且在使用的时候会在 Console 中给出警告。警告中说使用 ES Modules 来取代，但是我测试在 Chrome 71 中 ES Module 会强制检测文件的 MIME 类型必须为 JavaScript 类型，应该是暂时还没有实现支持。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/00-83259512f0eb8dc4bd12fa21741c71e7-27b4d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 577px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 8.318890814558058%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAjElEQVQI1x3N2wqCQABF0f7/c6IMI4i8UZozaFkkeUfHzAr6gd3k03rZnDMbKo9H6fJqA/rSmVS5zacXfMeYLrNQhUOXO7yV0I03OequSi3KdIeqfZq7w9AKZok0iY8Gp9Ak0t7OW8R+jjwskP6SKDC4yBX9fzSzKZI11XWjT1yeSh/WAtUI2jqk0/4AlbCMIRXBcxgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Deprecated HTML Imports&quot;
+        title=&quot;&quot;
+        src=&quot;/static/00-83259512f0eb8dc4bd12fa21741c71e7-27b4d.png&quot;
+        srcset=&quot;/static/00-83259512f0eb8dc4bd12fa21741c71e7-e2e02.png 300w,
+/static/00-83259512f0eb8dc4bd12fa21741c71e7-27b4d.png 577w&quot;
+        sizes=&quot;(max-width: 577px) 100vw, 577px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;Shadow DOM&lt;/h1&gt;
+&lt;p&gt;要说原生 HTML 组件，就要先聊聊 Shadow DOM 到底是个什么东西。&lt;/p&gt;
+&lt;p&gt;大家对 DOM 都很熟悉了，在 HTML 中作为一个最基础的骨架而存在，它是一个树结构，树上的每一个节点都是 HTML 中的一部分。DOM 作为一棵树，它拥有着上下级的层级关系，我们通常使用“父节点”、“子节点”、“兄弟节点”等来进行描述（当然有人觉得这些称谓强调性别，所以也创造了一些性别无关的称谓）。子节点在一定程度上会继承父节点的一些东西，也会因兄弟节点而产生一定的影响，比较明显的是在应用 CSS Style 的时候，子节点会从父节点那里继承一些样式。&lt;/p&gt;
+&lt;p&gt;而 Shadow DOM，也是 DOM 的一种，所以它也是一颗树，只不过它是长在 DOM 树上的一棵特殊的紫薯🍠，啊不，子树。&lt;/p&gt;
+&lt;p&gt;什么？DOM 本身不就是由一棵一棵的子树组成的吗？这个 Shadow DOM 有什么特别的吗？&lt;/p&gt;
+&lt;p&gt;Shadow DOM 的特别之处就在于它致力于创建一个相对独立的一个空间，虽然也是长在 DOM 树上的，但是它的环境却是与外界隔离的，当然这个隔离是相对的，在这个隔离空间中，你可以选择性地从 DOM 树上的父节点继承一些属性，甚至是继承一棵 DOM 树进来。&lt;/p&gt;
+&lt;p&gt;利用 Shadow DOM 的隔离性，我们就可以创造原生的 HTML 组件了。&lt;/p&gt;
+&lt;p&gt;实际上，浏览器已经通过 Shadow DOM 实现了一些组件了，只是我们使用过却没有察觉而已，这也是 Shadow DOM 封装的组件的魅力所在：你只管写一个 HTML 标签，其他的交给我。（是不是有点像 React 的 JSX 啊？）&lt;/p&gt;
+&lt;p&gt;我们来看一看浏览器利用 Shadow DOM 实现的一个示例吧，那就是 video 标签：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;video&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;controls&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;./video.mp4&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;400&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;300&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;video&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们来看一下浏览器渲染的结果：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/01-dbe3d2fc211c09465557671c45fdcd2c-c9279.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 982px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.704684317718936%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACOUlEQVQoz3WSzUtUURjG75/Rpk0tKoo2LVq4KQlq0RcmJJSoTdMIWka5scIwSe1jNHGhRLWIWkhUREZBWokRkhWEOWUQajDjzP2c+31nnLm/zlyTVr3w8LyHc87D8z68UnphPszoGVRVCzVdx3IcTMtmOafwO50lpxrImoGi5SOWI17D2tkIs4qGrBqhxGqFlCBwigRuAc/2CbwgurAdV4hpLMuK+KAiK/+giPNyNoeRN9E0PdQNA2lkZjRMvkzSNdoZjkwN0f94kO7b17k40MOFwV7m5n9gCSfprI7rFSiXVigJrKyscjHiUigqYmljy0723TzM8eR+2h+10tDXyJa6Hayv28S6oxt4NTmOsaSgpjPYeQNN94Q7F0u4MTQTS8RkaBamGN00TaSaW7XcvddBX7ye6Y9vmE19o7r5ALs791DTVcvE+3e4somqqQS+j+N4eCKOSu97vug9gkKRwl9Il+63cuNhGx1XjnH3wVm+pF4z8nSAO8+TdA+3MzY1juv4yHIOy7LQRZ6yLJPNZkWGCrrIMbAtCq6DKyBt3lVFTeNeDjVUUV27jXOXm+i8dp6600fYfnArEx/eitxC/MCPciuXy8JJIXJm2R7Z1BiL0/2Yc8PkM9+RWs60EYslqG9oJJ5IED8Vp+nkCWLxGPHmBF8/zYiHGRaWliKRilhFuFgs4optWEyNMvSih2eTvTi5WdbW5r+VFyNWBM18Htu2o+DFioi9FeMaNsbPJ/z6fJXFmR48ZZ4/7A9iUR+Kbl4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Video Tag&quot;
+        title=&quot;&quot;
+        src=&quot;/static/01-dbe3d2fc211c09465557671c45fdcd2c-c9279.png&quot;
+        srcset=&quot;/static/01-dbe3d2fc211c09465557671c45fdcd2c-656e2.png 300w,
+/static/01-dbe3d2fc211c09465557671c45fdcd2c-e99e6.png 600w,
+/static/01-dbe3d2fc211c09465557671c45fdcd2c-c9279.png 982w&quot;
+        sizes=&quot;(max-width: 982px) 100vw, 982px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;等一下！不是说 Shadow DOM 吗？这和普通 DOM 有啥区别？？？&lt;/p&gt;
+&lt;p&gt;在 Chrome 中，Elements 默认是不显示内部实现的 Shadow DOM 节点的，需要在设置中启用：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/02-03da288f2fb093b2355ca9b2dce4cb0f-c9279.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 982px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.704684317718936%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACSElEQVQoz3WS70tTYRTH988EEkRU9KaI3kUJhaFSSqE2t1VERVhBoIhRChVoGBGBP3pRIPQiSAhLhmllomZlklM3d+9+3R/b3b3b7u5+9elxIdSLDnw5h8PDc57zeb6u4OoykiKjajp6MolpZUibFlI0TiAoiawgR1XkmPon/yMFKa4hiXPhlQDrmxFcbEcZnFyRfM7BzuZxbKfazmSyaGJQXNFQdb06eFuakKJpmKaJsbCAHovhGv40xuDrfu4+72HU/5hHYw/pfXKPzgd36Rro42dgFTNpEEsY2PkClXKJcqlIuVwmb9tIkkQkGkOORMQ2CVw13gPU9TXg6TtJ94treG+3sbdxPzUNO9nRWMO7aT/JsIomEFhpg6SRQ9GzWIYhXmiwtr7BRjBENKEQlsXKTfdPMzLURa+vjfn59yx9W+Ko9wS1t47R3NXE1IdpMqop+Oo4+TzZnI0tcORFnctm2QytocYjFJMJtISMq2foKv2jHXR2tzDy7CZflid5+nKA4VcD3Bm8wZsZP1nBVFVVLMsiKXhu1aqSICQrTCxKfByfZWZmA/+KgWvX4YOcaq2l7swhjtTv4XpnO929HTRfrGff8d1MzU4Lbr9wnDylUolKpSJqh2LBISirTM4FeDsXZuKrzvhnCdely1dwu72cbWnF4/Ph8Xpoaz+H2+PGd+E83xcXSInf2wxLYlWbQqFQvbgolLFMbHVd4NAoWAqFlPSXbf4TaWEVI771IWlhoUzVIqlUCl30kymDTPSHYBzClJexNJnfOalgOVBxkxIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Turn on Shadow DOM 1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/02-03da288f2fb093b2355ca9b2dce4cb0f-c9279.png&quot;
+        srcset=&quot;/static/02-03da288f2fb093b2355ca9b2dce4cb0f-656e2.png 300w,
+/static/02-03da288f2fb093b2355ca9b2dce4cb0f-e99e6.png 600w,
+/static/02-03da288f2fb093b2355ca9b2dce4cb0f-c9279.png 982w&quot;
+        sizes=&quot;(max-width: 982px) 100vw, 982px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/03-776ac649b023f3e8a467a7fae60dc7bc-c9279.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 982px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.704684317718936%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACEUlEQVQoz4WSy2sTURTG579w5UJc+KA7Fy660ULRRUWJQSpakpqkEVqtWDelErWCxGqsVZAg1oXoooi4ERTEilTamEJA1KldiJiSx0xmxmRmMnPndT/v3JBiceGBj3uGO/M73zlnhMrPdVrVqlAUlaqaBt000dIN1KQGypU6JEWDrPzunGqT5/WGtkXsjtZkFVJDowI6QeEDxHRB2g4swwaxCL+wiYNmS4dhtqE1m7yYZdtMBG3LZrJ43mrp1GRmhPzqAs29zuHaQobml+7jzos5XH84g6nZG5i6l8Xq5xLqkgTiEEiyjIaiwPM8EELg+z4opaFoWJw9U2Hn6H4cvn0Mp3MDuPR8DLFsHHsG92H7yV3YdmIH3iy9g+e4HKAyWOiCMIemYcBz3U57HR4vJETuRjH/eBLZ1BAKxUV8Eb+i7+wRHMz0I3I1ivfFj3BZ2x77yLAt6Azm8RkBQaggQDfCosLlJ2O49Wwck9OnMP/0AkriW+RfzuLRqxymH0xgsfiBOfERKGxJhRKqnwqorCyjymStf+fQrkMO3H2gF5H4IRyN9aIv2oOLV4aRuTmBwXPH0TOwF8ulFf6yr7ew8e0HlLU1kPIveBtlBGy2/7Q8en4ciUQaQ7E4Uuk0UiMpDCfPIDGSRJLloihutlQ1A9QUFTL7vQxCNmFbgPhPhJsMw3UcNNiW+cxCCDu7oL+BfwBCQmyEORKHOAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Turn on Shadow DOM 2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/03-776ac649b023f3e8a467a7fae60dc7bc-c9279.png&quot;
+        srcset=&quot;/static/03-776ac649b023f3e8a467a7fae60dc7bc-656e2.png 300w,
+/static/03-776ac649b023f3e8a467a7fae60dc7bc-e99e6.png 600w,
+/static/03-776ac649b023f3e8a467a7fae60dc7bc-c9279.png 982w&quot;
+        sizes=&quot;(max-width: 982px) 100vw, 982px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：浏览器默认隐藏自身的 Shadow DOM 实现，但如果是用户通过脚本创造的 Shadow DOM，是不会被隐藏的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;然后，我们就可以看到 video 标签的真面目了：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/04-3b6aa74a06e060d023a702b79361ccbb-c9279.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 982px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 54.073319755600814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACrUlEQVQoz3WT22tTWRSHz18i+OTgiz744qBP4qOKLdpo1DIYVPBlZuyLoxYVL/XWOloRq7ZU7QyO4CjIqK3Seo2kRa2W0iZNmlvPdSfn5CRpzjmx/WYTmEEEF3ws1tqw9l78fltJTU+QMXJYlpAUKLlliUte1YknM2TnDHKq+T/f1jnVauRM3iCVmUPhv1gAPwio1TyqlXlq816jXalUsUQB3TAbl4pCEcMUmKbZyJqmN3qOU0IIgXIndp9rT7o592cHfXd6ud5/g64b3Ry/dJb2388wmZiiYBWZSWbRVZVsTic352CLIsIsUjAtOaiE5wdUqvMoP+z9kQ2nm/jp1Cb2n/+ZyKkDrGldy7Km5SzZuJTB6DBebYHJ8TipeJr4dJ6puE5yVpBJG0wnTJIpA0OTr7YclC0dW+m72U7nLxGuPh2m+3mcLQdbWN+2nubfmngz9qqxuhZPYKZmSCdU0jMaatYgLwfqOZOK7eCXbBZqLsqJW79ysb+Nw0dbuTTQzoN3j+j5u5Oe+52cv3aQ3qERYhoMvtd4Nppl6IPF4zGToU82g5LnkyVGpsqMTLu8jtsoK9etZceejYQi69iwbRVHTu7jdNchIm27WL15Bcdu/0NP1OdWVDAQsySCe6MWdyW3oyY3X2n0vbXoj7n0vZOitO6O0BIKs7m5mW07woR3hgmFQ7RIQttDvBh+JuUv4zkmQbmI5wpcS8XWs5SFKlcV8rwKdekKr4ziex5B4FOv1wl8H/8r6tJGpXIFW1Kt+QT1Lw1qns+8X6dkSyHGH5Id+wvx+R6l5MuvfPidqEqTG7OzzCVTmNI2mq5jGFJV6UlHfoj0i7P88aiDu4MXSLzvRVlcXOS7yIG+HKhNTKDn8xSLRVxZO45NVRo/cAuI2BU+jl5mNNpFbnyAfwHkpeuwwA6PewAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;True Face of Video Tag&quot;
+        title=&quot;&quot;
+        src=&quot;/static/04-3b6aa74a06e060d023a702b79361ccbb-c9279.png&quot;
+        srcset=&quot;/static/04-3b6aa74a06e060d023a702b79361ccbb-656e2.png 300w,
+/static/04-3b6aa74a06e060d023a702b79361ccbb-e99e6.png 600w,
+/static/04-3b6aa74a06e060d023a702b79361ccbb-c9279.png 982w&quot;
+        sizes=&quot;(max-width: 982px) 100vw, 982px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;在这里，你可完全像调试普通 DOM 一样随意调整 Shadow DOM 中的内容（反正和普通 DOM 一样，刷新一下就恢复了）。&lt;/p&gt;
+&lt;p&gt;我们可以看到上面这些 shadow DOM 中的节点大多都有 &lt;code&gt;pseudo&lt;/code&gt; 属性，根据这个属性，你就可以在外面编写 CSS 样式来控制对应的节点样式了。比如，将上面这个 &lt;code&gt;pseudo=&quot;-webkit-media-controls-overlay-play-button&quot;&lt;/code&gt; 的 input 按钮的背景色改为橙色：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token selector&quot;&gt;video::-webkit-media-controls-overlay-play-button&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; orange&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/05-29461ca5944efb316eac2a95780f11d1-c9279.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 982px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 71.38492871690428%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAADBElEQVQ4y4WT3YtUdRjH56/oqrvIm4i6iigQuoiwvYgyVq2bEErdWVejjGVjMzcFNUVoibKIoEi8EbwRW6KLXtBMbGpH186Ms3v27Hl/n3POzJx5O5+embYosHw4X57fc16+53n5PiVjTSnM0ML3gyIIQ9Iso5mkmI6LZto4foQXxHjhJoL437HADaLCdoORH5b40wr6kGc98laXdtohb+fjB2ma4Xg+puVgy08cwchb9ih2MCyLuJngB2ERN2NKH147V5y8dILD5+eLj74/w8nz73P44+PMnlpg9swx1nSNNG7iqjqxZWN7HpF8mCQJzWZzXFG/3y8GgwHdPC9KD0w9xrbT29l76hm+PvcClz/ZxcTuR7hvxxbuf+lBrv12g2Ezp+j1xhkPhjAc/l2XoJCrGIe9fo/S5OIkZz+b4+yeF+HXL2B1idm3n+LJ+WfZubCD6zcrxE6Esb6BJxmuaz62nRH5MZEXEboRUdii2x0QSj9Lc5+XOfHVARaO7uTql5OY373HhYtH+PTSB7yzeIBKfZkszrldUVhVVBqKTuOOg6r6aKpDreZiaA6hF+J6AaUtW5/guZefZtuux9m6/VHKc6/w5pH9PP/qBA9PPMSyUqXoFxhKHaO+ivK7S01xaTQ86nUXUw8lw4RMBhOGQvjGobeYKs/w2p697J+ZYXp6mn3lfUxNlzn4+kGq1SpxHHOrUuP2L7dYWW6gVOvcqWko42wFDRN1zRBynb9k85/W7rQJo0iy0Vi+cVPIVlhZqaFpJhu6M4amSW/XLYIgolRsTuluGBZDChlr3slxN2w0KdkxZSi6P/au6cnZwbV8IhF2KlL6X8KRufKiJRtjm5ZM18I0pDRNQ1dVbDk7tifi75CkOVGc3L3kfxJGsoZJqzXW2OjWSMCZiDltdUQ2Oql2nUT9ia7xM61AuzdhK01Ehw6xbEgc+tLTDr1uTtrukWkVqkuHuLh0lCs/zBOufnNvwlTWKxTCaJNwNPF2u0WrK701qtSuvsuFK4tc/vEYgfotfwA6bd8ZKJksNgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Change Button Colour in Video Tag&quot;
+        title=&quot;&quot;
+        src=&quot;/static/05-29461ca5944efb316eac2a95780f11d1-c9279.png&quot;
+        srcset=&quot;/static/05-29461ca5944efb316eac2a95780f11d1-656e2.png 300w,
+/static/05-29461ca5944efb316eac2a95780f11d1-e99e6.png 600w,
+/static/05-29461ca5944efb316eac2a95780f11d1-c9279.png 982w&quot;
+        sizes=&quot;(max-width: 982px) 100vw, 982px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;由于 Shadow DOM 实际上也是 DOM 的一种，所以在 Shadow DOM 中还可以继续嵌套 Shadow DOM，就像上面那样。&lt;/p&gt;
+&lt;p&gt;浏览器中还有很多 Element 都使用了 Shadow DOM 的形式进行封装，比如 &lt;code&gt;&amp;#x3C;input&gt;&lt;/code&gt;、&lt;code&gt;&amp;#x3C;select&gt;&lt;/code&gt;、&lt;code&gt;&amp;#x3C;audio&gt;&lt;/code&gt; 等，这里就不一一展示了。&lt;/p&gt;
+&lt;p&gt;由于 Shadow DOM 的隔离性，所以即便是你在外面写了个样式：&lt;code&gt;div { background-color: red !important; }&lt;/code&gt;，Shadow DOM 内部的 div 也不会受到任何影响。&lt;/p&gt;
+&lt;p&gt;也就是说，写样式的时候，该用 id 的时候就用 id，该用 class 的时候就用 class，一个按钮的 class 应该写成 &lt;code&gt;.button&lt;/code&gt; 就写成 &lt;code&gt;.button&lt;/code&gt;。完全不用考虑当前组件中的 id、class 可能会与其他组件冲突，你只要确保一个组件内部不冲突就好——这很容易做到。&lt;/p&gt;
+&lt;p&gt;这解决了现在绝大多数的组件化框架都面临的问题：Element 的 class(className) 到底怎么写？用前缀命名空间的形式会导致 class 名太长，像这样：&lt;code&gt;.header-nav-list-sublist-button-icon&lt;/code&gt;；而使用一些 CSS-in-JS 工具，可以创造一些唯一的 class 名称，像这样：&lt;code&gt;.Nav__welcomeWrapper___lKXTg&lt;/code&gt;，这样的名称仍旧有点长，还带了冗余信息。&lt;/p&gt;
+&lt;h2&gt;ShadowRoot&lt;/h2&gt;
+&lt;p&gt;ShadowRoot 是 Shadow DOM 下面的根，你可以把它当做 DOM 中的 &lt;code&gt;&amp;#x3C;body&gt;&lt;/code&gt; 一样看待，但是它不是 &lt;code&gt;&amp;#x3C;body&gt;&lt;/code&gt;，所以你不能使用 &lt;code&gt;&amp;#x3C;body&gt;&lt;/code&gt; 上的一些属性，甚至它不是一个节点。&lt;/p&gt;
+&lt;p&gt;你可以通过 ShadowRoot 下面的 &lt;code&gt;appendChild&lt;/code&gt;、&lt;code&gt;querySelectorAll&lt;/code&gt; 之类的属性或方法去操作整个 Shadow DOM 树。&lt;/p&gt;
+&lt;p&gt;对于一个普通的 Element，比如 &lt;code&gt;&amp;#x3C;div&gt;&lt;/code&gt;，你可以通过调用它上面的 &lt;code&gt;attachShadow&lt;/code&gt; 方法来创建一个 ShadowRoot（还有一个 &lt;code&gt;createShadowRoot&lt;/code&gt; 方法，已经过时不推荐使用），&lt;code&gt;attachShadow&lt;/code&gt; 接受一个对象进行初始化：&lt;code&gt;{ mode: &apos;open&apos; }&lt;/code&gt;，这个对象有一个 &lt;code&gt;mode&lt;/code&gt; 属性，它有两个取值：&lt;code&gt;&apos;open&apos;&lt;/code&gt; 和 &lt;code&gt;&apos;closed&apos;&lt;/code&gt;，这个属性是在创造 ShadowRoot 的时候需要初始化提供的，并在创建 ShadowRoot 之后成为一个只读属性。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mode: &apos;open&apos;&lt;/code&gt; 和 &lt;code&gt;mode: &apos;closed&apos;&lt;/code&gt; 有什么区别呢？在调用 &lt;code&gt;attachShadow&lt;/code&gt; 创建 ShadowRoot 之后，&lt;code&gt;attachShdow&lt;/code&gt; 方法会返回 ShadowRoot 对象实例，你可以通过这个返回值去构造整个 Shadow DOM。当 mode 为 &lt;code&gt;&apos;open&apos;&lt;/code&gt; 时，在用于创建 ShadowRoot 的外部普通节点（比如 &lt;code&gt;&amp;#x3C;div&gt;&lt;/code&gt;）上，会有一个 &lt;code&gt;shadowRoot&lt;/code&gt; 属性，这个属性也就是创造出来的那个 ShadowRoot，也就是说，在创建 ShadowRoot 之后，还是可以在任何地方通过这个属性再得到 ShadowRoot，继续对其进行改造；而当 mode 为 &lt;code&gt;&apos;closed&apos;&lt;/code&gt; 时，你将不能再得到这个属性，这个属性会被设置为 &lt;code&gt;null&lt;/code&gt;，也就是说，你只能在 &lt;code&gt;attachShadow&lt;/code&gt; 之后得到 ShadowRoot 对象，用于构造整个 Shadow DOM，一旦你失去对这个对象的引用，你就无法再对 Shadow DOM 进行改造了。&lt;/p&gt;
+&lt;p&gt;可以从上面 Shadow DOM 的截图中看到 &lt;code&gt;#shadow-root (user-agent)&lt;/code&gt; 的字样，这就是 ShadowRoot 对象了，而括号中的 &lt;code&gt;user-agent&lt;/code&gt; 表示这是浏览器内部实现的 Shadow DOM，如果使用通过脚本自己创建的 ShadowRoot，括号中会显示为 &lt;code&gt;open&lt;/code&gt; 或 &lt;code&gt;closed&lt;/code&gt; 表示 Shadow DOM 的 mode。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06-ac0c4bca4e226b08db4c513feb202537-771b0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 244px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.39344262295081%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACF0lEQVQ4y52SyW7UQBCG560Q8ARISEhw5gHgLXgMlhtiuYCUQwJCERLcECSzZZkZO7NkHNuzeJnYHq/tj26bRBkRDqGkT1V2df2urnLj3uuQu68CHrwNebqd8OxbypOdlPtv1jx8F/LofcjjDxG3ngfcfnENLwPuXKHxRc/YGWRs9zO22g7bTYeP3y229n2+jgqJYHdY8Ekr+CzZGeR1rCtE9axqL2hwaSWIlLWzYNY7YWWZlFlEmYYyldSIWJ7Laq/IZI6Cq9YoRIkoS6JEIOSLpePQP9HY73bZazbZ63QxTIuBpnPYH+D6K3qDAT9lrnN4TLSOZT3kRUkug0YpxZQlmaiEi6KgKAtmUxv9l4Y5MlhYc7QffSYHQzzHI01TkiSpfBzHG2wIKovOA4z+FHto4js+aSKLY1kcp5KELMvqj/6DK4Jl1b6/cDF7BvOxTSqLb2p/BMtK0F+tcOT1pgdjlvaSQsgxiLpzUQjZgZCzKmRcd6NqVV7F1VrL8u8ru67D0fER+502rW6LvVYb07IYTUb0dA3X8zBNA03XaXU6dLpt7Nn8ekG1rWrgWcLMsBl1h5iTMxb2nJOmhqGd4ns+cRKzXq+JoqhCLUMtSbEpKBVjedAxl9hjC2toEXjnhKsA13TwbFfmY/I8J5fzrbxELeqCDUH1T/ozB+PwlPnIrrr9z6XUgv7SY9Iec9abEgbR5Vxuwm8GYNEBOnAyngAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Open 的 ShadowRoot 与 不Open 的 ShadowRoot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/06-ac0c4bca4e226b08db4c513feb202537-771b0.png&quot;
+        srcset=&quot;/static/06-ac0c4bca4e226b08db4c513feb202537-771b0.png 244w&quot;
+        sizes=&quot;(max-width: 244px) 100vw, 244px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;浏览器内部实现的 &lt;code&gt;user-agent&lt;/code&gt; 的 mode 为 &lt;code&gt;closed&lt;/code&gt;，所以你不能通过节点的 ShadowRoot 属性去获得其 ShadowRoot 对象，也就意味着你不能通过脚本对这些浏览器内部实现的 Shadow DOM 进行改造。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;HTML Template&lt;/h1&gt;
+&lt;p&gt;有了 ShadowRoot 对象，我们可以通过代码来创建内部结构了，对于简单的结构，也许我们可以直接通过 &lt;code&gt;document.createElement&lt;/code&gt; 来创建，但是稍微复杂一些的结构，如果全部都这样来创建不仅麻烦，而且代码可读性也很差。当然也可以通过 ES6 提供的反引号字符串（&lt;code&gt;const template = `......`;&lt;/code&gt;）配合 innerHTML 来构造结构，利用反引号字符串中可以任意换行，并且 HTML 对缩进并不敏感的特性来实现模版，但是这样也是不够优雅，毕竟代码里大段大段的 HTML 字符串并不美观，即便是单独抽出一个常量文件也是一样。&lt;/p&gt;
+&lt;p&gt;这个时候就可以请 HTML Template 出场了。我们可以在 html 文档中编写 DOM 结构，然后在 ShadowRoot 中加载过来即可。&lt;/p&gt;
+&lt;p&gt;HTML Template 实际上就是在 html 中的一个 &lt;code&gt;&amp;#x3C;template&gt;&lt;/code&gt; 标签，正常情况下，这个标签下的内容是不会被渲染的，包括标签下的 img、style、script 等都是不会被加载或执行的。你可以在脚本中使用 &lt;code&gt;getElementById&lt;/code&gt; 之类的方法得到 &lt;code&gt;&amp;#x3C;template&gt;&lt;/code&gt; 标签对应的节点，但是却无法直接访问到其内部的节点，因为默认他们只是模版，在浏览器中表现为 &lt;code&gt;#document-fragment&lt;/code&gt;，字面意思就是“文档片段”，可以通过节点对象的 &lt;code&gt;content&lt;/code&gt; 属性来访问到这个 document-fragment 对象。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07-2db037ad33745a668d25b8de5cb21ef8-1ddb6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 257px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 26.848249027237355%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQY042PyW6DQBBE+f8/i3IIdiLFLMNAMGYgMhiGfXsZbEXKKUlLXepDq16VtawLjda4bycOTzahF+Ic34lkTBIFpEmMJ2J8Ick+c3TT8ttYu0zTRJqnBFIQCGPoushAkKmU+KwQwsO2X/A9h+J6ZRpnurZnnmeGdqDXHbPx2LYNa5fvGc1T6iT0VU99iakyRRRXjP3EWJeo05HiHFEW2sBuNHWNkoqP15AyL1nX9ZGwqcyDvBAeBP6zRx4qc0v0Td9BO/QH9+/Ki4m+Rx66waQcmE2lqR/vxIfZ//cLh2R/H8aWg7sAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;template document-fragment&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07-2db037ad33745a668d25b8de5cb21ef8-1ddb6.png&quot;
+        srcset=&quot;/static/07-2db037ad33745a668d25b8de5cb21ef8-1ddb6.png 257w&quot;
+        sizes=&quot;(max-width: 257px) 100vw, 257px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;通过 document-fragment 对象，就可以访问到 template 内部的节点了，通过 &lt;code&gt;document.importNode&lt;/code&gt; 方法，可以将 document-fragment 对象创建一份副本，然后可以使用一切 DOM 属性方法替换副本中的模版内容，最终将其插入到 DOM 或是 Shadow DOM 中。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;div&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;temp&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;template&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; template &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;temp&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; copy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;importNode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;template&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;content&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+copy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;title&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Hello World!&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; div &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;div&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; shadowRoot &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; div&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;attachShadow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; mode&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;closed&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+shadowRoot&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;copy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h1&gt;HTML Imports&lt;/h1&gt;
+&lt;p&gt;有了 HTML Template，我们已经可以方便地创造封闭的 Web 组件了，但是目前还有一些不完美的地方：我们必须要在 html 中定义一大批的 &lt;code&gt;&amp;#x3C;template&gt;&lt;/code&gt;，每个组件都要定义一个 &lt;code&gt;&amp;#x3C;template&gt;&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;此时，我们就可以用到已经被废弃的 HTML Imports 了。虽然它已经被废弃了，但是未来会通过 ES6 Modules 的形式再进行支持，所以理论上也只是换个加载形式而已。&lt;/p&gt;
+&lt;p&gt;通过 HTML Imports，我们可以将 &lt;code&gt;&amp;#x3C;template&gt;&lt;/code&gt; 定义在其他的 html 文档中，然后再在需要的 html 文档中进行导入（当然也可以通过脚本按需导入），导入后，我们就可以直接使用其中定义的模版节点了。&lt;/p&gt;
+&lt;p&gt;已经废弃的 HTML Imports 通过 &lt;code&gt;&amp;#x3C;link&gt;&lt;/code&gt; 标签实现，只要指定 &lt;code&gt;rel=&quot;import&quot;&lt;/code&gt; 就可以了，就像这样：&lt;code&gt;&amp;#x3C;link rel=&quot;import&quot; href=&quot;./templates.html&quot;&gt;&lt;/code&gt;，它可以接受 &lt;code&gt;onload&lt;/code&gt; 和 &lt;code&gt;onerror&lt;/code&gt; 事件以指示它已经加载完成。当然也可以通过脚本来创建 link 节点，然后指定 rel 和 href 来按需加载。Import 成功后，在 link 节点上有一个 &lt;code&gt;import&lt;/code&gt; 属性，这个属性中存储的就是 import 进来的 DOM 树啦，可以 &lt;code&gt;querySelector&lt;/code&gt; 之类的，并通过 &lt;code&gt;cloneNode&lt;/code&gt; 或 &lt;code&gt;document.importNode&lt;/code&gt; 方法创建副本后使用。&lt;/p&gt;
+&lt;p&gt;未来新的 HTML Imports 将会以 ES6 Module 的形式提供，可以在 JavaScript 中直接 &lt;code&gt;import * as template from &apos;./template.html&apos;;&lt;/code&gt;，也可以按需 import，像这样：&lt;code&gt;const template = await import(&apos;./template.html&apos;);&lt;/code&gt;。不过目前虽然浏览器都已经支持 ES6 Modules，但是在 import 其他模块时会检查服务端返回文件的 MIME 类型必须为 JavaScript 的 MIME 类型，否则不允许加载。&lt;/p&gt;
+&lt;h1&gt;Custom Elements&lt;/h1&gt;
+&lt;p&gt;有了上面的三个组件标准，我们实际上只是对 HTML 进行拆分而已，将一个大的 DOM 树拆成一个个相互隔离的小 DOM 树，这还不是真正的组件。&lt;/p&gt;
+&lt;p&gt;要实现一个真正的组件，我们就需要用到 Custom Elements 了，就如它的名字一样，它是用来定义原生组件的。&lt;/p&gt;
+&lt;p&gt;Custom Elements 的核心，实际上就是利用 JavaScript 中的对象继承，去继承 HTML 原生的 &lt;code&gt;HTMLElement&lt;/code&gt; 类（或是具体的某个原生 Element 类，比如 &lt;code&gt;HTMLButtonElement&lt;/code&gt;），然后自己编写相关的生命周期函数，处理成员属性以及用户交互的事件。&lt;/p&gt;
+&lt;p&gt;看起来这和现在的 React 很像，在 React 中，你可以这样创造一个组件：&lt;code&gt;class MyElement extends React.Component { ... }&lt;/code&gt;，而使用原生 Custom Elements，你需要这样写：&lt;code&gt;class MyElement extends HTMLElement { ... }&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;Custom Elements 的生命周期函数并不多，但是足够使用。这里我将 Custom Elements 的生命周期函数与 React 进行一个简单的对比:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;constructor()&lt;/code&gt;: 构造函数，用于初始化 state、创建 Shadow DOM、监听事件之类。&lt;/p&gt;
+&lt;p&gt;对应 React 中 Mounting 阶段的大半部分，包括：&lt;code&gt;constructor(props)&lt;/code&gt;、&lt;code&gt;static getDerivedStateFromProps(props, state)&lt;/code&gt; 和 &lt;code&gt;render()&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;在 Custom Elements 中，&lt;code&gt;constructor()&lt;/code&gt; 构造函数就是其原本的含义：初始化，和 React 的初始化类似，但它没有像 React 中那样将其拆分为多个部分。在这个阶段，组件仅仅是被创建出来（比如通过 &lt;code&gt;document.createElement()&lt;/code&gt;），但是还没有插入到 DOM 树中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;connectedCallback()&lt;/code&gt;: 组件实例已被插入到 DOM 树中，用于进行一些展示相关的初始化操作。&lt;/p&gt;
+&lt;p&gt;对应 React 中 Mounting 阶段的最后一个生命周期：&lt;code&gt;componentDidMount()&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;在这个阶段，组件已经被插入到 DOM 树中了，或是其本身就在 html 文件中写好在 DOM 树上了，这个阶段一般是进行一些展示相关的初始化，比如加载数据、图片、音频或视频之类并进行展示。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;attributeChangedCallback(attrName, oldVal, newVal)&lt;/code&gt;: 组件属性发生变化，用于更新组件的状态。&lt;/p&gt;
+&lt;p&gt;对应 React 中的 Updating 阶段：&lt;code&gt;static getDerivedStateFromProps(props, state)&lt;/code&gt;、&lt;code&gt;shouldComponentUpdate(nextProps, nextState)&lt;/code&gt;、&lt;code&gt;render()&lt;/code&gt;、&lt;code&gt;getSnapshotBeforeUpdate(prevProps, prevState)&lt;/code&gt; 和 &lt;code&gt;componentDidUpdate(prevProps, prevState, snapshot)&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;当组件的属性（React 中的 props）发生变化时触发这个生命周期，但是并不是所有属性变化都会触发，比如组件的 &lt;code&gt;class&lt;/code&gt;、&lt;code&gt;style&lt;/code&gt; 之类的属性发生变化一般是不会产生特殊交互的，如果所有属性发生变化都触发这个生命周期的话，会使得性能造成较大的影响。所以 Custom Elements 要求开发者提供一个属性列表，只有当属性列表中的属性发生变化时才会触发这个生命周期函数。&lt;/p&gt;
+&lt;p&gt;这个属性列表通过组件类上的一个&lt;strong&gt;静态只读&lt;/strong&gt;属性来声明，在 ES6 Class 中使用一个 getter 函数来实现，只实现 getter 而不实现 setter，getter 返回一个常量，这样就是只读的了。像这样：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AwesomeElement&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;HTMLElement&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;observedAttributes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;awesome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;disconnectedCallback()&lt;/code&gt;: 组件被从 DOM 树中移除，用于进行一些清理操作。&lt;/p&gt;
+&lt;p&gt;对应 React 中的 Unmounting 阶段：&lt;code&gt;componentWillUnmount()&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;adoptedCallback()&lt;/code&gt;: 组件实例从一个文档被移动到另一个文档。&lt;/p&gt;
+&lt;p&gt;这个生命周期是原生组件独有的，React 中没有类似的生命周期。这个生命周期函数也并不常用到，一般在操作多个 document 的时候会遇到，调用 &lt;code&gt;document.adoptNode()&lt;/code&gt; 函数转移节点所属 document 时会触发这个生命周期。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在定义了自定义组件后，我们需要将它注册到 HTML 标签列表中，通过 &lt;code&gt;window.customElements.define()&lt;/code&gt; 函数即可实现，这个函数接受两个必须参数和一个可选参数。第一个参数是注册的标签名，为了避免和 HTML 自身的标签冲突，Custom Elements 要求用户自定义的组件名必须至少包含一个短杠 &lt;code&gt;-&lt;/code&gt;，并且不能以短杠开头，比如 &lt;code&gt;my-element&lt;/code&gt;、&lt;code&gt;awesome-button&lt;/code&gt; 之类都是可以的。第二个参数是注册的组件的 class，直接将继承的子类类名传入即可，当然也可以直接写一个匿名类：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;customElements&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;my-element&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;extends&lt;/span&gt; HTMLElement &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;注册之后，我们就可以使用了，可以直接在 html 文档中写对应的标签，比如：&lt;code&gt;&amp;#x3C;my-element&gt;&amp;#x3C;/my-element&gt;&lt;/code&gt;，也可以通过 &lt;code&gt;document.createElement(&apos;my-element&apos;)&lt;/code&gt; 来创建，用法与普通标签几乎完全一样。但要注意的是，虽然 html 标准中说部分标签可以不关闭或是自关闭(&lt;code&gt;&amp;#x3C;br&gt;&lt;/code&gt; 或是 &lt;code&gt;&amp;#x3C;br /&gt;&lt;/code&gt;)，但是只有&lt;a href=&quot;https://html.spec.whatwg.org/multipage/syntax.html#void-elements&quot;&gt;规定的少数几个标签&lt;/a&gt;允许自关闭，所以，在 html 中写 Custom Elements 的节点时必须带上关闭标签。&lt;/p&gt;
+&lt;p&gt;由于 Custom Elements 是通过 JavaScript 来定义的，而一般 js 文件都是通过 &lt;code&gt;&amp;#x3C;script&gt;&lt;/code&gt; 标签外联的，所以 html 文档中的 Custom Elements 在 JavaScript 未执行时是处于一个默认的状态，浏览器默认会将其内容直接显示出来。为了避免这样的情况发生，Custom Elements 在被注册后都会有一个 &lt;code&gt;:defined&lt;/code&gt; CSS 伪类而在注册前没有，所以我们可以通过 CSS 选择器在 Custom Elements 注册前将其隐藏起来，比如：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token selector&quot;&gt;my-element:not(:defined)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;或者 Custom Elements 也提供了一个函数来检测指定的组件是否已经被注册：&lt;code&gt;customElements.whenDefined()&lt;/code&gt;，这个函数接受一个组件名参数，并返回一个 Promise，当 Promise 被 resolve 时，就表示组件被注册了。&lt;/p&gt;
+&lt;p&gt;这样，我们就可以放心的在加载 Custom Elements 的 JavaScript 的 &lt;code&gt;&amp;#x3C;script&gt;&lt;/code&gt; 标签上使用 &lt;code&gt;async&lt;/code&gt; 属性来延迟加载了（当然，如果是使用 ES6 Modules 形式的话默认的加载行为就会和 &lt;code&gt;defer&lt;/code&gt; 类似）。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/08-c9cc87051884db233601687712b81647.svg&quot; alt=&quot;script async defer&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Custom Elements + Shadow DOM&lt;/h2&gt;
+&lt;p&gt;使用 Custom Elements 来创建组件时，通常会与 Shadow DOM 进行结合，利用 Shadow DOM 的隔离性，就可以创造独立的组件。&lt;/p&gt;
+&lt;p&gt;通常在 Custom Elements 的 &lt;code&gt;constructor()&lt;/code&gt; 构造函数中去创建 Shadow DOM，并对 Shadow DOM 中的节点添加事件监听、对特定事件触发原生 Events 对象。&lt;/p&gt;
+&lt;p&gt;正常编写 html 文档时，我们可能会给 Custom Elements 添加一些子节点，像这样：&lt;code&gt;&amp;#x3C;my-element&gt;&amp;#x3C;h1&gt;Title&amp;#x3C;/h1&gt;&amp;#x3C;p&gt;Content&amp;#x3C;/p&gt;&amp;#x3C;/my-element&gt;&lt;/code&gt;，而我们创建的 Shadow DOM 又拥有其自己的结构，怎样将这些子节点放置到 Shadow DOM 中正确的位置上呢？&lt;/p&gt;
+&lt;p&gt;在 React 中，这些子节点被放置在 &lt;code&gt;props&lt;/code&gt; 的 &lt;code&gt;children&lt;/code&gt; 中，我们可以在 &lt;code&gt;render()&lt;/code&gt; 时选择将它放在哪里。而在 Shadow DOM 中有一个特殊的标签：&lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt;，这个标签的用处就如同其字面意思，在 Shadow DOM 上放置一个“插槽”，然后 Custom Elements 的子节点就会自动放置到这个“插槽”中了。&lt;/p&gt;
+&lt;p&gt;有时我们需要更加精确地控制子节点在 Shadow DOM 中的位置，而默认情况下，所有子节点都会被放置在同一个 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt; 标签下，即便是你写了多个 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt;。那怎样更精确地对子节点进行控制呢？&lt;/p&gt;
+&lt;p&gt;默认情况下，&lt;code&gt;&amp;#x3C;slot&gt;Fallback&amp;#x3C;/slot&gt;&lt;/code&gt; 这样的是默认的 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt;，只有第一个默认的 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt; 会有效，将所有子节点全部放进去，如果没有可用的子节点，将会显示默认的 Fallback 内容（Fallback 可以是一棵子 DOM 树）。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt; 标签有一个 &lt;code&gt;name&lt;/code&gt; 属性，当你提供 &lt;code&gt;name&lt;/code&gt; 后，它将变为一个“有名字的 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt;”，这样的 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt; 可以存在多个，只要名字各不相同。此时他们会自动匹配 Custom Elements 下带 &lt;code&gt;slot&lt;/code&gt; 属性并且 &lt;code&gt;slot&lt;/code&gt; 属性与自身 &lt;code&gt;name&lt;/code&gt; 相同的子节点，像这样：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;list&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Others&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;slot&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;slot&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Animals&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;slot&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;animal&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;slot&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Fruits&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;slot&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;fruit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;slot&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;template&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;my-list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;animal&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Cat&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;fruit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Apple&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;fruit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Banana&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;other&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;flower&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;pencil&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;animal&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Dog&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;slot&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;fruit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;peach&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;red&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;my-list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;MyList&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;HTMLElement&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; root &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;attachShadow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; mode&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;open&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; template &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;list&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    root&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;importNode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;template&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;content&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+customElements&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;my-list&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; MyList&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这样就可以得到如图所示的结构，&lt;code&gt;#shadow-root (open)&lt;/code&gt; 表示这是一个开放的 Shadow DOM，下面的节点是直接从 template 中 clone 过来的，浏览器自动在三个 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt; 标签下放置了几个灰色的 &lt;code&gt;&amp;#x3C;div&gt;&lt;/code&gt; 节点，实际上这些灰色的 &lt;code&gt;&amp;#x3C;div&gt;&lt;/code&gt; 节点表示的是到其真实节点的“引用”，鼠标移动到他们上会显示一个 &lt;code&gt;reveal&lt;/code&gt; 链接，点击这个链接即可跳转至其真实节点。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/09-d99af21fbc36d96d55ec8aabe40c1893-df86d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 478px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.68200836820083%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAAsSAAALEgHS3X78AAAE1UlEQVRIx41VW2wUZRjddx98kIsQKO3sdnfnPrszu7Ozs7uz15ll2yWlkhBAEi8xvIhEa9CWKvhgYl+IwIMkxmuiT5JgiMZoqlIwvKBtaLDh0oaKAYlBorJtufX4zV/YUC7STU7mfv7zfec7/wZwz+/WrVvsODAwAEPXUSqV0NLSglg8jkg0Cj7Ko16vw3NdZDIZ2LYNy7LYueM4CIxPnMXgD9/jl5+PY3hkBOcmJxlhf38/1LiBSsVFykrDyeVgGxraw2GIkgRBEBCJRJoI031ZlhH4YP+H6PLWYcOGjah1rsWePfsY4eu9veBiaSTKddhuF6xSDZVsGpqmoTUYAkcIhtoJc0f/mhdEBL7+9hj6dr2H/Z8dwr6PDuCLb46iQYTbe7ZhFReERmRRWrmdFLXTB6GVSxFuXY7QqmW3Qecty8CtWAwhzCFw7NQlHDh+AYfPTmFoYgbfjf2Do+MNvDbwPkLOBjjP9MPa3Aej+0WY615B6aktMOtbIHa9DHXjmwxydw/CpWch5boQ+PPSH2j8+/dtS2ZvA9i593OsLG6B+/xb6Ny6G+UX3ob19BtIbexH5rl3IK99FeHaVkQ7thFeQqTeA7m8CQHf1es3bmBmZgY36Dg9PcMIe7f34InHH4Mm8Ujmy0g5eWSTGoyYjEQyATHcCj64EnyohSHKrYAshBH46cgRfPzJpzh46Ct8efAgdr+7F7+dP4+dO3dh0dLlkCUZStKG2bEe+bIHI2VDStgQFY3cVpoQCKoaQ8BXNTU1hanpaTSuXsXly38xhTt29GHx0mVsFCT6OGkX4BQ9mOkcvGoH4gkLvBQnYp1BkHUomo7AlStX0GhM3Tvf6OvrxRIiFEUREq2cLHjIFCvQacDTNMyqorBZ9J/78M8Vuhc4c/oMxscnGMnNmzcZ5ghJ4ZInoWoxGJU1iBVqbKjD7SGGKKVGFIUmaZNwdna2Gbe7o8cISaH/UixbgUmDXcwXkCPomQK0uN5UN4/w9KlTOHnyJMbGxjA6Oopr1643S2Y9pJhp1C8/MV5HN4q1blScLOq5FJEa9yv8lciGDv+Iw0NDGBwcxFUyho1N71wPJXJZ4KNImSY8r0oLiIhSdn2CO5hH+LDd5k7JEilUaWwMUhi3MqxvoijNK3Ue4eS5SZw4MUrKGvD7+VBTcmWmjI9GEOV58IQHujxBDg8Pj9Aw/950ep4pNIexTBGm1wXX9ZD36rAKLhI6zSA9u0/hxQsXcfrMWYrc9AMJWVJiOhJOGUW3E2a2jLSuUgx1lpb/7eG9JTNTmAoeZsJA1a1AIVMiUb9k4cEl+yR34z5ClhSKnlNBtuRCoOs5Mn4O1Ms7hOqjFPqmyBS7eL5KLq+BTKUbioi4Sm2gRWSCqM6V7Zv0yJIXLVrMdhYl5yGRdal/Bay1VJTtFMrVGkzqq5SrIkwt4Lg2RvxowmSWCF0YGR9FdCd5OPQPt37TZnSu6YJa6YZI73CtrQsjFEmhRhuDU1oN2ymiTLGLJVK0yZowzRSicYISA9e2QIViMgMtX0O2SIS5Amo5C3navuxcHnraAU/q/F2I47iFK1SJ0C5UaU9cDc/SkdJjqHirYdECQrqIiCAvTKHvskJbl+KQyxQ9XjPA8RLaSE0r9ayNEGwjBIOkMMgI/wOoSdFolyZ2+AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;My List&quot;
+        title=&quot;&quot;
+        src=&quot;/static/09-d99af21fbc36d96d55ec8aabe40c1893-df86d.png&quot;
+        srcset=&quot;/static/09-d99af21fbc36d96d55ec8aabe40c1893-fc2e9.png 300w,
+/static/09-d99af21fbc36d96d55ec8aabe40c1893-df86d.png 478w&quot;
+        sizes=&quot;(max-width: 478px) 100vw, 478px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;这里我们可以看到，虽然 &lt;code&gt;&amp;#x3C;my-list&gt;&lt;/code&gt; 下的子节点是乱序放置的，但是只要是给定了 &lt;code&gt;slot&lt;/code&gt; 属性，就会被放置到正确的 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt; 标签下。注意观察其中有一个 &lt;code&gt;&amp;#x3C;div slot=&quot;other&quot;&gt;flower&amp;#x3C;/div&gt;&lt;/code&gt;，这个节点由于指定了 &lt;code&gt;slot=&quot;other&quot;&lt;/code&gt;，但是却找不到匹配的 &lt;code&gt;&amp;#x3C;slot&gt;&lt;/code&gt; 标签，所以它不会被显示在结果中。&lt;/p&gt;
+&lt;p&gt;在为 Custom Elements 下的 Shadow DOM 设置样式的时候，我们可以直接在 Shadow DOM 下放置 &lt;code&gt;&amp;#x3C;style&gt;&lt;/code&gt; 标签，也可以放置 &lt;code&gt;&amp;#x3C;link rel=&quot;stylesheet&quot;&gt;&lt;/code&gt;，Shadow DOM 下的样式都是局部的，所以不用担心会影响到 Shadow DOM 的外部。并且由于这些样式仅影响局部🌻，所以对性能也有很大的提升。&lt;/p&gt;
+&lt;p&gt;在 Shadow DOM 内部的样式中，也有一些特定的选择器，比如 &lt;code&gt;:host&lt;/code&gt; 选择器，代表着 ShadowRoot，这类似于普通 DOM 中的 &lt;code&gt;:root&lt;/code&gt;，并且它可以与其他伪类组合使用，比如当鼠标在组件上时：&lt;code&gt;:host(:hover)&lt;/code&gt;，当组件拥有某个 class 时：&lt;code&gt;:host(.awesome)&lt;/code&gt;，当组件拥有 &lt;code&gt;disabled&lt;/code&gt; 属性时：&lt;code&gt;:host([disabled])&lt;/code&gt;……但是 &lt;code&gt;:host&lt;/code&gt; 是拥有继承属性的，所以如果在 Custom Elements 外部定义了某些样式，将会覆盖 &lt;code&gt;:host&lt;/code&gt; 中的样式，这样就可以轻松地实现各式各样的“主题风格”了。&lt;/p&gt;
+&lt;p&gt;为了实现自定义主题，我们还可以使用 Shadow DOM 提供的 &lt;code&gt;:host-context()&lt;/code&gt; 选择器，这个选择器允许检查 Shadow DOM 的任何祖先节点是否包含指定选择器。比如如果在最外层 DOM 的 &lt;code&gt;&amp;#x3C;html&gt;&lt;/code&gt; 或 &lt;code&gt;&amp;#x3C;body&gt;&lt;/code&gt; 上有一个 class：&lt;code&gt;.night&lt;/code&gt;，则 Shadow DOM 内就可以使用 &lt;code&gt;:host-context(.night)&lt;/code&gt; 来指定一个夜晚的主题。这样可以实现主题样式的继承。&lt;/p&gt;
+&lt;p&gt;还有一种样式的定义方式是利用 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables&quot;&gt;CSS 变量&lt;/a&gt;。我们在 Shadow DOM 中使用变量来指定样式，比如：&lt;code&gt;background-color: var(--bg-colour, #0F0);&lt;/code&gt;，这样就可以在 Shadow DOM 外面指定 &lt;code&gt;--bg-colour&lt;/code&gt; 变量来设置样式了，如果没有指定变量，将使用默认的样式颜色 &lt;code&gt;#0F0&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;有时我们需要在 Shadow DOM 内部使用完全自定义的样式，比如字体样式、字体大小，如果任由其继承可能导致布局错乱，而每次在组件外面指定样式又略显麻烦，并且也破坏了组件的封装性。所以，Shadow DOM 提供了一个 &lt;code&gt;all&lt;/code&gt; 属性，只要指定 &lt;code&gt;:host{ all: initial; }&lt;/code&gt; 就可以重置所有继承的属性。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3&gt;Demo&lt;/h3&gt;
+&lt;p&gt;Web Components 的 Demo 在网上已经有很多了，这是我 2 年前初次接触 ES6 与 Web Components 的时候写的一个 Demo：&lt;a href=&quot;https://github.com/jinliming2/Calendar-js&quot;&gt;https://github.com/jinliming2/Calendar-js&lt;/a&gt;，一个日历，当时还是 v0 的规范，并且在 Firefox 下还存在会导致 Firefox 崩溃的 Bug（感觉是 Firefox 在实现 Shadow DOM 时的 Bug）。目前这个 Demo 已经不能在 Firefox 下运行了，因为 Firefox 已经删除了 v0 规范，开始实行 v1 标准了，所以近期我可能会重构一下这个 Demo。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;总结&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/w3c/webcomponents&quot;&gt;Web Components&lt;/a&gt; 的概念最初是由 &lt;a href=&quot;https://twitter.com/slightlylate&quot;&gt;Alex Russell&lt;/a&gt; 在 &lt;a href=&quot;https://fronteers.nl/congres/2011/sessions/web-components-and-model-driven-views-alex-russell&quot;&gt;Fronteers Conference 2011&lt;/a&gt; 提出的，这个概念在当时非常的震撼。2013 年，Google 推出了一个叫做“&lt;a href=&quot;https://en.wikipedia.org/wiki/Polymer_(library)&quot;&gt;Polymer&lt;/a&gt;”的 Web Components 框架以推动 Web Components 的发展。&lt;/p&gt;
+&lt;p&gt;2014 年，Chrome 发布了早期版本的 Web Components 组件规范，包括 Custom Elements v0、Shadow DOM v0 和 HTML Imports。但是此时的规范都还是实验性的，现在已经不推荐使用，并且被 Custom Elements v1、Shadow DOM v1 标准取代，而 HTML Imports 却没有标准化，将来会被 ES6 Modules 所取代。&lt;/p&gt;
+&lt;p&gt;v0 规范将会在 Chrome 70 中被标记弃用警告，并在 2019 年 3 月左右从 Chrome 73 中删除。&lt;/p&gt;
+&lt;p&gt;而 v1 标准已经在 Chrome 54+ 和 Safari 10.1+ 中支持，并计划本月（2018 年 10 月）在 Firefox 中正式支持（此前 Firefox 已经支持，但默认禁用，需要在 &lt;a href=&quot;about:config&quot;&gt;about:config&lt;/a&gt; 中启用）。&lt;/p&gt;
+&lt;p&gt;而 HTML Templates 作为 HTML5 的功能早已被各大浏览器接受并支持。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于 Web Components 涉及到的子项较多，这里就不给出 Can I Use 的截图了，读者可以自行去搜索“Web Components”查看相关兼容性，或是&lt;a href=&quot;https://caniuse.com/#search=Web%20Components&quot;&gt;点击这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Can I Use 中包含了 &lt;a href=&quot;https://caniuse.com/#feat=template&quot;&gt;HTML Templates&lt;/a&gt;、&lt;a href=&quot;https://caniuse.com/#feat=imports&quot;&gt;HTML Imports&lt;/a&gt;、&lt;a href=&quot;https://caniuse.com/#feat=shadowdomv1&quot;&gt;Shadow DOM v0&lt;/a&gt;、&lt;a href=&quot;https://caniuse.com/#feat=custom-elements&quot;&gt;Custom Elements v0&lt;/a&gt;、&lt;a href=&quot;https://caniuse.com/#feat=shadowdomv1&quot;&gt;Shadow DOM v1&lt;/a&gt; 和 &lt;a href=&quot;https://caniuse.com/#feat=custom-elementsv1&quot;&gt;Custom Elements v1&lt;/a&gt; 的相关浏览器兼容性和注释，非常详细。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原生 HTML 组件基于的 Web Components 不是单一的技术，他是由 W3C 定义的一系列浏览器标准组成的，通过浏览器自身可以理解的方式去构建组件，这将成为未来的前端标准。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><description><![CDATA[超实用！7个优秀的UI交互动画技巧 原文网址：  https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5   原文作者：Pablo Stanley 以下是提高UI动效的实用建议，让我们一起看看UI…]]></description><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-d6978.jpeg&quot;
