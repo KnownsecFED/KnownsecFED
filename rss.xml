@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 18 Oct 2018 09:23:12 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 31 Oct 2018 09:47:07 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1369,7 +1369,371 @@ customElements&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;由于 Web Components 涉及到的子项较多，这里就不给出 Can I Use 的截图了，读者可以自行去搜索“Web Components”查看相关兼容性，或是&lt;a href=&quot;https://caniuse.com/#search=Web%20Components&quot;&gt;点击这里&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;Can I Use 中包含了 &lt;a href=&quot;https://caniuse.com/#feat=template&quot;&gt;HTML Templates&lt;/a&gt;、&lt;a href=&quot;https://caniuse.com/#feat=imports&quot;&gt;HTML Imports&lt;/a&gt;、&lt;a href=&quot;https://caniuse.com/#feat=shadowdomv1&quot;&gt;Shadow DOM v0&lt;/a&gt;、&lt;a href=&quot;https://caniuse.com/#feat=custom-elements&quot;&gt;Custom Elements v0&lt;/a&gt;、&lt;a href=&quot;https://caniuse.com/#feat=shadowdomv1&quot;&gt;Shadow DOM v1&lt;/a&gt; 和 &lt;a href=&quot;https://caniuse.com/#feat=custom-elementsv1&quot;&gt;Custom Elements v1&lt;/a&gt; 的相关浏览器兼容性和注释，非常详细。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原生 HTML 组件基于的 Web Components 不是单一的技术，他是由 W3C 定义的一系列浏览器标准组成的，通过浏览器自身可以理解的方式去构建组件，这将成为未来的前端标准。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><description><![CDATA[超实用！7个优秀的UI交互动画技巧 原文网址：  https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5   原文作者：Pablo Stanley 以下是提高UI动效的实用建议，让我们一起看看UI…]]></description><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;原生 HTML 组件基于的 Web Components 不是单一的技术，他是由 W3C 定义的一系列浏览器标准组成的，通过浏览器自身可以理解的方式去构建组件，这将成为未来的前端标准。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[用“活着的”CNN进行验证码识别]]></title><description><![CDATA[
+​		            用“活着的” CNN 进行验证码识别 1 验证码介绍 验证码( CAPTCHA )是一种区分用户是计算机或人的公共全自动程序。在 CAPTCHA…]]></description><link>https://knownsec-fed.com/2018-09-28-yong-huo-zhuo-de-cnn-jin-hang-yan-zheng-ma-shi-bie/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-28-yong-huo-zhuo-de-cnn-jin-hang-yan-zheng-ma-shi-bie/</guid><pubDate>Fri, 28 Sep 2018 03:07:03 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-54ef50f5a1408f88274697ffec89a598-f3282.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60.46875000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBP/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//aAAwDAQACEAMQAAAB0DK0SP/EABkQAQADAQEAAAAAAAAAAAAAAAEAAhESIf/aAAgBAQABBQI9RGdE5NAFrXf/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQMT/9oACAEDAQE/AXEwZ//EABYRAQEBAAAAAAAAAAAAAAAAAAATAf/aAAgBAgEBPwGiuP/EABgQAAMBAQAAAAAAAAAAAAAAAAARIRAx/9oACAEBAAY/AiY1SHD/xAAZEAEBAQEBAQAAAAAAAAAAAAABABEhgaH/2gAIAQEAAT8hRgHsykH3edj6hboZOSjW/9oADAMBAAIAAwAAABAXP//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIWH/2gAIAQMBAT8Q1Abtf//EABcRAQEBAQAAAAAAAAAAAAAAAAEAEWH/2gAIAQIBAT8QDjcb/8QAHRABAAICAgMAAAAAAAAAAAAAAREhAFExQZGx8P/aAAgBAQABPxCAZIrZ+MJgYshmTfnK5ogg5N4YRUizqPWOAKIrozlahd5//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;用&quot;活着的&quot;CNN进行验证码识别&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-54ef50f5a1408f88274697ffec89a598-d6978.jpeg&quot;
+        srcset=&quot;/static/header-54ef50f5a1408f88274697ffec89a598-527f0.jpeg 300w,
+/static/header-54ef50f5a1408f88274697ffec89a598-9a7cd.jpeg 600w,
+/static/header-54ef50f5a1408f88274697ffec89a598-d6978.jpeg 1200w,
+/static/header-54ef50f5a1408f88274697ffec89a598-f3282.jpeg 1280w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+​		            用“活着的” CNN 进行验证码识别&lt;/p&gt;
+&lt;h2&gt;1 验证码介绍&lt;/h2&gt;
+&lt;p&gt;验证码( CAPTCHA )是一种区分用户是计算机或人的公共全自动程序。在 CAPTCHA 测试中，作为服务器的计算机会自动生成一个问题由用户来解答。这个问题可以由计算机生成并评判，但是必须只有人类才能解答。由于计算机无法解答 CAPTCHA 的问题，所以回答出问题的用户就可以被认为是人类。&lt;/p&gt;
+&lt;h2&gt;2 CNN 验证码识别介绍&lt;/h2&gt;
+&lt;p&gt;传统的方法是通过两个不相关的步骤来进行文字识别：1）将图片中的文字的位置进行定位，然后通过“小框”来切分，将图片中的文字剪切下来 2）再进行识别。但是在现今的验证码识别中，当要识别的图片中的文字变成手写体互相重叠，这种“切分”法就难以排上用场。因此卷积神经网络（CNN）就被用来识别这些无从下手的手写体。这种CNN 是通过一个或多个卷积层和顶端的全连通层（对应经典的神经网络）组成来对图像识别。CNN 训练模型需要大量的人工标注的图片来训练，但是本文方法就是自主产生随机的字符并产生相应的图片来在运行过程中调整参数。
+本文关注具有 4 个字符的的验证码图片。每个字符在输出层被表现为 62 个神经元。我们可以假设一个映射函数
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG47-9b60938bc6fa0a802ae8ff907d507905-1af14.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 7.282184655396619%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAANElEQVQI11WLSQoAMAjE+v/PCuKGglPqyQZCTjlYdPc0MyEicPfRzBARUyKCqoKZUVXf97hu605/QpTp9gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG47&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG47-9b60938bc6fa0a802ae8ff907d507905-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG47-9b60938bc6fa0a802ae8ff907d507905-10046.png 300w,
+/static/WechatIMG47-9b60938bc6fa0a802ae8ff907d507905-3c4a3.png 600w,
+/static/WechatIMG47-9b60938bc6fa0a802ae8ff907d507905-abe1c.png 1200w,
+/static/WechatIMG47-9b60938bc6fa0a802ae8ff907d507905-1af14.png 1538w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;!-- x \in 
+\lbrace 0’...&apos;9&apos;,&apos;A&apos;...&apos;Z&apos;,&apos;a&apos;...&apos;z&apos;\rbrace来对应 l \in \lbrace0...61\rbrace --&gt;
+&lt;p&gt;即:
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG48-6bfc50a11e3fb346e1debcf6e53e7d64-1ffcd.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 15.068493150684931%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAWElEQVQI132OSwrAIAxEvf9BAwb8LTQQ1JEKDXZRBwJvYHjE4SdzTuPeO8YYH377uXvibrJSClpr8N6DiDbHGJFzRkrJdqf0KlTV/UkIAcyMWqudiNj2FC6FguxcyBXjBwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG48&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG48-6bfc50a11e3fb346e1debcf6e53e7d64-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG48-6bfc50a11e3fb346e1debcf6e53e7d64-10046.png 300w,
+/static/WechatIMG48-6bfc50a11e3fb346e1debcf6e53e7d64-3c4a3.png 600w,
+/static/WechatIMG48-6bfc50a11e3fb346e1debcf6e53e7d64-abe1c.png 1200w,
+/static/WechatIMG48-6bfc50a11e3fb346e1debcf6e53e7d64-1ffcd.png 1314w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;!--
+\Theta(x)=\begin{cases}0...9 &amp;  x =&apos;0&apos;...&apos;9&apos;\\10...35 &amp;  x = &apos;A&apos;...&apos;Z&apos;\\36...61 &amp;  x = &apos;a&apos;...&apos;z&apos;
+\end{cases}
+--&gt;
+&lt;p&gt;将前 62 个神经元分配给序列中的第一个字符，第二批 62 个神经元分配给序列中的第二个字符。因此，对于字符xi&lt;/p&gt;
+&lt;p&gt;所对应的神经元的索引为
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG49-e244e09f2ab18538ad97dd17aa7f12ef-fabe6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 6.396866840731071%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAKUlEQVQI12P4jwX8+/cPTP/58+f/t2/f/n/+/BmMQexPnz6BxZHVIQMAf85O9DtA2mYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG49&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG49-e244e09f2ab18538ad97dd17aa7f12ef-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG49-e244e09f2ab18538ad97dd17aa7f12ef-10046.png 300w,
+/static/WechatIMG49-e244e09f2ab18538ad97dd17aa7f12ef-3c4a3.png 600w,
+/static/WechatIMG49-e244e09f2ab18538ad97dd17aa7f12ef-abe1c.png 1200w,
+/static/WechatIMG49-e244e09f2ab18538ad97dd17aa7f12ef-fabe6.png 1532w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;!--
+n = i * 62 + \Theta(x_i) 
+i \in \lbrace 0...3 \rbrace
+--&gt;
+&lt;p&gt;输出层一共有 4*62=128 个。如果第一个预测字符的索引为 c0=52，因此可以反推预测的字符为
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG51-d7f52db07116e5f12f56ea7fb143e0e9-b0760.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 6.07661822985469%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAKklEQVQI12P4jwP8+/cPTP/58+f/169f/79///7/ly9f/v/9+xdFHh0AAIg1Ty0BipjPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG51&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG51-d7f52db07116e5f12f56ea7fb143e0e9-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG51-d7f52db07116e5f12f56ea7fb143e0e9-10046.png 300w,
+/static/WechatIMG51-d7f52db07116e5f12f56ea7fb143e0e9-3c4a3.png 600w,
+/static/WechatIMG51-d7f52db07116e5f12f56ea7fb143e0e9-abe1c.png 1200w,
+/static/WechatIMG51-d7f52db07116e5f12f56ea7fb143e0e9-b0760.png 1514w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;!--
+x = \Theta^-1(c0) =q
+--&gt;
+&lt;h2&gt;3 实现步骤&lt;/h2&gt;
+&lt;h3&gt;1 验证码生成&lt;/h3&gt;
+&lt;h4&gt;1 验证码中的字符&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;number &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;0&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;4&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;5&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;6&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;7&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;8&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;9&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+ALPHABET &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;A&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;B&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;C&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;D&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;E&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;F&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;G&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;H&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;I&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;J&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;K&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;L&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;M&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;N&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;O&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;P&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Q&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;R&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;S&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;T&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;U&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&apos;V&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;W&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;X&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Y&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Z&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+alphabet &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;c&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;d&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;e&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;f&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;g&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;h&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;i&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;j&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;k&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;l&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;m&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;n&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;o&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;q&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;r&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;s&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;t&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;u&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&apos;v&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;w&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;x&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;y&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;z&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+gen_char_set &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; number &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; ALPHABET  &lt;span class=&quot;token comment&quot;&gt;# 用于生成验证码的数据集&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;2 生成验证码的字符&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;  &lt;span class=&quot;token comment&quot;&gt;# char_set=number + alphabet + ALPHABET,&lt;/span&gt;
+        char_set&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gen_char_set&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# char_set=number,&lt;/span&gt;
+        captcha_size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;
+    生成随机字符串，4位
+    :param char_set:
+    :param captcha_size:
+    :return:
+    &quot;&quot;&quot;&lt;/span&gt;
+    captcha_text &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;captcha_size&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; random&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;choice&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;char_set&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        captcha_text&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; captcha_text
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;3 按照字符生成对应的验证码&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;gen_captcha_text_and_image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;
+    生成字符对应的验证码
+    :return:
+    &quot;&quot;&quot;&lt;/span&gt;
+    image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ImageCaptcha&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    captcha_text &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; random_captcha_text&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    captcha_text &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;join&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;captcha_text&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    captcha &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;generate&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;captcha_text&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    captcha_image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;captcha&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    captcha_image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;captcha_image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; captcha_text&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; captcha_image
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;4 训练&lt;/h2&gt;
+&lt;p&gt;传统的方法是通过两个不相关的步骤来进行文字识别：1）将图片中的文字的位置进行定位，然后通过“小框”来切分，将图片中的文字剪切下来
+2）再进行识别。但是在现今的验证码识别中，当要识别的图片中的文字变成手写体互相重叠
+，这种“切分”法就难以排上用场。因此卷积神经网络（CNN）就被用来识别这些无从下手的手写体。这种CNN是通过一个或多个卷积层和顶端的全连通层（对应经典的神经网络）组成来对图像识别。CNN 训练模型需要大量的人工标注的图片来训练，但是本文方法就是自主产生随机的字符并产生相应的图片来在运行过程中调整参数。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;crack_captcha_cnn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w_alpha&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b_alpha&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;1
+    定义CNN
+    cnn在图像大小是2的倍数时性能最高, 如果你用的图像大小不是2的倍数，可以在图像边缘补无用像素。
+    np.pad(image,((2,3),(2,2)), &apos;constant&apos;, constant_values=(255,))  # 在图像上补2行，下补3行，左补2行，右补2行
+    &quot;&quot;&quot;&lt;/span&gt;
+
+    x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; shape&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; IMAGE_HEIGHT&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; IMAGE_WIDTH&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# w_c1_alpha = np.sqrt(2.0/(IMAGE_HEIGHT*IMAGE_WIDTH)) #&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# w_c2_alpha = np.sqrt(2.0/(3*3*32))&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# w_c3_alpha = np.sqrt(2.0/(3*3*64))&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# w_d1_alpha = np.sqrt(2.0/(8*32*64))&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# out_alpha = np.sqrt(2.0/1024)&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# 3 conv layer&lt;/span&gt;
+    w_c1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    b_c1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;relu&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;bias_add&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;conv2d&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; w_c1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; strides&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; padding&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;SAME&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b_c1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;max_pool&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ksize&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; strides&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; padding&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;SAME&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dropout&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; keep_prob&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    w_c2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    b_c2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;relu&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;bias_add&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;conv2d&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; w_c2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; strides&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; padding&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;SAME&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b_c2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;max_pool&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ksize&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; strides&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; padding&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;SAME&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dropout&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; keep_prob&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    w_c3 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    b_c3 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv3 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;relu&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;bias_add&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;conv2d&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; w_c3&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; strides&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; padding&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;SAME&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b_c3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv3 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;max_pool&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv3&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ksize&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; strides&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; padding&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;SAME&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    conv3 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dropout&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv3&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; keep_prob&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# Fully connected layer&lt;/span&gt;
+    w_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1024&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    b_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1024&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    dense &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;conv3&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; w_d&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_shape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;as_list&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    dense &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;relu&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;matmul&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dense&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; w_d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b_d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    dense &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dropout&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dense&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; keep_prob&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    w_out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1024&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; MAX_CAPTCHA &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; CHAR_SET_LEN&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    b_out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Variable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b_alpha &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;random_normal&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;MAX_CAPTCHA &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; CHAR_SET_LEN&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;tf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;matmul&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dense&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; w_out&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b_out&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 36*4&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# out = tf.reshape(out, (CHAR_SET_LEN, MAX_CAPTCHA))  # 重新变成4,36的形状&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# out = tf.nn.softmax(out)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; out
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG37-2b30217a216c2aeefeda7b2c3b4847e5-3c3e2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 840px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 17.61904761904762%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAuElEQVQY03WPWw/BUBCEW6UIEteQSLyjSu8XR9vTNkSE//9vxp4edXnw8CWzmezMrjIOcwzcBMrahbIh9hk05wLNuxMPKDtGnkOe98vWlwgtdmtGIUfXZmgf4grdSqDbnCjQsnPoh48nOaJphu/gjsUwiQos2BmzYykDe84JKrWphl/pUZBhzkos0wtpXl3SMALyX9SXEWIWBS0zkkUidehnr5c99N0U05jCsitW/Iauxd7e35e/eAJIN3LfFLsyygAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG37&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG37-2b30217a216c2aeefeda7b2c3b4847e5-3c3e2.png&quot;
+        srcset=&quot;/static/WechatIMG37-2b30217a216c2aeefeda7b2c3b4847e5-b7421.png 300w,
+/static/WechatIMG37-2b30217a216c2aeefeda7b2c3b4847e5-1d0ca.png 600w,
+/static/WechatIMG37-2b30217a216c2aeefeda7b2c3b4847e5-3c3e2.png 840w&quot;
+        sizes=&quot;(max-width: 840px) 100vw, 840px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;由于时间和设备的限制，我在验证码生成字符串中删去了英文字母只剩下了数字进行训练。要不然可以算到地老天荒也还是3%的准确率。下图是gen&lt;em&gt;char&lt;/em&gt;set = number + ALPHABET的训练1万多步的结果
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG34-05c3b6e1030749865cc3e6a57e95b8fe-95677.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 884px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 46.15384615384615%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABJElEQVQoz5WSUXPBUBCFbzroQ7VRLVIPeNV0MCGJSIOkFGWm03rw5v//i9PdlYkJang4M7m79357djfKWv2iHn2h/D6F7oxRcEOoZg+Zlocn7wMvwQzV0RzKdKBe7bROxazVWoAGPSy4Y4HyxWx7AJ3gJX8iunlzoaXkJNAsFWcDErOWPwRcigsG3veGkrzt+LjrBsjT+cEeIdf2qMhOOSqWafUFyHDdCcWIxOz1Fo1wgUrwedTy82CCWlzsbMt0X8Tf3e8N6gTkx+xEWqYEAx8JXvanktPMfYuJDs9m3HKDXFTipQiwuQMWvUhma5B77T/AEZC3HJ7ecrEfoTqcy1LUNUB2aKRmaMvmGMhxnuFVDmvkkP+5ZIaxQ4bz/Ng9b/MS4B8BfgjQcS7l/QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;的训练截图&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG34-05c3b6e1030749865cc3e6a57e95b8fe-95677.png&quot;
+        srcset=&quot;/static/WechatIMG34-05c3b6e1030749865cc3e6a57e95b8fe-d6255.png 300w,
+/static/WechatIMG34-05c3b6e1030749865cc3e6a57e95b8fe-6fbbd.png 600w,
+/static/WechatIMG34-05c3b6e1030749865cc3e6a57e95b8fe-95677.png 884w&quot;
+        sizes=&quot;(max-width: 884px) 100vw, 884px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;5 总结&lt;/h2&gt;
+&lt;p&gt;本文采用了“活着的 CNN”进行验证码识别，可以免去大量进行人工标注的步骤，对工作效率有不小的提升。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】超实用！7 个优秀的 UI 交互动画技巧]]></title><description><![CDATA[超实用！7个优秀的UI交互动画技巧 原文网址：  https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5   原文作者：Pablo Stanley 以下是提高UI动效的实用建议，让我们一起看看UI…]]></description><link>https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-27-yi-chao-shi-yong-7-ge-you-xiu-de-ui-jiao-hu-dong-hua-ji-qiao/</guid><pubDate>Thu, 27 Sep 2018 09:25:15 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-fd7fb8a0da6192dd57cc10c5be8b6d98-d6978.jpeg&quot;
