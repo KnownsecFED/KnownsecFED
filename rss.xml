@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 31 Oct 2018 09:47:07 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Nov 2018 03:31:53 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1613,9 +1613,6 @@ gen_char_set &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; number 
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h2&gt;4 训练&lt;/h2&gt;
-&lt;p&gt;传统的方法是通过两个不相关的步骤来进行文字识别：1）将图片中的文字的位置进行定位，然后通过“小框”来切分，将图片中的文字剪切下来
-2）再进行识别。但是在现今的验证码识别中，当要识别的图片中的文字变成手写体互相重叠
-，这种“切分”法就难以排上用场。因此卷积神经网络（CNN）就被用来识别这些无从下手的手写体。这种CNN是通过一个或多个卷积层和顶端的全连通层（对应经典的神经网络）组成来对图像识别。CNN 训练模型需要大量的人工标注的图片来训练，但是本文方法就是自主产生随机的字符并产生相应的图片来在运行过程中调整参数。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;crack_captcha_cnn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w_alpha&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b_alpha&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;1
