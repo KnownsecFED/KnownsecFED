@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Nov 2018 02:53:04 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Nov 2018 03:10:57 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -3112,39 +3112,7 @@ Last 2 versions&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;等开发工具发了第一版之后再安装使用。不要急着去做小白鼠。&lt;/p&gt;
 &lt;p&gt;好程序员写好代码。伟大的程序员不写代码。神级程序员删代码。&lt;/p&gt;
 &lt;p&gt;不管有多少经理在后边催着你，第一步要做的是可靠地重现 BUG。&lt;/p&gt;
-&lt;p&gt;有一天，你会遇到一个年长的有经验的人。某个时候，这个人将会教导你编程之道。别理他。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[认识 MongoDB 4.0 的新特性——事务（Transactions）]]></title><description><![CDATA[前言 相信使用过主流的关系型数据库的朋友对“事务（Transactions…]]></description><link>https://knownsec-fed.com/2018-08-24-mongodb-shi-wu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-24-mongodb-shi-wu/</guid><pubDate>Mon, 24 Sep 2018 09:25:02 GMT</pubDate><content:encoded>&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-bae1656d3d6b694050a648f36d1f1acb-d6978.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAABz7FmKxgXD//EABoQAAICAwAAAAAAAAAAAAAAAAARAQIQEjL/2gAIAQEAAQUC1QqrF+ZP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAAAIQIZEBIjH/2gAIAQEABj8C2VRHSV02G//EABwQAAICAgMAAAAAAAAAAAAAAAERACExQRBRwf/aAAgBAQABPyEiqNHaAr10dlxrOD1woqmB7M5//9oADAMBAAIAAwAAABBL7//EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAgBAwEBPxDUf//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EFf/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhQTGBkf/aAAgBAQABPxCkFE6CN/Mz2BaPQJfHPAvrxlUnWgofiTkJXmhWXkJBTWE//9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;MongoDB事务&quot;
-        title=&quot;&quot;
-        src=&quot;/static/header-bae1656d3d6b694050a648f36d1f1acb-d6978.jpg&quot;
-        srcset=&quot;/static/header-bae1656d3d6b694050a648f36d1f1acb-527f0.jpg 300w,
-/static/header-bae1656d3d6b694050a648f36d1f1acb-9a7cd.jpg 600w,
-/static/header-bae1656d3d6b694050a648f36d1f1acb-d6978.jpg 1200w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;有一天，你会遇到一个年长的有经验的人。某个时候，这个人将会教导你编程之道。别理他。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[认识 MongoDB 4.0 的新特性——事务（Transactions）]]></title><description><![CDATA[前言 相信使用过主流的关系型数据库的朋友对“事务（Transactions…]]></description><link>https://knownsec-fed.com/2018-08-24-mongodb-shi-wu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-24-mongodb-shi-wu/</guid><pubDate>Mon, 24 Sep 2018 09:25:02 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./header.jpg&quot; alt=&quot;MongoDB事务&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;相信使用过主流的关系型数据库的朋友对“事务（Transactions）”不会太陌生，它可以让我们把对多张表的多次数据库操作整合为一次原子操作，这在高并发场景下可以保证多个数据操作之间的互不干扰；并且一旦在这些操作过程任一环节中出现了错误，事务会中止并且让数据回滚，这使得同时在多张表中修改数据的时候保证了数据的一致性。&lt;/p&gt;
 &lt;p&gt;以前 MongoDB 是不支持事务的，因此开发者在需要用到事务的时候，不得不借用其他工具，在业务代码层面去弥补数据库的不足。随着 4.0 版本的发布，MongoDB 也为我们带来了原生的事务操作，下面就让我们一起来认识它，并通过简单的例子了解如何去使用。&lt;/p&gt;
