@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Nov 2018 03:31:53 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Nov 2018 02:53:04 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,205 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】你耳朵里有条鱼]]></title><description><![CDATA[译者注：标题取自于普林斯顿大学比较文学系法语教授戴维·贝洛斯著作 《你耳朵里有条鱼吗：翻译及万物的意义》，讲述了翻译的重要性并探讨了什么是好的翻译。 本文章作者为 Google Translate 设计团队 UX manager， Pendar Yousefi…]]></description><link>https://knownsec-fed.com/2018-10-11-yi-ni-er-duo-li-you-tiao-yu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-11-yi-ni-er-duo-li-you-tiao-yu/</guid><pubDate>Thu, 11 Oct 2018 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】React Native与ios交互]]></title><description><![CDATA[原生和RN混合开发中的交互 原生加载RN RN 端
+创建好React Native 项目后，项目中创建了 index.ios.js 的js文件，这是RN中iOS的js端入口文件，我们可以在里边添加代码如下： 在这里，我们创建了一个 HelloWorldCp 的React…]]></description><link>https://knownsec-fed.com/2018-10-22-yi-reactnative-yu-ios-jiao-hu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-22-yi-reactnative-yu-ios-jiao-hu/</guid><pubDate>Mon, 22 Oct 2018 02:27:37 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-3e0feaadc47f7d20114110e4586e985a-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EABYBAQEBAAAAAAAAAAAAAAAAAAAEBf/aAAwDAQACEAMQAAAB5Mrs6oP/xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAEBAQAAAAAAAAAAAAAAAAAxACD/2gAIAQEABj8CZz//xAAZEAADAAMAAAAAAAAAAAAAAAAAAREgUZH/2gAIAQEAAT8hiEWg+4f/2gAMAwEAAgADAAAAEDTv/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qp//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEgIVFh4f/aAAgBAQABPxASrBrhh5zADpOxh//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;[译]React Native与ios交互&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-3e0feaadc47f7d20114110e4586e985a-d6978.jpeg&quot;
+        srcset=&quot;/static/header-3e0feaadc47f7d20114110e4586e985a-527f0.jpeg 300w,
+/static/header-3e0feaadc47f7d20114110e4586e985a-9a7cd.jpeg 600w,
+/static/header-3e0feaadc47f7d20114110e4586e985a-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;原生和RN混合开发中的交互&lt;/h1&gt;
+&lt;h2&gt;原生加载RN&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;RN 端
+创建好React Native 项目后，项目中创建了 index.ios.js 的js文件，这是RN中iOS的js端入口文件，我们可以在里边添加代码如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;import React, { Component } from &apos;react&apos;;
+import { AppRegistry, View, Text} from &apos;react-native&apos;;
+class HelloWorldCp extends Component {
+    render() {
+       return (
+        &lt;View style={{flex:1 , justifyContent: &apos;center&apos;, alignItems: &apos;center&apos;}}&gt;
+          &lt;Text&gt;Hello world!&lt;/Text&gt;
+        &lt;/View&gt;
+     );
+  }
+}
+AppRegistry.registerComponent(&apos;HelloWorldCp&apos;, () =&gt; HelloWorldCp);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在这里，我们创建了一个 HelloWorldCp 的React组件，并用 AppRegistry.registerComponent注册了该组件，这样原生系统才可以使用该组件。在组件里，我们在默认的 render() 方法中输出了默认的view，view下包含了一个 “Hello World!” 的标签。对于view，设置了一个style，大意是将view下的 标签置于View的中央。&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;ios 端
+接下来的事情便是在原生UI中将这个组件显示出来，我们需要用到React容器类RCTRootView。加载代码如下:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;NSURL *jsCodeLocation = [NSURL URLWithString:@&quot;http://localhost:8081/index.ios.bundle?platform=ios&quot;];
+RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                moduleName:@&quot;HelloWorldCp&quot;
+                                         initialProperties:nil
+                                             launchOptions:nil];
+UIViewController *vc = [[UIViewController alloc] init];
+vc.view = rootView;
+[self.navigationController pushViewController:vc animated:YES];&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;看代码可知，首先我们初始化了一个 NSURL 对象，它指向本地 JS 的调试服务地址，以供 RCTRootView 初始化时使用。RCTRootView 用来承载 JS 特定的组件，在原生下可
+以当做普通的 UIView 来进行处理，如添加到 superview，设置frame等操作。初始化时第一个参数为 JS 文件的服务器地址，moduleName 是 React 中注册好的组件，
+initialProperties 接收一个字典，用来 传递参数给 JS，最后一个则是启动项参数。在这里，我们加载了上面创建的 HelloWorldCp 组件。最后将初始化的 RCTRootView 设
+置成新页面的根view并展示。&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;初始化RCTRootView数据传递&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;      NSDictionary *param = @{@&quot;scores&quot; :@[
+                                     @{@&quot;name&quot; : @&quot;Alex&quot;,@&quot;value&quot;: @&quot;42&quot;},
+                                     @{@&quot;name&quot; : @&quot;Joel&quot;,@&quot;value&quot;: @&quot;10&quot;},
+                                     @{@&quot;name&quot; : @&quot;Zona&quot;,@&quot;value&quot;: @&quot;20&quot;}
+                                    ]
+                        };
+
+      NSURL *jsCodeLocation = [NSURL URLWithString:@&quot;http://localhost:8081/index.ios.bundle?platform=ios&quot;];
+      RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                    moduleName:@&quot;ParamPassCp&quot;
+                                             initialProperties:param
+                                                 launchOptions:nil];
+
+      UIViewController *vc = [[UIViewController alloc] init];
+      vc.view = rootView;
+      [self.navigationController pushViewController:vc animated:YES];&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;相比于上面 Hello World的例子，这里初始化了一个字典，存储了一些名字及对应的分数,并在 RCTRootView 初始化的时候作为 initialProperties 的参数进行传递。
+RN 接收参数代码如下:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;        class ParamPassCp extends React.Component {
+         render() {
+             var contents = this.props[&quot;scores&quot;].map(
+             score =&gt; &lt;Text key={score.name}&gt;{score.name}:{score.value}{&quot;\n&quot;}&lt;/Text&gt;
+          );
+            return (
+             &lt;View style={styles.container}&gt;
+                &lt;Text style={styles.highScoresTitle}&gt;
+                    {contents}
+                &lt;/Text&gt;
+             &lt;/View&gt;
+            );
+           }
+        }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;RN调用原生&lt;/h2&gt;
+&lt;p&gt;要想让iOS类内的方法能够被RN调用，类比RN端的组件注册，iOS端同样需要注册该类。首先便需要原生类实现协议：RCTBridgeModule，实现该协议的类，会自动注册到Object-C对应的Bridge中。所以定义可以让RN调用的类可以这样写：
+​      &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;         #import &quot;RCTBridgeModule.h&quot;
+         @interface RNIOSLog : NSObject&lt;RCTBridgeModule&gt;
+         @end&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;所有实现 RCTBridgeModule 的类都必须显示的使用宏命令:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;         @implementation RNIOSLog
+         RCT_EXPORT_MODULE();
+         @end&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;该宏的作用是:自动为该类注册为JS端的模块,当Object-c Bridge加载的时候。这个类注册的模块可以被JavaScript Bridge调用。当然该宏可以接受一个参数作为注册的模块名，默认值是该类的名称。注册完模块之后，还需要注册模块下需要暴露给JS的方法。此外，暴露出的方法返回值必须为void。
+​      &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;        RCT_EXPORT_METHOD(show:(NSString *)msg){
+          NSLog(@&quot;msg:%@&quot;,msg);
+        }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;原生的模块方法注册好之后，JS端代码如下:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;      import {NativeModules} from &quot;react-native&quot;;
+      var RNIOSLog = NativeModules.RNIOSLog;
+
+      class RNLogCp extends Component {
+           render() {
+              return (
+                  &lt;View style={styles.container}&gt;
+            
+                      &lt;TouchableHighlight onPress={()=&gt;RNIOSLog.show(&apos;from react native&apos;)}
+                                    style={styles.btn}&gt;
+                        &lt;Text&gt;showLog&lt;/Text&gt;
+                        
+                  &lt;/TouchableHighlight&gt;
+                
+                  &lt;/View&gt;
+                );
+            }
+        }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;原生调用RN&lt;/h2&gt;
+&lt;p&gt;   该类需要继承自 RCTEventEmitter，如下:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;       #import &quot;RCTEventEmitter.h&quot;  
+       @interface CallRNTest : RCTEventEmitter&lt;RCTBridgeModule&gt;
+       @end&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;然后在 .m 文件中，在子类中为父类 RCTEventEmitter 的 bridge 生成 set/get方法，并使用用于导出模块的宏。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;    @implementation CallRNTest
+      @synthesize bridge = _bridge;
+       RCT_EXPORT_MODULE();
+    @end
+    -(NSArray&lt;NSString *&gt; *)supportedEvents{
+        return @[@&quot;callRn&quot;];
+     }
+     -(void)nativeCallRn:(NSString*)code result:(NSString*) result
+         {
+            [self sendEventWithName:@&quot;callRn&quot;
+                 body:@{
+                        @&quot;code&quot;: code,
+                        @&quot;result&quot;: result,
+                        }];
+      }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;js端代码&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;    import { ...  NativeModules,  NativeEventEmitter} from &apos;react-native&apos;;  
+    var CallRNTest = NativeModules.CallRNTest;
+    const myNativeEvt = new NativeEventEmitter(CallRNTest);
+    componentWillMount() {
+        this.listener = myNativeEvt.addListener(&apos;callRn&apos;, this.callRn.bind(this));  
+    }
+     componentWillUnmount() {
+     this.listener &amp;&amp; this.listener.remove(); 
+     this.listener = null;
+    }
+    callRn(data) {
+      console.warn(data.code, data.result);
+    }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[【译】你耳朵里有条鱼]]></title><description><![CDATA[译者注：标题取自于普林斯顿大学比较文学系法语教授戴维·贝洛斯著作 《你耳朵里有条鱼吗：翻译及万物的意义》，讲述了翻译的重要性并探讨了什么是好的翻译。 本文章作者为 Google Translate 设计团队 UX manager， Pendar Yousefi…]]></description><link>https://knownsec-fed.com/2018-10-11-yi-ni-er-duo-li-you-tiao-yu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-11-yi-ni-er-duo-li-you-tiao-yu/</guid><pubDate>Thu, 11 Oct 2018 02:55:21 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-c8be1ec4ef9a7bebad0b9f2358559e68-d6978.jpeg&quot;
@@ -2335,7 +2533,151 @@ gen_char_set &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; number 
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[异端审判器！一个泛用型文本聚类模型的实现（1）]]></title><description><![CDATA[如果给你一大堆用户输入，里面有大量的中文地名，像是“北京”、“成都”、“东莞”，不幸的是，其中也混有一些罗马地名，比如 “Singapore”、“New York”、“Tokyo”。你的任务是将它们分开，你会如何去做？ 当然，有很多方法可以轻易做到。 如果是一堆 “good…]]></description><link>https://knownsec-fed.com/2018-09-25- heretic-judger-1/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-25- heretic-judger-1/</guid><pubDate>Tue, 25 Sep 2018 03:14:54 GMT</pubDate><content:encoded>&lt;p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】Android 路径动画]]></title><description><![CDATA[注:本文来自于Romain Guy大神  原文在此 我几个月以前就已经离开了Android小组,但是我依然喜欢写一些UI视觉效果的Demo给Android平台.目前在旅行的空闲时间里写了一些新的Demo,我希望能够教你们一些开发技巧. 这个新的Demo叫做Road Trip…]]></description><link>https://knownsec-fed.com/2018-09-25-yi-android-lu-jing-dong-hua/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-25-yi-android-lu-jing-dong-hua/</guid><pubDate>Tue, 25 Sep 2018 09:26:24 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-5256b18e38455c6a5f12c9f916c365f7-9fc4d.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1085px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.29953917050692%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAQF/9oADAMBAAIQAxAAAAGdlZlgf//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEAAQUCX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABcQAAMBAAAAAAAAAAAAAAAAAAABICH/2gAIAQEAAT8hRk//2gAMAwEAAgADAAAAED/v/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABcQAQADAAAAAAAAAAAAAAAAABEAASD/2gAIAQEAAT8QBAN5/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【译】Android 路径动画&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-5256b18e38455c6a5f12c9f916c365f7-9fc4d.jpeg&quot;
+        srcset=&quot;/static/header-5256b18e38455c6a5f12c9f916c365f7-d5677.jpeg 300w,
+/static/header-5256b18e38455c6a5f12c9f916c365f7-3dd4c.jpeg 600w,
+/static/header-5256b18e38455c6a5f12c9f916c365f7-9fc4d.jpeg 1085w&quot;
+        sizes=&quot;(max-width: 1085px) 100vw, 1085px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注:本文来自于Romain Guy大神 &lt;strong&gt;&lt;a href=&quot;http://www.curious-creature.com/2013/12/21/android-recipe-4-path-tracing/&quot;&gt;原文在此&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我几个月以前就已经离开了Android小组,但是我依然喜欢写一些UI视觉效果的Demo给Android平台.目前在旅行的空闲时间里写了一些新的Demo,我希望能够教你们一些开发技巧.&lt;/p&gt;
+&lt;p&gt;这个新的Demo叫做Road Trip USA ,展示了如何实现路径动画效果,下面的视频展示了路径动画的效果:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://v.youku.com/v_show/id_XMzgzNjcxMzk0MA==.html&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/pdGC78dx/94_D6_F4_E5-_CC02-45_DD-948_D-_A6_D3_F8_A7_B889.png&quot; alt=&quot;看视频&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;路径动画的用途很广泛:可以展示一张地图,沿途画出每个城市的边界线,每个城市的名字,可以作为一个加载进度条,进度条可以在开始只描述一个起始点,然后随着线条的绘制逐渐展现整个进度条.&lt;/p&gt;
+&lt;p&gt;为了更好的理解下文,建议你先看看&lt;a href=&quot;https://github.com/romainguy/road-trip&quot;&gt;源码&lt;/a&gt;或者获取&lt;a href=&quot;http://goo.gl/8eyy7o&quot;&gt;APK&lt;/a&gt;体验一下.&lt;/p&gt;
+&lt;h2&gt;路径特效&lt;/h2&gt;
+&lt;p&gt;路径动画主要是靠Android Api &lt;a href=&quot;https://developer.android.com/reference/android/graphics/PathEffect&quot;&gt;PathEffect&lt;/a&gt;实现.一个PathEffect对象可以传递给Canvas.drawPath()的Path对象.目前主要的PathEffect 类型有:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CornerPathEffect&lt;/strong&gt; 把路径连线的夹角变为圆弧夹角&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DashPathEffect&lt;/strong&gt; 把路径的连线变为虚线&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DiscreatePathEffect&lt;/strong&gt; 把路径变为一系列随机的,偏离原路径的片段&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PathDashPathEffect&lt;/strong&gt; 使用另外一种路径作为模板来绘制当前的路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些类型又可以被&lt;strong&gt;ComposePathEffect&lt;/strong&gt;或者&lt;strong&gt;SumPathEffect&lt;/strong&gt;组合,举个例子:一个被连接在一起的线段通过使用ComposeEffect(包含CornetPathEffect和DashPathEffect)能够被转为圆角虚线的路径.如下图所示
+&lt;img src=&quot;http://www.curious-creature.com/blog/wp-content/uploads/2013/12/effects.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;逐步退出效果&lt;/h2&gt;
+&lt;p&gt;下面的进度条实例就是使用了一个&lt;strong&gt;PathDashPathEffect&lt;/strong&gt;和凹进去的箭头作为模板.因为PathEffect Api已经帮我们做了所有的工作,我们只需要创建一个路径就可以了:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-java&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; Path &lt;span class=&quot;token function&quot;&gt;makeConvexArrow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt; length&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt; height&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    Path p &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.0f&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; p&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 构建一个路径  &lt;/span&gt;
+Path path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+path&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+path&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;232&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 创建PathEffect  &lt;/span&gt;
+PathEffect effect &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PathDashPathEffect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;makeConvexArrow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;24.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;14.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// 模板&lt;/span&gt;
+    &lt;span class=&quot;token number&quot;&gt;36.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;                            &lt;span class=&quot;token comment&quot;&gt;// 两个模板之间的距离&lt;/span&gt;
+    &lt;span class=&quot;token number&quot;&gt;0.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;                             &lt;span class=&quot;token comment&quot;&gt;// 第一个模板的偏移距离&lt;/span&gt;
+    PathDashPathEffect&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Style&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ROTATE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 路径效果&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 把特效应用在路径上并画出来&lt;/span&gt;
+paint&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setPathEffect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;effect&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+canvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;drawPath&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;path&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; paint&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们要实现逐步退出效果的关键是PathDashPathEffect的第三个参数phase(与第一个模板的偏移距离),使用动画改变这个值,就能够达到逐渐退出的效果.
+&lt;img src=&quot;http://www.curious-creature.org/blog/wp-content/uploads/2013/12/device-2013-12-21-204951.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;路径动画&lt;/h2&gt;
+&lt;p&gt;路径动画也是使用了phase参数,但是现在使用的是DashPathEffect而不是PathDashPathEffect.你制定虚线的的长度,也可以制定虚线之间的间隙,传递给DashPathEffect的构造函数.只要让虚线和空隙的长度比路径本身长的话,就能够实现路径动画.&lt;/p&gt;
+&lt;p&gt;计算一个线段的长度非常简单,但是要计算一个随意的线段长度就有一点复杂了,因为我们需要计算二次或者三次曲线.幸运的是android提供给我们一个简单的api来计算这种路径的长度:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;//创建一个路径  
+Path path = makePath();
+
+// 计算路径长度,就是这么简单
+PathMeasure measure = new PathMeasure(path, false);
+float length = measure.getLength();
+
+// 设置DashPathEffect
+PathEffect effect = new DashPathEffect(new float[] { length, length }, 0.0f);
+paint.setPathEffect(effect);
+
+canvas.drawPath(path, paint);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;运行上面这段代码你会发现几乎和不使用PathEffect一样,这是因为DashPathEffect总是先画实线,所以我们需要先创建一个长度和路径长度一样的空隙&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;PathEffect effect = new DashPathEffect(new float[] { length, length }, length);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;接下来我们只需要使用属性动画将phase的值从0变到length就可以了.你可以在StateView.java里面看到整个动画的实现.&lt;/p&gt;
+&lt;h2&gt;描画箭头&lt;/h2&gt;
+&lt;p&gt;箭头指示器的实现要更加多一点技巧,不再只是使用一个PathEffect,我们需要2个:一个DashPathEffect 用来画箭头的尾部,一个PathDashPathEffect用来画箭头顶部.PathDashPathEffect的advance参数设置为整个箭头从顶部到尾部的路径长度.&lt;/p&gt;
+&lt;p&gt;你可以在IntroView.java找到整个实现.&lt;/p&gt;
+&lt;h2&gt;使用SVG 路径&lt;/h2&gt;
+&lt;p&gt;在这个demo里面我使用SVG文件来存储路径信息,SVG文件加载虽然很慢,但是完全可以使用其他简化版二进制格式的方式来加载,因为我们只需要路径的几何数据,而不需要样式数据.&lt;/p&gt;
+&lt;p&gt;我选择了第三方库&lt;a href=&quot;https://github.com/BigBadaboom/androidsvg&quot;&gt;androidsvg&lt;/a&gt;,因为它使用简单,但是它却不能获取到SVG文件里面的路径信息.所以我使用一个自定义的Canvas,并且复写drawPath()方法:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Canvas canvas = new Canvas() {
+    private final Matrix mMatrix = new Matrix();
+
+    @Override
+    public void drawPath(Path path, Paint paint) {
+        Path dst = new Path();
+
+        // 获取 matrix
+        getMatrix(mMatrix);
+        // 将 matrix应用到路径
+        path.transform(mMatrix, dst);
+        // 保存路径信息
+        mPaths.add(new SvgPath(dst, new Paint(mSourcePaint)));
+    }
+};
+
+// 加载一个svg文件
+SVG svg = SVG.getFromResource(context, R.raw.map_usa);
+// 将svg画出来
+svg.renderToCanvas(canvas);&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;路径已经被预加载了,所以我们能够准确的获取到路径在各种屏幕上的大小.一个更加高级的版本你可以参考SvgHelper.java.这个实现增加能够让路径自动在它的容器里缩放.&lt;/p&gt;
+&lt;h2&gt;其他的视觉效果&lt;/h2&gt;
+&lt;p&gt;如果你仔细体验这个Demo,你将会注意到其他的几个视觉效果:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;黑白色转换,当把一行图片滑向左边的时候出现&lt;/li&gt;
+&lt;li&gt;固定滑动,一种类似固定的卡片滑动效果,当上下滑动列表的时候出现&lt;/li&gt;
+&lt;li&gt;并行滑动,不同的项目以不同的速度滑动&lt;/li&gt;
+&lt;li&gt;动态实现标题栏透明,和Google Music效果类似&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些所有的效果都可以在MainActivity.java里找到.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[异端审判器！一个泛用型文本聚类模型的实现（1）]]></title><description><![CDATA[如果给你一大堆用户输入，里面有大量的中文地名，像是“北京”、“成都”、“东莞”，不幸的是，其中也混有一些罗马地名，比如 “Singapore”、“New York”、“Tokyo”。你的任务是将它们分开，你会如何去做？ 当然，有很多方法可以轻易做到。 如果是一堆 “good…]]></description><link>https://knownsec-fed.com/2018-09-25- heretic-judger-1/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-25- heretic-judger-1/</guid><pubDate>Tue, 25 Sep 2018 03:14:54 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-4fd5ab707531b10faf64ff62a6df50b1-d6978.jpeg&quot;
@@ -2770,7 +3112,191 @@ Last 2 versions&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;等开发工具发了第一版之后再安装使用。不要急着去做小白鼠。&lt;/p&gt;
 &lt;p&gt;好程序员写好代码。伟大的程序员不写代码。神级程序员删代码。&lt;/p&gt;
 &lt;p&gt;不管有多少经理在后边催着你，第一步要做的是可靠地重现 BUG。&lt;/p&gt;
-&lt;p&gt;有一天，你会遇到一个年长的有经验的人。某个时候，这个人将会教导你编程之道。别理他。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】与用户联系：在网页设计中融入幽默]]></title><description><![CDATA[与用户联系：在网页设计中融入幽默 原文地址： https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/ 作者：Victor Yocco 琼正在申请all-online-loanzzz…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</guid><pubDate>Wed, 19 Sep 2018 07:26:17 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;有一天，你会遇到一个年长的有经验的人。某个时候，这个人将会教导你编程之道。别理他。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[认识 MongoDB 4.0 的新特性——事务（Transactions）]]></title><description><![CDATA[前言 相信使用过主流的关系型数据库的朋友对“事务（Transactions…]]></description><link>https://knownsec-fed.com/2018-08-24-mongodb-shi-wu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-24-mongodb-shi-wu/</guid><pubDate>Mon, 24 Sep 2018 09:25:02 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-bae1656d3d6b694050a648f36d1f1acb-d6978.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAABz7FmKxgXD//EABoQAAICAwAAAAAAAAAAAAAAAAARAQIQEjL/2gAIAQEAAQUC1QqrF+ZP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAAAIQIZEBIjH/2gAIAQEABj8C2VRHSV02G//EABwQAAICAgMAAAAAAAAAAAAAAAERACExQRBRwf/aAAgBAQABPyEiqNHaAr10dlxrOD1woqmB7M5//9oADAMBAAIAAwAAABBL7//EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAgBAwEBPxDUf//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EFf/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhQTGBkf/aAAgBAQABPxCkFE6CN/Mz2BaPQJfHPAvrxlUnWgofiTkJXmhWXkJBTWE//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;MongoDB事务&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-bae1656d3d6b694050a648f36d1f1acb-d6978.jpg&quot;
+        srcset=&quot;/static/header-bae1656d3d6b694050a648f36d1f1acb-527f0.jpg 300w,
+/static/header-bae1656d3d6b694050a648f36d1f1acb-9a7cd.jpg 600w,
+/static/header-bae1656d3d6b694050a648f36d1f1acb-d6978.jpg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;相信使用过主流的关系型数据库的朋友对“事务（Transactions）”不会太陌生，它可以让我们把对多张表的多次数据库操作整合为一次原子操作，这在高并发场景下可以保证多个数据操作之间的互不干扰；并且一旦在这些操作过程任一环节中出现了错误，事务会中止并且让数据回滚，这使得同时在多张表中修改数据的时候保证了数据的一致性。&lt;/p&gt;
+&lt;p&gt;以前 MongoDB 是不支持事务的，因此开发者在需要用到事务的时候，不得不借用其他工具，在业务代码层面去弥补数据库的不足。随着 4.0 版本的发布，MongoDB 也为我们带来了原生的事务操作，下面就让我们一起来认识它，并通过简单的例子了解如何去使用。&lt;/p&gt;
+&lt;h2&gt;介绍&lt;/h2&gt;
+&lt;h3&gt;事务和副本集（Replica Sets）&lt;/h3&gt;
+&lt;p&gt;副本集是 MongoDB 的一种主副节点架构，它使数据得到最大的可用性，避免单点故障引起的整个服务不能访问的情况的发生。目前 MongoDB 的多表事务操作仅支持在副本集上运行，想要在本地环境安装运行副本集可以借助一个工具包——&lt;a href=&quot;https://github.com/vkarpov15/run-rs&quot;&gt;run-rs&lt;/a&gt;，以下的文章中有详细的使用说明：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://thecodebarbarian.com/introducing-run-rs-zero-config-mongodb-runner.html&quot;&gt;https://thecodebarbarian.com/introducing-run-rs-zero-config-mongodb-runner.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;事务和会话（Sessions）&lt;/h3&gt;
+&lt;p&gt;事务和会话（Sessions）关联，一个会话同一时刻只能开启一个事务操作，当一个会话断开，这个会话中的事务也会结束。&lt;/p&gt;
+&lt;h3&gt;事务中的函数&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4&gt;Session.startTransaction()&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在当前会话中开始一次事务，事务开启后就可以开始进行数据操作。在事务中执行的数据操作是对外隔离的，也就是说事务中的操作是原子性的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4&gt;Session.commitTransaction()&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;提交事务，将事务中对数据的修改进行保存，然后结束当前事务，一次事务在提交之前的数据操作对外都是不可见的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4&gt;Session.abortTransaction()&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;中止当前的事务，并将事务中执行过的数据修改回滚。&lt;/p&gt;
+&lt;h3&gt;重试&lt;/h3&gt;
+&lt;p&gt;当事务运行中报错，catch 到的错误对象中会包含一个属性名为 &lt;strong&gt;errorLabels&lt;/strong&gt; 的数组，当这个数组中包含以下2个元素的时候，代表我们可以重新发起相应的事务操作。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TransientTransactionError&lt;/strong&gt;：出现在事务开启以及随后的数据操作阶段&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UnknownTransactionCommitResult&lt;/strong&gt;：出现在提交事务阶段&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;示例&lt;/h2&gt;
+&lt;p&gt;经过上面的铺垫，你是不是已经迫不及待想知道究竟应该怎么写代码去完成一次完整的事务操作？下面我们就简单写一个例子：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;场景描述：&lt;/strong&gt;假设一个交易系统中有2张表——记录商品的名称、库存数量等信息的表 commodities，和记录订单的表 orders。当用户下单的时候，首先要找到 commodities 表中对应的商品，判断库存数量是否满足该笔订单的需求，是的话则减去相应的值，然后在 orders 表中插入一条订单数据。在高并发场景下，可能在查询库存数量和减少库存的过程中，又收到了一次新的创建订单请求，这个时候可能就会出问题，因为新的请求在查询库存的时候，上一次操作还未完成减少库存的操作，这个时候查询到的库存数量可能是充足的，于是开始执行后续的操作，实际上可能上一次操作减少了库存后，库存的数量就已经不足了，于是新的下单请求可能就会导致实际创建的订单数量超过库存数量。&lt;/p&gt;
+&lt;p&gt;以往要解决这个问题，我们可以用给商品数据“加锁”的方式，比如基于 Redis 的&lt;a href=&quot;https://redis.io/topics/distlock&quot;&gt;各种锁&lt;/a&gt;，同一时刻只允许一个订单操作一个商品数据，这种方案能解决问题，缺点就是代码更复杂了，并且性能会比较低。如果用数据库事务的方式就可以简洁很多：&lt;/p&gt;
+&lt;p&gt;commodities 表数据（stock 为库存）：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;_id&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ObjectId(&lt;span class=&quot;token string&quot;&gt;&quot;5af0776263426f87dd69319a&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;灭霸原味手套&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;stock&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;_id&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ObjectId(&lt;span class=&quot;token string&quot;&gt;&quot;5af0776263426f87dd693198&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;雷神专用铁锤&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;stock&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;orders 表数据：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;_id&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ObjectId(&lt;span class=&quot;token string&quot;&gt;&quot;5af07daa051d92f02462644c&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;commodity&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ObjectId(&lt;span class=&quot;token string&quot;&gt;&quot;5af0776263426f87dd69319a&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;amount&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;_id&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ObjectId(&lt;span class=&quot;token string&quot;&gt;&quot;5af07daa051d92f02462644b&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;commodity&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ObjectId(&lt;span class=&quot;token string&quot;&gt;&quot;5af0776263426f87dd693198&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;amount&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;通过一次事务完成创建订单操作（mongo Shell）：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 执行 txnFunc 并且在遇到 TransientTransactionError 的时候重试&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;runTransactionWithRetry&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;txnFunc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; session&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;txnFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;session&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 执行事务&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        error&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;hasOwnProperty&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;errorLabels&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+        error&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;errorLabels&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;TransientTransactionError&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;TransientTransactionError, retrying transaction ...&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 提交事务并且在遇到 UnknownTransactionCommitResult 的时候重试&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;commitWithRetry&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;session&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;commitTransaction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Transaction committed.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        error&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;hasOwnProperty&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;errorLabels&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+        error&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;errorLabels&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;UnknownTransactionCommitResult&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;UnknownTransactionCommitResult, retrying commit operation ...&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Error during commit ...&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 在一次事务中完成创建订单操作&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createOrder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;session&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; commoditiesCollection &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getDatabase&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;mall&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;commodities&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; ordersCollection &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getDatabase&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;mall&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;orders&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 假设该笔订单中商品的数量&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; orderAmount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 假设商品的ID&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; commodityID &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ObjectId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;5af0776263426f87dd69319a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;startTransaction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    readConcern&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; level&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;snapshot&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    writeConcern&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; w&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;majority&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; stock &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; commoditiesCollection&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;findOne&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; _id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; commodityID &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stock &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; orderAmount&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Stock is not enough&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;abortTransaction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Stock is not enough&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    commoditiesCollection&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;updateOne&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; _id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; commodityID &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; $inc&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; stock&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;orderAmount &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    ordersCollection&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;insertOne&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      commodity&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; commodityID&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      amount&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; orderAmount&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Caught exception during transaction, aborting.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;abortTransaction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;commitWithRetry&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;session&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 发起一次会话&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; session &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; db&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getMongo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;startSession&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; readPreference&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; mode&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;primary&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;runTransactionWithRetry&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;createOrder&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; session&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 错误处理&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;finally&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;endSession&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;上面的代码看着感觉很多，其实 runTransactionWithRetry 和 commitWithRetry 这两个函数都是可以抽离出来成为公共函数的，不需要每次操作都重复书写。用上了事务之后，因为事务中的数据操作都是一次原子操作，所以我们就不需要考虑分布并发导致的数据一致性的问题，是不是感觉简单了许多？&lt;/p&gt;
+&lt;p&gt;你可能注意到了，代码中在执行 startTransaction 的时候设置了两个参数——readConcern 和 writeConcern，这是 MongoDB 读写操作的确认级别，在这里用于在副本集中平衡数据读写操作的可靠性和性能，如果在这里展开就太多了，所以感兴趣的朋友建议去阅读官方文档了解一下：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;readConcern：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.mongodb.com/master/reference/read-concern/&quot;&gt;https://docs.mongodb.com/master/reference/read-concern/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;writeConcern：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.mongodb.com/master/reference/write-concern/&quot;&gt;https://docs.mongodb.com/master/reference/write-concern/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】与用户联系：在网页设计中融入幽默]]></title><description><![CDATA[与用户联系：在网页设计中融入幽默 原文地址： https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/ 作者：Victor Yocco 琼正在申请all-online-loanzzz…]]></description><link>https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-19-yi-yu-yong-hu-lian-xi-zai-wang-ye-she-ji-zhong-rong-ru-you-mo/</guid><pubDate>Wed, 19 Sep 2018 07:26:17 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-2b7c591cf9e1753f4180b06cf0e1a704-d6978.jpeg&quot;
@@ -4583,7 +5109,294 @@ Dep&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target &lt;span
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;当某个属性发生变化，触发 &lt;code&gt;set&lt;/code&gt; 拦截函数，然后调用自身消息订阅器 &lt;code&gt;dep&lt;/code&gt; 的 &lt;code&gt;notify&lt;/code&gt; 方法，遍历当前 &lt;code&gt;dep&lt;/code&gt; 中保存着所有订阅者 &lt;code&gt;wathcer&lt;/code&gt; 的 &lt;code&gt;subs&lt;/code&gt; 数组，并逐个调用 &lt;code&gt;watcher&lt;/code&gt; 的  &lt;code&gt;update&lt;/code&gt; 方法，完成响应更新。&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[简述大数据实时处理框架]]></title><description><![CDATA[   欢迎来到BigData…]]></description><link>https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</guid><pubDate>Fri, 31 Aug 2018 06:55:23 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Http的前世今生]]></title><description><![CDATA[作为互联网通信协议的一员老将，Http协议走到今天已经经历了三次版本的变动，现在最新的版本是Http2.0，相信大家早已耳熟能详。今天就给大家好好介绍一下Http的前世今生。 Http/0.9 Http的最早版本诞生在1991年，这个最早版本和现在比起来极其简单，没有Http…]]></description><link>https://knownsec-fed.com/2018-09-11-http-de-qian-shi-jin-sheng/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-11-http-de-qian-shi-jin-sheng/</guid><pubDate>Tue, 11 Sep 2018 12:13:39 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-578a9a3cea7320c106968944079e3e42-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABucUdTPkB/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQADITICBCL/2gAIAQEAAQUCYhGQ4O9YxnVy3//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAEFAQAAAAAAAAAAAAAAAAIAESAhIoH/2gAIAQEABj8CoerQtH//xAAYEAEBAQEBAAAAAAAAAAAAAAABABEhQf/aAAgBAQABPyEuDUm3kYpvc04k7v/aAAwDAQACAAMAAAAQNO//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFRYXH/2gAIAQEAAT8QPuo6cIhrCobee/EEwr5KI4jhVZEOs//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Http的前世今生&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-578a9a3cea7320c106968944079e3e42-d6978.jpeg&quot;
+        srcset=&quot;/static/header-578a9a3cea7320c106968944079e3e42-527f0.jpeg 300w,
+/static/header-578a9a3cea7320c106968944079e3e42-9a7cd.jpeg 600w,
+/static/header-578a9a3cea7320c106968944079e3e42-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作为互联网通信协议的一员老将，Http协议走到今天已经经历了三次版本的变动，现在最新的版本是Http2.0，相信大家早已耳熟能详。今天就给大家好好介绍一下Http的前世今生。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Http/0.9&lt;/h2&gt;
+&lt;p&gt;Http的最早版本诞生在1991年，这个最早版本和现在比起来极其简单，没有Http头，没有状态码，甚至版本号也没有，后来它的版本号才被定为0.9来和其他版本的Http区分。Http/0.9只支持一种方法—Get，请求只有一行。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;GET /hello.html&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;响应也是非常简单的，只包含html文档本身。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;&lt;HTML&gt;
+Hello world
+&lt;/HTML&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;当TCP建立连接之后，服务器向客户端返回HTML格式的字符串。发送完毕后，就关闭TCP连接。由于没有状态码和错误代码，如果服务器处理的时候发生错误，只会传回一个特殊的包含问题描述信息的HTML文件。这就是最早的Http/0.9版本。&lt;/p&gt;
+&lt;h2&gt;Http/1.0&lt;/h2&gt;
+&lt;p&gt;1996年，Http/1.0版本发布，大大丰富了Http的传输内容，除了文字，还可以发送图片、视频等，这为互联网的发展奠定了基础。相比Http/0.9，Http/1.0主要有如下特性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;请求与响应支持Http头·增加了状态码，响应对象的一开始是一个响应状态行&lt;/li&gt;
+&lt;li&gt;协议版本信息需要随着请求一起发送·支持HEAD，POST方法&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;支持传输HTML文件以外其他类型的内容
+一个典型的Http/1.0的请求像这样：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;GET /hello.html HTTP/1.0
+User-Agent:NCSA_Mosaic/2.0(Windows3.1)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;200 OK
+Date: Tue, 15 Nov 1996 08:12:31 GMT
+Server: CERN/3.0 libwww/2.17
+Content-Type: text/html&lt;/p&gt;
+&lt;HTML&gt;
+一个包含图片的页面
+&lt;IMGSRC=&quot;/smile.gif&quot;&gt;
+&lt;/HTML&gt;
+```
+&lt;h2&gt;Http/1.1&lt;/h2&gt;
+&lt;p&gt;在Http/1.0发布几个月后，Http/1.1就发布了。Http/1.1更多的是作为对Http/1.0的完善，在Http1.1中，主要具有如下改进：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可以复用连接&lt;/li&gt;
+&lt;li&gt;增加pipeline：HTTP管线化是将多个HTTP请求整批提交的技术，而在传送过程中不需先等待服务端的回应。管线化机制须通过永久连接（persistent connection）完成。浏览器将HTTP请求大批提交可大幅缩短页面的加载时间，特别是在传输延迟（lag/latency）较高的情况下。有一点需要注意的是，只有幂等的请求可以使用pipeline，如GET，HEAD方法。&lt;/li&gt;
+&lt;li&gt;chunked编码传输：该编码将实体分块传送并逐块标明长度,直到长度为0块表示传输结束, 这在实体长度未知时特别有用(比如由数据库动态产生的数据)&lt;/li&gt;
+&lt;li&gt;引入更多缓存控制机制：如etag，cache-control&lt;/li&gt;
+&lt;li&gt;引入内容协商机制，包括语言，编码，类型等，并允许客户端和服务器之间约定以最合适的内容进行交换&lt;/li&gt;
+&lt;li&gt;请求消息和响应消息都支持Host头域：在HTTP1.0中认为每台服务器都绑定一个唯一的IP地址，因此，请求消息中的URL并没有传递主机名（hostname）。但随着虚拟主机技术的发展，在一台物理服务器上可以存在多个虚拟主机（Multi-homed Web Servers），并且它们共享一个IP地址。因此，Host头的引入就很有必要了。&lt;/li&gt;
+&lt;li&gt;新增了OPTIONS,PUT, DELETE, TRACE, CONNECT方法
+虽然Http/1.1已经优化了很多点，作为一个目前使用最广泛的协议版本，已经能够满足很多网络需求，但是随着网页变得越来越复杂，甚至演变成为独立的应用，Http/1.1逐渐暴露出了一些问题：&lt;/li&gt;
+&lt;li&gt;在传输数据时，每次都要重新建立连接，对移动端特别不友好&lt;/li&gt;
+&lt;li&gt;传输内容是明文，不够安全&lt;/li&gt;
+&lt;li&gt;header内容过大，每次请求header变化不大，造成浪费&lt;/li&gt;
+&lt;li&gt;keep-alive给服务端带来性能压力
+为了解决这些问题，Https和SPDY应运而生。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Https&lt;/h2&gt;
+&lt;p&gt;https是以安全为目标的HTTP通道，简单讲是HTTP的安全版，即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/https-e49e942df040be02c5f0f04ce01fff43-afed5.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 36.18421052631579%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAcYsgH//xAAYEAACAwAAAAAAAAAAAAAAAAABIhESMf/aAAgBAQABBQJarJ3/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAEBAQEAAAAAAAAAAAAAAAAAIQEx/9oACAEBAAY/AuVkR//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExQVH/2gAIAQEAAT8hHCrPZ5ByFXZS2hyf/9oADAMBAAIAAwAAABB0P//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EGf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCH/8QAGxABAAICAwAAAAAAAAAAAAAAAQARIUFRYXH/2gAIAQEAAT8QfgrCgPXcOyBVOY24VWjon//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Https&quot;
+        title=&quot;&quot;
+        src=&quot;/static/https-e49e942df040be02c5f0f04ce01fff43-d6978.jpeg&quot;
+        srcset=&quot;/static/https-e49e942df040be02c5f0f04ce01fff43-527f0.jpeg 300w,
+/static/https-e49e942df040be02c5f0f04ce01fff43-9a7cd.jpeg 600w,
+/static/https-e49e942df040be02c5f0f04ce01fff43-d6978.jpeg 1200w,
+/static/https-e49e942df040be02c5f0f04ce01fff43-afed5.jpeg 1520w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+HTTPS协议的主要作用可以分为两种：一种是建立一个信息安全通道，来保证数据传输的安全；另一种就是确认网站的真实性。
+HTTPS和HTTP的区别主要如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;https协议使用ca申请证书，由于免费证书较少，需要一定费用。&lt;/li&gt;
+&lt;li&gt;http是明文传输，https则是具有安全性的ssl加密传输协议。&lt;/li&gt;
+&lt;li&gt;ttp和https使用的是完全不同的连接方式，用的端口也不一样，前者是80，后者是443。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;SPDY&lt;/h2&gt;
+&lt;p&gt;其实SPDY并不是新的一种协议，而是在 HTTP 之前做了一层会话层。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/spdy-2732348f9293e0a0979110f3454b5c2d-e1c7e.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 328px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 46.951219512195124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHuTqpowf/EABoQAAICAwAAAAAAAAAAAAAAAAABAhEhMUH/2gAIAQEAAQUCbxbqOjiP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQITER/9oACAEBAAE/IbHCyO9Dxwyf/9oADAMBAAIAAwAAABDgD//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EIf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAHRABAAIBBQEAAAAAAAAAAAAAAQARMRAhQXGBsf/aAAgBAQABPxBbBSQTepvj2ZEreiMu595//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;SPDY&quot;
+        title=&quot;&quot;
+        src=&quot;/static/spdy-2732348f9293e0a0979110f3454b5c2d-e1c7e.jpeg&quot;
+        srcset=&quot;/static/spdy-2732348f9293e0a0979110f3454b5c2d-0dad2.jpeg 300w,
+/static/spdy-2732348f9293e0a0979110f3454b5c2d-e1c7e.jpeg 328w&quot;
+        sizes=&quot;(max-width: 328px) 100vw, 328px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+在2010年到2015年，谷歌通过实践一个实验性的SPDY协议，证明了一个在客户端和服务器端交换数据的另类方式。其收集了浏览器和服务器端的开发者的焦点问题，明确了响应数量的增加和解决复杂的数据传输。在启动SPDY这个项目时预设的目标是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;页面加载时间 (PLT) 减少 50%。&lt;/li&gt;
+&lt;li&gt;无需网站作者修改任何内容。&lt;/li&gt;
+&lt;li&gt;将部署复杂性降至最低，无需变更网络基础设施。&lt;/li&gt;
+&lt;li&gt;与开源社区合作开发这个新协议。&lt;/li&gt;
+&lt;li&gt;收集真实性能数据，验证这个实验性协议是否有效。
+为了达到降低目标，减少页面加载时间的目标，SPDY引入了一个新的二进制分帧数据层，以实现多向请求和响应、优先次序、最小化及消除不必要的网络延迟，目的是更有效地利用底层TCP 连接。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Http/2.0&lt;/h2&gt;
+&lt;p&gt;时间来到2015年，Http/2.0问世。先来介绍一下Http/2.0的特点吧：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用二进制分帧层：在应用层与传输层之间增加一个二进制分帧层，以此达到在不改动 HTTP 的语义，HTTP 方法、状态码、URI 及首部字段的情况下，突破HTTP1.1 的性能限制，改进传输性能，实现低延迟和高吞吐量。在二进制分帧层上，HTTP2.0 会将所有传输的信息分割为更小的消息和帧，并对它们采用二进制格式的编码，其中 HTTP1.x 的首部信息会被封装到 Headers 帧，而我们的 request body 则封装到 Data 帧里面。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/erjinzhi-39e662d0e6b3b921c389f41e79d3c1fb-c2970.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 625px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.839999999999996%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAeo9NESEH//EABoQAAEFAQAAAAAAAAAAAAAAAAEAAhAREjL/2gAIAQEAAQUCb2b0jP8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAACAx/9oACAEBAAY/Air/AP/EABkQAAMBAQEAAAAAAAAAAAAAAAABMRFBcf/aAAgBAQABPyEE3lbDi8IY6cP/2gAMAwEAAgADAAAAEKTv/8QAFxEAAwEAAAAAAAAAAAAAAAAAARAhMf/aAAgBAwEBPxAXV//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQIBAT8QXORf/8QAHBABAAMBAAMBAAAAAAAAAAAAAQARITFBUXGB/9oACAEBAAE/EAcjdvmEcu4tN3ben9gBg2ppL7hx8n//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;二进制分帧&quot;
+        title=&quot;&quot;
+        src=&quot;/static/erjinzhi-39e662d0e6b3b921c389f41e79d3c1fb-c2970.jpeg&quot;
+        srcset=&quot;/static/erjinzhi-39e662d0e6b3b921c389f41e79d3c1fb-1b6e8.jpeg 300w,
+/static/erjinzhi-39e662d0e6b3b921c389f41e79d3c1fb-64b1d.jpeg 600w,
+/static/erjinzhi-39e662d0e6b3b921c389f41e79d3c1fb-c2970.jpeg 625w&quot;
+        sizes=&quot;(max-width: 625px) 100vw, 625px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;多路复用：对于Http/1.x，即使开启了长连接，请求的发送也是串行发送的，在带宽足够的情况下，对带宽的利用率不够，Http/2.0采用了多路复用的方式，可以并行发送多个请求，提高对带宽的利用率。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/http2.0-b1e608ddb7493608efea3e76912aabe1-70ea7.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 99.12609238451935%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADP0lEQVQ4y4VU2XLjNhDU3+cln5CqvOYhn5GyZClbtbvOrh3LlixbByXxvnAQYKcHErnKQypTBQkkB43ungEmYPTeY7PZYL1eI4qOeH5+xubjAx6XaOoaNYfkDblvb294evobL6+vWC6XiLIs5E5KZSCjMR16vui6Dh0X6ThB9ccUNknRaB1AG22Qtxq1tszpQ66VoTSK2Rz6dYXJNqvwdMzwfX+G4ofp3R00k8x2h91PP6Oe/4nWdWgJGFcNnk85vn4cUZPAX1+/YLvfAyQQ/fIrkt9+x4QbYbla40gmVd0gz3O0bQtjyOZ0hlcKSZoiOhyCpN0hwvp9i7pVIbeuKlhrUVCyznJMJOnL589ouLCxDiXlyO4SXd+H/+PxiPf39zB/oV/b3R6Gn4ZcyXL8Ec8DoHMOfU/DCaCMhXEeWVXjbnbPivWI4xiHK0NPST7k9/TdBl8twWaLT0iYFwCNpWedQ87ipI2ihw4dFwkziQ9W/PHx8cKa7wVE1KTMb5krDNMkCVYFwPvFAmVRSolxG+KNxOl0GiUL8NvLEjQPTlqF4BeVPigNgGK4JbovS1gWwrE4gbkxI+B2uw3zNE2QZTFV1chTFieL4DRVlcUPQOknfy2A/PZk5rhBEl0k79kaq9Xq6iGZeD+qcJ5rO4P4fIBmvwZAxQpLYgBiMWgUFNnOZ7OwWE5JURShEJaLjKiRrtht0Mbc1Dt8WtyH4l0YMsmxqV1eoOPwV6kiWWSI2XJSArvOoq0yGF2hUgkL2FCdowUmKA2A8+kUdZmzjzz6m6IMzJumQcUGlvj2/RtW6xVrYVCVFTdT4+YjoFA1VkPZCmUbQ9tmrPIAGC4HShbpMh/89Fc/JXcE7PjQ+x/cOm8J2uJ4jv4FGCTTAmEuBZC5AGm2jtgi8wCo6V84AayYYju4npeBqjCbTUcPB0AZAib/Dw8PoZ0GYHl3ATSK15BGa4ownL80dGinG4ay8DZSXhrC9jYE0N/PZ/4cn7xqFbtBe+4mxngy6wniCegJ6GUubcrwMnC5D/zwLCMwTOTqYv+JNGliYSPs5HkwfDg1/xcTokZy+mSQQbRYLCKCje8oOSLDPTfZ87tcOZGs+a/xDx10CAzzWi1eAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;多路复用&quot;
+        title=&quot;&quot;
+        src=&quot;/static/http2.0-b1e608ddb7493608efea3e76912aabe1-d6978.jpeg&quot;
+        srcset=&quot;/static/http2.0-b1e608ddb7493608efea3e76912aabe1-527f0.jpeg 300w,
+/static/http2.0-b1e608ddb7493608efea3e76912aabe1-9a7cd.jpeg 600w,
+/static/http2.0-b1e608ddb7493608efea3e76912aabe1-d6978.jpeg 1200w,
+/static/http2.0-b1e608ddb7493608efea3e76912aabe1-70ea7.jpeg 1602w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;数据流优先级：由于请求可以并发发送了，那么如果出现了浏览器在等待关键的css或者js文件完成对页面的渲染时，服务器却在专注的发送图片资源的情况怎么办呢？Http/2.0对数据流可以设置优先值，这个优先值决定了客户端和服务端处理不同的流采用不同的优先级策略。&lt;/li&gt;
+&lt;li&gt;服务端推送：在Http/2.0中，服务器可以向客户发送请求之外的内容，比如正在请求一个页面时，服务器会把页面相关的logo，css等文件直接推送到客户端，而不会等到请求来的时候再发送，因为服务器认为客户端会用到这些东西。这相当于在一个HTML文档内集合了所有的资源。&lt;/li&gt;
+&lt;li&gt;头部压缩：使用首部表来跟踪和存储之前发送的键值对，对于相同的内容，不会再每次请求和响应时发送。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/hpackheadercompression-7312d6dfb7044db9fb8dbd0f5631e5c5-963aa.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 59.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAAB5UlEQVQoz4WRy2+bQBDG+cd77SWn9tBKUXtNG6uHuqqiRIoi22mIS8AGY/O2MTaLCe/XGgN+dDBVq1iVOofVfN/s7Aw/CIQQwzCCIPDu/MFVpBiNQ5Pyp3y0pP0ZwsHhcNgf/h1ElmWe5wW+7+aZvg7cIjPXgRwixTf11EmqvG7e/23f7XZ/JAHCsizTXHrucpP7+ToENw4jeSLyQ06fzqC6MBYY4+12a1kojqM0Tfb1A/t6cqfTabU+P8kfe/yZiFrg2rbNcixFUYPBQBRFjuOiCHrSfv/xxdpg0TRzfXPVY9/d0q+52YUkyZqmsSw3GvEsy+q6riiqJEkgu727hT00rOHcYpxQI+I4bre/XV5eXJNn38lXlPgBnnSe0Yi7F8X+mCcHTHfM/0iSIEmSm84nRvzKCG1q/EUxHoiiKGRZURR5bvLqnEK2CM2+h6YaaSFWUx9VlVSV+zQNyi0m+fPbn2+7g/d39BsFXREn9BuSGGfLpbFaAZ4QY/iyuKrKxk+SOM3ASfAa17Rh+GazyTd5k0BAAn5ZlnBWVQUyPwYAfwEMLjqOAzzq1WVZOMZkMgHCwBlywzBc1wXaQAf6m+2aIBoBvxEKUAYqcMLVMAzr5Y4SkpOZvycv7FVZFYf/RTPqxPwFRyeQzuEb3GQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;头部压缩&quot;
+        title=&quot;&quot;
+        src=&quot;/static/hpackheadercompression-7312d6dfb7044db9fb8dbd0f5631e5c5-d6978.jpeg&quot;
+        srcset=&quot;/static/hpackheadercompression-7312d6dfb7044db9fb8dbd0f5631e5c5-527f0.jpeg 300w,
+/static/hpackheadercompression-7312d6dfb7044db9fb8dbd0f5631e5c5-9a7cd.jpeg 600w,
+/static/hpackheadercompression-7312d6dfb7044db9fb8dbd0f5631e5c5-d6978.jpeg 1200w,
+/static/hpackheadercompression-7312d6dfb7044db9fb8dbd0f5631e5c5-963aa.jpeg 1600w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+可以看到Http/2.0的新特点和SPDY很相似，其实Http/2.0本来就是基于SPDY设计的，可以说是SPDY的升级版。
+但是Http/2.0仍有和SPDY不同的地方，主要有如下两点：&lt;/li&gt;
+&lt;li&gt;HTTP2.0 支持明文 HTTP 传输，而SPDY强制使用HTTPS。&lt;/li&gt;
+&lt;li&gt;HTTP2.0 消息头的压缩算法采用HPACK，而非SPDY采用的 DEFLATE。&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[简述大数据实时处理框架]]></title><description><![CDATA[   欢迎来到BigData…]]></description><link>https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</guid><pubDate>Fri, 31 Aug 2018 06:55:23 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-e44c25c207e851b1aaf1667f2c83d95f-d6978.jpeg&quot;
