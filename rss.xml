@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Nov 2018 03:10:57 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 07 Nov 2018 04:04:04 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -5077,7 +5077,7 @@ Dep&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target &lt;span
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;当某个属性发生变化，触发 &lt;code&gt;set&lt;/code&gt; 拦截函数，然后调用自身消息订阅器 &lt;code&gt;dep&lt;/code&gt; 的 &lt;code&gt;notify&lt;/code&gt; 方法，遍历当前 &lt;code&gt;dep&lt;/code&gt; 中保存着所有订阅者 &lt;code&gt;wathcer&lt;/code&gt; 的 &lt;code&gt;subs&lt;/code&gt; 数组，并逐个调用 &lt;code&gt;watcher&lt;/code&gt; 的  &lt;code&gt;update&lt;/code&gt; 方法，完成响应更新。&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Http的前世今生]]></title><description><![CDATA[作为互联网通信协议的一员老将，Http协议走到今天已经经历了三次版本的变动，现在最新的版本是Http2.0，相信大家早已耳熟能详。今天就给大家好好介绍一下Http的前世今生。 Http/0.9 Http的最早版本诞生在1991年，这个最早版本和现在比起来极其简单，没有Http…]]></description><link>https://knownsec-fed.com/2018-09-11-http-de-qian-shi-jin-sheng/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-11-http-de-qian-shi-jin-sheng/</guid><pubDate>Tue, 11 Sep 2018 12:13:39 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[HTTP 的前世今生]]></title><description><![CDATA[作为互联网通信协议的一员老将，HTTP 协议走到今天已经经历了三次版本的变动，现在最新的版本是 HTTP2.0，相信大家早已耳熟能详。今天就给大家好好介绍一下 HTTP 的前世今生。 HTTP/0.9 HTTP 的最早版本诞生在 199…]]></description><link>https://knownsec-fed.com/2018-09-11-http-de-qian-shi-jin-sheng/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-09-11-http-de-qian-shi-jin-sheng/</guid><pubDate>Tue, 11 Sep 2018 12:13:39 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-578a9a3cea7320c106968944079e3e42-d6978.jpeg&quot;
@@ -5097,7 +5097,7 @@ Dep&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target &lt;span
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Http的前世今生&quot;
+        alt=&quot;HTTP的前世今生&quot;
         title=&quot;&quot;
         src=&quot;/static/header-578a9a3cea7320c106968944079e3e42-d6978.jpeg&quot;
         srcset=&quot;/static/header-578a9a3cea7320c106968944079e3e42-527f0.jpeg 300w,
@@ -5111,31 +5111,33 @@ Dep&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target &lt;span
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;作为互联网通信协议的一员老将，Http协议走到今天已经经历了三次版本的变动，现在最新的版本是Http2.0，相信大家早已耳熟能详。今天就给大家好好介绍一下Http的前世今生。&lt;/p&gt;
+&lt;p&gt;作为互联网通信协议的一员老将，HTTP 协议走到今天已经经历了三次版本的变动，现在最新的版本是 HTTP2.0，相信大家早已耳熟能详。今天就给大家好好介绍一下 HTTP 的前世今生。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;Http/0.9&lt;/h2&gt;
-&lt;p&gt;Http的最早版本诞生在1991年，这个最早版本和现在比起来极其简单，没有Http头，没有状态码，甚至版本号也没有，后来它的版本号才被定为0.9来和其他版本的Http区分。Http/0.9只支持一种方法—Get，请求只有一行。&lt;/p&gt;
+&lt;h2&gt;HTTP/0.9&lt;/h2&gt;
+&lt;p&gt;HTTP 的最早版本诞生在 1991 年，这个最早版本和现在比起来极其简单，没有 HTTP 头，没有状态码，甚至版本号也没有，后来它的版本号才被定为 0.9 来和其他版本的 HTTP 区分。HTTP/0.9 只支持一种方法—— Get，请求只有一行。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;GET /hello.html&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;响应也是非常简单的，只包含html文档本身。&lt;/p&gt;
+&lt;p&gt;响应也是非常简单的，只包含 html 文档本身。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;&lt;HTML&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;HTML&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 Hello world
-&lt;/HTML&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;HTML&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;当TCP建立连接之后，服务器向客户端返回HTML格式的字符串。发送完毕后，就关闭TCP连接。由于没有状态码和错误代码，如果服务器处理的时候发生错误，只会传回一个特殊的包含问题描述信息的HTML文件。这就是最早的Http/0.9版本。&lt;/p&gt;
-&lt;h2&gt;Http/1.0&lt;/h2&gt;
-&lt;p&gt;1996年，Http/1.0版本发布，大大丰富了Http的传输内容，除了文字，还可以发送图片、视频等，这为互联网的发展奠定了基础。相比Http/0.9，Http/1.0主要有如下特性：&lt;/p&gt;
+&lt;p&gt;当 TCP 建立连接之后，服务器向客户端返回 HTML 格式的字符串。发送完毕后，就关闭 TCP 连接。由于没有状态码和错误代码，如果服务器处理的时候发生错误，只会传回一个特殊的包含问题描述信息的 HTML 文件。这就是最早的 HTTP/0.9 版本。&lt;/p&gt;
+&lt;h2&gt;HTTP/1.0&lt;/h2&gt;
+&lt;p&gt;1996 年，HTTP/1.0 版本发布，大大丰富了 HTTP 的传输内容，除了文字，还可以发送图片、视频等，这为互联网的发展奠定了基础。相比 HTTP/0.9，HTTP/1.0 主要有如下特性：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;请求与响应支持Http头·增加了状态码，响应对象的一开始是一个响应状态行&lt;/li&gt;
-&lt;li&gt;协议版本信息需要随着请求一起发送·支持HEAD，POST方法&lt;/li&gt;
+&lt;li&gt;请求与响应支持 HTTP 头，增加了状态码，响应对象的一开始是一个响应状态行&lt;/li&gt;
+&lt;li&gt;协议版本信息需要随着请求一起发送，支持 HEAD，POST 方法&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;支持传输HTML文件以外其他类型的内容
-一个典型的Http/1.0的请求像这样：&lt;/p&gt;
+&lt;p&gt;支持传输 HTML 文件以外其他类型的内容
+一个典型的 HTTP/1.0 的请求像这样：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;GET /hello.html HTTP/1.0
-User-Agent:NCSA_Mosaic/2.0(Windows3.1)&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;GET /hello.html HTTP/1.0
+User-Agent:NCSA_Mosaic/2.0(Windows3.1)
+&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -5148,68 +5150,35 @@ Content-Type: text/html&lt;/p&gt;
 &lt;IMGSRC=&quot;/smile.gif&quot;&gt;
 &lt;/HTML&gt;
 ```
-&lt;h2&gt;Http/1.1&lt;/h2&gt;
-&lt;p&gt;在Http/1.0发布几个月后，Http/1.1就发布了。Http/1.1更多的是作为对Http/1.0的完善，在Http1.1中，主要具有如下改进：&lt;/p&gt;
+&lt;h2&gt;HTTP/1.1&lt;/h2&gt;
+&lt;p&gt;在 HTTP/1.0 发布几个月后，HTTP/1.1 就发布了。HTTP/1.1 更多的是作为对 HTTP/1.0 的完善，在 HTTP1.1 中，主要具有如下改进：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;可以复用连接&lt;/li&gt;
-&lt;li&gt;增加pipeline：HTTP管线化是将多个HTTP请求整批提交的技术，而在传送过程中不需先等待服务端的回应。管线化机制须通过永久连接（persistent connection）完成。浏览器将HTTP请求大批提交可大幅缩短页面的加载时间，特别是在传输延迟（lag/latency）较高的情况下。有一点需要注意的是，只有幂等的请求可以使用pipeline，如GET，HEAD方法。&lt;/li&gt;
-&lt;li&gt;chunked编码传输：该编码将实体分块传送并逐块标明长度,直到长度为0块表示传输结束, 这在实体长度未知时特别有用(比如由数据库动态产生的数据)&lt;/li&gt;
-&lt;li&gt;引入更多缓存控制机制：如etag，cache-control&lt;/li&gt;
+&lt;li&gt;增加 pipeline：HTTP 管线化是将多个 HTTP 请求整批提交的技术，而在传送过程中不需先等待服务端的回应。管线化机制须通过永久连接（persistent connection）完成。浏览器将HTTP请求大批提交可大幅缩短页面的加载时间，特别是在传输延迟（lag/latency）较高的情况下。有一点需要注意的是，只有幂等的请求可以使用 pipeline，如 GET，HEAD 方法。&lt;/li&gt;
+&lt;li&gt;chunked 编码传输：该编码将实体分块传送并逐块标明长度,直到长度为 0 块表示传输结束, 这在实体长度未知时特别有用(比如由数据库动态产生的数据)&lt;/li&gt;
+&lt;li&gt;引入更多缓存控制机制：如 etag，cache-control&lt;/li&gt;
 &lt;li&gt;引入内容协商机制，包括语言，编码，类型等，并允许客户端和服务器之间约定以最合适的内容进行交换&lt;/li&gt;
-&lt;li&gt;请求消息和响应消息都支持Host头域：在HTTP1.0中认为每台服务器都绑定一个唯一的IP地址，因此，请求消息中的URL并没有传递主机名（hostname）。但随着虚拟主机技术的发展，在一台物理服务器上可以存在多个虚拟主机（Multi-homed Web Servers），并且它们共享一个IP地址。因此，Host头的引入就很有必要了。&lt;/li&gt;
-&lt;li&gt;新增了OPTIONS,PUT, DELETE, TRACE, CONNECT方法
-虽然Http/1.1已经优化了很多点，作为一个目前使用最广泛的协议版本，已经能够满足很多网络需求，但是随着网页变得越来越复杂，甚至演变成为独立的应用，Http/1.1逐渐暴露出了一些问题：&lt;/li&gt;
+&lt;li&gt;请求消息和响应消息都支持 Host 头域：在 HTTP1.0 中认为每台服务器都绑定一个唯一的 IP 地址，因此，请求消息中的URL并没有传递主机名（hostname）。但随着虚拟主机技术的发展，在一台物理服务器上可以存在多个虚拟主机（Multi-homed Web Servers），并且它们共享一个 IP 地址。因此，Host 头的引入就很有必要了。&lt;/li&gt;
+&lt;li&gt;新增了 OPTIONS,PUT, DELETE, TRACE, CONNECT 方法
+虽然 HTTP/1.1 已经优化了很多点，作为一个目前使用最广泛的协议版本，已经能够满足很多网络需求，但是随着网页变得越来越复杂，甚至演变成为独立的应用，HTTP/1.1 逐渐暴露出了一些问题：&lt;/li&gt;
 &lt;li&gt;在传输数据时，每次都要重新建立连接，对移动端特别不友好&lt;/li&gt;
 &lt;li&gt;传输内容是明文，不够安全&lt;/li&gt;
-&lt;li&gt;header内容过大，每次请求header变化不大，造成浪费&lt;/li&gt;
-&lt;li&gt;keep-alive给服务端带来性能压力
-为了解决这些问题，Https和SPDY应运而生。&lt;/li&gt;
+&lt;li&gt;header 内容过大，每次请求 header 变化不大，造成浪费&lt;/li&gt;
+&lt;li&gt;keep-alive 给服务端带来性能压力
+为了解决这些问题，HTTPS 和 SPDY 应运而生。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Https&lt;/h2&gt;
-&lt;p&gt;https是以安全为目标的HTTP通道，简单讲是HTTP的安全版，即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。
-
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/https-e49e942df040be02c5f0f04ce01fff43-afed5.jpeg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 36.18421052631579%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAcYsgH//xAAYEAACAwAAAAAAAAAAAAAAAAABIhESMf/aAAgBAQABBQJarJ3/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAEBAQEAAAAAAAAAAAAAAAAAIQEx/9oACAEBAAY/AuVkR//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExQVH/2gAIAQEAAT8hHCrPZ5ByFXZS2hyf/9oADAMBAAIAAwAAABB0P//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EGf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCH/8QAGxABAAICAwAAAAAAAAAAAAAAAQARIUFRYXH/2gAIAQEAAT8QfgrCgPXcOyBVOY24VWjon//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Https&quot;
-        title=&quot;&quot;
-        src=&quot;/static/https-e49e942df040be02c5f0f04ce01fff43-d6978.jpeg&quot;
-        srcset=&quot;/static/https-e49e942df040be02c5f0f04ce01fff43-527f0.jpeg 300w,
-/static/https-e49e942df040be02c5f0f04ce01fff43-9a7cd.jpeg 600w,
-/static/https-e49e942df040be02c5f0f04ce01fff43-d6978.jpeg 1200w,
-/static/https-e49e942df040be02c5f0f04ce01fff43-afed5.jpeg 1520w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
-HTTPS协议的主要作用可以分为两种：一种是建立一个信息安全通道，来保证数据传输的安全；另一种就是确认网站的真实性。
-HTTPS和HTTP的区别主要如下：&lt;/p&gt;
+&lt;h2&gt;HTTPS&lt;/h2&gt;
+&lt;p&gt;HTTPS 是以安全为目标的 HTTP 通道，简单讲是 HTTP 的安全版，即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL。
+&lt;img src=&quot;./HTTPS.jpeg&quot; alt=&quot;HTTPS&quot;&gt;
+HTTPS 协议的主要作用可以分为两种：一种是建立一个信息安全通道，来保证数据传输的安全；另一种就是确认网站的真实性。
+HTTPS 和 HTTP 的区别主要如下：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;https协议使用ca申请证书，由于免费证书较少，需要一定费用。&lt;/li&gt;
-&lt;li&gt;http是明文传输，https则是具有安全性的ssl加密传输协议。&lt;/li&gt;
-&lt;li&gt;ttp和https使用的是完全不同的连接方式，用的端口也不一样，前者是80，后者是443。&lt;/li&gt;
+&lt;li&gt;HTTPS 协议使用 ca 申请证书，由于免费证书较少，需要一定费用。&lt;/li&gt;
+&lt;li&gt;HTTP 是明文传输，HTTPS 则是具有安全性的 SSL 加密传输协议。&lt;/li&gt;
+&lt;li&gt;HTTP 和 HTTPS使用的是完全不同的连接方式，用的端口也不一样，前者是 80，后者是 443。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;SPDY&lt;/h2&gt;
-&lt;p&gt;其实SPDY并不是新的一种协议，而是在 HTTP 之前做了一层会话层。
+&lt;p&gt;其实 SPDY 并不是新的一种协议，而是在 HTTP 之前做了一层会话层。
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -5242,17 +5211,17 @@ HTTPS和HTTP的区别主要如下：&lt;/p&gt;
   
   &lt;/a&gt;
     
-在2010年到2015年，谷歌通过实践一个实验性的SPDY协议，证明了一个在客户端和服务器端交换数据的另类方式。其收集了浏览器和服务器端的开发者的焦点问题，明确了响应数量的增加和解决复杂的数据传输。在启动SPDY这个项目时预设的目标是：&lt;/p&gt;
+在 2010 年到 2015 年，谷歌通过实践一个实验性的 SPDY 协议，证明了一个在客户端和服务器端交换数据的另类方式。其收集了浏览器和服务器端的开发者的焦点问题，明确了响应数量的增加和解决复杂的数据传输。在启动 SPDY 这个项目时预设的目标是：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;页面加载时间 (PLT) 减少 50%。&lt;/li&gt;
 &lt;li&gt;无需网站作者修改任何内容。&lt;/li&gt;
 &lt;li&gt;将部署复杂性降至最低，无需变更网络基础设施。&lt;/li&gt;
 &lt;li&gt;与开源社区合作开发这个新协议。&lt;/li&gt;
 &lt;li&gt;收集真实性能数据，验证这个实验性协议是否有效。
-为了达到降低目标，减少页面加载时间的目标，SPDY引入了一个新的二进制分帧数据层，以实现多向请求和响应、优先次序、最小化及消除不必要的网络延迟，目的是更有效地利用底层TCP 连接。&lt;/li&gt;
+为了达到降低目标，减少页面加载时间的目标，SPDY 引入了一个新的二进制分帧数据层，以实现多向请求和响应、优先次序、最小化及消除不必要的网络延迟，目的是更有效地利用底层 TCP 连接。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Http/2.0&lt;/h2&gt;
-&lt;p&gt;时间来到2015年，Http/2.0问世。先来介绍一下Http/2.0的特点吧：&lt;/p&gt;
+&lt;h2&gt;HTTP/2.0&lt;/h2&gt;
+&lt;p&gt;时间来到 2015 年，HTTP/2.0 问世。先来介绍一下 HTTP/2.0 的特点吧：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;使用二进制分帧层：在应用层与传输层之间增加一个二进制分帧层，以此达到在不改动 HTTP 的语义，HTTP 方法、状态码、URI 及首部字段的情况下，突破HTTP1.1 的性能限制，改进传输性能，实现低延迟和高吞吐量。在二进制分帧层上，HTTP2.0 会将所有传输的信息分割为更小的消息和帧，并对它们采用二进制格式的编码，其中 HTTP1.x 的首部信息会被封装到 Headers 帧，而我们的 request body 则封装到 Data 帧里面。
 
@@ -5288,43 +5257,10 @@ HTTPS和HTTP的区别主要如下：&lt;/p&gt;
   
   &lt;/a&gt;
     &lt;/li&gt;
-&lt;li&gt;多路复用：对于Http/1.x，即使开启了长连接，请求的发送也是串行发送的，在带宽足够的情况下，对带宽的利用率不够，Http/2.0采用了多路复用的方式，可以并行发送多个请求，提高对带宽的利用率。
-
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/http2.0-b1e608ddb7493608efea3e76912aabe1-70ea7.jpeg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 99.12609238451935%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADP0lEQVQ4y4VU2XLjNhDU3+cln5CqvOYhn5GyZClbtbvOrh3LlixbByXxvnAQYKcHErnKQypTBQkkB43ungEmYPTeY7PZYL1eI4qOeH5+xubjAx6XaOoaNYfkDblvb294evobL6+vWC6XiLIs5E5KZSCjMR16vui6Dh0X6ThB9ccUNknRaB1AG22Qtxq1tszpQ66VoTSK2Rz6dYXJNqvwdMzwfX+G4ofp3R00k8x2h91PP6Oe/4nWdWgJGFcNnk85vn4cUZPAX1+/YLvfAyQQ/fIrkt9+x4QbYbla40gmVd0gz3O0bQtjyOZ0hlcKSZoiOhyCpN0hwvp9i7pVIbeuKlhrUVCyznJMJOnL589ouLCxDiXlyO4SXd+H/+PxiPf39zB/oV/b3R6Gn4ZcyXL8Ec8DoHMOfU/DCaCMhXEeWVXjbnbPivWI4xiHK0NPST7k9/TdBl8twWaLT0iYFwCNpWedQ87ipI2ihw4dFwkziQ9W/PHx8cKa7wVE1KTMb5krDNMkCVYFwPvFAmVRSolxG+KNxOl0GiUL8NvLEjQPTlqF4BeVPigNgGK4JbovS1gWwrE4gbkxI+B2uw3zNE2QZTFV1chTFieL4DRVlcUPQOknfy2A/PZk5rhBEl0k79kaq9Xq6iGZeD+qcJ5rO4P4fIBmvwZAxQpLYgBiMWgUFNnOZ7OwWE5JURShEJaLjKiRrtht0Mbc1Dt8WtyH4l0YMsmxqV1eoOPwV6kiWWSI2XJSArvOoq0yGF2hUgkL2FCdowUmKA2A8+kUdZmzjzz6m6IMzJumQcUGlvj2/RtW6xVrYVCVFTdT4+YjoFA1VkPZCmUbQ9tmrPIAGC4HShbpMh/89Fc/JXcE7PjQ+x/cOm8J2uJ4jv4FGCTTAmEuBZC5AGm2jtgi8wCo6V84AayYYju4npeBqjCbTUcPB0AZAib/Dw8PoZ0GYHl3ATSK15BGa4ownL80dGinG4ay8DZSXhrC9jYE0N/PZ/4cn7xqFbtBe+4mxngy6wniCegJ6GUubcrwMnC5D/zwLCMwTOTqYv+JNGliYSPs5HkwfDg1/xcTokZy+mSQQbRYLCKCje8oOSLDPTfZ87tcOZGs+a/xDx10CAzzWi1eAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;多路复用&quot;
-        title=&quot;&quot;
-        src=&quot;/static/http2.0-b1e608ddb7493608efea3e76912aabe1-d6978.jpeg&quot;
-        srcset=&quot;/static/http2.0-b1e608ddb7493608efea3e76912aabe1-527f0.jpeg 300w,
-/static/http2.0-b1e608ddb7493608efea3e76912aabe1-9a7cd.jpeg 600w,
-/static/http2.0-b1e608ddb7493608efea3e76912aabe1-d6978.jpeg 1200w,
-/static/http2.0-b1e608ddb7493608efea3e76912aabe1-70ea7.jpeg 1602w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/li&gt;
-&lt;li&gt;数据流优先级：由于请求可以并发发送了，那么如果出现了浏览器在等待关键的css或者js文件完成对页面的渲染时，服务器却在专注的发送图片资源的情况怎么办呢？Http/2.0对数据流可以设置优先值，这个优先值决定了客户端和服务端处理不同的流采用不同的优先级策略。&lt;/li&gt;
-&lt;li&gt;服务端推送：在Http/2.0中，服务器可以向客户发送请求之外的内容，比如正在请求一个页面时，服务器会把页面相关的logo，css等文件直接推送到客户端，而不会等到请求来的时候再发送，因为服务器认为客户端会用到这些东西。这相当于在一个HTML文档内集合了所有的资源。&lt;/li&gt;
+&lt;li&gt;多路复用：对于 HTTP/1.x，即使开启了长连接，请求的发送也是串行发送的，在带宽足够的情况下，对带宽的利用率不够，HTTP/2.0 采用了多路复用的方式，可以并行发送多个请求，提高对带宽的利用率。
+&lt;img src=&quot;./HTTP2.0.jpeg&quot; alt=&quot;多路复用&quot;&gt;&lt;/li&gt;
+&lt;li&gt;数据流优先级：由于请求可以并发发送了，那么如果出现了浏览器在等待关键的 CSS 或者 JS 文件完成对页面的渲染时，服务器却在专注的发送图片资源的情况怎么办呢？HTTP/2.0 对数据流可以设置优先值，这个优先值决定了客户端和服务端处理不同的流采用不同的优先级策略。&lt;/li&gt;
+&lt;li&gt;服务端推送：在 HTTP/2.0 中，服务器可以向客户发送请求之外的内容，比如正在请求一个页面时，服务器会把页面相关的 logo，CSS 等文件直接推送到客户端，而不会等到请求来的时候再发送，因为服务器认为客户端会用到这些东西。这相当于在一个 HTML 文档内集合了所有的资源。&lt;/li&gt;
 &lt;li&gt;头部压缩：使用首部表来跟踪和存储之前发送的键值对，对于相同的内容，不会再每次请求和响应时发送。
 
   &lt;a
@@ -5360,10 +5296,10 @@ HTTPS和HTTP的区别主要如下：&lt;/p&gt;
   
   &lt;/a&gt;
     
-可以看到Http/2.0的新特点和SPDY很相似，其实Http/2.0本来就是基于SPDY设计的，可以说是SPDY的升级版。
-但是Http/2.0仍有和SPDY不同的地方，主要有如下两点：&lt;/li&gt;
-&lt;li&gt;HTTP2.0 支持明文 HTTP 传输，而SPDY强制使用HTTPS。&lt;/li&gt;
-&lt;li&gt;HTTP2.0 消息头的压缩算法采用HPACK，而非SPDY采用的 DEFLATE。&lt;/li&gt;
+可以看到 HTTP/2.0 的新特点和 SPDY 很相似，其实 HTTP/2.0 本来就是基于 SPDY 设计的，可以说是 SPDY 的升级版。
+但是 HTTP/2.0 仍有和 SPDY 不同的地方，主要有如下两点：&lt;/li&gt;
+&lt;li&gt;HTTP2.0 支持明文 HTTP 传输，而 SPDY 强制使用 HTTPS。&lt;/li&gt;
+&lt;li&gt;HTTP2.0 消息头的压缩算法采用 HPACK，而非 SPDY 采用的 DEFLATE。&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[简述大数据实时处理框架]]></title><description><![CDATA[   欢迎来到BigData…]]></description><link>https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-08-31-jian-shu-da-shu-ju-shi-shi-chu-li-kuang-jia/</guid><pubDate>Fri, 31 Aug 2018 06:55:23 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
