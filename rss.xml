@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 12 Nov 2018 07:01:20 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 12 Nov 2018 07:28:38 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,10 +391,10 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Fiber]]></title><description><![CDATA[React Fiber Diff算法 熟悉react的朋友都知道，在react中有个核心的算法，叫diff算法。web界面由dom树组成，不同的dom树会渲染出不同的界面。react使用virtual dom来表示dom树，而diff算法就是用于比较virtual dom…]]></description><link>https://knownsec-fed.com/2018-10-23-reactfiber/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-23-reactfiber/</guid><pubDate>Tue, 23 Oct 2018 09:01:10 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Fiber]]></title><description><![CDATA[React Fiber Diff 算法 熟悉 react 的朋友都知道，在 react 中有个核心的算法，叫 diff 算法。web 界面由 dom 树组成，不同的 dom 树会渲染出不同的界面。react 使用 virtual dom 来表示 dom 树，而 diff…]]></description><link>https://knownsec-fed.com/2018-10-23-reactfiber/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-23-reactfiber/</guid><pubDate>Tue, 23 Oct 2018 09:01:10 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg&quot;
+    href=&quot;/static/header-11ea97c36869e5a3314f5c140d2d1b6d-7930b.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -406,17 +406,18 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3lAD/8QAFhAAAwAAAAAAAAAAAAAAAAAAACAh/9oACAEBAAEFAir/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAEFAAAAAAAAAAAAAAAAABEAASBBgf/aAAgBAQABPyFzQWI//9oADAMBAAIAAwAAABCAD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAIBBQAAAAAAAAAAAAAAAAERACAhMXGB/9oACAEBAAE/EMfZwXhldGn/2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 53.691275167785236%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHArjaiwF//xAAZEAADAQEBAAAAAAAAAAAAAAABAgMQETH/2gAIAQEAAQUCHtYmY5jUZ8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAADAAMAAAAAAAAAAAAAAAABEBEAIjH/2gAIAQEABj8CwcexsX//xAAZEAEAAwEBAAAAAAAAAAAAAAABABFBECH/2gAIAQEAAT8hCgC1yOHoXMluUVuHP//aAAwDAQACAAMAAAAQXw//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QNX//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAn/8QAHhABAAIBBAMAAAAAAAAAAAAAAQARQRAhMVFhcfD/2gAIAQEAAT8QJwgBZY1F0KUtXG77nQXoh5wY+qKrbP/Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;React Fiber&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg&quot;
-        srcset=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-527f0.jpeg 300w,
-/static/header-250f37abd2d3716359b19bd25304da8f-9a7cd.jpeg 600w,
-/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg 1200w&quot;
+        src=&quot;/static/header-11ea97c36869e5a3314f5c140d2d1b6d-d6978.jpeg&quot;
+        srcset=&quot;/static/header-11ea97c36869e5a3314f5c140d2d1b6d-527f0.jpeg 300w,
+/static/header-11ea97c36869e5a3314f5c140d2d1b6d-9a7cd.jpeg 600w,
+/static/header-11ea97c36869e5a3314f5c140d2d1b6d-d6978.jpeg 1200w,
+/static/header-11ea97c36869e5a3314f5c140d2d1b6d-7930b.jpeg 1490w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
@@ -425,8 +426,8 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;h1&gt;React Fiber&lt;/h1&gt;
-&lt;h2&gt;Diff算法&lt;/h2&gt;
-&lt;p&gt;熟悉react的朋友都知道，在react中有个核心的算法，叫diff算法。web界面由dom树组成，不同的dom树会渲染出不同的界面。react使用virtual dom来表示dom树，而diff算法就是用于比较virtual dom树的区别，并更新界面需要更新的部分。diff算法和virtual dom的完美结合的过程被称为reconciler，这可是react攻城拔寨的绝对利器。有了reconciler，开发者可以脱身操作真实的dom树，只需要向react描述界面的状态，而react会帮助你高效的完成真正dom操作。&lt;/p&gt;
+&lt;h2&gt;Diff 算法&lt;/h2&gt;
+&lt;p&gt;熟悉 react 的朋友都知道，在 react 中有个核心的算法，叫 diff 算法。web 界面由 dom 树组成，不同的 dom 树会渲染出不同的界面。react 使用 virtual dom 来表示 dom 树，而 diff 算法就是用于比较 virtual dom 树的区别，并更新界面需要更新的部分。diff 算法和 virtual dom 的完美结合的过程被称为 reconciler，这可是 react 攻城拔寨的绝对利器。有了 reconciler，开发者可以脱身操作真实的 dom 树，只需要向 react 描述界面的状态，而 react 会帮助你高效的完成真正 dom 操作。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -459,9 +460,10 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;在react16之前的reconciler叫stack reconciler，fiber是react新的reconciler，这次更新到fiber架构是一次重量级的核心架构的替换，react为了完成这次替换已经准备了两三年的时间了。那么fiber究竟有什么好的呢？&lt;/p&gt;
-&lt;h2&gt;Fiber为何出现&lt;/h2&gt;
-&lt;p&gt;不知道大家有没有遇到过这样的情况，点击一个页面的按钮时感觉到页面没有任何的反应，让你怀疑电脑是不是死机了，然后你快速切出浏览器，发现电脑并没有死机，于是再切回浏览器，这时候才发现页面终于更新了。为什么会出现这种情况？在多数情况下，可能是因为浏览器忙着执行相关的js代码，导致浏览器主线程没有及时响应用户的操作或者没有及时更新界面。下面这张图就表示了这种现象，你的公司只有一个程序员(main thread)，当这个程序员在执行你的任务(your code)时，处于沉浸式编程的状态，无法响应外部的其他事件，什么下班吃饭，都是不存在的。这就像浏览器忙着执行js代码的时候，不会去执行页面更新等操作。&lt;/p&gt;
+&lt;p&gt;在 react16 之前的 reconciler 叫 stack reconciler，fiber 是 react 新的 reconciler，这次更新到 fiber 架构是一次重量级的核心架构的替换，react 为了完成这次替换已经准备了两三年的时间了。&lt;/p&gt;
+&lt;p&gt;那么 fiber 究竟有什么好的呢？&lt;/p&gt;
+&lt;h2&gt;Fiber 为何出现&lt;/h2&gt;
+&lt;p&gt;不知道大家有没有遇到过这样的情况，点击一个页面的按钮时感觉到页面没有任何的反应，让你怀疑电脑是不是死机了，然后你快速切出浏览器，发现电脑并没有死机，于是再切回浏览器，这时候才发现页面终于更新了。为什么会出现这种情况？在多数情况下，可能是因为浏览器忙着执行相关的 js 代码，导致浏览器主线程没有及时响应用户的操作或者没有及时更新界面。下面这张图就表示了这种现象，你的公司只有一个程序员 (main thread)，当这个程序员在执行你的任务 (your code) 时，处于沉浸式编程的状态，无法响应外部的其他事件，什么下班吃饭，都是不存在的。这就像浏览器忙着执行 js 代码的时候，不会去执行页面更新等操作。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -495,8 +497,8 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;本着顾客是上帝的原则，作为一名优秀的开发者，怎么能够允许出现这种情况降低用户的体验呢。因此react团队引入了异步渲染这个概念，而采用fiber架构可以实现这种异步渲染的方式。&lt;/p&gt;
-&lt;p&gt;原先的stack reconciler像是一个递归执行的函数，从父组件调用子组件的reconciler过程就是一个递归执行的过程，这也是为什么被称为stack reconciler的原因。当我们调用setState的时候，react从根节点开始遍历，找出所有的不同，而对于特别庞大的dom树来说，这个递归遍历的过程会消耗特别长的时间。在这个期间，任何交互和渲染都会被阻塞，这样就给用户一种“死机”的感觉。&lt;/p&gt;
+&lt;p&gt;本着顾客是上帝的原则，作为一名优秀的开发者，怎么能够允许出现这种情况降低用户的体验呢。因此 react 团队引入了异步渲染这个概念，而采用 fiber 架构可以实现这种异步渲染的方式。&lt;/p&gt;
+&lt;p&gt;原先的 stack reconciler 像是一个递归执行的函数，从父组件调用子组件的 reconciler 过程就是一个递归执行的过程，这也是为什么被称为 stack reconciler 的原因。当我们调用 setState 的时候，react 从根节点开始遍历，找出所有的不同，而对于特别庞大的 dom 树来说，这个递归遍历的过程会消耗特别长的时间。在这个期间，任何交互和渲染都会被阻塞，这样就给用户一种“死机”的感觉。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -530,7 +532,7 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;fiber的出现解决了这个问题，它把reconciler的过程拆分成了一个个的小任务，并在完成了小任务之后暂停执行js代码，然后检查是否有需要更新的内容和需要响应的事件，做出相应的处理后再继续执行js代码。这样就给了用户一种应用一直在运行的感觉，提高了用户的体验。&lt;/p&gt;
+&lt;p&gt;fiber 的出现解决了这个问题，它把 reconciler 的过程拆分成了一个个的小任务，并在完成了小任务之后暂停执行 js 代码，然后检查是否有需要更新的内容和需要响应的事件，做出相应的处理后再继续执行 js 代码。这样就给了用户一种应用一直在运行的感觉，提高了用户的体验。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -564,8 +566,8 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h2&gt;Fiber如何做到异步渲染&lt;/h2&gt;
-&lt;p&gt;在做显示方面的工作时，经常会听到一个目标叫60帧，这表示的是画面的更新频率，也就是画面每秒钟更新60次。这是因为在60帧的更新频率下，页面在人眼中显得流畅，无明显卡顿。每秒钟更新60次也就是每16ms需要更新一次页面，如果更新页面消耗的时间不到16ms，那么在下一次更新时机来到之前会剩下一点时间执行其他的任务，只要保证及时在16ms的间隔下更新界面就完全不会影响到页面的流畅程度。fiber的核心正是利用了60帧原则，实现了一个基于优先级和requestIdleCallback的循环任务调度算法。&lt;/p&gt;
+&lt;h2&gt;Fiber 如何做到异步渲染&lt;/h2&gt;
+&lt;p&gt;在做显示方面的工作时，经常会听到一个目标叫 60 帧，这表示的是画面的更新频率，也就是画面每秒钟更新 60 次。这是因为在 60 帧的更新频率下，页面在人眼中显得流畅，无明显卡顿。每秒钟更新 60 次也就是每 16ms 需要更新一次页面，如果更新页面消耗的时间不到 16ms，那么在下一次更新时机来到之前会剩下一点时间执行其他的任务，只要保证及时在 16ms 的间隔下更新界面就完全不会影响到页面的流畅程度。fiber 的核心正是利用了 60 帧原则，实现了一个基于优先级和 requestIdleCallback 的循环任务调度算法。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -599,44 +601,44 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;requestIdleCallback是浏览器提供的一个api，可以让浏览器在空闲的时候执行回调，在回调参数中可以获取到当前帧剩余的时间，fiber利用了这个参数，判断当前剩下的时间是否足够继续执行任务，如果足够则继续执行，否则暂停任务，并调用requestIdleCallback通知浏览器空闲的时候继续执行当前的任务。&lt;/p&gt;
+&lt;p&gt;requestIdleCallback 是浏览器提供的一个 api，可以让浏览器在空闲的时候执行回调，在回调参数中可以获取到当前帧剩余的时间，fiber 利用了这个参数，判断当前剩下的时间是否足够继续执行任务，如果足够则继续执行，否则暂停任务，并调用 requestIdleCallback 通知浏览器空闲的时候继续执行当前的任务。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fiber&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;剩余时间&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;剩余时间 &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 任务所需时间&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    做任务&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;requestIdleCallback&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fiber&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;剩余时间 &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 任务所需时间&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ 做任务&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token function&quot;&gt;requestIdleCallback&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fiber&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;fiber还会为不同的任务设置不同的优先级，高优先级任务是需要马上展示到页面上的，比如你正在输入框中输入文字，你肯定希望你的手指在键盘上敲下每一个按键时，输入框能立马做出反馈，这样你才能知道你的输入是否正确，是否有效。低优先级的任务则是像从服务器传来了一些数据，这个时候需要更新页面，比如这篇文章喜欢的人数+1或是评论+1，这并不是那么紧急的更新，延迟100-200ms并不会有多大差别，完全可以在后面进行处理。fiber会根据任务优先级来动态调整任务调度，优先完成高优先级的任务。&lt;/p&gt;
+&lt;p&gt;fiber 还会为不同的任务设置不同的优先级，高优先级任务是需要马上展示到页面上的，比如你正在输入框中输入文字，你肯定希望你的手指在键盘上敲下每一个按键时，输入框能立马做出反馈，这样你才能知道你的输入是否正确，是否有效。低优先级的任务则是像从服务器传来了一些数据，这个时候需要更新页面，比如这篇文章喜欢的人数+1 或是评论+1，这并不是那么紧急的更新，延迟 100-200ms 并不会有多大差别，完全可以在后面进行处理。fiber 会根据任务优先级来动态调整任务调度，优先完成高优先级的任务。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
-  Synchronous&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 同步任务，优先级最高&lt;/span&gt;
-  Task&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 当前调度正执行的任务&lt;/span&gt;
-  Animation &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 动画&lt;/span&gt;
-  High&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 高优先级&lt;/span&gt;
-  Low&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 低优先级&lt;/span&gt;
-  Offscreen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 当前屏幕外的更新，优先级最低&lt;/span&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; 
+ Synchronous&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 同步任务，优先级最高&lt;/span&gt;
+ Task&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 当前调度正执行的任务&lt;/span&gt;
+ Animation &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 动画&lt;/span&gt;
+ High&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 高优先级&lt;/span&gt;
+ Low&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 低优先级&lt;/span&gt;
+ Offscreen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 当前屏幕外的更新，优先级最低&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;在fiber架构中，有一种数据结构，它的名字就叫做fiber，这也是为什么新的reconciler叫做fiber的原因。fiber其实就是一个js对象，这个对象的属性中比较重要的有stateNode、tag、return、child、sibling和alternate。&lt;/p&gt;
+&lt;p&gt;在 fiber 架构中，有一种数据结构，它的名字就叫做 &lt;code&gt;fiber&lt;/code&gt;，这也是为什么新的 reconciler 叫做 fiber 的原因。&lt;code&gt;fiber&lt;/code&gt; 其实就是一个 js 对象，这个对象的属性中比较重要的有 &lt;code&gt;stateNode&lt;/code&gt;、&lt;code&gt;tag&lt;/code&gt;、&lt;code&gt;return&lt;/code&gt;、&lt;code&gt;child&lt;/code&gt;、&lt;code&gt;sibling&lt;/code&gt; 和 &lt;code&gt;alternate&lt;/code&gt;。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;Fiber &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-   tag  &lt;span class=&quot;token comment&quot;&gt;// 标记任务的进度&lt;/span&gt;
-   &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 父节点&lt;/span&gt;
-   child &lt;span class=&quot;token comment&quot;&gt;// 子节点&lt;/span&gt;
-   sibling &lt;span class=&quot;token comment&quot;&gt;// 兄弟节点&lt;/span&gt;
-   alternate &lt;span class=&quot;token comment&quot;&gt;// 变化记录&lt;/span&gt;
-   &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+ tag &lt;span class=&quot;token comment&quot;&gt;// 标记任务的进度&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 父节点&lt;/span&gt;
+ child &lt;span class=&quot;token comment&quot;&gt;// 子节点&lt;/span&gt;
+ sibling &lt;span class=&quot;token comment&quot;&gt;// 兄弟节点&lt;/span&gt;
+ alternate &lt;span class=&quot;token comment&quot;&gt;// 变化记录&lt;/span&gt;
+ &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;我们可以看出fiber基于链表结构，拥有一个个指针，指向它的父节点子节点和兄弟节点，在diff的过程中，依照节点连接的关系进行遍历。&lt;/p&gt;
-&lt;h2&gt;fiber可能存在的问题&lt;/h2&gt;
-&lt;p&gt;在fiber中，更新是分阶段的，具体分为两个阶段，首先是reconciliation的阶段，这个阶段在计算前后dom树的差异，然后是commit的阶段，这个阶段将把更新渲染到页面上。第一个阶段是可以打断的，因为这个阶段耗时可能会很长，因此需要暂停下来去执行其他更高优先级的任务，第二个阶段则不会被打断，会一口气把更新渲染到页面上。&lt;/p&gt;
+&lt;p&gt;我们可以看出 &lt;code&gt;fiber&lt;/code&gt; 基于链表结构，拥有一个个指针，指向它的父节点子节点和兄弟节点，在 diff 的过程中，依照节点连接的关系进行遍历。&lt;/p&gt;
+&lt;h2&gt;fiber 可能存在的问题&lt;/h2&gt;
+&lt;p&gt;在 fiber 中，更新是分阶段的，具体分为两个阶段，首先是 reconciliation 的阶段，这个阶段在计算前后 dom 树的差异，然后是 commit 的阶段，这个阶段将把更新渲染到页面上。第一个阶段是可以打断的，因为这个阶段耗时可能会很长，因此需要暂停下来去执行其他更高优先级的任务，第二个阶段则不会被打断，会一口气把更新渲染到页面上。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -670,8 +672,8 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;由于reconciliation的阶段会被打断，可能会导致commit前的这些生命周期函数多次执行。react官方目前已经把componentWillMount、componentWillReceiveProps和componetWillUpdate标记为unsafe，并使用新的生命周期函数getDerivedStateFromProps和getSnapshotBeforeUpdate进行替换。&lt;/p&gt;
-&lt;p&gt;还有一个问题是饥饿问题，意思是如果高优先级的任务一直插入，导致低优先级的任务无法得到机会执行，这被称为饥饿问题。对于这个问题官方提出的解决方案是尽量复用已经完成的操作来缓解。相信官方也正在努力提出更好的方法去解决这个问题。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】React Native与ios交互]]></title><description><![CDATA[原生和RN混合开发中的交互 原生加载RN RN 端
+&lt;p&gt;由于 reconciliation 的阶段会被打断，可能会导致 commit 前的这些生命周期函数多次执行。react 官方目前已经把 &lt;code&gt;componentWillMount&lt;/code&gt;、&lt;code&gt;componentWillReceiveProps&lt;/code&gt; 和 &lt;code&gt;componetWillUpdate&lt;/code&gt; 标记为 unsafe，并使用新的生命周期函数 &lt;code&gt;getDerivedStateFromProps&lt;/code&gt; 和 &lt;code&gt;getSnapshotBeforeUpdate&lt;/code&gt; 进行替换。&lt;/p&gt;
+&lt;p&gt;还有一个问题是饥饿问题，意思是如果高优先级的任务一直插入，导致低优先级的任务无法得到机会执行，这被称为饥饿问题。对于这个问题官方提出的解决方案是尽量复用已经完成的操作来缓解。相信官方也正在努力提出更好的方法去解决这个问题。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】React Native与ios交互]]></title><description><![CDATA[原生和RN混合开发中的交互 原生加载RN RN 端
 创建好React Native 项目后，项目中创建了 index.ios.js 的js文件，这是RN中iOS的js端入口文件，我们可以在里边添加代码如下： 在这里，我们创建了一个 HelloWorldCp 的React…]]></description><link>https://knownsec-fed.com/2018-10-22-yi-reactnative-yu-ios-jiao-hu/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-22-yi-reactnative-yu-ios-jiao-hu/</guid><pubDate>Mon, 22 Oct 2018 02:27:37 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
