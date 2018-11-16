@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 12 Nov 2018 07:28:38 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 16 Nov 2018 10:07:48 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,164 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Fiber]]></title><description><![CDATA[React Fiber Diff 算法 熟悉 react 的朋友都知道，在 react 中有个核心的算法，叫 diff 算法。web 界面由 dom 树组成，不同的 dom 树会渲染出不同的界面。react 使用 virtual dom 来表示 dom 树，而 diff…]]></description><link>https://knownsec-fed.com/2018-10-23-reactfiber/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-23-reactfiber/</guid><pubDate>Tue, 23 Oct 2018 09:01:10 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】5 个最新的用户体验设计趋势]]></title><description><![CDATA[5 个最新的用户体验设计趋势 翻译文章： https://www.invisionapp.com/inside-design/ux-design-trends/ 用户体验（UX）设计总是不断的发展。从明亮的色彩和实验布局等危险趋势到喜欢，或者令人愉悦的设计，总会有新的尝试。 UX…]]></description><link>https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</guid><pubDate>Fri, 16 Nov 2018 09:52:57 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-8eeacd204d431448f6e770296b41a535-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABuzKqgJf/xAAaEAACAgMAAAAAAAAAAAAAAAABAwACERMg/9oACAEBAAEFAicRjLbBx//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/AWf/xAAXEQADAQAAAAAAAAAAAAAAAAABAhAR/9oACAECAQE/AVOT/8QAGRAAAQUAAAAAAAAAAAAAAAAAAQAREiBR/9oACAEBAAY/AtTSIFf/xAAbEAEAAgIDAAAAAAAAAAAAAAABACEQMRFhgf/aAAgBAQABPyFL30CF8MqaGOB2Y//aAAwDAQACAAMAAAAQYM//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QGk//xAAWEQADAAAAAAAAAAAAAAAAAAAQETH/2gAIAQIBAT8QYg//xAAbEAEAAgMBAQAAAAAAAAAAAAABITEAEBFBcf/aAAgBAQABPxABQC8OpwghoYO7rPU9gnTUH6a//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;【译】5 个最新的用户体验设计趋势&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-8eeacd204d431448f6e770296b41a535-d6978.jpeg&quot;
+        srcset=&quot;/static/header-8eeacd204d431448f6e770296b41a535-527f0.jpeg 300w,
+/static/header-8eeacd204d431448f6e770296b41a535-9a7cd.jpeg 600w,
+/static/header-8eeacd204d431448f6e770296b41a535-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;5 个最新的用户体验设计趋势&lt;/h1&gt;
+&lt;p&gt;翻译文章：&lt;a href=&quot;https://www.invisionapp.com/inside-design/ux-design-trends/&quot;&gt;https://www.invisionapp.com/inside-design/ux-design-trends/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;用户体验（UX）设计总是不断的发展。从明亮的色彩和实验布局等危险趋势到喜欢，或者令人愉悦的设计，总会有新的尝试。 UX 设计趋势也受益于快速发展的技术行业，增强现实和更大的无边框设备等创新，促使设计师以新的方式思考用户体验。&lt;/p&gt;
+&lt;p&gt;随着2018年取得的所有令人兴奋的进步，以下是用户体验设计的五个最新趋势：&lt;/p&gt;
+&lt;h2&gt;1. 语音优先的设计兴起&lt;/h2&gt;
+&lt;p&gt;越来越多的消费者转向 Alexa、Siri 和 Google 来查找信息，掌握他们的日常任务，或者仅为了娱乐。事实上，2017 年有 3560 万美国人每月至少使用一次声控助手，同比增长128.9％。&lt;/p&gt;
+&lt;p&gt;这种语音优先的演变自然导致了没有界面的设计。UX 设计师可以通过消除与设备的接触帮助消费者理解（甚至是欣赏！）这种新的体验。因此，你在没有认知超载的情况下，在人工智能中添加个性和语境的微妙平衡。你还需要修改当前用户流，以适应想要使用其语音的用户。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/01-0012d9bfce6eebe4aa80a6f33d1ae91b-c1165.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABwjtslWXKUY//xAAbEAADAAIDAAAAAAAAAAAAAAAAAQIDERMhI//aAAgBAQABBQK3632bdF4lVrGcMH//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEv/aAAgBAwEBPwGj/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABsQAAICAwEAAAAAAAAAAAAAAAACATEQESES/9oACAEBAAY/Am9LZw5ArbrFQf/EABsQAAMBAAMBAAAAAAAAAAAAAAABESExUaFx/9oACAEBAAE/IdXSBalvDM8pOxqGT9ikufB223w//9oADAMBAAIAAwAAABBzz//EABcRAQADAAAAAAAAAAAAAAAAAAABUYH/2gAIAQMBAT8QizX/xAAXEQEBAQEAAAAAAAAAAAAAAAABEQBh/9oACAECAQE/EGAhrzf/xAAcEAEAAwEAAwEAAAAAAAAAAAABABEhMVFhkfD/2gAIAQEAAT8QawXVHuiY/ICiHaC0hz94iNcIwaQ1g5A4e3GUoab0Mela1a7P/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;01&quot;
+        title=&quot;&quot;
+        src=&quot;/static/01-0012d9bfce6eebe4aa80a6f33d1ae91b-c1165.jpg&quot;
+        srcset=&quot;/static/01-0012d9bfce6eebe4aa80a6f33d1ae91b-c552c.jpg 300w,
+/static/01-0012d9bfce6eebe4aa80a6f33d1ae91b-b5c43.jpg 600w,
+/static/01-0012d9bfce6eebe4aa80a6f33d1ae91b-c1165.jpg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;例如，如果你的公司在 Alexa（亚马逊语音助手） 上提供语音技能，你想要为该技能添加多少核心能力？ 你是否希望用户能够通过语音完成整个产品流程？ 如果没有，你如何将传统的计算机或智能手机体验与语音连接起来？ 随着语音技术的成熟，这些问题将变得更加复杂。&lt;/p&gt;
+&lt;h2&gt;2. 无边框体验&lt;/h2&gt;
+&lt;p&gt;随着三星 Galaxy S8 和 iPhone X 的发布，全面屏，无边框的体验将变为常态。用户希望应用能充分利用这个屏幕空间，提供身临其境的丰富体验，同时提供高质量的视觉效果，如照片或视频。&lt;/p&gt;
+&lt;p&gt;UX 设计师需要适应这些用户期望，同时保持舒适和功能性设计。 例如，随着全屏体验继续占据主导地位，也许应用内导航和交互会从手指点击变为手势操作。&lt;/p&gt;
+&lt;h2&gt;3. 增强现实&lt;/h2&gt;
+&lt;p&gt;和无边框设计互补的是另一种趋势：它已经从游戏开始扩展到了零售业，提供更丰富，更多样化的用户体验。&lt;/p&gt;
+&lt;p&gt;Pokémon Go 是一个最经典的成功故事。它的成功来自于创造令人难忘的用户体验，这些体验更少关注用户（性别和年龄等），而更多关注体验。通过将用户的真实环境包括在游戏中。Pokémon Go 能够以全新的，令人愉快的方式满足其用户需求。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/02-7c867d48497a3e4e13b67e1189b8203e-c1165.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAD/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAE2+KQgR7L/xAAcEAABBAMBAAAAAAAAAAAAAAABAAIDIgQREiH/2gAIAQEAAQUCjZscVI9ikIWRVq//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGn/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABoQAAICAwAAAAAAAAAAAAAAAAARAQIQITH/2gAIAQEABj8CHiKoddM6f//EABsQAQACAwEBAAAAAAAAAAAAAAEAESFBURAx/9oACAEBAAE/Ic9YHWXtoffMbQePJcGwUkbdp//aAAwDAQACAAMAAAAQG/8A/8QAFhEAAwAAAAAAAAAAAAAAAAAAABEh/9oACAEDAQE/EIiGf//EABYRAQEBAAAAAAAAAAAAAAAAAAARUf/aAAgBAgEBPxDaP//EABsQAQEAAwADAAAAAAAAAAAAAAERACExUaHh/9oACAEBAAE/ENIA1SF8XBhArI3PmEPmPIScI1iVNBONO+sqrl//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;02&quot;
+        title=&quot;&quot;
+        src=&quot;/static/02-7c867d48497a3e4e13b67e1189b8203e-c1165.jpg&quot;
+        srcset=&quot;/static/02-7c867d48497a3e4e13b67e1189b8203e-c552c.jpg 300w,
+/static/02-7c867d48497a3e4e13b67e1189b8203e-b5c43.jpg 600w,
+/static/02-7c867d48497a3e4e13b67e1189b8203e-c1165.jpg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;宜家采用了相同的方式并将其应用于家具。他们开发了一个名叫 Place 的增强现实 APP，让你准确了解家具的外观和适合你的家居用品，它使用 iPhone 相机和 3D 家具来创建交互式体验（甚至让你在虚拟空间中漫步！）。&lt;/p&gt;
+&lt;p&gt;这两个例子为 UX 设计师打开了令人兴奋的新领域。如果用户体验就是为了优化工作方式以使客户满意，那么增强现实就会创造一个没有边界的新游戏场。&lt;/p&gt;
+&lt;h2&gt;4. 情感设计&lt;/h2&gt;
+&lt;p&gt;Animojis 不仅让人开怀大笑。事实证明，他们也谈到了更广泛的设计趋势。&lt;/p&gt;
+&lt;p&gt;苹果公司的动物式表情符号使用你自己的声音并反映你的面部表情，让用户更准确地传达他们的情绪。对情绪的强调也延续到语音交互和聊天机器人。想想看：曾经有一段时间我们都承认聊天机器人交流是没有情感的呆板的。但是现在，聊天机器人和人工智能已经有了自己的个性，他们和你开玩笑，问你问题，或者进行短暂的聊天。&lt;/p&gt;
+&lt;p&gt;不得不说，在每一次的交互设计中都能看到情感的重要，这种技术（animojis）为用户创建了一种与界面交互的自然方式，使整个体验更具吸引力和真实性。&lt;/p&gt;
+&lt;h2&gt;5. 对 UX 研究人员的需求增加&lt;/h2&gt;
+&lt;p&gt;职场又出现了另一个转变 —— 一些更具体的职位正在出现，尤其是用户体验研究员。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/03-f3f9a6485824b7016a1511ea58386940-c1165.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAHCO6UVTHCP/8QAGxAAAgMAAwAAAAAAAAAAAAAAAAECAxIREyL/2gAIAQEAAQUC6Xy3E1AVeS1YFV5//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAIDAAMBAAAAAAAAAAAAAAARASExQVFhof/aAAgBAQAGPwJwqKbdnPwcTlYR7ZGZ0f/EABoQAQADAQEBAAAAAAAAAAAAAAEAESFBgWH/2gAIAQEAAT8hvt+xAAkZWqvI3339hrhxjrZcAyJ0FCP/2gAMAwEAAgADAAAAEE8v/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxB1jKj/xAAXEQEBAQEAAAAAAAAAAAAAAAABABFB/9oACAECAQE/EA6WX//EABsQAQADAQEBAQAAAAAAAAAAAAEAETEhUUGB/9oACAEBAAE/EKBBHo69gygFuVbT82M4fQdZs4XRQbTux0qKruEqEAAD5P/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;03&quot;
+        title=&quot;&quot;
+        src=&quot;/static/03-f3f9a6485824b7016a1511ea58386940-c1165.jpg&quot;
+        srcset=&quot;/static/03-f3f9a6485824b7016a1511ea58386940-c552c.jpg 300w,
+/static/03-f3f9a6485824b7016a1511ea58386940-b5c43.jpg 600w,
+/static/03-f3f9a6485824b7016a1511ea58386940-c1165.jpg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;对于 UX 设计师或 UX 研究人员称呼来说，这是一场长期争论。 两者都有利有弊，最终归结为你是否希望最接近设计的人进行研究或者具有纯研究背景的人。&lt;/p&gt;
+&lt;p&gt;虽然市场的这种转变并不一定更重视 UX 研究员的作用，但它确实表明更多的企业愿意投资于专业的 UX 角色。&lt;/p&gt;
+&lt;h2&gt;UX 一直在不断发展&lt;/h2&gt;
+&lt;p&gt;在短短几个月内，文中的这些趋势将演变或被全新的创新所取代。 这就是用户体验设计的乐趣：它不断变化，呈现出不同的，激动人心的挑战，推动我们的创造力，最终使我们成为更好的设计师。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Fiber]]></title><description><![CDATA[React Fiber Diff 算法 熟悉 react 的朋友都知道，在 react 中有个核心的算法，叫 diff 算法。web 界面由 dom 树组成，不同的 dom 树会渲染出不同的界面。react 使用 virtual dom 来表示 dom 树，而 diff…]]></description><link>https://knownsec-fed.com/2018-10-23-reactfiber/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-10-23-reactfiber/</guid><pubDate>Tue, 23 Oct 2018 09:01:10 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-11ea97c36869e5a3314f5c140d2d1b6d-7930b.jpeg&quot;
