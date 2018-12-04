@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 06:12:57 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 08:00:50 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,10 +391,94 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[人工智障也刷题！Kaggle入门之实战泰坦尼克号]]></title><link>https://knownsec-fed.com/2018-12-03-ren-gong-zhi-zhang-ye-shua-ti-kaggle-ru-men-zhi-shi-zhan-tai-tan-ni-ke-hao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-03-ren-gong-zhi-zhang-ye-shua-ti-kaggle-ru-men-zhi-shi-zhan-tai-tan-ni-ke-hao/</guid><pubDate>Mon, 03 Dec 2018 08:49:40 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[背景 关于Kaggle https://www.kaggle.com/ 这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！ Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;                              人工智障也刷题！Kaggle入门之实战泰坦尼克号&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg&quot;
+    href=&quot;/static/header-74885309b5a5696773817498c4e00dc1-c1165.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABzmQMy2maN//EABsQAAICAwEAAAAAAAAAAAAAAAECERIAAxMi/9oACAEBAAEFAjHPX6DIJs0XapYnP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAIDAQEAAAAAAAAAAAAAAAABETEygZH/2gAIAQEABj8Cz0qSiJZp+ls//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARUSFx/9oACAEBAAE/IWOVlCBHnWkNHKsuF6ZLqes//9oADAMBAAIAAwAAABAYD//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQMBAT8QEs5f/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEh/9oACAECAQE/ELGv/8QAHBABAQEBAAIDAAAAAAAAAAAAAREhADFRQWGB/9oACAEBAAE/ECcFAYF9XhZe1Mi35+pwIkz12DH8Vh+cVgVd1vWDklR7/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;header&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-74885309b5a5696773817498c4e00dc1-c1165.jpg&quot;
+        srcset=&quot;/static/header-74885309b5a5696773817498c4e00dc1-c552c.jpg 300w,
+/static/header-74885309b5a5696773817498c4e00dc1-b5c43.jpg 600w,
+/static/header-74885309b5a5696773817498c4e00dc1-c1165.jpg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;背景&lt;/h1&gt;
+&lt;h2&gt;关于Kaggle&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;https://www.kaggle.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP（国际知识发现和数据挖掘竞赛），企业或者研究者可以将背景、数据、期望指标等发布在kaggle上，用竞赛的方式向全世界的数据科学家和爱好者寻求解决方案。热爱数（dong）据（shou）挖（zhe）掘（teng）的小伙伴们可以下载/分析数据，使用统计/机器学习/数据挖掘等方面的知识，建立算法模型，得出结果并提交，排名靠前可能还会有奖励哦！&lt;/p&gt;
+&lt;h2&gt;关于泰坦尼克号之灾&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://www.kaggle.com/c/titanic&lt;/a&gt;点击这里0.0&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;问题背景页&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-d3087.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1060px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69.81132075471697%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACh0lEQVQ4y32SWU8TURTH+2zCliJIoEApA0QKBVsJUJYuWLe4xGD0SR+MJhI0qB/CB7+SiWCIMSa+GxORp6Z0us20neVOp3/PuWWa1gcm+ffce3ru7yz3+g6/HmMznkAysYNUMkM2g+3NFOJrW9jcSCAaDiO6sIh4PI3F+SVMj09ifT2JWHQNk4Eg1te2MX91Ga/33oA/3+HRMWLL17ESW0ViKylhN5I7eHz/Hp48fIAXT3exe+cmMsk0bqdSuLu9gVvpDFIUtxqJUGwaK9FVHLx91wJ+/nKEUGgOA31+9Pf70dc7gAFp+9Hb04dB/xAu+4cxNDiEidEAVTWBwPAIxkbGMDM+jogSwuzoMD7s77WA377/wMv994hRhQvhJYSlIphR5jA5MdVWMBiixAqmphRaT2NWmUVPMIxLyjX4rih49OqgBTQsG1nNQF6vo1KpoFzRUCyVoOk6SuWytHq1ilqtDqfRgEXxhVIZVlXDx18Cz386eEb69FsAjg2faQuYpgFh23BdFw061GwCLv00aM8QKacBWwgIx6GYcz+tBfkcR0hbp2Q+g4Cq5aJAsijQEA6KxSJKVKVDQU0CXyScS1BCCTQJkFMLqOg1OQP+wwOapgmbKjcMo0vsZ1uv12kUNRqDRRW7LaBFwJOTPzg9/UuHLUrm4uzsDKqqypkymMdw8deUI2gDdRo8Z+IW+HA+n5fQbDaLXC4HTdNQpYthy7Es3rN4LYQt530OFF25GFgoFKAWVNk6V6npmrRyrWlt64lH0AVsD7gDyFWy9eYpnxQ9o06xz0vavhRZ4X9ADvLa9FrtbNlrlcU+vpyOS+kG8lvkivhSGMzyRuD55J7WbFmcwHWbEvgP/52TC5AxfS8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG77&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-d3087.png&quot;
+        srcset=&quot;/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-a4c48.png 300w,
+/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-6ba42.png 600w,
+/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-d3087.png 1060w&quot;
+        sizes=&quot;(max-width: 1060px) 100vw, 1060px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下载Data的页面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-cc573.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -406,24 +490,959 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3lAD/8QAFhAAAwAAAAAAAAAAAAAAAAAAACAh/9oACAEBAAEFAir/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAEFAAAAAAAAAAAAAAAAABEAASBBgf/aAAgBAQABPyFzQWI//9oADAMBAAIAAwAAABCAD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAIBBQAAAAAAAAAAAAAAAAERACAhMXGB/9oACAEBAAE/EMfZwXhldGn/2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 63.90675241157556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABvklEQVQ4y21TW5abMAzNGruHfnSX/erpAmYBkzBNMoGhEPzEmNsrGQidjM8Rkm356urBwYYINya0XYfjqcLxvcGpqnCiXVG/Ho+o3t5U6rrB9XZDxbOX1z/4/qvFt58f+PH7L95NRBhHHFwcIaCB2nkPHwLyPCPnGVPOqleRvZ7NxfZpgkuZhKiJYYlxUIYC6jxujF7XNVIaMStoVj0rcFat++WMH0qxV2Ibw8i0nXMIZJhSwjRNqq21GJmK7EXEDvSXuyQ+lEgM44OCPgDp4JmyOOaFkQAI4P5MbAm8+soahgHdYOBJ6j+GgU5bSlKnHaAsHm2gMcbtXOo+WPeJIQElnbyrkwAaY7bHK9Nyj4ffVzUcUwGci6dGlsf3vodnitYaTXOfAR03vydATy3UlWkqIvbAlA0nwEhK1Nud1FzKtPg7ZlEAl/mxjH6/30sHlw4LYwHrjNNaDsaiZ/F7YU2/3kd0LhAoPAOKbj5aPhg44EGnPlJkNjv+RZa17O8DAwfdS23LXAJBBvy5hqWjURszq5ZmXC4XXK9XnM9ntQ0Drl2el1qL/hLwsYqjPJQ/p2ka1W3b8heN+Lz2TfkHfITz/Nl7uFkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;人工智障也刷题！Kaggle入门之实战泰坦尼克号&quot;
+        alt=&quot;WechatIMG78&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg&quot;
-        srcset=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-527f0.jpeg 300w,
-/static/header-250f37abd2d3716359b19bd25304da8f-9a7cd.jpeg 600w,
-/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg 1200w&quot;
+        src=&quot;/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-10046.png 300w,
+/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-3c4a3.png 600w,
+/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-abe1c.png 1200w,
+/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-cc573.png 1244w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】5 个最新的用户体验设计趋势]]></title><description><![CDATA[5 个最新的用户体验设计趋势 翻译文章： https://www.invisionapp.com/inside-design/ux-design-trends/ 用户体验（UX）设计总是不断的发展。从明亮的色彩和实验布局等危险趋势到喜欢，或者令人愉悦的设计，总会有新的尝试。 UX…]]></description><link>https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</guid><pubDate>Fri, 16 Nov 2018 09:52:57 GMT</pubDate><content:encoded>&lt;p&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;泰坦尼克号问题背景&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;就是大家从小到大被洗脑的“u jump I jump”的「jack和rose」的故事了。游艇在撞击了一个冰山后沉没了。乘客们都惊慌失措，副船长「lady and kid first」，所以模型不会向抛硬币那样看脸决定你是否获救。而是有着一定背景的，至于出了女士和孩子优先，还有哪些值得我们考虑，这就是稍后我们在特征工程中解决的问题了。&lt;/li&gt;
+&lt;li&gt;训练和测试数据是一些乘客的个人信息以及存活情况，尝试应用这些数据来建立一个合适的模型进行预测。&lt;/li&gt;
+&lt;li&gt;这是一个二分类问题（survived或者not），本文尝试用logistic regression来处理问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;说明&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「没有所谓的算法优劣，也没有绝对高性能的机器学习算法，只有在特定的场景、数据和特征下更合适的机器学习的算法。」由于还只是在学习阶段，对于XGBC、随机森林、SVC还不了解，本文所用的算法只是logistic regression。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;初识数据&lt;/h3&gt;
+&lt;p&gt;在Data下我们会看到官方给的train.csv和test.csv两个文件，分别是训练和测试数据。我们可以使用virtualenv来创建一个“隔离”的python应用环境（虚拟环境）。在这里，你不需要考虑系统原有库的版本，只需要pip来管理你需要用到的一切。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; pandas &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; pd   
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; np    
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; pandas &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Series&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;DataFrame
+
+data_train &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;read_csv&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./train.csv&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DataFrame&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;pandas是常用的python数据处理包，把csv文件读入成dataframe格式，在jupyter notebook中，可以看到我们的数据长什么样：
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-6ddde.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 30.219333874898457%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABD0lEQVQY012R6W7DIBCE8/6PWKWKD7CDuU8fcTplaRpV/TGCnZ39xIrLKB1iCAjOgI0DOBubtJIwWkHcZwx9Vz2GcejbSf7EGe61N08c3e0GawystbhwHfAEsB4nbN7hXlI+Q7qEaTEYZgkmdKt9OWBCwSRtq3XNmbiirBtMhV64Cji/gFCDS3pAVql8YjIFXCd8coUrk7jyClWx9Wdb8DEIDNK3jAg78n/gsW/YtxXbWproTh6tfq9r0ZrOmnePalIMHiUnbNsLyF7AvRplrU8vpSmlBKU0+r5H13UQQsA599OvuWVZoLWG8x4x/QEuNuJ4nG8IKedcg64CVRuiYZKvw78Z8ukTyIsxtnkCfgNhzsg0m9g8HgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG79&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-10046.png 300w,
+/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-3c4a3.png 600w,
+/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-abe1c.png 1200w,
+/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-6ddde.png 1231w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我们就可以把它看作一张excel表格，共有12列，891行（代表在train_csv中共有891个乘客）。Survived字段代表该乘客是否获救（1代表获救，0代表没有获救），其余是一些个人信息&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;passengerId =&gt; 乘客的ID&lt;/li&gt;
+&lt;li&gt;Pclass =&gt; 乘客所在舱位的等级（1、2、3等舱）&lt;/li&gt;
+&lt;li&gt;Name =&gt; 姓名&lt;/li&gt;
+&lt;li&gt;Sex =&gt; 性别&lt;/li&gt;
+&lt;li&gt;Age =&gt; 年龄&lt;/li&gt;
+&lt;li&gt;SibSp =&gt; 兄弟姐妹个数&lt;/li&gt;
+&lt;li&gt;Parch =&gt; 父母与小孩个数&lt;/li&gt;
+&lt;li&gt;Ticket =&gt; 船票信息&lt;/li&gt;
+&lt;li&gt;Fare =&gt; 票价&lt;/li&gt;
+&lt;li&gt;Cabin =&gt; 客舱信息&lt;/li&gt;
+&lt;li&gt;Embarked =&gt; 登船所在港口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;info&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-134b5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1185px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 30.126582278481013%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAApUlEQVQY043R2wrDIAwG4L7/E/aqkx4GVYvGQ3Vj+K/KDsjWrZFcRb4kpOGaI96ukIsGY2eM4wyyBDIE4wxCDMfyEmC9RTOrGTmkkGjbFtM0oe97sBOD977UUkr4GY/yGtYaJCJYazEMwzZtDe6+lF4NK1BwgRgjnHMF67oOxpg3+Cc/QSGgtCpIXjmDSqkK/LrtHrjIZTvIWGDOObTWZdrn56PgHeZv0jXo4nD/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG80&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-134b5.png&quot;
+        srcset=&quot;/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-6de16.png 300w,
+/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-d351b.png 600w,
+/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-134b5.png 1185w&quot;
+        sizes=&quot;(max-width: 1185px) 100vw, 1185px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+这里告诉了我么一些关于data_train的基本信息，比如共有891个乘客，但是有些字段的数据不全。比如Age（年龄）、Cabin（客舱信息）。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;describe&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-3569b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1091px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 27.222731439046743%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAmElEQVQY04WP4QqDIBSFe/+HjFZkZuWPienUeca50NigNuHjHkU/721ieMDfHaZpwq3r0Pc9nHPY9x0xRqnee6khBCGldElTnhW1ZKzrirZtMQyDSAk/4f4T3vu1mlKBnDO01lBKiYSZMBtjMM+zMI4jtm2Th7XWU97CZVlESK7kxFr7JTztsJQio3CkoxsK2RHzIeXZP+EL4VN/aGwpFjsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG81&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-3569b.png&quot;
+        srcset=&quot;/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-676ed.png 300w,
+/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-8c812.png 600w,
+/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-3569b.png 1091w&quot;
+        sizes=&quot;(max-width: 1091px) 100vw, 1091px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+在这里我们看到了什么信息呢？从mean行中约有0.38的人最后获救了，乘客的平均年龄为29.7岁，平均票价为32.20&lt;/p&gt;
+&lt;h3&gt;数据初步分析&lt;/h3&gt;
+&lt;p&gt;每个乘客大概有12种属性提供给我们，仅仅对于上面两行操作对于数据的了解还无法为我们提供想法和思路，我们现在不知道哪些有用哪些对于模型没有用，所以到了最关键的特征工程环节。我们知道最终的output是Suvived，现在需要寻找最后的Survived与各个属性之间有着什么样的内在关系。从大副的口中已经得知「要首先考虑妇女和儿童」。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; x &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; data1_x&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; data1&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dtype &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;float64&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Survival Correlation by:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data1&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Target&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;groupby&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; as_index&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mean&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;-&apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;\n&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;crosstab&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data1&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Title&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;data1&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Target&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-b593f.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1065px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 80.18779342723005%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8ElEQVQ4y52TRw6DQAxFuf8RYQEsEIjeOzh6ViZKlBWelYWYp188nrxPXdeSJIlEUaTzcRz6/b5veXI8N4zjKE3TSNd1sm2bXNf1gT2Beu4CoLIsJQxDndd1VagJyEVUzfMsRVHIvu8KMQHdz+SW57mkaSpt22oEgM0KKQGVFINSBzKVwiUUkiHFDMMgy7LYS+FQBOp831e73yBTy7QKtKqqn+zMlrFKKbSMwmma7AopBYXkGATB3ysxAbHZ970u9vf+mS3TLBkCpWFWyAL9AAGRYRzHuofYdjDzYqOQDC1P7g+ITVRmWSbnef7YfQJ+ARnN7nGA4j8lAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG82&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-b593f.png&quot;
+        srcset=&quot;/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-c0723.png 300w,
+/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-f3247.png 600w,
+/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-b593f.png 1065w&quot;
+        sizes=&quot;(max-width: 1065px) 100vw, 1065px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+在本图中，我们发现女性有0.74活下来，而男性只有0.18。歪果盆友果然很尊重lady，lady first践行得不错。性别无疑要作为重要特征加入最后的模型之中。在Pclass中，客舱为等级1的乘客获救的概率高很多，嗯这个一定也影响最后获救的结果（等级高的乘客一定也更有钱）。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;fig &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;figure&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+fig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;alpha&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  
+Survived_0 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Pclass&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Survived &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_counts&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Survived_1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Pclass&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Survived &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_counts&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+df&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DataFrame&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Survived&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Survived_1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;unSurvived&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Survived_0&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;plot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;kind&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;bar&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; stacked&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Survived status of all passenger classes&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;xlabel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;passanger&apos;s level&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ylabel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;number&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-50fb2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1026px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 61.40350877192983%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACDElEQVQoz3WTS2tTQRTHs3LpWnd+BzfiSv0EunQnXYh0UVAXkm2toEgFRXzvRAqKUosWjVAKLiy2lKrExDZUbdPkPnJfc9+Pmb8zJ72pNeZwh3uGe/6/ex4zFUgzTROdTgeOY8OyLLiuS3vl93o9hGFIMY7joG9CPhylCSEGfqV08jynd5KkJFagbrdLUE3TaO3stKGbNtq9AKmM5ZwPYOWbgEVRQNd1fG2uY32jhe/1OgEYY/B9n5bnOvCiDH7rE9iTM0hqU/A9B7nUDgHVn2zbRqr9gGfp0A0TQRBgv+2W1ZgDxqXs7lGkIZNATt/2AZWpvvF/EULsrSInpGjOQ1yWssenkIwCqpIMw+j3RGVc5qNAvCAYinQ3w7cQF6Xs0YnRQNU/Uw6BSyF3tsCtnxB5MiiU7xUM0ZhHLoH84cnRwDzLYLkMwjeAm0eAyYNAe7kP+TIDvB4HNmr9ljRmgUsqw2Oje6imzDwPLgtw/uptnK3eQOv3NgVEM2NgFyqIP1yj/WZ9GdcnTuP5g0l5PgPSDh8b2bvQZ9C8GIeqCzgw8R5LmzYFVJ8u4vDYHdx7t0r72TUNlXNzOD69BC+IZJuK/rBKYOnEUURl3699w603q/ily1vBM7xa2cKVF2tYqHekKkNj28TUy8949rEJ5gc0yKEM6Vhg2KI4hmNqSFwTvmshTTP81/66en8ACPN65IFQHbkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG87&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-50fb2.png&quot;
+        srcset=&quot;/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-6cb38.png 300w,
+/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-59163.png 600w,
+/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-50fb2.png 1026w&quot;
+        sizes=&quot;(max-width: 1026px) 100vw, 1026px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+从本图中我们可以看到，明显如果你是等级为1的乘客，你的获救概率就会很高。对了，这也是会最终影响输出的获救结果的一个特征。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Age&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Pclass &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;plot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;kind&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;kde&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;   
+data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Age&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Pclass &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;plot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;kind&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;kde&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Age&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Pclass &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;plot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;kind&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;kde&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;xlabel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# plots an axis lable&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ylabel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;dendity&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Age distribution of passengers levels&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;legend&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;first level&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;second level&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;third level&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;loc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;best&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-0561b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 858px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 67.5990675990676%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVQ4y4VT2a6rMAzs/3/efakqsbRQthACYQlhneME6HLaoztSlM0Zjx37hB3TNGFdVzDG4Pu+HY7j4Ha9IkkSuK5rz8wc3e/wPA9t29o3x1uDU9/3kFKi6zqYdVVV4JyjKitkeYaQRahlA15wCCGsw3tWwL8FCIPA7uu6htZ6IzQHRsE39KsGkz6tlrfzSZPTPMX5fMblckGWZU9C49UcLMtiZZux7PLV1IOl/zC0zO7tHdm1WqIQHGEYIo5jG+EH4ZGDg9Sg6QWFG0KW0ePuG8ZxtOl6hPybEEYJrWV9p/xIuJGDVuk3h6+O3wijKEKe5zaU3wpzEaCoJJomQiVr9NP6QfpV4SfhFkqYOtDDTOoY+pajVMbmPwpNmRjSV0IDoTjixLVrPQ9oSg91p6Gnd9KvCtM03XO3J3nWqArX1qJ1QqPsGHSVQaq9hLZUWwzD8CQ8inWz2YxFGSAh5dPLp+plJIUJUnZF0SmjEYeCaZ6fhDnPLSGjuop4gCDzqBMCVHWHjlrLtNfRRYUU5CyjX/dwy24IUg9hTm9zgZFUWsJDgSHtFT3iBV2OUKqzBds0jS1g83GlKIlYQ5CNIpVJnNDcUafFj/yfXpP7F5RSj074CwfPD4rJPLfYjk8PAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG88&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-0561b.png&quot;
+        srcset=&quot;/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-bba05.png 300w,
+/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-bfe0a.png 600w,
+/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-0561b.png 858w&quot;
+        sizes=&quot;(max-width: 858px) 100vw, 858px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+从各等级乘客的年龄分布中，我们可以看到「不同舱位/乘客等级可能和财富/地位有关系，最后获救概率可能会不一样」，所以年龄也会是影响我们最终结果的原因之一。&lt;/p&gt;
+&lt;h3&gt;简单数据预处理&lt;/h3&gt;
+&lt;p&gt;我们对大体数据已经看过一遍了，对于感兴趣的属性也有了大概的了解。现在我们需要 简单处理一下这些数据，为机器学习建模做点准备了。先从最突出的数据属性开始吧，Cabin和Age，因为这两项有些乘客的信息不包含它们，有丢失的数据对于下一步的工作影响太大。&lt;/p&gt;
+&lt;p&gt;先说Cabin，暂时我们就按照刚才说的，按Cabin有无数据，将这个属性处理成Yes和No两种类型吧。&lt;/p&gt;
+&lt;p&gt;再说Age：&lt;/p&gt;
+&lt;p&gt;通常遇到缺值的情况，我们会有几种常见的处理方式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果&lt;strong&gt;缺值的样本占总数比例极高&lt;/strong&gt;，我们可能就直接&lt;strong&gt;舍弃&lt;/strong&gt;了，作为特征加入的话，可能反倒带入noise，影响最后的结果了&lt;/li&gt;
+&lt;li&gt;如果缺值的样本适中，而该属性&lt;strong&gt;非连续值特征属性&lt;/strong&gt;(比如说类目属性)，那就把NaN作为一个新类别，加到类别特征中&lt;/li&gt;
+&lt;li&gt;如果缺值的样本适中，而该属性为&lt;strong&gt;连续值特征属性&lt;/strong&gt;，有时候我们会考虑给定一个step(比如这里的age，我们可以考虑每隔2/3岁为一个步长)，然后把它&lt;strong&gt;离散化&lt;/strong&gt;，之后把NaN作为一个type加到属性类目中。&lt;/li&gt;
+&lt;li&gt;有些情况下，缺失的值个数并不是特别多，那我们也可以试着根据已有的值，拟合一下数据，补充上。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本例中，因为Cabin不是影响最终结果的特征之一。所以直接考虑别的需要用到的特征（性别，等级，等级），并将其中的类目型转化为数值型特征，我们可以使用pandas的“get&lt;em&gt;dummies”来完成这个工作，并接在原来的“data&lt;/em&gt;train”上&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;dummies_Embarked &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_dummies&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Embarked&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; prefix&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Embarked&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+dummies_Sex &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_dummies&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Sex&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; prefix&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Sex&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+dummies_Pclass &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_dummies&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Pclass&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; prefix&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Pclass&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;concat&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;data_train&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dummies_Embarked&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dummies_Sex&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dummies_Pclass&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; axis&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;drop&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Pclass&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Name&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Sex&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Ticket&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Embarked&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; axis&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; inplace&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+df
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-ad933.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.35779816513761%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA60lEQVQoz52S2YqEMBBF+/9/UsR9QxF3kZo5BVeC3T0PI1ySlJWTupW87PdrmsbSNLU8z11xHFtZllZVlUVRZFmWeZxR86IofCQPMe+6zl7Xddm+73aep49Jktg4jj5v29YP499xHLdYS9u2ea4YDlyWxdZ1tXmevdK+7z0GjNP5pxwERHPiEnEHKknAYRhuILYFYJSecPKp8gaqAnqkCulJCAwhIVh734Ak0FwqJFbXtesbEIDsfgRimUuRZWCfKmRjuP5q+dlDbplL+bdl9VCW/7qUUGrXDSQwTZMrfDZUxwN+Po+nVZwJ+gPHnAJWXxZytAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG89&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-10046.png 300w,
+/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-3c4a3.png 600w,
+/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-abe1c.png 1200w,
+/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-1c9b7.png 1800w,
+/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-ad933.png 2180w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+na！我们将这些类目属性成功转化为0，1的数值属性了。这样看来，好像差不多都完成了，可是如果再看看Age和Fare两个属性，乘客关于这两个属性的数值变化幅度也太大了！！如果大家了解逻辑回归与梯度下降的话，会知道各属性之间的scale差距太大，将对收敛速度造成很大的伤害（甚至不收敛）…所以我们先用scikit-learn里面的preprocessing模块对这两个属性做一个处理（就是将变化幅度较大的特征化到[-1,1]内）&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; sklearn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;preprocessing &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; preprocessing
+scaler &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; preprocessing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;StandardScaler&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+age_scale_param &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; scaler&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Age&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Age_scaled&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; scaler&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit_transform&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Age&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; age_scale_param&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+fare_scale_param &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; scaler&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Fare&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Fare_scaled&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; scaler&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit_transform&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Fare&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; fare_scale_param&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+df
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-ee3ad.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 29.76878612716763%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA60lEQVQY011Q2YqFUAw7//9xCurFXRBB3HdccMk1HRyceQg5aXvatKosS9i2jSAI4DgOPM8T7fv+j3Y9uK4rmrn/sCwLpmlC13VEUQS17TvqukbX9WjbFuM4oqoqDMOApmkwjZMwcw+YZ4yI4xhJkuDz+aAoCqh120CXLCR3XSeJvu9l0MMEG5GLvPh9P9tomoY0TaH24/jzkQ7F2TTJEDLjdMxhj0Myte/5sqphGMjzHGpZV3HEJmQW0gGLn48sZJ6aoOY2BJuFYSh3zLIM6rou7Pcdj9vpm8/zlPc7/rzfelkWwTzP2O7zfQGaN8HaqI1lAgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WechatIMG90&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-10046.png 300w,
+/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-3c4a3.png 600w,
+/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-abe1c.png 1200w,
+/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-ee3ad.png 1384w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;嗯，这样初级的数据处理就完成的差不多了&lt;/p&gt;
+&lt;h3&gt;建模&lt;/h3&gt;
+&lt;p&gt;我么把需要的feature字段提取出来，转成numpy格式，使用scikit-learn中的LogisticRegression建模。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; sklearn &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; linear_model
+&lt;span class=&quot;token comment&quot;&gt;# 用正则取出我们要的属性值&lt;/span&gt;
+train_df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;regex&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Survived|Age_.*|SibSp|Parch|Fare_.*|Cabin_.*|Embarked_.*|Sex_.*|Pclass_.*&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+train_np &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; train_df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;as_matrix&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# y即Survival结果&lt;/span&gt;
+y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; train_np&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# X即特征属性值&lt;/span&gt;
+X &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; train_np&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# fit到RandomForestRegressor之中&lt;/span&gt;
+clf &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; linear_model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;LogisticRegression&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; penalty&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;l1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; tol&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+clf&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+clf
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;OK！！！通过这样建模后，我们得到一个model，然后再把test.csv通过同样的数据简单处理后，就可以得到预测结果了。&lt;/p&gt;
+&lt;h3&gt;系统优化&lt;/h3&gt;
+&lt;p&gt;等等，你以为这样就完了么。这其实只完成了刚刚开始的一步，我们只是做了一个baseline model，一切都还是基础的，我们还需要优化。&lt;/p&gt;
+&lt;p&gt;不过在现在的场景下，先不着急做这个事情，我们这个baseline系统还有些粗糙，先再挖掘挖掘。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先，Name和Ticket两个属性被我们完整舍弃了(好吧，其实是因为这俩属性，几乎每一条记录都是一个完全不同的值，我们并没有找到很直接的处理方式)。&lt;/li&gt;
+&lt;li&gt;然后，我们想想，年龄的拟合本身也未必是一件非常靠谱的事情，我们依据其余属性，其实并不能很好地拟合预测出未知的年龄。再一个，以我们的日常经验，小盆友和老人可能得到的照顾会多一些，这样看的话，年龄作为一个连续值，给一个固定的系数，应该和年龄是一个正相关或者负相关，似乎体现不出两头受照顾的实际情况，所以，说不定我们把年龄离散化，按区段分作类别属性会更合适一些。（大家去kaggle上可以看看大神的kernels）&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[人工智障也刷题！Kaggle入门之实战泰坦尼克号]]></title><description><![CDATA[背景 关于Kaggle https://www.kaggle.com/ 这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！ Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP…]]></description><link>https://knownsec-fed.com/2018-12-04-ren-gong-zhi-zhang-ye-shua-ti-kaggle-ru-men-zhi-shi-zhan-tai-tan-ni-ke-hao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-04-ren-gong-zhi-zhang-ye-shua-ti-kaggle-ru-men-zhi-shi-zhan-tai-tan-ni-ke-hao/</guid><pubDate>Tue, 04 Dec 2018 07:07:04 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-74885309b5a5696773817498c4e00dc1-c1165.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABzmQMy2maN//EABsQAAICAwEAAAAAAAAAAAAAAAECERIAAxMi/9oACAEBAAEFAjHPX6DIJs0XapYnP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAIDAQEAAAAAAAAAAAAAAAABETEygZH/2gAIAQEABj8Cz0qSiJZp+ls//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARUSFx/9oACAEBAAE/IWOVlCBHnWkNHKsuF6ZLqes//9oADAMBAAIAAwAAABAYD//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQMBAT8QEs5f/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEh/9oACAECAQE/ELGv/8QAHBABAQEBAAIDAAAAAAAAAAAAAREhADFRQWGB/9oACAEBAAE/ECcFAYF9XhZe1Mi35+pwIkz12DH8Vh+cVgVd1vWDklR7/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot; 人工智障也刷题！Kaggle入门之实战泰坦尼克号&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-74885309b5a5696773817498c4e00dc1-c1165.jpeg&quot;
+        srcset=&quot;/static/header-74885309b5a5696773817498c4e00dc1-c552c.jpeg 300w,
+/static/header-74885309b5a5696773817498c4e00dc1-b5c43.jpeg 600w,
+/static/header-74885309b5a5696773817498c4e00dc1-c1165.jpeg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;                              人工智障也刷题！Kaggle入门之实战泰坦尼克号&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h1&gt;背景&lt;/h1&gt;
+&lt;h2&gt;关于Kaggle&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;https://www.kaggle.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP（国际知识发现和数据挖掘竞赛），企业或者研究者可以将背景、数据、期望指标等发布在kaggle上，用竞赛的方式向全世界的数据科学家和爱好者寻求解决方案。热爱数（dong）据（shou）挖（zhe）掘（teng）的小伙伴们可以下载/分析数据，使用统计/机器学习/数据挖掘等方面的知识，建立算法模型，得出结果并提交，排名靠前可能还会有奖励哦！&lt;/p&gt;
+&lt;h2&gt;关于泰坦尼克号之灾&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://www.kaggle.com/c/titanic&lt;/a&gt;点击这里0.0&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;问题背景页&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-d3087.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1060px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69.81132075471697%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACh0lEQVQ4y32SWU8TURTH+2zCliJIoEApA0QKBVsJUJYuWLe4xGD0SR+MJhI0qB/CB7+SiWCIMSa+GxORp6Z0us20neVOp3/PuWWa1gcm+ffce3ru7yz3+g6/HmMznkAysYNUMkM2g+3NFOJrW9jcSCAaDiO6sIh4PI3F+SVMj09ifT2JWHQNk4Eg1te2MX91Ga/33oA/3+HRMWLL17ESW0ViKylhN5I7eHz/Hp48fIAXT3exe+cmMsk0bqdSuLu9gVvpDFIUtxqJUGwaK9FVHLx91wJ+/nKEUGgOA31+9Pf70dc7gAFp+9Hb04dB/xAu+4cxNDiEidEAVTWBwPAIxkbGMDM+jogSwuzoMD7s77WA377/wMv994hRhQvhJYSlIphR5jA5MdVWMBiixAqmphRaT2NWmUVPMIxLyjX4rih49OqgBTQsG1nNQF6vo1KpoFzRUCyVoOk6SuWytHq1ilqtDqfRgEXxhVIZVlXDx18Cz386eEb69FsAjg2faQuYpgFh23BdFw061GwCLv00aM8QKacBWwgIx6GYcz+tBfkcR0hbp2Q+g4Cq5aJAsijQEA6KxSJKVKVDQU0CXyScS1BCCTQJkFMLqOg1OQP+wwOapgmbKjcMo0vsZ1uv12kUNRqDRRW7LaBFwJOTPzg9/UuHLUrm4uzsDKqqypkymMdw8deUI2gDdRo8Z+IW+HA+n5fQbDaLXC4HTdNQpYthy7Es3rN4LYQt530OFF25GFgoFKAWVNk6V6npmrRyrWlt64lH0AVsD7gDyFWy9eYpnxQ9o06xz0vavhRZ4X9ADvLa9FrtbNlrlcU+vpyOS+kG8lvkivhSGMzyRuD55J7WbFmcwHWbEvgP/52TC5AxfS8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-d3087.png&quot;
+        srcset=&quot;/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-a4c48.png 300w,
+/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-6ba42.png 600w,
+/static/WechatIMG77-e9b26f18a964013287cb1496ed4f2b8a-d3087.png 1060w&quot;
+        sizes=&quot;(max-width: 1060px) 100vw, 1060px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下载Data的页面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-cc573.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.90675241157556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABvklEQVQ4y21TW5abMAzNGruHfnSX/erpAmYBkzBNMoGhEPzEmNsrGQidjM8Rkm356urBwYYINya0XYfjqcLxvcGpqnCiXVG/Ho+o3t5U6rrB9XZDxbOX1z/4/qvFt58f+PH7L95NRBhHHFwcIaCB2nkPHwLyPCPnGVPOqleRvZ7NxfZpgkuZhKiJYYlxUIYC6jxujF7XNVIaMStoVj0rcFat++WMH0qxV2Ibw8i0nXMIZJhSwjRNqq21GJmK7EXEDvSXuyQ+lEgM44OCPgDp4JmyOOaFkQAI4P5MbAm8+soahgHdYOBJ6j+GgU5bSlKnHaAsHm2gMcbtXOo+WPeJIQElnbyrkwAaY7bHK9Nyj4ffVzUcUwGci6dGlsf3vodnitYaTXOfAR03vydATy3UlWkqIvbAlA0nwEhK1Nud1FzKtPg7ZlEAl/mxjH6/30sHlw4LYwHrjNNaDsaiZ/F7YU2/3kd0LhAoPAOKbj5aPhg44EGnPlJkNjv+RZa17O8DAwfdS23LXAJBBvy5hqWjURszq5ZmXC4XXK9XnM9ntQ0Drl2el1qL/hLwsYqjPJQ/p2ka1W3b8heN+Lz2TfkHfITz/Nl7uFkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-10046.png 300w,
+/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-3c4a3.png 600w,
+/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-abe1c.png 1200w,
+/static/WechatIMG78-a239c7cb11e047bf15ce0e61edaf6406-cc573.png 1244w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;泰坦尼克号问题背景&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;就是大家从小到大被洗脑的“u jump I jump”的「jack和rose」的故事了。游艇在撞击了一个冰山后沉没了。乘客们都惊慌失措，副船长「lady and kid first」，所以模型不会向抛硬币那样看脸决定你是否获救。而是有着一定背景的，至于出了女士和孩子优先，还有哪些值得我们考虑，这就是稍后我们在特征工程中解决的问题了。&lt;/li&gt;
+&lt;li&gt;训练和测试数据是一些乘客的个人信息以及存活情况，尝试应用这些数据来建立一个合适的模型进行预测。&lt;/li&gt;
+&lt;li&gt;这是一个二分类问题（survived或者not），本文尝试用logistic regression来处理问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;说明&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「没有所谓的算法优劣，也没有绝对高性能的机器学习算法，只有在特定的场景、数据和特征下更合适的机器学习的算法。」由于还只是在学习阶段，对于XGBC、随机森林、SVC还不了解，本文所用的算法只是logistic regression。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;初识数据&lt;/h3&gt;
+&lt;p&gt;在Data下我们会看到官方给的train.csv和test.csv两个文件，分别是训练和测试数据。我们可以使用virtualenv来创建一个“隔离”的python应用环境（虚拟环境）。在这里，你不需要考虑系统原有库的版本，只需要pip来管理你需要用到的一切。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;import pandas as pd   
+import numpy as np    
+from pandas import Series,DataFrame
+
+data_train = pd.read_csv(&quot;./train.csv&quot;)
+pd.DataFrame(data_train)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;pandas是常用的python数据处理包，把csv文件读入成dataframe格式，在jupyter notebook中，可以看到我们的数据长什么样：
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-6ddde.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 30.219333874898457%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABD0lEQVQY012R6W7DIBCE8/6PWKWKD7CDuU8fcTplaRpV/TGCnZ39xIrLKB1iCAjOgI0DOBubtJIwWkHcZwx9Vz2GcejbSf7EGe61N08c3e0GawystbhwHfAEsB4nbN7hXlI+Q7qEaTEYZgkmdKt9OWBCwSRtq3XNmbiirBtMhV64Cji/gFCDS3pAVql8YjIFXCd8coUrk7jyClWx9Wdb8DEIDNK3jAg78n/gsW/YtxXbWproTh6tfq9r0ZrOmnePalIMHiUnbNsLyF7AvRplrU8vpSmlBKU0+r5H13UQQsA599OvuWVZoLWG8x4x/QEuNuJ4nG8IKedcg64CVRuiYZKvw78Z8ukTyIsxtnkCfgNhzsg0m9g8HgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-10046.png 300w,
+/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-3c4a3.png 600w,
+/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-abe1c.png 1200w,
+/static/WechatIMG79-5b4d5bcc0e9cfa4da14cce654de82915-6ddde.png 1231w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;我们就可以把它看作一张excel表格，共有12列，891行（代表在train_csv中共有891个乘客）。Survived字段代表该乘客是否获救（1代表获救，0代表没有获救），其余是一些个人信息&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;passengerId =&gt; 乘客的ID&lt;/li&gt;
+&lt;li&gt;Pclass =&gt; 乘客所在舱位的等级（1、2、3等舱）&lt;/li&gt;
+&lt;li&gt;Name =&gt; 姓名&lt;/li&gt;
+&lt;li&gt;Sex =&gt; 性别&lt;/li&gt;
+&lt;li&gt;Age =&gt; 年龄&lt;/li&gt;
+&lt;li&gt;SibSp =&gt; 兄弟姐妹个数&lt;/li&gt;
+&lt;li&gt;Parch =&gt; 父母与小孩个数&lt;/li&gt;
+&lt;li&gt;Ticket =&gt; 船票信息&lt;/li&gt;
+&lt;li&gt;Fare =&gt; 票价&lt;/li&gt;
+&lt;li&gt;Cabin =&gt; 客舱信息&lt;/li&gt;
+&lt;li&gt;Embarked =&gt; 登船所在港口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;data_train.info()&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-134b5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1185px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 30.126582278481013%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAApUlEQVQY043R2wrDIAwG4L7/E/aqkx4GVYvGQ3Vj+K/KDsjWrZFcRb4kpOGaI96ukIsGY2eM4wyyBDIE4wxCDMfyEmC9RTOrGTmkkGjbFtM0oe97sBOD977UUkr4GY/yGtYaJCJYazEMwzZtDe6+lF4NK1BwgRgjnHMF67oOxpg3+Cc/QSGgtCpIXjmDSqkK/LrtHrjIZTvIWGDOObTWZdrn56PgHeZv0jXo4nD/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-134b5.png&quot;
+        srcset=&quot;/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-6de16.png 300w,
+/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-d351b.png 600w,
+/static/WechatIMG80-fc2b6d934b7a71b53a9cec8fe80bd364-134b5.png 1185w&quot;
+        sizes=&quot;(max-width: 1185px) 100vw, 1185px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+     这里告诉了我么一些关于data_train的基本信息，比如共有891个乘客，但是有些字段的数据不全。比如Age（年龄）、Cabin（客舱信息）。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;data_train.describe()&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-3569b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1091px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 27.222731439046743%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAmElEQVQY04WP4QqDIBSFe/+HjFZkZuWPienUeca50NigNuHjHkU/721ieMDfHaZpwq3r0Pc9nHPY9x0xRqnee6khBCGldElTnhW1ZKzrirZtMQyDSAk/4f4T3vu1mlKBnDO01lBKiYSZMBtjMM+zMI4jtm2Th7XWU97CZVlESK7kxFr7JTztsJQio3CkoxsK2RHzIeXZP+EL4VN/aGwpFjsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-3569b.png&quot;
+        srcset=&quot;/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-676ed.png 300w,
+/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-8c812.png 600w,
+/static/WechatIMG81-d2b5262cc0903f5a54d7c4c3f155a3c3-3569b.png 1091w&quot;
+        sizes=&quot;(max-width: 1091px) 100vw, 1091px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+     在这里我们看到了什么信息呢？从mean行中约有0.38的人最后获救了，乘客的平均年龄为29.7岁，平均票价为32.20&lt;/p&gt;
+&lt;h3&gt;数据初步分析&lt;/h3&gt;
+&lt;p&gt;每个乘客大概有12种属性提供给我们，仅仅对于上面两行操作对于数据的了解还无法为我们提供想法和思路，我们现在不知道哪些有用哪些对于模型没有用，所以到了最关键的特征工程环节。我们知道最终的output是Suvived，现在需要寻找最后的Survived与各个属性之间有着什么样的内在关系。从大副的口中已经得知「要首先考虑妇女和儿童」。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;for x in data1_x:
+    if data1[x].dtype != &apos;float64&apos; :
+        print(&apos;Survival Correlation by:&apos;, x)
+        print(data1[[x, Target[0]]].groupby(x, as_index=False).mean())
+        print(&apos;-&apos;*10, &apos;\n&apos;)
+        
+print(pd.crosstab(data1[&apos;Title&apos;],data1[Target[0]]))&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-b593f.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1065px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 80.18779342723005%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8ElEQVQ4y52TRw6DQAxFuf8RYQEsEIjeOzh6ViZKlBWelYWYp188nrxPXdeSJIlEUaTzcRz6/b5veXI8N4zjKE3TSNd1sm2bXNf1gT2Beu4CoLIsJQxDndd1VagJyEVUzfMsRVHIvu8KMQHdz+SW57mkaSpt22oEgM0KKQGVFINSBzKVwiUUkiHFDMMgy7LYS+FQBOp831e73yBTy7QKtKqqn+zMlrFKKbSMwmma7AopBYXkGATB3ysxAbHZ970u9vf+mS3TLBkCpWFWyAL9AAGRYRzHuofYdjDzYqOQDC1P7g+ITVRmWSbnef7YfQJ+ARnN7nGA4j8lAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-b593f.png&quot;
+        srcset=&quot;/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-c0723.png 300w,
+/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-f3247.png 600w,
+/static/WechatIMG82-23ab4cf9d039d899629dcb383ce9a95d-b593f.png 1065w&quot;
+        sizes=&quot;(max-width: 1065px) 100vw, 1065px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+     在本图中，我们发现女性有0.74活下来，而男性只有0.18。歪果盆友果然很尊重lady，lady first践行得不错。性别无疑要作为重要特征加入最后的模型之中。在Pclass中，客舱为等级1的乘客获救的概率高很多，嗯这个一定也影响最后获救的结果（等级高的乘客一定也更有钱）。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;fig = plt.figure()
+fig.set(alpha=0.2)  
+Survived_0 = data_train.Pclass[data_train.Survived == 0].value_counts()
+Survived_1 = data_train.Pclass[data_train.Survived == 1].value_counts()
+df=pd.DataFrame({&apos;Survived&apos;:Survived_1, &apos;unSurvived&apos;:Survived_0})
+df.plot(kind=&apos;bar&apos;, stacked=True)
+plt.title(&quot;Survived status of all passenger classes&quot;)
+plt.xlabel(&quot;passanger&apos;s level&quot;) 
+plt.ylabel(&quot;number&quot;) 
+plt.show()&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-50fb2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1026px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 61.40350877192983%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACDElEQVQoz3WTS2tTQRTHs3LpWnd+BzfiSv0EunQnXYh0UVAXkm2toEgFRXzvRAqKUosWjVAKLiy2lKrExDZUbdPkPnJfc9+Pmb8zJ72pNeZwh3uGe/6/ex4zFUgzTROdTgeOY8OyLLiuS3vl93o9hGFIMY7joG9CPhylCSEGfqV08jynd5KkJFagbrdLUE3TaO3stKGbNtq9AKmM5ZwPYOWbgEVRQNd1fG2uY32jhe/1OgEYY/B9n5bnOvCiDH7rE9iTM0hqU/A9B7nUDgHVn2zbRqr9gGfp0A0TQRBgv+2W1ZgDxqXs7lGkIZNATt/2AZWpvvF/EULsrSInpGjOQ1yWssenkIwCqpIMw+j3RGVc5qNAvCAYinQ3w7cQF6Xs0YnRQNU/Uw6BSyF3tsCtnxB5MiiU7xUM0ZhHLoH84cnRwDzLYLkMwjeAm0eAyYNAe7kP+TIDvB4HNmr9ljRmgUsqw2Oje6imzDwPLgtw/uptnK3eQOv3NgVEM2NgFyqIP1yj/WZ9GdcnTuP5g0l5PgPSDh8b2bvQZ9C8GIeqCzgw8R5LmzYFVJ8u4vDYHdx7t0r72TUNlXNzOD69BC+IZJuK/rBKYOnEUURl3699w603q/ily1vBM7xa2cKVF2tYqHekKkNj28TUy8949rEJ5gc0yKEM6Vhg2KI4hmNqSFwTvmshTTP81/66en8ACPN65IFQHbkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-50fb2.png&quot;
+        srcset=&quot;/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-6cb38.png 300w,
+/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-59163.png 600w,
+/static/WechatIMG87-09b2600dcecc7ca9b947ebfd6ecc8462-50fb2.png 1026w&quot;
+        sizes=&quot;(max-width: 1026px) 100vw, 1026px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+     从本图中我们可以看到，明显如果你是等级为1的乘客，你的获救概率就会很高。对了，这也是会最终影响输出的获救结果的一个特征。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;data_train.Age[data_train.Pclass == 1].plot(kind=&apos;kde&apos;)   
+data_train.Age[data_train.Pclass == 2].plot(kind=&apos;kde&apos;)
+data_train.Age[data_train.Pclass == 3].plot(kind=&apos;kde&apos;)
+plt.xlabel(&quot;age&quot;)# plots an axis lable
+plt.ylabel(&quot;dendity&quot;) 
+plt.title(&quot;Age distribution of passengers levels&quot;)
+plt.legend((&apos;first level&apos;, &apos;second level&apos;,&apos;third level&apos;),loc=&apos;best&apos;)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-0561b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 858px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 67.5990675990676%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVQ4y4VT2a6rMAzs/3/efakqsbRQthACYQlhneME6HLaoztSlM0Zjx37hB3TNGFdVzDG4Pu+HY7j4Ha9IkkSuK5rz8wc3e/wPA9t29o3x1uDU9/3kFKi6zqYdVVV4JyjKitkeYaQRahlA15wCCGsw3tWwL8FCIPA7uu6htZ6IzQHRsE39KsGkz6tlrfzSZPTPMX5fMblckGWZU9C49UcLMtiZZux7PLV1IOl/zC0zO7tHdm1WqIQHGEYIo5jG+EH4ZGDg9Sg6QWFG0KW0ePuG8ZxtOl6hPybEEYJrWV9p/xIuJGDVuk3h6+O3wijKEKe5zaU3wpzEaCoJJomQiVr9NP6QfpV4SfhFkqYOtDDTOoY+pajVMbmPwpNmRjSV0IDoTjixLVrPQ9oSg91p6Gnd9KvCtM03XO3J3nWqArX1qJ1QqPsGHSVQaq9hLZUWwzD8CQ8inWz2YxFGSAh5dPLp+plJIUJUnZF0SmjEYeCaZ6fhDnPLSGjuop4gCDzqBMCVHWHjlrLtNfRRYUU5CyjX/dwy24IUg9hTm9zgZFUWsJDgSHtFT3iBV2OUKqzBds0jS1g83GlKIlYQ5CNIpVJnNDcUafFj/yfXpP7F5RSj074CwfPD4rJPLfYjk8PAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-0561b.png&quot;
+        srcset=&quot;/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-bba05.png 300w,
+/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-bfe0a.png 600w,
+/static/WechatIMG88-d4d9c33410812a2838345fe49a475dae-0561b.png 858w&quot;
+        sizes=&quot;(max-width: 858px) 100vw, 858px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+     从各等级乘客的年龄分布中，我们可以看到「不同舱位/乘客等级可能和财富/地位有关系，最后获救概率可能会不一样」，所以年龄也会是影响我们最终结果的原因之一。&lt;/p&gt;
+&lt;h3&gt;简单数据预处理&lt;/h3&gt;
+&lt;p&gt;我们对大体数据已经看过一遍了，对于感兴趣的属性也有了大概的了解。现在我们需要 简单处理一下这些数据，为机器学习建模做点准备了。先从最突出的数据属性开始吧，Cabin和Age，因为这两项有些乘客的信息不包含它们，有丢失的数据对于下一步的工作影响太大。&lt;/p&gt;
+&lt;p&gt;先说Cabin，暂时我们就按照刚才说的，按Cabin有无数据，将这个属性处理成Yes和No两种类型吧。&lt;/p&gt;
+&lt;p&gt;再说Age：&lt;/p&gt;
+&lt;p&gt;通常遇到缺值的情况，我们会有几种常见的处理方式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果&lt;strong&gt;缺值的样本占总数比例极高&lt;/strong&gt;，我们可能就直接&lt;strong&gt;舍弃&lt;/strong&gt;了，作为特征加入的话，可能反倒带入noise，影响最后的结果了&lt;/li&gt;
+&lt;li&gt;如果缺值的样本适中，而该属性&lt;strong&gt;非连续值特征属性&lt;/strong&gt;(比如说类目属性)，那就把NaN作为一个新类别，加到类别特征中&lt;/li&gt;
+&lt;li&gt;如果缺值的样本适中，而该属性为&lt;strong&gt;连续值特征属性&lt;/strong&gt;，有时候我们会考虑给定一个step(比如这里的age，我们可以考虑每隔2/3岁为一个步长)，然后把它&lt;strong&gt;离散化&lt;/strong&gt;，之后把NaN作为一个type加到属性类目中。&lt;/li&gt;
+&lt;li&gt;有些情况下，缺失的值个数并不是特别多，那我们也可以试着根据已有的值，拟合一下数据，补充上。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本例中，因为Cabin不是影响最终结果的特征之一。所以直接考虑别的需要用到的特征（性别，等级，等级），并将其中的类目型转化为数值型特征，我们可以使用pandas的“get&lt;em&gt;dummies”来完成这个工作，并接在原来的“data&lt;/em&gt;train”上&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;dummies_Embarked = pd.get_dummies(data_train[&apos;Embarked&apos;], prefix= &apos;Embarked&apos;)
+dummies_Sex = pd.get_dummies(data_train[&apos;Sex&apos;], prefix= &apos;Sex&apos;)
+dummies_Pclass = pd.get_dummies(data_train[&apos;Pclass&apos;], prefix= &apos;Pclass&apos;)
+
+df = pd.concat([data_train, dummies_Embarked, dummies_Sex, dummies_Pclass], axis=1)
+df.drop([&apos;Pclass&apos;, &apos;Name&apos;, &apos;Sex&apos;, &apos;Ticket&apos;, &apos;Embarked&apos;], axis=1, inplace=True)
+df&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-ad933.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.35779816513761%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA60lEQVQoz52S2YqEMBBF+/9/UsR9QxF3kZo5BVeC3T0PI1ySlJWTupW87PdrmsbSNLU8z11xHFtZllZVlUVRZFmWeZxR86IofCQPMe+6zl7Xddm+73aep49Jktg4jj5v29YP499xHLdYS9u2ea4YDlyWxdZ1tXmevdK+7z0GjNP5pxwERHPiEnEHKknAYRhuILYFYJSecPKp8gaqAnqkCulJCAwhIVh734Ak0FwqJFbXtesbEIDsfgRimUuRZWCfKmRjuP5q+dlDbplL+bdl9VCW/7qUUGrXDSQwTZMrfDZUxwN+Po+nVZwJ+gPHnAJWXxZytAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-10046.png 300w,
+/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-3c4a3.png 600w,
+/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-abe1c.png 1200w,
+/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-1c9b7.png 1800w,
+/static/WechatIMG89-dd3e3f3fc5d11bf19f7ba2f216a89d13-ad933.png 2180w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+     na！我们将这些类目属性成功转化为0，1的数值属性了。这样看来，好像差不多都完成了，可是如果再看看Age和Fare两个属性，乘客关于这两个属性的数值变化幅度也太大了！！如果大家了解逻辑回归与梯度下降的话，会知道各属性之间的scale差距太大，将对收敛速度造成很大的伤害（甚至不收敛）…所以我们先用scikit-learn里面的preprocessing模块对这两个属性做一个处理（就是将变化幅度较大的特征化到[-1,1]内）&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;import sklearn.preprocessing as preprocessing
+scaler = preprocessing.StandardScaler()
+age_scale_param = scaler.fit(df[&apos;Age&apos;])
+df[&apos;Age_scaled&apos;] = scaler.fit_transform(df[&apos;Age&apos;], age_scale_param)
+fare_scale_param = scaler.fit(df[&apos;Fare&apos;])
+df[&apos;Fare_scaled&apos;] = scaler.fit_transform(df[&apos;Fare&apos;], fare_scale_param)
+df&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-ee3ad.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 29.76878612716763%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA60lEQVQY011Q2YqFUAw7//9xCurFXRBB3HdccMk1HRyceQg5aXvatKosS9i2jSAI4DgOPM8T7fv+j3Y9uK4rmrn/sCwLpmlC13VEUQS17TvqukbX9WjbFuM4oqoqDMOApmkwjZMwcw+YZ4yI4xhJkuDz+aAoCqh120CXLCR3XSeJvu9l0MMEG5GLvPh9P9tomoY0TaH24/jzkQ7F2TTJEDLjdMxhj0Myte/5sqphGMjzHGpZV3HEJmQW0gGLn48sZJ6aoOY2BJuFYSh3zLIM6rou7Pcdj9vpm8/zlPc7/rzfelkWwTzP2O7zfQGaN8HaqI1lAgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-abe1c.png&quot;
+        srcset=&quot;/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-10046.png 300w,
+/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-3c4a3.png 600w,
+/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-abe1c.png 1200w,
+/static/WechatIMG90-03a52572f7cc74e5239a401a19869fc4-ee3ad.png 1384w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;嗯，这样初级的数据处理就完成的差不多了&lt;/p&gt;
+&lt;h3&gt;建模&lt;/h3&gt;
+&lt;p&gt;我么把需要的feature字段提取出来，转成numpy格式，使用scikit-learn中的LogisticRegression建模。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;from sklearn import linear_model
+# 用正则取出我们要的属性值
+train_df = df.filter(regex=&apos;Survived|Age_.*|SibSp|Parch|Fare_.*|Cabin_.*|Embarked_.*|Sex_.*|Pclass_.*&apos;)
+train_np = train_df.as_matrix()
+# y即Survival结果
+y = train_np[:, 0]
+# X即特征属性值
+X = train_np[:, 1:]
+# fit到RandomForestRegressor之中
+clf = linear_model.LogisticRegression(C=1.0, penalty=&apos;l1&apos;, tol=1e-6)
+clf.fit(X, y)
+clf&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;OK！！！通过这样建模后，我们得到一个model，然后再把test.csv通过同样的数据简单处理后，就可以得到预测结果了。&lt;/p&gt;
+&lt;h3&gt;系统优化&lt;/h3&gt;
+&lt;p&gt;等等，你以为这样就完了么。这其实只完成了刚刚开始的一步，我们只是做了一个baseline model，一切都还是基础的，我们还需要优化。&lt;/p&gt;
+&lt;p&gt;不过在现在的场景下，先不着急做这个事情，我们这个baseline系统还有些粗糙，先再挖掘挖掘。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先，Name和Ticket两个属性被我们完整舍弃了(好吧，其实是因为这俩属性，几乎每一条记录都是一个完全不同的值，我们并没有找到很直接的处理方式)。&lt;/li&gt;
+&lt;li&gt;然后，我们想想，年龄的拟合本身也未必是一件非常靠谱的事情，我们依据其余属性，其实并不能很好地拟合预测出未知的年龄。再一个，以我们的日常经验，小盆友和老人可能得到的照顾会多一些，这样看的话，年龄作为一个连续值，给一个固定的系数，应该和年龄是一个正相关或者负相关，似乎体现不出两头受照顾的实际情况，所以，说不定我们把年龄离散化，按区段分作类别属性会更合适一些。（大家去kaggle上可以看看大神的kernels）&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【译】5 个最新的用户体验设计趋势]]></title><description><![CDATA[5 个最新的用户体验设计趋势 翻译文章： https://www.invisionapp.com/inside-design/ux-design-trends/ 用户体验（UX）设计总是不断的发展。从明亮的色彩和实验布局等危险趋势到喜欢，或者令人愉悦的设计，总会有新的尝试。 UX…]]></description><link>https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</guid><pubDate>Fri, 16 Nov 2018 09:52:57 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-8eeacd204d431448f6e770296b41a535-d6978.jpeg&quot;
