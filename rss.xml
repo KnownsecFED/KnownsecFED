@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 16 Nov 2018 10:07:48 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 06:12:57 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[怎么写一个高逼格的 README…]]></description><link>https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-03-25-ru-he-xie-yi-ge-gao-bi-ge-readme/howToWrite/</guid><content:encoded>&lt;h1&gt;怎么写一个高逼格的 README&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最近一个项目从程序员变成了一个高级文档哥，好吧，我还称不上高级，但是我发现写文档真不是一件容易的事情，要怎么写的让人看的舒服、巴适、爽的不行，看完就想给你个赞呢？我也总结了一下写文档的一些感想，也不能说是经验，毕竟小弟还年轻，哈哈。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,39 @@
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】5 个最新的用户体验设计趋势]]></title><description><![CDATA[5 个最新的用户体验设计趋势 翻译文章： https://www.invisionapp.com/inside-design/ux-design-trends/ 用户体验（UX）设计总是不断的发展。从明亮的色彩和实验布局等危险趋势到喜欢，或者令人愉悦的设计，总会有新的尝试。 UX…]]></description><link>https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</guid><pubDate>Fri, 16 Nov 2018 09:52:57 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[人工智障也刷题！Kaggle入门之实战泰坦尼克号]]></title><link>https://knownsec-fed.com/2018-12-03-ren-gong-zhi-zhang-ye-shua-ti-kaggle-ru-men-zhi-shi-zhan-tai-tan-ni-ke-hao/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-03-ren-gong-zhi-zhang-ye-shua-ti-kaggle-ru-men-zhi-shi-zhan-tai-tan-ni-ke-hao/</guid><pubDate>Mon, 03 Dec 2018 08:49:40 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3lAD/8QAFhAAAwAAAAAAAAAAAAAAAAAAACAh/9oACAEBAAEFAir/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAEFAAAAAAAAAAAAAAAAABEAASBBgf/aAAgBAQABPyFzQWI//9oADAMBAAIAAwAAABCAD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAIBBQAAAAAAAAAAAAAAAAERACAhMXGB/9oACAEBAAE/EMfZwXhldGn/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;人工智障也刷题！Kaggle入门之实战泰坦尼克号&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg&quot;
+        srcset=&quot;/static/header-250f37abd2d3716359b19bd25304da8f-527f0.jpeg 300w,
+/static/header-250f37abd2d3716359b19bd25304da8f-9a7cd.jpeg 600w,
+/static/header-250f37abd2d3716359b19bd25304da8f-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[【译】5 个最新的用户体验设计趋势]]></title><description><![CDATA[5 个最新的用户体验设计趋势 翻译文章： https://www.invisionapp.com/inside-design/ux-design-trends/ 用户体验（UX）设计总是不断的发展。从明亮的色彩和实验布局等危险趋势到喜欢，或者令人愉悦的设计，总会有新的尝试。 UX…]]></description><link>https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-11-16-yi-5-ge-zui-xin-de-yong-hu-ti-yan-she-ji-qu-shi/</guid><pubDate>Fri, 16 Nov 2018 09:52:57 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-8eeacd204d431448f6e770296b41a535-d6978.jpeg&quot;
