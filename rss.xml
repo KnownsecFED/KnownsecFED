@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Dec 2018 03:57:24 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[背景 关于Kaggle https://www.kaggle.com/ 这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！ Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Dec 2018 06:44:55 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[背景 关于Kaggle https://www.kaggle.com/ 这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！ Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;                              人工智障也刷题！Kaggle入门之实战泰坦尼克号&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;
@@ -924,10 +924,10 @@ clf
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[也许你对Fetch了解的不是那么多（二)]]></title><description><![CDATA[Fetch 与 XHR 比较 Fetch 相对  XHR  来说具有简洁、易用、声明式、天生基于  Promise  等特点。 XHR   使用方式复杂，接口繁多，最重要的一点个人觉得是它的回调设计，对于实现  try...catch  比较繁琐。 但是 Fetch…]]></description><link>https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-er/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-er/</guid><pubDate>Fri, 28 Dec 2018 06:09:02 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[也许你对Fetch了解得不是那么多（二)]]></title><description><![CDATA[Fetch 与 XHR 比较 Fetch 相对  XHR  来说具有简洁、易用、声明式、天生基于  Promise  等特点。 XHR   使用方式复杂，接口繁多，最重要的一点个人觉得是它的回调设计，对于实现  try...catch  比较繁琐。 但是 Fetch…]]></description><link>https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-er/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-er/</guid><pubDate>Fri, 28 Dec 2018 06:09:02 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-d6978.jpeg&quot;
+    href=&quot;/static/header-230087a9ab44a417c3873a30007d7fb1-dd4dc.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -939,17 +939,19 @@ clf
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EABcBAAMBAAAAAAAAAAAAAAAAAAACAwT/2gAMAwEAAhADEAAAAXB0OlO0CL//xAAaEAACAgMAAAAAAAAAAAAAAAAAAgMQEyEx/9oACAEBAAEFAmk00hkG49f/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQISIf/aAAgBAwEBPwFQ0of/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAIS/9oACAECAQE/AcBcl//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABYQAQEBAAAAAAAAAAAAAAAAABABQf/aAAgBAQABPyETSaP/2gAMAwEAAgADAAAAEK8v/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERQVH/2gAIAQMBAT8QRYhp/8QAFxEAAwEAAAAAAAAAAAAAAAAAABExAf/aAAgBAgEBPxBSGsh//8QAGBABAQEBAQAAAAAAAAAAAAAAAQARIUH/2gAIAQEAAT8Q6J9br5J12UV2/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAXAQADAQAAAAAAAAAAAAAAAAAAAgME/9oADAMBAAIQAxAAAAGgnlHSncnBf//EABoQAAICAwAAAAAAAAAAAAAAAAECACEDEDH/2gAIAQEAAQUCOSi4he24x1//xAAYEQACAwAAAAAAAAAAAAAAAAAAAQISIf/aAAgBAwEBPwFQ0of/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAIR/9oACAECAQE/AcBcL//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABgQAQEBAQEAAAAAAAAAAAAAAAEAETFR/9oACAEBAAE/IS6nWKJRszZX2//aAAwDAQACAAMAAAAQBM//xAAWEQEBAQAAAAAAAAAAAAAAAAAAUXH/2gAIAQMBAT8Qoaf/xAAXEQADAQAAAAAAAAAAAAAAAAAAETEB/9oACAECAQE/EE4a+H//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMUGR/9oACAEBAAE/EEK1RxBVeZ7L4KTxiW2HQQdyKdX2f//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;也许你对Fetch了解的不是那么多（二)&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-d6978.jpeg&quot;
-        srcset=&quot;/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-527f0.jpeg 300w,
-/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-9a7cd.jpeg 600w,
-/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-d6978.jpeg 1200w&quot;
+        src=&quot;/static/header-230087a9ab44a417c3873a30007d7fb1-d6978.jpeg&quot;
+        srcset=&quot;/static/header-230087a9ab44a417c3873a30007d7fb1-527f0.jpeg 300w,
+/static/header-230087a9ab44a417c3873a30007d7fb1-9a7cd.jpeg 600w,
+/static/header-230087a9ab44a417c3873a30007d7fb1-d6978.jpeg 1200w,
+/static/header-230087a9ab44a417c3873a30007d7fb1-fee16.jpeg 1800w,
+/static/header-230087a9ab44a417c3873a30007d7fb1-dd4dc.jpeg 1920w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1200,10 +1202,10 @@ clf
 &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API&quot;&gt;MDN Fetch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://fetch.spec.whatwg.org/&quot;&gt;Fetch 规范&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/GoDotDotDot/fe9-fetch-demo/&quot;&gt;示例代码&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[也许你对Fetch了解的不是那么多(一)]]></title><description><![CDATA[本文还在以下发布： Blog KnownsecFED 语雀 前言 本篇主要讲述  Fetch  的一些基本知识点以及我们在生产开发中怎么去使用。为了能够更好的了解  Fetch ，我们希望你对以下知识点有所了解，如果有相关的开发经验，那是最好不过的了。 XHR Promise…]]></description><link>https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-yi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-yi/</guid><pubDate>Fri, 28 Dec 2018 04:23:13 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[也许你对Fetch了解得不是那么多(一)]]></title><description><![CDATA[本文还在以下发布： Blog KnownsecFED 语雀 前言 本篇主要讲述  Fetch  的一些基本知识点以及我们在生产开发中怎么去使用。为了能够更好的了解  Fetch ，我们希望你对以下知识点有所了解，如果有相关的开发经验，那是最好不过的了。 XHR Promise…]]></description><link>https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-yi/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-yi/</guid><pubDate>Fri, 28 Dec 2018 04:23:13 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-d6978.jpeg&quot;
+    href=&quot;/static/header-230087a9ab44a417c3873a30007d7fb1-dd4dc.jpeg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1215,17 +1217,19 @@ clf
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EABcBAAMBAAAAAAAAAAAAAAAAAAACAwT/2gAMAwEAAhADEAAAAXB0OlO0CL//xAAaEAACAgMAAAAAAAAAAAAAAAAAAgMQEyEx/9oACAEBAAEFAmk00hkG49f/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQISIf/aAAgBAwEBPwFQ0of/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAIS/9oACAECAQE/AcBcl//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABYQAQEBAAAAAAAAAAAAAAAAABABQf/aAAgBAQABPyETSaP/2gAMAwEAAgADAAAAEK8v/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERQVH/2gAIAQMBAT8QRYhp/8QAFxEAAwEAAAAAAAAAAAAAAAAAABExAf/aAAgBAgEBPxBSGsh//8QAGBABAQEBAQAAAAAAAAAAAAAAAQARIUH/2gAIAQEAAT8Q6J9br5J12UV2/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAXAQADAQAAAAAAAAAAAAAAAAAAAgME/9oADAMBAAIQAxAAAAGgnlHSncnBf//EABoQAAICAwAAAAAAAAAAAAAAAAECACEDEDH/2gAIAQEAAQUCOSi4he24x1//xAAYEQACAwAAAAAAAAAAAAAAAAAAAQISIf/aAAgBAwEBPwFQ0of/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAIR/9oACAECAQE/AcBcL//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABgQAQEBAQEAAAAAAAAAAAAAAAEAETFR/9oACAEBAAE/IS6nWKJRszZX2//aAAwDAQACAAMAAAAQBM//xAAWEQEBAQAAAAAAAAAAAAAAAAAAUXH/2gAIAQMBAT8Qoaf/xAAXEQADAQAAAAAAAAAAAAAAAAAAETEB/9oACAECAQE/EE4a+H//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMUGR/9oACAEBAAE/EEK1RxBVeZ7L4KTxiW2HQQdyKdX2f//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;也许你对Fetch了解的不是那么多(一)&quot;
         title=&quot;&quot;
-        src=&quot;/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-d6978.jpeg&quot;
-        srcset=&quot;/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-527f0.jpeg 300w,
-/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-9a7cd.jpeg 600w,
-/static/header-85441e8d0a25ebf3b61fd96f4fa76ef4-d6978.jpeg 1200w&quot;
+        src=&quot;/static/header-230087a9ab44a417c3873a30007d7fb1-d6978.jpeg&quot;
+        srcset=&quot;/static/header-230087a9ab44a417c3873a30007d7fb1-527f0.jpeg 300w,
+/static/header-230087a9ab44a417c3873a30007d7fb1-9a7cd.jpeg 600w,
+/static/header-230087a9ab44a417c3873a30007d7fb1-d6978.jpeg 1200w,
+/static/header-230087a9ab44a417c3873a30007d7fb1-fee16.jpeg 1800w,
+/static/header-230087a9ab44a417c3873a30007d7fb1-dd4dc.jpeg 1920w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
       /&gt;
     &lt;/span&gt;
