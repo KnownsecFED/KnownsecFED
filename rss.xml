@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Dec 2018 06:44:55 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[背景 关于Kaggle https://www.kaggle.com/ 这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！ Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 04 Jan 2019 07:41:07 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[背景 关于Kaggle https://www.kaggle.com/ 这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！ Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;                              人工智障也刷题！Kaggle入门之实战泰坦尼克号&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;
@@ -924,7 +924,191 @@ clf
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[也许你对Fetch了解得不是那么多（二)]]></title><description><![CDATA[Fetch 与 XHR 比较 Fetch 相对  XHR  来说具有简洁、易用、声明式、天生基于  Promise  等特点。 XHR   使用方式复杂，接口繁多，最重要的一点个人觉得是它的回调设计，对于实现  try...catch  比较繁琐。 但是 Fetch…]]></description><link>https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-er/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-er/</guid><pubDate>Fri, 28 Dec 2018 06:09:02 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[异端审判器！一个泛用型文本聚类模型的实现（2）]]></title><description><![CDATA[…]]></description><link>https://knownsec-fed.com/2019-01-04-heretic-judger-2/</link><guid isPermaLink="false">https://knownsec-fed.com/2019-01-04-heretic-judger-2/</guid><pubDate>Fri, 04 Jan 2019 06:47:41 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-6ccc0fe99fd1fcf854fe79b88da9dc8f-dd4dc.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAYjqNQkmQ//EABsQAQACAgMAAAAAAAAAAAAAAAEAAwIyBBES/9oACAEBAAEFAgPNlQUp1MN+ZrP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAABBAMAAAAAAAAAAAAAAAABABARcRJhsf/aAAgBAQAGPwLamMT1haFt/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERIRBhwf/aAAgBAQABPyFl/Ra5JK9CmUdym19B6x8P/9oADAMBAAIAAwAAABADD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB4QAAICAgIDAAAAAAAAAAAAAAERACExQRCBUXGh/9oACAEBAAE/EDQdSsfCpQvdoJWAML2+oNLQFinqoLKwWDuGLGafOP/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;异端审判器！一个泛用型文本聚类模型的实现（2）&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-6ccc0fe99fd1fcf854fe79b88da9dc8f-d6978.jpeg&quot;
+        srcset=&quot;/static/header-6ccc0fe99fd1fcf854fe79b88da9dc8f-527f0.jpeg 300w,
+/static/header-6ccc0fe99fd1fcf854fe79b88da9dc8f-9a7cd.jpeg 600w,
+/static/header-6ccc0fe99fd1fcf854fe79b88da9dc8f-d6978.jpeg 1200w,
+/static/header-6ccc0fe99fd1fcf854fe79b88da9dc8f-fee16.jpeg 1800w,
+/static/header-6ccc0fe99fd1fcf854fe79b88da9dc8f-dd4dc.jpeg 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;上回，我们提出了一种只要输入一堆字符串，就能根据字符串的构造挑拣出“少数派”，以识别异常参数的构想。我们将它称作“异端审判”。&lt;/p&gt;
+&lt;p&gt;前文中我们已经定义好了一些必要概念，并写出了函数实现。我们的程序递进地量化了字符之间的差异、字符串之间的差异，最终得到了字符串集合之间的差异。有了这项指标，我们就能完成分拣工作。&lt;/p&gt;
+&lt;p&gt;在生活中，我们常有几排人一起合影的经历。有时是前排蹲下后排站立，有时是矮个子站在前排高个子位居后排。不妨假想一下，如果你就是那位摄影师，正指挥大家列队，你习惯于怎样安排队形呢？&lt;/p&gt;
+&lt;p&gt;通常情况下，你会直接要求站成大致均匀的两排，再逐个调整细节，直到整个队形看上去令人满意。&lt;/p&gt;
+&lt;p&gt;这为我们识别“异端”提供了灵感。&lt;/p&gt;
+&lt;p&gt;想象一位“主教”威立于尖塔的阳台，望着城楼下的人群，现在他要做的就是将人分成两类，一类大致可信，一类有些可疑，再逐个把后者中的信众移进前者，“异端”自然被剩下。&lt;/p&gt;
+&lt;p&gt;这篇文章中，我们就是要实现这样一件事。&lt;/p&gt;
+&lt;h2&gt;从一刀切开始分类&lt;/h2&gt;
+&lt;p&gt;我们先将每个输入都视作单独的一类，以启动整个流程。整个全集记作 &lt;code&gt;C&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;# 初始化&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 输入一个列表，如[&apos;a&apos;,&apos;b&apos;,&apos;c&apos;]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 输出一个把每个元素都封装为列表的列表，如[[&apos;a&apos;],[&apos;b&apos;],[&apos;c&apos;]]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sample_list&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    C &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; x &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; sample_list&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        C&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; C
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;基于此前定义的字符串集间距离（在文章中简称为类间距离），选择最接近的两类，合并它们。&lt;/p&gt;
+&lt;p&gt;这步操作听上去很简单，实际上确实也很简单，但我们会遇到一些麻烦：我们一直使用列表来简单表示集合这个数学概念，它们性质并不相同。集合的三个主要特性中，列表不满足无序性与互异性，因此需要一些额外的处理。&lt;/p&gt;
+&lt;p&gt;例如，找到最接近的两类，无论如何我们也需要计算出 n^2 个距离，这就不是一件轻松的事。我们将最小距离记作&lt;code&gt;d&lt;/code&gt;——&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;find_min&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 逻辑告诉我们无论怎样做都必须计算两两之间的全部距离，这里用一个二维列表来记录&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 数学告诉我们 a-&gt;b 与 b-&gt;a 的距离是一样的，其实开销可以减小一半&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 作者告诉大家由于我很懒，就不做这个优化了……&lt;/span&gt;
+    scale &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;scale&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;scale&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    min_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; internal_classes&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    where_min_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;scale&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; j &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;scale&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            d&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; internal_classes&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; j &lt;span class=&quot;token operator&quot;&gt;and&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; min_d&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+                min_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; d&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+                where_min_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; where_min_d
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;找到了最小的 &lt;code&gt;d&lt;/code&gt; 以后，就该合并它们了。在进行并运算时，我们就会遇到列表与集合的性质差异、逻辑与运算的表示差异等问题，我们重新定义运算函数来弥补这些偏差。&lt;/p&gt;
+&lt;p&gt;如果这部分让你有点眩晕，不要为此担心。你可以将它们都视作 dirty hack，记住我们只是在做一件简单的事情：将刚才已经找到的类间距离最小的两个集合，合并成一个。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;# C:=C-Ci-Cj+CiUCj&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 输入全集列表C及其选出的两个子列表Ci、Cj，如C=[[&apos;a&apos;],[&apos;b&apos;],[&apos;c&apos;]]，Ci=[&apos;a&apos;], Cj=[&apos;b&apos;]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 需要注意的是，逻辑上，集合Ci与集合Cj是集合C的【元素】，而交并差都是【集合】之间的运算&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 输出合并Ci与Cj之后的全集列表，如[[[&apos;a&apos;],[&apos;b&apos;]],[&apos;c&apos;]]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; j&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 在数学上，集合[[1],[2]]与集合[[1,2]]的并集有三个元素，因为[1],[2],[1,2]都是完全不同的元素。但在这里的逻辑上，需要结果为[[1,2]]，所以另外定义了特殊的“交集”运算&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 交集与差集的运算是针对集合的（如[[1]]）而非元素（如[1])，所以需要手动装进列表再传参。（其实已经特殊处理的交集运算无必要这样做，但为了逻辑一致遵守了统一的写法）&lt;/span&gt;
+    C_u &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; special_union&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    C_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; difference&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;difference&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    C_n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; C_d
+    C_n&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C_u&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; C_n
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们将最接近的两类合并成一类了，而目标是“一刀切”，即把整个全集划分为大致均匀的两类。所以我们不断查找最接近的两类，将其合并，直到有某个集合的总量超过全集的一半。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;# 查找规模最大的一个子列表&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 输入全集C，如[[[&apos;a&apos;],[&apos;b&apos;]],[&apos;c&apos;]]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 输出规模最大即集合内元素最多的列表的下标，如 0&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;find_largest&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    max_s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    where_max_s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; x &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        s&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; s&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; max_s&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            max_s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; s&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+            where_max_s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; where_max_s
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;每个步骤都已经定义就绪，整个操作流程是这样的：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;layerClassification&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sample_list&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    C &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ini&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sample_list&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        where_min_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; find_min&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; j &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; where_min_d
+        C &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; merge&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; j&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        where_max_s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; find_largest&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; count_elem&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;where_max_s&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;
+    CM &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;where_max_s&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    CN &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; difference&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;CM&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; flatten&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CM&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; flatten&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CN&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这段代码中提到了两个辅助函数，其中 &lt;code&gt;count_elem()&lt;/code&gt; 用于递归遍历每个集合中实际包含的字符串个数（而非子元素个数），分类的最终结果可能出现复杂的多维列表，而我们只需要两个简单的一维列表用于表示两个集合，定义 &lt;code&gt;flatten()&lt;/code&gt; 来展开嵌套。&lt;/p&gt;
+&lt;h2&gt;你！到那边去！&lt;/h2&gt;
+&lt;p&gt;经过了刚才的分类，现在我们有了两个集合。其中的一个包含了原本聚类性比较明显的元素，他们可能长相非常近似，剩下一半只是单纯被剩下了而已，风马牛齐聚一堂，看上去乱糟糟的。&lt;/p&gt;
+&lt;p&gt;接下来就是“微调”时间啦，我们要从那个泥沙俱下的集合中，把“信众”逐个移动到前面那个相对齐整的集合里，从而将“异端”孤立。&lt;/p&gt;
+&lt;p&gt;这件事的关键是何时停止：移到哪一步时，那个混乱的集合恰好只剩“异端”，而又没有“异端”错误地赦免呢？&lt;/p&gt;
+&lt;p&gt;好在我们的主教无需落子无悔，移错了就倒回去嘛。他甚至可以命人把所有结果都罗列出来，由他来判断哪一个方案是最好的。&lt;/p&gt;
+&lt;p&gt;那我们不妨先不考虑决策的事情，提供全部方案就好。&lt;/p&gt;
+&lt;p&gt;我们将分类方案记作 &lt;code&gt;S&lt;/code&gt;，一个分类方案由两个集合构成，即{C1, C2}，同样地，我们使用列表来表示。为了在不断移动的过程中，存储每一时刻的 C1 与 C2，而不作为引用跟随变化，我们需要使用深拷贝。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;note_solution&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;S&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; N&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    _C1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; copy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;deepcopy&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    _C2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; copy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;deepcopy&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    S&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;_C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; _C2&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    N &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; N &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; S
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;基于此前定义的类间距离，我们能够选到 C2 中最接近 C1 的样本：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;select_min&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    min_x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    min_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; classesDistance&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; min_x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; x &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        temp &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; classesDistance&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; temp &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; min_d&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            min_d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; temp
+            min_x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; min_x
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;把这个样本从 C2 中放进 C1：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;min_x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    C1&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;min_x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    C2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;remove&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;min_x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;我们不断搬运元素，直到那个没有聚类性的 C2 被搬空。记录下这个过程中所有分类方案。除了全部分类方案 S 以外，我们同时维护另一个列表，记录被移动的元素，以便于撤回。由于这个列表里所有元素都是我们每一步选出的到 C1 距离最小元素，不妨就将这个列表称作 &lt;code&gt;M&lt;/code&gt;，整个过程如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;iterateClassification&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    N &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+    S &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    M &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    C1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    C2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; C&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        note_solution&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;S&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; N&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        min_x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; select_min&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        M&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;min_x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        update&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;min_x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C1&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; C2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;del&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;S&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; S&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; M
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;到这里为止，我们反复运用上篇文章中定义的类间距离，做了一次粗选，又列出了所有微调生成的方案。最佳方案必然就是其中之一，留给我们大主教的，只剩一个优化问题。&lt;/p&gt;
+&lt;p&gt;让我们下回再见～&lt;/p&gt;</content:encoded></item><item><title><![CDATA[也许你对Fetch了解得不是那么多（二)]]></title><description><![CDATA[Fetch 与 XHR 比较 Fetch 相对  XHR  来说具有简洁、易用、声明式、天生基于  Promise  等特点。 XHR   使用方式复杂，接口繁多，最重要的一点个人觉得是它的回调设计，对于实现  try...catch  比较繁琐。 但是 Fetch…]]></description><link>https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-er/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-12-28-ye-xu-ni-dui-fetch-liao-jie-de-bu-shi-na-mo-duo-er/</guid><pubDate>Fri, 28 Dec 2018 06:09:02 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-230087a9ab44a417c3873a30007d7fb1-dd4dc.jpeg&quot;
