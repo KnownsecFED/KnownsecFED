@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 14 Jan 2019 09:38:45 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[背景 关于Kaggle https://www.kaggle.com/ 这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！ Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[创宇前端 - 最酷开发者的技术分享]]></title><description><![CDATA[KnownsecFED Blog]]></description><link>https://knownsec-fed.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 23 Jan 2019 05:43:25 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[背景 关于Kaggle https://www.kaggle.com/ 这是一个为你提供完美数据，为你提供实际应用场景，可以与小伙伴在数据挖掘领域high的不要不要的的地方啊！！！ Kaggle是一个用来学习、分享和竞赛的线上数据实验平台，有点类似KDD—CUP…]]></description><link>https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</link><guid isPermaLink="false">https://knownsec-fed.com/2018-01-07-the-importance-of-visual-appeal-in/kaggle数据实验入门之泰坦尼克号/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;                              人工智障也刷题！Kaggle入门之实战泰坦尼克号&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;
@@ -924,7 +924,258 @@ clf
 &lt;li&gt;API 文档&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这些是使用者都会去关心的点，应该在编写之前好好斟酌。&lt;/p&gt;
-&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ElasticSearch性能调优]]></title><description><![CDATA[ElasticSearch性能调优 大家好，我是皮蛋二哥。“ELK”是ElasticSearch、Logstash、Kibana三门技术的简称。如今ELK…]]></description><link>https://knownsec-fed.com/2019-01-09-elasticsearch-xing-neng-tiao-you/</link><guid isPermaLink="false">https://knownsec-fed.com/2019-01-09-elasticsearch-xing-neng-tiao-you/</guid><pubDate>Wed, 09 Jan 2019 08:20:25 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;这些只是我在做一些文档工作的时候，查看了挺多的文档，综合感想，写了这么多，但是实际情况可能会大有不同，所以具体是不是要这么写，大家见仁见智啦！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[基于色键技术的纯客户端实时蒙版弹幕]]></title><description><![CDATA[基于色键技术的纯客户端实时蒙版弹幕 导读：本文内容是笔者最近实现的 web 端弹幕组件——  Barrage UI  的一个延伸。在阅读本文的实例和相关代码之前，不妨先浏览项目文档，对组件的使用方式和相关接口进行了解。 各位童鞋如果经常上 B 站（ bilibili.com…]]></description><link>https://knownsec-fed.com/2019-01-23-how-to-implement-masking-danmaku/</link><guid isPermaLink="false">https://knownsec-fed.com/2019-01-23-how-to-implement-masking-danmaku/</guid><pubDate>Wed, 23 Jan 2019 03:34:26 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/header-d5dbfe42c88999a6eb916288a91295f8-d6978.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe3N6Af/xAAXEAADAQAAAAAAAAAAAAAAAAAAARIg/9oACAEBAAEFAhVn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAACAhUf/aAAgBAQAGPwKGr//EABwQAAIBBQEAAAAAAAAAAAAAAAABERAhUWGRof/aAAgBAQABPyFzFnpkfQtoQ6f/2gAMAwEAAgADAAAAEKAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFBYYH/2gAIAQEAAT8QeQadRkBsCmaDfhKVhfnSbG92dnpj2f/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;基于色键技术的纯客户端实时蒙版弹幕&quot;
+        title=&quot;&quot;
+        src=&quot;/static/header-d5dbfe42c88999a6eb916288a91295f8-d6978.jpeg&quot;
+        srcset=&quot;/static/header-d5dbfe42c88999a6eb916288a91295f8-527f0.jpeg 300w,
+/static/header-d5dbfe42c88999a6eb916288a91295f8-9a7cd.jpeg 600w,
+/static/header-d5dbfe42c88999a6eb916288a91295f8-d6978.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;基于色键技术的纯客户端实时蒙版弹幕&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;导读：本文内容是笔者最近实现的 web 端弹幕组件—— &lt;a href=&quot;https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2Fparksben%2Fbarrage&quot;&gt;Barrage UI&lt;/a&gt; 的一个延伸。在阅读本文的实例和相关代码之前，不妨先浏览项目文档，对组件的使用方式和相关接口进行了解。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;各位童鞋如果经常上 B 站（&lt;a href=&quot;https://www.bilibili.com/&quot;&gt;bilibili.com&lt;/a&gt;） ，应该对 &lt;strong&gt;蒙版弹幕&lt;/strong&gt; 这个概念并不陌生。&lt;/p&gt;
+&lt;p&gt;蒙版弹幕 是由知名弹幕视频网站 bilibili 于 2018 年中推出的一种弹幕渲染效果，可以有效减少弹幕文字对视频主体信息的干扰。&lt;/p&gt;
+&lt;p&gt;关于 B 站蒙版弹幕的实现原理，其实网上已经有很多细致的讨论和研究。个人总结了一下，大致要点如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;基于用户数据和一些机器学习的相关应用，可以提炼出视频的关键主体&lt;/li&gt;
+&lt;li&gt;服务端预先对视频进行处理，并生成相应的蒙版数据&lt;/li&gt;
+&lt;li&gt;客户端播放视频时，实时地加载对应资源&lt;/li&gt;
+&lt;li&gt;通过一些前端的技术手段，实现弹幕的蒙版处理&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;客户端方面，由于 B 站弹幕是基于 div+css 的实现，因而采用了 svg 格式来传输矢量蒙版（至少目前是这样），通过 CSS 遮罩的方式实现渲染。&lt;/p&gt;
+&lt;p&gt;逼乎上有一篇关于这个方案的讨论，感兴趣的童鞋可以移步 &lt;a href=&quot;https://www.zhihu.com/question/279446628&quot;&gt;这里&lt;/a&gt; 进行了解。&lt;/p&gt;
+&lt;h2&gt;Barrage UI&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2Fparksben%2Fbarrage&quot;&gt;Barrage UI&lt;/a&gt; 是个人最近实现的一个前端弹幕组件，主要用于在前端页面中挂载弹幕动画。&lt;/p&gt;
+&lt;p&gt;组件提供了一系列的操作接口以方便用户对弹幕的相关特性进行定制。你也可以在渲染层面对动画中的每一帧图像进行处理，比如：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;实时读取视频信息&lt;/li&gt;
+&lt;li&gt;对每一帧视频图像进行实时处理，计算出抠图蒙版&lt;/li&gt;
+&lt;li&gt;将计算出的蒙版传给弹幕组件，以实现实时的蒙版弹幕&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;下面是基于 Barrage UI 组件实现的蒙版弹幕效果：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/parksben/barrage/raw/master/images/barrage.gif&quot; alt=&quot;色键蒙版效果&quot;&gt;&lt;/p&gt;
+&lt;p&gt;由于文中不方便嵌入视频，Demo 的实际效果请移步到 &lt;a href=&quot;https://parksben.github.io/masking-danmaku-demo&quot;&gt;此处&lt;/a&gt; 查看。&lt;/p&gt;
+&lt;p&gt;下面我们来介绍如何实现上图的动画效果。&lt;/p&gt;
+&lt;h2&gt;色键（色度键控）&lt;/h2&gt;
+&lt;p&gt;Demo 中使用了初音小姐姐跳舞的视频。最主要的特点是除了人物外，视频的背景是比较一致的纯色。对于这种类型的图像，我们可以使用 &lt;strong&gt;色键&lt;/strong&gt; 的方式进行抠图（生成“蒙版”）。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/zh/%E8%89%B2%E9%94%AE&quot;&gt;色度键控&lt;/a&gt;，又称色彩嵌空，是一种去背合成技术。Chroma 为纯色之意，Key 则是抽离颜色之意。把被拍摄的人物或物体放置于绿幕的前面，并进行去背后，将其替换成其他的背景。此技术在电影、电视剧及游戏制作中被大量使用，色键也是虚拟摄影棚（Virtual studio）与视觉效果（Visual effects）当中的一个重要环节。&lt;/p&gt;
+&lt;p&gt;下图是色键技术的一个示例：在绿幕前穿着蓝色衣服的小姐姐，左图为去背前，右图为去背后的新背景。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1-f6c6a0916323e9a5af192a4c293e42e2-bd1d7.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 384px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 67.96875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAv/aAAwDAQACEAMQAAABdBVBg8iSb//EABkQAQEAAwEAAAAAAAAAAAAAAAECEhMxIv/aAAgBAQABBQJty5T5at2ZpT3/xAAVEQEBAAAAAAAAAAAAAAAAAAACEP/aAAgBAwEBPwET/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BCf/EABkQAAIDAQAAAAAAAAAAAAAAAAARAQIhEP/aAAgBAQAGPwJItj2SYEW5/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFxUWH/2gAIAQEAAT8hA7sOzkMkF8FaiHA3c+T7MS9jts//2gAMAwEAAgADAAAAEC8//8QAFxEBAAMAAAAAAAAAAAAAAAAAARAhQf/aAAgBAwEBPxB0oYR//8QAFxEBAQEBAAAAAAAAAAAAAAAAAREQQf/aAAgBAgEBPxAaTpn/xAAdEAACAwACAwAAAAAAAAAAAAABEQAhMUFRcYGx/9oACAEBAAE/EMKQsCLXFvExMehfn5GuBNG0+IK/ZC6epsjJgokUzBrlc//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;图片来源：维基百科&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1-f6c6a0916323e9a5af192a4c293e42e2-bd1d7.jpg&quot;
+        srcset=&quot;/static/1-f6c6a0916323e9a5af192a4c293e42e2-16ac6.jpg 300w,
+/static/1-f6c6a0916323e9a5af192a4c293e42e2-bd1d7.jpg 384w&quot;
+        sizes=&quot;(max-width: 384px) 100vw, 384px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;如何扣取视频图像&lt;/h3&gt;
+&lt;p&gt;在浏览器环境中，我们可以通过 canvas 画布实时地绘制视频的每一帧，并从画布中读取到图像中每个像素的 RGBA 信息，检测每个点的 R(red)、G(green)、B(blue) 值是否满足要求，最终将需要扣除的像素的 A(alpha) 值置为 0，即可得到用于合成蒙版弹幕的蒙版图像。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Barrage UI 组件的蒙版功能是基于 Canvas 2D API 的 &lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Compositing&quot;&gt;&lt;code&gt;CanvasRenderingContext2D.globalCompositeOperation&lt;/code&gt;&lt;/a&gt; 属性实现的（使用了 &lt;code&gt;source-in&lt;/code&gt; 的混合模式），因而只需将不需要的像素设置为透明（alpha=0）即可，并不需要改变图像的 RGB 色值。&lt;/p&gt;
+&lt;p&gt;下面介绍此案例的代码实现。&lt;/p&gt;
+&lt;h2&gt;具体实现&lt;/h2&gt;
+&lt;h3&gt;安装 Barrage UI 组件&lt;/h3&gt;
+&lt;p&gt;直接使用 yarn 或 npm 安装此组件：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yarn add barrage-ui&lt;/code&gt; or &lt;code&gt;npm install --save barrage-ui&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;HTML + CSS&lt;/h3&gt;
+&lt;p&gt;准备一个 &lt;code&gt;video&lt;/code&gt; 元素用于播放视频，&lt;code&gt;video&lt;/code&gt; 的父级元素用于挂载弹幕：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-html&quot;&gt;&lt;code&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;container&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;video&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;video&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;videos/demo.mp4&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;controls&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;video&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;根据视频的实际尺寸（880×540）设置 &lt;code&gt;#container&lt;/code&gt; 与 &lt;code&gt;#video&lt;/code&gt; 的样式：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-css&quot;&gt;&lt;code&gt;&lt;span class=&quot;token selector&quot;&gt;html,
+body&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 14px/18px Helvetica, Arial, &lt;span class=&quot;token string&quot;&gt;&apos;Microsoft Yahei&apos;&lt;/span&gt;, Verdana, sans-serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 100%&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #eee&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; hidden&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;#container,
+#video&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 880px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 540px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0 auto&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 50vh&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 50vw&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;translate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-50%, -50%&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #ddd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;创建弹幕&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Barrage &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;barrage-ui&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; data &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;utils/mockData&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 获取父级容器&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; container &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;container&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 创建弹幕实例&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; barrage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Barrage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  container&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; container&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 重置画布高度，避免弹幕遮挡视频播放控件&lt;/span&gt;
+barrage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;canvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;height &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; container&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;clientHeight &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 装填弹幕数据&lt;/span&gt;
+barrage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;其中，mockData 是用于生成随机弹幕数据的方法。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;关于弹幕数据的内容与格式，详见 &lt;a href=&quot;https://github.com/parksben/barrage#%E8%A3%85%E5%A1%AB%E5%BC%B9%E5%B9%95&quot;&gt;Barrage UI 项目文档&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;实时获取视频图像&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 获取 video 元素&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; video &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;video&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 新建一个画布来实时绘制视频（纯绘图，不用添加进页面）&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; vCanvas &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;canvas&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+vCanvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; video&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;clientWidth&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+vCanvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;height &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; video&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;clientHeight&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; vContext &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; vCanvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;2d&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 实时绘制视频到画布&lt;/span&gt;
+barrage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;afterRender&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  vContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;drawImage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;video&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; vCanvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; vCanvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;height&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;使用组件提供的渲染周期钩子 &lt;code&gt;.afterRender()&lt;/code&gt; 可以在弹幕动画的每一帧图像渲染后，将视频图像绘制到中间画布 &lt;code&gt;vCanvas&lt;/code&gt; 上。注意这里的 &lt;code&gt;vCanvas&lt;/code&gt; 画布主要用于实时地获取视频图像，并不需要添加到页面中。&lt;/p&gt;
+&lt;h3&gt;实时计算蒙版信息&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 渲染前读取画布 vCanvas 的数据，并处理为蒙版图像&lt;/span&gt;
+barrage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;beforeRender&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 读取图像&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; frame &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; vContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getImageData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; vCanvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; vCanvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;height&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// 图像总像素个数&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; pxCount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// 将 frame 构造成我们需要的蒙版图像&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; pxCount&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 这里不用 ES6 解构赋值的写法，主要为了保证性能&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// PS: 这里如果用解构赋值语法将导致大量新对象的创建，是个很耗时的过程&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; r &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; g &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// 将黑色区域以外的内容设为透明&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;r &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; g &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// 设置蒙版&lt;/span&gt;
+  barrage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setMask&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;frame&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;使用组件提供的渲染周期钩子 &lt;code&gt;.beforeRender()&lt;/code&gt; 可以在弹幕动画的每一帧图像渲染前计算出蒙版图像。其中，用于更新蒙版的接口为 &lt;code&gt;.setMask()&lt;/code&gt;。&lt;/p&gt;
+&lt;h3&gt;视频、弹幕的操作绑定&lt;/h3&gt;
+&lt;p&gt;最后，为了让弹幕的行为与视频播放的操作协同，还需要进行一些绑定的操作：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// 绑定播放事件&lt;/span&gt;
+video&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&apos;play&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    barrage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;play&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 绑定暂停事件&lt;/span&gt;
+video&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&apos;pause&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    barrage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;pause&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 切换播放进度&lt;/span&gt;
+video&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&apos;seeked&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    barrage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;goto&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;video&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;currentTime &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;这里分别用到 Brrage UI 组件的 &lt;code&gt;.play()&lt;/code&gt; &lt;code&gt;.pause&lt;/code&gt; &lt;code&gt;.goto()&lt;/code&gt; 三个接口，分别用于&lt;strong&gt;播放&lt;/strong&gt;、&lt;strong&gt;暂停&lt;/strong&gt;和&lt;strong&gt;切换&lt;/strong&gt;弹幕动画的进度。需要注意的是，通过 &lt;code&gt;video.currentTime&lt;/code&gt; 属性获取到的视频播放进度是一个单位为 &lt;strong&gt;秒&lt;/strong&gt; 的浮点数，需要转换为 &lt;strong&gt;毫秒数&lt;/strong&gt; 再传给弹幕组件。&lt;/p&gt;
+&lt;h2&gt;源码奉上&lt;/h2&gt;
+&lt;p&gt;本文的案例已上传 Github，感兴趣的童鞋可以点击 &lt;a href=&quot;https://github.com/parksben/masking-danmaku-demo&quot;&gt;这里&lt;/a&gt; 查看源码细节。&lt;/p&gt;
+&lt;p&gt;关于 Barrage UI 组件如果有什么建议和疑问，欢迎大家在项目中提 issue 给我，帮助我持续改进和迭代，更欢迎 star 和 PR。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;感谢您能耐心读到此处，如果觉得有趣或有用，不妨 &lt;strong&gt;点赞&lt;/strong&gt;/&lt;strong&gt;评论&lt;/strong&gt;/&lt;strong&gt;转发&lt;/strong&gt; 此文，再谢。&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[ElasticSearch性能调优]]></title><description><![CDATA[ElasticSearch性能调优 大家好，我是皮蛋二哥。“ELK”是ElasticSearch、Logstash、Kibana三门技术的简称。如今ELK…]]></description><link>https://knownsec-fed.com/2019-01-09-elasticsearch-xing-neng-tiao-you/</link><guid isPermaLink="false">https://knownsec-fed.com/2019-01-09-elasticsearch-xing-neng-tiao-you/</guid><pubDate>Wed, 09 Jan 2019 08:20:25 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/header-903ce98b3bc2e50753446083b6e2c5cc-d6978.jpeg&quot;
